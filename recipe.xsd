@@ -1,15 +1,14 @@
 <?xml version="1.0"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://cazzscookingcommjunity.github.io/recipe.xsd"
-xmlns="https://cazzscookingcommjunity.github.io/recipe.xsd"
+targetNamespace="https://cazzscookingcommunity.github.io"
+xmlns="https://cazzscookingcommunity.github.io"
 elementFormDefault="qualified">
 
 <xs:complexType name="dietType">
-    <xs:sequence>
+    <xs:sequence minOccurs="0" maxOccurs="unbounded">
         <xs:element name="LowSugar"/>
         <xs:element name="GlutenFree"/>
         <xs:element name="EggFree"/>
-        <xs:element name="NA"/>
     </xs:sequence>
 </xs:complexType>
 
@@ -25,26 +24,36 @@ elementFormDefault="qualified">
 </xs:simpleType>
 
 <xs:complexType name="ingredientType">
-    <xs:attribute name="name" type="xs:string"/>
-    <xs:attribute name="amount" type="xs:float"/>
-    <xs:attribute name="unit" type="unitType"/>
+        <xs:attribute name="name" type="xs:string"/>
+        <xs:attribute name="amount" type="xs:float"/>
+        <xs:attribute name="unit" type="unitType"/>
 </xs:complexType>
 
+<xs:complexType name="partType">
+    <xs:sequence>
+    <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+    <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
+    <xs:element name="ingredient" type="ingredientType" minOccurs="1" maxOccurs="unbounded"/>
+    <xs:element name="step" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+    </xs:sequence>
+</xs:complexType>
 
 <xs:complexType name="recipeType">
-    <xs:all>
-        <xs:element name="title" type="xs:string"/>
-        <xs:element name="cookTime" type="xs:string"/>
-        <xs:element name="recipeCategory" type="xs:string"/>
-        <xs:element name="ingredient" type="ingredientType"/>
-        <xs:element name="step" type="xs:string"/>
-        <xs:element name="yield" type="xs:integer"/>
-        <xs:element name="diet" type="dietType"/>
-        <xs:element name="prepTime" type="xs:time"/>
-        <xs:element name="comment" type="xs:string"/>
-        <xs:element name="thumbnailUrl" type="xs:anyURI"/>
-        <xs:element name="image" type="xs:anyURI"/>
-    </xs:all>
+    <xs:sequence>
+    <xs:element name="title" type="xs:string"/>
+    <xs:element name="part" type="partType" minOccurs="1" maxOccurs="unbounded"/>
+    <xs:element name="recipeCategory" type="xs:string"/>
+    <xs:element name="yield" type="xs:integer"/>
+    <xs:element name="diet" type="dietType" minOccurs="0"/>
+    <xs:element name="prepTime" type="xs:int"/>
+    <xs:element name="cookTime" type="xs:int"/>
+    <xs:element name="comment" type="xs:string"/>
+    <xs:element name="thumbnailUrl" type="xs:anyURI" minOccurs="0"/>
+    <xs:element name="image" type="xs:anyURI" minOccurs="0"/>
+    <xs:element name="ingredient" type="ingredientType" minOccurs="0" maxOccurs="unbounded"/>
+    <xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+
+    </xs:sequence>
 </xs:complexType>
 
 <xs:element name="recipe" type="recipeType"/>
