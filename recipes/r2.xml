@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipe>
+    <title>Beef Parmesan with Garlic Angel Hair Pasta</title>
+    <ingredient name="beef cube steak" amount="1.5" unit="pound"/>
+    <ingredient name="onion, sliced into thin rings" amount="1"/>
+    <ingredient name="green bell pepper, sliced in rings" amount="1"/>
+    <ingredient name="Italian seasoned bread crumbs" amount="1" unit="cup"/>
+    <ingredient name="grated Parmesan cheese" amount="0.5" unit="cup"/>
+    <ingredient name="olive oil" amount="2" unit="tablespoon"/>
+    <ingredient name="spaghetti sauce" amount="1" unit="jar"/>
+    <ingredient name="shredded mozzarella cheese" amount="0.5" unit="cup"/>
+    <ingredient name="angel hair pasta" amount="12" unit="ounce"/>
+    <ingredient name="minced garlic" amount="2" unit="teaspoon"/>
+    <ingredient name="butter" amount="0.25" unit="cup"/>
+    <preparation>
+    <step>Preheat oven to 350 degrees F (175 degrees C).</step>
+    <step>
+    Cut cube steak into serving size pieces. Coat meat with the bread crumbs and parmesan cheese. Heat olive oil in a large frying pan, and saute 1 teaspoon of the garlic for 3 minutes. Quick fry (brown quickly on both sides) meat. Place meat in a casserole baking dish, slightly overlapping edges. Place onion rings and peppers on top of meat, and pour marinara sauce over all.
+    </step>
+    <step>
+    Bake at 350 degrees F (175 degrees C) for 30 to 45 minutes, depending on the thickness of the meat. Sprinkle mozzarella over meat and leave in the oven till bubbly.
+    </step>
+    <step>
+    Boil pasta al dente. Drain, and toss in butter and 1 teaspoon garlic. For a stronger garlic taste, season with garlic powder. Top with grated parmesan and parsley for color. Serve meat and sauce atop a mound of pasta!
+    </step>
+    </preparation>
+    <comment>
+    Make the meat ahead of time, and refrigerate over night, the acid in the tomato sauce will tenderize the meat even more. If you do this, save the mozzarella till the last minute.
+    </comment>
+    <nutrition calories="1167" fat="23" carbohydrates="45" protein="32"/>
+    </recipe>

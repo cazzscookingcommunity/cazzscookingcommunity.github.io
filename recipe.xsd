@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+targetNamespace="https://cazzscookingcommjunity.github.io/recipe.xsd"
+xmlns="https://cazzscookingcommjunity.github.io/recipe.xsd"
+elementFormDefault="qualified">
+
+<xs:complexType name="dietType">
+    <xs:sequence>
+        <xs:element name="LowSugar"/>
+        <xs:element name="GlutenFree"/>
+        <xs:element name="EggFree"/>
+        <xs:element name="NA"/>
+    </xs:sequence>
+</xs:complexType>
+
+<xs:simpleType name="unitType">
+    <xs:restriction base="xs:string">
+        <xs:enumeration value="cup"/>
+        <xs:enumeration value="tablespoon"/>
+        <xs:enumeration value="teaspoon"/>
+        <xs:enumeration value="gram"/>
+        <xs:enumeration value="ounces"/>
+        <xs:enumeration value="kg"/>
+    </xs:restriction>
+</xs:simpleType>
+
+<xs:complexType name="ingredientType">
+    <xs:attribute name="name" type="xs:string"/>
+    <xs:attribute name="amount" type="xs:float"/>
+    <xs:attribute name="unit" type="unitType"/>
+</xs:complexType>
+
+
+<xs:complexType name="recipeType">
+    <xs:all>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="cookTime" type="xs:string"/>
+        <xs:element name="recipeCategory" type="xs:string"/>
+        <xs:element name="ingredient" type="ingredientType"/>
+        <xs:element name="step" type="xs:string"/>
+        <xs:element name="yield" type="xs:integer"/>
+        <xs:element name="diet" type="dietType"/>
+        <xs:element name="prepTime" type="xs:time"/>
+        <xs:element name="comment" type="xs:string"/>
+        <xs:element name="thumbnailUrl" type="xs:anyURI"/>
+        <xs:element name="image" type="xs:anyURI"/>
+    </xs:all>
+</xs:complexType>
+
+<xs:element name="recipe" type="recipeType"/>
+
+</xs:schema>
