@@ -16,19 +16,6 @@ elementFormDefault="qualified">
     </xs:sequence>
 </xs:complexType>
 
-<xs:simpleType name="unitType">
-    <xs:restriction base="xs:string">
-        <xs:enumeration value="cup"/>
-        <xs:enumeration value="tablespoon"/>
-        <xs:enumeration value="teaspoon"/>
-        <xs:enumeration value="gram"/>
-        <xs:enumeration value="ounces"/>
-        <xs:enumeration value="kg"/>
-        <xs:enumeration value="ml"/>
-        <xs:enumeration value="drops"/>
-    </xs:restriction>
-</xs:simpleType>
-
 <xs:simpleType name="categoryType">
     <xs:restriction base="xs:string">
         <xs:enumeration value="Household"/>
@@ -46,37 +33,16 @@ elementFormDefault="qualified">
     </xs:restriction>
 </xs:simpleType>
 
-<xs:complexType name="ingredientType">
-        <xs:attribute name="name" type="xs:string"/>
-        <xs:attribute name="amount" type="xs:float"/>
-        <xs:attribute name="unit" type="unitType"/>
-</xs:complexType>
-
-<xs:complexType name="partType">
-    <xs:sequence>
-    <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
-    <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
-    <xs:element name="ingredient" type="ingredientType" minOccurs="1" maxOccurs="unbounded"/>
-    <xs:element name="step" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-    </xs:sequence>
-</xs:complexType>
-
 <xs:complexType name="recipeType">
     <xs:sequence>
+    <xs:element name="filename" type="xs:string"/>
     <xs:element name="title" type="xs:string"/>
-    <xs:element name="part" type="partType" minOccurs="1" maxOccurs="unbounded"/>
     <xs:element name="recipeCategory" type="categoryType"/>
-    <xs:element name="meal" type="xs:string"/>
-    <xs:element name="yield" type="xs:integer"/>
     <xs:element name="diet" type="dietType" minOccurs="0"/>
-    <xs:element name="prepTime" type="xs:int"/>
-    <xs:element name="cookTime" type="xs:int"/>
     <xs:element name="comment" type="xs:string"/>
     <xs:element name="thumbnailUrl" type="xs:anyURI" minOccurs="0"/>
     <xs:element name="image" type="xs:anyURI" minOccurs="0"/>
-    <xs:element name="ingredient" type="ingredientType" minOccurs="0" maxOccurs="unbounded"/>
     <xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
-
     </xs:sequence>
 </xs:complexType>
 

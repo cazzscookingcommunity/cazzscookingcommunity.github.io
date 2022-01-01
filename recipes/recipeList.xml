@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipeList
+xmlns="https://cazzscookingcommunity.github.io"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd"
+>
+
+<recipe>
+    <title>Apple Crumble</title>
+    <filename>r1_copy.xml</filename>
+    <comment>nice for a family</comment>
+    <meal>Dinner</meal>
+    <recipeCategory>Beef</recipeCategory>
+    <recipeCategory>Pork</recipeCategory>
+    <diet>EggFree</diet>
+    <thumbnail>../recipes/applecrumble_thumbnail.png</thumbnail>
+    <image>../recipes/applecrumble_large.jpeg</image>
+</recipe>
+<recipe>
+    <title>Ricotta Pie</title>
+    <filename>r1.xml</filename>
+    <comment>nice and healthy</comment>
+    <meal>Dessert</meal>
+    <recipeCategory>Cake</recipeCategory>
+    <diet>EggFree</diet>
+    <diet>GlutenFree</diet>
+    <thumbnail>../recipes/ricottapie_thumbnail.png</thumbnail>
+    <image>../recipes/ricottapie_large.jpeg</image>
+</recipe>
