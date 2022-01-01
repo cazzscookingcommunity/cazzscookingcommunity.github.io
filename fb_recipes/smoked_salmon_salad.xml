@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+smoked-salmon-salad
+
+Smoked Salmon and Cucumber
+(Gluten Free)
+
+Ingredients
+1/4 cup finely chopped green onions
+2 tablespoons plain Greek yogurt
+2 tablespoons mayonnaise
+2 tablespoons drained capers
+1 tablespoon chopped fresh dill, divided
+1 (12-ounce) package cold-smoked salmon, coarsely chopped
+3 English cucumbers
+1/8 teaspoon freshly ground black pepper
+Preparation
+
+1. Combine first 4 ingredients in a medium bowl. Stir in 2 teaspoons dill and chopped salmon.
+
+2. Peel cucumbers in alternating vertical stripes. Cut cucumbers into 3/4-inch-thick slices, and scoop out seeds with a small spoon or melon baller, leaving bottom intact to form a cup.
+
+3. Spoon about 1 tablespoon salmon mixture into each cucumber cup. Sprinkle cups evenly with remaining 1 teaspoon dill and pepper.
+</recipe>

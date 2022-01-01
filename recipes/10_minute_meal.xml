@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title>Quick Lamb Cutlets</title>
+    <comment>10 minute meal</comment>
+    <thumbnail>../images/10_minute_thumbnail.png</thumbnail>
+    <image>../images/10_minute.jpg</image>
+    <diet>eggFree</diet>
+    <category>Dinner</category>
+    <yield>1</yield>
+    <prepTime>10 min</prepTime>
+    <cookTime>5 min</cookTime>
+    <part>1</part>
+    <ingredient name="lamb cutlets" amount="2-4 per person" unit="ea"></ingredient>
+    <ingredient name="mini tomoatos" amount="1" unit="punnet"></ingredient>
+    <ingredient name="snap or snow peas" amount="1" unit="handful"></ingredient>
+    <ingredient name="pita bread" amount="ea" unit="ea"></ingredient>
+    <ingredient name="cumin" amount="ea" unit="ea"></ingredient>
+    <ingredient name="lbalsamic vinegar" amount="1" unit="tablespoon"></ingredient>
+    <ingredient name="Salt and Pepper" amount="to taste" unit="ea"></ingredient>
+    <step>Heat small amount of olive oil in fry pan. Cook cutlets for 4 minutes one side and 2 minutes the other side. 
+        Sprinkle with cumin while cooking. Mean while blanch snow peas and chop tomatoes in half. 
+        Once peas done pop them in fridge to cool. Once cool, mix with tomatoes and balsamic vinegar. 
+        Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate. 
+        Ready in 10 minutes- for nights you need something super quick!
+    </step>
+</recipe>

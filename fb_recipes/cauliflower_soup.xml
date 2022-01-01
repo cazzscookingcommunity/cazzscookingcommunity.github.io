@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+Cauliflower Soup
+
+Gluten Free and Vegan
+Very easy, quick and delicious!
+
+2-3 cauliflower
+2-3 crushed garlic cloves 
+1-2 tbsp olive oil
+Chicken stock 
+Salt and white paper to taste
+
+Wash cauliflower and cut into flowerets. Cook garlic in a little olive oil for a few minutes.  Add flowerets and pour in enough stock to come to almost to the top of the cauliflower. Bring to boil then reduce and simmer until cauliflower is very soft. Cool a little and purée with stick bender. Season to taste serve with toast for weekend lunch.
+</recipe>

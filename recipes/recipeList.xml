@@ -6,25 +6,71 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd"
 >
 
+
 <recipe>
     <title>Apple Crumble</title>
     <filename>r1_copy.xml</filename>
     <comment>nice for a family</comment>
     <meal>Dinner</meal>
-    <recipeCategory>Beef</recipeCategory>
-    <recipeCategory>Pork</recipeCategory>
+    <category>Beef</category>
+    <category>Pork</category>
     <diet>EggFree</diet>
-    <thumbnail>../recipes/applecrumble_thumbnail.png</thumbnail>
-    <image>../recipes/applecrumble_large.jpeg</image>
+    <thumbnail>../images/applecrumble_thumbnail.png</thumbnail>
+    <image>../images/applecrumble_large.jpeg</image>
 </recipe>
 <recipe>
     <title>Ricotta Pie</title>
     <filename>r1.xml</filename>
     <comment>nice and healthy</comment>
     <meal>Dessert</meal>
-    <recipeCategory>Cake</recipeCategory>
+    <category>Cake</category>
     <diet>EggFree</diet>
     <diet>GlutenFree</diet>
-    <thumbnail>../recipes/ricottapie_thumbnail.png</thumbnail>
-    <image>../recipes/ricottapie_large.jpeg</image>
+    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
+    <image>../images/ricottapie_large.jpeg</image>
 </recipe>
+<recipe>
+    <title>Quick Lamb Cutlets</title>
+    <filename>10_minute_meal.xml</filename>
+    <comment>10 minute meal</comment>
+    <meal>Dinner</meal>
+    <category>Lamb</category>
+    <diet>xxx</diet>
+    <thumbnail>../images/10_minute_thumbnail.png</thumbnail>
+    <image>../images/10_minute.jpg</image>
+</recipe>
+<recipe>
+    <title>Ricotta Pie2</title>
+    <filename>r2.xml</filename>
+    <comment>nice and healthy</comment>
+    <meal>Dessert</meal>
+    <category>Cake</category>
+    <diet>EggFree</diet>
+    <diet>GlutenFree</diet>
+    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
+    <image>../images/ricottapie_large.jpeg</image>
+</recipe>
+<recipe>
+    <title>Ricotta Pie3</title>
+    <filename>r3.xml</filename>
+    <comment>nice and healthy</comment>
+    <meal>Dessert</meal>
+    <category>Cake</category>
+    <diet>EggFree</diet>
+    <diet>GlutenFree</diet>
+    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
+    <image>../images/ricottapie_large.jpeg</image>
+</recipe>
+<recipe>
+    <title>Ricotta Pie4</title>
+    <filename>r4.xml</filename>
+    <comment>nice and healthy</comment>
+    <meal>Dessert</meal>
+    <category>Cake</category>
+    <diet>EggFree</diet>
+    <diet>GlutenFree</diet>
+    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
+    <image>../images/ricottapie_large.jpeg</image>
+</recipe>
+
+</recipeList>

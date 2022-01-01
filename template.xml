@@ -1,0 +1,24 @@
+<xs:element name="title" type="xs:string"/>
+<xs:element name="comment" type="xs:string"/>
+<xs:element name="thumbnailUrl" type="xs:anyURI" minOccurs="0"/>
+<xs:element name="image" type="xs:anyURI" minOccurs="0"/>
+<xs:element name="diet" type="dietType" minOccurs="0"/>
+<xs:element name="category" type="categoryType"/>
+<xs:element name="yield" type="xs:integer"/>
+<xs:element name="prepTime" type="xs:int"/>
+<xs:element name="cookTime" type="xs:int"/>
+<xs:element name="part" type="partType" minOccurs="1" maxOccurs="unbounded"/>
+<xs:element name="ingredient" type="ingredientType" minOccurs="0" maxOccurs="unbounded"/>
+<xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+<title></title>
+<comment></comment>
+<thumbnail></thumbnail>
+<image></image>
+<diet></diet>
+<category></category>
+<yield></yield>
+<prepTime></prepTime>
+<cookTime></cookTime>
+<part></part>
+<ingredient></ingredient>
+<step></step>

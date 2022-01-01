@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+Guacamole
+(Gluten Free, Vegan)
+
+2-3 avocados pitted, peeled and mashed
+1 lime juiced
+1 tomatoe de-seeded and chopped
+3 spring onions chopped
+1-2 garlic cloves crushed
+1/2 teaspoon chilli powder
+SandP to taste
+
+Mix all together and sprinkle a few extra spring onions on top.
+</recipe>

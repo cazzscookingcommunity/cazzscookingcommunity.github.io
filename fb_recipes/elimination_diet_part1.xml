@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+ELIMINATION DIET_part1
+Part 1
+If you need to work out what you are allergic to or just want to detox!
+This is a suggested plan from a Sydney Hospital.
+Instructions in the next post.
+</recipe>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+MM Punch
+
+2L Pineapple juice
+1.25L Lemonade
+1.5L Cranberry juice
+2 cans 440 gms Pineapple pieces in juice
+2 punets strawberries washed and chopped
+1 bunch mint washed and chopped
+1 Lime finely sliced
+1 1/2 cups Vodka (optional)
+
+Place all items in fridge over night except ice (leave this in freezer.)
+Place all items in a large punch bowl and stir well. Add as much ice as desired (4-5 handfuls.)
+</recipe>

@@ -9,8 +9,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipe.xsd"
 >
 
 <title>Apple Crumble</title>
-<thumbnail>../recipes/applecrumble_thumbnail.png</thumbnail>
-<image>../recipes/applecrumble_large.jpeg</image>
+<thumbnail>../images/applecrumble_thumbnail.png</thumbnail>
+<image>../images/applecrumble_large.jpeg</image>
 <part>
     <title>filling</title>
     <ingredient name="ricotta cheese" amount="3" unit="kg"/>

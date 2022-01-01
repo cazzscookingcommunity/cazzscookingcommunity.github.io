@@ -1,16 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- <?xml-stylesheet href="../recipe.xslt" type="text/xsl"?> -->
-
 <recipe
 xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipe.xsd"
->
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipe.xsd">
 
 <title>Ricotta Pie</title>
-<thumbnail>../recipes/ricottapie_thumbnail.png</thumbnail>
-<image>../recipes/ricottapie_large.jpeg</image>
+<thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
+<image>../images/ricottapie_large.jpeg</image>
 <part>
     <title>filling</title>
     <ingredient name="ricotta cheese" amount="3" unit="kg"/>
@@ -34,7 +31,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipe.xsd"
         Combine the flour, baking powder, and 1 cup of the sugar together. Cut in the shortening and mix until the mixture resembles coarse crumbs. Mix in 4 of the eggs and 1 teaspoon of the vanilla. Divide dough into 4 balls and chill (if needed).
     </step>
 </part>
-<recipeCategory>Dinner</recipeCategory>
+<catgeory>Dinner</category>
 <yield>4</yield>
 <prepTime>40</prepTime>
 <cookTime>60</cookTime>

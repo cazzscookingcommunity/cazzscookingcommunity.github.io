@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+Simple Fried Rice
+
+4-6 cups cooked rice
+300-400gms diced bacon
+3 corn cobs corn removed 
+3 spring onions chopped 
+2-3 tbsp sesame oil
+Soy sauce to taste
+SandP to taste (white pepper)
+
+Heat oil in large fry pan and add diced bacon. Cook until bacon starting to brown, then add corn. Stir corn until all coat and mixed with bacon and cook a few more minutes. Add rice and cook until heated through, add soy sauce and spring onions and stir until mixed in.  Easy and yummy! Make gluten free by using gluten free soy sauce.
+</recipe>

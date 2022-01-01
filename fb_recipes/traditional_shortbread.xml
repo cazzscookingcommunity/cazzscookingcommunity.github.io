@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+
+    <title></title>
+    <comment></comment>
+    <thumbnail></thumbnail>
+    <image></image>
+    <diet></diet>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+    <ingredient name="" amount="" unit=""></ingredient>
+    <step></step>
+Traditional Shortbread
+
+250 gms butter melted
+2 cups plain flour sifted
+2 TBsp rice flour 
+1/3 cup icing or castor sugar sifted
+
+Preheat oven to 160C and grease a baking tray with butter, then set aside. Mix all ingredients in a bowl until combined. Make a ball with the ingredients, with your hands and move to baking tray. Squash down with your hands until it is about 5mm thick and smooth any cracks. Prick entire surface with fork and bake in oven until just golden. Remove from oven and slice with a knife into small rectangles while still hot. Serve when cold.
+</recipe>

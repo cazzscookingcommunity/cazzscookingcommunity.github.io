@@ -1,7 +1,6 @@
 var searchTree = {};
 var recipeList = new DOMParser();
 var $recipeList;
-// var result = new DOMParser();
 var path = "../recipes/";
 var XMLrecipelist = path + "recipeList.xml";
 window.scrollTo(0,$('#main').offset().top);
@@ -17,7 +16,8 @@ $(document).ready(function(){
         categorys = new Set();
         recipeList = res.querySelectorAll('recipe');
         $recipeList = $( recipeList );
-        getSearchValues(res, "recipeCategory, diet, meal", categorys);
+
+        getCategorys($recipeList, "category, diet, meal", categorys);
 
         //display categories for simple search
         let listCategory = [];
@@ -31,7 +31,7 @@ $(document).ready(function(){
         NavBarCategory.innerHTML = listCategory.join('');
 
         // create keyword to recipe map for category search & searchbar
-        createSearchTree(recipeList);
+        createSearchTree($recipeList);
 
     });
 
@@ -58,7 +58,6 @@ $(document).ready(function(){
 // Get recipe list based on search input using enter rather than click
 $(document).keypress(function(e) {
     if( e.which == 13 && $.trim($('#searchRecipe').val()) !== '' ) {
-        console.debug("register enter");
         searchTerm = $.trim($('#searchRecipe').val());
         fetchCategoryMeal(searchTerm);
     }
@@ -69,7 +68,6 @@ $(document).on('click','.mealCardRecipeBtn',function(){
     let meal = $(this).attr("data-meal"); // format = string
     meal = $.parseXML( meal ); // format = #document
     $meal = $( meal ); // format = jquery
-    console.debug($meal);
 
     fetchMeal($meal,'u');
     window.scrollTo(0,$('#random').offset().top);
@@ -77,34 +75,38 @@ $(document).on('click','.mealCardRecipeBtn',function(){
 });
 
 
-// add recipe categorys to search tree
-function getSearchValues(recipe, cssSelector, newlist) {
-    x = recipe.querySelectorAll(cssSelector);
+// aget Categories for pre-defined search filters 
+function getCategorys($recipe, cssSelector, newlist) {
+    x = $recipe.find(cssSelector);
     for ( let i = 0; i < x.length; i++ ) {
-        y = x[i].innerHTML.split(" ");  // handle space separated elements like <title>
-        for ( let a = 0; a < y.length; a++ ) { 
-            newlist.add(y[a]);
+        newlist.add(x[i].innerHTML);
+    }
+}
+
+function addToTree(value, title) {
+    if (!(value in searchTree)) {  // add new property
+        searchTree[value] = [title];
+    } else {                       // append recipe to existing property  
+        searchTree[value].push(title);
+    }
+}
+
+// aget Categories for pre-defined search filters 
+function getSearchValues($recipe, cssSelector) {
+    keywords = $recipe.querySelectorAll(cssSelector);
+    title = $recipe.getElementsByTagName('title')[0].innerHTML;
+    for ( let i = 0; i < keywords.length; i++ ) {
+        x = keywords[i].innerHTML.split(" ");  // handle space separated elements like <title>
+        for ( let j = 0; j < x.length; j++ ) { 
+            addToTree(x[j].toUpperCase(), title);
         }
     }
 }
 
-function addToTree(recipe) {
-    let category = new Set();
-    title = recipe.querySelector("title").innerHTML;
-    getSearchValues(recipe, "recipeCategory, diet, meal, title", category);
-    category.forEach (function(value) {
-        if (!(value in searchTree)) {  // add new property
-            searchTree[value.toUpperCase()] = [title];
-        } else {                       // append recipe to existing property  
-            searchTree[value].push(title);
-        }
-    });
-}
-
 // Build search structure
-function createSearchTree(recipeList) {
-    for ( let i = 0; i < recipeList.length; i++ ) {
-        addToTree(recipeList[i]);
+function createSearchTree($recipeList) {
+    for ( i = 0; i < $recipeList.length; i++ ) {
+        getSearchValues($recipeList[i], "category, diet, meal, title");
     }
 }    
 
@@ -114,21 +116,17 @@ function fetchMeal($meal, type){
     if ( type == 'r' ) {
         randomNo = Math.floor(Math.random() * $meal.length );
         recipeFilename = $meal[randomNo].getElementsByTagName("filename")[0].innerHTML;
-        // recipeFilename = $meal[randomNo].find("filename").text();
         url = (path + recipeFilename);
     } else {
         url = (path + $meal.find('filename').text());
     }
 
-    console.debug(url);
     fetch(url)
     .then(res => res.text())
     .then(res => new DOMParser().parseFromString(res, "text/xml"))
     .then(res => {
-        console.debug(res);
         recipe = res.querySelectorAll('recipe');
         $recipe = $( recipe );
-        console.debug($recipe);
         createMeal($recipe, 'r');
         // setCache(res, type);
     })
@@ -180,21 +178,25 @@ const getData = (types) => {
     // })
 }
 
+// fetch meals matching searchTerm
 function fetchCategoryMeal(searchTerm){
-    console.debug(searchTerm);
     let recipeNameShortList = searchTree[searchTerm.toUpperCase()];
+    $("#errorMessageContainer").remove();
+    $('#searchRecipe').val(searchTerm);
+    $('#userInput').text(searchTerm);
+
     if ( ! ( recipeNameShortList == undefined ) ) {
-        createMealCards(recipeNameShortList);
-        window.scrollTo(0,$('#mealCardsSection').offset().top);
-        $('#userInput').text(searchTerm);
-        // setCache(res.meals, type);
-        $("#errorMessageContainer").remove();
-        $('#searchRecipe').val(searchTerm);
-    } else {
-        $("#errorMessageContainer").remove();
         $('section#mealCardsSection').show();
-        $("#mealCardsSection").prepend("<div id='errorMessageContainer' style='display:flex;'> <p id='errorMessageText'>No recipes match the search term '" + searchTerm + "'</p> <a id='errorMessageBtn' class='button' href='#landing' title='Search again' >Search again</a> </div>");
+        $('#mealCardsSection .container').show();
         window.scrollTo(0,$('#mealCardsSection').offset().top);
+        createMealCards(recipeNameShortList);
+        // setCache(res.meals, type);
+    } else {
+        $('section#mealCardsSection').show();
+        $('section#random').hide();
+        $('#mealCardsSection .container').hide();
+        $("#mealCardsSection").prepend("<div id='errorMessageContainer' style='display:flex;'> <p id='errorMessageText'>No recipes match the search term '" + searchTerm + "'</p> <a id='errorMessageBtn' class='button' href='#landing' title='Search again' >Search again</a> </div>");
+        window.scrollTo(0,$('#mealCardsSection').offset().top-100);
     }
 }
 
@@ -211,18 +213,11 @@ const createMeal = ($meal, type) => {
     mealMetadata += `<span>Name:</span>
         ${$meal.find('title').first().text()} 
         <br/>`
-    console.debug(mealMetadata);
-    // mealMetadata += `<span>Name:</span>
-    //   ${meal.getElementsByTagName("title")[0].innerHTML} 
-    //   <br/>`
 
     // Fill category 
     mealMetadata += `<span>Category:</span> 
-        ${$meal.find("recipeCategory").text()}
+        ${$meal.find("category").text()}
         <br/>`
-    // mealMetadata += `<span>Category:</span> 
-    //   ${meal.getElementsByTagName("recipeCategory")[0].innerHTML}
-    //   <br/>`
 
     // Fill ingredients
     let ingredients = [];
@@ -239,9 +234,9 @@ const createMeal = ($meal, type) => {
     getInstructions($meal, instructions);
     mealInstr =`<span>Instructions:</span>
      ${instructions.join('')}`;
-
     
     if ( type === 'r') { 
+        $('section#random').show();
         $('#randomMealMetadata').html(mealMetadata); 
         $('#randomMealInstructions').html(mealInstr); 
     }
@@ -251,7 +246,6 @@ const createMeal = ($meal, type) => {
 // Gets instruction steps
 const getInstructions = ($meal, instructions) => {
     let steps = $meal.find("step");
-    // let steps = meal.getElementsByTagName("step");
     for( let i = 0; i < steps.length; i++ ) {
         instructions.push(`<p>step ${i}:<br/>
             ${steps[i].innerHTML}</p>`);
@@ -261,7 +255,6 @@ const getInstructions = ($meal, instructions) => {
 // Gets ingredients of the random meal
 const getIngredients = ($meal,ingredients) => {  
     let ingredientList = $meal.find("ingredient");
-    // let ingredientList = meal.getElementsByTagName("ingredient");
     for( let i = 0; i < ingredientList.length; i++ ){
         ingredients.push(`
           <tr>
@@ -274,21 +267,19 @@ const getIngredients = ($meal,ingredients) => {
     ingredients.push('<br/>');
 }
 
-// Sets random meal's thumbnail image
+// get meal thumbnail image
 const setMealThumbnail = ($meal,type) => {
     let img = $meal.find("thumbnail").text();
     let title = $meal.find("title").text();
-    // let img = meal.getElementsByTagName("thumbnail")[0].innerHTML;
-    // let title = meal.getElementsByTagName("title")[0].innerHTML;
+
     let imgSrc = `<img src="${img}" alt="${title} thumbnail"/>`;
     if ( type === 'r') { $('#randomMealImg').html(imgSrc); }
 }
 
 
-// Creates meal cards.  meals is narroewed to match search
+// Create meal cards for shortlisted recipes
 function createMealCards(shortlist) {
     let mealCards = '';
-    console.debug(shortlist);
 
     for ( i = 0; i < recipeList.length; i++ ) {
         let title = recipeList[i].getElementsByTagName("title")[0].innerHTML;
@@ -308,6 +299,7 @@ function createMealCards(shortlist) {
     }
     $('section#random').hide();
     $('section#mealCardsSection').show();
+    $('#mealCardsSection .container').show();
     $('.mealCards').html(mealCards);
 }
 
