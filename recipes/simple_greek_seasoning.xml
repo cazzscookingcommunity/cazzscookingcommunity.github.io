@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Simple Greek Seasoning </title>
+
+    <comment>c/o sweetpeasandsaffron.com</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>3 TBSP oregano </ingredient>
+    <ingredient>2 TBSP basil</ingredient>
+    <ingredient>1 TBSP dill</ingredient>
+    <ingredient>2 TBSP onion powder (optional)</ingredient>
+    <ingredient>2 TBSP garlic powder </ingredient>
+    <ingredient>1/2 TBSP salt</ingredient>
+    <ingredient>1 TBSP pepper</ingredient>
+
+    <step>
+Add all ingredients to an airtight jar. Place lid on jar and shake well. Makes 1/2 cup, store out of light in pantry. Use generously on any meat or veggies - yum yum!
+    </step>
+</recipe>

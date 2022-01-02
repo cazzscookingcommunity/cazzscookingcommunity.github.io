@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Grandmas Pasties 2</title>
+
+    <comment>Great for a crowd or grand final party</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+
+    <ingredient>10 sheets puff pastry</ingredient>
+    <ingredient>5-6 spuds grated</ingredient>
+    <ingredient>2 big carrots grated</ingredient>
+    <ingredient>1 turnip grated</ingredient>
+    <ingredient>1 pasnip grated</ingredient>
+    <ingredient>2 celery sticks finely chopped</ingredient>
+    <ingredient>1 onion grated</ingredient>
+    <ingredient>800-1000 gms mince meat</ingredient>
+    <ingredient>1 TBsp each salt and pepper</ingredient>
+    <ingredient>Milk for glazing</ingredient>
+
+    <step>
+Grease baking trays and set aside. Heat oven to 180D. Mix all ingredients in large pot with your hands. Lay out one sheet of defrosted puff pastry on work surface and place mixed ingredient 2 1/2 handfuls off centre, then fold over pastry so edges are touching. Cut off excess triangle of pastry. Fold over edges and press firmly down with fingers. Place on baking tray and paint with some milk. Continue until you Use up all mixed ingredients. Cook at 180D (you may have to adjust to your stove) for 1 hour or until golden brown. Turn several times while cooking.
+    </step>
+</recipe>

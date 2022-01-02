@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>GlutenFree Brownies </title>
+
+    <comment>c/o Woolworth with cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>GlutenFree</diet>
+
+    <ingredient>125 gms dark chocolate </ingredient>
+    <ingredient>125 gms butter, cubed </ingredient>
+    <ingredient>1 cup brown sugar</ingredient>
+    <ingredient>1/3 cup buckwheat flour</ingredient>
+    <ingredient>1/3 cup cocoa</ingredient>
+    <ingredient>1/4 teaspoon baking powder </ingredient>
+    <ingredient>3 eggs</ingredient>
+
+    <step>
+Preheat the oven to 180C. Line a 28x18cm slice tray with baking paper.  Break chocolate into pieces and set aside.  Melt butter in a small saucepan, then add sugar and stir until sugar is melted. Add chopped chocolate and stir until all the pieces are melted, remove from heat. 
+Sift flour, cocoa and baking soda. Mix in the beaten eggs and then add in the chocolate mixture. Pour into the prepared tray and cook for 30 minutes or until knife inserted in centre comes out clean. Cut up once cold into squares and decorate with icing sugar.
+    </step>
+</recipe>

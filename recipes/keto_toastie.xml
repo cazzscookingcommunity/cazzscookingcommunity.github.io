@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>KETO toastie </title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>GlutenFree Keto</diet>
+
+    <ingredient>1 TBsp coconut flour </ingredient>
+    <ingredient>1 TBsp grated Parmesan </ingredient>
+    <ingredient>1 TBsp grated tasty cheese</ingredient>
+    <ingredient>1 TBsp olive oil</ingredient>
+    <ingredient>1 egg </ingredient>
+    <ingredient>1/4 baking powder </ingredient>
+    <ingredient>1 TBsp chopped chives (optional)</ingredient>
+    <ingredient>salt and pepper to taste</ingredient>
+
+    <step>
+Heat fry pan and add olive oil. While heating beat all ingredients except the tasty cheese, until well combined. Pour two even amounts in pan. Once middle begins to raise you can flip them over. Top one with tasty cheese. Once under side brown stack the plain one on top of the one with cheese. Remove from pan and eat while hot! 😋
+    </step>
+</recipe>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Natural Homemade Face Scrub</title>
+
+    <comment>c/o iamvanessae (You Tube)</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category>Personal</category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+
+    <part>
+        <title>Coffee Scrub</title>
+        <ingredient>1/4 cup fresh coffee grounds </ingredient>
+        <ingredient>2 TBSP coconut oil</ingredient>
+    </part>
+
+    <part>
+        <title>Olive Oil Scrub</title>
+        <ingredient>3 TBSP olive oil</ingredient>
+        <ingredient>1/4 cup sugar</ingredient>
+        <step>
+            Mix ingredients until combine and decant into repurposed jars. Use once or twice a week. (I use mine while Im in the shower!)
+            Coffee Scrub can be used on your body also.
+        </step>
+    </part>
+
+
+</recipe>

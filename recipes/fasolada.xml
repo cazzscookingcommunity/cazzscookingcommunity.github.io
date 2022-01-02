@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Fasolada </title>
+
+    <comment>c/o Akis Petretzikis.  Greek white bean soup. </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>Vegan GlutenFree </diet>
+
+    <ingredient>500gms white beans (soaked overnight)</ingredient>
+    <ingredient>1 teaspoon salt</ingredient>
+    <ingredient>2 celery sticks chopped </ingredient>
+    <ingredient>3 carrots chopped </ingredient>
+    <ingredient>5 cloves garlic crushed </ingredient>
+    <ingredient>2-3 TBsp olive oil </ingredient>
+    <ingredient>1 TBsp tomatoe paste</ingredient>
+    <ingredient>3 bay leaves </ingredient>
+    <ingredient>2 sprigs rosemary</ingredient>
+    <ingredient>2 stock cubes</ingredient>
+    <ingredient>1 red apple peeled</ingredient>
+    <ingredient>2 litres water</ingredient>
+    <ingredient>salt and pepper to taste</ingredient>
+    <ingredient>Thyme leaves to serve </ingredient>
+
+    <step>
+In a bowl add beans and cover with water. Add salt and stir well. Cover and leave over night (8-12 hours.) Drain any water when done and rinse twice very well under cold water. Drain and set aside. In a large pot heat oil and add carrots and celery and cook on low for 5 minutes.  Add the garlic and cook for a further 5 minuets. Stir in n the tomatoe paste, then add the rest of the ingredients. Bring to the boil and lower to a simmer and cook for 1 1/2 hours.  Be sure to stir occasionally so it doesn’t stick to the bottom.  Add salt and pepper to taste before serving. Serve with thyme sprinkled on top.
+You can also serve with lemon, olives, and feta if desired.
+    </step>
+</recipe>

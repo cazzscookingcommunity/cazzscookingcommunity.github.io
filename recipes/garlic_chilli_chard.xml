@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Garlic Chilli Chard</title>
+
+    <comment>c/o Irena Macri</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1 bunch Swiss or Rainbow Chard</ingredient>
+    <ingredient>2 Tbsp olive oil</ingredient>
+    <ingredient>1/2 long red chilli finely chopped </ingredient>
+    <ingredient>2 cloves of garlic diced</ingredient>
+    <ingredient>salt and pepper</ingredient>
+    <ingredient>Juice of 1/2 lemon </ingredient>
+
+    <step>
+Heat olive oil in a large fry pan. Add the chilli and garlic and stir for 10-20 seconds.  Add the chard, including the stalks, salt and pepper and the lemon juice. Stir for about 3-4 minutes over medium heat. Serve hot as a side dish - very delicious.
+    </step>
+</recipe>

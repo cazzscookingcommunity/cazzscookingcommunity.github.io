@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Home Made Hoisin Sauce</title>
+
+    <comment>c/o blessherheartyall With cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>GlutenFree</diet>
+
+    <ingredient>8 TBSP Gluten Free Soy Sauce</ingredient>
+    <ingredient>5 TBSP peanut butter </ingredient>
+    <ingredient>3 TBSP honey</ingredient>
+    <ingredient>1/4 cup fresh green onions chopped </ingredient>
+    <ingredient>1/2 TBSP chilli flakes</ingredient>
+    <ingredient>4 teasp rice wine vinegar</ingredient>
+    <ingredient>1 TBSP garlic powder </ingredient>
+    <ingredient>3 teaspoons sesame oil</ingredient>
+    <ingredient>1 TBSP chilli paste</ingredient>
+
+    <step>
+Place all ingredients in a small sauce pan and cook for about five minutes on low or until all ingredients combined and thickened slightly. Store in airtight container.
+    </step>
+</recipe>

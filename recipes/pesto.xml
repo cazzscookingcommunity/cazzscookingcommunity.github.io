@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Pesto</title>
+
+    <comment>c/o simply recipes</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>2 cups fresh basil packed (can substitute half with spinach)</ingredient>
+    <ingredient>1/3 cup pine nuts</ingredient>
+    <ingredient>1/2 cup olive oil</ingredient>
+    <ingredient>1/2 cup grated Parmesan </ingredient>
+    <ingredient>3 cloves garlic crushed</ingredient>
+    <ingredient>1/4 teaspoon salt and pepper </ingredient>
+
+    <step>
+In a blender, blend leaves and pine nuts. Once mixed add remaining ingredients and blend until all cook combined, but still has some texture remaining.
+Serve mixed in with pasta or as a
+dip.
+    </step>
+</recipe>
