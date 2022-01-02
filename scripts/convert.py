@@ -11,7 +11,7 @@ recipeStart = '''"Cazz's Cooking Community",,"'''
 
 
 # strings to insert
-filepath = './fb_recipes/'
+filepath = './recipes/'
 
 xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 
@@ -23,21 +23,19 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
 '''
 
 xmlbody = '''
-    <title></title>
     <comment></comment>
-    <thumbnail></thumbnail>
+    <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
-    <diet></diet>
     <category></category>
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
     <part></part>
-    <ingredient name="" amount="" unit=""></ingredient>
-    <step></step>
+
 '''
 
 xmlfooter = '''
+    </step>
 </recipe>'''
 
 # command line
@@ -58,6 +56,7 @@ def loadfile(filename):
 
 def splitString(str):
     x = str.split(recipeStart)
+    x.pop(0)
     return x
 
 def getTitle(recipe):
@@ -72,8 +71,12 @@ def saveFile(recipe, title):
 
 
 def saveRecipe(recipe):
+
+    #  remove facebook text at end of file
     endoffile = recipe.find('"')
     recipe = recipe[:endoffile]
+
+    # format the title into suitable filename
     firstline = recipe.find('\n')
     title = recipe[:firstline].lower()
     oldtitle = title
@@ -86,10 +89,42 @@ def saveRecipe(recipe):
     title = title.replace('/', '')
     title = title.replace('___', '_')
     title = title.replace('__', '_')
-    print(str(len(recipe)) + '\t\t' + title + '\t\t' + oldtitle)
+
+    # add xml tags in body
+    recipeArr = recipe.split('\n')
+    for index in range(len(recipeArr)):
+        line = recipeArr[index]
+        if index == 0:
+            recipeArr[index]='    <title>' + line + '</title>'
+            continue
+        
+        if index == 1 and line != '':
+            recipeArr[index]='    <diet>' + line + '</diet>'
+            continue
+        
+        if line != '':
+            index2 = index
+            while index2 < len(recipeArr):
+                line2 = recipeArr[index2]
+                if line2 != '':
+                    recipeArr[index2]='    <ingredient>' + line2 + '</ingredient>'
+                    index2 += 1
+                else:
+                    break
+            break
+    recipeArr.insert(index2 + 1, '    <step>')
+
+    # insert other template xml tags
+    xmlbodyTags = xmlbody.split('\n')
+    i = 1
+    for line in xmlbodyTags:
+        recipeArr.insert(i, line)
+        i += 1
     
-    
-    recipe = xmlheader + xmlbody + recipe + xmlfooter
+    # add xml header and footer
+    recipe = xmlheader + '\n'.join(recipeArr) + xmlfooter
+    print("======= AFTER ========")
+    print(recipe)
 
     saveFile(recipe, title)
 
@@ -100,6 +135,7 @@ if __name__== "__main__":
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
         if filename.endswith(".csv"): 
+            print(filename)
             filestr = loadfile(facebook + filename)
             filearray = splitString(filestr)
             for recipe in filearray:

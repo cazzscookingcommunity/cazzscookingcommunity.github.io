@@ -79,7 +79,22 @@ $(document).on('click','.mealCardRecipeBtn',function(){
 function getCategorys($recipe, cssSelector, newlist) {
     x = $recipe.find(cssSelector);
     for ( let i = 0; i < x.length; i++ ) {
-        newlist.add(x[i].innerHTML);
+        console.debug(x[i]);
+        y = x[i].innerHTML.split(" ");  // handle space separated elements like <title>
+        console.debug(y);
+        for ( let j = 0; j < y.length; j++ ) {
+            cat = y[j].replace(",", "");
+            cat = cat.replace("(", "");
+            cat = cat.replace(")", "");
+            cat = cat.replace("*", "");
+            cat = cat.replace("!", "");
+            cat = cat.replace("-", "");
+            console.debug(cat);
+            if ( ! ( cat == "" ) ) {
+                newlist.add(cat);
+                console.debug(newlist); 
+            }
+        }
     }
 }
 
@@ -223,10 +238,11 @@ const createMeal = ($meal, type) => {
     let ingredients = [];
     getIngredients($meal, ingredients);
     if ( ingredients.length > 0 ) {
-        mealMetadata +=`<br/><span>Ingredients:</span> 
-        <table class="ingredients">
-          ${ingredients.join('')}
-        </table>`
+        mealMetadata += `<br/><span>Ingredients:</span> 
+        <ul> ${ingredients.join('')} </ul>`
+        // <table class="ingredients">
+        //   ${ingredients.join('')}
+        // </table>`
     }
 
     // Set instructions
@@ -256,13 +272,14 @@ const getInstructions = ($meal, instructions) => {
 const getIngredients = ($meal,ingredients) => {  
     let ingredientList = $meal.find("ingredient");
     for( let i = 0; i < ingredientList.length; i++ ){
-        ingredients.push(`
-          <tr>
-            <td>${ingredientList[i].getAttribute("name")}</td>
-            <td>${ingredientList[i].getAttribute("amount")}</td> 
-            <td>${ingredientList[i].getAttribute("unit")}</td>
-          </tr>`
-        );
+        ingredient = ingredientList[i].innerHTML
+        ingredients.push(`<li>${ingredient}</li>`);
+        // ingredients.push(`
+        //   <tr>
+        //     <td>${ingredientList[i].getAttribute("name")}</td>
+        //     <td>${ingredientList[i].getAttribute("amount")}</td> 
+        //     <td>${ingredientList[i].getAttribute("unit")}</td>
+        //   </tr>`
     }
     ingredients.push('<br/>');
 }

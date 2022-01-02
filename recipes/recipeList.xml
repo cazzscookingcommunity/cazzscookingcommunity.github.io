@@ -3,74 +3,412 @@
 <recipeList
 xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd"
->
-
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 
 <recipe>
-    <title>Apple Crumble</title>
-    <filename>r1_copy.xml</filename>
-    <comment>nice for a family</comment>
-    <meal>Dinner</meal>
-    <category>Beef</category>
-    <category>Pork</category>
-    <diet>EggFree</diet>
-    <thumbnail>../images/applecrumble_thumbnail.png</thumbnail>
-    <image>../images/applecrumble_large.jpeg</image>
+    <title>Calzone</title>
+    <filename>calzone.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Vegetarian)</diet>
 </recipe>
 <recipe>
-    <title>Ricotta Pie</title>
-    <filename>r1.xml</filename>
-    <comment>nice and healthy</comment>
-    <meal>Dessert</meal>
-    <category>Cake</category>
-    <diet>EggFree</diet>
-    <diet>GlutenFree</diet>
-    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
-    <image>../images/ricottapie_large.jpeg</image>
+    <title>Mars Bar Slice</title>
+    <filename>mars_bar_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
-    <title>Quick Lamb Cutlets</title>
+    <title>Chocolate Ripple Cake</title>
+    <filename>chocolate_ripple_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Quick and Easy Dessert</title>
+    <filename>quick_and_easy_dessert.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Large Banana Bread</title>
+    <filename>large_banana_bread.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Super Easy</diet>
+</recipe>
+<recipe>
+    <title>Pea and Ham Soup</title>
+    <filename>pea_and_ham_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP friendly</diet>
+</recipe>
+<recipe>
+    <title>Tuna Rice Bake</title>
+    <filename>tuna_rice_bake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP friendly </diet>
+</recipe>
+<recipe>
+    <title>Sarah O's Brownies</title>
+    <filename>sarah_os_brownies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Spanish Rice</title>
+    <filename>spanish_rice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Gluten Free, Vegan)</diet>
+</recipe>
+<recipe>
+    <title>MM*PUMPKIN SOUP</title>
+    <filename>mm_pumpkin_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP friendly</diet>
+</recipe>
+<recipe>
+    <title>Turkey Burgers</title>
+    <filename>turkey_burgers.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Dark Chocolate Fudge</title>
+    <filename>dark_chocolate_fudge.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Gluten Free, Vegan)</diet>
+</recipe>
+<recipe>
+    <title>Lazy Risotto</title>
+    <filename>lazy_risotto.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Gluten Free)</diet>
+</recipe>
+<recipe>
+    <title>Middle Eastern Lentil Salad</title>
+    <filename>middle_eastern_lentil_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Easy, healthy, quick and yum!</diet>
+</recipe>
+<recipe>
+    <title>Traditional Shortbread</title>
+    <filename>traditional_shortbread.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Apple Pie with a twist</title>
+    <filename>apple_pie_with_a_twist.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>CHOW MEIN</title>
+    <filename>chow_mein.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Easy, Quick, Yummy and FOMAP Friendly</diet>
+</recipe>
+<recipe>
+    <title>Easy Vegetable Lentil Curry</title>
+    <filename>easy_vegetable_lentil_curry.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>American Style BBQ Spare Ribs</title>
+    <filename>american_style_bbq_spare_ribs.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>MM Punch</title>
+    <filename>mm_punch.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Cottage Pie</title>
+    <filename>cottage_pie.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP friendly</diet>
+</recipe>
+<recipe>
+    <title>Rum Balls</title>
+    <filename>rum_balls.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Awesome Roasted Beetroot Dip</title>
+    <filename>awesome_roasted_beetroot_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Wheat free Wheat-bix slice!</title>
+    <filename>wheat_free_wheat_bix_slice!.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Cauliflower Soup</title>
+    <filename>cauliflower_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Kathy's Hedgehog</title>
+    <filename>kathys_hedgehog.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Gluten free* Vegan FODMAP friendly </diet>
+</recipe>
+<recipe>
+    <title>smoked-salmon-salad</title>
+    <filename>smoked_salmon_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Guacamole</title>
+    <filename>guacamole.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Gluten Free, Vegan)</diet>
+</recipe>
+<recipe>
+    <title>Larb</title>
+    <filename>larb.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP Friendly</diet>
+</recipe>
+<recipe>
+    <title>Simple Dahl served with ancient grains and coriander </title>
+    <filename>simple_dahl_served_with_ancient_grains_and_coriander_.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Gluten Free Taco Mix</title>
+    <filename>gluten_free_taco_mix.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Baked Christmas Ham</title>
+    <filename>baked_christmas_ham.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>CHOWDER</title>
+    <filename>chowder.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Gluten Free</diet>
+</recipe>
+<recipe>
+    <title>Easiest Scones in the WORLD</title>
+    <filename>easiest_scones_in_the_world.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>FMN POPCORN </title>
+    <filename>fmn_popcorn_.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>MM Veggie Soup</title>
+    <filename>mm_veggie_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Lasagne</title>
+    <filename>lasagne.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>ELIMINATION DIET_part2</title>
+    <filename>elimination_diet_part2.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>ELIMINATION DIET_part3</title>
+    <filename>elimination_diet_part3.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Vegan Chocolate Cake</title>
+    <filename>vegan_chocolate_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>*Gluten free</diet>
+</recipe>
+<recipe>
+    <title>ELIMINATION DIET_part1</title>
+    <filename>elimination_diet_part1.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Part 1</diet>
+</recipe>
+<recipe>
+    <title>Chow Mien</title>
+    <filename>chow_mien.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Quick and easy!</diet>
+</recipe>
+<recipe>
+    <title>Mac and Cheese Slice</title>
+    <filename>mac_and_cheese_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Simple Fried Rice</title>
+    <filename>simple_fried_rice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Cherry Tomatoe Bake</title>
+    <filename>cherry_tomatoe_bake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Yummy Lentil Salad</title>
+    <filename>yummy_lentil_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Gluten Free)</diet>
+</recipe>
+<recipe>
+    <title>MM Pasties</title>
+    <filename>mm_pasties.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>(Great for a crowd- or grand final party)</diet>
+</recipe>
+<recipe>
+    <title>10 minute meal</title>
     <filename>10_minute_meal.xml</filename>
-    <comment>10 minute meal</comment>
-    <meal>Dinner</meal>
-    <category>Lamb</category>
-    <diet>xxx</diet>
-    <thumbnail>../images/10_minute_thumbnail.png</thumbnail>
-    <image>../images/10_minute.jpg</image>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
-<recipe>
-    <title>Ricotta Pie2</title>
-    <filename>r2.xml</filename>
-    <comment>nice and healthy</comment>
-    <meal>Dessert</meal>
-    <category>Cake</category>
-    <diet>EggFree</diet>
-    <diet>GlutenFree</diet>
-    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
-    <image>../images/ricottapie_large.jpeg</image>
-</recipe>
-<recipe>
-    <title>Ricotta Pie3</title>
-    <filename>r3.xml</filename>
-    <comment>nice and healthy</comment>
-    <meal>Dessert</meal>
-    <category>Cake</category>
-    <diet>EggFree</diet>
-    <diet>GlutenFree</diet>
-    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
-    <image>../images/ricottapie_large.jpeg</image>
-</recipe>
-<recipe>
-    <title>Ricotta Pie4</title>
-    <filename>r4.xml</filename>
-    <comment>nice and healthy</comment>
-    <meal>Dessert</meal>
-    <category>Cake</category>
-    <diet>EggFree</diet>
-    <diet>GlutenFree</diet>
-    <thumbnail>../images/ricottapie_thumbnail.png</thumbnail>
-    <image>../images/ricottapie_large.jpeg</image>
-</recipe>
+
 
 </recipeList>
