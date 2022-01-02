@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Mince Tarts</title>
+
+    <comment>Make extra dough and wrap in plastic wrap and freeze up to 3 months.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1 jar fruit mince</ingredient>
+    <ingredient>1 quantity pastry (same as previous recipe-Filipino egg pie)</ingredient>
+    <ingredient>1 TBsp icing sugar</ingredient>
+    <ingredient>Small pie dish </ingredient>
+    <ingredient>Round cookie cutter one large and one small with fluted edge</ingredient>
+
+    <step>
+Preheat oven to 180C and grease pie dish with a little butter and set aside. Roll out dough on floured surface, until its about 2mm thick. Cut enough large circles to fill all of the tray. Gently push them in to the tray holes. Place 1-1 1/2 TBsp of fruit mince in pastry. Cut out small circles on scrap and place in the middle of each tart. Alternatively you can cut a larger circle and cover the entire top to create a lid. Place in preheated oven for 10-15 minutes. Remove from oven and cook on a wire rack. Once completely cool sprinkle with icing sugar. Keep in air tight container.</step>
+<step>If you cannot find or do not like fruit mince you can substitute with raspberry jam or marmalade.</step>
+
+</recipe>

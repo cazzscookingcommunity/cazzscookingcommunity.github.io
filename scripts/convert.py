@@ -11,7 +11,7 @@ recipeStart = '''"Cazz's Cooking Community",,"'''
 
 
 # strings to insert
-filepath = './recipes/'
+filepath = './fb_recipes/'
 
 xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 
@@ -82,15 +82,19 @@ def saveRecipe(recipe):
     oldtitle = title
     title = title.replace(' ', '_')
     title = title.replace('.', '_')
+    title = title.replace('!', '_')
     title = title.replace('-', '_')
     title = title.replace('&', '_')
     title = title.replace('*', '_')
     title = title.replace("'", '')
+    title = title.replace("`", '')
     title = title.replace('/', '')
     title = title.replace('___', '_')
     title = title.replace('__', '_')
+    title = title.rstrip('_')
 
     # add xml tags in body
+    index2 = 0
     recipeArr = recipe.split('\n')
     for index in range(len(recipeArr)):
         line = recipeArr[index]

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Mexican Chilli Pie</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+
+
+
+    <part>
+        <title>Filling</title>
+        <ingredient>1 kg mince beef</ingredient>
+        <ingredient>1 can crushed tomatoes </ingredient>
+        <ingredient>1 TBsp tomatoe paste</ingredient>
+        <ingredient>1 can black beans rinsed and drained</ingredient>
+        <ingredient>1-2 beef stock cubes crushed</ingredient>
+        <ingredient>3 TBsp olive oil</ingredient>
+        <ingredient>3-4 cloves garlic crushed </ingredient>
+        <ingredient>1/2 teaspoon chilli powder</ingredient>
+        <ingredient>1 teaspoon cumin</ingredient>
+        <ingredient>1 teaspoon oregano </ingredient>
+        <ingredient>salt and pepper to taste</ingredient>
+        <step>Heat oil in large fry pan and cook garlic for a few minutes. Then cook mince until brown. </step>
+        <step>Add all other ingredients to the pan and stir well. Heat through and pour into large baking dish. </step>
+    </part>
+
+    <part>
+        <title>Topping</title>
+        <ingredient>1 small French loaf sliced</ingredient>
+        <ingredient>3 TBsp olive oil</ingredient>
+        <ingredient>2-3 garlic cloves crushed</ingredient>
+        <ingredient>1/2 cup grated cheese</ingredient>
+        <ingredient>2-3 spring onions chopped</ingredient>
+        <step>Place bread slice in top in a single layer until completely covered. </step>
+        <step>Brush top with combined oil and garlic, then sprinkle with cheese. </step>
+        <step>Cook in preheated moderate oven for 30 minutes. </step>
+        <step>Remove from oven and sprinkle top with spring onions to serve.</step>
+    </part>
+</recipe>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Jassy Tasty Wraps</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1 sheet puff pastry </ingredient>
+    <ingredient>Tasty cheese cut in 1”x2” strips</ingredient>
+    <ingredient>Ham</ingredient>
+    <ingredient>Dijon mustard </ingredient>
+
+    <step>
+Preheat oven to 180C. Cut puff pastry sheet into 6th on each piece spread mustard, then place a small amount of ham and top with cheese. Being two corners together and squeeze so the corners stay together. Brush with egg or milk. Place on a tray lined with paper. Pop in oven for 15 mins or until golden brown. Serve hot- yum!
+    </step>
+</recipe>

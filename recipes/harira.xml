@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Harira</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>Vegan</diet>
+
+    <ingredient>1 cup or can of chickpeas</ingredient>
+    <ingredient>1 cup lentils (dark colour)</ingredient>
+    <ingredient>3 TBsp olive oil</ingredient>
+    <ingredient>600gms lamb dices (exc for Vegan)</ingredient>
+    <ingredient>4 garlic cloves crushed</ingredient>
+    <ingredient>4 cups water</ingredient>
+    <ingredient>4 vegetable stock cubes</ingredient>
+    <ingredient>400gm can dices tomatoes</ingredient>
+    <ingredient>2 teaspoons cumin</ingredient>
+    <ingredient>1 teaspoons cinnamon</ingredient>
+    <ingredient>1/2 teaspoon ginger</ingredient>
+    <ingredient>1/2 teaspoon turmeric</ingredient>
+    <ingredient>1 teaspoon black pepper</ingredient>
+    <ingredient>1 teaspoon salt</ingredient>
+    <ingredient>1 TBsp corn flour (mixed with 2 TBsp water)</ingredient>
+    <ingredient>1 lemon juiced</ingredient>
+    <ingredient>1 cup fresh coriander chopped</ingredient>
+    <ingredient>1-2 bunches spinach washed and chopped</ingredient>
+
+    <step>
+Preheat oven to 160 C.  On stove top heat oil in large heavy based casserole type sauce pan.  Once hot cook garlic and meat in batches until brown all over.  Place all meat back in pan and cook with spices for a few minutes, until fragrant.  Stir in water, stock cubes, can tomatoes, chick peas and lentils.  Stir well to combine and bring to the boil.  Place lid on pot and pop in oven for 2 hours.  Remove pot from oven and stir in the corn flour and water mixture and the spinach, and season if necessary.  Place back in oven for 30 minutes.  Once done remove from oven and stir in lemon juice and sprinkle over coriander.  Serve with crusty bread, mash spud or rice.  Good hardy winter dish!
+    </step>
+</recipe>

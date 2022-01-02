@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Jasmine Special</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>2 bananas peeled </ingredient>
+    <ingredient>1 handful baby spinach </ingredient>
+    <ingredient>1/2 cup soy milk</ingredient>
+    <ingredient>1 TBSP protein powder</ingredient>
+    <ingredient>4-5 ice cubes</ingredient>
+    <ingredient>1 teaspoon honey</ingredient>
+    <ingredient>Sprinkle of cinnamon </ingredient>
+
+    <step>
+Place all ingredients into a bullet or blender, enjoy immediately.
+    </step>
+</recipe>

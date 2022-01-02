@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Salmon Fajitas </title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1 TBsp oil </ingredient>
+    <ingredient>1 green capsicum chopped </ingredient>
+    <ingredient>1 onion chopped </ingredient>
+    <ingredient>1 packet fajita mix</ingredient>
+    <ingredient>1/2 cup water</ingredient>
+    <ingredient>1 can drained salmon </ingredient>
+    <ingredient>1 packet soft tortillas</ingredient>
+    <ingredient>Cream cheese/ shredded lettuce/ chopped tomatoes to serve</ingredient>
+
+    <step>
+Heat oil in a fry pan and cook onion until soft.  Add capsicum and cook for a few more minutes.  Add fajita mix and stir well until all the veggies are coated. Add water and stir well, then add salmon (you can remove the bones before adding if you prefer.) Serve with heated tortillas with cheese spread over it and lettuce and chopped tomatoes. Roll up and enjoy!
+    </step>
+</recipe>

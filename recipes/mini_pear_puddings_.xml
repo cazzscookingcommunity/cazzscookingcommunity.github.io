@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Mini Pear Puddings </title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>3 Packham Pairs</ingredient>
+    <ingredient>1 cup SR flour</ingredient>
+    <ingredient>3/4 cup sugar</ingredient>
+    <ingredient>1/2 cup milk</ingredient>
+    <ingredient>1 teaspoon butter or marg</ingredient>
+    <ingredient>1 teaspoon vanilla essence </ingredient>
+    <ingredient>1 can passionfruit strained</ingredient>
+
+    <step>
+Preheat oven to 180C. Grease a 12 muffin tray and set aside. Mix sugar and flour in a large bowl. Peel and cut up pears into small pieces (don’t use the core.) Mix the milk melted butter and vanilla into the dry ingredients. Fold through the pear pieces. Place heap TBspoon each muffin hole and distribute until all used up. Cook for 20 minutes or until golden on top. Serve hot with passionfruit juice poured on top. Refrigerate both juice and remaining puddings up to a week.
+    </step>
+</recipe>

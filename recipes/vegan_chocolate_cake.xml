@@ -7,7 +7,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
                                                                                 
     <title>Vegan Chocolate Cake</title>
 
-    <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmother's Neighbour!</comment>
+    <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmothers Neighbour!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -38,7 +38,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
         <ingredient>2 TBspoons cocoa sifted</ingredient>
         <ingredient>1 TBspoon Nutalex melted</ingredient>
         <ingredient>1-2 TBspoons Boiling water</ingredient>
-        <ingredient>cheat by using Betty Crocker's prepared icing.
+        <ingredient>cheat by using Betty Crockers prepared icing.
         ** not appropriate for vegan or diary intolerant.</ingredient>
         <step>Stir dry ingredients together and add Nutalex. Add water one TBspoon at a time until you get your desired consistency.  Spread over cooled cake and decorated with what you desired ( MandMs, shredded coconut, fresh berries, sprinkles are a few examples.)</step>
     </part>

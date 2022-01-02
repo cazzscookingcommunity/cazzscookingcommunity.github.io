@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Black Bean Salad</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+  
+    <part>
+        <title>Main</title>
+        <ingredient>1 can black beans rinsed and drained</ingredient>
+        <ingredient>1 can corn drained</ingredient>
+        <ingredient>1 red capsicum diced</ingredient>
+        <ingredient>3-4 spring onions chopped </ingredient>
+        <ingredient>1/2 bunch parsley finely chopped</ingredient>
+        <step>Put all Salad ingredients in a medium bowl and stir well to mix. Place dressing ingredients in a small jar and shake well. Pour dressing over salad just before serving and mix well.</step>
+    </part>
+
+    <part>
+        <title>Dressing</title>
+        <ingredient>3 TBsp olive oil</ingredient>
+        <ingredient>1 TBsp balsamic vinegar</ingredient>
+        <ingredient>1/2 teaspoon Dijon mustard</ingredient>
+        <ingredient>salt and pepper to taste</ingredient>
+    </part>
+</recipe>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Easy Lunch Bowl</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>Cooked rice</ingredient>
+    <ingredient>Can lentils rinsed and drained</ingredient>
+    <ingredient>Kale washed stripped and chopped </ingredient>
+    <ingredient>Tzatziki</ingredient>
+    <ingredient>Sweet spud chopped and cooked</ingredient>
+    <ingredient>Salad- radish/tomatoes/celery </ingredient>
+
+    <step>In a bowl put a handful of kale. On top pile a layer of rice, then pile sweet spud, lentil ( 1/4 cup), salad and tzatziki.</step>
+
+    <step>Serve cold and let the person mix together if the want!</step>
+</recipe>

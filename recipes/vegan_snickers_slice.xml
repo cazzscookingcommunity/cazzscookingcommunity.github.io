@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Vegan Snickers Slice</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+
+
+    <diet>GlutenFree Vegan</diet>
+
+    <part>
+        <title>Base</title>
+        <ingredient>1/2 cup gluten free oats</ingredient>
+        <ingredient>1/2 cup cashews</ingredient>
+        <ingredient>1/2 cup almonds or peanuts</ingredient>
+        <ingredient>1/2 cup desiccated coconut </ingredient>
+        <ingredient>1/4 cup maple syrup</ingredient>
+        <ingredient>2 TBsp peanut butter (Mayvers brand or all natural type)</ingredient>
+        <ingredient>Pinch of rock salt crushed </ingredient>
+        <step>Prepare a square 8</step>
+    </part>
+
+
+    <part>
+        <title>Middle</title>
+        <ingredient>1 cup Medjool dates pitted and soaked for 30 mins</ingredient>
+        <ingredient>1/2 TBsp maple syrup</ingredient>
+        <ingredient>1/2 teaspoon vanilla essence</ingredient>
+        <ingredient>1/2 cup peanuts</ingredient>
+        <ingredient>Pinch of rock salt crushed</ingredient>
+    </part>
+
+    <part>
+        <title>Top</title>
+        <ingredient>1/2 cup copha or coconut oil</ingredient>
+        <ingredient>6 TBsp cacao or pure cocoa</ingredient>
+        <ingredient>2 TBsp maple syrup</ingredient>
+        <ingredient>1/2 cup shredded coconut (if desired)</ingredient>
+    </part>
+
+</recipe>

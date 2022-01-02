@@ -6,13 +6,29 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 
 <recipe>
+    <title>Gails Potato Salad</title>
+    <filename>gails_potato_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Calzone</title>
     <filename>calzone.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>vegeterian</diet>
+    <diet>Vegetarian</diet>
+</recipe>
+<recipe>
+    <title>Home made Carmen Bars</title>
+    <filename>home_made_carmen_bars.xml</filename>
+    <comment>c/o Norbu with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Popcorn </title>
@@ -21,6 +37,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+</recipe>
+<recipe>
+    <title>Feel Good Shake</title>
+    <filename>feel_good_shake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category>Drink</category>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Mars Bar Slice</title>
@@ -39,6 +64,22 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Chicken Noodle Soup</title>
+    <filename>chicken_noodle_soup.xml</filename>
+    <comment>Easy quick lunch!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category>Soup</category>
+</recipe>
+<recipe>
+    <title>Anzac Cookies</title>
+    <filename>anzac_cookies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Pea and Ham Soup</title>
     <filename>pea_and_ham_soup.xml</filename>
     <comment></comment>
@@ -46,6 +87,22 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Big Boy Burgers</title>
+    <filename>big_boy_burgers.xml</filename>
+    <comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Russian Tea Cakes</title>
+    <filename>russian_tea_cakes.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Tuna Rice Bake</title>
@@ -57,17 +114,51 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>FODMAP </diet>
 </recipe>
 <recipe>
+    <title>Spicy Lentil Dip</title>
+    <filename>spicy_lentil_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
     <title>Vegetable Lentil Curry</title>
     <filename>vegetable_lentil_curry.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegeterian</diet>
+    <diet>Vegetarian</diet>
 </recipe>
 <recipe>
     <title>Sarah Os Brownies</title>
     <filename>sarah_os_brownies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy Mini Cheese Cakes</title>
+    <filename>easy_mini_cheese_cakes.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Six layer dip</title>
+    <filename>six_layer_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Irish Mashed Spud</title>
+    <filename>irish_mashed_spud.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -81,6 +172,39 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>GlutenFree Vegan</diet>
+</recipe>
+<recipe>
+    <title>Sues Brown Rice Salad</title>
+    <filename>sues_brown_rice_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Healthy Sausage Rolls</title>
+    <filename>healthy_sausage_rolls.xml</filename>
+    <comment>(c/o Pampas)</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Warm French Lentils </title>
+    <filename>warm_french_lentils.xml</filename>
+    <comment>This can be doubled.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Muesli Cookies</title>
+    <filename>muesli_cookies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Turkey Burgers</title>
@@ -101,6 +225,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>Gluten Free Brownie</title>
+    <filename>gluten_free_brownie.xml</filename>
+    <comment>c/o Cacao powder with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
     <title>Lazy Risotto</title>
     <filename>lazy_risotto.xml</filename>
     <comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
@@ -110,6 +243,14 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>Orange Cake</title>
+    <filename>orange_cake.xml</filename>
+    <comment>c/o good food.com.au with cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Middle Eastern Lentil Salad</title>
     <filename>middle_eastern_lentil_salad.xml</filename>
     <comment>Easy, healthy, quick and yum!</comment>
@@ -117,6 +258,14 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>FODMAP </diet>
+</recipe>
+<recipe>
+    <title>Cazzies Veggie Soup</title>
+    <filename>cazzies_veggie_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Grandmas Veggie Soup</title>
@@ -135,9 +284,50 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Mini Oat Bars</title>
+    <filename>mini_oat_bars.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+    <title>Patricia’s Pannecotta</title>
+    <filename>patricia’s_pannecotta.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Grandmas Rice Custard </title>
+    <filename>grandmas_rice_custard_.xml</filename>
+    <comment>egg replacer can be substituted in this recipe</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Gerrys Banana and Pecan Cake</title>
+    <filename>gerrys_banana_pecan_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Lamb Cutlets</title>
     <filename>lamb_cutlets.xml</filename>
     <comment>10 minute meal</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Teresas Chilli</title>
+    <filename>teresas_chilli.xml</filename>
+    <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -151,6 +341,14 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Cazzies Smoothy</title>
+    <filename>cazzies_smoothy.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category>Drink</category>
+</recipe>
+<recipe>
     <title>CHOW MEIN</title>
     <filename>chow_mein.xml</filename>
     <comment>Easy, Quick, Yummy </comment>
@@ -158,6 +356,54 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Chicken Soup with Rice</title>
+    <filename>chicken_soup_with_rice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Jasmine Special</title>
+    <filename>jasmine_special.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Aunty Jackie’s Pancakes</title>
+    <filename>aunty_jackies_pancakes.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Basic Ice Tea</title>
+    <filename>basic_ice_tea.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Simple Dahl </title>
+    <filename>simple_dahl.xml</filename>
+    <comment>served with ancient grains and coriander</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Rocky Road</title>
+    <filename>rocky_road.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>GlutenFree WheatBix slice</title>
@@ -169,6 +415,79 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>Adrianas Chicken and Chorizo</title>
+    <filename>adrianas_chicken_chorizo.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy chicken dinner</title>
+    <filename>easy_chicken_dinner.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Oat Slice</title>
+    <filename>oat_slice.xml</filename>
+    <comment>c/o oh she glows with cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegan GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Asian Salad</title>
+    <filename>asian_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy Pud</title>
+    <filename>easy_pud.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Ridiculously Good Olive Oil Dip!</title>
+    <filename>ridiculously_good_olive_oil_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Herb Rub</title>
+    <filename>herb_rub.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>chickpeas</title>
+    <filename>chickpeas.xml</filename>
+    <comment>How to cook Chick Peas in slow cooker- easy as!.  c/o inspiredtaste.net method 3 with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy Hiking Breakfast </title>
+    <filename>easy_hiking_breakfast.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Cottage Pie</title>
     <filename>cottage_pie.xml</filename>
     <comment></comment>
@@ -176,6 +495,73 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Greek chicken and lemon rice</title>
+    <filename>greek_chicken_lemon_rice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Hummus </title>
+    <filename>hummus.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Mini Pear Puddings </title>
+    <filename>mini_pear_puddings_.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Carlys Dads Veggie Lasagna</title>
+    <filename>carlys_dads_veggie_lasagna.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegetarian</diet>
+</recipe>
+<recipe>
+    <title>Awesome Cappuccino Mix</title>
+    <filename>awesome_cappuccino_mix.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Moroccan Fries</title>
+    <filename>moroccan_fries.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Coconut Roughs</title>
+    <filename>coconut_roughs.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Tzatziki </title>
+    <filename>tzatziki.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Grandmas Pasties</title>
@@ -186,8 +572,34 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Vegan Snickers Slice</title>
+    <filename>vegan_snickers_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree Vegan</diet>
+</recipe>
+<recipe>
+    <title>Nasi Goreng</title>
+    <filename>nasi_goreng.xml</filename>
+    <comment>c/o New Idea with cazzie tweaks.   </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
     <title>Rum Balls</title>
     <filename>rum_balls.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Fall Greens</title>
+    <filename>fall_greens.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -203,8 +615,67 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>FODMAP Vegan</diet>
 </recipe>
 <recipe>
+    <title>Mac and Cheese</title>
+    <filename>mac_and_cheese.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Life Changing Bread</title>
+    <filename>life_changing_bread.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Moroccan Lentils</title>
+    <filename>moroccan_lentils.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree FODMAP Vegetarian</diet>
+</recipe>
+<recipe>
+    <title>Grandmas Bread and Butter Pud</title>
+    <filename>grandmas_bread_and_butter_pud.xml</filename>
+    <comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Mince Tarts</title>
+    <filename>mince_tarts.xml</filename>
+    <comment>Make extra dough and wrap in plastic wrap and freeze up to 3 months.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Gratin</title>
+    <filename>gratin.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
     <title>Banana Bread</title>
     <filename>banana_bread.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Quick Pasta Bake</title>
+    <filename>quick_pasta_bake.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -228,13 +699,29 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Kathy's Hedgehog</title>
+    <title>Kathys Hedgehog</title>
     <filename>kathys_hedgehog.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree Vegan FODMAP </diet>
+</recipe>
+<recipe>
+    <title>White Sauce</title>
+    <filename>white_sauce.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Monty’s Pancakes</title>
+    <filename>monty’s_pancakes.xml</filename>
+    <comment>Thanks for sharing Monty ;)</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>smoked salmon salad</title>
@@ -255,6 +742,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree Vegan</diet>
 </recipe>
 <recipe>
+    <title>Cup Cakes</title>
+    <filename>cup_cakes.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree </diet>
+</recipe>
+<recipe>
     <title>Larb</title>
     <filename>larb.xml</filename>
     <comment></comment>
@@ -262,6 +758,106 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Coq au vin</title>
+    <filename>coq_au_vin.xml</filename>
+    <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Sams Chocolate Chip Cookies</title>
+    <filename>sams_chocolate_chip_cookies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Filo Pie</title>
+    <filename>filo_pie.xml</filename>
+    <comment>c/o sbs.com.au Filo Pie- with Cazzie Tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet></diet>
+</recipe>
+<recipe>
+    <title>Upside Down Banana Cake</title>
+    <filename>upside_down_banana_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy Lunch Bowl</title>
+    <filename>easy_lunch_bowl.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Chocolate Pud</title>
+    <filename>chocolate_pud.xml</filename>
+    <comment>C/o New Idea with Cazzie Tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Quick and Easy Butter Chicken </title>
+    <filename>quick_easy_butter_chicken.xml</filename>
+    <comment>c/o Campbell’s Soup</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Rosemary Spuds</title>
+    <filename>rosemary_spuds.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Lunch slice </title>
+    <filename>lunch_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Beans and Sausages</title>
+    <filename>beans_sausages.xml</filename>
+    <comment>Great camping dish</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Potatoe and Leek Soup</title>
+    <filename>potatoe_and_leek_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree Vegan</diet>
+</recipe>
+<recipe>
+    <title>Hummingbird Cake</title>
+    <filename>hummingbird_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree </diet>
 </recipe>
 <recipe>
     <title>Baked Christmas Ham</title>
@@ -281,8 +877,124 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>My Mum’s Curry Sausages</title>
+    <filename>my_mum’s_curry_sausages.xml</filename>
+    <comment>An oldie but a goodie for cold winter nights!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Pad Thai Noodles</title>
+    <filename>pad_thai_noodles.xml</filename>
+    <comment>c/o Chang’s</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Reginas Rum Cake </title>
+    <filename>reginas_rum_cake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Boston Tea</title>
+    <filename>boston_tea.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Spiced Cake</title>
+    <filename>spiced_cake.xml</filename>
+    <comment>c/o Fresh Mag with Cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Jasmines Ice Coffee</title>
+    <filename>jasmines_ice_coffee.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Black Bean Salad</title>
+    <filename>black_bean_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Osso Buco</title>
+    <filename>osso_buco.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Green Thai Chicken Curry</title>
+    <filename>green_thai_chicken_curry.xml</filename>
+    <comment>c/o Taste with Cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Quick Chicken Pho</title>
+    <filename>quick_chicken_pho.xml</filename>
+    <comment>c/o Woolworth</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Home made crackers</title>
+    <filename>home_made_crackers.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Homemade Fajita Mix</title>
+    <filename>homemade_fajita_mix.xml</filename>
+    <comment>c/o diethood.com</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
     <title>Lasagne</title>
     <filename>lasagne.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Curtis Stones Rice Noodles</title>
+    <filename>curtis_stones_rice_noodles.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Oven Risotto with Sweet Spud</title>
+    <filename>oven_risotto_with_sweet_spud.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -298,12 +1010,46 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>FODMAP </diet>
 </recipe>
 <recipe>
-    <title>Simple Dahl </title>
-    <filename>simple_dahl_.xml</filename>
-    <comment>served with ancient grains and coriander</comment>
+    <title>Vegetable Bake</title>
+    <filename>vegetable_bake.xml</filename>
+    <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+</recipe>
+<recipe>
+    <title>Okonomiyaki</title>
+    <filename>okonomiyaki.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Frittata</title>
+    <filename>frittata.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Raspberry Blondies</title>
+    <filename>raspberry_blondies.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Harira</title>
+    <filename>harira.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Lentil Salad</title>
@@ -315,13 +1061,127 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>Salmon Fajitas </title>
+    <filename>salmon_fajitas.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Martys Tiramisu</title>
+    <filename>martys_tiramisu.xml</filename>
+    <comment>this recipe can be doubled or even tripled</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Quick Kale Soup</title>
+    <filename>quick_kale_soup.xml</filename>
+    <comment>c/o taste.com with cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP </diet>
+</recipe>
+<recipe>
+    <title>Mexican Black Beans and Rice</title>
+    <filename>mexican_black_beans_and_rice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Black bean noodles </title>
+    <filename>black_bean_noodles.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Vegan Chocolate Cake</title>
     <filename>vegan_chocolate_cake.xml</filename>
-    <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmother's Neighbour!</comment>
+    <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmothers Neighbour!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree Vegan</diet>
+</recipe>
+<recipe>
+    <title>Julian’s Bubcia’s Schnitzel</title>
+    <filename>julians_bubcias_schnitzel.xml</filename>
+    <comment>Thanks for teaching me how Jules!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Artichoke Dip</title>
+    <filename>artichoke_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Dutch Oven Enchiladas</title>
+    <filename>dutch_oven_enchiladas.xml</filename>
+    <comment>C/O Cabelas with Chris tweaks. Great to cook when camping- cook in camp fire instead of oven!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Pizza Dough</title>
+    <filename>pizza_dough.xml</filename>
+    <comment>c/o Harrys Mum</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>One Pot Pasta</title>
+    <filename>one_pot_pasta.xml</filename>
+    <comment>c/o Instagram Diply</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Grandmas Steak and Black Beans</title>
+    <filename>grandmas_steak_and_black_beans.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Jassy Tasty Wraps</title>
+    <filename>jassy_tasty_wraps.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Tuna Pasta</title>
+    <filename>tuna_pasta.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Egg Slice</title>
+    <filename>egg_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Quick Banana Dessert</title>
@@ -340,9 +1200,49 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Egg and Bacon Pie</title>
+    <filename>egg_and_bacon_pie.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Rice Bubble Slice</title>
+    <filename>rice_bubble_slice.xml</filename>
+    <comment>c/o mykidslickthebowl with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Breakfast Rolls</title>
+    <filename>breakfast_rolls.xml</filename>
+    <comment>C/o Buzz feed</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Easy Scones</title>
     <filename>easy_scones.xml</filename>
     <comment>Easiest Scones in the WORLD</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Alecias Cinnamon Rolls</title>
+    <filename>alecias_cinnamon_rolls.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Cauliflower and Broccoli Bake</title>
+    <filename>cauliflower_and_broccoli_bake.xml</filename>
+    <comment>c/o Michelle Bridges with cazzies tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -356,9 +1256,67 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
+    <title>Macaroons</title>
+    <filename>macaroons.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Cookie in a Cup</title>
+    <filename>cookie_in_a_cup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Mon and Chloes Stir Fried Noodles</title>
+    <filename>mon_chloes_stir_fried_noodles.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>American BBQ SpareRibs</title>
     <filename>american_bbq_spareribs.xml</filename>
     <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Callums Sauté Pumpkin with Peanuts</title>
+    <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegetarian FODMAP</diet>
+</recipe>
+<recipe>
+    <title>No Bake Oreo Cheese Cake</title>
+    <filename>no_bake_oreo_cheese_cake.xml</filename>
+    <comment>c/o Live well bake often</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Nutella Slice</title>
+    <filename>nutella_slice.xml</filename>
+    <comment>c/o Delicious with Cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Green Bean Salad</title>
+    <filename>green_bean_salad.xml</filename>
+    <comment>c/o Genius Kitchen</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -373,8 +1331,81 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
+    <title>Home Made English Muffins</title>
+    <filename>home_made_english_muffins.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Chriss Filipino Egg Pie</title>
+    <filename>chriss_filipino_egg_pie.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Carrot Dip</title>
+    <filename>carrot_dip.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Curry Rice with Salmon</title>
+    <filename>curry_rice_with_salmon.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Rocket and Pine nut Salad</title>
+    <filename>rocket_pine_nut_salad.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
     <title>Cherry Tomatoe Bake</title>
     <filename>cherry_tomatoe_bake.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Lemon Slice</title>
+    <filename>lemon_slice.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Mint Slice</title>
+    <filename>mint_slice.xml</filename>
+    <comment>c/o Fresh Magazine with cazzie tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Upside-down cake</title>
+    <filename>upside_down_cake.xml</filename>
+    <comment>c/o taste</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree </diet>
+</recipe>
+<recipe>
+    <title>Easy Stir Fry</title>
+    <filename>easy_stir_fry.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -387,6 +1418,47 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+</recipe>
+<recipe>
+    <title>Mexican Chilli Pie</title>
+    <filename>mexican_chilli_pie.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Mango Slushie</title>
+    <filename>mango_slushie.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Coleslaw Dressing </title>
+    <filename>coleslaw_dressing.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Curry Carrot Soup</title>
+    <filename>curry_carrot_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Greek Salad</title>
+    <filename>greek_salad.xml</filename>
+    <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP</diet>
 </recipe>
 
 

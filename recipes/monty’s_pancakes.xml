@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Monty’s Pancakes</title>
+
+    <comment>Thanks for sharing Monty ;)</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1/2 cup flour sifted </ingredient>
+    <ingredient>3/4 cup milk</ingredient>
+    <ingredient>2 eggs </ingredient>
+    <ingredient>Pinch of salt</ingredient>
+    <ingredient>Spray oil </ingredient>
+
+    <step>
+Beat eggs in a medium bowl and add other ingredients and mix well. In a medium saucepan that is heated to medium to hot heat spray oil and pour in about 3/4 cup of mixture. Tilt the pan around so mixture spreads out. Once bubbles pop in the middle, flip pancake to cook the other side. Once golden on underside, transfer to a plate and serve with a sprinkle of sugar and some lime juice (or other ingredients like jam and cream.) 
+Recipe can be doubled.
+    </step>
+</recipe>

@@ -17,7 +17,7 @@ $(document).ready(function(){
         recipeList = res.querySelectorAll('recipe');
         $recipeList = $( recipeList );
 
-        getCategorys($recipeList, "category, diet, meal", categorys);
+        getCategorys($recipeList, "category, diet", categorys);
 
         //display categories for simple search
         let listCategory = [];
@@ -88,7 +88,8 @@ function getCategorys($recipe, cssSelector, newlist) {
             cat = cat.replace("!", "");
             cat = cat.replace("-", "");
             if ( ! ( cat == "" ) ) {
-                newlist.add(cat.toUpperCase());
+                // newlist.add(cat.toUpperCase());
+                newlist.add(cat);
             }
         }
     }

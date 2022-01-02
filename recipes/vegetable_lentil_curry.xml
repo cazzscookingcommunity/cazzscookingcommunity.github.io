@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>Vegeterian</diet>
+    <diet>Vegetarian</diet>
 
     <ingredient>2 Tbsp oil</ingredient>
     <ingredient>4 Tbsp green curry paste</ingredient>

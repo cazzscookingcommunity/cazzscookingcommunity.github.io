@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Aunty Jackie’s Pancakes</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1 1/2 cups milk</ingredient>
+    <ingredient>2 cups SR flour</ingredient>
+    <ingredient>2 TBSP sugar</ingredient>
+    <ingredient>1 egg beaten</ingredient>
+
+    <step>
+Whisk flour and sugar together, add milk and egg. Whisk together until combined and there are no lumps. Heat fry pan to medium to hot and melt some butter in pan then add 1/4 cup of the mixture. Turn pancake when bubbles are popping in the middle. Remove once golden brown. Continue until all mixture is used. Serves 4-6 people. Serve with your favourite toppings.
+    </step>
+</recipe>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Warm French Lentils </title>
+
+    <comment>This can be doubled.</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+   
+    <diet>GlutenFree</diet>
+
+    <part>
+        <title>Main</title>
+        <ingredient>1 cup green or French lentils</ingredient>
+        <ingredient>3 cups water </ingredient>
+        <ingredient>4 bacon rashes chopped </ingredient>
+        <ingredient>4 cloves garlic chopped</ingredient>
+        <ingredient>2 rosemary sprigs leaves removed and chopped </ingredient>
+        <ingredient>2 TBsps capers chopped</ingredient>
+        <ingredient>1/2 cup parsley chopped</ingredient>
+        <ingredient>2 chicken stock cubes</ingredient>
+        <ingredient>2 TBsp olive oil </ingredient>
+        <ingredient>salt and pepper taste</ingredient>
+        <step>Soak lentils in water with a little salt for 6-8 hours. Once soaked crush with your fingers the stock cubes in lentils and stir well. </step>
+        <step>Place on heat and cook for 20-25 minutes. Add extra water if it becomes dry. Stir occasionally. Once done drain and return to pot. </step>
+        <step>Meanwhile heat olive oil in a fry pan and cook bacon, until crispy and brown. Add garlic and cook for a further 3-5 minutes. </step>
+        <step>Add rosemary and cook for a further minute or two. Turn off heat and add dressing and capers.</step>
+        <step>Stir well then pot into lentils. Add salt and pepper to taste and parsley and stir well.</step>
+        <step>Serve with crusty bread or as a side.</step> 
+    </part>
+
+    <part>
+        <title>Dressing</title>
+        <ingredient>3 TBsp olive oil</ingredient>
+        <ingredient>1 TBsp grainy mustard</ingredient>
+        <ingredient>1/2 TBsp balsamic vinegar</ingredient>
+        <ingredient>1 teasp dried sage</ingredient>
+        <step>Mix in jar and pour over</step>
+    </part>
+
+</recipe>

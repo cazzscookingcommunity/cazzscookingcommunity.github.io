@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Chocolate Pud</title>
+
+    <comment>C/o New Idea with Cazzie Tweaks</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>60gms butter at room Temperate</ingredient>
+    <ingredient>1 teasp vanilla essence</ingredient>
+    <ingredient>1/2 cup caster sugar</ingredient>
+    <ingredient>1 egg beaten</ingredient>
+    <ingredient>1/2 cup milk</ingredient>
+    <ingredient>1/2 cup flour and cocoa powder</ingredient>
+    <ingredient>1/2 cup brown sugar</ingredient>
+    <ingredient>1 1/2 cups boiling water</ingredient>
+    <ingredient>Icing sugar to decorate</ingredient>
+    <ingredient>Cream and/or Ice cream to serve</ingredient>
+
+    <step>Place butter, essence and caster sugar in electric mixer and beat until light and fluffy.  Add egg and beat until combined.  Stir in combined sifted flour and 1/2 the cocoa. pour into oven proof bowl and smooth over top. Sprinkle over the top the remaining sifted cocoa and brown sugar.  Carefully pour over boiling water and place in preheated (180C) oven for 30-40 minutes.  Remove from oven and let stand for 5 minutes (if you can wait!)  Sprinkle over icing sugar and serve with cream and/or ice cream.
+    </step>
+</recipe>

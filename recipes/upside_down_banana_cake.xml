@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Upside Down Banana Cake</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+
+
+
+    <part>
+        <ingredient>75gms butter</ingredient>
+        <ingredient>1/4 cup sugar</ingredient>
+        <ingredient>1/4 cup brown sugar</ingredient>
+        <ingredient>1 teasp vanilla essence</ingredient>
+        <ingredient>1/2 teasp baking soda </ingredient>
+        <ingredient>4 bananas cut in half</ingredient>
+        <ingredient>3/4 cup plain flour</ingredient>
+        <ingredient>1/2 teasp baking powder</ingredient>
+        <ingredient>1/4 cup coconut</ingredient>
+        <ingredient>1/4 milk</ingredient>
+        <ingredient>1 egg</ingredient>
+        <step>Turn on oven to 160C.</step>
+        <step>Prepare a baking dish by greasing it with butter and set aside. </step>
+        <step>Melt butter for sauce in a small pan. Once completely melted add the sugar. Stir until melted. </step>
+        <step>Pour in prepared dish, then place cut bananas on top, set aside. </step>
+    
+        <step>Beat butter in mixer until light. Add sugars and beat for 5 minutes. Add egg and vanilla essence and beat until combine. </step>
+        <step>Add flour, coconut and baking soda then lastly milk. Beat until combined and push down sides a few times. </step>
+        <step>Spoon over bananas and flatten with a large spoon. </step>
+        <step>Place in oven for 30 minutes or until top is golden. </step>
+        <step>Turn upside down on a dish and serve with ice cream or cream, if desired.</step>
+    </part>
+
+    <part>
+        <title>Sauce</title>
+        <ingredient>100gms butter</ingredient>
+        <ingredient>1/2 cup brown sugar</ingredient>
+    </part>
+
+</recipe>

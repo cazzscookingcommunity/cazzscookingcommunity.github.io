@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Carlys Dads Veggie Lasagna</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>Vegetarian</diet>
+
+    <ingredient>1 large sweet potatoe peeled and chopped</ingredient>
+    <ingredient>2-3 corn cobs (cobs removed)</ingredient>
+    <ingredient>2 cups chopped cauliflower</ingredient>
+    <ingredient>2 cups chopped broccoli</ingredient>
+    <ingredient>2 bunches spinach washed and chopped </ingredient>
+    <ingredient>1-2 carrots chopped</ingredient>
+    <ingredient>1-2 sticks of celery chopped</ingredient>
+    <ingredient>1 can red beans rinsed and drained</ingredient>
+    <ingredient>1 can chopped tomatoes</ingredient>
+    <ingredient>750ml pasata</ingredient>
+    <ingredient>2 cups water</ingredient>
+    <ingredient>2 vegetable stock cubes</ingredient>
+    <ingredient>1 TBsp sugar</ingredient>
+    <ingredient>1 TBsp Italian herbs</ingredient>
+    <ingredient>2 bay leaves</ingredient>
+    <ingredient>3-5 garlic cloves crushed</ingredient>
+    <ingredient>2 TBsp olive oil</ingredient>
+    <ingredient>Lasagna sheets</ingredient>
+    <ingredient>salt and pepper to taste</ingredient>
+    <ingredient>300ml cooking cream</ingredient>
+    <ingredient>400-500gms grated cheese</ingredient>
+
+    <step>
+Heat oil in a large pot and add garlic.  Cook until golden, then add pasata, chopped tomatoes, water, stock cubes, herbs and sugar.  Give it a good stir, then add all the vegetables except the spinach.  Bring to the boil and reduce to a simmer and cook for 4 hours with the lid on.  Stir every now and then, to prevent it from sticking to the bottom.  Add the spinach and keep lid on for another 15 minutes.  At this time you can turn on the stove to preheat the oven to 180C.  Remove the lid and stir well to combine the spinach.  Cook for a further 45 minutes, with the lid off.  Once done remove from the heat. 
+Add salt and pepper and give it a good stir.  Grease an oven proof dish and place about 3 cups of the veggie mix on the bottom.  Pour over 1/3 of the cream and sprinkle cheese on top.  Cover with lasagna sheets and repeat 2 more times.  On the last layer ensure there is enough cheese to cover the top.  Cover with foil and cook for 45 minutes.  Remove foil and cook for another 15 minutes.
+    </step>
+</recipe>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Cazzies Veggie Soup</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>2 TBsp olive oil</ingredient>
+    <ingredient>4-6 cloves garlic crushed</ingredient>
+    <ingredient>2 TBsp ginger grated</ingredient>
+    <ingredient>1/4-1/2 teaspoon chilli</ingredient>
+    <ingredient>2 teaspoon cumin</ingredient>
+    <ingredient>1/2 teaspoon turmeric </ingredient>
+    <ingredient>2 cups red lentils</ingredient>
+    <ingredient>1.5 lt stock </ingredient>
+    <ingredient>salt and pepper to taste</ingredient>
+    <ingredient>Any veggies you have in your fridge!</ingredient>
+    <ingredient>Greek yogurt to serve</ingredient>
+
+    <step>
+Heat oil in large pot and cook garlic and ginger for 5 minutes.  Add spices and cook a further 2 minutes. Add lentils and stock and bring to the boil. Reduce to simmer and cook for 20 minutes.  Meanwhile chop the vegetables you want to add ( great for any veggies you want to get rid of at the end of the week.) Cook for about 20 minutes or until veggies are cooked. Serve with a dollop of Greek yogurt and naan bread if desired.
+    </step>
+</recipe>

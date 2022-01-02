@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Cookie in a Cup</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>2 ceramic cups </ingredient>
+    <ingredient>2 TBsp butter</ingredient>
+    <ingredient>1 TBsp brown sugar </ingredient>
+    <ingredient>1 TBsp sugar</ingredient>
+    <ingredient>1/4 teaspoon vanilla</ingredient>
+    <ingredient>1/4 teaspoon baking powder</ingredient>
+    <ingredient>1/3 cup flour</ingredient>
+    <ingredient>1 egg</ingredient>
+    <ingredient>Pinch salt</ingredient>
+
+    <step>
+In a small jug melt butter for 30 seconds. Add sugars and vanilla stir. Beat egg and stir in, then add flour, baking soda and salt. Stir until lumps removed, then stir through chocolate chips. Pour equally between the two cups and cook individually for 30-40 seconds. Sprinkle over a few more chocolate chips and sprinkle a little cocoa. Serve immediately.
+    </step>
+</recipe>

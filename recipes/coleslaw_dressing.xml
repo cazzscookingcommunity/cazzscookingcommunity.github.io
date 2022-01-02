@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Coleslaw Dressing </title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1/4 Mayo</ingredient>
+    <ingredient>1/2 Lemon juiced</ingredient>
+    <ingredient>Or</ingredient>
+    <ingredient>1 Lime juiced </ingredient>
+    <ingredient>1 TBsp poppyseed </ingredient>
+    <ingredient>salt and pepper to taste </ingredient>
+
+    <step>
+Mix all ingredients together and add to your coleslaw. Mix through and serve immediately.
+    </step>
+</recipe>

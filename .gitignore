@@ -1,0 +1,9 @@
+# ignore ALL files in ANY directory named ...
+fb_files/
+fb_recipes/
+test_recipes/
+
+# ignore these files
+*.bak
+app.js
+template.xml

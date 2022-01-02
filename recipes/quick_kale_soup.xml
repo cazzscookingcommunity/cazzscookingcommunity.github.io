@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Quick Kale Soup</title>
+
+    <comment>c/o taste.com with cazzie tweaks </comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+    <diet>FODMAP </diet>
+
+
+    <ingredient>1-2 TBsp olive oil</ingredient>
+    <ingredient>2 garlic cloves crushed </ingredient>
+    <ingredient>1 carrot diced </ingredient>
+    <ingredient>2 celery sticks diced </ingredient>
+    <ingredient>3 bacon rashers diced (leave out if you want to have it vegetarian)</ingredient>
+    <ingredient>3-4 thyme stems </ingredient>
+    <ingredient>2 bay leaves </ingredient>
+    <ingredient>4-6 cups water</ingredient>
+    <ingredient>3 stock cubes</ingredient>
+    <ingredient>1 can lentils rinsed and drained</ingredient>
+    <ingredient>1 kale washed and chopped </ingredient>
+
+    <step>
+Heat oil in pot and cook garlic, bacon, thyme, bay leaves, carrot and celery for 10 minutes on medium-low heat. Once done add water and stock cubes, bring to the boil and reduce to a simmer and cook for 10 minutes. Add lentils and cook for 5-7 minuets. Remove bay leaves and thyme stems then add kale and stir well. Serve hot with bread of your choice if desired.
+    </step>
+</recipe>

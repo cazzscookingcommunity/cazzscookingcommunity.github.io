@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Gails Potato Salad</title>
+
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>1-2 kgs small potatoes</ingredient>
+    <ingredient>1/2 cup mayo</ingredient>
+    <ingredient>2 teaspoons vinegar</ingredient>
+    <ingredient>3 spring onions chopped </ingredient>
+    <ingredient>2-3 TBsp parsley and dill chopped</ingredient>
+    <ingredient>salt and pepper to taste</ingredient>
+
+    <step>
+Cut spuds in half and boil until tender but not mushy. Drain let sit in drainer for about 10 minutes to allow them to dry out. Place in bowl and mix through herbs. In a separate bowl stir together mayo, vinegar and salt and pepper. Once mixed carefully mix through spuds. Serve with spring onions sprinkled on top.
+    </step>
+</recipe>

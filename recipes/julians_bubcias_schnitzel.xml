@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+                                                                                
+    <title>Julian’s Bubcia’s Schnitzel</title>
+
+    <comment>Thanks for teaching me how Jules!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    <part></part>
+
+
+
+    <ingredient>500gms Chicken tenderloins</ingredient>
+    <ingredient>4 eggs beaten </ingredient>
+    <ingredient>1/2 cup flour</ingredient>
+    <ingredient>1 cup bread crumbs </ingredient>
+    <ingredient>Salt</ingredient>
+    <ingredient>Olive oil (not extra virgin)</ingredient>
+
+    <step>
+On a cutting board arrange a few tenders flat and cover with cling wrap. Use rolling pin to flatten, either by beating or rolling until the tenders are about 4-5 mm thick. Once all done salt well. In low flat dishes (like a pie dish or plate) pour out flour first, then eggs and lastly bread crumbs in separate dishes in a row. First dip the individual tender in flour then eggs and lastly bread crumbs. Make sure to coat completely between each layer.  Lay out on a plate and continue until all pieces have been coated.
+Heat enough olive oil (should come up the side about 1 cm) in a fry pan to medium to hot heat. Cook a few pieces at a time making sure not to over crowd the pan. You may need to tip up the oil if needed. Drain schnitzels on grease proof paper.
+Serve schnitzel with chips and/or salad. Can double or triple recipe. Refrigerate any pieces not consumed immediately (unlikely 😉)
+    </step>
+</recipe>
