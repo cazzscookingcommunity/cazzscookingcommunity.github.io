@@ -7,7 +7,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
                                                                                 
     <title>Pad Thai Noodles</title>
 
-    <comment>c/o Chang’s</comment>
+    <comment>c/o Changs</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -19,7 +19,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
 
 
 
-    <ingredient>250gms Chang’s Thai Style rice noodles </ingredient>
+    <ingredient>250gms Changs Thai Style rice noodles </ingredient>
     <ingredient>1 TBsp oil</ingredient>
     <ingredient>1 TBsp chopped garlic </ingredient>
     <ingredient>4-5 Chicken thigh fillets stripped</ingredient>

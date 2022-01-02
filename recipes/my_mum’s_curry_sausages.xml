@@ -5,7 +5,7 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>My Mum’s Curry Sausages</title>
+    <title>My Mums Curry Sausages</title>
 
     <comment>An oldie but a goodie for cold winter nights!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

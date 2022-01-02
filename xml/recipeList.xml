@@ -293,7 +293,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Patricia’s Pannecotta</title>
+    <title>Patricias Pannecotta</title>
     <filename>patricia’s_pannecotta.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -374,7 +374,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Aunty Jackie’s Pancakes</title>
+    <title>Aunty Jackies Pancakes</title>
     <filename>aunty_jackies_pancakes.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -716,7 +716,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Monty’s Pancakes</title>
+    <title>Montys Pancakes</title>
     <filename>monty’s_pancakes.xml</filename>
     <comment>Thanks for sharing Monty ;)</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -811,7 +811,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 <recipe>
     <title>Quick and Easy Butter Chicken </title>
     <filename>quick_easy_butter_chicken.xml</filename>
-    <comment>c/o Campbell’s Soup</comment>
+    <comment>c/o Campbells Soup</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -877,7 +877,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>My Mum’s Curry Sausages</title>
+    <title>My Mums Curry Sausages</title>
     <filename>my_mum’s_curry_sausages.xml</filename>
     <comment>An oldie but a goodie for cold winter nights!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -887,7 +887,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 <recipe>
     <title>Pad Thai Noodles</title>
     <filename>pad_thai_noodles.xml</filename>
-    <comment>c/o Chang’s</comment>
+    <comment>c/o Changs</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -1111,7 +1111,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <diet>GlutenFree Vegan</diet>
 </recipe>
 <recipe>
-    <title>Julian’s Bubcia’s Schnitzel</title>
+    <title>Julians Bubcias Schnitzel</title>
     <filename>julians_bubcias_schnitzel.xml</filename>
     <comment>Thanks for teaching me how Jules!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
