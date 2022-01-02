@@ -12,7 +12,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>(Vegetarian)</diet>
+    <diet>vegeterian</diet>
+</recipe>
+<recipe>
+    <title>Popcorn </title>
+    <filename>popcorn.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Mars Bar Slice</title>
@@ -31,30 +39,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Quick and Easy Dessert</title>
-    <filename>quick_and_easy_dessert.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>Large Banana Bread</title>
-    <filename>large_banana_bread.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Super Easy</diet>
-</recipe>
-<recipe>
     <title>Pea and Ham Soup</title>
     <filename>pea_and_ham_soup.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP friendly</diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Tuna Rice Bake</title>
@@ -63,10 +54,19 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP friendly </diet>
+    <diet>FODMAP </diet>
 </recipe>
 <recipe>
-    <title>Sarah O's Brownies</title>
+    <title>Vegetable Lentil Curry</title>
+    <filename>vegetable_lentil_curry.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegeterian</diet>
+</recipe>
+<recipe>
+    <title>Sarah Os Brownies</title>
     <filename>sarah_os_brownies.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -80,16 +80,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>(Gluten Free, Vegan)</diet>
-</recipe>
-<recipe>
-    <title>MM*PUMPKIN SOUP</title>
-    <filename>mm_pumpkin_soup.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>FODMAP friendly</diet>
+    <diet>GlutenFree Vegan</diet>
 </recipe>
 <recipe>
     <title>Turkey Burgers</title>
@@ -98,6 +89,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+    <diet>FODMAP EggFree DiaryFree</diet>
 </recipe>
 <recipe>
     <title>Dark Chocolate Fudge</title>
@@ -106,25 +98,33 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>(Gluten Free, Vegan)</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Lazy Risotto</title>
     <filename>lazy_risotto.xml</filename>
-    <comment></comment>
+    <comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>(Gluten Free)</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Middle Eastern Lentil Salad</title>
     <filename>middle_eastern_lentil_salad.xml</filename>
-    <comment></comment>
+    <comment>Easy, healthy, quick and yum!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Easy, healthy, quick and yum!</diet>
+    <diet>FODMAP </diet>
+</recipe>
+<recipe>
+    <title>Grandmas Veggie Soup</title>
+    <filename>grandmas_veggie_soup.xml</filename>
+    <comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Traditional Shortbread</title>
@@ -135,9 +135,17 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Apple Pie with a twist</title>
-    <filename>apple_pie_with_a_twist.xml</filename>
-    <comment></comment>
+    <title>Lamb Cutlets</title>
+    <filename>lamb_cutlets.xml</filename>
+    <comment>10 minute meal</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Chow Mein</title>
+    <filename>chow_mein2.xml</filename>
+    <comment>Quick and easy!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -145,35 +153,22 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 <recipe>
     <title>CHOW MEIN</title>
     <filename>chow_mein.xml</filename>
-    <comment></comment>
+    <comment>Easy, Quick, Yummy </comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Easy, Quick, Yummy and FOMAP Friendly</diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>Easy Vegetable Lentil Curry</title>
-    <filename>easy_vegetable_lentil_curry.xml</filename>
+    <title>GlutenFree WheatBix slice</title>
+    <filename>glutenfree_wheatbix_slice.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-</recipe>
-<recipe>
-    <title>American Style BBQ Spare Ribs</title>
-    <filename>american_style_bbq_spare_ribs.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>MM Punch</title>
-    <filename>mm_punch.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+    <diet>GlutenFree</diet>
+        <title>Topping</title>
+    <filename>glutenfree_wheatbix_slice.xml</filename>
 </recipe>
 <recipe>
     <title>Cottage Pie</title>
@@ -182,7 +177,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP friendly</diet>
+    <diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Grandmas Pasties</title>
+    <filename>grandmas_pasties.xml</filename>
+    <comment>Great for a crowd- or grand final party</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Rum Balls</title>
@@ -199,10 +202,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+    <diet>FODMAP Vegan</diet>
 </recipe>
 <recipe>
-    <title>Wheat free Wheat-bix slice!</title>
-    <filename>wheat_free_wheat_bix_slice!.xml</filename>
+    <title>Banana Bread</title>
+    <filename>banana_bread.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -211,6 +215,15 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
 <recipe>
     <title>Cauliflower Soup</title>
     <filename>cauliflower_soup.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category>Soup</category>
+    <diet>GlutenFree Vegan</diet>
+</recipe>
+<recipe>
+    <title>Grandmas Punch</title>
+    <filename>grandmas_punch.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
@@ -223,15 +236,18 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Gluten free* Vegan FODMAP friendly </diet>
+    <diet>GlutenFree Vegan FODMAP </diet>
+        <title>Icing</title>
+    <filename>kathys_hedgehog.xml</filename>
 </recipe>
 <recipe>
-    <title>smoked-salmon-salad</title>
+    <title>smoked salmon salad</title>
     <filename>smoked_salmon_salad.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Guacamole</title>
@@ -240,7 +256,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>(Gluten Free, Vegan)</diet>
+    <diet>GlutenFree Vegan</diet>
 </recipe>
 <recipe>
     <title>Larb</title>
@@ -249,23 +265,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP Friendly</diet>
-</recipe>
-<recipe>
-    <title>Simple Dahl served with ancient grains and coriander </title>
-    <filename>simple_dahl_served_with_ancient_grains_and_coriander_.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>Gluten Free Taco Mix</title>
-    <filename>gluten_free_taco_mix.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Baked Christmas Ham</title>
@@ -274,6 +274,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+        <title>Ginger Glaze</title>
+    <filename>baked_christmas_ham.xml</filename>
 </recipe>
 <recipe>
     <title>CHOWDER</title>
@@ -282,31 +284,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Gluten Free</diet>
-</recipe>
-<recipe>
-    <title>Easiest Scones in the WORLD</title>
-    <filename>easiest_scones_in_the_world.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>FMN POPCORN </title>
-    <filename>fmn_popcorn_.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>MM Veggie Soup</title>
-    <filename>mm_veggie_soup.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Lasagne</title>
@@ -315,49 +293,57 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+        <title>base</title>
+    <filename>lasagne.xml</filename>
+        <title>Meat sauce</title>
+    <filename>lasagne.xml</filename>
+        <title>White sauce</title>
+    <filename>lasagne.xml</filename>
 </recipe>
 <recipe>
-    <title>ELIMINATION DIET_part2</title>
-    <filename>elimination_diet_part2.xml</filename>
+    <title>Grandmas Pumkin Soup</title>
+    <filename>grandmas_pumkin_soup.xml</filename>
     <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP </diet>
+</recipe>
+<recipe>
+    <title>Simple Dahl </title>
+    <filename>simple_dahl_.xml</filename>
+    <comment>served with ancient grains and coriander</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
 </recipe>
 <recipe>
-    <title>ELIMINATION DIET_part3</title>
-    <filename>elimination_diet_part3.xml</filename>
+    <title>Lentil Salad</title>
+    <filename>lentil_salad.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Vegan Chocolate Cake</title>
     <filename>vegan_chocolate_cake.xml</filename>
-    <comment></comment>
+    <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmother's Neighbour!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>*Gluten free</diet>
+    <diet>GlutenFree Vegan</diet>
+        <title>Icing</title>
+    <filename>vegan_chocolate_cake.xml</filename>
 </recipe>
 <recipe>
-    <title>ELIMINATION DIET_part1</title>
-    <filename>elimination_diet_part1.xml</filename>
+    <title>Quick Banana Dessert</title>
+    <filename>quick_banana_dessert.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Part 1</diet>
-</recipe>
-<recipe>
-    <title>Chow Mien</title>
-    <filename>chow_mien.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Quick and easy!</diet>
 </recipe>
 <recipe>
     <title>Mac and Cheese Slice</title>
@@ -366,14 +352,45 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+        <title>White Sauce</title>
+    <filename>mac_and_cheese_slice.xml</filename>
 </recipe>
 <recipe>
-    <title>Simple Fried Rice</title>
-    <filename>simple_fried_rice.xml</filename>
+    <title>Easy Scones</title>
+    <filename>easy_scones.xml</filename>
+    <comment>Easiest Scones in the WORLD</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+        <title>Plain scones</title>
+    <filename>easy_scones.xml</filename>
+        <title>Date scones</title>
+    <filename>easy_scones.xml</filename>
+</recipe>
+<recipe>
+    <title>Apple Pie</title>
+    <filename>apple_pie.xml</filename>
+    <comment>If you hate rolling pastry, but love home made style, this is a good one for you!</comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>American BBQ SpareRibs</title>
+    <filename>american_bbq_spareribs.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
+</recipe>
+<recipe>
+    <title>Taco Mix</title>
+    <filename>taco_mix.xml</filename>
+    <comment></comment>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Cherry Tomatoe Bake</title>
@@ -384,26 +401,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <category></category>
 </recipe>
 <recipe>
-    <title>Yummy Lentil Salad</title>
-    <filename>yummy_lentil_salad.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>(Gluten Free)</diet>
-</recipe>
-<recipe>
-    <title>MM Pasties</title>
-    <filename>mm_pasties.xml</filename>
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>(Great for a crowd- or grand final party)</diet>
-</recipe>
-<recipe>
-    <title>10 minute meal</title>
-    <filename>10_minute_meal.xml</filename>
+    <title>Simple Friedrice</title>
+    <filename>simple_friedrice.xml</filename>
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>

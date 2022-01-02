@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>(Gluten Free, Vegan)</diet>
+    <diet>GlutenFree</diet>
 
     <ingredient>375gms dark chocolate broken in to pieces</ingredient>
     <ingredient>395g can sweeten  condensed milk</ingredient>

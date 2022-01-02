@@ -5,7 +5,7 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Large Banana Bread</title>
+    <title>Banana Bread</title>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -16,22 +16,20 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <cookTime></cookTime>
     <part></part>
 
-
-    <diet>Super Easy</diet>
-    <ingredient>(Good for a crowd or taking somewhere)</ingredient>
+    <ingredient>2 cups flour</ingredient>
+    <ingredient>1 cup sugar</ingredient>
+    <ingredient>1/4 teaspoon baking powder</ingredient>
+    <ingredient>1 teaspoon cinnamon </ingredient>
+    <ingredient>2 teaspoon baking soda</ingredient>
+    <ingredient>1/2 teaspoon salt</ingredient>
+    <ingredient>1 cup chopped walnuts ( nuts optional)</ingredient>
+    <ingredient>1 cup oil</ingredient>
+    <ingredient>1 teaspoon vanilla</ingredient>
+    <ingredient>3 eggs beaten</ingredient>
+    <ingredient>2 cups mashed bananas (2-3 bananas)</ingredient>
 
     <step>
-2 cups flour
-1 cup sugar
-1/4 teaspoon baking powder
-1 teaspoon cinnamon 
-2 teaspoon baking soda
-1/2 teaspoon salt
-1 cup chopped walnuts ( nuts optional)
-1 cup oil
-1 teaspoon vanilla
-3 eggs beaten
-2 cups mashed bananas (2-3 bananas)
+Super Easy.  Good for a crowd or taking somewhere
 
 Turn on oven to 170D. Grease 20cm x 12cm dish or two loaf trays and set aside.  Combine all ingredients, except bananas and mix well. Add bananas and fold through, then pour into prepared tray. Smooth over top and place in oven for 40-60 minutes or until skew come out clean. Remove from oven and cover immediately with foil. Wait 10-15 minutes before serving while warm or wait until completely cold. You can sprinkle with a little icing sugar when serving.
 

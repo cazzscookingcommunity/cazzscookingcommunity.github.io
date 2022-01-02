@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>Gluten free* Vegan FODMAP friendly </diet>
+    <diet>GlutenFree Vegan FODMAP </diet>
 
     <ingredient>1 packet Marie biscuits crushed or *replace with plain gluten free biscuits</ingredient>
     <ingredient>150gms Nutalex</ingredient>
@@ -27,19 +27,18 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>1 teaspoon vanilla</ingredient>
     <ingredient>1/2 cup coconut</ingredient>
 
-    <step>
-Icing 
-1 1/2 cup pure icing sugar sifted
-2 Tbsp cocoa sifted
-1 Tbsp Nutalex melted
-4-6 Tbsp boiling water
-Extra coconut
+    <step>Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside.  Melt Nutalex in small pan and add sugar, stir until sugar dissolves.  Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using.) Add combined biscuits and coconut and stir until combine. Place in prepared dish and smooth top as much as possible.   Cover with glad wrap and place in fridge.</step>
 
-Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside.  Melt Nutalex in small pan and add sugar, stir until sugar dissolves.  Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using.) Add combined biscuits and coconut   and stir until combine. Place in prepared dish and smooth top as much as possible.   Cover with glad wrap and place in fridge.
+    <part>
+        <title>Icing</title>
+        <ingredient>1 1/2 cup pure icing sugar sifted</ingredient>
+        <ingredient>2 Tbsp cocoa sifted</ingredient>
+        <ingredient>1 Tbsp Nutalex melted</ingredient>
+        <ingredient>4-6 Tbsp boiling water</ingredient>
+        <ingredient>Extra coconut</ingredient>
+        <step>Combine cocoa and icing sugar, add Nutalex stir well.  Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top.  Smooth top with back of a spoon or knife.  Sprinkle with extra coconut if desired, while moist.  Recover with glad wrap.</step>
+    </part>
 
-Prepare icing
-Combine cocoa and icing sugar, add Nutalex stir well.  Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top.  Smooth top with back of a spoon or knife.  Sprinkle with extra coconut if desired, while moist.  Recover with glad wrap.
+    <step>Place in fridge for 4-6  hours then remove from dish and cut into slices.</step>
 
-Place in fridge for 4-6  hours then remove from dish and cut into slices.
-    </step>
 </recipe>

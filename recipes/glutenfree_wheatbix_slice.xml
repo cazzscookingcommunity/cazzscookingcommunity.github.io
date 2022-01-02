@@ -5,7 +5,7 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Wheat free Wheat-bix slice!</title>
+    <title>GlutenFree WheatBix slice</title>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -17,6 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
+    <diet>GlutenFree</diet>
 
     <ingredient>10 gluten free week-bix crushed</ingredient>
     <ingredient>1/4 cup cocoa sifted</ingredient>
@@ -25,10 +26,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>1/2 cup coconut</ingredient>
     <ingredient>1 egg lightly beaten</ingredient>
 
-    <step>
-Topping
-200gms chocolate melted
+    <part>
+        <title>Topping</title>
+        <ingredient>200gms chocolate melted</ingredient>
+    </part>
 
+    <step>
 Grease lamington tin and line with grease proof paper and set aside. In a large bowl mix together wheat-bix and coconut. Melt butter in small pan. Once completely melted add brown sugar and sifted cocoa. Stir well to combine. Let cool slightly and stir in beaten egg. Pour into wheat-bix mix and stir well. Pour into prepared pan and smooth top with the back of a spoon. Cover and place in fridge until completely cool. Once cool melt chocolate and smooth over top (you can sprinkle coconut on top if desired.) Cool in fridge until chocolate set, then cut into slices. You can add halved macerated cherries in the mix, if desired. Also you can add regular wheat-bix in place of gluten free variety.
     </step>
 </recipe>

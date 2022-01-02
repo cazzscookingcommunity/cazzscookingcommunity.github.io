@@ -5,7 +5,7 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Easy Vegetable Lentil Curry</title>
+    <title>Vegetable Lentil Curry</title>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -17,6 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
+    <diet>Vegeterian</diet>
 
     <ingredient>2 Tbsp oil</ingredient>
     <ingredient>4 Tbsp green curry paste</ingredient>

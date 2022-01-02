@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>FODMAP Friendly</diet>
+    <diet>FODMAP</diet>
 
     <ingredient>850gms minced pork </ingredient>
     <ingredient>3 TBspoons olive oil </ingredient>

@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>FODMAP friendly</diet>
+    <diet>FODMAP</diet>
 
     <ingredient>One amount of mashed spud</ingredient>
     <ingredient>600 gms mince meat (lamb)</ingredient>
@@ -29,7 +29,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>1 Tbsp corn flour </ingredient>
     <ingredient>1-2 stock cubes </ingredient>
     <ingredient>Olive oil </ingredient>
-    <ingredient>SandP to taste</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
 
     <step>
 Preheat oven to 180 degrees. Heat olive oil in large fry pan and add garlic. Once golden add mince meat and cook until brown add all other ingredients except spud. Cook until reheated and sauce thickens. Place in a tray and spoon over mash spud. Cook for 30-40 minutes or until golden brown. Serve with side salad or lots of tomatoe sauce!

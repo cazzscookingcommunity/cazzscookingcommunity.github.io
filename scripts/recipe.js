@@ -18,6 +18,7 @@ $(document).ready(function(){
         $recipeList = $( recipeList );
 
         getCategorys($recipeList, "category, diet, meal", categorys);
+        console.debug(categorys);
 
         //display categories for simple search
         let listCategory = [];
@@ -71,7 +72,7 @@ $(document).on('click','.mealCardRecipeBtn',function(){
 
     fetchMeal($meal,'u');
     window.scrollTo(0,$('#random').offset().top);
-    $('#dynamicTitle').text($meal.find('title').text());
+    $('#dynamicTitle').text($meal.find('title').first().text());
 });
 
 
@@ -91,7 +92,7 @@ function getCategorys($recipe, cssSelector, newlist) {
             cat = cat.replace("-", "");
             console.debug(cat);
             if ( ! ( cat == "" ) ) {
-                newlist.add(cat);
+                newlist.add(cat.toUpperCase());
                 console.debug(newlist); 
             }
         }

@@ -10,23 +10,23 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
-    <category></category>
+    <category>Soup</category>
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
     <part></part>
 
 
+    <diet>GlutenFree Vegan</diet>
 
-    <ingredient>Gluten Free and Vegan</ingredient>
-    <ingredient>Very easy, quick and delicious!</ingredient>
+    <ingredient>2-3 cauliflower</ingredient>
+    <ingredient>2-3 crushed garlic cloves </ingredient>
+    <ingredient>1-2 tbsp olive oil</ingredient>
+    <ingredient>Chicken stock </ingredient>
+    <ingredient>Salt and white paper to taste</ingredient>
 
     <step>
-2-3 cauliflower
-2-3 crushed garlic cloves 
-1-2 tbsp olive oil
-Chicken stock 
-Salt and white paper to taste
+Very easy, quick and delicious!
 
 Wash cauliflower and cut into flowerets. Cook garlic in a little olive oil for a few minutes.  Add flowerets and pour in enough stock to come to almost to the top of the cauliflower. Bring to boil then reduce and simmer until cauliflower is very soft. Cool a little and purée with stick bender. Season to taste serve with toast for weekend lunch.
     </step>

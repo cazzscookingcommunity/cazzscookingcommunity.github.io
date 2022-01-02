@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>FODMAP friendly </diet>
+    <diet>FODMAP </diet>
 
     <ingredient>1 can creamed corn</ingredient>
     <ingredient>2 cups cooked rice</ingredient>
@@ -27,7 +27,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>1/2 bunch parsley chopped</ingredient>
     <ingredient>1 425 gms tuna in olive oil drained</ingredient>
     <ingredient>Grated tasty cheese </ingredient>
-    <ingredient>SandP to taste </ingredient>
+    <ingredient>Salt and Pepper to taste </ingredient>
 
     <step>
 Put curry powder and stock cubes in boiling water and stir until dissolved. Place all ingredients in a baking dish except cheese and stir to combine then smooth top. Cover with grated cheese and place in preheated moderate (180D) oven for 20-30 minutes. Serve with salad if desired. Quick and super easy!

@@ -5,7 +5,7 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>MM*PUMPKIN SOUP</title>
+    <title>Grandmas Pumkin Soup</title>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>FODMAP friendly</diet>
+    <diet>FODMAP </diet>
 
     <ingredient>6-10 cups chopped Kent pumpkin</ingredient>
     <ingredient>5 cups chopped butternut pumpkin</ingredient>
@@ -26,12 +26,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>1 teaspoon curry power</ingredient>
     <ingredient>Olive oil</ingredient>
     <ingredient>Chicken stock</ingredient>
-    <ingredient>SandP to taste</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
     <ingredient>Fresh nutmeg and cream to serve</ingredient>
 
     <step>
-Heat oil in a large pot, add garlic and cook a few minutes. Place a small amount of curry powder in the pot and cook for a few minutes. Throw in enough of the pumpkin to cover the bottom of the pot.  Stir continuously to coat all sides of the pumpkin then remove from pot. Cook pumpkin and carrot in batches until all done.  Once all pumpkin and carrot is coated, place back into the pot and add enough stock to cover. Bring to boil and then lower to a simmer. Cook until carrots are very soft, then blend with stick blender and add SandP to taste.  Serve in a bowl with a teaspoon of cream poured in the middle and stirred in a circular motion. Grate fresh nutmeg on top then serve.
-
-*My Mums
+Heat oil in a large pot, add garlic and cook a few minutes. Place a small amount of curry powder in the pot and cook for a few minutes. Throw in enough of the pumpkin to cover the bottom of the pot.  Stir continuously to coat all sides of the pumpkin then remove from pot. Cook pumpkin and carrot in batches until all done.  Once all pumpkin and carrot is coated, place back into the pot and add enough stock to cover. Bring to boil and then lower to a simmer. Cook until carrots are very soft, then blend with stick blender and add Salt and Pepper to taste.  Serve in a bowl with a teaspoon of cream poured in the middle and stirred in a circular motion. Grate fresh nutmeg on top then serve.
     </step>
 </recipe>

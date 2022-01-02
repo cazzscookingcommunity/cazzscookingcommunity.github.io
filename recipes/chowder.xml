@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>Gluten Free</diet>
+    <diet>GlutenFree</diet>
 
     <ingredient>1 can creamed corn </ingredient>
     <ingredient>4 potatoes peeled and chopped</ingredient>
@@ -26,7 +26,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>2 chicken stock cubes</ingredient>
     <ingredient>Milk and Water</ingredient>
     <ingredient>Oil</ingredient>
-    <ingredient>SandP to taste</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
 
     <step>
 Heat oil in large pot and cook the bacon until brown.  Add can of creamed corn then fill can with milk and pour into pot then do the same with water. Add all other ingredients and bring to simmer. Cook until veggies are soft, stir every now and then, to stop bottom catching (about 30-45 mins) Serve with thick toast or fresh bread if desired. You can double recipe.  Great for a cold winter lunch!

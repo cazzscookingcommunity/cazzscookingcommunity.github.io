@@ -5,9 +5,9 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Chow Mien</title>
+    <title>Chow Mein</title>
 
-    <comment></comment>
+    <comment>Quick and easy!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -17,7 +17,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>Quick and easy!</diet>
 
     <ingredient>600gms minced pork</ingredient>
     <ingredient>1/2 cabbage chopped</ingredient>
@@ -28,10 +27,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>200gms rice noodles</ingredient>
     <ingredient>1/2 cup chicken stock</ingredient>
     <ingredient>Olive oil</ingredient>
-    <ingredient>SandP to taste</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
 
     <step>
-Heat olive oil in large pan or wok. Cook garlic for a few minutes then add pork. Cook until all brown. Add stock and cabbage then place lid on pan for 10 minutes. Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside. Once cabbage cooked add noodles, carrot, stir fry sauce and SandP and stir well. Serve with spring onions sprinkled on top.
+Heat olive oil in large pan or wok. Cook garlic for a few minutes then add pork. Cook until all brown. Add stock and cabbage then place lid on pan for 10 minutes. Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside. Once cabbage cooked add noodles, carrot, stir fry sauce and Salt and Pepper and stir well. Serve with spring onions sprinkled on top.
 You can replace the cabbage with any yummy Asian green.
     </step>
 </recipe>

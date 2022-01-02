@@ -17,20 +17,18 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
+    <diet>FODMAP EggFree DiaryFree</diet>
 
-    <ingredient>FODMAP Friendly</ingredient>
-    <ingredient>Egg and Diary Free</ingredient>
+    <ingredient>500 gms turkey mince</ingredient>
+    <ingredient>2 spring onions chopped</ingredient>
+    <ingredient>2 garlic cloves chopped</ingredient>
+    <ingredient>1 medium zucchini grated</ingredient>
+    <ingredient>2 tbsp olive oil</ingredient>
+    <ingredient>1-2 inches grated ginger</ingredient>
+    <ingredient>1 lemon grass finely chopped</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
 
     <step>
-500 gms turkey mince
-2 spring onions chopped
-2 garlic cloves chopped
-1 medium zucchini grated
-2 tbsp olive oil
-1-2 inches grated ginger
-1 lemon grass finely chopped
-SandP to taste
-
 Mix all ingredients together in a large bowl and make into patties. Cook in a couple of tablespoons of olive oil until cooked through and nicely browned.  Serve with fresh salad and homemade chutney or sauce.  You can double this recipe.
     </step>
 </recipe>

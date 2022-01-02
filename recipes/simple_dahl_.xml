@@ -5,9 +5,9 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Simple Dahl served with ancient grains and coriander </title>
+    <title>Simple Dahl </title>
 
-    <comment></comment>
+    <comment>served with ancient grains and coriander</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>

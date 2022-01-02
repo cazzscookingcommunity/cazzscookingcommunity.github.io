@@ -17,7 +17,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>(Gluten Free, Vegan)</diet>
+    <diet>GlutenFree Vegan</diet>
 
     <ingredient>2-3 avocados pitted, peeled and mashed</ingredient>
     <ingredient>1 lime juiced</ingredient>
@@ -25,7 +25,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <ingredient>3 spring onions chopped</ingredient>
     <ingredient>1-2 garlic cloves crushed</ingredient>
     <ingredient>1/2 teaspoon chilli powder</ingredient>
-    <ingredient>SandP to taste</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
 
     <step>
 Mix all together and sprinkle a few extra spring onions on top.

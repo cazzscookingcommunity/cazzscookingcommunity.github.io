@@ -5,9 +5,9 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>MM Pasties</title>
+    <title>Grandmas Pasties</title>
 
-    <comment></comment>
+    <comment>Great for a crowd- or grand final party</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -17,7 +17,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <part></part>
 
 
-    <diet>(Great for a crowd- or grand final party)</diet>
 
     <ingredient>10 sheets puff pastry</ingredient>
     <ingredient>5-6 spuds grated</ingredient>

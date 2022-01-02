@@ -5,31 +5,31 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
-    <title>Easiest Scones in the WORLD</title>
+    <title>Easy Scones</title>
 
-    <comment></comment>
+    <comment>Easiest Scones in the WORLD</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
+    <part>
+        <title>Plain scones</title>
+        <ingredient>4 cups SR flour</ingredient>
+        <ingredient>300 mls cream</ingredient>
+        <ingredient>300 mls water</ingredient>
+        <ingredient>Pinch salt</ingredient>
+    </part>
 
+    <part>
+        <title>Date scones</title>
+        <ingredient>250 gms dates chopped</ingredient>
+        <ingredient>3 TBsp sugar</ingredient>
+    </part>
 
-
-    <ingredient>Plain</ingredient>
-    <ingredient>4 cups SR flour</ingredient>
-    <ingredient>300 mls cream</ingredient>
-    <ingredient>300 mls water</ingredient>
-    <ingredient>Pinch salt</ingredient>
 
     <step>
-Date scones
-*for date scones include:
-250 gms dates chopped
-3 TBsp sugar
-
 Turn on oven to medium (180D). Grease a large flat tray and set aside. In a large bowl stir the dry ingredients. Pour in the cream and water and stir with a KNIFE until combined. Do not over stir! Tip out to a generously floured surface and turn once to flour all sides. Gently push down to desired thickness about thumb joint high. Cut out with scone cutter or small glass and place close together on tray. ( Unlike cookies you want them touching.) Cook until just starting to change colour, about 20-40 minutes. Turn the tray around a few time to ensure all sides brown evenly while cooking. Sever with whipped cream and jam and hot cup of tea!
     </step>
 </recipe>
