@@ -15,23 +15,25 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <prepTime></prepTime>
     <cookTime></cookTime>
     
-    <ingredient>Leg of ham</ingredient>
-    <ingredient>Packet whole cloves </ingredient>
-    <ingredient>Packet star anise</ingredient>
-    <ingredient>Ginger Glaze</ingredient>
-    <ingredient>1 cup ginger wine*</ingredient>
-    <ingredient>1/3 cup packed brown sugar</ingredient>
-    <ingredient>1/3 cup ginger marmalade </ingredient>
+    <part>
+        <title>Main</title>
+        <ingredient>Leg of ham</ingredient>
+        <ingredient>Packet whole cloves </ingredient>
+        <ingredient>Packet star anise</ingredient>
+        <ingredient>Ginger Glaze</ingredient>
+        <ingredient>1 cup ginger wine*</ingredient>
+        <ingredient>1/3 cup packed brown sugar</ingredient>
+        <ingredient>1/3 cup ginger marmalade </ingredient>
 
-    <step>Cut through skin about 10cm from shank in decorative pattern. Slip finger under widest part of skin and peel back skin and remove. This can be reserved to cover ham while storing.</step>
-    <step>Make shallow cuts diagonally in opposite directions to make diamond shape in fat. Put ham in large baking dish and pour in one cup of water. Cover shank end with foil.</step>
-    <step>Brush half glaze over ham and put as many star anise over the surface that will fit. Keep them in place with the cloves.</step> 
-    <step>Bake in preheat 180C oven for 30 minutes (should be all golden and cooked after 30 mins.).</step>
-    <step>Carefully brush over the remaining glaze and cover loosely with foil.</step>
-    <step>Cook for 30-45 minutes more, depending on the size of your ham.</step>
-    <step>Remove from oven and baking dish and let rest before carving.  You can serve this cold or hot.</step>
-    <step>Reserve the juice in baking dish if desired, which can be served with meat on the side.</step>
-
+        <step>Cut through skin about 10cm from shank in decorative pattern. Slip finger under widest part of skin and peel back skin and remove. This can be reserved to cover ham while storing.</step>
+        <step>Make shallow cuts diagonally in opposite directions to make diamond shape in fat. Put ham in large baking dish and pour in one cup of water. Cover shank end with foil.</step>
+        <step>Brush half glaze over ham and put as many star anise over the surface that will fit. Keep them in place with the cloves.</step> 
+        <step>Bake in preheat 180C oven for 30 minutes (should be all golden and cooked after 30 mins.).</step>
+        <step>Carefully brush over the remaining glaze and cover loosely with foil.</step>
+        <step>Cook for 30-45 minutes more, depending on the size of your ham.</step>
+        <step>Remove from oven and baking dish and let rest before carving.  You can serve this cold or hot.</step>
+        <step>Reserve the juice in baking dish if desired, which can be served with meat on the side.</step>
+    </part>
     <part>
         <title>Ginger Glaze</title>
         <step>Put all ingredients into a small sauce pan and simmer until marmalade and sugar dissolved and sauce thickens. This can be done one week in advanced.</step>

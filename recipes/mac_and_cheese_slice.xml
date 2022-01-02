@@ -15,14 +15,16 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <prepTime></prepTime>
     <cookTime></cookTime>
 
-    <ingredient>1 packet macaroni </ingredient>
-    <ingredient>400 gms bacon pieces cooked</ingredient>
-    <ingredient>1 quantity white sauce*</ingredient>
-    <ingredient>2 TBsp Olive oil </ingredient>
-    <ingredient>Grated tasty cheese</ingredient>
-    <ingredient>Salt and Pepper to taste</ingredient>
-
-    <step>Preheat oven to 180D. Cook macaroni to packet directions and pour 2 Tbsp olive oil and stir to coat all pasta (this stops it sticking together.) Pour into baking dish with all other ingredients except cheese and stir to combine. Top with cheese and bake for 40 minutes or until lightly browned on top.</step>
+    <part>
+        <title>Main</title>
+        <ingredient>1 packet macaroni </ingredient>
+        <ingredient>400 gms bacon pieces cooked</ingredient>
+        <ingredient>1 quantity white sauce*</ingredient>
+        <ingredient>2 TBsp Olive oil </ingredient>
+        <ingredient>Grated tasty cheese</ingredient>
+        <ingredient>Salt and Pepper to taste</ingredient>
+        <step>Preheat oven to 180D. Cook macaroni to packet directions and pour 2 Tbsp olive oil and stir to coat all pasta (this stops it sticking together.) Pour into baking dish with all other ingredients except cheese and stir to combine. Top with cheese and bake for 40 minutes or until lightly browned on top.</step>
+    </part>
 
     <part>
         <title>White Sauce</title>

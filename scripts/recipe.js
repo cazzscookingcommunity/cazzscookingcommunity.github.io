@@ -2,7 +2,7 @@ var searchTree = {};
 var recipeList = new DOMParser();
 var $recipeList;
 var path = "../recipes/";
-var XMLrecipelist = path + "recipeList.xml";
+var XMLrecipelist = "../xml/recipeList.xml";
 window.scrollTo(0,$('#main').offset().top);
 
 
@@ -18,7 +18,6 @@ $(document).ready(function(){
         $recipeList = $( recipeList );
 
         getCategorys($recipeList, "category, diet, meal", categorys);
-        console.debug(categorys);
 
         //display categories for simple search
         let listCategory = [];
@@ -80,9 +79,7 @@ $(document).on('click','.mealCardRecipeBtn',function(){
 function getCategorys($recipe, cssSelector, newlist) {
     x = $recipe.find(cssSelector);
     for ( let i = 0; i < x.length; i++ ) {
-        console.debug(x[i]);
         y = x[i].innerHTML.split(" ");  // handle space separated elements like <title>
-        console.debug(y);
         for ( let j = 0; j < y.length; j++ ) {
             cat = y[j].replace(",", "");
             cat = cat.replace("(", "");
@@ -90,10 +87,8 @@ function getCategorys($recipe, cssSelector, newlist) {
             cat = cat.replace("*", "");
             cat = cat.replace("!", "");
             cat = cat.replace("-", "");
-            console.debug(cat);
             if ( ! ( cat == "" ) ) {
                 newlist.add(cat.toUpperCase());
-                console.debug(newlist); 
             }
         }
     }
@@ -220,6 +215,13 @@ function fetchCategoryMeal(searchTerm){
 // Function to generate the random meal UI component
 const createMeal = ($meal, type) => {
 
+    // clear any existing display data
+    $('#randomMealMetadata').empty();
+    $('#randomMealInstructions').empty();
+    $('#randomMealImg').empty();
+    // $('#dynamicTitle').empty();
+    
+
     // Set meal thumbnail
     setMealThumbnail($meal,type);
 
@@ -239,17 +241,15 @@ const createMeal = ($meal, type) => {
     let ingredients = [];
     getIngredients($meal, ingredients);
     if ( ingredients.length > 0 ) {
-        mealMetadata += `<br/><span>Ingredients:</span> 
-        <ul> ${ingredients.join('')} </ul>`
-        // <table class="ingredients">
-        //   ${ingredients.join('')}
-        // </table>`
+        mealMetadata += `<br><span>Ingredients:</span><br>
+        ${ingredients.join('')}`
+        // <ul> ${ingredients.join('')} </ul>`
     }
 
     // Set instructions
     let instructions = [];
     getInstructions($meal, instructions);
-    mealInstr =`<span>Instructions:</span>
+    mealInstr =`<span>Instructions:</span><br>
      ${instructions.join('')}`;
     
     if ( type === 'r') { 
@@ -259,30 +259,67 @@ const createMeal = ($meal, type) => {
     }
 }
 
+// structure instructions into list
+const setInstructionList = (steps, outputStr) => {
+    let i = 0;
+    outputStr.push('<ul>');
+    for( i = 0; i < steps.length; i++ ){
+        step = steps[i].innerHTML
+        outputStr.push(`<p>step ${i}:<br/>${steps[i].innerHTML}</p>`);
+    }
+    outputStr.push('</ul>');
+}
 
 // Gets instruction steps
-const getInstructions = ($meal, instructions) => {
-    let steps = $meal.find("step");
-    for( let i = 0; i < steps.length; i++ ) {
-        instructions.push(`<p>step ${i}:<br/>
-            ${steps[i].innerHTML}</p>`);
+const getInstructions = ($meal, outputStr) => {
+    let instructionsArr = [];
+    // check if recipe has parts 
+    let parts = $meal.find("part");
+    if ( parts.length > 1 ) {
+        for ( let i = 0; i < parts.length; i++ ) {
+            title = parts[i].getElementsByTagName('title')[0].innerHTML;
+            outputStr.push(`<strong><u>${title}</u></strong>`);
+            instructionsArr = parts[i].getElementsByTagName("step");
+            setInstructionList(instructionsArr, outputStr);
+        }
+    } else {
+        instructionsArr = $meal.find("step");
+        setInstructionList(instructionsArr, outputStr);
     }
 }
 
-// Gets ingredients of the random meal
-const getIngredients = ($meal,ingredients) => {  
-    let ingredientList = $meal.find("ingredient");
-    for( let i = 0; i < ingredientList.length; i++ ){
-        ingredient = ingredientList[i].innerHTML
-        ingredients.push(`<li>${ingredient}</li>`);
-        // ingredients.push(`
-        //   <tr>
-        //     <td>${ingredientList[i].getAttribute("name")}</td>
-        //     <td>${ingredientList[i].getAttribute("amount")}</td> 
-        //     <td>${ingredientList[i].getAttribute("unit")}</td>
-        //   </tr>`
+// structure ingredients into list
+const setIngredientList = (ingredientsArr, outputStr) => {
+    let i = 0;
+    outputStr.push('<ul>');
+    for( i = 0; i < ingredientsArr.length; i++ ){
+        ingredient = ingredientsArr[i].innerHTML
+        outputStr.push(`<li>${ingredient}</li>`);
     }
-    ingredients.push('<br/>');
+    if ( !( i % 2 === 0 )) { 
+        outputStr.push('<li> </li>'); 
+    }
+    outputStr.push('</ul>');
+}
+
+
+// Gets ingredients of the random meal
+const getIngredients = ($meal,outputStr) => { 
+    console.log($meal);
+    let ingredientsArr = [];
+    // check if recipe has parts 
+    let parts = $meal.find("part");
+    if ( parts.length > 1 ) {
+        for ( let i = 0; i < parts.length; i++ ) {
+            title = parts[i].getElementsByTagName('title')[0].innerHTML;
+            outputStr.push(`<strong><u>${title}</u></strong>`);
+            ingredientsArr = parts[i].getElementsByTagName("ingredient");
+            setIngredientList(ingredientsArr, outputStr);
+        }
+    } else {
+        ingredientArr = $meal.find("ingredient");
+        setIngredientList(ingredientArr, outputStr);
+    }
 }
 
 // get meal thumbnail image

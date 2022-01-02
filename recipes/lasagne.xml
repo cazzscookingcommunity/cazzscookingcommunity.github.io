@@ -19,8 +19,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
         <title>base</title>
         <ingredient>1 packet oven ready lasagna</ingredient>
         <ingredient>Grated cheese</ingredient>
-        <ingredient>One quantity meat sauce*</ingredient>
-        <ingredient>One quantity white sauce^</ingredient>
+        <ingredient>One quantity meat sauce</ingredient>
+        <ingredient>One quantity white sauce</ingredient>
         <step>Preheat oven to 180 degrees. In large lasagna dish spread out 2 1/2 cups meat sauce over the bottom, then sprinkle over 2-3 handfuls of cheese o we the meat sauce.  Put one full layer of lasagna sheets to cover the meat.  Keeping adding layers in this same manner, until you come close to the top. Once close to the top of the dish and your at the last layer, put the meat sauce on the lasagna sheet then pour over the white sauce using the back if the spoon to disperse the sauce so it covers the meat sauce completely.  Sprinkle over enough cheese to cover the top and cover with foil.  Cook for 45 minutes, then uncover and cook for a further 15 minutes.
         </step>
     </part>
@@ -34,10 +34,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
         <ingredient>2-3 bay leaves</ingredient>
         <ingredient>1 large handful oregano</ingredient>
         <ingredient>4-6 garlic cloves crushed</ingredient>
-        <ingredient>Salt and Pepper to taste ( About 1 teaspoon of each)</ingredient>
-        <ingredient>Olive oil</ingredient>
+        <ingredient>Salt and Pepper 1 teaspoon each</ingredient>
+        <ingredient>Olive oil</ingredient>   
         <step>Heat olive oil in large sauce pan, then add garlic and cook moderately low heat until golden brown.  Add mince meat and cook until brown.  Add all other ingredients and bring to the boil. Reduce to a simmer and cook until reduced to your desired consistency. </step> 
-        <step>While the meat sauce is reducing you can make the white sauce. </step> 
+        <step>While the meat sauce is reducing you can make the white sauce.</step> 
         <step>You can also add some red wine if desired.</step>
     </part>
 
@@ -48,6 +48,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
         <ingredient>2 cups milk</ingredient>
         <ingredient>Salt and Pepper</ingredient>
         <ingredient>Freshly grated nutmeg</ingredient>
+        
         
         <step>Melt butter on low heat in a small sauce pan and add flour. Stir to remove any lumps, add a small amount of milk and stir in until it thickens, constantly stirring. Keep adding milk in the same fashion in small amounts at a time until all the milk is used up. Some times you have to add a bit more milk. Add the Salt and Pepper to taste and grate the nutmeg in and stir. Use immediately!</step>
     </part>

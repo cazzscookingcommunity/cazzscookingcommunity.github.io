@@ -7,6 +7,7 @@ import sys
 recipedir = "./recipes/"
 
 # output info
+outputpath = "./xml/"
 outputfile = "recipeList.xml"
 xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 
@@ -41,17 +42,19 @@ def closeOutput(file):
 
 
 def processFile(inputfile):
-    with open(recipedir + outputfile, "a") as dst:
+    with open(outputpath + outputfile, "a") as dst:
         with open(recipedir + inputfile, "rt") as src:
             dst.write("<recipe>\n")
+            firstTitle = True
             while True:
                 line = src.readline()
                 if not line:
                     break
 
-                if "<title>"     in line:
+                if firstTitle and "<title>" in line:
                     dst.write(line)
                     dst.write("    <filename>" + inputfile + "</filename>\n")
+                    firstTitle = False
                     continue
 
                 if ("<comment>"   in line or
@@ -69,7 +72,7 @@ def processFile(inputfile):
 
 
 if __name__== "__main__":
-    initOutput(recipedir + outputfile)
+    initOutput(outputpath + outputfile)
     directory = os.fsencode(recipedir)
     
     for file in os.listdir(directory):
@@ -78,4 +81,4 @@ if __name__== "__main__":
             print(filename)
             processFile(filename)
 
-    closeOutput(recipedir + outputfile)
+    closeOutput(outputpath + outputfile)

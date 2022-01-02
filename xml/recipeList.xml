@@ -167,8 +167,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>GlutenFree</diet>
-        <title>Topping</title>
-    <filename>glutenfree_wheatbix_slice.xml</filename>
 </recipe>
 <recipe>
     <title>Cottage Pie</title>
@@ -237,8 +235,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>GlutenFree Vegan FODMAP </diet>
-        <title>Icing</title>
-    <filename>kathys_hedgehog.xml</filename>
 </recipe>
 <recipe>
     <title>smoked salmon salad</title>
@@ -274,8 +270,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-        <title>Ginger Glaze</title>
-    <filename>baked_christmas_ham.xml</filename>
 </recipe>
 <recipe>
     <title>CHOWDER</title>
@@ -293,12 +287,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-        <title>base</title>
-    <filename>lasagne.xml</filename>
-        <title>Meat sauce</title>
-    <filename>lasagne.xml</filename>
-        <title>White sauce</title>
-    <filename>lasagne.xml</filename>
 </recipe>
 <recipe>
     <title>Grandmas Pumkin Soup</title>
@@ -334,8 +322,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <image></image>
     <category></category>
     <diet>GlutenFree Vegan</diet>
-        <title>Icing</title>
-    <filename>vegan_chocolate_cake.xml</filename>
 </recipe>
 <recipe>
     <title>Quick Banana Dessert</title>
@@ -352,8 +338,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-        <title>White Sauce</title>
-    <filename>mac_and_cheese_slice.xml</filename>
 </recipe>
 <recipe>
     <title>Easy Scones</title>
@@ -362,10 +346,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-        <title>Plain scones</title>
-    <filename>easy_scones.xml</filename>
-        <title>Date scones</title>
-    <filename>easy_scones.xml</filename>
 </recipe>
 <recipe>
     <title>Apple Pie</title>
