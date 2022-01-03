@@ -14,10 +14,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
-
-
-    <diet>FODMAP Vegan</diet>
+  
+    <diet>FODMAP</diet>
+    <diet>Vegan</diet>
 
     <ingredient>4 Beetroots</ingredient>
     <ingredient>4 tbsp olive oil</ingredient>

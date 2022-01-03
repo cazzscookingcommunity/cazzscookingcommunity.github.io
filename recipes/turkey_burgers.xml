@@ -14,10 +14,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>FODMAP EggFree DiaryFree</diet>
+    <diet>FODMAP</diet>
+    <diet>EggFree</diet>
+    <diet>DiaryFree</diet>
 
     <ingredient>500 gms turkey mince</ingredient>
     <ingredient>2 spring onions chopped</ingredient>

@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>Vegetarian GlutenFree</diet>
+    <diet>Vegetarian</diet>
+    <diet>GlutenFree</diet>
 
     <ingredient>1 cup quinoa </ingredient>
     <ingredient>2 cups water</ingredient>

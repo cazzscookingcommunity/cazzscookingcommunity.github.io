@@ -14,7 +14,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
+    
 
 
     <diet>FODMAP </diet>

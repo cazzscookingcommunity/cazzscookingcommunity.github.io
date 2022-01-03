@@ -14,7 +14,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
+    
 
     <ingredient>1 packet Marie biscuits crushed</ingredient>
     <ingredient>1 can sweetened and condensed milk</ingredient>

@@ -14,10 +14,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
-
-    <diet>Greek Vegan</diet>
+    <diet>Vegan</diet>
 
     <ingredient>375 gms brown lentils</ingredient>
     <ingredient>2 bay leaves</ingredient>

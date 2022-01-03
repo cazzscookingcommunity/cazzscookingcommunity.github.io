@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>GlutenFree Keto</diet>
+    <diet>GlutenFree</diet>
+    <diet>Keto</diet>
 
     <ingredient>1 large sweet potatoe</ingredient>
     <ingredient>1 TBsp olive oil </ingredient>

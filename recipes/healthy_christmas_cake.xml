@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>GlutenFree Paleo</diet>
+    <diet>GlutenFree</diet>
+    <diet>Paleo</diet>
 
     <ingredient>500 gms mixed dried fruit </ingredient>
     <ingredient>3/4 cup walnuts chopped </ingredient>

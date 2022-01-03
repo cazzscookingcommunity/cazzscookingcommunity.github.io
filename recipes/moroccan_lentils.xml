@@ -14,10 +14,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
+    
 
 
-    <diet>GlutenFree FODMAP Vegetarian</diet>
+    <diet>GlutenFree</diet>
+    <diet>FODMAP</diet>
+    <diet>Vegetarian</diet>
 
     <ingredient>2-3 TBsp olive oil </ingredient>
     <ingredient>4 garlic cloves crushed</ingredient>

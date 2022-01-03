@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 
     <ingredient>Olive oil</ingredient>
     <ingredient>2-4 garlic cloves crushed</ingredient>

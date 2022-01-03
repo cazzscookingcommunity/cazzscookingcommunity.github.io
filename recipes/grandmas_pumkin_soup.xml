@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
+    
 
 
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 
     <ingredient>6-10 cups chopped Kent pumpkin</ingredient>
     <ingredient>5 cups chopped butternut pumpkin</ingredient>

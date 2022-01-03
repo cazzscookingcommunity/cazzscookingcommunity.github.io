@@ -14,10 +14,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-    <part></part>
 
 
-    <diet>Vegan GlutenFree</diet>
+    <diet>Vegan</diet>
+    <diet>GlutenFree</diet>
 
     <ingredient>2.5 cups oats</ingredient>
     <ingredient>3 TBsp chia seeds</ingredient>

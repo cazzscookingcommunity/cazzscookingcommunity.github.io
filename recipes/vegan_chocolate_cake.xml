@@ -15,7 +15,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <prepTime></prepTime>
     <cookTime></cookTime>
 
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 
     <part>
         <title>Main</title>

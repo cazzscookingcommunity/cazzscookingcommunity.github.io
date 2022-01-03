@@ -4,80 +4,60 @@ targetNamespace="https://cazzscookingcommunity.github.io"
 xmlns="https://cazzscookingcommunity.github.io"
 elementFormDefault="qualified">
 
-<xs:complexType name="dietType">
-    <xs:sequence minOccurs="0" maxOccurs="unbounded">
-        <xs:element name="lowSugar"/>
-        <xs:element name="glutenfFree"/>
-        <xs:element name="eggFree"/>
-        <xs:element name="vegan"/>
-        <xs:element name="vegeterian"/>
-        <xs:element name="paleo"/>
-        <xs:element name="keto"/>
-        <xs:element name="elemination"/>
-    </xs:sequence>
-</xs:complexType>
-
-<xs:simpleType name="unitType">
+<xs:simpleType name="dietType">
     <xs:restriction base="xs:string">
-        <xs:enumeration value="cup"/>
-        <xs:enumeration value="tablespoon"/>
-        <xs:enumeration value="teaspoon"/>
-        <xs:enumeration value="gram"/>
-        <xs:enumeration value="ounces"/>
-        <xs:enumeration value="kg"/>
-        <xs:enumeration value="ml"/>
-        <xs:enumeration value="drops"/>
-        <xs:enumeration value="cm"/>
-        <xs:enumeration value="inch"/>
+        <xs:enumeration value="LowSugar"/>
+        <xs:enumeration value="GlutenFree"/>
+        <xs:enumeration value="EggFree"/>
+        <xs:enumeration value="Vegan"/>
+        <xs:enumeration value="Vegetarian"/>
+        <xs:enumeration value="Paleo"/>
+        <xs:enumeration value="Keto"/>
+        <xs:enumeration value="DiaryFree"/>
+        <xs:enumeration value="FODMAP"/>
+        <xs:enumeration value=""/>
     </xs:restriction>
 </xs:simpleType>
 
 <xs:simpleType name="categoryType">
     <xs:restriction base="xs:string">
-        <xs:enumeration value="household"/>
-        <xs:enumeration value="breakfast"/>
-        <xs:enumeration value="lunch"/>
-        <xs:enumeration value="dinner"/>
-        <xs:enumeration value="personal"/>
-        <xs:enumeration value="soup"/>
-        <xs:enumeration value="beef"/>
-        <xs:enumeration value="lamb"/>
-        <xs:enumeration value="pork"/>
-        <xs:enumeration value="poultry"/>
-        <xs:enumeration value="fish"/>
-        <xs:enumeration value="drink"/>
+        <xs:enumeration value="Household"/>
+        <xs:enumeration value="Breakfast"/>
+        <xs:enumeration value="Lunch"/>
+        <xs:enumeration value="Dinner"/>
+        <xs:enumeration value="Personal"/>
+        <xs:enumeration value="Soup"/>
+        <xs:enumeration value="Beef"/>
+        <xs:enumeration value="Lamb"/>
+        <xs:enumeration value="Pork"/>
+        <xs:enumeration value="Poultry"/>
+        <xs:enumeration value="Fish"/>
+        <xs:enumeration value="Drink"/>
     </xs:restriction>
 </xs:simpleType>
 
-<xs:complexType name="ingredientType">
-        <xs:attribute name="name" type="xs:string"/>
-        <xs:attribute name="amount" type="xs:float"/>
-        <xs:attribute name="unit" type="unitType"/>
-</xs:complexType>
-
 <xs:complexType name="partType">
     <xs:sequence>
-    <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
-    <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1"/>
-    <xs:element name="ingredient" type="ingredientType" minOccurs="1" maxOccurs="unbounded"/>
-    <xs:element name="step" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="title" type="xs:string" minOccurs="1" maxOccurs="1"/>
+        <xs:element name="ingredient" type="xs:string" maxOccurs="unbounded"/>
+        <xs:element name="step" type="xs:string" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
 
 <xs:complexType name="recipeType">
     <xs:sequence>
-    <xs:element name="title" type="xs:string"/>
-    <xs:element name="comment" type="xs:string"/>
-    <xs:element name="thumbnail" type="xs:anyURI" minOccurs="0"/>
-    <xs:element name="image" type="xs:anyURI" minOccurs="0"/>
-    <xs:element name="diet" type="dietType" minOccurs="0"/>
-    <xs:element name="category" type="categoryType"/>
-    <xs:element name="yield" type="xs:integer"/>
-    <xs:element name="prepTime" type="xs:int"/>
-    <xs:element name="cookTime" type="xs:int"/>
-    <xs:element name="part" type="partType" minOccurs="1" maxOccurs="unbounded"/>
-    <xs:element name="ingredient" type="ingredientType" minOccurs="0" maxOccurs="unbounded"/>
-    <xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="title" type="xs:string"/>
+        <xs:element name="comment" type="xs:string"/>
+        <xs:element name="thumbnail" type="xs:anyURI"/>
+        <xs:element name="image" type="xs:anyURI"/>
+        <xs:element name="category" type="categoryType"/>
+        <xs:element name="yield" type="xs:integer"/>
+        <xs:element name="prepTime" type="xs:int"/>
+        <xs:element name="cookTime" type="xs:int"/>
+        <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="ingredient" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
+        <xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
 

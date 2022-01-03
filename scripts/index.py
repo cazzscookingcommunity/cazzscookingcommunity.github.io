@@ -14,7 +14,7 @@ xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 <recipeList
 xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../recipeList.xsd">
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xsd">
 
 '''
 
@@ -57,9 +57,7 @@ def processFile(inputfile):
                     firstTitle = False
                     continue
 
-                if ("<comment>"   in line or
-                    "<meal>"      in line or
-                    "<category>"  in line or
+                if ("<category>"  in line or
                     "<diet>"      in line or
                     "<thumbnail>" in line or
                     "<image>"     in line): 
