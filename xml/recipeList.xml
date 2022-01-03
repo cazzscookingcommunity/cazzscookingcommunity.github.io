@@ -145,7 +145,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Paleo</diet>
+    <diet>GlutenFree</diet>
+    <diet>Paleo</diet>
 </recipe>
 <recipe>
     <title>Spicy Lentil Dip</title>
@@ -198,7 +199,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Six layer dip</title>
@@ -221,7 +223,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Sues Brown Rice Salad</title>
@@ -265,7 +268,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP EggFree DiaryFree</diet>
+    <diet>FODMAP</diet>
+    <diet>EggFree</diet>
+    <diet>DiaryFree</diet>
 </recipe>
 <recipe>
     <title>Paleo Chocolate Chip Cookies </title>
@@ -281,7 +286,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegan GlutenFree </diet>
+    <diet>Vegan</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Roasted Veg and Buckwheat Salad</title>
@@ -289,7 +295,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Dark Chocolate Fudge</title>
@@ -400,7 +407,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan Paleo</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+    <diet>Paleo</diet>
 </recipe>
 <recipe>
     <title>Moroccan Beetroot Salad</title>
@@ -508,7 +517,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegetarian GlutenFree</diet>
+    <diet>Vegetarian</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>GlutenFree WheatBix slice</title>
@@ -546,7 +556,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegan GlutenFree</diet>
+    <diet>Vegan</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Asian Salad</title>
@@ -691,7 +702,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Nasi Goreng</title>
@@ -728,7 +740,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP Vegan</diet>
+    <diet>FODMAP</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Mac and Cheese</title>
@@ -743,7 +756,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Keto</diet>
+    <diet>GlutenFree</diet>
+    <diet>Keto</diet>
 </recipe>
 <recipe>
     <title>Life Changing Bread</title>
@@ -759,7 +773,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree FODMAP Vegetarian</diet>
+    <diet>GlutenFree</diet>
+    <diet>FODMAP</diet>
+    <diet>Vegetarian</diet>
 </recipe>
 <recipe>
     <title>Grandmas Bread and Butter Pud</title>
@@ -810,7 +826,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category>Soup</category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>KETO toastie </title>
@@ -833,7 +850,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan FODMAP </diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Keto Lava Chocolate Mug Cake</title>
@@ -899,7 +918,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Cup Cakes</title>
@@ -952,7 +972,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Greek Vegan</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Filo Pie</title>
@@ -960,7 +980,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet></diet>
 </recipe>
 <recipe>
     <title>Upside Down Banana Cake</title>
@@ -1026,7 +1045,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Hummingbird Cake</title>
@@ -1078,7 +1098,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegetarian GlutenFree</diet>
+    <diet>Vegetarian</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Reginas Rum Cake </title>
@@ -1210,7 +1231,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Vegetable Bake</title>
@@ -1322,7 +1343,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegetarian GlutenFree</diet>
+    <diet>Vegetarian</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Vegan Chocolate Cake</title>
@@ -1518,7 +1540,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan </diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Mon and Chloes Stir Fried Noodles</title>
@@ -1547,7 +1570,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>Vegetarian FODMAP</diet>
+    <diet>Vegetarian</diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>No Bake Oreo Cheese Cake</title>
@@ -1685,7 +1709,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegan</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Lemon Shortbread </title>
