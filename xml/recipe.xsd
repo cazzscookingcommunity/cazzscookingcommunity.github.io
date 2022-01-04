@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- <?xml-stylesheet type='text/xsl' href='./xsd2html2xml/xsd2html2xml.xsl'?> -->
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://cazzscookingcommunity.github.io"
     xmlns="https://cazzscookingcommunity.github.io" elementFormDefault="qualified">
