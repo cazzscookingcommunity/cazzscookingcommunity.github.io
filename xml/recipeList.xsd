@@ -38,8 +38,8 @@
     <xs:sequence>
         <xs:element name="title" type="xs:string"/>
         <xs:element name="filename" type="xs:string"/>
-        <xs:element name="thumbnail" type="xs:anyURI"/>
-        <xs:element name="image" type="xs:anyURI"/>
+        <xs:element name="thumbnail" type="xs:string"/>
+        <xs:element name="image" type="xs:string"/>
         <xs:element name="category" type="categoryType" maxOccurs="unbounded"/>
         <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="unbounded"/>
     </xs:sequence>
