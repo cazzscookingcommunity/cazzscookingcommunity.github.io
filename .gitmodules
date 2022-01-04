@@ -1,6 +1,0 @@
-[submodule "xml/xml2html2xml"]
-	path = xml/xml2html2xml
-	url = git@github.com:MichielCM/xsd2html2xml.git
-[submodule "xml/xsd2html2xml"]
-	path = xml/xsd2html2xml
-	url = git@github.com:MichielCM/xsd2html2xml.git
