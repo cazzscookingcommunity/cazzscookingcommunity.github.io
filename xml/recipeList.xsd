@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
 
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-targetNamespace="https://cazzscookingcommunity.github.io"
-xmlns="https://cazzscookingcommunity.github.io"
-elementFormDefault="qualified">
+    targetNamespace="https://cazzscookingcommunity.github.io"
+    xmlns="https://cazzscookingcommunity.github.io"
+    elementFormDefault="qualified">
 
 <xs:simpleType name="dietType">
     <xs:restriction base="xs:string">
@@ -14,7 +14,6 @@ elementFormDefault="qualified">
         <xs:enumeration value="Vegetarian"/>
         <xs:enumeration value="Paleo"/>
         <xs:enumeration value="Keto"/>
-        <xs:enumeration value=""/>
     </xs:restriction>
 </xs:simpleType>
 
@@ -48,7 +47,7 @@ elementFormDefault="qualified">
 
 <xs:complexType name="listType">
     <xs:sequence>
-        <xs:element name="recipe" type="recipeType" minOccurs="1" maxOccurs="unbounded"/>
+        <xs:element name="recipe" type="recipeType" maxOccurs="unbounded"/>
     </xs:sequence>
 </xs:complexType>
 

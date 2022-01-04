@@ -15,6 +15,7 @@
             <xs:enumeration value="Keto" />
             <xs:enumeration value="DiaryFree" />
             <xs:enumeration value="FODMAP" />
+            <xs:enumeration value="" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -32,6 +33,7 @@
             <xs:enumeration value="Poultry" />
             <xs:enumeration value="Fish" />
             <xs:enumeration value="Drink" />
+            <xs:enumeration value="" />
         </xs:restriction>
     </xs:simpleType>
 
@@ -51,8 +53,8 @@
             <xs:element name="image" type="xs:string" />
             <xs:element name="category" type="categoryType" />
             <xs:element name="yield" type="xs:integer" />
-            <xs:element name="prepTime" type="xs:int" />
-            <xs:element name="cookTime" type="xs:int" />
+            <xs:element name="prepTime" type="xs:string" />
+            <xs:element name="cookTime" type="xs:string" />
             <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="ingredient" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
