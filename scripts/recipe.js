@@ -1,8 +1,8 @@
 var searchTree = {};
 var recipeList = new DOMParser();
 var $recipeList;
-var path = "../recipes/";
-var XMLrecipelist = "../xml/recipeList.xml";
+var path = "/recipes/";
+var XMLrecipelist = "/xml/recipeList.xml";
 window.scrollTo(0,$('#main').offset().top);
 
 
