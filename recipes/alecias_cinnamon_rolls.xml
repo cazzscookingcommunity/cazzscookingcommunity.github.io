@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Alecias Cinnamon Rolls</title>
 
@@ -14,8 +15,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
-
-
 
     <part>
         <title>Main</title>
@@ -35,7 +34,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd">
         <step>Remove from oven and drizzle the top once partially cooled, combined icing sugar, maple syrup and milk.</step>
     </part>
 
-    <step>
     <part>
         <title>Filling</title>
         <ingredient>1 1/2 cups packed brown sugar</ingredient>
