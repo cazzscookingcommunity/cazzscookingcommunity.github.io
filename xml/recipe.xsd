@@ -51,7 +51,7 @@
             <xs:element name="comment" type="xs:string" />
             <xs:element name="thumbnail" type="xs:string" />
             <xs:element name="image" type="xs:string" />
-            <xs:element name="category" type="categoryType" />
+            <xs:element name="category" type="categoryType" maxOccurs="3" />
             <xs:element name="yield" type="xs:integer" />
             <xs:element name="prepTime" type="xs:string" />
             <xs:element name="cookTime" type="xs:string" />
