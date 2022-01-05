@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Mint Slice</title>
     <filename>mint_slice.xml</filename>
@@ -39,7 +39,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>1 teasp peppermint essence</ingredient>
         <ingredient>4 drops green food colour (optional)</ingredient>
         <step>Pour icing sugar in a bowl and have metal spoon ready. </step>
-        In a separate bowl place 3 TBsp boiling water, food colour and essence. Add to icing sugar and stir vigorously add an <step>another TBsp of boiling water if too thick. </step>
+        <step>In a separate bowl place 3 TBsp boiling water, food colour and essence. Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick. </step>
         <step>Pour over base and smooth it out. </step>
         <step>Place dish back in freezer while making the topping. </step>
     </part>

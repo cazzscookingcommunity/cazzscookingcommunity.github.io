@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Quick Kale Soup</title>
     <filename>quick_kale_soup.xml</filename>
@@ -19,7 +19,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     
 
 
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 
 
     <ingredient>1-2 TBsp olive oil</ingredient>

@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Callums Sauté Pumpkin with Peanuts</title>
     <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
@@ -43,6 +43,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>2 TBsp five spice</ingredient>
         <ingredient>5 TBsp light soy sauce</ingredient>
         <ingredient>2 TBsp honey</ingredient>
+        <step></step>
     </part>
 
     <part>
@@ -56,10 +57,4 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
             Ps you can adapt with other vegetables or chicken.
         </step>
     </part>
-
-
-
-
-
-    </step>
 </recipe>

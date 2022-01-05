@@ -15,6 +15,7 @@
             <xs:enumeration value="Keto" />
             <xs:enumeration value="DiaryFree" />
             <xs:enumeration value="FODMAP" />
+            <xs:enumeration value="LowCarb" />
             <xs:enumeration value="" />
         </xs:restriction>
     </xs:simpleType>

@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Vegan Snickers Slice</title>
     <filename>vegan_snickers_slice.xml</filename>
@@ -41,6 +41,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>1/2 teaspoon vanilla essence</ingredient>
         <ingredient>1/2 cup peanuts</ingredient>
         <ingredient>Pinch of rock salt crushed</ingredient>
+        <step></step>
     </part>
 
     <part>
@@ -49,6 +50,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>6 TBsp cacao or pure cocoa</ingredient>
         <ingredient>2 TBsp maple syrup</ingredient>
         <ingredient>1/2 cup shredded coconut (if desired)</ingredient>
+        <step></step>
     </part>
 
 </recipe>

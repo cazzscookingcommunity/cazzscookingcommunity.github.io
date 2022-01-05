@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Big Boy Burgers</title>
     <filename>big_boy_burgers.xml</filename>
@@ -18,7 +18,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <cookTime></cookTime>
 
     <part>
-        <ingredient>Patties</ingredient>
+        <title>Patties</title>
         <ingredient>400 gms beef minced</ingredient>
         <ingredient>200 gms pork minced</ingredient>
         <ingredient>1 egg beaten</ingredient>

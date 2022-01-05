@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Baked Puttanesca Risotto </title>
     <filename>baked_puttanesca_risotto.xml</filename>
@@ -19,7 +19,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     
 
 
-    <diet>GlutenFree Vegetarian</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegetarian</diet>
 
     <ingredient>2-3 TBsp olive oil</ingredient>
     <ingredient>4 garlic cloves crushed </ingredient>

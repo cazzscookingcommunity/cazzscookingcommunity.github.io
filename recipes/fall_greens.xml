@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Fall Greens</title>
     <filename>fall_greens.xml</filename>
@@ -23,6 +23,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>1/2 cup cranberries </ingredient>
         <ingredient>1/2 cup walnuts </ingredient>
         <ingredient>4 TBsp crumbled blue cheese or feta ( whatever is available in your fridge)</ingredient>
+        <step></step>
     </part>
 
 

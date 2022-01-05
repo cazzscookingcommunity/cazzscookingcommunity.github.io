@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>GlutenFree WheatBix slice</title>
     <filename>glutenfree_wheatbix_slice.xml</filename>
@@ -34,6 +34,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <part>
         <title>Topping</title>
         <ingredient>200gms chocolate melted</ingredient>
+        <step></step>
     </part>
 
 </recipe>

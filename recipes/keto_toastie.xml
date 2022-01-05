@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>KETO toastie </title>
     <filename>keto_toastie.xml</filename>
@@ -19,7 +19,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     
 
 
-    <diet>GlutenFree Keto</diet>
+    <diet>GlutenFree</diet>
+    <diet>Keto</diet>
 
     <ingredient>1 TBsp coconut flour </ingredient>
     <ingredient>1 TBsp grated Parmesan </ingredient>

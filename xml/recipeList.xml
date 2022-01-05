@@ -137,7 +137,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Healthy Christmas Cake</title>
@@ -335,7 +335,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Cazzies Veggie Soup</title>
@@ -835,7 +835,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Keto</diet>
+    <diet>GlutenFree</diet>
+    <diet>Keto</diet>
 </recipe>
 <recipe>
     <title>Grandmas Punch</title>
@@ -927,7 +928,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree </diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Garlic Chilli Chard</title>
@@ -1054,7 +1055,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree </diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Baked Christmas Ham</title>
@@ -1074,13 +1075,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Healthy Oat and Honey Bread</title>
     <filename>healthy_oat_and_honey_bread.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
-    <title>My Mums Curry Sausages</title>
-    <filename>my_mum’s_curry_sausages.xml</filename>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
@@ -1313,7 +1307,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree Vegetarian</diet>
+    <diet>GlutenFree</diet>
+    <diet>Vegetarian</diet>
 </recipe>
 <recipe>
     <title>Quick Kale Soup</title>
@@ -1321,7 +1316,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>FODMAP </diet>
+    <diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Mexican Black Beans and Rice</title>
@@ -1345,6 +1340,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
     <diet>Vegetarian</diet>
     <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>My Mums Curry Sausages</title>
+    <filename>grandmas_curry_sausages.xml</filename>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Vegan Chocolate Cake</title>
@@ -1687,7 +1689,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>GlutenFree </diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Easy Stir Fry</title>
@@ -1718,7 +1720,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <diet>LowCarb  GlutenFree</diet>
+    <diet>LowCarb</diet>
+    <diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Mexican Chilli Pie</title>

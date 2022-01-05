@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Upside-down cake</title>
     <filename>upside_down_cake.xml</filename>
@@ -19,7 +19,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     
 
 
-    <diet>GlutenFree </diet>
+    <diet>GlutenFree</diet>
 
     <ingredient>3/4 cup brown sugar</ingredient>
     <ingredient>2 medium bananas</ingredient>

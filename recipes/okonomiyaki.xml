@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Okonomiyaki</title>
     <filename>okonomiyaki.xml</filename>
@@ -36,6 +36,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>Bacon</ingredient>
         <ingredient>Pickled ginger</ingredient>
         <ingredient>Shrimp</ingredient>
+        <step></step>
     </part>
 
     <part>
@@ -44,5 +45,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>Kewpie mayonnaise</ingredient>
         <ingredient>Okonomi sauce (or teriyaki sauce)</ingredient>
         <ingredient>Fried shallots</ingredient>
+        <step></step>
     </part>
 </recipe>

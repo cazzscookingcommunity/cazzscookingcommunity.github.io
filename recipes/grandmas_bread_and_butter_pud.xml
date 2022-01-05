@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Grandmas Bread and Butter Pud</title>
     <filename>grandmas_bread_and_butter_pud.xml</filename>
@@ -17,9 +17,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <prepTime></prepTime>
     <cookTime></cookTime>
     
-
-
-
     <ingredient>6 fruit scones cut in half*</ingredient>
     <ingredient>2 cups milk</ingredient>
     <ingredient>2 eggs </ingredient>
@@ -27,9 +24,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <ingredient>1 teaspoon vanilla essence</ingredient>
     <ingredient>Handful of sultanas (optional)</ingredient>
     <ingredient>Butter and Jam</ingredient>
-
-    <step>
-
 
     <step>Grease a pan with butter or margarine and set aside. Heat oven to 175C. Butter both cut sides of scones and one side with jam. Put together like a sandwich and cut into quarters and place in pan until all scones used up. Sprinkle over sultanas. In a bowl beat eggs with milk, sugar and essence. Pour milk mixture over bread and place in oven for 20-30 minutes. There should be no wet bits when done. Cover with foil if getting too brown while cooking. Serve alone or with cream and/or ice cream.</step>
 

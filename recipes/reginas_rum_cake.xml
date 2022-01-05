@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Reginas Rum Cake </title>
     <filename>reginas_rum_cake.xml</filename>
@@ -20,6 +20,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
 
 
     <part>
+        <title>Cake</title>
         <ingredient>1 Yellow/Butter cake mix</ingredient>
         <ingredient>1 Vanilla pudding mix </ingredient>
         <ingredient>4 eggs</ingredient>

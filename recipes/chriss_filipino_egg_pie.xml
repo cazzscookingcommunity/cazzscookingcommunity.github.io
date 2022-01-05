@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Chriss Filipino Egg Pie</title>
     <filename>chriss_filipino_egg_pie.xml</filename>
@@ -13,12 +13,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
-    <yield>makes two 9</yield>
+    <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>
 
     <part>
-        <ingredient>Crust</ingredient>
+        <title>Crust</title>
         <ingredient>3 cups plain flour</ingredient>
         <ingredient>4 TBsp sugar</ingredient>
         <ingredient>1 teasp salt</ingredient>

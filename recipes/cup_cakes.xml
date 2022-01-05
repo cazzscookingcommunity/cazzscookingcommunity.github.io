@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Cup Cakes</title>
     <filename>cup_cakes.xml</filename>
@@ -18,7 +18,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <cookTime></cookTime>
 
 
-    <diet>GlutenFree </diet>
+    <diet>GlutenFree</diet>
 
     <part>
         <title>Main</title>
@@ -28,6 +28,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>1 1/4 cup Gluten Free SR Flour </ingredient>
         <ingredient>1/3 cup milk</ingredient>
         <ingredient>1/2 cup jam</ingredient>
+        <step></step>
     </part>
 
     <part>

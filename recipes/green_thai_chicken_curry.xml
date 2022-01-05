@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Green Thai Chicken Curry</title>
     <filename>green_thai_chicken_curry.xml</filename>
@@ -39,5 +39,5 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
 
     <step>Get all ingredients out on bench. Cook rice per packet instructions, then set aside. Meanwhile prepare  all ingredients, eg wash and chop veggies, herbs and cut chicken ect. Once everything is ready heat oil in large pan. Cook garlic for 3-5 minutes on medium heat. Add curry paste and cook until fragrant (1-2 minutes). Add coconut milk, water and stock cubes. Bring to the boil then reduce immediately to simmer. Add chicken and cook for 3 minutes only. Flipping chicken pieces as necessary. Add snow peas, capsicum, fish sauce, brown sugar, juice of one lime and most of the coriander and bean sprouts ( reserve some coriander and bean sprouts for garnish.) Cook for a further 1 minute and stir well. Spoon prepared rice into bowls, spoon over curry and garnish with reserved bean sprouts and coriander. Serve each bowl with an extra wedge of lime.</step>
 
-    <steps>ubstitute chicken with 400gms of prawns.</steps>
+    <step>ubstitute chicken with 400gms of prawns.</step>
 </recipe>

@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Easy Scones</title>
     <filename>easy_scones.xml</filename>
@@ -30,5 +30,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <title>Date scones</title>
         <ingredient>250 gms dates chopped</ingredient>
         <ingredient>3 TBsp sugar</ingredient>
+        <step></step>
     </part>
 </recipe>

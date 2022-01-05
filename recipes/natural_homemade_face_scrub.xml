@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Natural Homemade Face Scrub</title>
     <filename>natural_homemade_face_scrub.xml</filename>
@@ -21,6 +21,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <title>Coffee Scrub</title>
         <ingredient>1/4 cup fresh coffee grounds </ingredient>
         <ingredient>2 TBSP coconut oil</ingredient>
+        <step></step>
     </part>
 
     <part>
