@@ -52,7 +52,8 @@ function download(file) {
     var a = document.createElement('a');
     a.download = filename;
     // a.href = window.URL.createObjectURL(bb);
-    a.href = 'data:text/xml;charset=utf-8,' + str;
+    // a.href = 'data:text/plain;charset=utf-8,' + str;
+    a.href = 'data:text/xml;charset=utf-8,' + encodeURI(str);
     a.click();
 }
 
