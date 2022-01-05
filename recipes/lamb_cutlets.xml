@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Lamb Cutlets</title>
+    <filename>lamb_cutlets.xml</filename>
 
     <comment>10 minute meal</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

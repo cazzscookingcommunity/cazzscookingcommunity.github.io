@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Greek Salad</title>
+    <filename>greek_salad.xml</filename>
 
     <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

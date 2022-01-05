@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Spinach Artichoke Quinoa Casserole</title>
+    <filename>spinach_artichoke_quinoa_casserole.xml</filename>
 
     <comment>c/o real food</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

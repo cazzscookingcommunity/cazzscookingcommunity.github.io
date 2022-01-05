@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Coq au vin</title>
+    <filename>coq_au_vin.xml</filename>
 
     <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

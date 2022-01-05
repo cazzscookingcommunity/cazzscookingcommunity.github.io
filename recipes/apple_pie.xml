@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Apple Pie</title>
+    <filename>apple_pie.xml</filename>
 
     <comment>If you hate rolling pastry, but love home made style, this is a good one for you!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

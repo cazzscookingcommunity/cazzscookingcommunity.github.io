@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Rice Bubble Slice</title>
+    <filename>rice_bubble_slice.xml</filename>
 
     <comment>c/o mykidslickthebowl with cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

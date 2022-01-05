@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Ridiculously Good Olive Oil Dip!</title>
+    <filename>ridiculously_good_olive_oil_dip.xml</filename>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>

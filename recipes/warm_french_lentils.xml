@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Warm French Lentils </title>
+    <filename>warm_french_lentils.xml</filename>
 
     <comment>This can be doubled.</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

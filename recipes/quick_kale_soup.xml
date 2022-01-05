@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Quick Kale Soup</title>
+    <filename>quick_kale_soup.xml</filename>
 
     <comment>c/o taste.com with cazzie tweaks </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

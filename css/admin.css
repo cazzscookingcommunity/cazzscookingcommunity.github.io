@@ -1,3 +1,7 @@
+@import "/css/normalize.css";
+@import "/css/skeleton.css";
+@import "/css/app.css";
+
 * {box-sizing:border-box;}
 
 body {
@@ -5,53 +9,72 @@ body {
   }
 
 .xsd2html2xml input[type=text] {
+/* form input[type="text"] { */
     padding:5px;
     width: 60%;
-    resize: vertical;
+    margin: 0;
+    font-weight: normal;
+    font-size:medium;
 }
 
-/* .xsd2html2xml button {
-    /* remove default behavior */
-    appearance:none;
-    -webkit-appearance:none;
+.xsd2html2xml input[data-xsd2html2xml-description=filename] {
+    pointer-events: none;
+    background-color: #FFC0CB;
+}
+
+.xsd2html2xml textarea {
+    height: 100px;
+    /* overflow-wrap: break-word; */
+    width: 60%;
+    font-weight: normal;
+    font-size:medium;
+    overflow-y: scroll;
+}
+
+.xsd2html2xml select {
+    font-weight: normal;
+    font-size:medium;
+}
+
+.xsd2html2xml button {
+    padding: 0 15px;
+    background-color: #aed68a;
+}
+
+.xsd2html2xml button.remove {
+    margin: 0 0 0 10px;
+}
+
+.xsd2html2xml button[type='submit']:before {
+    content: "DOWNLOAD";
+    padding: auto;
+    margin: 0;
+}
+
+.xsd2html2xml button[type=submit] {
+    /* positioning */
+    left: 74%;
+    position: fixed;
+    top: 100px;
 
     /* usual styles */
-    padding:10px;
+    background-color: #689f38;
     border:none;
-    background-color:#3F51B5;
     color:#fff;
     font-weight:600;
     border-radius:5px;
-    width:100%;
-} */
+    width:15%;
+    margin: 30px;
+} 
 
-/* from xsd2html2xml Form */
-[hidden] {
-    display: none;
+.xsd2html2xml fieldset[data-xsd2html2xml-name=part] {
+    border-style: solid;
+    background-color: #fff;
+    border: 1px solid #D1D1D1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
 }
-section {
-    margin: 5px;
-}
-label {
-    display: block;
-}
-label > span {
-    float: left;
-    margin-right: 5px;
-    min-width: 200px;
-}
-button[type='submit']:before {
-    content: "OK";
-}
-button.add:before {
-    content: "+ ";
-}
-button.remove:before {
-    content: "-";
-}
-input[data-xsd2html2xml-duration='days'] + span:after {
-    content: " (days)";
-}
-input[data-xsd2html2xml-duration='minutes'] + span:after {
-    content: " (minutes)";
-}
+
+
+

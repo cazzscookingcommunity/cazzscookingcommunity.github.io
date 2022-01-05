@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Grandmas Rice Custard </title>
+    <filename>grandmas_rice_custard_.xml</filename>
 
     <comment>egg replacer can be substituted in this recipe</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

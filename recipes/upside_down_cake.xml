@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Upside-down cake</title>
+    <filename>upside_down_cake.xml</filename>
 
     <comment>c/o taste</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

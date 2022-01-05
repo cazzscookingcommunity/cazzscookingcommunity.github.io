@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Cauliflower-Crust Spinach Pie</title>
+    <filename>cauliflower_crust_spinach_pie.xml</filename>
 
     <comment>c/o my fitness pal with cazzie tweaks </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

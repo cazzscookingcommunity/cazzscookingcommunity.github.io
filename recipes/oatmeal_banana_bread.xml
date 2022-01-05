@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Oatmeal Banana Bread</title>
+    <filename>oatmeal_banana_bread.xml</filename>
 
     <comment>c/o How to Cook Smarter with cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

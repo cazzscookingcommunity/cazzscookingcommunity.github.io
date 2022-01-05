@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Garlic Chilli Chard</title>
+    <filename>garlic_chilli_chard.xml</filename>
 
     <comment>c/o Irena Macri</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

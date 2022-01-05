@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Fasolada </title>
+    <filename>fasolada.xml</filename>
 
     <comment>c/o Akis Petretzikis.  Greek white bean soup. </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

@@ -39,9 +39,9 @@
 
     <xs:complexType name="partType">
         <xs:sequence>
-            <xs:element name="title" type="xs:string" />
-            <xs:element name="ingredient" type="xs:string" maxOccurs="unbounded" />
-            <xs:element name="step" type="xs:string" maxOccurs="unbounded" />
+            <xs:element name="title" type="xs:token" />
+            <xs:element name="ingredient" type="xs:token" maxOccurs="unbounded" />
+            <xs:element name="step" type="xs:token" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 
@@ -53,18 +53,19 @@
 
     <xs:complexType name="recipeType">
         <xs:sequence>
-            <xs:element name="title" type="xs:string" />
-            <xs:element name="comment" type="xs:string" />
+            <xs:element name="title" type="xs:token" />
+            <xs:element name="filename" type="xs:token" />
+            <xs:element name="comment" type="xs:token" />
             <xs:element name="thumbnail" type="xs:string" />
-            <xs:element name="image" type="xs:string" />
+            <xs:element name="image" type="xs:string" minOccurs="0" />
             <xs:element name="category" type="categoryType" maxOccurs="3" />
             <xs:element name="yield" type="NullOrInteger" />
-            <xs:element name="prepTime" type="xs:string" />
-            <xs:element name="cookTime" type="xs:string" />
+            <xs:element name="prepTime" type="xs:token" />
+            <xs:element name="cookTime" type="xs:token" />
             <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="ingredient" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="step" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="ingredient" type="xs:token" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="step" type="xs:token" default="\n" minOccurs="0" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 

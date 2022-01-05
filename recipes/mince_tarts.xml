@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Mince Tarts</title>
+    <filename>mince_tarts.xml</filename>
 
     <comment>Make extra dough and wrap in plastic wrap and freeze up to 3 months.</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

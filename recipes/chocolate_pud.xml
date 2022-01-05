@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Chocolate Pud</title>
+    <filename>chocolate_pud.xml</filename>
 
     <comment>C/o New Idea with Cazzie Tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

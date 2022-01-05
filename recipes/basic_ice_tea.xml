@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Basic Ice Tea</title>
+    <filename>basic_ice_tea.xml</filename>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>

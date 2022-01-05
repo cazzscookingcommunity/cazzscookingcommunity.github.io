@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Grandmas Pasties 2</title>
+    <filename>grandmas_pasties_2.xml</filename>
 
     <comment>Great for a crowd or grand final party</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

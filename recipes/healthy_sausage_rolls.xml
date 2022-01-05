@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Healthy Sausage Rolls</title>
+    <filename>healthy_sausage_rolls.xml</filename>
 
     <comment>(c/o Pampas)</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

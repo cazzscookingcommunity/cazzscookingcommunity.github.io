@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Mujadara</title>
+    <filename>mujadara.xml</filename>
 
     <comment>c/o the Mediterranean dish with cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

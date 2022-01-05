@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Steak and Blackbean Sauce</title>
+    <filename>steak_and_blackbean_sauce.xml</filename>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>

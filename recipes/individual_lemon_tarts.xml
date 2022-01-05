@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Individual lemon tarts</title>
+    <filename>individual_lemon_tarts.xml</filename>
 
     <comment>c/o eat well with cazzie tweaks </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

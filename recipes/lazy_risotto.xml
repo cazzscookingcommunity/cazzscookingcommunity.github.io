@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Lazy Risotto</title>
+    <filename>lazy_risotto.xml</filename>
 
     <comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

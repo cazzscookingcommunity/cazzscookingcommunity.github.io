@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Gluten Free Chocolate Cookies</title>
+    <filename>gluten_free_chocolate_cookies.xml</filename>
 
     <comment>c/o Gluten Free Reduced Calorie Cookbook by Connie Sarros with cazzie tweaks </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

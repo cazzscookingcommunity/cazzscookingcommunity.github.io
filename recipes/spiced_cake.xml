@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Spiced Cake</title>
+    <filename>spiced_cake.xml</filename>
 
     <comment>c/o Fresh Mag with Cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

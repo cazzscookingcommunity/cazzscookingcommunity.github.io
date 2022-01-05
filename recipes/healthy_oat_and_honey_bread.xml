@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Healthy Oat and Honey Bread</title>
+    <filename>healthy_oat_and_honey_bread.xml</filename>
 
     <comment>c/o skinnyfitalicious.  You can make this gluten free if you use gluten free oats</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

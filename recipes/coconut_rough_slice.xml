@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Coconut Rough Slice</title>
+    <filename>coconut_rough_slice.xml</filename>
 
     <comment>c/o Irena Macri with cazzie tweaks</comment>
     <thumbnail>../images/placeholder.png</thumbnail>

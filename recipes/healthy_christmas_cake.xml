@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Healthy Christmas Cake</title>
+    <filename>healthy_christmas_cake.xml</filename>
 
     <comment>c/o nourish every day </comment>
     <thumbnail>../images/placeholder.png</thumbnail>

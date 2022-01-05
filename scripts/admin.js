@@ -87,6 +87,3 @@ function displayList() {
 
     $("#filelist").html(tabledata);
 }
-
-
-

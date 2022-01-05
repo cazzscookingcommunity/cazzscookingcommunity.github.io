@@ -7,6 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Traditional Shortbread</title>
+    <filename>traditional_shortbread.xml</filename>
 
     <comment></comment>
     <thumbnail>../images/placeholder.png</thumbnail>
