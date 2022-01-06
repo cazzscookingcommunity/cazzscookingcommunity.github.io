@@ -321,14 +321,15 @@ const getIngredients = ($meal,outputStr) => {
         ingredientArr = $meal.find("ingredient");
         setIngredientList(ingredientArr, outputStr);
     }
-}
+}  
 
 // get meal thumbnail image
 const setMealThumbnail = ($meal,type) => {
-    let img = $meal.find("thumbnail").text();
-    let title = $meal.find("title").text();
+    const img = $meal.find("thumbnail").text();
+    const title = $meal.find("title").text();
+    const file = $meal.find('filename').text();
 
-    let imgSrc = `<img src="${img}" alt="${title} thumbnail"/>`;
+    let imgSrc = `<img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')"/>`;
     if ( type === 'r') { $('#randomMealImg').html(imgSrc); }
 }
 
@@ -343,9 +344,11 @@ function createMealCards(shortlist) {
             let serializer = new XMLSerializer();
             let mealData = serializer.serializeToString(recipeList[i]);
             let img = recipeList[i].getElementsByTagName("thumbnail")[0].innerHTML;
+            let file = recipeList[i].getElementsByTagName("filename")[0].innerHTML;
+
             mealCards += 
             `<div class="four columns"><div class="card">
-                <img src="${img}" alt="${title} thumbnail" class="u-max-full-width" />
+                <img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')" class="u-max-full-width" />
                 <div class="card-body">
                     <div class="cardTitle">${title}</div>
                     <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
