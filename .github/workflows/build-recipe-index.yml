@@ -9,4 +9,4 @@ jobs:
         with:
         python-version: '3.x'
         architecture: 'x64'
-      -run: python /scripts/python_scripts/index.py
+      -run: python /scripts/python_scripts/build-index.py
