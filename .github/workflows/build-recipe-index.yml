@@ -4,7 +4,7 @@ on:
     branches:
       - recipe-updates
 jobs:
-  - name: index-files-and-merge
+  index-recipe-and-merge:
     runs-on: ubuntu-latest
     steps:
 
