@@ -8,24 +8,28 @@ jobs:
     runs-on: ubuntu-latest
     steps:
 
-    - name: validate recipe and update index
+    - name: checkout branch and load python
       uses: actions/checkout@v2
       uses: actions/setup-python@v2
       with:
         python-version: '3.x'
         architecture: x64
         cache: 'pip'
+
+    -name: validate recipe and index
       run: pip install xmlschema
       run: python scripts/python_scripts/build-index-workflow.py
 
     - name: merge master to recipe-update
       run: git merge 'master'
 
-    - name: merge branck back to master
+    - name: checkout master
       uses: actions/checkout@v2
       with:
         repository: 'master'
         token: ${{ github.token }}
+
+    -name: merge recipe into master
       run: git merge 'recipe-updates'
 
 
