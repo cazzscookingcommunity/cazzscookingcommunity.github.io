@@ -19,9 +19,9 @@ jobs:
       run: git merge 'master'
     - if: ${{ success() }}
       uses: actions/checkout@v2
-        with:
-          repository: 'master'
-          token: ${{ github.token }}
+      with:
+        repository: 'master'
+        token: ${{ github.token }}
     - run: git merge 'recipe-updates'
 
 
