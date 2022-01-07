@@ -23,5 +23,6 @@ jobs:
         ref: 'master'
         token: ${{ github.token }}
     - run: git merge 'origin/recipe-updates' --allow-unrelated-histories
+    - run: git push
 
 
