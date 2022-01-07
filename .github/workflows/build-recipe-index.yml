@@ -9,8 +9,6 @@ jobs:
     steps:
 
     - uses: actions/checkout@v2
-      with:
-        token: ${{ github.token }}
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
@@ -24,7 +22,7 @@ jobs:
         git config user.name github-actions
         git config user.email github-actions@github.com
         git add .
-        git commit -m "automated workflow generated"
+        git commit -m "automated: recipe and index update"
         git push
     - if: ${{ success() }}
       uses: actions/checkout@v2
