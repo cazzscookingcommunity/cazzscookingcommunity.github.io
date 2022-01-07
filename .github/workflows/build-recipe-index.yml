@@ -11,10 +11,10 @@ jobs:
     - name: validate recipe and update index
       uses: actions/checkout@v2
       uses: actions/setup-python@v2
-        with:
-          python-version: '3.x'
-          architecture: x64
-          cache: 'pip'
+      with:
+        python-version: '3.x'
+        architecture: x64
+        cache: 'pip'
       run: pip install xmlschema
       run: python scripts/python_scripts/build-index-workflow.py
 
@@ -23,9 +23,9 @@ jobs:
 
     - name: merge branck back to master
       uses: actions/checkout@v2
-        with:
-          repository: 'master'
-          token: ${{ github.token }}
+      with:
+        repository: 'master'
+        token: ${{ github.token }}
       run: git merge 'recipe-updates'
 
 
