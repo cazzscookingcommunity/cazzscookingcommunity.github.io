@@ -4,34 +4,30 @@ on:
     branches:
       - recipe-updates
 jobs:
-  index-files:
+  - name: index-files-and-merge
     runs-on: ubuntu-latest
     steps:
-      - name: validate recipe and update index
-      - uses: actions/checkout@v2
-      - uses: actions/setup-python@v2
+    - name: validate recipe and update index
+      uses: actions/checkout@v2
+      uses: actions/setup-python@v2
+
+      run: pip install xmlschema
         with:
           python-version: '3.x'
           architecture: x64
           cache: 'pip'
-      - run: pip install xmlschema
-      - run: python scripts/python_scripts/build-index-workflow.py
-
-  merge-recipe-to-master:
-    needs: index-files
-    runs-on: ubuntu-latest
-    steps:
-      - name: merge master to recipe-update
-      - uses: actions/checkout@v2
+      run: python scripts/python_scripts/build-index-workflow.py
         with:
-          repository: 'recipe-updates'
-          token: ${{ github.token }}
-      - run: git merge 'master'
-      - uses: actions/checkout@v2
-        with:
-          repository: 'master'
-          token: ${{ github.token }}
-      - run: git merge 'recipe-updates'
-      
+          python-version: '3.x'
+          architecture: x64
+          cache: 'pip'
+    - name: merge master to recipe-update
+      run: git merge 'master'
+    - name: merge branck back to master
+      uses: actions/checkout@v2
+      with:
+        repository: 'master'
+        token: ${{ github.token }}
+      run: git merge 'recipe-updates'
 
 
