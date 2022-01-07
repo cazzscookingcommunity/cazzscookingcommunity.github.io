@@ -30,8 +30,5 @@ jobs:
         ref: 'master'
         token: ${{ github.token }}
     - run: |
-      git merge 'origin/recipe-updates'
-      git push
-
-
-
+        git merge 'origin/recipe-updates'
+        git push
