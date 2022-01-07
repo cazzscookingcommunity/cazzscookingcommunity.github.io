@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
                                                                                 
     <title>Asian Salad</title>
     <filename>asian_salad.xml</filename>
@@ -24,6 +24,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
         <ingredient>1/2 avocado chopped and mixed with 1/2 lemon juice</ingredient>
         <ingredient>1 punnet tiny tomatoes chopped in half</ingredient>
         <ingredient>1 Lebanese cucumber peeled and sliced</ingredient>
+        <step></step>
     </part>
     <part>
         <title>Dressing</title>
