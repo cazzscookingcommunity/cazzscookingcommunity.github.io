@@ -14,6 +14,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io  /xml/recipe.xsd">
     <bananas></bananas>
     <b2>
         changed recipe
+        version 3
     </b2>
     <prepTime></prepTime>
     <cookTime></cookTime>
