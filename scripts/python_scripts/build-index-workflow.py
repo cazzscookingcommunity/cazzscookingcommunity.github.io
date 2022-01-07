@@ -2,13 +2,19 @@
 
 import os
 import sys
+import xmlschema
+
 
 # source info
 recipedir = "./recipes/"
 
+
 # output info
 outputpath = "./xml/"
 outputfile = "recipeList.xml"
+
+# XML output template.  Blank lines are part of the template.
+schema = xmlschema.XMLSchema('./xml/recipe.xsd')
 xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 
 <recipeList
@@ -40,32 +46,37 @@ def closeOutput(file):
         dst.write(xmlfooter)
         dst.close()
 
-
 def processFile(inputfile):
-    with open(outputpath + outputfile, "a") as dst:
-        with open(recipedir + inputfile, "rt") as src:
-            dst.write("<recipe>\n")
-            firstTitle = True
-            while True:
-                line = src.readline()
-                if not line:
-                    break
+    if schema.is_valid(recipedir + filename):
+        with open(outputpath + outputfile, "a") as dst:
+            with open(recipedir + inputfile, "rt") as src:
+                dst.write("<recipe>\n")
+                firstTitle = True
+                while True:
+                    line = src.readline()
+                    if not line:
+                        break
 
-                if firstTitle and "<title>" in line:
-                    dst.write(line)
-                    dst.write("    <filename>" + inputfile + "</filename>\n")
-                    firstTitle = False
-                    continue
-
-                if ("<category>"  in line or
-                    "<diet>"      in line or
-                    "<thumbnail>" in line or
-                    "<image>"     in line): 
+                    if firstTitle and "<title>" in line:
                         dst.write(line)
+                        dst.write("    <filename>" + inputfile + "</filename>\n")
+                        firstTitle = False
+                        continue
 
-            dst.write("</recipe>\n")
-            dst.close()
-            src.close()
+                    if ("<category>"  in line or
+                        "<diet>"      in line or
+                        "<thumbnail>" in line or
+                        "<image>"     in line): 
+                            dst.write(line)
+
+                dst.write("</recipe>\n")
+                dst.close()
+                src.close()
+    else:
+        print(filename + " is not a valid recipe")
+        print('aborting!')
+        exit(1)
+
             
 
 
@@ -80,3 +91,4 @@ if __name__== "__main__":
             processFile(filename)
 
     closeOutput(outputpath + outputfile)
+    print("indexing complete")

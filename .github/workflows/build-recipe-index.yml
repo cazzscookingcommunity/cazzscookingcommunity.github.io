@@ -1,5 +1,8 @@
 name: build-recipe-index
-on: [push]
+on:
+  push:
+    branches:
+      - recipe-updates
 jobs:
   index-files:
     runs-on: ubuntu-latest
