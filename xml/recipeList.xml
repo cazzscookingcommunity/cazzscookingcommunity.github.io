@@ -140,13 +140,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Alecias Cinnamon Rolls</title>
-    <filename>_test.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
     <title>Anzac Cookies</title>
     <filename>anzac_cookies.xml</filename>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -998,6 +991,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Mint Slice</title>
     <filename>mint_slice.xml</filename>
+    <thumbnail>../images/placeholder.png</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Alecias Cinnamon Rolls</title>
+    <filename>_test1.xml</filename>
     <thumbnail>../images/placeholder.png</thumbnail>
     <image></image>
     <category></category>
