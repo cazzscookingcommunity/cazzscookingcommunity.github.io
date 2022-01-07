@@ -22,7 +22,11 @@ jobs:
       with:
         ref: 'master'
         token: ${{ github.token }}
-    - run: git merge 'origin/recipe-updates' --allow-unrelated-histories
-    - run: git push
+    - run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git merge 'origin/recipe-updates' --allow-unrelated-histories
+          git push
+
 
 
