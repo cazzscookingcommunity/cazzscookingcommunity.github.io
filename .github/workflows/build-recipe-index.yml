@@ -13,7 +13,6 @@ jobs:
       with:
         python-version: '3.x'
         architecture: x64
-        cache: 'pip'
     - run: pip install xmlschema
     - run: python scripts/python_scripts/build-index-workflow.py
     - run: git merge 'master'
