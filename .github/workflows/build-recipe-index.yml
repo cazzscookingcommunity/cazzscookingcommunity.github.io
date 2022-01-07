@@ -26,8 +26,6 @@ jobs:
       with:
         repository: 'master'
         token: ${{ github.token }}
-
-    -name: merge recipe into master
-      run: git merge 'recipe-updates'
+    - run: git merge 'recipe-updates'
 
 
