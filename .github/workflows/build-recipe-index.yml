@@ -10,40 +10,6 @@ jobs:
   index-recipe-and-merge:
     runs-on: ubuntu-latest
     steps:
-
-<<<<<<< Updated upstream
-    - uses: actions/checkout@v2
-      with:
-        token: ${{ github.token }}
-    - uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-        architecture: x64
-    - run: pip install xmlschema
-    - run: python scripts/python_scripts/build-index-workflow.py
-    # - if: ${{ success() }}
-    #   run: git merge 'master'
-    - if: ${{ success() }}
-      run: |
-        git config user.name github-actions
-        git config user.email github-actions@github.com
-        git add .
-        git commit -m "automated workflow generated"
-        git push
-    - if: ${{ success() }}
-      uses: actions/checkout@v2
-      with:
-        ref: 'master'
-        token: ${{ github.token }}
-    - run: |
-      git config user.name github-actions
-      git config user.email github-actions@github.com
-      git merge 'origin/recipe-updates'
-      git push
-
-
-
-=======
       - uses: actions/checkout@v2
         with:
           token: ${{ github.token }}
@@ -87,4 +53,3 @@ jobs:
     # - run: |
     #     git merge 'origin/recipe-updates'  --allow-unrelated-histories
     #     git push
->>>>>>> Stashed changes
