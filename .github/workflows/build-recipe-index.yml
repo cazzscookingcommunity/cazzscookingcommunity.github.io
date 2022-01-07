@@ -7,9 +7,24 @@ jobs:
   index-files:
     runs-on: ubuntu-latest
     steps:
+    - name: validate recipe and update index
     - uses: actions/checkout@v2
     - uses: actions/setup-python@v2
       with:
         python-version: '3.x'
         architecture: x64
+        cache: 'pip'
+    - run: pip install xmlschema
     - run: python scripts/python_scripts/build-index-workflow.py
+  merge-to-master:
+    steps:
+    - name: merge master to recipe-update
+    - uses: git merge 'master'
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        repository: 'master'
+        token: ${{ github.token }}
+    - uses: git merge 'recipe-updates'
+
+
