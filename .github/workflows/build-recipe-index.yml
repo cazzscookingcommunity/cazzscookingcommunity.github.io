@@ -20,7 +20,7 @@ jobs:
     - if: ${{ success() }}
       uses: actions/checkout@v2
       with:
-        repository: 'master'
+        ref: 'master'
         token: ${{ github.token }}
     - run: git merge 'recipe-updates'
 
