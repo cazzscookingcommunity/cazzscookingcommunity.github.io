@@ -30,7 +30,7 @@ function createFileList() {
     files = $recipelist.find('filename');
     for ( let i = 0; i < files.length; i ++ ) {
         filename = files[i].innerHTML;
-        files2display.push({name: filename, status:getStatus(filename)});
+        files2display.push({name: recipedir+filename, status:getStatus(filename)});
     };  
     // sorts the list alphabetically
     files2display.sort(function(a, b){
