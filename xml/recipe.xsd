@@ -56,7 +56,7 @@
         <xs:sequence>
             <xs:element name="title" type="xs:token" />
             <xs:element name="filename" type="xs:token" />
-            <xs:element name="comment" type="xs:token" />
+            <xs:element name="comment" type="xs:token" minOccurs="0" />
             <xs:element name="thumbnail" type="xs:string" />
             <xs:element name="image" type="xs:string" minOccurs="0" />
             <xs:element name="category" type="categoryType" maxOccurs="3" />
