@@ -140,11 +140,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Anzac Cookies</title>
+<title>Anzac Cookies</title>
     <filename>anzac_cookies.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/anzacs.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Zucchini and Sweet Spud Fritters</title>
@@ -235,11 +234,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Keto</diet>
 </recipe>
 <recipe>
-    <title>Apple Pie</title>
+<title>Apple Pie</title>
     <filename>apple_pie.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/grandmas_applepie.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Cottage Pie</title>
@@ -349,11 +347,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Black bean noodles </title>
+<title>Black bean noodles </title>
     <filename>black_bean_noodles.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Healthy Christmas Cake</title>
@@ -415,19 +412,17 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Acquacotta </title>
+<title>Acquacotta </title>
     <filename>acquacotta.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Vegetarian</diet>
+<thumbnail>../images/acquacotta.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegetarian</diet>
 </recipe>
 <recipe>
-    <title>Ashmas Mash Spud</title>
+<title>Ashmas Mash Spud</title>
     <filename>ashmas_mash_spud.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/ashmas_mash_spud.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Gluten Free Brownie</title>
@@ -522,11 +517,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Julians Bubcias Schnitzel</title>
+<title>Julians Bubcias Schnitzel</title>
     <filename>julians_bubcias_schnitzel.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/julians_bucia_schnitz.jpeg</thumbnail>
+<category>Poultry</category>
 </recipe>
 <recipe>
     <title>Hash brown Slice</title>
@@ -538,11 +532,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Baked Christmas Ham</title>
+<title>Baked Christmas Ham</title>
     <filename>baked_christmas_ham.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/baked_christmas_ham.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>CHOW MEIN</title>
@@ -669,18 +662,16 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Basic Ice Tea</title>
+<title>Basic Ice Tea</title>
     <filename>basic_ice_tea.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/basic_ice_tea.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
-    <title>Lamb Cutlets</title>
+<title>Lamb Cutlets</title>
     <filename>lamb_cutlets.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Lentil Salad</title>
@@ -884,12 +875,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Buckwheat Pancakes</title>
+<title>Buckwheat Pancakes</title>
     <filename>buckwheat_pancakes.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/buckwheat_pancakes.jpeg</thumbnail>
+<category></category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Awesome Roasted Beetroot Dip</title>
@@ -909,11 +899,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Awesome Cappuccino Mix</title>
+<title>Awesome Cappuccino Mix</title>
     <filename>awesome_cappuccino_mix.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
     <title>Paleo Pumpkin Pie</title>
@@ -952,11 +941,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Boston Tea</title>
+<title>Boston Tea</title>
     <filename>boston_tea.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/boston_tea.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
     <title>Muesli Cookies</title>
@@ -966,11 +954,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Black Bean Salad</title>
+<title>Black Bean Salad</title>
     <filename>black_bean_salad.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/blackbean_salad.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Carlys Dads Veggie Lasagna</title>
@@ -1049,11 +1036,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Aunty Jackies Pancakes</title>
+<title>Aunty Jackies Pancakes</title>
     <filename>aunty_jackies_pancakes.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/asian_salad.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Rocket and Pine nut Salad</title>
@@ -1143,11 +1129,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Adrianas Chicken and Chorizo</title>
+<title>Adrianas Chicken and Chorizo</title>
     <filename>adrianas_chicken_chorizo.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/adrianas_chicken.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Martys Tiramisu</title>
@@ -1219,11 +1204,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Keto</diet>
 </recipe>
 <recipe>
-    <title>American BBQ SpareRibs</title>
+<title>American BBQ SpareRibs</title>
     <filename>american_bbq_spareribs.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/spare_ribs.jpeg</thumbnail>
+<category>Pork</category>
 </recipe>
 <recipe>
     <title>Peanut Butter Slice</title>
@@ -1406,11 +1390,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Paleo</diet>
 </recipe>
 <recipe>
-    <title>Awesome Roast Spuds</title>
+<title>Awesome Roast Spuds</title>
     <filename>awesome_roast_spuds.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/awesome_roast_spuds.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Larb</title>
@@ -1421,11 +1404,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>Big Boy Burgers</title>
+<title>Big Boy Burgers</title>
     <filename>big_boy_burgers.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/big_boy_burgers.jpeg</thumbnail>
+<category>Beef</category>
 </recipe>
 <recipe>
     <title>Three Ingredient Cookies</title>
@@ -1528,11 +1510,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Beans and Sausages</title>
+<title>Beans and Sausages</title>
     <filename>beans_sausages.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/beans_sausages.jpeg</thumbnail>
+<category>Pork</category>
 </recipe>
 <recipe>
     <title>Sesame Squares </title>
@@ -1566,11 +1547,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Black bean Burgers</title>
+<title>Black bean Burgers</title>
     <filename>black_bean_burgers.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/blackbean_burgers.jpeg</thumbnail>
+<category></category>
+<diet>Vegetarian</diet>
 </recipe>
 <recipe>
     <title>Healthy Oat and Honey Bread</title>
@@ -1725,11 +1706,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Artichoke Dip</title>
+<title>Artichoke Dip</title>
     <filename>artichoke_dip.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/artichoke_dip.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Tuna Pasta</title>
