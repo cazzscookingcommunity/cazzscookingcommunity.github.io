@@ -3,16 +3,22 @@
 
 
 // recipe file header
+xmlheader = [`<?xml version="1.0" encoding="UTF-8"?>`,
+    `<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>`,
+    ``]
+
 header = ['<recipe',
     '    xmlns="https://cazzscookingcommunity.github.io"', 
     '    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ',
     '    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> ',
     '    ']
 
-// insert XML schema headers that have not been preserved along the way 
+// insert missing XML headers that have not lost on the way 
 function preparefile(array) {
     let i = 0;
     let filestring = ""
+
+    //  create the recipe tag
     for ( i = 0; i < array.length; i ++ ) {
         if ( array[i].includes( "<title>" ) ) {
             subarray = array[i].split("<title>");
@@ -23,11 +29,23 @@ function preparefile(array) {
             break       
         }
     }
+
+    //  insert the recipe tag
     array.splice(i, 1);
     for ( j = 0; j < subarray.length; j ++ ) {
         array.splice(i, 0, subarray[j]);
         i++
     }
+
+    // replace the XML tag and add Style tag
+    array.splice(0,1);
+    i = 0;
+    for ( j = 0; j < xmlheader.length; j ++ ) {
+        array.splice(i, 0, xmlheader[j]);
+        i++
+    }
+  
+    //  add newline to each line
     for ( i = 0; i < array.length; i ++ ) {
         filestring += array[i];
         filestring += "\n";
@@ -49,6 +67,6 @@ function download(file) {
 
 // save update recipe to GitHub or Download
 function save(file) {
-    var mywindow = window.open('/admin/github.html');
+    var mywindow = window.open('/pages/github.html');
 }
 
