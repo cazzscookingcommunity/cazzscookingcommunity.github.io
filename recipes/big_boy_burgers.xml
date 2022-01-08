@@ -1,47 +1,36 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Big Boy Burgers</title>
-    <filename>big_boy_burgers.xml</filename>
-
-    <comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-    <part>
-        <title>Patties</title>
-        <ingredient>400 gms beef minced</ingredient>
-        <ingredient>200 gms pork minced</ingredient>
-        <ingredient>1 egg beaten</ingredient>
-        <ingredient>2 Carrots minced or grated</ingredient>
-        <ingredient>1 TBsp mix herbs</ingredient>
-        <ingredient>salt and pepper to taste</ingredient>
-        <step>
+<?xml version="1.0"?>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Big Boy Burgers</title>
+<filename>big_boy_burgers.xml</filename>
+<comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
+<thumbnail>../images/big_boy_burgers.jpeg</thumbnail>
+<category>Beef</category>
+<part><title>Patties</title>
+<ingredient>400 gms beef minced</ingredient>
+<ingredient>200 gms pork minced</ingredient>
+<ingredient>1 egg beaten</ingredient>
+<ingredient>2 Carrots minced or grated</ingredient>
+<ingredient>1 TBsp mix herbs</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<step>
         Mix all ingredients together and make into 6-8 patties. Cook on stove top until brown about 6-8 minutes. Place in oven proof dish and cover with foil and place in preheated oven while you cook the other ingredients.</step>
-    </part>
-
-    <part>
-        <title>Extras</title>
-        <ingredient>6 sour dough rolls halved and slightly toasted</ingredient>
-        <ingredient>1 egg per roll fried</ingredient>
-        <ingredient>1 piece of cooked bacon per roll</ingredient>
-        <ingredient>Few leaves of baby spinach per roll</ingredient>
-        <ingredient>1-2 slices of tomatoes per roll</ingredient>
-        <ingredient>1 slice of cheese per roll</ingredient>
-        <ingredient>Condiments of your choice</ingredient>
-        
-        <step>
+</part>
+<part><title>Extras</title>
+<ingredient>6 sour dough rolls halved and slightly toasted</ingredient>
+<ingredient>1 egg per roll fried</ingredient>
+<ingredient>1 piece of cooked bacon per roll</ingredient>
+<ingredient>Few leaves of baby spinach per roll</ingredient>
+<ingredient>1-2 slices of tomatoes per roll</ingredient>
+<ingredient>1 slice of cheese per roll</ingredient>
+<ingredient>Condiments of your choice</ingredient>
+<step>
             Cook the bacon first and place in oven proof dish then pop in oven to keep warm. You can place your cheese slices on top of your burgers while they are keeping them warm at this time. While you fry your eggs, toast your rolls. You can either make the burger or place all ingredients on the bench or table and let people decide what they would like in their burger.
             You can substitute the rolls for a gluten free option if desired.
         </step>
-    </part>
+</part>
 </recipe>
+

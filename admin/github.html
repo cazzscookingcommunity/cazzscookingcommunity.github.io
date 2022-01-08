@@ -17,6 +17,10 @@
         /* display:none; */
         display:block;
     }
+
+    #commit {
+        display: none;
+    }
   </style>
 
 </head>
@@ -31,26 +35,11 @@
         <button onclick="done()">ok</button>    
         <button onclick="cancel()">cancel</button>   
     </div>
-    <!-- <button onclick="showPopup()">Show Popup</button> -->
-
+    <div id="commit">
+        <div>Committing file to Github.  Please wait.</div>
+    </div>
+    
 </body>
 
-<script>
-    // function done() { 
-    //     document.getElementById("popup").style.display = "none";
-    //     var password = document.getElementById("pass").value;
-
-    //     //DO STUFF WITH PASSWORD HERE
-    // };
-
-    // function cancel() { 
-    //     document.getElementById("popup").style.display = "none";
-    // };
-
-    // function showPopup() {
-    //     document.getElementById("popup").style.display = "block";
-    // }
-</script>
-
-<script src="/scripts/xsd2html2xml.js"></script>
+<script src="/scripts/github.js"></script>
 </html>

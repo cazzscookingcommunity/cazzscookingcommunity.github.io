@@ -2,8 +2,6 @@
 // linked in /xml/xsd2html2xml/config.xsl
 
 
-var githubToken = ""
-
 // recipe file header
 header = ['<recipe',
     '    xmlns="https://cazzscookingcommunity.github.io"', 
@@ -49,49 +47,8 @@ function download(file) {
     a.click();
 }
 
-// Commit updated recipe to GitHub
-function commit(file) {
-    console.debug(githubToken)
-}
-
-function gitUser() {
-
-    // let text;
-    // githubToken = prompt(`Please enter your GitHub token to upload recipe:
-    //                       or 'OK' to download recipe`, "");
-    // if (githubToken == null || githubToken == "") {
-    //   return(false);
-    // } else {
-    //     return(true);
-    // }
-}
-
 // save update recipe to GitHub or Download
 function save(file) {
-    mywindow = window.open('/admin/github.html');
-    // if ( gitUser() ) {
-    //     commit(file);
-    // } else if ( githubToken != null ) {
-    //     download(file);
-    // }
+    var mywindow = window.open('/admin/github.html');
 }
-
-function done() { 
-    githubToken = document.getElementById("pass").value;
-    window.history.back();
-
-    //DO STUFF WITH githubToken HERE
-    console.debug("clicked OK");
-    
-    console.debug(githubToken);
-
-};
-
-function cancel() { 
-
-    console.debug("clicked cancel1");
-    // window.history.back();
-    console.debug("clicked cancel2");
-};
-
 

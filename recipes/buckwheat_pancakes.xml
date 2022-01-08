@@ -1,36 +1,24 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Buckwheat Pancakes</title>
-    <filename>buckwheat_pancakes.xml</filename>
-
-    <comment>c/o McKenzies</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<?xml version="1.0"?>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-
-    <ingredient>1 1/2 cups buckwheat flour (McKenzies if possible)</ingredient>
-    <ingredient>2 tsp baking powder</ingredient>
-    <ingredient>1 cup milk</ingredient>
-    <ingredient>2 large eggs beaten</ingredient>
-    <ingredient>2 TBsp honey or maple syrup </ingredient>
-    <ingredient>Butter for the pan </ingredient>
-    <ingredient>Desired toppings</ingredient>
-
-    <step>
+<title>Buckwheat Pancakes</title>
+<filename>buckwheat_pancakes.xml</filename>
+<comment>c/o McKenzies</comment>
+<thumbnail>../images/buckwheat_pancakes.jpeg</thumbnail>
+<category></category>
+<diet>GlutenFree</diet>
+<ingredient>1 1/2 cups buckwheat flour (McKenzies if possible)</ingredient>
+<ingredient>2 tsp baking powder</ingredient>
+<ingredient>1 cup milk</ingredient>
+<ingredient>2 large eggs beaten</ingredient>
+<ingredient>2 TBsp honey or maple syrup </ingredient>
+<ingredient>Butter for the pan </ingredient>
+<ingredient>Desired toppings</ingredient>
+<step>
 Mix dry ingredients together and in a separate bowl mix wet ingredients. Combine together and mix until lumps removed. Melt butter in pan. Pour 2 TBsp amounts into medium hot pan and cook until bubbles pop in the batter. Flip over and cook until golden brown. Cook until all done and serve with favourite toppings.
     </step>
 </recipe>
+
