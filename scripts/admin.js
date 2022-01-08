@@ -1,12 +1,12 @@
 var files2display = [];
 var $recipelist;
 const recipedir = "/recipes/";
-const srcfile = "/xml/recipeList.xml";
+const recipeList = "/xml/recipeList.xml";
 const recipexsd = "/xml/recipe.xsd";
 
-
+// Open Recipe List index file
 $(document).ready(function(){
-    fetch(srcfile)
+    fetch(recipeList)
     .then(res => res.text())
     .then(res => new DOMParser().parseFromString(res, "text/xml"))
     .then(res => {
@@ -20,20 +20,19 @@ $(document).ready(function(){
     });
 });
 
-
+// validate recipe file against xsd schema
 function getStatus(filename) {
-    return('status-unknown');
+    return('status not yet implement');
 }
 
-
-
+// Create array of failname:status pairs
 function createFileList() {
     files = $recipelist.find('filename');
     for ( let i = 0; i < files.length; i ++ ) {
         filename = files[i].innerHTML;
         files2display.push({name: filename, status:getStatus(filename)});
-    };
-    
+    };  
+    // sorts the list alphabetically
     files2display.sort(function(a, b){
         let x = a.name.toLowerCase();
         let y = b.name.toLowerCase();
@@ -44,36 +43,29 @@ function createFileList() {
 };
 
 
-function fileOpen(file) {
-    fetch(file)
-    .then(res => res.text())
-    .then(res => new DOMParser().parseFromString(res, "text/xml"))
-    .then(res => {
-        let xmlDoc = new DOMParser();
-        xmlDoc = res.querySelectorAll('recipe');
-        $recipelist = $( xmlDoc );
+// function fileOpen(file) {
+//     fetch(file)
+//     .then(res => res.text())
+//     .then(res => new DOMParser().parseFromString(res, "text/xml"))
+//     .then(res => {
+//         let xmlDoc = new DOMParser();
+//         xmlDoc = res.querySelectorAll('recipe');
+//         $recipelist = $( xmlDoc );
         
-        // build alphabetical list of filenames
-        createFileList();
-        displayList();
-    });
+//         // build alphabetical list of filenames
+//         createFileList();
+//         displayList();
+//     });
 
-}
+// }
 
-
-
-function displayList() {
-    
+function displayList() {  
     tabledata = "";
-
     tabledata += `<a href=${recipexsd}>CREATE NEW RECIEPE</a>`;    
     tabledata += `<table>
         <tr>
             <th>Update Existing Recipe</th> <th>xml valid?</th>
         </tr>`;
-
-    
-
     
     for ( i = 0; i < files2display.length; i++ ) {
         const filename =  files2display[i].name;
@@ -84,6 +76,5 @@ function displayList() {
     }
 
     tabledata += `</table>`;
-
     $("#filelist").html(tabledata);
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>GitHub prompt</title>
+
+  <style>
+    #popup {
+        width:20%;
+        height:80px;
+        padding:20px;
+        background-color:gray;    
+        position:absolute;
+        top:100px;
+        left:100px;
+        /* display:none; */
+        display:block;
+    }
+  </style>
+
+</head>
+
+
+
+<body>
+    <div id="popup">
+        <div>Enter Github Token to upload recipe:</div>
+        <div>or click 'OK' to download</div>
+        <input id="pass" type="password"/>
+        <button onclick="done()">ok</button>    
+        <button onclick="cancel()">cancel</button>   
+    </div>
+    <!-- <button onclick="showPopup()">Show Popup</button> -->
+
+</body>
+
+<script>
+    // function done() { 
+    //     document.getElementById("popup").style.display = "none";
+    //     var password = document.getElementById("pass").value;
+
+    //     //DO STUFF WITH PASSWORD HERE
+    // };
+
+    // function cancel() { 
+    //     document.getElementById("popup").style.display = "none";
+    // };
+
+    // function showPopup() {
+    //     document.getElementById("popup").style.display = "block";
+    // }
+</script>
+
+<script src="/scripts/xsd2html2xml.js"></script>
+</html>

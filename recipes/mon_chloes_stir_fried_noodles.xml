@@ -4,7 +4,7 @@
 <recipe 
 xmlns="https://cazzscookingcommunity.github.io" 
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Mon and Chloes Stir Fried Noodles</title>
     <filename>mon_chloes_stir_fried_noodles.xml</filename>
