@@ -30,8 +30,11 @@
 <body>
     <div id="popup">
         <div>Enter Github Token to upload recipe:</div>
-        <div>or click 'OK' to download</div>
-        <input id="pass" type="password"/>
+        <div>or click 'CANCEL' to download</div>
+        <form>
+            <label for="passcode">Github Personal Access Token</label>
+            <input id="passcode" type="password"/>
+        </form>
         <button onclick="done()">ok</button>    
         <button onclick="cancel()">cancel</button>   
     </div>

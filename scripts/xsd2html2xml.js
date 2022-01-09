@@ -67,6 +67,17 @@ function download(file) {
 
 // save update recipe to GitHub or Download
 function save(file) {
-    var mywindow = window.open('/pages/github.html');
+    sessionStorage.setItem("recipeupdate", file);
+    var mywindow = window.open('/pages/github.html','','toolbar=0,status=0,width=626,height=436');
+    var timer = setInterval(checkChild, 500);
+    
+    function checkChild() {
+        if (mywindow.closed) { 
+            clearInterval(timer);
+            window.location.replace("/pages/admin.html");
+        }
+    }
 }
+
+
 
