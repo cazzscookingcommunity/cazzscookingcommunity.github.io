@@ -7,7 +7,7 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io  /xml/recipe.xsd"> 
                                                                                 
     <title>Alecias Cinnamon Rolls</title>
-    <filename>alecias_cinnamon_rolls.xml</filename>
+    <filename>_test2.xml</filename>
 
     <comment>touching 4</comment>
     <thumbnail>../images/placeholder.png</thumbnail>
@@ -40,7 +40,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io  /xml/recipe.xsd">
         <ingredient>1 1/2 cups packed brown sugar</ingredient>
         <ingredient>2 TBsp cinnamon</ingredient>
         <ingredient>150 gms butter softened</ingredient>
-        <step></step>
+        <step>xx</step>
     </part>
 
     <part>
@@ -48,7 +48,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io  /xml/recipe.xsd">
         <ingredient>1 1/4 cup icing sugar sifted</ingredient>
         <ingredient>2 TBsp maple syrup</ingredient>
         <ingredient>2 TBsp milk</ingredient>
-        <step></step>
+        <step>xx</step>
     </part>
 
 </recipe>
