@@ -64,6 +64,7 @@ jobs:
               echo "::set-output name=run_job::false"
               break
             else
+              echo "this file is in RECIPE directory."
               echo "::set-output name=run_job::true"
             fi
           done < files.txt
