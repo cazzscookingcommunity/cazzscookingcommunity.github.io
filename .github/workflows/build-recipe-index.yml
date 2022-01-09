@@ -75,6 +75,8 @@ jobs:
     if: needs.check.outputs.run_job == 'true'
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
       - name: index recipes
         uses: actions/setup-python@v2
         with:
