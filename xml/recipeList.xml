@@ -1523,11 +1523,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Alecias Cinnamon Rolls</title>
+<title>Alecias Cinnamon Rolls</title>
     <filename>_test2.xml</filename>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/placeholder.png</thumbnail>
+<category></category>
 </recipe>
 <recipe>
     <title>Quick Kale Soup</title>
