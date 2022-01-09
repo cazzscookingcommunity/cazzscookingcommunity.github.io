@@ -81,7 +81,7 @@ jobs:
           python-version: '3.x'
           architecture: x64
       - run: pip install xmlschema
-      - run: python scripts/update-index.py
+      - run: python /scripts/update-index.py
       - if: ${{ success() }}
         run: |
           git config user.name github-actions
