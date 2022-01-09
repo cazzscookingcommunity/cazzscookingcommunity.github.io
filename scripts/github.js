@@ -2,7 +2,10 @@
 var github = `https://api.github.com`
 var headers = {}
 const owner = 'cazzscookingcommunity'
+const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
+// const token = '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'
+
 
 
 // user entered GitHub access token
@@ -17,14 +20,14 @@ async function done() {
     // load user entered GitHub Personal Access Token
     githubToken = document.getElementById("passcode").value;
     if ( githubToken == null ) { cancel() }
-    const headers = {
+    headers = {
         'Accept': 'application/json',
         'Content-Type': 'application/json;charset=utf-8',
         'authorization': `Token ${githubToken}`
     }
     
     // retrieve updated file and meta data
-    const recipeupdate = decodeURI ( sessionStorage.getItem('recipeupdate') );
+    const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));
     console.debug(recipeupdate);    
     parser = new DOMParser();
     recipeXML = parser.parseFromString(recipeupdate,"text/xml");
@@ -35,7 +38,7 @@ async function done() {
     // commit changes yo GitHub
     const sha =  await getSHA(filename);
     await postFile(recipeupdate, filename, sha);
-    // window.close('/pages/github.html');
+    window.close('/pages/github.html');
 };
 
 // user selected cancel
@@ -55,34 +58,28 @@ async function getSHA(filename) {
     })
     const data = await response.json();
     existingRecipe = data.find(recipe => recipe.name == filename);
-    console.debug(data);
-    console.debug(existingRecipe);
     if ( existingRecipe ) {
-        console.debug(existingRecipe);
         sha =  existingRecipe.sha;
     } else {
-        console.debug("new recipe");
         sha = "";
     }
-    console.debug(`"${sha}"`);
     return ( sha );
 }
 
 // commit change 
 async function postFile(recipe, filename, sha) {
-    console.debug("postFile");
-    console.debug(`${sha}`)
-    console.debug(filename);
     const path = `recipes/${filename}`;
     const body = JSON.stringify({
         "content": btoa(recipe),
-        "message": "Web Form recipe update",
+        "message": "Webform recipe update",
         "branch": "master",
         "sha": `${sha}`
     })
 
     let endpoint = `/repos/${owner}/${repo}/contents/${path}`;
     console.debug(github+endpoint);
+    console.debug(headers);
+    console.debug(body);
 
     const response = await fetch(github+endpoint, {
         "headers": headers,

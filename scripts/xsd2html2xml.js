@@ -67,9 +67,8 @@ function download(file) {
 
 // save update recipe to GitHub or Download
 function save(file) {
-    const str = preparefile(file.split('\n'))
-    console.debug(encodeURI(str));
-    sessionStorage.setItem("recipeupdate", encodeURI(str));
+    const str = preparefile(file.split('\n'));
+    sessionStorage.setItem(encodeURI("recipeupdate"), str);
     var mywindow = window.open('/pages/github.html','','toolbar=0,status=0,width=626,height=436');
     var timer = setInterval(checkChild, 500);
 
