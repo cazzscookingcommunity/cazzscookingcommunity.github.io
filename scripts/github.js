@@ -4,7 +4,7 @@ var headers = {}
 const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
-// const token = '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'
+// const token = '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'
 
 
 
@@ -48,19 +48,24 @@ function cancel() {
 
 // get SHA if exiting receipe or set to null
 async function getSHA(filename) {
-    let x = 0;
-
     const path = "recipes/"
     const endpoint = `/repos/${owner}/${repo}/contents/${path}`;
+    console.debug(filename);
+    console.debug(headers);
+
     const response = await fetch(github+endpoint, {
         "headers": headers,
         "method": "GET",
     })
     const data = await response.json();
+    console.debug(data);
     existingRecipe = data.find(recipe => recipe.name == filename);
+    console.debug(existingRecipe);
     if ( existingRecipe ) {
+        console.log("existing recipe");
         sha =  existingRecipe.sha;
     } else {
+        console.log("new recipe");
         sha = "";
     }
     return ( sha );
