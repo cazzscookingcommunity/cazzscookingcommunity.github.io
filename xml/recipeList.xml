@@ -808,6 +808,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
+<title>_test3</title>
+    <filename>_test3.xml</filename>
+<thumbnail>../images/thumbnail.png</thumbnail>
+<category>Fish</category>
+</recipe>
+<recipe>
     <title>Oatmeal Banana Bread</title>
     <filename>oatmeal_banana_bread.xml</filename>
     <thumbnail>../images/placeholder.png</thumbnail>
