@@ -195,6 +195,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
+<title>test4</title>
+    <filename>_test4.xml</filename>
+<thumbnail>../images/thumbnail.png</thumbnail>
+<category>Salad</category>
+</recipe>
+<recipe>
     <title>Upside Down Banana Cake</title>
     <filename>upside_down_banana_cake.xml</filename>
     <thumbnail>../images/placeholder.png</thumbnail>
