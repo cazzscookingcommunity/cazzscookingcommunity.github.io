@@ -75,5 +75,17 @@ jobs:
     if: needs.check.outputs.run_job == 'true'
     runs-on: ubuntu-latest
     steps:
-      - name: run for recipes
-        run: echo "Updates made to recipes"
+      - name: index recipes
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.x'
+          architecture: x64
+      - run: pip install xmlschema
+      - run: python scripts/update-index.py
+      - if: ${{ success() }}
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+      - run: git add recipeList.py
+      - run: git commit -m "automated recipe index update"
+      - run: git push
