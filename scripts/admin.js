@@ -42,23 +42,6 @@ function createFileList() {
       });
 };
 
-
-// function fileOpen(file) {
-//     fetch(file)
-//     .then(res => res.text())
-//     .then(res => new DOMParser().parseFromString(res, "text/xml"))
-//     .then(res => {
-//         let xmlDoc = new DOMParser();
-//         xmlDoc = res.querySelectorAll('recipe');
-//         $recipelist = $( xmlDoc );
-        
-//         // build alphabetical list of filenames
-//         createFileList();
-//         displayList();
-//     });
-
-// }
-
 function displayList() {  
     tabledata = "";
     tabledata += `<a href=${recipexsd}>CREATE NEW RECIEPE</a>`;    

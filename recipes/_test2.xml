@@ -1,5 +1,12 @@
-<?xml version="1.0"?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"><title>Alecias Cinnamon Rolls</title>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+      
+<title>Alecias Cinnamon Rolls</title>
 <filename>_test2.xml</filename>
 <comment>touching 4</comment>
 <thumbnail>../images/placeholder.png</thumbnail>

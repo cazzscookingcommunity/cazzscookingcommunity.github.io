@@ -23,16 +23,19 @@ async function done() {
         'authorization': `Token ${githubToken}`
     }
     
-    // retrieve update file and meta data
-    const recipeupdate = sessionStorage.getItem('recipeupdate');
+    // retrieve updated file and meta data
+    const recipeupdate = decodeURI ( sessionStorage.getItem('recipeupdate') );
+    console.debug(recipeupdate);    
     parser = new DOMParser();
     recipeXML = parser.parseFromString(recipeupdate,"text/xml");
     filename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
+    console.debug(recipeupdate);
+    console.debug(recipeXML);
     
     // commit changes yo GitHub
     const sha =  await getSHA(filename);
     await postFile(recipeupdate, filename, sha);
-    window.close('/pages/github.html');
+    // window.close('/pages/github.html');
 };
 
 // user selected cancel
