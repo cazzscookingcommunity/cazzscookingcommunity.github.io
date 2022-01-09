@@ -88,6 +88,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-      - run: git add recipeList.py
+      - run: git add recipeList.xml
       - run: git commit -m "automated recipe index update"
       - run: git push
