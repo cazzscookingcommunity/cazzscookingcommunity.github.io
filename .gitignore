@@ -2,7 +2,7 @@
 fb_files/
 fb_recipes/
 test_recipes/
-xml/python_scripts/
+scripts/python_scripts/
 
 # ignore these files
 *.bak
