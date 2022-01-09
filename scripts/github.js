@@ -4,7 +4,6 @@ var headers = {}
 const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
-// const token = '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'
 
 
 
