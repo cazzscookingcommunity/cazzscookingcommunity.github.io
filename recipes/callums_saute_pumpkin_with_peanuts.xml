@@ -1,60 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Callums SautÃ© Pumpkin with Peanuts</title>
-    <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-
-    <diet>Vegetarian</diet>
-    <diet>FODMAP</diet>
-
-    <part>
-        <title>Main</title>
-        <ingredient>1/2 pumpkin deseeded peeled and cut into wedges </ingredient>
-        <ingredient>1 can coconut milk</ingredient>
-        <ingredient>4 cups of chicken or veggie stock</ingredient>
-        <ingredient>3-4 TBsp canola oil</ingredient>
-        <ingredient>1/2 lime juiced</ingredient>
-        <ingredient>1 teasp sugar</ingredient>
-        <ingredient>salt and pepper to taste</ingredient>
-        <step>Get all your ingredients ready on the bench. Heat a large pan, then add oil and heat oil. While you are doing this prepare your saute curry paste by using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together. Once mushed to your liking add soy sauce, honey, five spice and salt and pepper. Add to hot fry pan and cook for about five minutes. Add pumpkin and stir to coat all the pieces. Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin cooked but not mushy, about 15 minutes. Stirring pumpkin several times. You can use a lid to aid with this step if you have one. Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes.  Taste again and add any extra salt and pepper if required.</step>
-    </part>
-
-
-    <part>
-        <title>SautÃ© curry paste</title>
-        <ingredient>2 lemon sticks cut finely</ingredient>
-        <ingredient>1 chilli chopped</ingredient>
-        <ingredient>5 garlic cloves sliced</ingredient>
-        <ingredient>1 teaspoon turmeric</ingredient>
-        <ingredient>2 TBsp five spice</ingredient>
-        <ingredient>5 TBsp light soy sauce</ingredient>
-        <ingredient>2 TBsp honey</ingredient>
-        <step></step>
-    </part>
-
-    <part>
-        <title>To serve</title>
-        <ingredient>Bean Sprouts washed</ingredient>
-        <ingredient>Rice</ingredient>
-        <ingredient>Peanuts</ingredient>
-        <ingredient>Chopped spring onions</ingredient>
-        <step>
-            Put several tablespoons of rice in the bottom of the bowl, sprinkle over a layer of bean sprouts. Then ladle over your pumpkin ensuring to use a lot of the sauce. Sprinkle over spring onions and peanuts (if desired.)
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Callums Sauté Pumpkin with Peanuts</title>
+<filename>callums_saute_pumpkin_with_peanuts.xml</filename>
+<thumbnail>../images/callums_pumpkin_dish.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegetarian</diet>
+<diet>FODMAP</diet>
+<part><title>Main</title>
+<ingredient>1/2 pumpkin deseeded peeled and cut into wedges </ingredient>
+<ingredient>1 can coconut milk</ingredient>
+<ingredient>4 cups of chicken or veggie stock</ingredient>
+<ingredient>3-4 TBsp canola oil</ingredient>
+<ingredient>1/2 lime juiced</ingredient>
+<ingredient>1 teasp sugar</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<step>Get all your ingredients ready on the bench. Heat a large pan, then add oil and heat oil. While you are doing this prepare your saute curry paste.  Once curry paste prepared add to hot fry pan and cook for about five minutes. Add pumpkin and stir to coat all the pieces. Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin is cooked but not mushy, about 15 minutes. Stirring pumpkin several times while it is cooking. You can use a lid to aid with this step if you have one. Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes.  Taste again and add any extra salt and pepper if required.</step>
+</part>
+<part><title>Sauté curry paste</title>
+<ingredient>2 lemon sticks cut finely</ingredient>
+<ingredient>1 chilli chopped</ingredient>
+<ingredient>5 garlic cloves sliced</ingredient>
+<ingredient>1 teaspoon turmeric</ingredient>
+<ingredient>2 TBsp five spice</ingredient>
+<ingredient>5 TBsp light soy sauce</ingredient>
+<ingredient>2 TBsp honey</ingredient>
+<step>Using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together. Once mushed to your liking add soy sauce, honey, five spice and salt and pepper. </step>
+</part>
+<part><title>To serve</title>
+<ingredient>Bean Sprouts washed</ingredient>
+<ingredient>Rice</ingredient>
+<ingredient>Peanuts</ingredient>
+<ingredient>Chopped spring onions</ingredient>
+<step>Put several tablespoons of rice in the bottom of a bowl, sprinkle over a layer of bean sprouts. Then ladle over your pumpkin ensuring to use a lot of the sauce. Sprinkle over spring onions and peanuts (if desired.)
             Ps you can adapt with other vegetables or chicken.
         </step>
-    </part>
+</part>
 </recipe>
+
