@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Curtis Stones Rice Noodles</title>
-    <filename>curtis_stones_rice_noodles.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>500gms mince chicken</ingredient>
-    <ingredient>200gms Pad Thai rice noodles</ingredient>
-    <ingredient>2-3 carrots grated</ingredient>
-    <ingredient>4 spring onions chopped </ingredient>
-    <ingredient>2-4 garlic cloves crushed</ingredient>
-    <ingredient>1/4 cup Oyster sauce</ingredient>
-    <ingredient>2 TBsp Soy sauce</ingredient>
-    <ingredient>1 TBsp chilli sauce</ingredient>
-    <ingredient>1 teaspoon cornflour, mixed with 2 TBsp water </ingredient>
-    <ingredient>Olive oil </ingredient>
-    <ingredient>salt and pepper to taste</ingredient>
-
-    <step>
+<title>Curtis Stones Rice Noodles</title>
+<filename>curtis_stones_rice_noodles.xml</filename>
+<thumbnail>../images/curtis_stones_rice_noodles.jpeg</thumbnail>
+<category>Poultry</category>
+<ingredient>500gms mince chicken</ingredient>
+<ingredient>200gms Pad Thai rice noodles</ingredient>
+<ingredient>2-3 carrots grated</ingredient>
+<ingredient>4 spring onions chopped </ingredient>
+<ingredient>2-4 garlic cloves crushed</ingredient>
+<ingredient>1/4 cup Oyster sauce</ingredient>
+<ingredient>2 TBsp Soy sauce</ingredient>
+<ingredient>1 TBsp chilli sauce</ingredient>
+<ingredient>1 teaspoon cornflour, mixed with 2 TBsp water </ingredient>
+<ingredient>Olive oil </ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<step>
 Cook Pad Thai noodles per packet and instructions and sprinkle olive oil  over them and mix (this stops the noodles sticking together) then set aside. Meanwhile mix all sauces together, with cornflour mixture and set aside.  Heat wok or large pan and add olive oil.  Heat oil for a few minutes before adding garlic. Cook garlic for 5 minutes then add mince chicken.  Cook chicken until fully cooked then add carrot, sauce mixture and noodles. Stir to combine then add salt and pepper and top with spring onion. Serve immediately with additional spring onion on top of each bowl.
     </step>
 </recipe>
+
