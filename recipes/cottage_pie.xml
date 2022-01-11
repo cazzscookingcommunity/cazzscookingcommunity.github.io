@@ -1,39 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Cottage Pie</title>
-    <filename>cottage_pie.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>FODMAP</diet>
-
-    <ingredient>One amount of mashed spud</ingredient>
-    <ingredient>600 gms mince meat (lamb)</ingredient>
-    <ingredient>2-4 garlic cloves crushed</ingredient>
-    <ingredient>2 carrots grated</ingredient>
-    <ingredient>1/2 cup frozen peas defrosted or a zucchini grated</ingredient>
-    <ingredient>2 Tbsps tomatoe sauce</ingredient>
-    <ingredient>2 Tbsps Worcestershire sauce</ingredient>
-    <ingredient>1 Tbsp corn flour </ingredient>
-    <ingredient>1-2 stock cubes </ingredient>
-    <ingredient>Olive oil </ingredient>
-    <ingredient>Salt and Pepper to taste</ingredient>
-
-    <step>
+<title>Cottage Pie</title>
+<filename>cottage_pie.xml</filename>
+<thumbnail>../images/cottage_pie.jpeg</thumbnail>
+<category>Lamb</category>
+<diet>FODMAP</diet>
+<ingredient>One amount of mashed spud</ingredient>
+<ingredient>600 gms mince meat (lamb)</ingredient>
+<ingredient>2-4 garlic cloves crushed</ingredient>
+<ingredient>2 carrots grated</ingredient>
+<ingredient>1/2 cup frozen peas defrosted or a zucchini grated</ingredient>
+<ingredient>2 Tbsps tomatoe sauce</ingredient>
+<ingredient>2 Tbsps Worcestershire sauce</ingredient>
+<ingredient>1 Tbsp corn flour </ingredient>
+<ingredient>1-2 stock cubes </ingredient>
+<ingredient>Olive oil </ingredient>
+<ingredient>Salt and Pepper to taste</ingredient>
+<step>
 Preheat oven to 180 degrees. Heat olive oil in large fry pan and add garlic. Once golden add mince meat and cook until brown add all other ingredients except spud. Cook until reheated and sauce thickens. Place in a tray and spoon over mash spud. Cook for 30-40 minutes or until golden brown. Serve with side salad or lots of tomatoe sauce!
     </step>
 </recipe>
+
