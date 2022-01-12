@@ -1,31 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Easy Pud</title>
-    <filename>easy_pud.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>440 can crushed pineapple </ingredient>
-    <ingredient>1 packet butter cake mix</ingredient>
-    <ingredient>125gm butter melted</ingredient>
-    <ingredient>1/2 cup milk</ingredient>
-
-    <step>
+<title>Easy Pud</title>
+<filename>easy_pud.xml</filename>
+<thumbnail>../images/easy_pud.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>440 can crushed pineapple </ingredient>
+<ingredient>1 packet butter cake mix</ingredient>
+<ingredient>125gm butter melted</ingredient>
+<ingredient>1/2 cup milk</ingredient>
+<step>
 Preheat over to 180C. Grease baking dish (approximately 15x20cm) and set aside. Empty pineapple into dish and smooth over bottom of dish. Sprinkle cake mix to completely cover pineapple. Pour over combined melted butter and milk. Cook for 45mins. Serve hot with ice cream, cream or custard.
     </step>
 </recipe>
+
