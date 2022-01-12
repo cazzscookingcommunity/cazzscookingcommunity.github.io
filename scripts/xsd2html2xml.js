@@ -13,6 +13,13 @@ header = ['<recipe',
     '    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> ',
     '    ']
 
+
+// function closeWindow(mywindow) {
+//     mywindow.close();
+//     console.debug('abount to go back');
+//     window.location.assign("/pages/admin.html");
+// }
+
 // insert missing XML headers that have not lost on the way 
 function preparefile(array) {
     let i = 0;
@@ -53,17 +60,6 @@ function preparefile(array) {
     return(filestring);
 }
 
-// download the update recipe XML form
-function download(file) {
-    doc = new DOMParser().parseFromString(file,"text/xml");
-    filename = doc.getElementsByTagName('filename')[0].innerHTML;
-
-    const str = preparefile(file.split('\n'))
-    var a = document.createElement('a');
-    a.download = filename;
-    a.href = 'data:text/xml;charset=utf-8,' + encodeURI(str);
-    a.click();
-}
 
 // save update recipe to GitHub or Download
 function save(file) {
@@ -75,11 +71,7 @@ function save(file) {
     function checkChild() {
         if (mywindow.closed) { 
             clearInterval(timer);
-            if ( sessionStorage.getItem('button') == 'cancel' ) {
-                recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));
-                download (recipeupdate);
-            }
-            window.location.replace("/pages/admin.html");
+            window.location.replace('/pages/admin.html');
         }
     }
 }
