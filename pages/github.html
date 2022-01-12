@@ -3,40 +3,27 @@
 
 <head>
   <meta charset="utf-8">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <link rel="stylesheet" href="/css/admin.css">
+
   <title>GitHub prompt</title>
-
-  <style>
-    #popup {
-        width:20%;
-        height:80px;
-        padding:20px;
-        background-color:gray;    
-        position:absolute;
-        top:100px;
-        left:100px;
-        /* display:none; */
-        display:block;
-    }
-
-    #commit {
-        display: none;
-    }
-  </style>
-
 </head>
 
 
 
 <body>
     <div id="popup">
-        <div>Enter Github Token to upload recipe:</div>
-        <div>or click 'CANCEL' to download</div>
+        <div>Enter Github Token to upload recipe
+            or cancel to download:</div>
+        <br>
         <form>
-            <label for="passcode">Github Personal Access Token</label>
+            <label id="passcode-label" for="passcode">Github Personal Access Token</label>
             <input id="passcode" type="password"/>
         </form>
-        <button onclick="done()">ok</button>    
-        <button onclick="cancel()">cancel</button>   
+        <button class="button" onclick="done()">upload</button>    
+        <button class="button" onclick="cancel()">cancel</button>   
     </div>
     <div id="commit">
         <div>Committing file to Github.  Please wait.</div>

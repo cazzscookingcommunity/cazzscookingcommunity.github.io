@@ -68,13 +68,17 @@ function download(file) {
 // save update recipe to GitHub or Download
 function save(file) {
     const str = preparefile(file.split('\n'));
-    sessionStorage.setItem(encodeURI("recipeupdate"), str);
+    sessionStorage.setItem('recipeupdate', encodeURI(str));
     var mywindow = window.open('/pages/github.html','','toolbar=0,status=0,width=626,height=436');
     var timer = setInterval(checkChild, 500);
 
     function checkChild() {
         if (mywindow.closed) { 
             clearInterval(timer);
+            if ( sessionStorage.getItem('button') == 'cancel' ) {
+                recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));
+                download (recipeupdate);
+            }
             window.location.replace("/pages/admin.html");
         }
     }

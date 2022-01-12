@@ -34,7 +34,7 @@ async function done() {
     console.debug(recipeupdate);
     console.debug(recipeXML);
     
-    // commit changes yo GitHub
+    // commit changes to GitHub
     const sha =  await getSHA(filename);
     await postFile(recipeupdate, filename, sha);
     window.close('/pages/github.html');
@@ -42,6 +42,7 @@ async function done() {
 
 // user selected cancel
 function cancel() { 
+    sessionStorage.setItem('button', 'cancel');
     window.close('/pages/github.html');
 };
 
@@ -56,10 +57,17 @@ async function getSHA(filename) {
         "headers": headers,
         "method": "GET",
     })
+
     const data = await response.json();
     console.debug(data);
     existingRecipe = data.find(recipe => recipe.name == filename);
     console.debug(existingRecipe);
+
+    if ( !response.ok) {
+        const message  = "GitHub error has occured try again or cancel to download"
+        throw error(message)
+    }
+
     if ( existingRecipe ) {
         console.log("existing recipe");
         sha =  existingRecipe.sha;
@@ -90,6 +98,8 @@ async function postFile(recipe, filename, sha) {
         "method": "PUT",
         "body": body
     })
-    const data = await response.json()
+    const data = await response.json().catch(error => {
+        document.getElementById("commit").innerHTML = error;
+    })
     console.debug(data);   
 }
