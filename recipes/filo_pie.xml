@@ -1,34 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Filo Pie</title>
-    <filename>filo_pie.xml</filename>
-
-    <comment>c/o sbs.com.au Filo Pie- with Cazzie Tweaks</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-    <ingredient>8-10 Filo pastry sheets*</ingredient>
-    <ingredient>1 1/2  cups milk</ingredient>
-    <ingredient>100 gms butter melted</ingredient>
-    <ingredient>3 eggs</ingredient>
-    <ingredient>1/2 cup sugar</ingredient>
-    <ingredient>1 teaspoon vanilla essence</ingredient>
-    <ingredient>1/2 cup Blue berries</ingredient>
-    <ingredient>Cinnamon</ingredient>
-    <ingredient>Pinch or two of icing sugar</ingredient>
-
-    <step>Grease a pie dish with butter and preheat oven to 180C. Lie the Filo pastry sheets on a damp tea towel.  Brush the top sheet with butter and fold it over long ways in half, then in half again (it will be a long strip.)  Gently roll it in a loose fashion and then cut in half with kitchen scissors.  Place the cut side down in the pie dish.  Continue with the brushing, folding, rolling then cutting until you have used up all the sheets.  Space the rosettes evenly around the dish and paint the top with the remaining butter.  Sprinkle with cinnamon and place in preheated oven for 20-30 minutes (tops should be going golden brown.)  Meanwhile whisk eggs, sugar and vanilla essence in a bowl and set aside.  In a small pot heat milk until bubbling.  Once bubbling pour into egg mixture while you whisk at the same time.  Remove pie dish after its golden brown (20-30 minutes) then sprinkle over blueberries, then pour over egg mixture.  Place back in the oven for another 20-30 minutes or until custard sets.  Remove from oven and sprinkle over icing sugar if desired.  Serve with a little cream or ice cream.</step>
-
-    <step>I use the fresh Filo pastry (found in the refrigerator section of the supermarket, not the frozen type.)
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Filo Pie</title>
+<filename>filo_pie.xml</filename>
+<comment>c/o sbs.com.au Filo Pie- with Cazzie Tweaks</comment>
+<thumbnail>../images/filo_pie.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>8-10 Filo pastry sheets*</ingredient>
+<ingredient>1 1/2  cups milk</ingredient>
+<ingredient>100 gms butter melted</ingredient>
+<ingredient>3 eggs</ingredient>
+<ingredient>1/2 cup sugar</ingredient>
+<ingredient>1 teaspoon vanilla essence</ingredient>
+<ingredient>1/2 cup Blue berries</ingredient>
+<ingredient>Cinnamon</ingredient>
+<ingredient>Pinch or two of icing sugar</ingredient>
+<step>Grease a pie dish with butter and preheat oven to 180C. Lie the Filo pastry sheets on a damp tea towel.  Brush the top sheet with butter and fold it over long ways in half, then in half again (it will be a long strip.)  Gently roll it in a loose fashion and then cut in half with kitchen scissors.  Place the cut side down in the pie dish.  Continue with the brushing, folding, rolling then cutting until you have used up all the sheets.  Space the rosettes evenly around the dish and paint the top with the remaining butter.  Sprinkle with cinnamon and place in preheated oven for 20-30 minutes (tops should be going golden brown.)  Meanwhile whisk eggs, sugar and vanilla essence in a bowl and set aside.  In a small pot heat milk until bubbling.  Once bubbling pour into egg mixture while you whisk at the same time.  Remove pie dish after its golden brown (20-30 minutes) then sprinkle over blueberries, then pour over egg mixture.  Place back in the oven for another 20-30 minutes or until custard sets.  Remove from oven and sprinkle over icing sugar if desired.  Serve with a little cream or ice cream.</step>
+<step>I use the fresh Filo pastry (found in the refrigerator section of the supermarket, not the frozen type.)
     Great for using up those last few of sheets of Filo Pastry!</step>
 </recipe>
+
