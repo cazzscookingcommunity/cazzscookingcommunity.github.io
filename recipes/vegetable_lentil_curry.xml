@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Vegetable Lentil Curry</title>
-    <filename>vegetable_lentil_curry.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>Vegetarian</diet>
-
-    <ingredient>2 Tbsp oil</ingredient>
-    <ingredient>4 Tbsp green curry paste</ingredient>
-    <ingredient>2-4 garlic cloves crushed </ingredient>
-    <ingredient>200gm butternut and regular pumpkin chopped</ingredient>
-    <ingredient>1 sweet potatoe peeled and chopped</ingredient>
-    <ingredient>1-2 carrots chopped</ingredient>
-    <ingredient>2 cups red lentils</ingredient>
-    <ingredient>4 stock cubes</ingredient>
-    <ingredient>100 gms frozen spinach</ingredient>
-    <ingredient>4-6 cups of water (add 6 cups if you like it more runny or less if you prefer it more solid- I add one stock cube per cup)</ingredient>
-
-    <step>
+<title>Vegetable Lentil Curry</title>
+<filename>vegetable_lentil_curry.xml</filename>
+<thumbnail>../images/vegetable-lentil_curry.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegetarian</diet>
+<ingredient>2 Tbsp oil</ingredient>
+<ingredient>4 Tbsp green curry paste</ingredient>
+<ingredient>2-4 garlic cloves crushed </ingredient>
+<ingredient>200gm butternut and regular pumpkin chopped</ingredient>
+<ingredient>1 sweet potatoe peeled and chopped</ingredient>
+<ingredient>1-2 carrots chopped</ingredient>
+<ingredient>2 cups red lentils</ingredient>
+<ingredient>4 stock cubes</ingredient>
+<ingredient>100 gms frozen spinach</ingredient>
+<ingredient>4-6 cups of water (add 6 cups if you like it more runny or less if you prefer it more solid- I add one stock cube per cup)</ingredient>
+<step>
 Heat oil in a large pot and cook garlic for 2 minutes then add curry paste and cook for a further 2-3 mins.  Add all other ingredients except spinach and cook until veggies are soft, about 20-40 mins.  Add spinach and stir until completely mixed through.  Serve with rice, yogurt and coriander sprinkled on top- Top Notch!
     </step>
 </recipe>
+
