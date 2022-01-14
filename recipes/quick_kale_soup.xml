@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>quick_kale_soup.xml</filename>
 
     <comment>c/o taste.com with cazzie tweaks </comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

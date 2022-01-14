@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>warm_french_lentils.xml</filename>
 
     <comment>This can be doubled.</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

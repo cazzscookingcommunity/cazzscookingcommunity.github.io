@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>grandmas_bread_and_butter_pud.xml</filename>
 
     <comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

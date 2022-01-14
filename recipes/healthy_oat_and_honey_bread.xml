@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>healthy_oat_and_honey_bread.xml</filename>
 
     <comment>c/o skinnyfitalicious.  You can make this gluten free if you use gluten free oats</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

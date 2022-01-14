@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>gluten_free_chocolate_cookies.xml</filename>
 
     <comment>c/o Gluten Free Reduced Calorie Cookbook by Connie Sarros with cazzie tweaks </comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

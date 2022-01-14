@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>vegan_chocolate_cake.xml</filename>
 
     <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmothers Neighbour!</comment>
-    <thumbnail>../images/placeholder.png</thumbnail>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>
