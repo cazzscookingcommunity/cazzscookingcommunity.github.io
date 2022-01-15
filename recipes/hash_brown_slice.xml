@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Hash brown Slice</title>
-    <filename>hash_brown_slice.xml</filename>
-
-    <comment>c/o the perfect home with cazzie tweaks</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-
-    <diet>Vegetarian</diet>
-    <diet>GlutenFree</diet>
-
-
-    <ingredient>1/4-1/2 cabbage shredded </ingredient>
-    <ingredient>2 carrots grated </ingredient>
-    <ingredient>2 potatoes grated</ingredient>
-    <ingredient>2 spring onions chopped </ingredient>
-    <ingredient>3 eggs beaten</ingredient>
-    <ingredient>3 TBSP olive oil</ingredient>
-    <ingredient>1 teaspoon salt, pepper and paprika</ingredient>
-    <ingredient>1 TBsp garlic powder </ingredient>
-    <ingredient>Extra oil</ingredient>
-
-    <step>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Hash brown Slice</title>
+<filename>hash_brown_slice.xml</filename>
+<comment>c/o the perfect home with cazzie tweaks</comment>
+<thumbnail>../images/hash_brown_slice.jpeg</thumbnail>
+<category>Breakfast</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+<ingredient>1/4-1/2 cabbage shredded </ingredient>
+<ingredient>2 carrots grated </ingredient>
+<ingredient>2 potatoes grated</ingredient>
+<ingredient>2 spring onions chopped </ingredient>
+<ingredient>3 eggs beaten</ingredient>
+<ingredient>3 TBSP olive oil</ingredient>
+<ingredient>1 teaspoon salt, pepper and paprika</ingredient>
+<ingredient>1 TBsp garlic powder </ingredient>
+<ingredient>Extra oil</ingredient>
+<step>
 Preheat oven to 180C. Place baking paper in a large roasting pan and grease paper with extra oil, then set aside. Place all other ingredients in a large bowl and mix well. Pour into prepared baking dish and flatten with the back of a spoon or wet hands. Place in preheated oven for 1 hour. Remove from oven and slice into squares. If you use a pizza cutter to cut, it makes it easier. Serve hot or cold with Mayo, if desired. Store in fridge for four days. Add any extra herbs to the mix if desired.
     </step>
 </recipe>
+
