@@ -1,6 +1,6 @@
 var files2display = [];
 var $recipelist;
-const recipedir = "/recipes/";
+// const recipedir = "/recipes/";
 const recipeList = "/xml/recipeList.xml";
 const recipexsd = "/xml/recipe.xsd";
 
@@ -44,20 +44,29 @@ function createFileList() {
 
 function displayList() {  
     tabledata = "";
-    tabledata += `<a href=${recipexsd}>CREATE NEW RECIEPE</a>`;    
+
+    tabledata += `<button onclick="image_upload(document.getElementById('imgFname').value)">upload image</button>`;
+    tabledata += `<input type="file" id="imgFname" name="image" accept="image/*">`;
+    tabledata += `<br><br>`;
+
+    tabledata += `<a href=${recipexsd}><button>CREATE NEW RECIPE</button></a>`;  
+    tabledata += `<br><br>`;
+
     tabledata += `<table>
         <tr>
-            <th>Update Existing Recipe</th> <th>xml valid?</th>
+            <th>Update Existing Recipe</th>
         </tr>`;
+        // <th>Update Existing Recipe</th> <th>xml valid?</th>
     
     for ( i = 0; i < files2display.length; i++ ) {
         const filename =  files2display[i].name;
         const xmlstatus = files2display[i].status;
         file = recipedir + filename;
         tabledata += `<tr><td><a href=${file}>${filename}</a></td>`;
-        tabledata += `<td>${xmlstatus}</td></tr>`;
+        // tabledata += `<td>${xmlstatus}</td></tr>`;
     }
 
     tabledata += `</table>`;
     $("#filelist").html(tabledata);
 }
+

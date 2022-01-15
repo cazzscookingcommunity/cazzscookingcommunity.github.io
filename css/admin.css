@@ -46,7 +46,7 @@ body {
 }
 
 .xsd2html2xml button[type='submit']:before {
-    content: "DOWNLOAD";
+    content: "UPLOAD";
     padding: auto;
     margin: 0;
 }
@@ -82,12 +82,12 @@ body {
     background-color: #aed68a;
 }
 
-#passcode-label {
+#passcode-label, #imageupload-label {
     background-color: #689f38;
     color:#fff;
 }
 
-input#passcode {
+input#passcode, input#imageupload {
     width: 100%;
 }
 
