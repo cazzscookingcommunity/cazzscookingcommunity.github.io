@@ -1,35 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Home made Carmen Bars</title>
-    <filename>home_made_carmen_bars.xml</filename>
-
-    <comment>c/o Norbu with cazzie tweaks</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>2 ripe bananas chopped </ingredient>
-    <ingredient>2 heap TBsp peanut butter </ingredient>
-    <ingredient>1 egg beaten</ingredient>
-    <ingredient>2 TBsp Norbu or brown sugar</ingredient>
-    <ingredient>2 teaspoon vanilla extract </ingredient>
-    <ingredient>1 teaspoon all spice</ingredient>
-    <ingredient>2 cups untoasted muesli</ingredient>
-    <ingredient>1 1/2 cups nuts/seeds/dried fruit of your choice </ingredient>
-
-    <step>
+<title>Home made Carmen Bars</title>
+<filename>home_made_carmen_bars.xml</filename>
+<comment>c/o Norbu with cazzie tweaks</comment>
+<thumbnail>../images/homemade_carmen_bars.jpeg</thumbnail>
+<category>Lunch</category>
+<ingredient>2 ripe bananas chopped </ingredient>
+<ingredient>2 heap TBsp peanut butter </ingredient>
+<ingredient>1 egg beaten</ingredient>
+<ingredient>2 TBsp Norbu or brown sugar</ingredient>
+<ingredient>2 teaspoon vanilla extract </ingredient>
+<ingredient>1 teaspoon all spice</ingredient>
+<ingredient>2 cups untoasted muesli</ingredient>
+<ingredient>1 1/2 cups nuts/seeds/dried fruit of your choice </ingredient>
+<step>
 Heat oven to 180C and line a slice tray with baking paper.  In a bowl mash bananas, then mix in egg, vanilla, peanut butter and sugar. Pour in premixed muesli mixed with nuts, seeds and dried fruit and mixed spice and stir until completely combined. Pour into tray and push flat with wet hands. Place in oven for 20 mins or until lightly golden on the top. Remove from oven and tray. Place on cooling rack still on grease proof paper. Wait 8 minutes then cut into bars. Wait until completely cold before serving.  Store in airtight container.
     </step>
 </recipe>
+
