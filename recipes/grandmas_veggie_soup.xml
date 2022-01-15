@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Grandmas Veggie Soup</title>
-    <filename>grandmas_veggie_soup.xml</filename>
-
-    <comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>2 lamb shanks or other lamb bones</ingredient>
-    <ingredient>1 swede chopped</ingredient>
-    <ingredient>1 turnip chopped</ingredient>
-    <ingredient>1 parsnip chopped</ingredient>
-    <ingredient>2 celery sticks chopped</ingredient>
-    <ingredient>2 large carrots chopped</ingredient>
-    <ingredient>250 gms McKenzies soup mix</ingredient>
-    <ingredient>1 bay leaf</ingredient>
-    <ingredient>Stock to cover </ingredient>
-    <ingredient>Salt and Pepper to taste</ingredient>
-
-    <step>
+<title>Grandmas Veggie Soup</title>
+<filename>grandmas_veggie_soup.xml</filename>
+<comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
+<thumbnail>../images/grandmas_veggie_soup.jpeg</thumbnail>
+<category>Soup</category>
+<ingredient>2 lamb shanks or other lamb bones</ingredient>
+<ingredient>1 swede chopped</ingredient>
+<ingredient>1 turnip chopped</ingredient>
+<ingredient>1 parsnip chopped</ingredient>
+<ingredient>2 celery sticks chopped</ingredient>
+<ingredient>2 large carrots chopped</ingredient>
+<ingredient>250 gms McKenzies soup mix</ingredient>
+<ingredient>1 bay leaf</ingredient>
+<ingredient>Stock to cover </ingredient>
+<ingredient>Salt and Pepper to taste</ingredient>
+<step>
 Place all ingredients in a large pot and cover with stock until it is up to your thumb joint over all ingredients. Bring to the boil, then reduce to a simmer. Remove scum from the top and cook until the meat is falling of the bone (about 4-6 hours.) Remove shanks and shred meat with knife and fork. Place all back into the pot, including the bones. Cook until soup thickens, usually another 1-2 hours. Remove bones and season with Salt and Pepper.  Serve with crusty bread. You can freeze the soup or cook in slow cooker on low for 8-10 hours.
     </step>
 </recipe>
+
