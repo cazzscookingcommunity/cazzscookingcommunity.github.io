@@ -41,7 +41,15 @@ def closeOutput(file):
         dst.close()
 
 def processFile(inputfile):
-    if schema.is_valid(recipedir + filename):
+    try:
+        validRecipe = schema.is_valid(recipedir + filename)
+    except:
+        print(filename + " is not a valid recipe")
+        print('aborting!')
+        exit(1)
+
+    # if schema.is_valid(recipedir + filename):
+    if validRecipe:
         with open(outputpath + outputfile, "a") as dst:
             with open(recipedir + inputfile, "rt") as src:
                 dst.write("<recipe>\n")
