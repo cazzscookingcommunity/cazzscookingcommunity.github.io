@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Homemade Fajita Mix</title>
-    <filename>homemade_fajita_mix.xml</filename>
-
-    <comment>c/o diethood.com</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>1 teaspoon chilli powder</ingredient>
-    <ingredient>1 teaspoon paprika</ingredient>
-    <ingredient>1 teaspoon garlic powder </ingredient>
-    <ingredient>1 teaspoon cumin</ingredient>
-    <ingredient>1/2 teaspoon oregano </ingredient>
-    <ingredient>1 teaspoon salt</ingredient>
-    <ingredient>1/4 teaspoon pepper</ingredient>
-    <ingredient>1 teaspoon cornstarch (if desired)</ingredient>
-
-    <step>
+<title>Homemade Fajita Mix</title>
+<filename>homemade_fajita_mix.xml</filename>
+<comment>c/o diethood.com</comment>
+<thumbnail>../images/home_made_fajita_mix.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<ingredient>1 teaspoon chilli powder</ingredient>
+<ingredient>1 teaspoon paprika</ingredient>
+<ingredient>1 teaspoon garlic powder </ingredient>
+<ingredient>1 teaspoon cumin</ingredient>
+<ingredient>1/2 teaspoon oregano </ingredient>
+<ingredient>1 teaspoon salt</ingredient>
+<ingredient>1/4 teaspoon pepper</ingredient>
+<ingredient>1 teaspoon cornstarch (if desired)</ingredient>
+<step>
 Mix all ingredients together. Use to make Fajitas!
     </step>
 </recipe>
+
