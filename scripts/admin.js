@@ -61,7 +61,7 @@ function displayList() {
     for ( i = 0; i < files2display.length; i++ ) {
         const filename =  files2display[i].name;
         const xmlstatus = files2display[i].status;
-        file = recipedir + filename;
+        file = '/' + recipedir + filename;
         tabledata += `<tr><td><a href=${file}>${filename}</a></td>`;
         // tabledata += `<td>${xmlstatus}</td></tr>`;
     }
