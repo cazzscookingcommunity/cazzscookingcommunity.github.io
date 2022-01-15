@@ -37,6 +37,7 @@
             <xs:enumeration value="Poultry" />
             <xs:enumeration value="Fish" />
             <xs:enumeration value="Salad" />
+            <xs:enumeration value="Vegetarian" />
             <xs:enumeration value="" />
         </xs:restriction>
     </xs:simpleType>
