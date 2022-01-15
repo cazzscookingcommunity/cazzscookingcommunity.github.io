@@ -1,44 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Moroccan Beetroot Salad</title>
-    <filename>moroccan_beetroot_salad.xml</filename>
-
-    <comment>c/o eat drink paleo week 1 reset</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>Paleo</diet>
-
-    <ingredient>3 dried apricots (I used Sunbeam Australian sultanas, because I couldn’t find any sulphite Free apricots!)</ingredient>
-    <ingredient>Juice 1 lemon</ingredient>
-    <ingredient>3 TBsp orange or mandarin juice</ingredient>
-    <ingredient>2 medium carrots, grated</ingredient>
-    <ingredient>3 medium beetroot’s peeled and grated</ingredient>
-    <ingredient>1 clove garlic, grated</ingredient>
-    <ingredient>2 chopped green onions </ingredient>
-    <ingredient>1/4 teaspoon cinnamon </ingredient>
-    <ingredient>1/2 teaspoon cumin </ingredient>
-    <ingredient>1/2 teaspoon coriander</ingredient>
-    <ingredient>1/4 teaspoon paprika </ingredient>
-    <ingredient>1/2 teaspoon sea salt</ingredient>
-    <ingredient>2 TBSP fresh coriander chopped </ingredient>
-    <ingredient>4 TBSP olive oil</ingredient>
-    <ingredient>3 TBsp toasted nuts (I used seeds - pumpkin/pinenuts/sunflower seeds mix)</ingredient>
-    <ingredient>Extra coriander and green onion for garnish</ingredient>
-
-    <step>
+<title>Moroccan Beetroot Salad</title>
+<filename>moroccan_beetroot_salad.xml</filename>
+<comment>c/o eat drink paleo week 1 reset</comment>
+<thumbnail>../images/placeholder.jpeg</thumbnail>
+<category></category>
+<diet>Paleo</diet>
+<ingredient>3 dried apricots (I used Sunbeam Australian sultanas, because I couldn't find any sulphite Free apricots!)</ingredient>
+<ingredient>Juice 1 lemon</ingredient>
+<ingredient>3 TBsp orange or mandarin juice</ingredient>
+<ingredient>2 medium carrots, grated</ingredient>
+<ingredient>3 medium beetroot's peeled and grated</ingredient>
+<ingredient>1 clove garlic, grated</ingredient>
+<ingredient>2 chopped green onions </ingredient>
+<ingredient>1/4 teaspoon cinnamon </ingredient>
+<ingredient>1/2 teaspoon cumin </ingredient>
+<ingredient>1/2 teaspoon coriander</ingredient>
+<ingredient>1/4 teaspoon paprika </ingredient>
+<ingredient>1/2 teaspoon sea salt</ingredient>
+<ingredient>2 TBSP fresh coriander chopped </ingredient>
+<ingredient>4 TBSP olive oil</ingredient>
+<ingredient>3 TBsp toasted nuts (I used seeds - pumpkin/pinenuts/sunflower seeds mix)</ingredient>
+<ingredient>Extra coriander and green onion for garnish</ingredient>
+<step>
 Chop apricots and place in juice of lemon and orange/mandarin, in a large mixing bowl. Add veggies, onions, chopped coriander and nuts or seeds and mix well. Combine dry herbs and garlic with olive oil and drizzle over salad evenly. Mix again to distribute dressing and sprinkle garnish on top.
     </step>
 </recipe>
+
