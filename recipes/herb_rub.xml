@@ -1,35 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Herb Rub</title>
-    <filename>herb_rub.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>2 teasp dried basil</ingredient>
-    <ingredient>1 teasp dried thyme</ingredient>
-    <ingredient>2 teasp dried rosemary</ingredient>
-    <ingredient>2 teasp dried oregano </ingredient>
-    <ingredient>1 TBsp fennel seeds crushed</ingredient>
-    <ingredient>1 teasp coriander</ingredient>
-    <ingredient>1 TBsp garlic salt</ingredient>
-    <ingredient>2 teasp ground black pepper </ingredient>
-
-    <step>Mix all ingredients together and rub on meat prior to cooking. In this photo I cooked 2 pork loins for 40minutes on several chopped garlic cloves and herb rub on top. Serve with roasted veggies and spinach salad.</step>
-
-    <step>If using fresh herbs replace one teaspoon with one tablespoon of fresh herbs. Double amount and store in airtight got container (for dried herbs only.) Use  the extra next time!</step>
+<title>Herb Rub</title>
+<filename>herb_rub.xml</filename>
+<thumbnail>../images/herb_rub.jpeg</thumbnail>
+<category>Poultry</category>
+<ingredient>2 teasp dried basil</ingredient>
+<ingredient>1 teasp dried thyme</ingredient>
+<ingredient>2 teasp dried rosemary</ingredient>
+<ingredient>2 teasp dried oregano </ingredient>
+<ingredient>1 TBsp fennel seeds crushed</ingredient>
+<ingredient>1 teasp coriander</ingredient>
+<ingredient>1 TBsp garlic salt</ingredient>
+<ingredient>2 teasp ground black pepper </ingredient>
+<step>Mix all ingredients together and rub on meat prior to cooking. In this photo I cooked 2 pork loins for 40minutes on several chopped garlic cloves and herb rub on top. Serve with roasted veggies and spinach salad.</step>
+<step>If using fresh herbs replace one teaspoon with one tablespoon of fresh herbs. Double amount and store in airtight got container (for dried herbs only.) Use  the extra next time!</step>
 </recipe>
+
