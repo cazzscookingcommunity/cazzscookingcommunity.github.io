@@ -1,38 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Hippocrates Soup</title>
-    <filename>hippocrates_soup.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
-
-    <ingredient>1/2 celery root</ingredient>
-    <ingredient>2 celery sticks</ingredient>
-    <ingredient>1-2 leeks</ingredient>
-    <ingredient>1 onion (optional)</ingredient>
-    <ingredient>4 garlic cloves crushed </ingredient>
-    <ingredient>1 small bunch parsley </ingredient>
-    <ingredient>1-2 tomatoes (optional)</ingredient>
-    <ingredient>1-2 potatoes</ingredient>
-    <ingredient>Extra veggies if desired or left in fridge</ingredient>
-    <ingredient>3 stock cubes or stock (I used chicken stock and added cabbage and zucchini)</ingredient>
-    <ingredient>Olive oil</ingredient>
-
-    <step>
-Wash and Chop all veggies and set aside. Wash and chop parsley, including stems, reserving a handful of leaves to garnish when serving. Heat olive oil in a large pot and cook garlic and leeks on low heat for 5-10 minutes. Don’t brown just let the leeks become soft. Add celery sticks and carrots and cook a few more minutes. Add the rest of the veggies and cover all the veggies with water or stock (add stock cubes if only adding water.) Bring to boil and reduce to a slimmer and cook for about 1-2 hours. Serve with salt and pepper, if desired and a few parsley leaves on top.
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Hippocrates Soup</title>
+<filename>hippocrates_soup.xml</filename>
+<thumbnail>../images/hippocrates_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<ingredient>1/2 celery root</ingredient>
+<ingredient>2 celery sticks</ingredient>
+<ingredient>1-2 leeks</ingredient>
+<ingredient>1 onion (optional)</ingredient>
+<ingredient>4 garlic cloves crushed </ingredient>
+<ingredient>1 small bunch parsley </ingredient>
+<ingredient>1-2 tomatoes (optional)</ingredient>
+<ingredient>1-2 potatoes</ingredient>
+<ingredient>Extra veggies if desired or left in fridge</ingredient>
+<ingredient>3 stock cubes or stock (I used chicken stock and added cabbage and zucchini)</ingredient>
+<ingredient>Olive oil</ingredient>
+<step>Wash and Chop all veggies and set aside. Wash and chop parsley, including stems, reserving a handful of leaves to garnish when serving. Heat olive oil in a large pot and cook garlic and leeks on low heat for 5-10 minutes. Dont brown just let the leeks become soft. Add celery sticks and carrots and cook a few more minutes. Add the rest of the veggies and cover all the veggies with water or stock (add stock cubes if only adding water.) Bring to boil and reduce to a slimmer and cook for about 1-2 hours. Serve with salt and pepper, if desired and a few parsley leaves on top.
     </step>
 </recipe>
+
