@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Hummus </title>
-    <filename>hummus.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>185 gms chick peas (dried)</ingredient>
-    <ingredient>3 TBsp Tahini (Mayvers brand if available)</ingredient>
-    <ingredient>4-6 garlic cloves crushed</ingredient>
-    <ingredient>1 teasp paprika</ingredient>
-    <ingredient>1 teasp ground cumin</ingredient>
-    <ingredient>1/2 teasp cracked PandS</ingredient>
-    <ingredient>6 TBsp olive oil </ingredient>
-    <ingredient>2 Lemons juiced</ingredient>
-    <ingredient>3/4 cup water</ingredient>
-
-    <step>
+<title>Hummus </title>
+<filename>hummus.xml</filename>
+<thumbnail>../images/hummus.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<ingredient>185 gms chick peas (dried)</ingredient>
+<ingredient>3 TBsp Tahini (Mayvers brand if available)</ingredient>
+<ingredient>4-6 garlic cloves crushed</ingredient>
+<ingredient>1 teasp paprika</ingredient>
+<ingredient>1 teasp ground cumin</ingredient>
+<ingredient>1/2 teasp cracked PandS</ingredient>
+<ingredient>6 TBsp olive oil </ingredient>
+<ingredient>2 Lemons juiced</ingredient>
+<ingredient>3/4 cup water</ingredient>
+<step>
 Cook chick peas per packet instructions and rinse under cold water when done. Place in blender with all other ingredients except water. Blend and pulse to mix ingredients. While blender running pour in water slowly. Only add enough to get consistency desired ( more water may be added if required.) Pour into dish and decorate with a sprinkle of additional paprika and a sprinkle of olive oil if desired. Serve immediately or after it has been refrigerated a few hours. Serve with crusty bread or your choice of crackers.
     </step>
 </recipe>
+
