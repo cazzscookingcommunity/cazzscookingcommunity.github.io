@@ -1,32 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Grandmas Bread and Butter Pud</title>
-    <filename>grandmas_bread_and_butter_pud.xml</filename>
-
-    <comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-    <ingredient>6 fruit scones cut in half*</ingredient>
-    <ingredient>2 cups milk</ingredient>
-    <ingredient>2 eggs </ingredient>
-    <ingredient>3 TBSP sugar</ingredient>
-    <ingredient>1 teaspoon vanilla essence</ingredient>
-    <ingredient>Handful of sultanas (optional)</ingredient>
-    <ingredient>Butter and Jam</ingredient>
-
-    <step>Grease a pan with butter or margarine and set aside. Heat oven to 175C. Butter both cut sides of scones and one side with jam. Put together like a sandwich and cut into quarters and place in pan until all scones used up. Sprinkle over sultanas. In a bowl beat eggs with milk, sugar and essence. Pour milk mixture over bread and place in oven for 20-30 minutes. There should be no wet bits when done. Cover with foil if getting too brown while cooking. Serve alone or with cream and/or ice cream.</step>
-
-    <step>if using bread (not fruit scones) butter and jam each slice and place one piece on top of the other, like you are making a sandwich. Cut each sandwich into 16ths,
+<title>Grandmas Bread and Butter Pud</title>
+<filename>grandmas_bread_and_butter_pud.xml</filename>
+<comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
+<thumbnail>../images/grandmas_bread_and_butter_pud.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>6 fruit scones cut in half*</ingredient>
+<ingredient>2 cups milk</ingredient>
+<ingredient>2 eggs </ingredient>
+<ingredient>3 TBSP sugar</ingredient>
+<ingredient>1 teaspoon vanilla essence</ingredient>
+<ingredient>Handful of sultanas (optional)</ingredient>
+<ingredient>Butter and Jam</ingredient>
+<step>Grease a pan with butter or margarine and set aside. Heat oven to 175C. Butter both cut sides of scones and one side with jam. Put together like a sandwich and cut into quarters and place in pan until all scones used up. Sprinkle over sultanas. In a bowl beat eggs with milk, sugar and essence. Pour milk mixture over bread and place in oven for 20-30 minutes. There should be no wet bits when done. Cover with foil if getting too brown while cooking. Serve alone or with cream and/or ice cream.</step>
+<step>if using bread (not fruit scones) butter and jam each slice and place one piece on top of the other, like you are making a sandwich. Cut each sandwich into 16ths,
     and place in pan. If using plain bread I would definitely throw in a handful of sultanas! </step>
 </recipe>
+
