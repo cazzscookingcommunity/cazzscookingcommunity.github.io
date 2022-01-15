@@ -1,37 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Gluten Free Cheese Muffins </title>
-    <filename>gluten_free_cheese_muffins.xml</filename>
-
-    <comment>c/o Fearless Dinning with cazzie tweaks </comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>1 1/4 cups gluten free flour </ingredient>
-    <ingredient>1 tsp xanthan gum</ingredient>
-    <ingredient>2 large eggs beaten </ingredient>
-    <ingredient>2/3 cup water</ingredient>
-    <ingredient>2 tsp baking soda </ingredient>
-    <ingredient>1/4 tsp salt </ingredient>
-    <ingredient>4 TBSP melted butter </ingredient>
-    <ingredient>1 tsp chopped herbs (I used garlic chives)</ingredient>
-    <ingredient>1 cup grated tasty cheese </ingredient>
-
-    <step>
+<title>Gluten Free Cheese Muffins </title>
+<filename>gluten_free_cheese_muffins.xml</filename>
+<comment>c/o Fearless Dinning with cazzie tweaks </comment>
+<thumbnail>../images/gluten_free_cheese_muffins.jpeg</thumbnail>
+<category>Breakfast</category>
+<diet>GlutenFree</diet>
+<ingredient>1 1/4 cups gluten free flour </ingredient>
+<ingredient>1 tsp xanthan gum</ingredient>
+<ingredient>2 large eggs beaten </ingredient>
+<ingredient>2/3 cup water</ingredient>
+<ingredient>2 tsp baking soda </ingredient>
+<ingredient>1/4 tsp salt </ingredient>
+<ingredient>4 TBSP melted butter </ingredient>
+<ingredient>1 tsp chopped herbs (I used garlic chives)</ingredient>
+<ingredient>1 cup grated tasty cheese </ingredient>
+<step>
 Preheat oven to 180C and line muffing tun with paper cups. In a bowl mix eggs, water and melted butter. Add remaining ingredients and stir until combined. Scoop 1/4 cup amounts into prepared muffin tray and cook for 20-30 minutes. Cool muffins in cooling rack. Serve with you favourite soup. You can add 1/2 cup cooked chopped bacon if you are not vegetarian!
     </step>
 </recipe>
+
