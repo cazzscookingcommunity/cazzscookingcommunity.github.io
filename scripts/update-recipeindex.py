@@ -44,8 +44,8 @@ def processFile(inputfile):
     try:
         validRecipe = schema.is_valid(recipedir + filename)
     except:
-        print(filename + " is not a valid recipe")
-        print('skipping file!')
+        print("\n**********")
+        print("ERROR: " + filename + " is not a valid recipe.  Skipping\n")
         # exit(1)
         return
 
@@ -76,8 +76,8 @@ def processFile(inputfile):
                 dst.close()
                 src.close()
     else:
-        print(filename + " is not a valid recipe")
-        print('skipping file!')
+        print("\n**********")
+        print("ERROR: " + filename + " is not a valid recipe.  Skipping\n")
         # exit(1)
         return
 

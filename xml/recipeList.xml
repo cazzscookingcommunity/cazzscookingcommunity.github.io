@@ -389,12 +389,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Paleo</diet>
 </recipe>
 <recipe>
-    <title>Moroccan Beetroot Salad</title>
+<title>Moroccan Beetroot Salad</title>
     <filename>moroccan_beetroot_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Paleo</diet>
+<thumbnail>../images/placeholder.jpeg</thumbnail>
+<category></category>
+<diet>Paleo</diet>
 </recipe>
 <recipe>
     <title>Teresas Chilli</title>
@@ -825,12 +824,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category></category>
-</recipe>
-<recipe>
-<title>Alecias Cinnamon Rolls</title>
-    <filename>_test2.xml</filename>
-<thumbnail>../images/placeholder.jpeg</thumbnail>
-<category></category>
 </recipe>
 <recipe>
     <title>Simple Greek Seasoning </title>
