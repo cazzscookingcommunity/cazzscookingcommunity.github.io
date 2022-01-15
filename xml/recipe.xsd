@@ -30,6 +30,7 @@
             <xs:enumeration value="Dinner" />
             <xs:enumeration value="Sweets" />
             <xs:enumeration value="Soup" />
+            <xs:enumeration value="Sides" />
             <xs:enumeration value="Beef" />
             <xs:enumeration value="Lamb" />
             <xs:enumeration value="Pork" />

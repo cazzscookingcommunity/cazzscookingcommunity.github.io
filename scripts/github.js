@@ -56,7 +56,7 @@ async function commit_recipe() {
         const sha =  await getSHA(recipedir, recipename);
         await postFile(recipeupdate, recipedir+recipename, sha);
         history.back();
-        window.location.reload();
+        window.location.asign(/pages/admin.html);
     }
 };
 
