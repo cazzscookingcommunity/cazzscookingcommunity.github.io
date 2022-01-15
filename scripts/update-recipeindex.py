@@ -45,8 +45,9 @@ def processFile(inputfile):
         validRecipe = schema.is_valid(recipedir + filename)
     except:
         print(filename + " is not a valid recipe")
-        print('aborting!')
-        exit(1)
+        print('skipping file!')
+        # exit(1)
+        return
 
     # if schema.is_valid(recipedir + filename):
     if validRecipe:
@@ -76,8 +77,9 @@ def processFile(inputfile):
                 src.close()
     else:
         print(filename + " is not a valid recipe")
-        print('aborting!')
-        exit(1)
+        print('skipping file!')
+        # exit(1)
+        return
 
             
 
