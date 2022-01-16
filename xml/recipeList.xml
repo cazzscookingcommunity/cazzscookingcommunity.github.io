@@ -1249,13 +1249,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Individual lemon tarts</title>
-    <filename>individual_lemon_tarts.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
     <title>Mango Slushie</title>
     <filename>mango_slushie.xml</filename>
     <thumbnail>../images/placeholder.jpeg</thumbnail>
