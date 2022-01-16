@@ -592,11 +592,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Irish Mashed Spud</title>
+<title>Irish Mashed Spud</title>
     <filename>irish_mashed_spud.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/irish_mash_spud.jpeg</thumbnail>
+<category>Dinner</category>
 </recipe>
 <recipe>
 <title>Black Bean Salad</title>
