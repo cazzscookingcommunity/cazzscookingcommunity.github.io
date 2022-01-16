@@ -205,12 +205,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Keto Lava Chocolate Mug Cake</title>
+<title>Keto Lava Chocolate Mug Cake</title>
     <filename>keto_lava_chocolate_mug_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Keto</diet>
+<thumbnail>../images/keto_lava_chocolate_mug_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Keto</diet>
 </recipe>
 <recipe>
 <title>Apple Pie</title>
