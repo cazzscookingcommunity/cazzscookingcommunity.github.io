@@ -344,13 +344,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>KETO toastie </title>
+<title>KETO toastie </title>
     <filename>keto_toastie.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Keto</diet>
+<thumbnail>../images/keto_toastie.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<diet>Keto</diet>
 </recipe>
 <recipe>
 <title>Gluten Free Orange Cake</title>
