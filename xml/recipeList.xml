@@ -1479,14 +1479,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Pork</category>
 </recipe>
 <recipe>
-    <title>Kathys Hedgehog</title>
+<title>Kathys Hedgehog</title>
     <filename>kathys_hedgehog.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
-    <diet>FODMAP</diet>
+<thumbnail>../images/kathy_hedgehog.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>FODMAP</diet>
 </recipe>
 <recipe>
     <title>Turkey Burgers</title>
