@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Jasmine Special</title>
-    <filename>jasmine_special.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>2 bananas peeled </ingredient>
-    <ingredient>1 handful baby spinach </ingredient>
-    <ingredient>1/2 cup soy milk</ingredient>
-    <ingredient>1 TBSP protein powder</ingredient>
-    <ingredient>4-5 ice cubes</ingredient>
-    <ingredient>1 teaspoon honey</ingredient>
-    <ingredient>Sprinkle of cinnamon </ingredient>
-
-    <step>
+<title>Jasmine Special</title>
+<filename>jasmine_special.xml</filename>
+<thumbnail>../images/jasmine_special.jpeg</thumbnail>
+<category>Drink</category>
+<ingredient>2 bananas peeled </ingredient>
+<ingredient>1 handful baby spinach </ingredient>
+<ingredient>1/2 cup soy milk</ingredient>
+<ingredient>1 TBSP protein powder</ingredient>
+<ingredient>4-5 ice cubes</ingredient>
+<ingredient>1 teaspoon honey</ingredient>
+<ingredient>Sprinkle of cinnamon </ingredient>
+<step>
 Place all ingredients into a bullet or blender, enjoy immediately.
     </step>
 </recipe>
+
