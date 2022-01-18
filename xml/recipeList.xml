@@ -578,13 +578,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Beef</category>
 </recipe>
 <recipe>
-    <title>Lemon Shortbread </title>
+<title>Lemon Shortbread </title>
     <filename>lemon_shortbread.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>LowCarb</diet>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/lemon_shrotbread.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>LowCarb</diet>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Irish Mashed Spud</title>
