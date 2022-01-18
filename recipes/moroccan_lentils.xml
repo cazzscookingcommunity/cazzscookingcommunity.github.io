@@ -1,42 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Moroccan Lentils</title>
-    <filename>moroccan_lentils.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-    <diet>FODMAP</diet>
-    <diet>Vegetarian</diet>
-
-    <ingredient>2-3 TBsp olive oil </ingredient>
-    <ingredient>4 garlic cloves crushed</ingredient>
-    <ingredient>1 zucchini grated</ingredient>
-    <ingredient>1 carrot grated </ingredient>
-    <ingredient>1 can diced tomatoes </ingredient>
-    <ingredient>1 can lentils rinsed and drained</ingredient>
-    <ingredient>3 teaspoons Moroccan spice </ingredient>
-    <ingredient>1 stock cube crushed</ingredient>
-    <ingredient>1/3 cup water </ingredient>
-    <ingredient>salt and pepper to taste</ingredient>
-    <ingredient>Bag washed baby spinach</ingredient>
-    <ingredient>6 eggs softy boiled (6 mins)</ingredient>
-
-    <step>
+<title>Moroccan Lentils</title>
+<filename>moroccan_lentils.xml</filename>
+<thumbnail>../images/moroccan_lentils.jpeg</thumbnail>
+<category>Vegetarian</category>
+<diet>GlutenFree</diet>
+<diet>FODMAP</diet>
+<diet>Vegetarian</diet>
+<ingredient>2-3 TBsp olive oil </ingredient>
+<ingredient>4 garlic cloves crushed</ingredient>
+<ingredient>1 zucchini grated</ingredient>
+<ingredient>1 carrot grated </ingredient>
+<ingredient>1 can diced tomatoes </ingredient>
+<ingredient>1 can lentils rinsed and drained</ingredient>
+<ingredient>3 teaspoons Moroccan spice </ingredient>
+<ingredient>1 stock cube crushed</ingredient>
+<ingredient>1/3 cup water </ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>Bag washed baby spinach</ingredient>
+<ingredient>6 eggs softy boiled (6 mins)</ingredient>
+<step>
 Heat oil in large fry pan or wok. On medium heat add garlic and cook until golden, about 4-6 minutes.  Add zucchini and carrot and stir to fry all. Add everything except spinach and eggs and bring to boil and then turn down to simmer, stirring along the way. Once all mixed together add spinach, storks included and stir in well. At this stage you can place lid on pan and pop in preheated oven (180C) while you boil the eggs. You can also leave on stove top if you want the mixture to reduce. Once eggs boiled, crack and peel each one. Alternatively you can fry the eggs, if you prefer.  Serve them on top of the lentils once you have served it in a bowl or plate. This recipe can be doubled. This can be made vegan by removing the eggs!  It is also nice with crusty bread as alternative to the egg.
     </step>
 </recipe>
+
