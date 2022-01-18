@@ -1,36 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Mujadara</title>
-    <filename>mujadara.xml</filename>
-
-    <comment>c/o the Mediterranean dish with cazzie tweaks</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>1 cup brown or green lentils </ingredient>
-    <ingredient>6 cups water</ingredient>
-    <ingredient>1/4 cup olive oil </ingredient>
-    <ingredient>2 chicken stock cubes</ingredient>
-    <ingredient>2-3 garlic cloves crushed </ingredient>
-    <ingredient>2 cups rice</ingredient>
-    <ingredient>salt and pepper</ingredient>
-    <ingredient>1/4 cup chopped parsley </ingredient>
-    <ingredient>Chilli flakes</ingredient>
-
-    <step>
+<title>Mujadara</title>
+<filename>mujadara.xml</filename>
+<comment>c/o the Mediterranean dish with cazzie tweaks</comment>
+<thumbnail>../images/mujadara.jpeg</thumbnail>
+<category>Sides</category>
+<ingredient>1 cup brown or green lentils </ingredient>
+<ingredient>6 cups water</ingredient>
+<ingredient>1/4 cup olive oil </ingredient>
+<ingredient>2 chicken stock cubes</ingredient>
+<ingredient>2-3 garlic cloves crushed </ingredient>
+<ingredient>2 cups rice</ingredient>
+<ingredient>salt and pepper</ingredient>
+<ingredient>1/4 cup chopped parsley </ingredient>
+<ingredient>Chilli flakes</ingredient>
+<step>
 In a pot rinse and drain the lentils three times, then add two cups of water. Bring to the boil then reduce to a simmer and cook for 12 minutes. Remove from heat and set aside.  Heat 3 TBsp of olive oil in a large pan and cook garlic for 4 minutes. Add the rice and cook stirring until all the rice is covered in oil.  Add 4 cups of water, the lentils and stock cubes. Bring to the boil and then reduce to a simmer, place the lid on the pan and cook for 20 minutes. Once done stir through parsley, remaining olive oil, salt and pepper. Sever warm with dried onions and pepper flakes sprinkled on top. Store in fridge.
     </step>
 </recipe>
+
