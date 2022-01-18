@@ -1238,11 +1238,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Mango Slushie</title>
+<title>Mango Slushie</title>
     <filename>mango_slushie.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mango_slushie.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
 <title>Awesome Cappuccino Mix</title>
