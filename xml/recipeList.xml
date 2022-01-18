@@ -1412,12 +1412,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Lazy Risotto</title>
+<title>Lazy Risotto</title>
     <filename>lazy_risotto.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/lazy_risotto.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Simple Greek Seasoning </title>
