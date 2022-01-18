@@ -386,12 +386,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Mini Oat Bars</title>
+<title>Mini Oat Bars</title>
     <filename>mini_oat_bars.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Vegan</diet>
+<thumbnail>../images/mini_oat_bars.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Vegan</diet>
 </recipe>
 <recipe>
 <title>Jasmine Special</title>
