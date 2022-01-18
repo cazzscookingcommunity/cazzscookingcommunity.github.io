@@ -7,10 +7,10 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
     <title>Montys Pancakes</title>
-    <filename>monty’s_pancakes.xml</filename>
+    <filename>montys_pancakes.xml</filename>
 
     <comment>Thanks for sharing Monty ;)</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/montys_pancakes.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>
