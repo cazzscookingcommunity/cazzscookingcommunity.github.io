@@ -900,12 +900,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Life Changing Bread</title>
+<title>Life Changing Bread</title>
     <filename>life_changing_bread.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/life_changing_bread.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Harira</title>
