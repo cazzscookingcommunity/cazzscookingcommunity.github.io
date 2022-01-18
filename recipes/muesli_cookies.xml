@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Muesli Cookies</title>
-    <filename>muesli_cookies.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>1 1/2 cups muesli</ingredient>
-    <ingredient>1 cup desiccated coconut</ingredient>
-    <ingredient>1/2 SR Flour (replace with Gluten free if desired)</ingredient>
-    <ingredient>1 teaspoon cinnamon</ingredient>
-    <ingredient>125 gms butter</ingredient>
-    <ingredient>1/4 brown sugar</ingredient>
-    <ingredient>1/4 honey</ingredient>
-
-    <step>
+<title>Muesli Cookies</title>
+<filename>muesli_cookies.xml</filename>
+<thumbnail>../images/muesli_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>1 1/2 cups muesli</ingredient>
+<ingredient>1 cup desiccated coconut</ingredient>
+<ingredient>1/2 SR Flour (replace with Gluten free if desired)</ingredient>
+<ingredient>1 teaspoon cinnamon</ingredient>
+<ingredient>125 gms butter</ingredient>
+<ingredient>1/4 brown sugar</ingredient>
+<ingredient>1/4 honey</ingredient>
+<step>
 Heat oven to 160C.  Place grease two baking trays and set aside.  Place all dry ingredient except brown sugar, in a bowl and set aside.  Melt butter in a small sauce pan then add honey and sugar.  Once sugar dissolved, stir well and add to dry ingredients.  Stir well and place heap TBsp amounts on baking trays (allow for spreading.)  Place in oven for 8-10 mins or until golden brown.  Remove from oven an leave on the tray for 10 minutes.  Remove cookies from tray with spatula to a wire rack to cool completely.  Once completely cool store in air tight container.
     </step>
 </recipe>
+
