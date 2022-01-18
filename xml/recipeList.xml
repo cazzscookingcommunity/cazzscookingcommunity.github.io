@@ -688,14 +688,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Moroccan Lentils</title>
+<title>Moroccan Lentils</title>
     <filename>moroccan_lentils.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>FODMAP</diet>
-    <diet>Vegetarian</diet>
+<thumbnail>../images/moroccan_lentils.jpeg</thumbnail>
+<category>Vegetarian</category>
+<diet>GlutenFree</diet>
+<diet>FODMAP</diet>
+<diet>Vegetarian</diet>
 </recipe>
 <recipe>
     <title>Vegetable Bake</title>
