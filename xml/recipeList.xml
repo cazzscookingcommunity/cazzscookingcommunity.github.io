@@ -1042,11 +1042,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Paleo</diet>
 </recipe>
 <recipe>
-    <title>Mini Pear Puddings </title>
+<title>Mini Pear Puddings </title>
     <filename>mini_pear_puddings_.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mini_pear_pudding.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Easy chicken dinner</title>
