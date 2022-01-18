@@ -634,11 +634,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mince Tarts</title>
+<title>Mince Tarts</title>
     <filename>mince_tarts.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mince_tarts.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Coconut Rough Slice</title>
@@ -1389,12 +1388,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>Middle Eastern Lentil Salad</title>
+<title>Middle Eastern Lentil Salad</title>
     <filename>middle_eastern_lentil_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>FODMAP</diet>
+<thumbnail>../images/middle_eastern_lentil_salad.jpeg</thumbnail>
+<category>Salad</category>
+<diet>FODMAP</diet>
 </recipe>
 <recipe>
 <title>Home made crackers</title>
