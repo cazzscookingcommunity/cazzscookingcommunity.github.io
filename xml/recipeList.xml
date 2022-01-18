@@ -789,12 +789,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Lunch slice </title>
+<title>Lunch slice </title>
     <filename>lunch_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/lunch_slice.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Easy Stir Fry</title>
