@@ -1307,11 +1307,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mars Bar Slice</title>
+<title>Mars Bar Slice</title>
     <filename>mars_bar_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Breakfast Rolls</title>
