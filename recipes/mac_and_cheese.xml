@@ -1,37 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Mac and Cheese</title>
-    <filename>mac_and_cheese.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>500gms pasta cook</ingredient>
-    <ingredient>300-500gms bacon</ingredient>
-    <ingredient>2TBsp olive oil</ingredient>
-    <ingredient>2-3 cup grated tasty cheese </ingredient>
-    <ingredient>White Sauce</ingredient>
-    <ingredient>120 gms butter</ingredient>
-    <ingredient>1/3 cup flour</ingredient>
-    <ingredient>600ml milk</ingredient>
-    <ingredient>1 teaspoon seeded mustard</ingredient>
-    <ingredient>White pepper and salt</ingredient>
-
-    <step>
+<title>Mac and Cheese</title>
+<filename>mac_and_cheese.xml</filename>
+<thumbnail>../images/mac_and_cheese.jpeg</thumbnail>
+<category>Dinner</category>
+<ingredient>500gms pasta cook</ingredient>
+<ingredient>300-500gms bacon</ingredient>
+<ingredient>2TBsp olive oil</ingredient>
+<ingredient>2-3 cup grated tasty cheese </ingredient>
+<ingredient>White Sauce</ingredient>
+<ingredient>120 gms butter</ingredient>
+<ingredient>1/3 cup flour</ingredient>
+<ingredient>600ml milk</ingredient>
+<ingredient>1 teaspoon seeded mustard</ingredient>
+<ingredient>White pepper and salt</ingredient>
+<step>
 Heat oven to 180C. Cook pasta per packet instructions. Mean while heat oil in fry pan and cook bacon until crispy and set aside. Cook white sauce in a small saucepan. Melt butter then add flour and stir to remove any lumps. Pour small amount of milk in and stir continually until it thickens. You can use a whisk to make it easier. Slow add milk in batch until all the milk is used up and to the thickness you desire. At the end stir in mustard and salt and pepper, until all combined. Add pasta, bacon and white sauce to a baking dish and cover with grated cheese. Pop in pre-heated oven until top slightly golden (about 15-20 mins.)
     </step>
 </recipe>
+
