@@ -71,12 +71,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Poultry</category>
 </recipe>
 <recipe>
-    <title>Larb</title>
+<title>Larb</title>
     <filename>larb.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>FODMAP</diet>
+<thumbnail>../images/larb.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>FODMAP</diet>
 </recipe>
 <recipe>
 <title>Vegetable Lentil Curry</title>
