@@ -1,35 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Mini Oat Bars</title>
-    <filename>mini_oat_bars.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>Vegan</diet>
-
-    <ingredient>1 cup rolled oats</ingredient>
-    <ingredient>1 cup flour sifted (can substitute wheat free)</ingredient>
-    <ingredient>3/4 cup raw sugar</ingredient>
-    <ingredient>3/4 cups desiccated coconut</ingredient>
-    <ingredient>2 TBsp honey</ingredient>
-    <ingredient>2 TBsp water</ingredient>
-    <ingredient>1/2 teaspoon bicarb soda</ingredient>
-
-    <step>
+<title>Mini Oat Bars</title>
+<filename>mini_oat_bars.xml</filename>
+<thumbnail>../images/mini_oat_bars.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Vegan</diet>
+<ingredient>1 cup rolled oats</ingredient>
+<ingredient>1 cup flour sifted (can substitute wheat free)</ingredient>
+<ingredient>3/4 cup raw sugar</ingredient>
+<ingredient>3/4 cups desiccated coconut</ingredient>
+<ingredient>2 TBsp honey</ingredient>
+<ingredient>2 TBsp water</ingredient>
+<ingredient>1/2 teaspoon bicarb soda</ingredient>
+<step>
 Prepare a baking dish by greasing then lining with baking paper.  Preheat oven to 180C.  In a large bowl place flour, oats, sugar and coconut, then stir well.  In a small sauce pan melt butter and honey.  In a separate bowl combine water and soda, then add to butter mixture (it will bubble up.)  Remove from heat and mix well, then stir into dry ingredients.  Mix well then pour into prepared tray and push down with your hands.  Place in oven for 20-25 minutes or until the center is golden.  Remove from oven and let it sit on a wire rack for 7 minutes.  Carefully remove from tray and place back on wire rack to cool.  Before it is completely cool, cut in to bite size pieces, while on baking paper.  Leave there until completely cool.  Store in air tight container.
     </step>
 </recipe>
+
