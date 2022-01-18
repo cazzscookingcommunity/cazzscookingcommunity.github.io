@@ -1087,11 +1087,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mac and Cheese Slice</title>
+<title>Mac and Cheese Slice</title>
     <filename>mac_and_cheese_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
+<category>Lunch</category>
 </recipe>
 <recipe>
     <title>Zucchini and Sweet Spud Fritters</title>
