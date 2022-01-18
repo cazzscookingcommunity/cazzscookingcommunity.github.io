@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Lazy Risotto</title>
-    <filename>lazy_risotto.xml</filename>
-
-    <comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>1-2 tablespoons olive oil</ingredient>
-    <ingredient>3-4 rashes bacon finely chopped</ingredient>
-    <ingredient>4 garlic cloves crushed</ingredient>
-    <ingredient>500gms chicken thighs chopped</ingredient>
-    <ingredient>1 teaspoon grated lime rind</ingredient>
-    <ingredient>1/2 teaspoon chilli powder</ingredient>
-    <ingredient>140 gms tomatoe paste</ingredient>
-    <ingredient>1 1/2 cups arborio rice</ingredient>
-    <ingredient>750ml chicken stock</ingredient>
-    <ingredient>1/4 cut chopped parsley</ingredient>
-    <ingredient>2-3 spring onions chopped</ingredient>
-
-    <step>Heat oil in oven proof dish and cook bacon until nicely brown. Add garlic and cook for a few minutes until golden. Cook chicken in batches until all done. Add rice to pan and cook a few minutes, stirring continuously until all coated.  Add all other ingredients except spring onions and stir to combine. Put lid on and place in preheated moderate oven for 35 minutes. Remove from oven and sprinkle with spring onions. Serve with salad if desired.
+<title>Lazy Risotto</title>
+<filename>lazy_risotto.xml</filename>
+<comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
+<thumbnail>../images/lazy_risotto.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+<ingredient>1-2 tablespoons olive oil</ingredient>
+<ingredient>3-4 rashes bacon finely chopped</ingredient>
+<ingredient>4 garlic cloves crushed</ingredient>
+<ingredient>500gms chicken thighs chopped</ingredient>
+<ingredient>1 teaspoon grated lime rind</ingredient>
+<ingredient>1/2 teaspoon chilli powder</ingredient>
+<ingredient>140 gms tomatoe paste</ingredient>
+<ingredient>1 1/2 cups arborio rice</ingredient>
+<ingredient>750ml chicken stock</ingredient>
+<ingredient>1/4 cut chopped parsley</ingredient>
+<ingredient>2-3 spring onions chopped</ingredient>
+<step>Heat oil in oven proof dish and cook bacon until nicely brown. Add garlic and cook for a few minutes until golden. Cook chicken in batches until all done. Add rice to pan and cook a few minutes, stirring continuously until all coated.  Add all other ingredients except spring onions and stir to combine. Put lid on and place in preheated moderate oven for 35 minutes. Remove from oven and sprinkle with spring onions. Serve with salad if desired.
 
     * alternately you can replace the lime and parsley with lemon and Rosemary for a different taste.</step>
-
 </recipe>
+
