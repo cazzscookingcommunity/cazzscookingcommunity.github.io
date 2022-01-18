@@ -23,11 +23,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Moroccan Fries</title>
+<title>Moroccan Fries</title>
     <filename>moroccan_fries.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/moroccan_fries.jpeg</thumbnail>
+<category>Sides</category>
 </recipe>
 <recipe>
     <title>Dark Chocolate Fudge</title>
