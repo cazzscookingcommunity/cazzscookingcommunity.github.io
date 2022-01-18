@@ -192,8 +192,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Moroccan Beetroot Salad</title>
     <filename>moroccan_beetroot_salad.xml</filename>
-<thumbnail>../images/placeholder.jpeg</thumbnail>
-<category></category>
+<thumbnail>../images/moroccan_beetroot_salad.jpeg</thumbnail>
+<category>Salad</category>
 <diet>Paleo</diet>
 </recipe>
 <recipe>
