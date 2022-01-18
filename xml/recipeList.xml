@@ -1578,11 +1578,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mexican Black Beans and Rice</title>
+<title>Mexican Black Beans and Rice</title>
     <filename>mexican_black_beans_and_rice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mexican_blackbeans_and_rice.jpeg</thumbnail>
+<category>Vegetarian</category>
 </recipe>
 <recipe>
 <title>Cottage Pie</title>
