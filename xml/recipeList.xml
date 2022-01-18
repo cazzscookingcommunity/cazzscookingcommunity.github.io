@@ -1429,11 +1429,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mint Slice</title>
+<title>Mint Slice</title>
     <filename>mint_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mint_slice.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Rocky Road</title>
