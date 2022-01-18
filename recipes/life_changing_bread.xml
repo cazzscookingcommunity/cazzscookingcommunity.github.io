@@ -1,38 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Life Changing Bread</title>
-    <filename>life_changing_bread.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>1 1/2 cups rolled oats</ingredient>
-    <ingredient>8 TBsp psyllium seed husks</ingredient>
-    <ingredient>1 cup sunflower seeds</ingredient>
-    <ingredient>1/2 cup flax seeds</ingredient>
-    <ingredient>1/2 cup pumpkin seeds or nuts</ingredient>
-    <ingredient>2 TBsp chia seeds</ingredient>
-    <ingredient>1 teaspoon salt</ingredient>
-    <ingredient>2 TBsp maple syrup or honey</ingredient>
-    <ingredient>3 TBsp melted coconut oil or ghee</ingredient>
-    <ingredient>1 1/2 cups water</ingredient>
-
-    <step>
+<title>Life Changing Bread</title>
+<filename>life_changing_bread.xml</filename>
+<thumbnail>../images/life_changing_bread.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<ingredient>1 1/2 cups rolled oats</ingredient>
+<ingredient>8 TBsp psyllium seed husks</ingredient>
+<ingredient>1 cup sunflower seeds</ingredient>
+<ingredient>1/2 cup flax seeds</ingredient>
+<ingredient>1/2 cup pumpkin seeds or nuts</ingredient>
+<ingredient>2 TBsp chia seeds</ingredient>
+<ingredient>1 teaspoon salt</ingredient>
+<ingredient>2 TBsp maple syrup or honey</ingredient>
+<ingredient>3 TBsp melted coconut oil or ghee</ingredient>
+<ingredient>1 1/2 cups water</ingredient>
+<step>
 Prepare a loaf tin, by lining it with grease proof paper and set aside.  In two separate bowls mix all dry ingredients and wet ingredients. Pour wet ingredients into dry ingredients and mix well.  Scoop into prepared tin and push down with your hand and make it smooth on top.  Cover with a clean tea towel and set aside for at least 2 hours.  Can be left overnight.  When ready place in preheated oven at 180C and cook for 20 minutes.  Remove from oven and remove from tin and paper and place back in oven upside down directly on rack.  Turn down oven to 130C and cook for about 1-2 hours.  It will sound hollow when taped, if it is ready.  Remove from oven and cool completely on rack.  Cut in skinny slices and serve with favorite spreads and dips.  Can be toasted and frozen (cut in slices before freezing.)
     </step>
 </recipe>
+
