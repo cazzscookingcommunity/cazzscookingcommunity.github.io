@@ -854,12 +854,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Paleo</diet>
 </recipe>
 <recipe>
-    <title>Macaroons</title>
+<title>Macaroons</title>
     <filename>macaroons.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/macaroons.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Tuna Rice Bake</title>
@@ -1336,11 +1335,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Mac and Cheese</title>
+<title>Mac and Cheese</title>
     <filename>mac_and_cheese.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/mac_and_cheese.jpeg</thumbnail>
+<category>Dinner</category>
 </recipe>
 <recipe>
     <title>Quinoa filled eggplant</title>
