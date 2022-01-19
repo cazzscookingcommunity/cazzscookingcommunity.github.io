@@ -14,12 +14,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Osso Buco</title>
+<title>Osso Buco</title>
     <filename>osso_buco.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/osso_buco.jpeg</thumbnail>
+<category>Beef</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Moroccan Fries</title>
@@ -1487,11 +1486,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Orange Cake</title>
+<title>Orange Cake</title>
     <filename>orange_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/orange_cake.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Three Ingredient Cookies</title>
