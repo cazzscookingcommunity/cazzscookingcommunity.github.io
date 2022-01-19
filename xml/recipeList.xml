@@ -6,13 +6,12 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xsd">
 
 <recipe>
-    <title>Oat Slice</title>
+<title>Oat Slice</title>
     <filename>oat_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Vegan</diet>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/oat _slice.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Vegan</diet>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Osso Buco</title>
@@ -141,11 +140,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Oatmeal Banana Bread</title>
+<title>Oatmeal Banana Bread</title>
     <filename>oatmeal_banana_bread.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/oatmeal_banana_bread.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Cauliflower and Broccoli Bake</title>
