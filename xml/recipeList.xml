@@ -651,11 +651,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Natural Homemade Face Scrub</title>
+<title>Natural Homemade Face Scrub</title>
     <filename>natural_homemade_face_scrub.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category>Personal</category>
+<thumbnail>../images/natural_homemade_face_scrub.jpeg</thumbnail>
+<category>Household</category>
 </recipe>
 <recipe>
     <title>Montys Pancakes</title>
