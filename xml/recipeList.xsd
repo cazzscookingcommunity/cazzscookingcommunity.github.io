@@ -21,23 +21,27 @@
         </xs:restriction>
     </xs:simpleType>
 
-<xs:simpleType name="categoryType">
-    <xs:restriction base="xs:string">
-        <xs:enumeration value="Household"/>
-        <xs:enumeration value="Breakfast"/>
-        <xs:enumeration value="Lunch"/>
-        <xs:enumeration value="Dinner"/>
-        <xs:enumeration value="Personal"/>
-        <xs:enumeration value="Soup"/>
-        <xs:enumeration value="Beef"/>
-        <xs:enumeration value="Lamb"/>
-        <xs:enumeration value="Pork"/>
-        <xs:enumeration value="Poultry"/>
-        <xs:enumeration value="Fish"/>
-        <xs:enumeration value="Drink"/>
-        <xs:enumeration value=""/>
-    </xs:restriction>
-</xs:simpleType>
+    <xs:simpleType name="categoryType">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Household" />
+            <xs:enumeration value="Personal" />
+            <xs:enumeration value="Drink" />
+            <xs:enumeration value="Breakfast" />
+            <xs:enumeration value="Lunch" />
+            <xs:enumeration value="Dinner" />
+            <xs:enumeration value="Sweets" />
+            <xs:enumeration value="Soup" />
+            <xs:enumeration value="Sides" />
+            <xs:enumeration value="Beef" />
+            <xs:enumeration value="Lamb" />
+            <xs:enumeration value="Pork" />
+            <xs:enumeration value="Poultry" />
+            <xs:enumeration value="Fish" />
+            <xs:enumeration value="Salad" />
+            <xs:enumeration value="Vegetarian" />
+            <xs:enumeration value="" />
+        </xs:restriction>
+    </xs:simpleType>
 
 <xs:complexType name="recipeType">
     <xs:sequence>
