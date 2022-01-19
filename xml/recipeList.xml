@@ -1155,14 +1155,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>No Cook Vegan ChocCoconut Slice</title>
+<title>No Cook Vegan ChocCoconut Slice</title>
     <filename>no_cook_vegan_choccoconut_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
-    <diet>Paleo</diet>
+<thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>Paleo</diet>
 </recipe>
 <recipe>
     <title>Banana Bread</title>
