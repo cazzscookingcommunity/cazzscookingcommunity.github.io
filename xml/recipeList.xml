@@ -1514,11 +1514,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Poultry</category>
 </recipe>
 <recipe>
-    <title>Lemon Slice</title>
+<title>Lemon Slice</title>
     <filename>lemon_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/lemon_slice.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Curtis Stones Rice Noodles</title>
