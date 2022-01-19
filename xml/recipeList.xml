@@ -235,12 +235,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>Nasi Goreng</title>
+<title>Nasi Goreng</title>
     <filename>nasi_goreng.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/nasi_goreng.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Lamb Cutlets</title>
@@ -420,13 +419,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <filename>filo_pie.xml</filename>
 <thumbnail>../images/filo_pie.jpeg</thumbnail>
 <category>Sweets</category>
-</recipe>
-<recipe>
-    <title>Montys Pancakes</title>
-    <filename>monty’s_pancakes.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
 </recipe>
 <recipe>
     <title>Sarah Os Brownies</title>
@@ -664,6 +656,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <thumbnail>../images/placeholder.jpeg</thumbnail>
     <image></image>
     <category>Personal</category>
+</recipe>
+<recipe>
+    <title>Montys Pancakes</title>
+    <filename>montys_pancakes.xml</filename>
+    <thumbnail>../images/montys_pancakes.jpeg</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Hummingbird Cake</title>
