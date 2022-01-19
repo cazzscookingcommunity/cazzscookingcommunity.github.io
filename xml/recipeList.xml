@@ -361,11 +361,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Dinner</category>
 </recipe>
 <recipe>
-    <title>No Bake Oreo Cheese Cake</title>
+<title>No Bake Oreo Cheese Cake</title>
     <filename>no_bake_oreo_cheese_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/no_bake_oreo_cheese_cake.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>One Pot Pasta</title>
