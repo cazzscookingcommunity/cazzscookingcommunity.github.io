@@ -1,40 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>One Pot Pasta</title>
-    <filename>one_pot_pasta.xml</filename>
-
-    <comment>c/o Instagram Diply</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>10 Pieces of Long Lasagna Sheets</ingredient>
-    <ingredient>500 gms Italian Sausage (can replace with mince meat with 2TBsp Italian Herbs)</ingredient>
-    <ingredient>2 cans chopped tomatoes</ingredient>
-    <ingredient>1/4 cup water</ingredient>
-    <ingredient>1/3 cup tomatoe paste</ingredient>
-    <ingredient>2 cups baby spinach washed</ingredient>
-    <ingredient>4 cloves garlic crushed</ingredient>
-    <ingredient>4 TBsp olive oil</ingredient>
-    <ingredient>salt and pepper to taste</ingredient>
-    <ingredient>1 cup ricotta cheese</ingredient>
-    <ingredient>1 cup mozzarella grated cheese</ingredient>
-    <ingredient>1/2 cup Parmesan cheese grated</ingredient>
-    <ingredient>1/2 bunch parsley roughly chopped</ingredient>
-
-    <step>
+<title>One Pot Pasta</title>
+<filename>one_pot_pasta.xml</filename>
+<comment>c/o Instagram Diply</comment>
+<thumbnail>../images/one_pot_paste.jpeg</thumbnail>
+<category>Beef</category>
+<ingredient>10 Pieces of Long Lasagna Sheets</ingredient>
+<ingredient>500 gms Italian Sausage (can replace with mince meat with 2TBsp Italian Herbs)</ingredient>
+<ingredient>2 cans chopped tomatoes</ingredient>
+<ingredient>1/4 cup water</ingredient>
+<ingredient>1/3 cup tomatoe paste</ingredient>
+<ingredient>2 cups baby spinach washed</ingredient>
+<ingredient>4 cloves garlic crushed</ingredient>
+<ingredient>4 TBsp olive oil</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>1 cup ricotta cheese</ingredient>
+<ingredient>1 cup mozzarella grated cheese</ingredient>
+<ingredient>1/2 cup Parmesan cheese grated</ingredient>
+<ingredient>1/2 bunch parsley roughly chopped</ingredient>
+<step>
 In a large saucepan that has a lid, heat the olive oil.   Cook the garlic for a few minutes, then the sausage meat until its no longer pink.  Add the chopped tomatoes and tomatoe paste, then stir well.  Add water and the lasagna sheets, pushing them under as you add them.  Stir well and ensure all pasta is covered place lid on pan and simmer for 20 minutes.  Remove lid and stir in spinach leaves.  Blob the ricotta on top, and sprinkle the mozzarella and Parmesan cheese all over the top.  Cover with the lid and turn down to low heat for 5 minutes.  Remove the lid and sprinkle with Parsley and serve immediately- yum!
     </step>
 </recipe>
+
