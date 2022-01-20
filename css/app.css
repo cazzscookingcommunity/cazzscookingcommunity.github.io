@@ -32,8 +32,12 @@ section#mealCardsSection .back{top:0}
 .card img{width:100%}
 .card-body{padding:5px 15px}
 .cardTitle{margin-bottom:5px}
+.mealCardRecipeBtn{display: inline}
+div.recipe-action img.cardAction {width: 10%; display: inline}
+div.recipe-action img.cardAction:hover {background-color: #689f38}
 .mealCards{text-align:center}
 .mealCards .columns{margin-left:0}
+
 
 /* Chef icon */
 .chefimg{position:absolute;height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
@@ -57,7 +61,11 @@ table.ingredients, td {
 
 /* Meal */
 .mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
-.mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+/* .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
+.mealImg img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+#randomMealActions img.cardAction {width: 10%; display: inline}
+#randomMealActions img.cardAction:hover {background-color: #689f38}
+
 
 /* Nav */
 .navbar{padding:10px 0}

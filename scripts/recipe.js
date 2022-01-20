@@ -66,6 +66,18 @@ const createMeal = ($meal, type) => {
         // <ul> ${ingredients.join('')} </ul>`
     }
 
+
+
+    // Set action buttons:
+    const file = $meal.find('filename').first().text();
+    const recipeactions =`
+        <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
+            <img class="cardAction" border="0" alt="email recipe" src="/images/icons8-mail-24.png">
+        </a>
+        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/images/icons8-edit-24.png">
+        `;
+
+
     // Set instructions
     let instructions = [];
     getInstructions($meal, instructions);
@@ -75,6 +87,7 @@ const createMeal = ($meal, type) => {
     if ( type === 'r') { 
         $('section#random').show();
         $('#randomMealMetadata').html(mealMetadata); 
+        $('#randomMealActions').html(recipeactions);
         $('#randomMealInstructions').html(mealInstr); 
         console.debug(window.location.href);
     }
@@ -149,6 +162,9 @@ const setMealThumbnail = ($meal,type) => {
     const title = $meal.find("title").text();
     const file = $meal.find('filename').text();
 
-    let imgSrc = `<img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')"/>`;
-    if ( type === 'r') { $('#randomMealImg').html(imgSrc); }
+    if ( type === 'r') { 
+        // let imgSrc = `<img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')"/>`;
+        let imgSrc = `<img src="${img}" alt="${title} thumbnail" />`;
+        $('#randomMealImg').html(imgSrc);    
+    }
 }

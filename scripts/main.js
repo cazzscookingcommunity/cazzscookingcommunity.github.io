@@ -226,17 +226,24 @@ function createMealCards(shortlist) {
         if ( shortlist.includes(title) ) {
             let serializer = new XMLSerializer();
             let mealData = serializer.serializeToString(recipeList[i]);
+            console.debug(mealData);
             let img = recipeList[i].getElementsByTagName("thumbnail")[0].innerHTML;
             let file = recipeList[i].getElementsByTagName("filename")[0].innerHTML;
 
             mealCards += 
-            `<div class="four columns"><div class="card">
-                <img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')" class="u-max-full-width" />
-                <div class="card-body">
-                    <div class="cardTitle">${title}</div>
-                    <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
+            `<div class="four columns">
+                <div class="card">
+                    <img src="${img}" alt="${title} thumbnail" class="u-max-full-width" />
+                    <div class="card-body recipe-action">
+                        <div class="cardTitle">${title}</div>
+                        <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
+                        <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
+                          <img class="cardAction" border="0" alt="email recipe" src="/images/icons8-mail-24.png">
+                        </a>
+                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/images/icons8-edit-24.png">
+                    </div>
                 </div>
-            </div></div>`;
+            </div>`;
         }
     }
     $('section#random').hide();
