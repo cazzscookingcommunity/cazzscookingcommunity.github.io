@@ -49,9 +49,10 @@
 }
 
 /* For devices larger than 550px */
-@media (min-width: 550px) {
-  .container {
-    width: 80%; }
+/* CC:  was 550px.  moved to 750 to start above iphone6 in landscape */
+@media (min-width: 750px) {
+  /* .container {
+    width: 80%; } */
   .column,
   .columns {
     margin-left: 4%; }

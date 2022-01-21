@@ -50,7 +50,7 @@ div.recipe-action img.cardAction:hover {background-color: #689f38}
 section#landing .row .chefimg{top:26px; left:160px; position: relative;}
 
 /* Heading */
-.heading{text-transform:uppercase;font-size:40px;font-weight:bold;font-family:'Roboto Slab', serif;transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);text-align:center;margin-bottom:0}
+.heading{text-transform:uppercase;font-size:36px;font-weight:bold;font-family:'Roboto Slab', serif;transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);text-align:center;margin-bottom:0}
 
 /* Ingredients */
 .mealMetadata ul > li{margin:0;float:left;width:50%}
@@ -71,27 +71,20 @@ table.ingredients, td {
 .navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
-#navbar-list{display:inline; position:relative; float:right}
-/* Style the hamburger menu */
-.navbar a.icon { 
-    color: #679f38;
-    display: none;
-    position: absolute;
-    right: 20px;
-    top: 5px;
-  }
+#navbar-list{display:inline; position:absolute; bottom:0; right:0}
+.navbar a.icon {color: #679f38;display: none;position: absolute;right: 20px;top: 5px;}
 
 /* Section */
-section#landing{display:flex;flex-direction:row;align-items:center;height:80vh}
-section#landing > .container{margin-top:-100px}
-section{height:auto}
+section{margin-top:50px; height:auto}
+section#landing{display:flex;flex-direction:row;align-items:center} /* CC remove height 80vh */
+/* section#landing > .container{margin-top:-100px} */
 section#landing .chefimg{top:-20px;right:-3px}
 section#random .chefimg{top:5px;right:-14px}
 section#random, section#mealCardsSection {padding: 0 0 20vh 0}
 section#mealCardsSection .chefimg{top:-20px;right:22px}
 
 /* Footer */
-footer{bottom:0;text-align:center}
+footer{bottom:0;text-align:center; margin-top:50px}
 
 /* Others */
 a{cursor:pointer}
@@ -127,7 +120,7 @@ main{justify-content:center;align-items:center}
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 /* #about-section{height:80vh;padding-top:20vh;} */
-#about-section{height:80vh;padding-top:0;}
+/* #about-section{height:80vh;padding-top:0;} */
 .brand{font-size:5vw;font-weight:700}
 .brand:focus,.brand:hover,.brand:visited{color:#000}
 
@@ -142,18 +135,33 @@ main{justify-content:center;align-items:center}
     #NavBarCategory {display: none;}
 } */
 
-/* below the CSS grid start size */
-@media (max-width: 550px) {
-    .heading{margin:20px;width:100%;font-size: 4vw; transform:rotate(0deg);}
-    .randomSearch{display:none}
+
+/* iphone 6 in landscape mode or smaller */
+@media (max-width: 750px) {
+    /* hide pre-defined search categories */
     #NavBarCategory {display: none;}
+}
+
+/* below the CSS grid start size */
+@media (max-width: 750px) {
+    /* scal branding and remove rotation */
+    .heading{margin:20px;width:100%;font-size: 4vw; transform:rotate(0deg);}
+    /* dont bother with random search.  can use Hamburger menu */
+    .randomSearch{display:none}
+    /* hide the pre-defined category search buttons.  Just use search */
+    #NavBarCategory {display: none;}
+    /* display the hambuger menav menu and hide full nav links */
     .navbar a.icon{display:block}
     #navbar-list{display:none; position:relative; float:right}
+    /* address some container layout */
     section#landing{display: inline-block; height:auto}
     section#landing > .container{margin-top:0}
-
-
+    /* meal card section - create space on right for scroll button */
+    section#mealCardsSection > .container{padding: 0 40px}
+    /* scroll to top button */
+    .back{right:10px}
 }
+
 
 
 #errorMessageContainer{display: none; background: #679f38; text-align: center;height: 100px; color: white; justify-content: center; align-items: center;}
