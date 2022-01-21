@@ -19,33 +19,39 @@
 
   <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes">
   <meta name="author" content="Chris Cullin">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="icon" type="image/png" href="images/favicon.png">
 </head>
+
 <body>
   <main role="main" id="main">
-      <header>
-          <nav class="navbar">
-              <div class="container">
-                <div class="row">
-                    <div class="eight columns">
-                        <a class="brand" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
-                      </div>
-                      <div class="four columns">
-                        <ul class="navbar-list">
-                          <li class="navbar-item"><a class="navbar-link btnRandomRecipe clear-field" tabindex="0" href="#random" title="Show a random recipe">Random</a></li>                       
-                          <li class="navbar-item"><a class="navbar-link" tabindex="0" href="#about-section">About</a></li>
-                        </ul>
-                      </div>
-                </div>
-              </div>
-            </nav>
-      </header>
+    <header>
+      <nav class="navbar">
+        <div class="container">
+          <div class="row">
+            <div class="twelve columns">
+              <a class="brand" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+            <!-- </div> -->
+            <!-- <div class="four columns"> -->
+              <ul class="navbar-list" id="navbar-list">
+                <li class="navbar-item"><a class="navbar-link btnRandomRecipe clear-field" tabindex="0" href="#random" title="Show a random recipe">Random</a></li>                       
+                <li class="navbar-item"><a class="navbar-link" tabindex="0" href="#about-section">About</a></li>
+              </ul>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </header>
       
 <div class="back"><a href="#main" tabindex="-1"><img src="images/scroll.svg" title="Back to top" /></a></div>
 
@@ -60,12 +66,12 @@
                       </div>
                       <div class="eight columns">
                         <div class="row">
-                          <div class="eight columns">
+                          <div class="eight columns randomSearch">
                               <h4>Not sure what to cook? <br/>
                                 <small>Search a recipe or try a random recipe!</small>
                               </h4>
                           </div>
-                          <div class="four columns">
+                          <div class="four columns randomSearch">
                               <img src="images/chef.svg" class="u-max-full-width chefimg" />
                               <a class="button btnRandomRecipe" href="#random" title="Show a random recipe" onclick="clear()">Random Recipe</a>
                           </div>
@@ -149,7 +155,7 @@
                 <div class="twelve columns">
                   <div class="row d-flex">
                     <div class="four columns" style="align-self:center;">
-                      <h1 class="heading">About Cazz's Cooking Community</h1>
+                      <h1 class="heading">About</h1>
                     </div>
                     <div class="eight columns">
                       <p>
@@ -157,9 +163,10 @@
                       </p>
                       
                       <p>
-                        We have a family of 5 adults and many friends and mouths to feed.  
-                        This is a collection of family favourites collected over the years 
-                        and recorded to pass onto family and friends.<br/>
+                        We are a family of 5 and trhe 3 kids, now young adults, take tunrs cookng.  
+                        This webiste is a collection of family favourites collected over the years 
+                        and is recorded to pass onto family and friends, and is used by the kids 
+                        to cook each week.<br/>
                       </p>
                     </div>
                   </div>
@@ -174,7 +181,7 @@
           from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
         <div>
-          <a href="/pages/admin.html">recipe admin</a>
+          <a href="/components/admin.html">recipe admin</a>
         </div>
     </footer>
   </main>

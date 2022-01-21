@@ -17,7 +17,7 @@ recipeheader = ['<recipe',
 // function closeWindow(mywindow) {
 //     mywindow.close();
 //     console.debug('abount to go back');
-//     window.location.assign("/pages/admin.html");
+//     window.location.assign("/components/admin.html");
 // }
 
 // insert missing XML headers that have not lost on the way 
@@ -65,13 +65,13 @@ function preparefile(array) {
 function save(file) {
     const str = preparefile(file.split('\n'));
     sessionStorage.setItem('recipeupdate', encodeURI(str));
-    var mywindow = window.open('/pages/github.html','','toolbar=0,status=0,width=626,height=436');
+    var mywindow = window.open('/components/github.html','','toolbar=0,status=0,width=626,height=436');
     var timer = setInterval(checkChild, 500);
 
     function checkChild() {
         if (mywindow.closed) { 
             clearInterval(timer);
-            window.location.replace('/pages/admin.html');
+            window.location.replace('/components/admin.html');
         }
     }
 }

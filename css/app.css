@@ -68,9 +68,18 @@ table.ingredients, td {
 
 
 /* Nav */
-.navbar{padding:10px 0}
+.navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
+#navbar-list{display:inline; position:relative; float:right}
+/* Style the hamburger menu */
+.navbar a.icon { 
+    color: #679f38;
+    display: none;
+    position: absolute;
+    right: 20px;
+    top: 5px;
+  }
 
 /* Section */
 section#landing{display:flex;flex-direction:row;align-items:center;height:80vh}
@@ -121,11 +130,32 @@ main{justify-content:center;align-items:center}
 #about-section{height:80vh;padding-top:0;}
 .brand{font-size:5vw;font-weight:700}
 .brand:focus,.brand:hover,.brand:visited{color:#000}
+
+/* phablet and above */
 @media (min-width:440px){
-.brand{font-size:3vw}
-.navbar-link{font-size:1.5vw}}
-@media (max-width:800px){
-.heading{margin:20px;width:80vw}}
+    .brand{font-size:3vw;}
+    .navbar-link{font-size:1.5vw}
+}
+
+/* @media (max-width:880px){
+    .heading{margin:20px;width:100%;font-size: 3vw}
+    #NavBarCategory {display: none;}
+} */
+
+/* below the CSS grid start size */
+@media (max-width: 550px) {
+    .heading{margin:20px;width:100%;font-size: 4vw; transform:rotate(0deg);}
+    .randomSearch{display:none}
+    #NavBarCategory {display: none;}
+    .navbar a.icon{display:block}
+    #navbar-list{display:none; position:relative; float:right}
+    section#landing{display: inline-block; height:auto}
+    section#landing > .container{margin-top:0}
+
+
+}
+
+
 #errorMessageContainer{display: none; background: #679f38; text-align: center;height: 100px; color: white; justify-content: center; align-items: center;}
 #errorMessageText{line-height: 100px; padding: 0px; margin: 0 40px 0 0;}
 #errorMessageBtn{margin: 0px; color: white; border: 1px solid white;}

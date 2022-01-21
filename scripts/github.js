@@ -56,7 +56,7 @@ async function commit_recipe() {
         const sha =  await getSHA(recipedir, recipename);
         await postFile(recipeupdate, recipedir+recipename, sha);
         history.back();
-        window.location.asign('/pages/admin.html');
+        window.location.asign('/components/admin.html');
     }
 };
 
@@ -74,7 +74,7 @@ function download_recipe() {
     var a = document.createElement('a');
     a.addEventListener('blur',function(){
         console.debug("in event listener");
-        // window.close('/pages/github.html')
+        // window.close('/components/github.html')
     });
     a.download = filename;
     a.href = 'data:text/xml;charset=utf-8,' + encodeURI(str);
@@ -99,7 +99,7 @@ async function commit_image() {
         console.debug(filename);
         const sha =  await getSHA(imagedir, filename);
         await postFile(image, imagedir+filename, sha);
-        // window.close('/pages/imageupload.html');
+        // window.close('/components/imageupload.html');
         window.location.reload();
     }
 }
@@ -119,7 +119,7 @@ function get_token(callback) {
     pat.id = "token";
     pat.value = "";
     document.body.appendChild(pat);
-    var popup = window.open('/pages/popup.html','','toolbar=0,status=0,width=626,height=436');
+    var popup = window.open('/components/popup.html','','toolbar=0,status=0,width=626,height=436');
     popup.addEventListener("unload", function (event) {
         if ( popup.closed ) {
             console.debug("popup closed");
