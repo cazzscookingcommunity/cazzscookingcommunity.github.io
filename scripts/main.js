@@ -253,7 +253,7 @@ function createMealCards(shortlist) {
 }
 
 // hamburger menu for mobile devices
-/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+// Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu bar icon
 function mobileMenu() {
     var x = document.getElementById("navbar-list");
     if (x.style.display === "block") {
@@ -263,3 +263,12 @@ function mobileMenu() {
     }
 } 
 
+// hamburger menu for category list
+function mobileCategoryMenu() {
+    var x = document.getElementById("NavBarCategory");
+    if (x.style.display === "block") {
+      x.style.display = "none";
+    } else {
+      x.style.display = "block";
+    }
+} 

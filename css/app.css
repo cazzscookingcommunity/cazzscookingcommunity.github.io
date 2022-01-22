@@ -72,7 +72,9 @@ table.ingredients, td {
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
 #navbar-list{display:inline; position:absolute; bottom:0; right:0}
-.navbar a.icon {color: #679f38;display: none;position: absolute;right: 20px;top: 5px;}
+.navbar a.icon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
+#NavBarCategory {display: inline;}
+section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 
 /* Section */
 section{margin-top:50px; height:auto}
@@ -139,20 +141,21 @@ main{justify-content:center;align-items:center}
 /* iphone 6 in landscape mode or smaller */
 @media (max-width: 750px) {
     /* hide pre-defined search categories */
-    #NavBarCategory {display: none;}
+    /* #NavBarCategory {display: none;} */
 }
 
 /* below the CSS grid start size */
 @media (max-width: 750px) {
     /* scal branding and remove rotation */
-    .heading{margin:20px;width:100%;font-size: 4vw; transform:rotate(0deg);}
+    .heading{margin:20px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
     /* dont bother with random search.  can use Hamburger menu */
     .randomSearch{display:none}
-    /* hide the pre-defined category search buttons.  Just use search */
+    /* display the hambuger mnav menu and hide full nav links */
+    #navbar-list{display:none; position:relative;}
+    .navbar a.icon{display:block;}
     #NavBarCategory {display: none;}
-    /* display the hambuger menav menu and hide full nav links */
-    .navbar a.icon{display:block}
-    #navbar-list{display:none; position:relative; float:right}
+    section#landing a.categoryIcon {display:block; margin-top:10px}
+
     /* address some container layout */
     section#landing{display: inline-block; height:auto}
     section#landing > .container{margin-top:0}
