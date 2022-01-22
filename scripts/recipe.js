@@ -1,3 +1,4 @@
+
 const recipeDir = '/recipes/';
 var $recipe;
 
@@ -74,7 +75,7 @@ const createMeal = ($meal, type) => {
         <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
             <img class="cardAction" border="0" alt="email recipe" src="/images/icons8-mail-24.png">
         </a>
-        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/images/icons8-edit-24.png">
+        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${recipeDir}${file}')" src="/images/icons8-edit-24.png">
         `;
 
 
@@ -163,7 +164,7 @@ const setMealThumbnail = ($meal,type) => {
     const file = $meal.find('filename').text();
 
     if ( type === 'r') { 
-        // let imgSrc = `<img src="${img}" alt="${title} thumbnail" onclick="window.open('${path}${file}')"/>`;
+        // let imgSrc = `<img src="${img}" alt="${title} thumbnail" onclick="window.open('${recipeDir}${file}')"/>`;
         let imgSrc = `<img src="${img}" alt="${title} thumbnail" />`;
         $('#randomMealImg').html(imgSrc);    
     }

@@ -1,8 +1,8 @@
 var searchTree = {};
 var recipeList = new DOMParser();
 var $recipeList;
-var path = "/recipes/";
-var XMLrecipelist = "/xml/recipeList.xml";
+const path = "/recipes/";
+const XMLrecipelist = "/xml/recipeList.xml";
 window.scrollTo(0,$('#main').offset().top);
 
 
@@ -32,6 +32,8 @@ $(document).ready(function(){
 
         // create keyword to recipe map for category search & searchbar
         createSearchTree($recipeList);
+
+        document.getElementById('searchRecipe').value='';
 
     });
 
@@ -233,7 +235,7 @@ function createMealCards(shortlist) {
             mealCards += 
             `<div class="four columns">
                 <div class="card">
-                    <img src="${img}" alt="${title} thumbnail" class="u-max-full-width" />
+                    <img src="${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
                     <div class="card-body recipe-action">
                         <div class="cardTitle">${title}</div>
                         <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
