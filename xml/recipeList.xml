@@ -439,13 +439,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Patricias Pannecotta</title>
-    <filename>patricia’s_pannecotta.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
     <title>Upside-down cake</title>
     <filename>upside_down_cake.xml</filename>
     <thumbnail>../images/placeholder.jpeg</thumbnail>
@@ -468,6 +461,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 <diet>Vegan</diet>
 <diet>Paleo</diet>
+</recipe>
+<recipe>
+    <title>Patricias Pannecotta</title>
+    <filename>patricias_pannecotta.xml</filename>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Simple Dahl </title>
@@ -532,12 +532,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Pea and Ham Soup</title>
+<title>Pea and Ham Soup</title>
     <filename>pea_and_ham_soup.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>FODMAP</diet>
+<thumbnail>../images/pea_and_ham_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>FODMAP</diet>
 </recipe>
 <recipe>
 <title>Grain and Nut Free Sandwich Bread</title>
