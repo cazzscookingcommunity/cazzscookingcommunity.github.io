@@ -1552,11 +1552,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Quick Chicken Pho</title>
+<title>Quick Chicken Pho</title>
     <filename>quick_chicken_pho.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
+<category>Soup</category>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>KETO toastie </title>
