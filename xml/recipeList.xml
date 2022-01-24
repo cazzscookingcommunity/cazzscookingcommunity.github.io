@@ -6,11 +6,11 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xsd">
 
 <recipe>
-    <title>Quick Banana Dessert</title>
+<title>Quick Banana Dessert</title>
     <filename>quick_banana_dessert.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/quick_banana_dessert.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Green Bean Salad</title>
