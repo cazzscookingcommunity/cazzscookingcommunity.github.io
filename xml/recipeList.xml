@@ -482,11 +482,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>Grandmas Punch</title>
+<title>Grandmas Punch</title>
     <filename>grandmas_punch.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/punch.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
     <title>Russian Tea Cakes</title>
