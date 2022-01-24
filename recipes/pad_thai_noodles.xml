@@ -1,40 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Pad Thai Noodles</title>
-    <filename>pad_thai_noodles.xml</filename>
-
-    <comment>c/o Changs</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-
-    <ingredient>250gms Changs Thai Style rice noodles </ingredient>
-    <ingredient>1 TBsp oil</ingredient>
-    <ingredient>1 TBsp chopped garlic </ingredient>
-    <ingredient>4-5 Chicken thigh fillets stripped</ingredient>
-    <ingredient>220gms bean sprouts rinsed</ingredient>
-    <ingredient>1 red chilli sliced (optional)</ingredient>
-    <ingredient>5 spring onions chopped </ingredient>
-    <ingredient>2 eggs lightly beaten </ingredient>
-    <ingredient>2 TBsp lime juice </ingredient>
-    <ingredient>2 teaspoons sugar </ingredient>
-    <ingredient>2 TBsp fish sauce</ingredient>
-    <ingredient>1 TBsp chilli sauce</ingredient>
-
-    <step>
+<title>Pad Thai Noodles</title>
+<filename>pad_thai_noodles.xml</filename>
+<comment>c/o Changs</comment>
+<thumbnail>../images/pad_thai_noodles.jpeg</thumbnail>
+<category>Dinner</category>
+<ingredient>250gms Changs Thai Style rice noodles </ingredient>
+<ingredient>1 TBsp oil</ingredient>
+<ingredient>1 TBsp chopped garlic </ingredient>
+<ingredient>4-5 Chicken thigh fillets stripped</ingredient>
+<ingredient>220gms bean sprouts rinsed</ingredient>
+<ingredient>1 red chilli sliced (optional)</ingredient>
+<ingredient>5 spring onions chopped </ingredient>
+<ingredient>2 eggs lightly beaten </ingredient>
+<ingredient>2 TBsp lime juice </ingredient>
+<ingredient>2 teaspoons sugar </ingredient>
+<ingredient>2 TBsp fish sauce</ingredient>
+<ingredient>1 TBsp chilli sauce</ingredient>
+<step>
 Get all ingredients out and ready. Place noodles in a large bowl and cover with boiling water for 10 minutes. Drain and rinse under cold water, then set aside. Heat oil in large pan or wok. Cook garlic and chicken in batches, until all done. Remove chicken from pan and keep warm. Add a little more oil and cook eggs, stirring to get a scrambled like constantly. Once eggs are cooked add drained noodles to the pan along with the chicken and all other ingredients except the nuts. Mix well and stir gently until all heated through. Serve in bowls with nuts and red chilli slices as garnish, if desired.
     </step>
 </recipe>
+
