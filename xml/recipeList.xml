@@ -329,14 +329,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Paleo Pumpkin Pie</title>
-    <filename>paleo_pumpkin_pie.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Paleo</diet>
-</recipe>
-<recipe>
 <title>Cauliflower-Crust Spinach Pie</title>
     <filename>cauliflower_crust_spinach_pie.xml</filename>
 <thumbnail>../images/cauliflour_crust_spinach_pie.jpeg</thumbnail>
