@@ -1,34 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Quick Pasta Bake</title>
-    <filename>quick_pasta_bake.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>500gms pasta cooked per directions</ingredient>
-    <ingredient>200gms kalamata olives</ingredient>
-    <ingredient>300-400 gms chopped salami </ingredient>
-    <ingredient>2 cans chopped tomatoes </ingredient>
-    <ingredient>2 TBsp oregano </ingredient>
-    <ingredient>salt and pepper to paste</ingredient>
-    <ingredient>2-3 cups grated cheese </ingredient>
-
-    <step>
+<title>Quick Pasta Bake</title>
+<filename>quick_pasta_bake.xml</filename>
+<thumbnail>../images/quick_pasta_bake.jpeg</thumbnail>
+<category>Dinner</category>
+<ingredient>500gms pasta cooked per directions</ingredient>
+<ingredient>200gms kalamata olives</ingredient>
+<ingredient>300-400 gms chopped salami </ingredient>
+<ingredient>2 cans chopped tomatoes </ingredient>
+<ingredient>2 TBsp oregano </ingredient>
+<ingredient>salt and pepper to paste</ingredient>
+<ingredient>2-3 cups grated cheese </ingredient>
+<step>
 Place cooked pasta and all other ingredients, except cheese in heat proof bowl and mix well. Sprinkle cheese on top and place in preheated oven for 1/2 hour.
     </step>
 </recipe>
+
