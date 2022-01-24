@@ -532,12 +532,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Pea and Ham Soup</title>
+<title>Pea and Ham Soup</title>
     <filename>pea_and_ham_soup.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>FODMAP</diet>
+<thumbnail>../images/pea_and_ham_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>FODMAP</diet>
 </recipe>
 <recipe>
 <title>Grain and Nut Free Sandwich Bread</title>
