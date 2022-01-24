@@ -397,13 +397,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>Potatoe and Leek Soup</title>
+<title>Potatoe and Leek Soup</title>
     <filename>potatoe_and_leek_soup.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
+<thumbnail>../images/potatoe_and_leek_loup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
 </recipe>
 <recipe>
 <title>GlutenFree Creamy Pasta</title>
@@ -465,7 +464,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Patricias Pannecotta</title>
     <filename>patricias_pannecotta.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/patricas_pannecotta.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -1160,11 +1159,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Pizza Dough</title>
+<title>Pizza Dough</title>
     <filename>pizza_dough.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/pizza_dough.jpeg</thumbnail>
+<category>Dinner</category>
 </recipe>
 <recipe>
     <title>Asian Salad</title>
@@ -1268,7 +1266,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-<title>Callums Saut&apos;e Pumpkin with Peanuts</title>
+<title>Callums Saute Pumpkin with Peanuts</title>
     <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
 <thumbnail>../images/callums_pumpkin_dish.jpeg</thumbnail>
 <category>Dinner</category>
@@ -1290,11 +1288,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Poultry</category>
 </recipe>
 <recipe>
-    <title>Popcorn </title>
+<title>Popcorn </title>
     <filename>popcorn.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/popcorn.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Julians Bubcias Schnitzel</title>
