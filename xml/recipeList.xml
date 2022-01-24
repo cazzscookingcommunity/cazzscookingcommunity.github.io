@@ -439,13 +439,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Patricias Pannecotta</title>
-    <filename>patricia’s_pannecotta.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-</recipe>
-<recipe>
     <title>Upside-down cake</title>
     <filename>upside_down_cake.xml</filename>
     <thumbnail>../images/placeholder.jpeg</thumbnail>
@@ -468,6 +461,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 <diet>Vegan</diet>
 <diet>Paleo</diet>
+</recipe>
+<recipe>
+    <title>Patricias Pannecotta</title>
+    <filename>patricias_pannecotta.xml</filename>
+    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <image></image>
+    <category></category>
 </recipe>
 <recipe>
     <title>Simple Dahl </title>
