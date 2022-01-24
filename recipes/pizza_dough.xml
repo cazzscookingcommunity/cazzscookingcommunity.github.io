@@ -1,34 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Pizza Dough</title>
-    <filename>pizza_dough.xml</filename>
-
-    <comment>c/o Harrys Mum</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>5 cups plain flour</ingredient>
-    <ingredient>1 1/2 teaspoon yeast</ingredient>
-    <ingredient>(15ml teasp not 20ml teasp)</ingredient>
-    <ingredient>2 teaspoons salt</ingredient>
-    <ingredient>2 TBsp olive oil</ingredient>
-    <ingredient>500-600ml warm water</ingredient>
-    <ingredient>Extra olive oil</ingredient>
-
-    <step>
+<title>Pizza Dough</title>
+<filename>pizza_dough.xml</filename>
+<comment>c/o Harrys Mum</comment>
+<thumbnail>../images/pizza_dough.jpeg</thumbnail>
+<category>Dinner</category>
+<ingredient>5 cups plain flour</ingredient>
+<ingredient>1 1/2 teaspoon yeast</ingredient>
+<ingredient>(15ml teasp not 20ml teasp)</ingredient>
+<ingredient>2 teaspoons salt</ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>500-600ml warm water</ingredient>
+<ingredient>Extra olive oil</ingredient>
+<step>
 Put all dry ingredients in large mixing bowl and mix together. Make a well in the centre then add the combined water and oil. Use the dough hook and mix until a ball is formed. If dry add more water, only one TBsp at a time or add more flour if the dough is sticky. The dough is ready when it feels silky, not sticky. Remove dough ball from bowl and lightly grease bowl with olive oil. Place dough ball back in the bowl and cover. Place in a warm spot until it doubles in size (3-5 hours.) Punch down and place on a floured surface. Cut into four pieces. Roll into rounds for pizza or ovals for calzone. Use immediately!
     </step>
 </recipe>
+
