@@ -1,59 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Paleo Pumpkin Pie</title>
-    <filename>paleo_pumpkin_pie.xml</filename>
-
-    <comment>c/o paleorunningmomma</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-
-    <diet>Paleo</diet>
-
-    <part>
-        <title>Pumpkin Pie Spice</title>
-        <ingredient>1 1/2 TBSP cinnamon </ingredient>
-        <ingredient>1 teaspoon ginger</ingredient>
-        <ingredient>1/2 teaspoon all spice </ingredient>
-        <ingredient>1/4 teaspoon ground cloves </ingredient>
-        <step>Mix together in a small bowl</step>
-    </part>
-
-
-    <part>
-        <title>Pie Crust</title>
-        <ingredient>1 cup almond or hazelnut meal</ingredient>
-        <ingredient>2 TBSP coconut flour</ingredient>
-        <ingredient>2/3 cup tapioca flour</ingredient>
-        <ingredient>1/2 cup grass fed butter</ingredient>
-        <ingredient>1 TBsp coconut sugar</ingredient>
-        <ingredient>1/2 teaspoon salt</ingredient>
-        <ingredient>1 egg</ingredient>
-        <step>Preheat oven to 375 F (180 C). In a food processor pulse all ingredients except eggs until fully mixed. Add eggs and pulse a few times until dough forms. Grease a pie dish and pour dough in. With clean hands push pie crust into  pie dish until it is evenly covered. Pierce with a fork all over base and cook in oven for 10 minutes. Remove to cool on a wrack while making in filling.</step>
-
-    </part>
-
-    <part>
-        <title>Filling</title>
-        <ingredient>15 oz (430gms) pumpkin purée</ingredient>
-        <ingredient>2/3 cup full fat coconut milk</ingredient>
-        <ingredient>6 TBSP maple syrup</ingredient>
-        <ingredient>2 teaspoon vanilla essence</ingredient>
-        <ingredient>1 TBsp pumpkin pie spice</ingredient>
-        <ingredient>1 teaspoon cinnamon</ingredient>
-        <ingredient>2 large eggs</ingredient>
-        <ingredient>1 egg yoke</ingredient>
-        <ingredient>Pinch of salt</ingredient>
-        <step>Whisk all ingredients except eggs then whisk in eggs one at a time. Pour filling  into pie dish with partially cooked crust and pop back in oven for 50 - 60 minutes. Check crust at half way thru and 3/4 thru to make sure crust is not burning. If crust is too brown cut aluminium foil so it covers crust and not pie (donut shape) to protect pie crust if required. Pie ready when a bit jiggly but deep golden brown. Remove from oven and allow to cool completely to room temperature, then store in fridge (if you can wait 😉) Serve with Coconut yogurt or whipped cream. Store covered in fridge up to a week.</step>
-    </part>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Paleo Pumpkin Pie</title>
+<filename>paleo_pumpkin_pie.xml</filename>
+<comment>c/o paleorunningmomma</comment>
+<thumbnail>../images/paleo_pumpkin_pie.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Paleo</diet>
+<part><title>Pumpkin Pie Spice</title>
+<ingredient>1 1/2 TBSP cinnamon </ingredient>
+<ingredient>1 teaspoon ginger</ingredient>
+<ingredient>1/2 teaspoon all spice </ingredient>
+<ingredient>1/4 teaspoon ground cloves </ingredient>
+<step>Mix together in a small bowl</step>
+</part>
+<part><title>Pie Crust</title>
+<ingredient>1 cup almond or hazelnut meal</ingredient>
+<ingredient>2 TBSP coconut flour</ingredient>
+<ingredient>2/3 cup tapioca flour</ingredient>
+<ingredient>1/2 cup grass fed butter</ingredient>
+<ingredient>1 TBsp coconut sugar</ingredient>
+<ingredient>1/2 teaspoon salt</ingredient>
+<ingredient>1 egg</ingredient>
+<step>Preheat oven to 375 F (180 C). In a food processor pulse all ingredients except eggs until fully mixed. Add eggs and pulse a few times until dough forms. Grease a pie dish and pour dough in. With clean hands push pie crust into  pie dish until it is evenly covered. Pearce with a fork all over base and cook in oven for 10 minutes. Remove to cool on a wrack while making in filling.</step>
+</part>
+<part><title>Filling</title>
+<ingredient>15 oz (430gms) pumpkin pur�e</ingredient>
+<ingredient>2/3 cup full fat coconut milk</ingredient>
+<ingredient>6 TBSP maple syrup</ingredient>
+<ingredient>2 teaspoon vanilla essence</ingredient>
+<ingredient>1 TBsp pumpkin pie spice</ingredient>
+<ingredient>1 teaspoon cinnamon</ingredient>
+<ingredient>2 large eggs</ingredient>
+<ingredient>1 egg yoke</ingredient>
+<ingredient>Pinch of salt</ingredient>
+<step>Whisk all ingredients except eggs then whisk in eggs one at a time. Pour filling  into pie dish with partially cooked crust and pop back in oven for 50 - 60 minutes. Check crust at half way thru and 3/4 thru to make sure crust is not burning. If crust is too brown cut aluminium foil so it covers crust and not pie (donut shape) to protect pie crust if required. Pie ready when a bit jiggly but deep golden brown. Remove from oven and allow to cool completely to room temperature, then store in fridge (if you can wait) Serve with Coconut yogurt or whipped cream. Store covered in fridge up to a week.</step>
+</part>
 </recipe>
+
