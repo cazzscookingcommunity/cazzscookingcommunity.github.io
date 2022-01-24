@@ -71,13 +71,13 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Paleo</diet>
 </recipe>
 <recipe>
-    <title>Quinoa filled eggplant</title>
+<title>Quinoa filled eggplant</title>
     <filename>quinoa_filled_eggplant.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
+<thumbnail>../images/quinoa_filled_eggplant.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
 </recipe>
 <recipe>
     <title>Spanish Rice</title>
