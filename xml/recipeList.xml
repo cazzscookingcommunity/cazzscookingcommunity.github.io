@@ -100,11 +100,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Spiced Cake</title>
+<title>Spiced Cake</title>
     <filename>spiced_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/spiced_cake.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>GlutenFree Brownies </title>
