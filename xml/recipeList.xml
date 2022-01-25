@@ -987,11 +987,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Keto</diet>
 </recipe>
 <recipe>
-    <title>Turmeric Latte</title>
+<title>Turmeric Latte</title>
     <filename>turmeric_latte.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/turmeric_latte.jpeg</thumbnail>
+<category>Drink</category>
 </recipe>
 <recipe>
     <title>Banana Bread</title>
