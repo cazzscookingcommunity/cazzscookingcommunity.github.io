@@ -670,12 +670,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Warm French Lentils </title>
+<title>Warm French Lentils </title>
     <filename>warm_french_lentils.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/warm_french_lentils.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Tuna Rice Bake</title>
