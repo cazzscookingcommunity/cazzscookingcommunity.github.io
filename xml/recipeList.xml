@@ -348,11 +348,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Sarah Os Brownies</title>
+<title>Sarah Os Brownies</title>
     <filename>sarah_os_brownies.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/sarah_os_brownies.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Jassy Tasty Wraps</title>
