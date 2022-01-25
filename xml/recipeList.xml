@@ -1360,11 +1360,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Salmon Fajitas </title>
+<title>Salmon Fajitas </title>
     <filename>salmon_fajitas.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/salmon_fajitas.jpeg</thumbnail>
+<category>Fish</category>
 </recipe>
 <recipe>
     <title>Grandmas Steak and Black Beans</title>
