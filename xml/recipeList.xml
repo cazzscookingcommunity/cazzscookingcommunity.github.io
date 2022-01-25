@@ -1446,11 +1446,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>Rocky Road</title>
+<title>Rocky Road</title>
     <filename>rocky_road.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/rocky_road.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>One Pot Pasta</title>
