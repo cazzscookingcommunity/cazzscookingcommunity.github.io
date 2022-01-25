@@ -1,41 +1,32 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Spiced Cake</title>
-    <filename>spiced_cake.xml</filename>
-
-    <comment>c/o Fresh Mag with Cazzie tweaks</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-
-    <ingredient>2 1/2 cups flour</ingredient>
-    <ingredient>2 teaspoons baking powder</ingredient>
-    <ingredient>1 teaspoon bicarb soda</ingredient>
-    <ingredient>2 teaspoons cinnamon</ingredient>
-    <ingredient>2 teaspoons ginger</ingredient>
-    <ingredient>1 teaspoon mixed spice</ingredient>
-    <ingredient>1/4 teaspoon ground cardamon</ingredient>
-    <ingredient>4 eggs</ingredient>
-    <ingredient>1 cup caster sugar</ingredient>
-    <ingredient>3/4 cup olive oil</ingredient>
-    <ingredient>1 teaspoon vanilla essence</ingredient>
-    <ingredient>3 cups grated carrot (1-2 carrots)</ingredient>
-    <ingredient>220gms pineapple in pieces in natural juices</ingredient>
-    <ingredient>1/4 cup reserved pineapple juice</ingredient>
-
-    <step>
+<title>Spiced Cake</title>
+<filename>spiced_cake.xml</filename>
+<comment>c/o Fresh Mag with Cazzie tweaks</comment>
+<thumbnail>../images/spiced_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>2 1/2 cups flour</ingredient>
+<ingredient>2 teaspoons baking powder</ingredient>
+<ingredient>1 teaspoon bicarb soda</ingredient>
+<ingredient>2 teaspoons cinnamon</ingredient>
+<ingredient>2 teaspoons ginger</ingredient>
+<ingredient>1 teaspoon mixed spice</ingredient>
+<ingredient>1/4 teaspoon ground cardamon</ingredient>
+<ingredient>4 eggs</ingredient>
+<ingredient>1 cup caster sugar</ingredient>
+<ingredient>3/4 cup olive oil</ingredient>
+<ingredient>1 teaspoon vanilla essence</ingredient>
+<ingredient>3 cups grated carrot (1-2 carrots)</ingredient>
+<ingredient>220gms pineapple in pieces in natural juices</ingredient>
+<ingredient>1/4 cup reserved pineapple juice</ingredient>
+<step>
 Preheat oven to 180C.  Grease a 25cm spring form pan and place a piece of baking powder at the bottom.  Sift flour, baking soda and bicarb soda into a large bowl.  In a separate bowl place eggs, vanilla, oil, sugar and reserved pineapple juice and mix well with whisk.  Pour wet ingredients into flour bowl and mix until just combined.  Stir in grated carrots and blitzed pineapple, mixed through until all mixed through dough.  Pour into cake tin and cook for 45-60 mins, or until skewer comes out clean from the middle.  Serve with butter or cream if desired.
     </step>
 </recipe>
+
