@@ -979,13 +979,14 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>Summer Quiche</title>
+<title>Summer Quiche</title>
     <filename>summer_quiche.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Keto</diet>
+<thumbnail>../images/summer_quiche.jpeg</thumbnail>
+<category>Vegetarian</category>
+<category>Dinner</category>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<diet>Keto</diet>
 </recipe>
 <recipe>
     <title>Turmeric Latte</title>
