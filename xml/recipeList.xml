@@ -705,11 +705,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Poultry</category>
 </recipe>
 <recipe>
-    <title>Traditional Shortbread</title>
+<title>Traditional Shortbread</title>
     <filename>traditional_shortbread.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Cazzies Veggie Soup</title>
