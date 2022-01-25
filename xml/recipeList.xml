@@ -126,12 +126,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>Spicy Lentil Dip</title>
+<title>Spicy Lentil Dip</title>
     <filename>spicy_lentil_dip.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Buckwheat Pancakes</title>
