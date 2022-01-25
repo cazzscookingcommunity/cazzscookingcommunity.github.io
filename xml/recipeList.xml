@@ -1059,11 +1059,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Vegetable Bake</title>
+<title>Vegetable Bake</title>
     <filename>vegetable_bake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/vegetable_bake.jpeg</thumbnail>
+<category>Sides</category>
 </recipe>
 <recipe>
 <title>Quick Pasta Bake</title>
@@ -1132,13 +1131,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>Vegan Chocolate Cake</title>
+<title>Vegan Chocolate Cake</title>
     <filename>vegan_chocolate_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
-    <diet>Vegan</diet>
+<thumbnail>../images/vegan_chocolate_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
 </recipe>
 <recipe>
 <title>Pizza Dough</title>
