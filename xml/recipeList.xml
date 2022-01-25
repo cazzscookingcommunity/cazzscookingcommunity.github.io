@@ -484,11 +484,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Drink</category>
 </recipe>
 <recipe>
-    <title>Russian Tea Cakes</title>
+<title>Russian Tea Cakes</title>
     <filename>russian_tea_cakes.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Quick and Easy Butter Chicken </title>
