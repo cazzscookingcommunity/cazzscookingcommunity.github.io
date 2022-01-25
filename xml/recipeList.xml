@@ -625,12 +625,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Dinner</category>
 </recipe>
 <recipe>
-    <title>Sophias Mums Lentil Soup</title>
+<title>Sophias Mums Lentil Soup</title>
     <filename>sophias_mums_lentil_soup.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Vegan</diet>
+<thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegan</diet>
 </recipe>
 <recipe>
 <title>Gluten Free Chocolate Cookies</title>
