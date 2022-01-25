@@ -779,12 +779,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Three Ingredient Cookies</title>
+<title>Three Ingredient Cookies</title>
     <filename>three_ingredient_cookies.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/three_ingredient_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Grandmas Rice Custard </title>
