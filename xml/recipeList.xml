@@ -289,12 +289,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Poultry</category>
 </recipe>
 <recipe>
-    <title>Paleo Chocolate Chip Cookies </title>
+<title>Paleo Chocolate Chip Cookies </title>
     <filename>paleo_chocolate_chip_cookies.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Paleo</diet>
+<thumbnail>../images/paleo_choc_chip_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Paleo</diet>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
     <title>Hummingbird Cake</title>
