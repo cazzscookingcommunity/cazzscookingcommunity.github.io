@@ -1190,11 +1190,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Sweets</category>
 </recipe>
 <recipe>
-    <title>White Sauce</title>
+<title>White Sauce</title>
     <filename>white_sauce.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/white_sauce.jpeg</thumbnail>
+<category>Sides</category>
 </recipe>
 <recipe>
     <title>Jasmines Ice Coffee</title>
