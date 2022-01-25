@@ -7,7 +7,7 @@
     xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Sesame Squares </title>
-<filename>sesame_squares.xml</filename>
+<filename>seasame_squares.xml</filename>
 <comment>c/o irenamacri with cazzie tweaks</comment>
 <thumbnail>../images/seasame_squares.jpeg</thumbnail>
 <category>Sweets</category>
