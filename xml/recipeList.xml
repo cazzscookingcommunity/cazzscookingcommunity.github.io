@@ -1327,12 +1327,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>FODMAP</diet>
 </recipe>
 <recipe>
-    <title>smoked salmon salad</title>
+<title>smoked salmon salad</title>
     <filename>smoked_salmon_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/smoked_salmon_and_cucumber.png</thumbnail>
+<category>Sides</category>
+<category>Fish</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Coconut Rough Slice</title>
