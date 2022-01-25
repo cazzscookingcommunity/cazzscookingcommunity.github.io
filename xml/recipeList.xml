@@ -1518,12 +1518,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Taco Mix</title>
+<title>Taco Mix</title>
     <filename>taco_mix.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/taco_bake.jpeg</thumbnail>
+<category>Beef</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Steak and Blackbean Sauce</title>
