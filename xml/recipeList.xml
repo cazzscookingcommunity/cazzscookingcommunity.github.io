@@ -369,11 +369,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Drink</category>
 </recipe>
 <recipe>
-    <title>Rice Bubble Slice</title>
+<title>Rice Bubble Slice</title>
     <filename>rice_bubble_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/rice_bubble_slice.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Lentil Salad</title>
