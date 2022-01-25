@@ -1471,11 +1471,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Spanakopita </title>
+<title>Spanakopita </title>
     <filename>spanakopita.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/spanakopita.jpeg</thumbnail>
+<category>Vegetarian</category>
 </recipe>
 <recipe>
 <title>CHOWDER</title>
