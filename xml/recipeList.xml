@@ -322,11 +322,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category>Drink</category>
 </recipe>
 <recipe>
-    <title>Reginas Rum Cake </title>
+<title>Reginas Rum Cake </title>
     <filename>reginas_rum_cake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/reginas_rum_cake.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
 <title>Cauliflower-Crust Spinach Pie</title>
