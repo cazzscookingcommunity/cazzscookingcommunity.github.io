@@ -236,7 +236,7 @@ function createMealCards(shortlist) {
             `<div class="four columns">
                 <div class="card">
                     <img src="${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
-                    <div class="card-body recipe-action">
+                    <div class="card-body recipe-action" display="none">
                         <div class="cardTitle">${title}</div>
                         <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
                         <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">

@@ -34,7 +34,7 @@ section#mealCardsSection .back{top:0}
 .card-body{padding:5px 15px}
 .cardTitle{margin-bottom:5px}
 .mealCardRecipeBtn{display: inline}
-div.recipe-action img.cardAction {width:10%; display:inline; cursor:pointer;}
+div.recipe-action img.cardAction {width:10%; display:none; cursor:pointer;}
 div.recipe-action img.cardAction:hover {background-color: #689f38}
 .mealCards{text-align:center}
 .mealCards .columns{margin-left:0}
