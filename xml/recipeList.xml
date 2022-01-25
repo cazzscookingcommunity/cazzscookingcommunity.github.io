@@ -1157,11 +1157,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Sues Brown Rice Salad</title>
+<title>Sues Brown Rice Salad</title>
     <filename>sues_brown_rice_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/sues_brown_rice_salad.jpeg</thumbnail>
+<category>Sides</category>
 </recipe>
 <recipe>
 <title>Egg Slice</title>
