@@ -741,11 +741,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <category></category>
 </recipe>
 <recipe>
-    <title>Roasted Carrot Dip</title>
+<title>Roasted Carrot Dip</title>
     <filename>roasted_carrot_dip.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/roasted_carrot_dip.jpeg</thumbnail>
+<category>Vegetarian</category>
+<category>Sides</category>
 </recipe>
 <recipe>
 <title>Home made Carmen Bars</title>
