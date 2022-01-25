@@ -1416,11 +1416,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>GlutenFree</diet>
 </recipe>
 <recipe>
-    <title>Rum Balls</title>
+<title>Rum Balls</title>
     <filename>rum_balls.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/rum_balls.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
     <title>Six layer dip</title>
