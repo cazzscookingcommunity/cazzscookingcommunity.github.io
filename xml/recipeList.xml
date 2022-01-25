@@ -1385,11 +1385,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <category></category>
 </recipe>
 <recipe>
-    <title>Zucchini and Sweet Spud Fritters</title>
+<title>Zucchini and Sweet Spud Fritters</title>
     <filename>zucchini_and_sweet_spud_fritters.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Gluten Free Orange Cake</title>
