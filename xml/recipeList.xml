@@ -583,13 +583,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <diet>Vegetarian</diet>
 </recipe>
 <recipe>
-    <title>Spinach Artichoke Quinoa Casserole</title>
+<title>Spinach Artichoke Quinoa Casserole</title>
     <filename>spinach_artichoke_quinoa_casserole.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <diet>Vegetarian</diet>
-    <diet>GlutenFree</diet>
+<thumbnail>../images/spinach_artichoke_quinoa_casserole.jpeg</thumbnail>
+<category>Vegetarian</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>No Bake Oreo Cheese Cake</title>
