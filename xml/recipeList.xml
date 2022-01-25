@@ -851,11 +851,10 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Vegan</diet>
 </recipe>
 <recipe>
-    <title>Ridiculously Good Olive Oil Dip!</title>
+<title>Ridiculously Good Olive Oil Dip!</title>
     <filename>ridiculously_good_olive_oil_dip.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
+<thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
+<category>Sides</category>
 </recipe>
 <recipe>
     <title>Carrot Dip</title>
