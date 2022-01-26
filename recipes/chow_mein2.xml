@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>chow_mein2.xml</filename>
 
     <comment>Quick and easy!</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/chow_mein.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

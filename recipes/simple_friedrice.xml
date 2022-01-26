@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>simple_friedrice.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>
