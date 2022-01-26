@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>vegan_snickers_slice.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/vegan_snickers_slice.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

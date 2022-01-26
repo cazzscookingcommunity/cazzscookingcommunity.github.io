@@ -240,9 +240,9 @@ function createMealCards(shortlist) {
                         <div class="cardTitle">${title}</div>
                         <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
                         <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
-                          <img class="cardAction" border="0" alt="email recipe" src="/images/icons8-mail-24.png">
+                          <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png">
                         </a>
-                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/images/icons8-edit-24.png">
+                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/components/icons8-edit-24.png">
                     </div>
                 </div>
             </div>`;

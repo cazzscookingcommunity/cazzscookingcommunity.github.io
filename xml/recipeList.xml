@@ -74,7 +74,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Chicken Noodle Soup</title>
     <filename>chicken_noodle_soup.xml</filename>
-<thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
+<thumbnail>../images/chicken_noodle.soup.jpeg</thumbnail>
 <category>Soup</category>
 </recipe>
 <recipe>
@@ -132,7 +132,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Tuna Rice Bake</title>
     <filename>tuna_rice_bake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/tuna_bake.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>FODMAP</diet>
@@ -271,7 +271,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Roasted Veg and Buckwheat Salad</title>
     <filename>roasted_veg_and_buckwheat_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/roasted_veg_salad.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree</diet>
@@ -388,7 +388,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Chow Mein</title>
     <filename>chow_mein2.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/chow_mein.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -415,7 +415,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Chicken Soup with Rice</title>
     <filename>chicken_soup_with_rice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -435,7 +435,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Aunty Jackies Pancakes</title>
     <filename>aunty_jackies_pancakes.xml</filename>
-<thumbnail>../images/asian_salad.jpeg</thumbnail>
+<thumbnail>../images/aunty_jackies_pancakes.jpeg</thumbnail>
 <category></category>
 </recipe>
 <recipe>
@@ -447,7 +447,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Simple Dahl </title>
     <filename>simple_dahl.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/simple_dahl.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -508,7 +508,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Asian Salad</title>
     <filename>asian_salad.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/asian_salad.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -554,7 +554,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>No Knead Bread</title>
     <filename>no_knead_bread.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/no_knead_bread.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -633,7 +633,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Vegan Snickers Slice</title>
     <filename>vegan_snickers_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/vegan_snickers_slice.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree</diet>
@@ -655,7 +655,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Pesto</title>
     <filename>pesto.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/pesto.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -1289,7 +1289,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Tuna Pasta</title>
     <filename>tuna_pasta.xml</filename>
-<thumbnail>../images/tuna_bake.jpeg</thumbnail>
+<thumbnail>../images/tuna_pasta.jpeg</thumbnail>
 <category>Fish</category>
 </recipe>
 <recipe>
@@ -1327,7 +1327,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Corner Store Curry</title>
     <filename>corner_store_curry.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/jamie_oliver_corner_store_curry.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -1347,7 +1347,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Alecias Cinnamon Rolls</title>
     <filename>alecias_cinnamon_rolls.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/alecias_cinnamon_rolls.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
@@ -1546,7 +1546,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Simple Friedrice</title>
     <filename>simple_friedrice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
