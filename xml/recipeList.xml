@@ -804,7 +804,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Homemade Toothpaste and Deodorant</title>
     <filename>homemade_toothpaste_and_deodorant.xml</filename>
-<thumbnail>../images/toothpaste_deoderant.jpeg</thumbnail>
+<thumbnail>../images/homemade_toothpaste_deoderant.jpeg</thumbnail>
 <category>Household</category>
 </recipe>
 <recipe>
@@ -1399,7 +1399,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Peanut Butter Slice</title>
     <filename>peanut_butter_slice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/peanut_butter_slice.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree</diet>
