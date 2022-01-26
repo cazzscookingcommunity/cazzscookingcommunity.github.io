@@ -1,9 +1,5 @@
 large_banana_bread.jpeg
-.DS_Store
-ice_coffee.jpeg
-chicken_noodle_soup.jpeg
 Quick Chicken Dinner.jpeg
 christmas_tree_fun.jpeg
-placeholder.png
 Beetroot Dip.jpeg
 Five Layer Dip.jpeg

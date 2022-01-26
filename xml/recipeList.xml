@@ -74,7 +74,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
 <title>Chicken Noodle Soup</title>
     <filename>chicken_noodle_soup.xml</filename>
-<thumbnail>../images/chicken_noodle.soup.jpeg</thumbnail>
+<thumbnail>../images/chicken_noodle_soup.jpeg</thumbnail>
 <category>Soup</category>
 </recipe>
 <recipe>
@@ -1028,7 +1028,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Jasmines Ice Coffee</title>
     <filename>jasmines_ice_coffee.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/ice_coffee.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
