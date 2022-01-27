@@ -6,8 +6,8 @@ xmlns="https://cazzscookingcommunity.github.io"
 xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
 xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
                                                                                 
-    <title>Cherry Tomatoe Bake</title>
-    <filename>cherry_tomatoe_bake.xml</filename>
+    <title>Cherry Tomato Bake</title>
+    <filename>cherry_tomato_bake.xml</filename>
 
     <comment></comment>
     <thumbnail>../images/placeholder.jpeg</thumbnail>
@@ -20,7 +20,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
 
 
 
-    <ingredient>4 cups cherry tomatoes halved</ingredient>
+    <ingredient>4 cups cherry tomatos halved</ingredient>
     <ingredient>3 cloves garlic minced </ingredient>
     <ingredient>2 TBsp olive oil </ingredient>
     <ingredient>1/4 teaspoon Salt and Pepper</ingredient>
@@ -30,6 +30,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <step>
 Preheat oven to 180C while preparing the ingredients. In shallow baking dish place all ingredients. Cook for 30-40 mins. When tomatoes have all collapsed remove from oven. Stir and sprinkle with additional dill if desired.  Serve with BBQ meat.
 
-* different variety tomatoes can be used, I prefer 2 red and 1 yellow punnet
+* different variety tomatos can be used, I prefer 2 red and 1 yellow punnet
     </step>
 </recipe>

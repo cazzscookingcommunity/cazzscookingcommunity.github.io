@@ -8,3 +8,4 @@ scripts/python_scripts/
 *.bak
 app.js
 template.xml
+*.txt

@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>simple_greek_seasoning.xml</filename>
 
     <comment>c/o sweetpeasandsaffron.com</comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/greek_seasoning.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

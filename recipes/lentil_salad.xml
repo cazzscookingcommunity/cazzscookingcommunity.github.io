@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>lentil_salad.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/lentil_salad.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

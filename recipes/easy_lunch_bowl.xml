@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>easy_lunch_bowl.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/easy_lunch_bowl.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

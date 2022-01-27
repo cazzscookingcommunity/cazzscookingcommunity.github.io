@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>hummingbird_cake.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/hummingbird_cake.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

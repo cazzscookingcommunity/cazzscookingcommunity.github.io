@@ -10,7 +10,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <filename>awesome_roasted_beetroot_dip.xml</filename>
 
     <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/beetroot_dip.jpeg</thumbnail>
     <image></image>
     <category></category>
     <yield></yield>

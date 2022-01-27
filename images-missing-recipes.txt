@@ -1,5 +1,1 @@
-large_banana_bread.jpeg
-Quick Chicken Dinner.jpeg
-christmas_tree_fun.jpeg
-Beetroot Dip.jpeg
-Five Layer Dip.jpeg
+.DS_Store
