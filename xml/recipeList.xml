@@ -21,7 +21,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Calzone</title>
     <filename>calzone.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/calzone.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>Vegetarian</diet>
@@ -203,7 +203,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Spanish Rice</title>
     <filename>spanish_rice.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/spanish_rice.jpeg</thumbnail>
     <image></image>
     <category></category>
     <diet>GlutenFree</diet>
@@ -901,7 +901,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <recipe>
     <title>Cherry Tomato Bake</title>
     <filename>cherry_tomato_bake.xml</filename>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
+    <thumbnail>../images/cherry_tomato_bake.jpeg</thumbnail>
     <image></image>
     <category></category>
 </recipe>
