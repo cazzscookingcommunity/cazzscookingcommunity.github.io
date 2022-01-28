@@ -82,7 +82,7 @@ function addPageMetaData($recipeList) {
         "@type": "ItemList",
         "itemListElement": [`;
 
-    for ( i = 0; i < $recipeList.length; i++ ) {
+    for ( i = 0; i < 10; i++ ) {
         filename = $recipeList[i].getElementsByTagName("filename")[0].innerHTML
         metaData += `{
             "@type": "ListItem",
