@@ -84,11 +84,14 @@ function addPageMetaData($recipeList) {
 
     for ( i = 0; i < 10; i++ ) {
         filename = $recipeList[i].getElementsByTagName("filename")[0].innerHTML
+        if ( i > 0 ) {
+            metaData += ','
+        }
         metaData += `{
             "@type": "ListItem",
             "position": "${i}",
             "url": "https://cazzscookingcommunity.github.io/recipe.html?recipe=${filename}"
-        },`;
+        }`;
     }
     metaData += `]}`;
 
