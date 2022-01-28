@@ -35,7 +35,7 @@ function loadRecipe(recipeFile){
 }
 
 function addPageMetaData($recipe) {
-    const title = $recipe.find('title').text();
+    const title = $recipe.find('title').first().text();
     const image = $recipe.find('thumbnail').text();
     const ingredients = $recipe.find('ingredient').text()
     const instructions = $recipe.find('step').text()
@@ -46,10 +46,10 @@ function addPageMetaData($recipe) {
         "name": "${title}",
         "author": "Carolyn Cullin",
         "image": "${image}",
-        "description": "${title}",
-        "recipeIngredient": "${ingredients}",
-        "recipeInstructions": "${instructions}"
+        "description": "${title}"
         }`;
+        // "recipeIngredient": "${ingredients}",
+        // "recipeInstructions": "${instructions}"
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
     script.textContent = sitemap_data;
