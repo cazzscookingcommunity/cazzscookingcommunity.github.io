@@ -22,14 +22,8 @@ function loadRecipe(recipeFile){
     .then(res => {
         recipe = res.querySelectorAll('recipe');
         $recipe = $( recipe );
-        console.debug($recipe);
-        // insert structured data for recipe
-        const script = document.createElement('script');
-        script.setAttribute('type', 'application/ld+json');
-        script.textContent = new XMLSerializer().serializeToString(res);
-        document.head.appendChild(script);
 
-        // create the recipe html
+        createSitemap($recipe);
         createMeal($recipe, 'r');
         // setCache(res, type);
         $('section#random').show();
@@ -38,6 +32,24 @@ function loadRecipe(recipeFile){
     })
 
     .catch( e => console.warn(e) );
+}
+
+function createSitemap($recipe) {
+    const title = $recipe.find('title').text();
+    const image = $recipe.find('thumbnail').text();
+    var sitemap_data = `
+        {
+        "@context": "https://schema.org/",
+        "@type": "Recipe",
+        "name": "${title}",
+        "author": "Carolyn Cullin",
+        "image": "${image}",
+        "description": "${title}"
+        }`;
+    const script = document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = sitemap_data;
+    document.head.appendChild(script);
 }
 
 // Function to generate the random meal UI component
