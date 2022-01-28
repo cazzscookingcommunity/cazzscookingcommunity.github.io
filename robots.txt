@@ -1,6 +1,3 @@
 User-agent: *
-Disallow: /components/
-Disallow: /scripts/
-Disallow: /xml/
 
 Sitemap: https://cazzscookingcommunity.github.io/sitemap.xml
