@@ -32,8 +32,9 @@ $(document).ready(function(){
 
         // create keyword to recipe map for category search & searchbar
         createSearchTree($recipeList);
-
         document.getElementById('searchRecipe').value='';
+
+        addPageMetaData($recipeList);
 
     });
 
@@ -74,6 +75,28 @@ $(document).on('click','.mealCardRecipeBtn',function(){
 
 });
 
+function addPageMetaData($recipeList) {
+    var metaData = "";
+    metaData += `{
+        "@context": "https://schema.org",
+        "@type": "ItemList",
+        "itemListElement": [`;
+
+    for ( i = 0; i < $recipeList.length; i++ ) {
+        filename = $recipeList[i].getElementsByTagName("filename")[0].innerHTML
+        metaData += `{
+            "@type": "ListItem",
+            "position": "${i}",
+            "url": "https://cazzscookingcommunity.github.io/recipe.html?recipe=${filename}"
+        },`;
+    }
+    metaData += `]`;
+
+    const script = document.createElement('script');
+    script.setAttribute('type', 'application/ld+json');
+    script.textContent = metaData;
+    document.head.appendChild(script);
+}
 
 // get recipe Categories for pre-defined search filters 
 function getCategorys($recipe, cssSelector, newlist) {

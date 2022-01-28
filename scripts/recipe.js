@@ -23,7 +23,7 @@ function loadRecipe(recipeFile){
         recipe = res.querySelectorAll('recipe');
         $recipe = $( recipe );
 
-        createSitemap($recipe);
+        addPageMetaData($recipe);
         createMeal($recipe, 'r');
         // setCache(res, type);
         $('section#random').show();
@@ -34,9 +34,11 @@ function loadRecipe(recipeFile){
     .catch( e => console.warn(e) );
 }
 
-function createSitemap($recipe) {
+function addPageMetaData($recipe) {
     const title = $recipe.find('title').text();
     const image = $recipe.find('thumbnail').text();
+    const ingredients = $recipe.find('ingredient').text()
+    const instructions = $recipe.find('step').text()
     var sitemap_data = `
         {
         "@context": "https://schema.org/",
@@ -44,7 +46,9 @@ function createSitemap($recipe) {
         "name": "${title}",
         "author": "Carolyn Cullin",
         "image": "${image}",
-        "description": "${title}"
+        "description": "${title}",
+        "recipeIngredient": "${ingredients}",
+        "recipeInstructions": "${instructions}"
         }`;
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
