@@ -160,6 +160,14 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <diet>Vegetarian</diet>
 </recipe>
 <recipe>
+<title>smoked salmon cucumber</title>
+    <filename>smoked_salmon_cucumber.xml</filename>
+<thumbnail>../images/smoked_salmon_and_cucumber.jpeg</thumbnail>
+<category>Sides</category>
+<category>Fish</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
 <title>Sarah Os Brownies</title>
     <filename>sarah_os_brownies.xml</filename>
 <thumbnail>../images/sarah_os_brownies.jpeg</thumbnail>
@@ -800,14 +808,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <thumbnail>../images/steak_in_blackbean_sauce.jpeg</thumbnail>
 <category>Beef</category>
 <category>Dinner</category>
-</recipe>
-<recipe>
-<title>smoked salmon salad</title>
-    <filename>smoked_salmon_salad.xml</filename>
-<thumbnail>../images/smoked_salmon_and_cucumber.jpeg</thumbnail>
-<category>Sides</category>
-<category>Fish</category>
-<diet>GlutenFree</diet>
 </recipe>
 <recipe>
 <title>Chocolate Chip Cookies</title>
