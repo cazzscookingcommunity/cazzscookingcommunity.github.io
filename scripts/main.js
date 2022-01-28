@@ -90,7 +90,7 @@ function addPageMetaData($recipeList) {
             "url": "https://cazzscookingcommunity.github.io/recipe.html?recipe=${filename}"
         },`;
     }
-    metaData += `]`;
+    metaData += `]}`;
 
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
