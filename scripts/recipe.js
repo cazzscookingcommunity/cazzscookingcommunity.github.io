@@ -44,7 +44,10 @@ function addPageMetaData($recipe) {
         "@context": "https://schema.org/",
         "@type": "Recipe",
         "name": "${title}",
-        "author": "Carolyn Cullin",
+        "author": {
+            "@type": "Person",
+            "name": "Carolyn Cullin"
+        },
         "image": "${image}",
         "description": "${title}"
         }`;
