@@ -23,15 +23,22 @@ function loadRecipe(recipeFile){
         recipe = res.querySelectorAll('recipe');
         $recipe = $( recipe );
         console.debug($recipe);
+        // insert structured data for recipe
+        const script = document.createElement('script');
+        script.setAttribute('type', 'application/ld+json');
+        script.textContent = new XMLSerializer().serializeToString(res);
+        document.head.appendChild(script);
+
+        // create the recipe html
         createMeal($recipe, 'r');
         // setCache(res, type);
         $('section#random').show();
         window.scrollTo(0,$('#main').offset().top);
         $('#dynamicTitle').text($recipe.find('title').first().text());
     })
+
     .catch( e => console.warn(e) );
 }
-
 
 // Function to generate the random meal UI component
 const createMeal = ($meal, type) => {
@@ -49,8 +56,9 @@ const createMeal = ($meal, type) => {
     let mealMetadata = '', mealInstr = '';
 
     // Fill meal name 
+    const title = $meal.find('title').first().text()
     mealMetadata += `<span>Name:</span>
-        ${$meal.find('title').first().text()} 
+        ${title} 
         <br/>`
 
     // Fill category 
@@ -90,6 +98,7 @@ const createMeal = ($meal, type) => {
         $('#randomMealMetadata').html(mealMetadata); 
         $('#randomMealActions').html(recipeactions);
         $('#randomMealInstructions').html(mealInstr); 
+        $('title').html(title);
         console.debug(window.location.href);
     }
 }

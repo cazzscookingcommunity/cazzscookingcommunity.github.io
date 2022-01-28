@@ -1,15 +1,15 @@
 # Cazz's Cooking Community
-A food recipes website for all of Cazz's favourite family recipes.
+An XML based recipe website.
 
-We have a family of 5 adults and many friends and mouths to feed.  This is a collection of family favourites collected over the years and recorded to pass onto family and friends.
+all recipes are in individual xml files and have an associated image.
+[/recipes](/recipes) - each recipe is an individual xml file
+[/images](/images) - each recipe has a single 4:3 image that is referenced in the XML file
+[/xml](/xml) - all recipes are sumarised in recipeList.xml and the recipe structured is defined by recipe.xsd
 
+The site includes a fork of xsd2html2xml, which is used to translate recipe.xsd into a html Form, which allows recpes to be created and edited directly on the site.    Users with authorised Personal Access Token can push recipes direct to Git and this triggers Actions to update recipe.xml and sitemap.  non-authjorised users can download xml files to their desktop.
 
 ---
-
 ## The Tech stuff
-
-All recipes will be in XML format with 1 recipe per file.
-Website is HTML5 compatible.
 
 ### customisatiomns to xsd2html2xml 
 1 - handler/simple-elements.xsl

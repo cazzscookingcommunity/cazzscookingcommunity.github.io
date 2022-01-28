@@ -4,7 +4,7 @@ import os
 import sys
 import datetime
 date = datetime.datetime.now().date()
-print(date)
+
 
 
 # source info

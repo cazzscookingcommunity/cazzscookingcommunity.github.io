@@ -8,4 +8,5 @@ scripts/python_scripts/
 *.bak
 app.js
 template.xml
-*.txt
+recipes-missing-images.txt
+images-missing-recipes.txt
