@@ -1,35 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Dark Chocolate Fudge</title>
-    <filename>dark_chocolate_fudge.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/placeholder.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
-
-
-    <diet>GlutenFree</diet>
-
-    <ingredient>375gms dark chocolate broken in to pieces</ingredient>
-    <ingredient>395g can sweeten  condensed milk</ingredient>
-    <ingredient>1/2 cup icing sugar sifted</ingredient>
-    <ingredient>1/2 cup glace red cherries chopped</ingredient>
-    <ingredient>1/2 cup dried cranberries chopped</ingredient>
-    <ingredient>3/4 cup pistachios chopped</ingredient>
-    <ingredient>extra cranberries and chopped pistachios chopped for garnish</ingredient>
-
-    <step>
-Grease a loaf tin and line with foil then grease the foil also.  Melt the chocolate in a bowl over a pan of boiling water.  Once completely melted add sugar then condensed milk.  Mix in the rest of the ingredients, except garnish and pour into prepared tin.  Smooth top and add garnish, then gently push into but not completely.  Refrigerate over night and cut into small squares or slices.  You can easily replace the cherries, cranberries and pistachios with other dried fruit or nuts!
+<title>Dark Chocolate Fudge</title>
+<filename>dark_chocolate_fudge.xml</filename>
+<thumbnail>../images/dark_chocolate_fudge.jpg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<ingredient>375gms dark chocolate broken in to pieces</ingredient>
+<ingredient>395g can sweeten  condensed milk</ingredient>
+<ingredient>1/2 cup icing sugar sifted</ingredient>
+<ingredient>1/2 cup glace red cherries chopped</ingredient>
+<ingredient>1/2 cup dried cranberries chopped</ingredient>
+<ingredient>3/4 cup pistachios chopped</ingredient>
+<ingredient>extra cranberries and chopped pistachios chopped for garnish</ingredient>
+<step>Grease a loaf tin and line with foil then grease the foil also.  Melt the chocolate in a bowl over a pan of boiling water.  Once completely melted add sugar then condensed milk.  Mix in the rest of the ingredients, except garnish and pour into prepared tin.  Smooth top and add garnish, then gently push into but not completely.  Refrigerate over night and cut into small squares or slices.  You can easily replace the cherries, cranberries and pistachios with other dried fruit or nuts!
     </step>
 </recipe>
+
