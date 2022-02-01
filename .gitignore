@@ -3,8 +3,6 @@ fb_files/
 fb_recipes/
 test_recipes/
 scripts/python_scripts/
-xml/xsd2html2xml/
-xml/xsd2html2xml/
 .vscode/
 
 # ignore these files
