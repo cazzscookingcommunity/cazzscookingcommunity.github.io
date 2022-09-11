@@ -168,6 +168,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <filename>tuna_pasta.xml</filename>
 <thumbnail>../images/tuna_pasta.jpeg</thumbnail>
 <category>Fish</category>
+<category>Dinner</category>
 </recipe>
 <recipe>
     <title>Cup Cakes</title>
