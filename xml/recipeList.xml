@@ -1298,7 +1298,9 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
 <title>Adrianas Chicken and Chorizo</title>
     <filename>adrianas_chicken_chorizo.xml</filename>
 <thumbnail>../images/adrianas_chicken.jpeg</thumbnail>
-<category></category>
+<category>Dinner</category>
+<category>Poultry</category>
+<category>Pork</category>
 </recipe>
 <recipe>
 <title>Pad Thai Noodles</title>
