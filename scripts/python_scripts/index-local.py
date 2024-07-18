@@ -31,7 +31,7 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 
 sitemap_page = '''
     <url>
-        <loc>http://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
+        <loc>https://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
         <lastmod>{}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
