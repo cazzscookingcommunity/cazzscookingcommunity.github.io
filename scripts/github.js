@@ -55,8 +55,8 @@ async function commit_recipe() {
         // commit changes to GitHub
         const sha =  await getSHA(recipedir, recipename);
         await postFile(recipeupdate, recipedir+recipename, sha);
-        //history.back();
-        //window.location.asign('/components/admin.html');
+        history.back();
+        window.location.asign('/components/admin.html');
     }
 };
 
