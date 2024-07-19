@@ -1,5 +1,13 @@
 #!/bin/python3
 
+""" Updates index, sitemap and recipe lists
+
+When a new recipe has been added or a recipe updated
+this script is run locally before git commit to generate
+new sitemap.xml and recipeList.xml files.
+python3 scripts/python_scripts/index-local.py
+"""
+
 import os
 import sys
 import datetime
@@ -63,7 +71,9 @@ def processFile(filename, recipelist, sitemap):
     with open(recipelist, "a") as dst:
         with open(sitemap, "a") as sm:
             with open(recipedir + filename, "rt") as src:
+                # add recipe page to sitemap
                 sm.write(sitemap_page.format(filename, date))
+                # add recipe to the recipelist
                 dst.write("<recipe>\n")
                 firstTitle = True
                 while True:
@@ -100,9 +110,11 @@ if __name__== "__main__":
     directory = os.fsencode(recipedir)
     
     for file in os.listdir(directory):
+        # each file is a recipe.  Crawl the directory
         filename = os.fsdecode(file)
         if filename.endswith(".xml"): 
             print(filename)
+            # add the recipe to sitemap and recipelist
             processFile(filename, recipelist, sitemap)
 
     closeOutput(recipelist, xmlfooter)

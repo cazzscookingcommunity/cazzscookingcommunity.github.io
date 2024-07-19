@@ -1,34 +1,6 @@
-# name: build-recipe-index
-# on: 
-#   push:
-# 
-# on:
-#   push:
-#     branches:
-#       - recipe-updates
-# jobs:
-#   index-recipe-and-merge:
-#     runs-on: ubuntu-latest
-#     steps:
-#       - uses: actions/checkout@v2
-#         with:
-#           token: ${{ github.token }}
-#       - uses: actions/setup-python@v2
-#         with:
-#           python-version: '3.x'
-#           architecture: x64
-#       - run: pip install xmlschema
-#       - run: python scripts/update-index-work.py
-#       - if: ${{ success() }}
-#         run: |
-#           git config user.name github-actions
-#           git config user.email github-actions@github.com
-#       - run: git status
-#       - run: git add .
-#       - run: git commit -m "automated recipe and index update"
-#       - run: git push
+# Github workflow action
 
-
+# After push it scans for canges and updates recipelist and sitemap
 
 
 name: build-recipe-index
@@ -83,11 +55,13 @@ jobs:
           python-version: '3.x'
           architecture: x64
       - run: pip install xmlschema
-      - run: python scripts/update-recipeindex.py
+#      - run: python scripts/update-recipeindex.py
+      - run: python scripts/python_scripts/build-index-workflow.py
       - if: ${{ success() }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
       - run: git add xml/recipeList.xml
+      - run: git add sitemap.xml
       - run: git commit -m "automated recipe index update"
       - run: git push

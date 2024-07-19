@@ -1,5 +1,12 @@
 #!/bin/python3
 
+""" Updates index, sitemap and recipe lists
+
+When a new recipe has been added or a recipe updated VIA WEBSITE
+this script is run BY GITHUB WORKFLOW to generate
+new sitemap.xml and recipeList.xml files.
+"""
+
 import os
 import sys
 import xmlschema

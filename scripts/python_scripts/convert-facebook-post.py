@@ -1,5 +1,11 @@
 #!/bin/python3
 
+""" this script is not an active component
+
+This script was used to convert the facebook cazzscookingcommnity recipes
+to xml format suitable for the website
+""" 
+
 import os
 import sys
 import csv

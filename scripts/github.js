@@ -50,13 +50,13 @@ async function commit_recipe() {
         parser = new DOMParser();
         recipeXML = parser.parseFromString(recipeupdate,"text/xml");
         recipename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
-        console.debug(recipeupdate);
+        console.debug(recipename);
         console.debug(recipeXML);
         // commit changes to GitHub
         const sha =  await getSHA(recipedir, recipename);
         await postFile(recipeupdate, recipedir+recipename, sha);
-        history.back();
-        window.location.asign('/components/admin.html');
+        //history.back();
+        //window.location.asign('/components/admin.html');
     }
 };
 
@@ -156,6 +156,8 @@ async function getSHA(path, filename) {
 
 // commit change 
 async function postFile(file, path, sha) {
+    console.debug(path+file);
+    console.debug(sha);
     // const path = `files/${filename}`;
     const body = JSON.stringify({
         "content": btoa(file),

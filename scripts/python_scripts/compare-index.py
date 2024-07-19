@@ -1,5 +1,10 @@
 #!/bin/python3
 
+""" NOT AN ACTIVE SCRIPT
+
+used to identify missing recipes
+"""
+
 import os
 import sys
 
