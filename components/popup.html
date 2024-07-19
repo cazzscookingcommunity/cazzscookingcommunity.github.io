@@ -22,7 +22,7 @@
             <label id="passcode-label" for="passcode">Github Personal Access Token</label>
             <input id="passcode" type="password"/>
         </form>
-        <button class="button" onclick="set_passcode()">upload</button>    
+        <button class="button" autofocus onclick="set_passcode()">upload</button>    
         <button class="button" onclick="close_popup()">cancel</button>   
     </div>
     <div id="commit">
@@ -47,8 +47,8 @@
                     'Content-Type': 'application/json;charset=utf-8',
                     'authorization': `Token ${passcodeEntered}`
                 }
-            // window.opener.console.debug(headers);         
-            window.close();
+            window.opener.console.debug(headers);         
+            // window.close();
         } else {
             window.alert("please enter token or cancel to download recipe or exit");
         }
