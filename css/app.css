@@ -11,7 +11,7 @@ body{display:flex;flex-direction:column;flex-wrap:nowrap}
 
 /* Theme color */
 body{background-color:whitesmoke;color:black}
-.brand,.heading{color:#689f38}
+.brand,.heading{color:#689f38; text-decoration: none}
 .button:hover{background-color:#689f38}
 .loader{outline: 0 solid #689f38}
 
@@ -93,7 +93,7 @@ footer{bottom:0;text-align:center; margin-top:50px}
 /* Others */
 a{cursor:pointer}
 .brand{font-size:2rem;font-weight:bold}
-.brand:hover,.brand:visited,.brand:focus{color:black}
+.brand:hover,.brand:focus{color:black}
 main{justify-content:center;align-items:center}
 #userInput{font-weight:bold}
 
@@ -126,7 +126,7 @@ main{justify-content:center;align-items:center}
 /* #about-section{height:80vh;padding-top:20vh;} */
 /* #about-section{height:80vh;padding-top:0;} */
 .brand{font-size:5vw;font-weight:700}
-.brand:focus,.brand:hover,.brand:visited{color:#000}
+/* .brand:focus,.brand:hover,.brand:visited{color:#000} */
 
 /* phablet and above */
 @media (min-width:440px){
