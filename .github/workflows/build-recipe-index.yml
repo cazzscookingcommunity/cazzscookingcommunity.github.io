@@ -33,11 +33,13 @@ jobs:
             echo $file
             if [[ $file != "recipes"* ]]; then
               echo "This file is not under the directory 'recipes'."
-              echo "::set-output name=run_job::false"
+              # echo "::set-output name=run_job::false"
+              echo "run_job=false" >> $GITHUB_OUTPUT
               break
             else
               echo "this file is in RECIPE directory."
-              echo "::set-output name=run_job::true"
+              # echo "::set-output name=run_job::true"
+              echo "run_job=true" >> $GITHUB_OUTPUT
             fi
           done < files.txt
 
@@ -50,7 +52,7 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
       - name: index recipes
-        uses: actions/setup-python@v2
+        uses: actions/setup-python@v4
         with:
           python-version: '3.x'
           architecture: x64
