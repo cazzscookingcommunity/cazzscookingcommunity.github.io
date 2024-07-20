@@ -51,21 +51,23 @@ body {
     margin: 0;
 }
 
-.xsd2html2xml button[type=submit] {
-    /* positioning */
-    left: 74%;
-    position: fixed;
-    top: 100px;
-
-    /* usual styles */
+/* Style for form control buttons */
+.xsd2html2xml .form-button {
+    display: inline-block; /* Use inline-block for proper width adjustment */
     background-color: #689f38;
-    border:none;
-    color:#fff;
-    font-weight:600;
-    border-radius:5px;
-    width:15%;
-    margin: 30px;
-} 
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: auto; /* Adjust padding for better fit */
+    margin: 10px; /* Adjust margin for spacing */
+    cursor: pointer;
+}
+
+/* hover effect for form control buttons*/
+.xsd2html2xml .form-button:hover {
+    background-color: #5a8c2a;
+}
 
 .xsd2html2xml fieldset[data-xsd2html2xml-name=part] {
     border-style: solid;

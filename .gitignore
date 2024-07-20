@@ -1,14 +1,14 @@
 # ignore ALL files in ANY directory named ...
 fb_files/
 fb_recipes/
-test_recipes/
-scripts/python_scripts/
+# scripts/python_scripts/
 .vscode/
 
 # ignore these files
 *.bak
 app.js
-template.xml
+# template.xml
 recipes-missing-images.txt
 images-missing-recipes.txt
+update-recipeindex.py
 .DS_Store
