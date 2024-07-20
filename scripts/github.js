@@ -54,9 +54,14 @@ async function commit_recipe() {
         console.debug(recipeXML);
         // commit changes to GitHub
         const sha =  await getSHA(recipedir, recipename);
-        await postFile(recipeupdate, recipedir+recipename, sha);
-        history.back();
-        window.location.asign('/components/admin.html');
+        try {
+            await postFile(recipeupdate, recipedir+recipename, sha);
+            console.log("File uploaded successfully");
+            history.back();
+            window.location.asign('/components/admin.html');
+        } catch (error) {
+            console.error("Error uploading file:", error);
+        }
     }
 };
 
