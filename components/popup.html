@@ -9,6 +9,26 @@
   <link rel="stylesheet" href="/css/admin.css">
 
   <title>GitHub passcode prompt</title>
+
+
+  <script>
+    document.addEventListener('DOMContentLoaded', (event) => {
+        document.getElementById('popup').style.display = 'block';
+
+        const passcodeInput = document.getElementById('passcode');
+        const form = passcodeInput.closest('form');
+
+
+        // this prevents autosubmit caused by 1password manager on safari browswer
+        form.addEventListener('submit', (event) => {
+            // event.preventDefault();
+            console.log('Form submission prevented');
+        });
+    });
+</script>
+
+
+
 </head>
 
 
@@ -18,12 +38,14 @@
         <div>Enter Github Token to upload file
             or cancel to download:</div>
         <br>
-        <form>
+        <form onsubmit="set_passcode()" onreset="close_popup()">
             <label id="passcode-label" for="passcode">Github Personal Access Token</label>
             <input id="passcode" type="password"/>
+            <input class="button" type="submit"/>  
+            <input class="button" type="reset"/>
         </form>
-        <button class="button" autofocus onclick="set_passcode()">upload</button>    
-        <button class="button" onclick="close_popup()">cancel</button>   
+        <!-- <button class="button" type="button" onclick="set_passcode()">upload</button>    
+        <button class="button" type="button" onclick="close_popup()">cancel</button>    -->
     </div>
     <div id="commit">
         <div>Committing file to Github.  Please wait.</div>
@@ -47,8 +69,8 @@
                     'Content-Type': 'application/json;charset=utf-8',
                     'authorization': `Token ${passcodeEntered}`
                 }
-            window.opener.console.debug(headers);         
-            // window.close();
+            // calling function continues after this window closes
+            window.close();
         } else {
             window.alert("please enter token or cancel to download recipe or exit");
         }
