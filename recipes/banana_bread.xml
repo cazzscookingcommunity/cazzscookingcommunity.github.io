@@ -12,7 +12,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
     <comment></comment>
     <thumbnail>../images/large_banana_bread.jpeg</thumbnail>
     <image></image>
-    <category>desert</category>
+    <category>Sweets</category>
     <yield></yield>
     <prepTime></prepTime>
     <cookTime></cookTime>

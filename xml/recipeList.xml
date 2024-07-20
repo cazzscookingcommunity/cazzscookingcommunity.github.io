@@ -732,7 +732,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
     <filename>banana_bread.xml</filename>
     <thumbnail>../images/large_banana_bread.jpeg</thumbnail>
     <image></image>
-    <category>desert</category>
+    <category>Sweets</category>
 </recipe>
 <recipe>
 <title>Quick Pasta Bake</title>

@@ -44,7 +44,7 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 
 sitemap_page = '''
     <url>
-        <loc>http://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
+        <loc>https://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
         <lastmod>{}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -72,6 +72,14 @@ def closeOutput(file, content):
         dst.close()
 
 def processFile(inputfile, recipelist, sitemap):
+    try:
+        validRecipe = schema.is_valid(recipedir + filename)
+    except:
+        print("\n*********1")
+        print("ERROR: " + filename + " is not a valid recipe.  Skipping\n")
+        # exit(1)
+        return
+
     if schema.is_valid(recipedir + filename):
         with open(recipelist, "a") as dst:
             with open(sitemap, "a") as sm:
@@ -101,9 +109,10 @@ def processFile(inputfile, recipelist, sitemap):
                     sm.close()
                     src.close()
     else:
-        print(filename + " is not a valid recipe")
-        print('aborting!')
-        exit(1)
+        print("\n*********2")
+        print("ERROR: " + filename + " is not a valid recipe.  Skipping\n")
+        # exit(1)
+        return
 
         
 
