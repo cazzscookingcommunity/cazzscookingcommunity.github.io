@@ -61,11 +61,17 @@ table.ingredients, td {
     padding:0 10px;
 }
 
+/* Intructions */
+.mealInstructions ul {
+    list-style-type: none;
+    margin-bottom: 0px;
+}
+
 /* Meal */
 .mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
 /* .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
 .mealImg img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
-#randomMealActions img.cardAction {width:10%; display:inline}
+#randomMealActions img.cardAction {width:10%; display:inline; margin-left:10px;}
 #randomMealActions img.cardAction:hover {background-color: #689f38}
 
 
