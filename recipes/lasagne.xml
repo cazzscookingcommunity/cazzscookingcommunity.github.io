@@ -10,6 +10,10 @@
 <filename>lasagne.xml</filename>
 <thumbnail>../images/lasagna.jpeg</thumbnail>
 <category>Beef</category>
+<yield>6</yield>
+<prepTime>40 minutes</prepTime>
+<cookTime>60 minutes</cookTime>
+
 <part><title>Base</title>
 <ingredient>1 packet oven ready lasagna</ingredient>
 <ingredient>Grated cheese</ingredient>
@@ -41,4 +45,3 @@
 <step>Melt butter on low heat in a small sauce pan and add flour. Stir to remove any lumps, add a small amount of milk and stir in until it thickens, constantly stirring. Keep adding milk in the same fashion in small amounts at a time until all the milk is used up. Some times you have to add a bit more milk. Add the Salt and Pepper to taste and grate the nutmeg in and stir. Use immediately!</step>
 </part>
 </recipe>
-

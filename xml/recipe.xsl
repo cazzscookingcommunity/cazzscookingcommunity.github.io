@@ -23,12 +23,20 @@
                         <img src="{ns:thumbnail}" alt="Recipe Image"/>
                     </div>
                     <div class="eight columns mealMetadata" id="randomMealMetadata">
-                        <span>Name:</span>
-                        <xsl:value-of select="ns:title"/>
-                        <br/>
                         <span>Category:</span>
                         <xsl:value-of select="ns:category"/>
-                        <br/><br/>
+                        <br/>
+                        <span>Serves:</span>
+                        <xsl:value-of select="ns:yield"/>
+                        <br/>
+                        <span>Prep Time:</span>
+                        <xsl:value-of select="ns:prepTime"/>
+                        <br/>
+                        <span>Cook Time:</span>
+                        <xsl:value-of select="ns:cookTime"/>
+                        <br/>
+                        
+                        <br/>
                         <span>Ingredients:</span>
                         <ul>
                             <xsl:for-each select="ns:ingredient">
