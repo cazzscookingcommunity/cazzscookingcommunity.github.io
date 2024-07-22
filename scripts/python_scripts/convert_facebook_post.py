@@ -22,9 +22,9 @@ filepath = './fb_recipes/'
 xmlheader = '''<?xml version="1.0" encoding="UTF-8"?>
 
 <recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipe.xsd"> 
+    xmlns="https://cazzscookingcommunity.github.io" 
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd"> 
                                                                                 
 '''
 

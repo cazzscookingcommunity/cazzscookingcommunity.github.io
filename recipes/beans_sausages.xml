@@ -1,24 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Beans and Sausages</title>
-  <filename>beans_sausages.xml</filename>
-  <comment>Great camping dish</comment>
-  <thumbnail>../images/beans_sausages.jpeg</thumbnail>
-  <category>Pork</category>
-  <ingredient>6 sausages</ingredient>
-  <ingredient>1 cans chopped tomatoes </ingredient>
-  <ingredient>3-4 cloves garlic crushed</ingredient>
-  <ingredient>2 TBsp BBQ sauce</ingredient>
-  <ingredient>1 TBsp brown sugar</ingredient>
-  <ingredient>2 stock cubes </ingredient>
-  <ingredient>Olive oil</ingredient>
-  <ingredient>1 bunch parsley chopped</ingredient>
-  <ingredient>1 cans beans rinsed and drained unless using baked beans then use the entire contents</ingredient>
-  <step>Heat oil in fry pan and cook sausages until brown all over.</step>
-  <step>Add garlic and cook for a few more minutes.</step>
-  <step>Add all other ingredients, except the parsley.</step>
-  <step>Cook for 20 minutes or until heated through and sauce thicken slightly.</step>
-  <step>Stir through parsley and serve with a few leaves sprinkled on top.</step>
-  <step>Serve with crusty bread, mash or rice, if desired.</step>
-  <step>Recipe can be double.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Beans and Sausages</title>
+<filename>beans_sausages.xml</filename>
+<comment>Great camping dish</comment>
+<thumbnail>../images/beans_sausages.jpeg</thumbnail>
+<category>Pork</category>
+<ingredient>6 sausages</ingredient>
+<ingredient>1 cans chopped tomatoes </ingredient>
+<ingredient>3-4 cloves garlic crushed</ingredient>
+<ingredient>2 TBsp BBQ sauce</ingredient>
+<ingredient>1 TBsp brown sugar</ingredient>
+<ingredient>2 stock cubes </ingredient>
+<ingredient>Olive oil</ingredient>
+<ingredient>1 bunch parsley chopped</ingredient>
+<ingredient>1 cans beans rinsed and drained unless using baked beans then use the entire contents</ingredient>
+<step>Heat oil in fry pan and cook sausages until brown all over. Add garlic and cook for a few more minutes.  Add all other ingredients, except the parsley. Cook for 20 minutes or until heated through and sauce thicken slightly. Stir through parsley and serve with a few leaves sprinkled on top. Serve with crusty bread, mash or rice, if desired.
+
+Recipe can be double.
+    </step>
 </recipe>
+

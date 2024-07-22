@@ -1,14 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Turmeric Latte</title>
-  <filename>turmeric_latte.xml</filename>
-  <thumbnail>../images/turmeric_latte.jpeg</thumbnail>
-  <category>Drink</category>
-  <ingredient>1 teaspoon turmeric </ingredient>
-  <ingredient>1/2 teaspoon cinnamon </ingredient>
-  <ingredient>1 TBsp boiling water</ingredient>
-  <ingredient>1/2 cup milk of choice frothed</ingredient>
-  <ingredient>1 teaspoon sweetener of choice (if desired) </ingredient>
-  <step>In a cup add turmeric, cinnamon, sweetener (if using) and boiling water, stir well.</step>
-  <step>Once all lumps removed add milk and enjoy!.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Turmeric Latte</title>
+<filename>turmeric_latte.xml</filename>
+<thumbnail>../images/turmeric_latte.jpeg</thumbnail>
+<category>Drink</category>
+<ingredient>1 teaspoon turmeric </ingredient>
+<ingredient>1/2 teaspoon cinnamon </ingredient>
+<ingredient>1 TBsp boiling water</ingredient>
+<ingredient>1/2 cup milk of choice frothed</ingredient>
+<ingredient>1 teaspoon sweetener of choice (if desired) </ingredient>
+<step>
+In a cup add turmeric, cinnamon, sweetener (if using) and boiling water, stir well. Once all lumps removed add milk and enjoy!
+    </step>
 </recipe>
+

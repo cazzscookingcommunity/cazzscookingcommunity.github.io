@@ -1,24 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Simple Friedrice</title>
-  <filename>simple_friedrice.xml</filename>
-  <comment/>
-  <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <ingredient>4-6 cups cooked rice</ingredient>
-  <ingredient>300-400gms diced bacon</ingredient>
-  <ingredient>3 corn cobs corn removed </ingredient>
-  <ingredient>3 spring onions chopped </ingredient>
-  <ingredient>2-3 tbsp sesame oil</ingredient>
-  <ingredient>Soy sauce to taste</ingredient>
-  <ingredient>Salt and Pepper to taste (white pepper)</ingredient>
-  <step>Heat oil in large fry pan and add diced bacon.</step>
-  <step>Cook until bacon starting to brown, then add corn.</step>
-  <step>Stir corn until all coat and mixed with bacon and cook a few more minutes.</step>
-  <step>Add rice and cook until heated through, add soy sauce and spring onions and stir until mixed in.</step>
-  <step>Easy and yummy! Make gluten free by using gluten free soy sauce.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Simple Friedrice</title>
+    <filename>simple_friedrice.xml</filename>
+
+    <comment></comment>
+    <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+
+    <ingredient>4-6 cups cooked rice</ingredient>
+    <ingredient>300-400gms diced bacon</ingredient>
+    <ingredient>3 corn cobs corn removed </ingredient>
+    <ingredient>3 spring onions chopped </ingredient>
+    <ingredient>2-3 tbsp sesame oil</ingredient>
+    <ingredient>Soy sauce to taste</ingredient>
+    <ingredient>Salt and Pepper to taste (white pepper)</ingredient>
+
+    <step>
+Heat oil in large fry pan and add diced bacon. Cook until bacon starting to brown, then add corn. Stir corn until all coat and mixed with bacon and cook a few more minutes. Add rice and cook until heated through, add soy sauce and spring onions and stir until mixed in.  Easy and yummy! Make gluten free by using gluten free soy sauce.
+    </step>
 </recipe>

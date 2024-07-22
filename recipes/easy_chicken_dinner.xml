@@ -1,21 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Easy chicken dinner</title>
-  <filename>easy_chicken_dinner.xml</filename>
-  <comment/>
-  <thumbnail>../images/easy_chicken_dinner.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <ingredient>6-10 chicken thigh fillets</ingredient>
-  <ingredient>1/4 cup soy sauce</ingredient>
-  <ingredient>2-4 garlic cloves crushed</ingredient>
-  <ingredient>1-2 TBsp fresh lemon juice</ingredient>
-  <step>In a flat dish place all ingredients and be sure to coat all of chicken.</step>
-  <step>Marinate for 20 minutes and turn filets over at least once while marinating.</step>
-  <step>Cook on a hot BBQ for about 5-7 minutes each side or until cooked through.</step>
-  <step>Rest for 10 minutes before slicing each filet into 5-6 pieces.</step>
-  <step>Serve with your choice of salad and/or rice dish.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Easy chicken dinner</title>
+    <filename>easy_chicken_dinner.xml</filename>
+
+    <comment></comment>
+    <thumbnail>../images/easy_chicken_dinner.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+
+    <ingredient>6-10 chicken thigh fillets</ingredient>
+    <ingredient>1/4 cup soy sauce</ingredient>
+    <ingredient>2-4 garlic cloves crushed</ingredient>
+    <ingredient>1-2 TBsp fresh lemon juice</ingredient>
+
+    <step>
+In a flat dish place all ingredients and be sure to coat all of chicken. Marinate for 20 minutes and turn filets over at least once while marinating.  Cook on a hot BBQ for about 5-7 minutes each side or until cooked through. Rest for 10 minutes before slicing each filet into 5-6 pieces. Serve with your choice of salad and/or rice dish.
+    </step>
 </recipe>

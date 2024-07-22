@@ -1,18 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Traditional Shortbread</title>
-  <filename>traditional_shortbread.xml</filename>
-  <thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
-  <category>Sweets</category>
-  <ingredient>250 gms butter melted</ingredient>
-  <ingredient>2 cups plain flour sifted</ingredient>
-  <ingredient>2 TBsp rice flour </ingredient>
-  <ingredient>1/3 cup icing or castor sugar sifted</ingredient>
-  <step>Preheat oven to 160C and grease a baking tray with butter, then set aside.</step>
-  <step>Mix all ingredients in a bowl until combined.</step>
-  <step>Make a ball with the ingredients, with your hands and move to baking tray.</step>
-  <step>Squash down with your hands until it is about 5mm thick and smooth any cracks.</step>
-  <step>Prick entire surface with fork and bake in oven until just golden.</step>
-  <step>Remove from oven and slice with a knife into small rectangles while still hot.</step>
-  <step>Serve when cold.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Traditional Shortbread</title>
+<filename>traditional_shortbread.xml</filename>
+<thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>250 gms butter melted</ingredient>
+<ingredient>2 cups plain flour sifted</ingredient>
+<ingredient>2 TBsp rice flour </ingredient>
+<ingredient>1/3 cup icing or castor sugar sifted</ingredient>
+<step>
+Preheat oven to 160C and grease a baking tray with butter, then set aside. Mix all ingredients in a bowl until combined. Make a ball with the ingredients, with your hands and move to baking tray. Squash down with your hands until it is about 5mm thick and smooth any cracks. Prick entire surface with fork and bake in oven until just golden. Remove from oven and slice with a knife into small rectangles while still hot. Serve when cold.
+    </step>
 </recipe>
+

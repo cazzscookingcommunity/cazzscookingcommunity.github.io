@@ -1,23 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Frittata</title>
-  <filename>frittata.xml</filename>
-  <thumbnail>../images/frittata.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <ingredient>10 eggs</ingredient>
-  <ingredient>4 potatoes</ingredient>
-  <ingredient>2 cups shredded baby spinach </ingredient>
-  <ingredient>1 punnet tiny tomatoes halved</ingredient>
-  <ingredient>2 psring onions chopped</ingredient>
-  <ingredient>4 rashes bacon chopped (optional)</ingredient>
-  <ingredient>salt and pepper</ingredient>
-  <step>Grease a rectangular dish and pre heat oven to 180C.</step>
-  <step>Peel and chop spuds into small pieces.</step>
-  <step>Cook in microwave for 6-8 mins in salted water.</step>
-  <step>Drain well then place in dish, and place spinach on top.</step>
-  <step>Cook bacon and sprinkle over spud  and spinach.</step>
-  <step>Beat eggs in large bowl and season with salt and pepper, pour over ingredients then sprinkle over tomatoes and spring onions.</step>
-  <step>Cook for 30-40 mins or until centre is cooked.</step>
-  <step>Serve hot or cold with salad on the side.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Frittata</title>
+<filename>frittata.xml</filename>
+<thumbnail>../images/frittata.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<ingredient>10 eggs</ingredient>
+<ingredient>4 potatoes</ingredient>
+<ingredient>2 cups shredded baby spinach </ingredient>
+<ingredient>1 punnet tiny tomatoes halved</ingredient>
+<ingredient>2 psring onions chopped</ingredient>
+<ingredient>4 rashes bacon chopped (optional)</ingredient>
+<ingredient>salt and pepper</ingredient>
+<step>
+Grease a rectangular dish and pre heat oven to 180C. Peel and chop spuds into small pieces. Cook in microwave for 6-8 mins in salted water. Drain well then place in dish, and place spinach on top. Cook bacon and sprinkle over spud  and spinach. Beat eggs in large bowl and season with salt and pepper, pour over ingredients then sprinkle over tomatoes and spring onions.  Cook for 30-40 mins or until centre is cooked. Serve hot or cold with salad on the side.
+    </step>
 </recipe>
+

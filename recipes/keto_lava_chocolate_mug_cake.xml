@@ -1,23 +1,27 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Keto Lava Chocolate Mug Cake</title>
-  <filename>keto_lava_chocolate_mug_cake.xml</filename>
-  <comment>c/o The Diet Chef with cazzie tweaks </comment>
-  <thumbnail>../images/keto_lava_chocolate_mug_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Keto</diet>
-  <ingredient>1 TBsp butter</ingredient>
-  <ingredient>1 teaspoon vanilla essence </ingredient>
-  <ingredient>1 egg</ingredient>
-  <ingredient>1/4 cup hazelnut or almond meal</ingredient>
-  <ingredient>1 TBsp cocoa </ingredient>
-  <ingredient>2 TBsp Monkfruit or coconut or stevia sugar</ingredient>
-  <ingredient>1/2 teaspoon baking soda</ingredient>
-  <ingredient>1 square lint dark chocolate chopped </ingredient>
-  <step>In a ramekin or large mug, melt the butter in a microwave, let cool while you get other ingredients out.</step>
-  <step>Mix the egg and vanilla essence in the mug/ramekin with the cooled butter until combined.</step>
-  <step>Add all other dry ingredients (except the chopped chocolate) and stir to combine.</step>
-  <step>Cook in the microwave for 20 seconds, then pour the chopped chocolate in the centre and gently push down with your fingers.</step>
-  <step>Place back in the microwave and cook for a further 30-40 seconds or until firm on top.</step>
-  <step>Serve with a sprinkle of extra cocoa and coconut yogurt or whipped cream.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Keto Lava Chocolate Mug Cake</title>
+<filename>keto_lava_chocolate_mug_cake.xml</filename>
+<comment>c/o The Diet Chef with cazzie tweaks </comment>
+<thumbnail>../images/keto_lava_chocolate_mug_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Keto</diet>
+<ingredient>1 TBsp butter</ingredient>
+<ingredient>1 teaspoon vanilla essence </ingredient>
+<ingredient>1 egg</ingredient>
+<ingredient>1/4 cup hazelnut or almond meal</ingredient>
+<ingredient>1 TBsp cocoa </ingredient>
+<ingredient>2 TBsp Monkfruit or coconut or stevia sugar</ingredient>
+<ingredient>1/2 teaspoon baking soda</ingredient>
+<ingredient>1 square lint dark chocolate chopped </ingredient>
+<step>
+In a ramekin or large mug, melt the butter in a microwave, let cool while you get other ingredients out. Mix the egg and vanilla essence in the mug/ramekin with the cooled butter until combined. Add all other dry ingredients (except the chopped chocolate) and stir to combine.  Cook in the microwave for 20 seconds, then pour the chopped chocolate in the centre and gently push down with your fingers. Place back in the microwave and cook for a further 30-40 seconds or until firm on top. Serve with a sprinkle of extra cocoa and coconut yogurt or whipped cream.
+    </step>
 </recipe>
+

@@ -1,33 +1,42 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Healthy Sausage Rolls</title>
-  <filename>healthy_sausage_rolls.xml</filename>
-  <comment>(c/o Pampas)</comment>
-  <thumbnail>../images/healthy_sausage_rolls.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <ingredient>3-4 sheets puff pastry defrosted</ingredient>
-  <ingredient>1 TBsp olive oil</ingredient>
-  <ingredient>1 medium fennel diced (core removed)</ingredient>
-  <ingredient>2 cloves crushed garlic </ingredient>
-  <ingredient>500gms pork mince</ingredient>
-  <ingredient>1 lemon rind</ingredient>
-  <ingredient>4 sprigs parsley chopped </ingredient>
-  <ingredient>3 teasp fennel seeds</ingredient>
-  <ingredient>2 teasp sesame seeds</ingredient>
-  <ingredient>Dead Horse to serve</ingredient>
-  <step>Heat oven to 220C and line two baking trays with baking paper.</step>
-  <step>Heat oil in pan and cook fennel and garlic for 8 minutes or until softened.</step>
-  <step>Set aside to cool.</step>
-  <step>In a large bowl mix cooled fennel,  one egg, mince, lemon rind, one teaspoon fennel seeds and parsley.</step>
-  <step>Cut each puff pastry sheet in half and place one long amount of pork mixture along the long  edge and roll to enclose.</step>
-  <step>Place on baking tray with edge on the underside.</step>
-  <step>Continue using up pork mixture in this manner until it is all used up.</step>
-  <step>Beat the remaining egg and paint all pastry with it.</step>
-  <step>Sprinkle the tops with remaining sesame and fennel seeds.</step>
-  <step>Bake in oven for approximately 25mins or until golden.</step>
-  <step>Once done cut into bite size pieces and serve with sauce and/or chutney.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Healthy Sausage Rolls</title>
+    <filename>healthy_sausage_rolls.xml</filename>
+
+    <comment>(c/o Pampas)</comment>
+    <thumbnail>../images/healthy_sausage_rolls.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+
+
+    <ingredient>3-4 sheets puff pastry defrosted</ingredient>
+    <ingredient>1 TBsp olive oil</ingredient>
+    <ingredient>1 medium fennel diced (core removed)</ingredient>
+    <ingredient>2 cloves crushed garlic </ingredient>
+    <ingredient>500gms pork mince</ingredient>
+    <ingredient>1 lemon rind</ingredient>
+    <ingredient>4 sprigs parsley chopped </ingredient>
+    <ingredient>3 teasp fennel seeds</ingredient>
+    <ingredient>2 teasp sesame seeds</ingredient>
+    <ingredient>Dead Horse to serve</ingredient>
+
+    <step>Heat oven to 220C and line two baking trays with baking paper. Heat oil in pan and cook fennel and garlic for 8 minutes or until softened. Set aside to cool.</step>
+
+    <step>In a large bowl mix cooled fennel,  one egg, mince, lemon rind, one teaspoon fennel seeds and parsley.
+        Cut each puff pastry sheet in half and place one long amount of pork mixture along the long  edge and roll to enclose. Place on baking tray with edge on the underside. Continue using up pork mixture in this manner until it is all used up.
+        Beat the remaining egg and paint all pastry with it. Sprinkle the tops with remaining sesame and fennel seeds. Bake in oven for approximately 25mins or until golden.
+        Once done cut into bite size pieces and serve with sauce and/or chutney
+    </step>
 </recipe>

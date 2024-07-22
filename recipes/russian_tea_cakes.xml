@@ -1,23 +1,24 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Russian Tea Cakes</title>
-  <filename>russian_tea_cakes.xml</filename>
-  <thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
-  <category>Sweets</category>
-  <ingredient>225 gms butter melted</ingredient>
-  <ingredient>2 1/4 cups plain flour</ingredient>
-  <ingredient>1/4 cup caster sugar</ingredient>
-  <ingredient>1/2 cup chopped nuts</ingredient>
-  <ingredient>1 teaspoon vanilla essence </ingredient>
-  <ingredient>Pinch of salt</ingredient>
-  <ingredient>Extra icing sugar</ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>Line two trays with baking paper and set aside.</step>
-  <step>In a bowl add all ingredients and stir to combine.</step>
-  <step>Roll heap table spoon size balls and spread out evenly on tray.</step>
-  <step>Press the centre of each ball with your thumb, to flatten slightly.</step>
-  <step>Bake for 15-20min or until slightly brown.</step>
-  <step>Remove from oven and cool on baking rack until completely cold.</step>
-  <step>Roll in extra icing sugar and serve.</step>
-  <step>Store in airtight container.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Russian Tea Cakes</title>
+<filename>russian_tea_cakes.xml</filename>
+<thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>225 gms butter melted</ingredient>
+<ingredient>2 1/4 cups plain flour</ingredient>
+<ingredient>1/4 cup caster sugar</ingredient>
+<ingredient>1/2 cup chopped nuts</ingredient>
+<ingredient>1 teaspoon vanilla essence </ingredient>
+<ingredient>Pinch of salt</ingredient>
+<ingredient>Extra icing sugar</ingredient>
+<step>
+Preheat oven to 180C. Line two trays with baking paper and set aside. In a bowl add all ingredients and stir to combine. Roll heap table spoon size balls and spread out evenly on tray. Press the centre of each ball with your thumb, to flatten slightly. Bake for 15-20min or until slightly brown. Remove from oven and cool on baking rack until completely cold. Roll in extra icing sugar and serve. Store in airtight container.
+    </step>
 </recipe>
+

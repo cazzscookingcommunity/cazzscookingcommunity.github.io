@@ -1,24 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Oatmeal Banana Bread</title>
-  <filename>oatmeal_banana_bread.xml</filename>
-  <comment>c/o How to Cook Smarter with cazzie tweaks</comment>
-  <thumbnail>../images/oatmeal_banana_bread.jpeg</thumbnail>
-  <category>Sweets</category>
-  <ingredient>2 eggs beaten </ingredient>
-  <ingredient>1/2 cup Greek yogurt</ingredient>
-  <ingredient>1/2 cup honey</ingredient>
-  <ingredient>1/2 cup melted butter </ingredient>
-  <ingredient>2 cups mash bananas</ingredient>
-  <ingredient>1 1/2 cup oat flour*</ingredient>
-  <ingredient>1 cup oats</ingredient>
-  <ingredient>8 dates chopped and blended</ingredient>
-  <ingredient>1 teaspoon vanilla extract </ingredient>
-  <ingredient>1/2 teaspoon baking powder, baking soda and cinnamon </ingredient>
-  <step>Heat oven to 170C.</step>
-  <step>Grease and line a baking  dish, set aside.</step>
-  <step>Mix wet with ingredients and dry ingredients in seperate bowl.</step>
-  <step>Add wet ingredients to dry and stir well.</step>
-  <step>Pour milk bro prepared tray and cook for 30-40 minutes or until golden brown.</step>
-  <step>* make oat flour by placing oats in a blender and blend on high for 1-2 minutes.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Oatmeal Banana Bread</title>
+<filename>oatmeal_banana_bread.xml</filename>
+<comment>c/o How to Cook Smarter with cazzie tweaks</comment>
+<thumbnail>../images/oatmeal_banana_bread.jpeg</thumbnail>
+<category>Sweets</category>
+<ingredient>2 eggs beaten </ingredient>
+<ingredient>1/2 cup Greek yogurt</ingredient>
+<ingredient>1/2 cup honey</ingredient>
+<ingredient>1/2 cup melted butter </ingredient>
+<ingredient>2 cups mash bananas</ingredient>
+<ingredient>1 1/2 cup oat flour*</ingredient>
+<ingredient>1 cup oats</ingredient>
+<ingredient>8 dates chopped and blended</ingredient>
+<ingredient>1 teaspoon vanilla extract </ingredient>
+<ingredient>1/2 teaspoon baking powder, baking soda and cinnamon </ingredient>
+<step>
+Heat oven to 170C. Grease and line a baking  dish, set aside. Mix wet with ingredients and dry ingredients in seperate bowl. Add wet ingredients to dry and stir well. Pour milk bro prepared tray and cook for 30-40 minutes or until golden brown. 
+* make oat flour by placing oats in a blender and blend on high for 1-2 minutes.
+    </step>
 </recipe>
+

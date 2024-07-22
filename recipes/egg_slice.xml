@@ -1,19 +1,25 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Egg Slice</title>
-  <filename>egg_slice.xml</filename>
-  <thumbnail>../images/egg_slice.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <ingredient>12-16 eggs beaten</ingredient>
-  <ingredient>1-2 cup spring onions </ingredient>
-  <ingredient>1/2 frozen spinach defrosted</ingredient>
-  <ingredient>1/2 cup chopped cooked pumpkin</ingredient>
-  <ingredient>1/2 teaspoon salt and pepper</ingredient>
-  <ingredient>1/2 cup grated Parmesan </ingredient>
-  <ingredient>Spray oil </ingredient>
-  <step>In rectangular dish spray all sides with oil.</step>
-  <step>Pour eggs in dish and then sprinkle all vegetables evenly over dish and poke then under egg.</step>
-  <step>Sprinkle Parmesan over the top.</step>
-  <step>Cook in preheated oven for 30-40 minutes.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Egg Slice</title>
+<filename>egg_slice.xml</filename>
+<thumbnail>../images/egg_slice.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<ingredient>12-16 eggs beaten</ingredient>
+<ingredient>1-2 cup spring onions </ingredient>
+<ingredient>1/2 frozen spinach defrosted</ingredient>
+<ingredient>1/2 cup chopped cooked pumpkin</ingredient>
+<ingredient>1/2 teaspoon salt and pepper</ingredient>
+<ingredient>1/2 cup grated Parmesan </ingredient>
+<ingredient>Spray oil </ingredient>
+<step>
+In rectangular dish spray all sides with oil. Pour eggs in dish and then sprinkle all vegetables evenly over dish and poke then under egg. Sprinkle Parmesan over the top. Cook in preheated oven for 30-40 minutes.
+    </step>
 </recipe>
+

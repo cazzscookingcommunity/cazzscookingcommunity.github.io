@@ -1,32 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>My Mums Curry Sausages</title>
-  <filename>grandmas_curry_sausages.xml</filename>
-  <comment>An oldie but a goodie for cold winter nights!</comment>
-  <thumbnail>../images/grandmas_curry_sausages.jpeg</thumbnail>
-  <category>Pork</category>
-  <ingredient>6-8 good quality pork sausages</ingredient>
-  <ingredient>4-6 spuds chopped </ingredient>
-  <ingredient>2 carrots diced</ingredient>
-  <ingredient>1 onion diced (replace with garlic if desired)</ingredient>
-  <ingredient>1 Granny Smith Apple peeled, cored and chopped</ingredient>
-  <ingredient>1/3 cup chutney</ingredient>
-  <ingredient>1 TBsp curry powder</ingredient>
-  <ingredient>2 TBsp cornflour mixed with a little water to make a paste</ingredient>
-  <ingredient>2-3 TBsp Oil</ingredient>
-  <ingredient>salt and pepper to taste</ingredient>
-  <ingredient>Water</ingredient>
-  <ingredient>Rice to serve</ingredient>
-  <step>In a large pot boil sausages until they float to the top (watch carefully.</step>
-  <step>).</step>
-  <step>As soon as they float remove immediately and cut into large slices.</step>
-  <step>Discard the water and clean pan.</step>
-  <step>Return pan to stove top and heat oil, before adding onion (or garlic if substituting) can ok until translucent.</step>
-  <step>Then add curry powder and cook for about 5 minutes.</step>
-  <step>Add carrots, spuds, sausages, chutney, apple and sultanas.</step>
-  <step>Add enough water to cover it all.</step>
-  <step>Cook on stove top until veggies cooked (about 30-40 mins), add corn flour mixture, salt and pepper to taste and stir well.</step>
-  <step>Keep on low heat until sauce thickens ( about 15 minutes.</step>
-  <step>)
-Once desired thickness reached, serve in a bowl with rice.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>My Mums Curry Sausages</title>
+<filename>grandmas_curry_sausages.xml</filename>
+<comment>An oldie but a goodie for cold winter nights!</comment>
+<thumbnail>../images/grandmas_curry_sausages.jpeg</thumbnail>
+<category>Pork</category>
+<ingredient>6-8 good quality pork sausages</ingredient>
+<ingredient>4-6 spuds chopped </ingredient>
+<ingredient>2 carrots diced</ingredient>
+<ingredient>1 onion diced (replace with garlic if desired)</ingredient>
+<ingredient>1 Granny Smith Apple peeled, cored and chopped</ingredient>
+<ingredient>1/3 cup chutney</ingredient>
+<ingredient>1 TBsp curry powder</ingredient>
+<ingredient>2 TBsp cornflour mixed with a little water to make a paste</ingredient>
+<ingredient>2-3 TBsp Oil</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>Water</ingredient>
+<ingredient>Rice to serve</ingredient>
+<step>
+In a large pot boil sausages until they float to the top (watch carefully.). As soon as they float remove immediately and cut into large slices. Discard the water and clean pan. Return pan to stove top and heat oil, before adding onion (or garlic if substituting) can ok until translucent. Then add curry powder and cook for about 5 minutes. Add carrots, spuds, sausages, chutney, apple and sultanas. Add enough water to cover it all. Cook on stove top until veggies cooked (about 30-40 mins), add corn flour mixture, salt and pepper to taste and stir well. Keep on low heat until sauce thickens ( about 15 minutes.)
+Once desired thickness reached, serve in a bowl with rice.
+    </step>
 </recipe>
+

@@ -1,33 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Chicken Soup with Rice</title>
-  <filename>chicken_soup_with_rice.xml</filename>
-  <comment/>
-  <thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <ingredient>3 TBsp olive oil</ingredient>
-  <ingredient>2Lt chicken stock</ingredient>
-  <ingredient>1 store bought chicken meat shredded </ingredient>
-  <ingredient>4 -6 cloves garlic crushed </ingredient>
-  <ingredient>1 bulb fennel sliced</ingredient>
-  <ingredient>2 large carrots chopped </ingredient>
-  <ingredient>2 sticks celery chopped</ingredient>
-  <ingredient>2 zucchini chopped</ingredient>
-  <ingredient>2 corn cobs corn removed </ingredient>
-  <ingredient>4 sprigs thyme leaves removed</ingredient>
-  <ingredient>1 bunch parsley chopped </ingredient>
-  <ingredient>2 bay leaves</ingredient>
-  <ingredient>1 cup arborio rice</ingredient>
-  <ingredient>salt and pepper to taste </ingredient>
-  <step>Heat oil in large pot and cook garlic on low for 5 minutes.</step>
-  <step>Add fennel , celery and carrot and cook for a few more minutes.</step>
-  <step>Then add bay leaves, thyme, zucchini and corn, cook for 1 minute more.</step>
-  <step>Add broth* chicken and salt and pepper bring to the boil then simmer for 20- 30 minutes.</step>
-  <step>Just before serving add parsley and stir well.</step>
-  <step>Serve with a sprinkle of Parmesan sprinkled on top and crusty bread if desired.</step>
-  <step>*add additional water if necessary to ensure all meat and veggies are covered.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Chicken Soup with Rice</title>
+    <filename>chicken_soup_with_rice.xml</filename>
+
+    <comment></comment>
+    <thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+
+    <ingredient>3 TBsp olive oil</ingredient>
+    <ingredient>2Lt chicken stock</ingredient>
+    <ingredient>1 store bought chicken meat shredded </ingredient>
+    <ingredient>4 -6 cloves garlic crushed </ingredient>
+    <ingredient>1 bulb fennel sliced</ingredient>
+    <ingredient>2 large carrots chopped </ingredient>
+    <ingredient>2 sticks celery chopped</ingredient>
+    <ingredient>2 zucchini chopped</ingredient>
+    <ingredient>2 corn cobs corn removed </ingredient>
+    <ingredient>4 sprigs thyme leaves removed</ingredient>
+    <ingredient>1 bunch parsley chopped </ingredient>
+    <ingredient>2 bay leaves</ingredient>
+    <ingredient>1 cup arborio rice</ingredient>
+    <ingredient>salt and pepper to taste </ingredient>
+
+    <step>
+Heat oil in large pot and cook garlic on low for 5 minutes. Add fennel , celery and carrot and cook for a few more minutes. Then add bay leaves, thyme, zucchini and corn, cook for 1 minute more. Add broth* chicken and salt and pepper bring to the boil then simmer for 20- 30 minutes. Just before serving add parsley and stir well. Serve with a sprinkle of Parmesan sprinkled on top and crusty bread if desired. 
+</step>
+
+<step>*add additional water if necessary to ensure all meat and veggies are covered</step>
+
 </recipe>

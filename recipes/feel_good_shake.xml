@@ -1,20 +1,26 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Feel Good Shake</title>
-  <filename>feel_good_shake.xml</filename>
-  <thumbnail>../images/feel_good_shake.jpeg</thumbnail>
-  <category>Drink</category>
-  <diet>Vegan</diet>
-  <ingredient>1/2 cup soy milk</ingredient>
-  <ingredient>1 or 1/2 banana (depends on size)</ingredient>
-  <ingredient>1 handful frozen blue berries </ingredient>
-  <ingredient>1 handful frozen strawberries </ingredient>
-  <ingredient>1 TBsp ground linseeds</ingredient>
-  <ingredient>1 TBsp chia seeds</ingredient>
-  <ingredient>1 TBsp flaxseed oil (organic)</ingredient>
-  <ingredient>1 TBsp whey powder (omit if vegan)</ingredient>
-  <ingredient>1 handful baby spinach* (optional)</ingredient>
-  <step>Blend all together and have late afternoon munchie time.</step>
-  <step>It will hold you through to dinner.</step>
-  <step>If adding baby spinach it will turn the shake a grey colour, but it does not affect taste.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Feel Good Shake</title>
+<filename>feel_good_shake.xml</filename>
+<thumbnail>../images/feel_good_shake.jpeg</thumbnail>
+<category>Drink</category>
+<diet>Vegan</diet>
+<ingredient>1/2 cup soy milk</ingredient>
+<ingredient>1 or 1/2 banana (depends on size)</ingredient>
+<ingredient>1 handful frozen blue berries </ingredient>
+<ingredient>1 handful frozen strawberries </ingredient>
+<ingredient>1 TBsp ground linseeds</ingredient>
+<ingredient>1 TBsp chia seeds</ingredient>
+<ingredient>1 TBsp flaxseed oil (organic)</ingredient>
+<ingredient>1 TBsp whey powder (omit if vegan)</ingredient>
+<ingredient>1 handful baby spinach* (optional)</ingredient>
+<step>Blend all together and have late afternoon munchie time. It will hold you through to dinner </step>
+<step>If adding baby spinach it will turn the shake a grey colour, but it does not affect taste.</step>
 </recipe>
+

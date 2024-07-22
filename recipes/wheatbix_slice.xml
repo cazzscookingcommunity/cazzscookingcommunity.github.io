@@ -1,29 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>WheatBix slice</title>
-  <filename>wheatbix_slice.xml</filename>
-  <comment/>
-  <thumbnail>../images/wheatbix_slice.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <diet>GlutenFree</diet>
-  <part>
-    <title>Main</title>
-    <ingredient>10 gluten free week-bix crushed</ingredient>
-    <ingredient>1/4 cup cocoa sifted</ingredient>
-    <ingredient>3/4 cup brown sugar</ingredient>
-    <ingredient>200 gms butter</ingredient>
-    <ingredient>1/2 cup coconut</ingredient>
-    <ingredient>1 egg lightly beaten</ingredient>
-    <step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>WheatBix slice</title>
+    <filename>wheatbix_slice.xml</filename>
+
+    <comment></comment>
+    <thumbnail>../images/wheatbix_slice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+
+    <diet>GlutenFree</diet>
+
+    <part>
+        <title>Main</title>
+        <ingredient>10 gluten free week-bix crushed</ingredient>
+        <ingredient>1/4 cup cocoa sifted</ingredient>
+        <ingredient>3/4 cup brown sugar</ingredient>
+        <ingredient>200 gms butter</ingredient>
+        <ingredient>1/2 cup coconut</ingredient>
+        <ingredient>1 egg lightly beaten</ingredient>
+        <step>
             Grease lamington tin and line with grease proof paper and set aside. In a large bowl mix together wheat-bix and coconut. Melt butter in small pan. Once completely melted add brown sugar and sifted cocoa. Stir well to combine. Let cool slightly and stir in beaten egg. Pour into wheat-bix mix and stir well. Pour into prepared pan and smooth top with the back of a spoon. Cover and place in fridge until completely cool. Once cool melt chocolate and smooth over top (you can sprinkle coconut on top if desired.) Cool in fridge until chocolate set, then cut into slices. You can add halved macerated cherries in the mix, if desired. Also you can add regular wheat-bix in place of gluten free variety.</step>
-  </part>
-  <part>
-    <title>Topping</title>
-    <ingredient>200gms chocolate melted</ingredient>
-    <step/>
-  </part>
+    </part>
+
+    <part>
+        <title>Topping</title>
+        <ingredient>200gms chocolate melted</ingredient>
+        <step></step>
+    </part>
+
 </recipe>

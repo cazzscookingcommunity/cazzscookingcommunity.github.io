@@ -1,14 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Cazzies Smoothy</title>
-  <filename>cazzies_smoothy.xml</filename>
-  <thumbnail>../images/cazzie_smoothy.jpeg</thumbnail>
-  <category>Drink</category>
-  <ingredient>1 old banana</ingredient>
-  <ingredient>1/2 cup frozen strawberries </ingredient>
-  <ingredient>1/4 frozen raspberries </ingredient>
-  <ingredient>1/2 cup vanilla yogurt</ingredient>
-  <ingredient>1 cup milk (can substitute with rice, soy, almond ect)</ingredient>
-  <step>Place all ingredients in blender and blend until smooth! Serve in tall glass.</step>
-  <step>Can be doubled.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Cazzies Smoothy</title>
+<filename>cazzies_smoothy.xml</filename>
+<thumbnail>../images/cazzie_smoothy.jpeg</thumbnail>
+<category>Drink</category>
+<ingredient>1 old banana</ingredient>
+<ingredient>1/2 cup frozen strawberries </ingredient>
+<ingredient>1/4 frozen raspberries </ingredient>
+<ingredient>1/2 cup vanilla yogurt</ingredient>
+<ingredient>1 cup milk (can substitute with rice, soy, almond ect)</ingredient>
+<step>
+Place all ingredients in blender and blend until smooth! Serve in tall glass. Can be doubled.
+    </step>
 </recipe>
+

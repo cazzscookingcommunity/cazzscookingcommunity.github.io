@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Breakfast Rolls</title>
-  <filename>breakfast_rolls.xml</filename>
-  <comment>C/o Buzz feed</comment>
-  <thumbnail>../images/breakfast_rolls.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <ingredient>1/2 loaf of bread </ingredient>
-  <ingredient>4-6 eggs beaten</ingredient>
-  <ingredient>4 TBsp brown sugar</ingredient>
-  <ingredient>4 TBsp butter</ingredient>
-  <ingredient>Cinnamon </ingredient>
-  <ingredient>Banana </ingredient>
-  <ingredient>Cheese</ingredient>
-  <ingredient>Peanut butter</ingredient>
-  <ingredient>Ham or other deli meat</ingredient>
-  <step>Get all ingredients on bench with desired fillings.</step>
-  <step>Melt butter in microwave and add brown sugar and a couple of shakes of cinnamon, to make a paste.</step>
-  <step>Roll out one piece of bread with rolling pin.</step>
-  <step>On the end 1/4 of bread make a strip of desired filling then roll up bread.</step>
-  <step>Hold the two ends while you dip in beaten eggs and cook immediately in medium to hot fry pan until all sides are cooked.</step>
-  <step>Keep adding ingredient fillings until all bread is used up.</step>
-  <step>You can add almost anything you like! Cut up into slices or serve as a whole roll, serve immediately while hot.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Breakfast Rolls</title>
+    <filename>breakfast_rolls.xml</filename>
+
+    <comment>C/o Buzz feed</comment>
+    <thumbnail>../images/breakfast_rolls.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+
+    <ingredient>1/2 loaf of bread </ingredient>
+    <ingredient>4-6 eggs beaten</ingredient>
+    <ingredient>4 TBsp brown sugar</ingredient>
+    <ingredient>4 TBsp butter</ingredient>
+    <ingredient>Cinnamon </ingredient>
+    <ingredient>Banana </ingredient>
+    <ingredient>Cheese</ingredient>
+    <ingredient>Peanut butter</ingredient>
+    <ingredient>Ham or other deli meat</ingredient>
+
+    <step>Get all ingredients on bench with desired fillings. Melt butter in microwave and add brown sugar and a couple of shakes of cinnamon, to make a paste. Roll out one piece of bread with rolling pin. On the end 1/4 of bread make a strip of desired filling then roll up bread. Hold the two ends while you dip in beaten eggs and cook immediately in medium to hot fry pan until all sides are cooked. Keep adding ingredient fillings until all bread is used up. You can add almost anything you like! Cut up into slices or serve as a whole roll, serve immediately while hot.
+    </step>
 </recipe>

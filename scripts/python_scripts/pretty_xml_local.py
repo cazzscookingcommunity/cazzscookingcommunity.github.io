@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 
-""" reformats XML recipes to make pretty
+'''reformats XML recipes to make pretty
 
 crawls the recipe directory and reformats each recipe
-"""
+'''
 
 import os
 from lxml import etree
@@ -23,11 +23,9 @@ def remove_namespace(tree):
     return tree
 
 def format_recipe_tag(xml_string):
-    """Split the <recipe> opening tag's xmlns and xsi attributes onto separate lines."""
-    xml_string = xml_string.replace(
-        '<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">',
-        '<recipe\n    xmlns="https://cazzscookingcommunity.github.io"\n    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"\n    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">'
-    )
+    oldPart = 'xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">'
+    newPart = 'xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">'
+    xml_string = xml_string.replace( oldPart , newPart)
     return xml_string
 
 def pretty_print_xml(file_path):
@@ -36,16 +34,29 @@ def pretty_print_xml(file_path):
         # Parse the XML file
         parser = etree.XMLParser(remove_blank_text=True)
         tree = etree.parse(file_path, parser)
+        print(f"parsed file ----------")
+        print(tree)
         
         # Remove namespace prefixes
         tree = remove_namespace(tree)
-        
+        print("---------------")
+        print(f"removed namespace prefixes")
+        print(tree)
         # Format the recipe tag
         formatted_xml = format_recipe_tag(etree.tostring(tree, encoding='unicode'))
+        print("---------------")
+        print(f"formatted the recipe tag")
         
         # Re-parse to apply pretty printing
+        print(formatted_xml)
         tree = etree.fromstring(formatted_xml.encode('utf-8'))
+        print("\n")
+        print("--------------")
+        print("printing tree")      
+        print(tree)
         pretty_xml_str = prettify(tree)
+        print("--------------")
+        print(pretty_xml_str)
 
         return pretty_xml_str
     except Exception as e:
@@ -68,10 +79,26 @@ def format_xml_files_in_directory(directory_path):
                         f.write(pretty_xml)
                     print(f"Formatted: {file_path}")
 
+def format_test_file(file):
+    with open(file, 'r', encoding='utf-8') as f:
+        xml_string = f.read()
+        f.close()
+    
+    pretty_xml = pretty_print_xml(file)
+    
+    if pretty_xml:
+        with open(file, 'w', encoding='utf-8') as f:
+            f.write(pretty_xml)
+        print(f"Formatted: {file}")
+
+
 def main():
     # Example usage
-    directory_path = 'recipes/'
-    format_xml_files_in_directory(directory_path)
+    # directory_path = 'recipes/'
+    # format_xml_files_in_directory(directory_path)
+
+    test_file = 'recipes/gluten_free_orange_cake.xml'
+    format_test_file(test_file)
 
 if __name__ == "__main__":
     main()

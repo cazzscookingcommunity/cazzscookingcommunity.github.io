@@ -1,17 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Home made dishwasher powder </title>
-  <filename>home_made_dishwasher_powder.xml</filename>
-  <comment>Natural and Saves Money</comment>
-  <thumbnail>../images/homemade_dish_washer_powder.jpeg</thumbnail>
-  <category>Household</category>
-  <ingredient>4 cups washing soda</ingredient>
-  <ingredient>1 cup citric acid</ingredient>
-  <ingredient>1 cup salt</ingredient>
-  <step>Mix together and store in airtight container.</step>
-  <step>Use 1-2 TBSP per load.</step>
-  <step>You can made your own washing soda by spreading out desired quantity of Baking Soda and cook in oven for 1 hour.</step>
-  <step>Stir once half way.</step>
-  <step>You can tell if its ready because it will change colour slightly.</step>
-  <step>You can buy washing soda in the clothes washing isle of the supermarket, but it comes in a plastic bag.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Home made dishwasher powder </title>
+<filename>home_made_dishwasher_powder.xml</filename>
+<comment>Natural and Saves Money</comment>
+<thumbnail>../images/homemade_dish_washer_powder.jpeg</thumbnail>
+<category>Household</category>
+<ingredient>4 cups washing soda</ingredient>
+<ingredient>1 cup citric acid</ingredient>
+<ingredient>1 cup salt</ingredient>
+<step>Mix together and store in airtight container. Use 1-2 TBSP per load.</step>
+<step>You can made your own washing soda by spreading out desired quantity of Baking Soda and cook in oven for 1 hour. Stir once half way.</step>
+<step>You can tell if its ready because it will change colour slightly. You can buy washing soda in the clothes washing isle of the supermarket, but it comes in a plastic bag.</step>
 </recipe>
+

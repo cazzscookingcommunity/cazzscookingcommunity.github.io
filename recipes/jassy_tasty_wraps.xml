@@ -1,18 +1,20 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Jassy Tasty Wraps</title>
-  <filename>jassy_tasty_wraps.xml</filename>
-  <thumbnail>../images/jassys_tasty_wraps.jpeg</thumbnail>
-  <category>Lunch</category>
-  <ingredient>1 sheet puff pastry </ingredient>
-  <ingredient>Tasty cheese cut in 1 inch x 2 inch strips</ingredient>
-  <ingredient>Ham</ingredient>
-  <ingredient>Dijon mustard </ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>Cut puff pastry sheet into 6th on each piece spread mustard, then place a small amount of ham and top with cheese.</step>
-  <step>Being two corners together and squeeze so the corners stay together.</step>
-  <step>Brush with egg or milk.</step>
-  <step>Place on a tray lined with paper.</step>
-  <step>Pop in oven for 15 mins or until golden brown.</step>
-  <step>Serve hot- yum!.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Jassy Tasty Wraps</title>
+<filename>jassy_tasty_wraps.xml</filename>
+<thumbnail>../images/jassys_tasty_wraps.jpeg</thumbnail>
+<category>Lunch</category>
+<ingredient>1 sheet puff pastry </ingredient>
+<ingredient>Tasty cheese cut in 1 inch x 2 inch strips</ingredient>
+<ingredient>Ham</ingredient>
+<ingredient>Dijon mustard </ingredient>
+<step>Preheat oven to 180C. Cut puff pastry sheet into 6th on each piece spread mustard, then place a small amount of ham and top with cheese. Being two corners together and squeeze so the corners stay together. Brush with egg or milk. Place on a tray lined with paper. Pop in oven for 15 mins or until golden brown. Serve hot- yum!
+    </step>
 </recipe>
+

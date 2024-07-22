@@ -1,20 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Homemade Toothpaste and Deodorant</title>
-  <filename>homemade_toothpaste_and_deodorant.xml</filename>
-  <comment>Make your own toothpaste and deodorant</comment>
-  <thumbnail>../images/homemade_toothpaste_deoderant.jpeg</thumbnail>
-  <category>Household</category>
-  <ingredient>1/2 cup organic coconut oil </ingredient>
-  <ingredient>3 TBSP baking soda</ingredient>
-  <ingredient>10-15 drops peppermint essential oil</ingredient>
-  <step>Sick of all the packaging that is not recyclable and want to save money also?  You can also switch to bamboo toothbrushes to make zero waste bathroom routine (if you buy them in bulk it makes it cheaper.</step>
-  <step>).</step>
-  <step>Warm the coconut oil to melting point.</step>
-  <step>Remove from heat and add the other ingredients.</step>
-  <step>Stir well and decant to a clean jar.</step>
-  <step>Place lid on once cool.</step>
-  <step>Use 1/8 teaspoon on toothbrush and clean as you normally would.</step>
-  <step>For deodorant rub 1/4 teaspoon in the palm of your hand and rub on arm pits after your shower.</step>
-  <step>Do this before other activities after shower, so it has time to dry before getting dressed.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Homemade Toothpaste and Deodorant</title>
+<filename>homemade_toothpaste_and_deodorant.xml</filename>
+<comment>Make your own toothpaste and deodorant</comment>
+<thumbnail>../images/homemade_toothpaste_deoderant.jpeg</thumbnail>
+<category>Household</category>
+<ingredient>1/2 cup organic coconut oil </ingredient>
+<ingredient>3 TBSP baking soda</ingredient>
+<ingredient>10-15 drops peppermint essential oil</ingredient>
+<step>Sick of all the packaging that is not recyclable and want to save money also?  You can also switch to bamboo toothbrushes to make zero waste bathroom routine (if you buy them in bulk it makes it cheaper.)</step>
+<step>Warm the coconut oil to melting point. Remove from heat and add the other ingredients. Stir well and decant to a clean jar. Place lid on once cool.</step>
+<step>Use 1/8 teaspoon on toothbrush and clean as you normally would.</step>
+<step>For deodorant rub 1/4 teaspoon in the palm of your hand and rub on arm pits after your shower. Do this before other activities after shower, so it has time to dry before getting dressed.</step>
 </recipe>
+

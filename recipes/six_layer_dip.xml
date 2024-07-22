@@ -1,28 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Six layer dip</title>
-  <filename>six_layer_dip.xml</filename>
-  <comment/>
-  <thumbnail>../images/six_layer_dip.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime/>
-  <cookTime/>
-  <diet>GlutenFree</diet>
-  <ingredient>1 can refried beans*</ingredient>
-  <ingredient>Guacamole (use 3 avocados)</ingredient>
-  <ingredient>1-2 cups salsa</ingredient>
-  <ingredient>200ml sour cream</ingredient>
-  <ingredient>A little milk</ingredient>
-  <ingredient>2 cups grated cheese </ingredient>
-  <ingredient>3-4 spring onions chopped </ingredient>
-  <ingredient>Bag corn chips to serve</ingredient>
-  <step>In a medium deep dish spread the refried beans over the bottom.</step>
-  <step>Then smooth over the guacamole, then the salsa.</step>
-  <step>In a small bowl mix the sour cream with a little milk, to remove the lumps and to make it easier to spread.</step>
-  <step>Spread carefully over the salsa and then sprinkle the cheese over the top.</step>
-  <step>Lastly sprinkle the spring onions on the out edge.</step>
-  <step>Serve with corn chips.</step>
-  <step>you can use the refried beans with extra chilli if desired.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe 
+xmlns="https://cazzscookingcommunity.github.io" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+                                                                                
+    <title>Six layer dip</title>
+    <filename>six_layer_dip.xml</filename>
+
+    <comment></comment>
+    <thumbnail>../images/six_layer_dip.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <yield></yield>
+    <prepTime></prepTime>
+    <cookTime></cookTime>
+    
+
+
+    <diet>GlutenFree</diet>
+
+    <ingredient>1 can refried beans*</ingredient>
+    <ingredient>Guacamole (use 3 avocados)</ingredient>
+    <ingredient>1-2 cups salsa</ingredient>
+    <ingredient>200ml sour cream</ingredient>
+    <ingredient>A little milk</ingredient>
+    <ingredient>2 cups grated cheese </ingredient>
+    <ingredient>3-4 spring onions chopped </ingredient>
+    <ingredient>Bag corn chips to serve</ingredient>
+
+    <step>
+In a medium deep dish spread the refried beans over the bottom. Then smooth over the guacamole, then the salsa. In a small bowl mix the sour cream with a little milk, to remove the lumps and to make it easier to spread. Spread carefully over the salsa and then sprinkle the cheese over the top. Lastly sprinkle the spring onions on the out edge. Serve with corn chips. 
+    </step>
+    <step>you can use the refried beans with extra chilli if desired</step>
+
 </recipe>

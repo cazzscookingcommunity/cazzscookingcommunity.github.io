@@ -1,19 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Spicy Lentil Dip</title>
-  <filename>spicy_lentil_dip.xml</filename>
-  <thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-  <ingredient>1 can lentils drained or 1 1/2 cups cooked lentils</ingredient>
-  <ingredient>1 TBSP olive oil</ingredient>
-  <ingredient>1-2 TBsp hot chilli sauce (gluten free)</ingredient>
-  <ingredient>2 garlic cloves crushed </ingredient>
-  <ingredient>1/2 teaspoon curry powder </ingredient>
-  <ingredient>2 TBSP lime juice</ingredient>
-  <ingredient>salt and pepper (to taste if desired)</ingredient>
-  <step>Place all ingredients in a blender and whiz for about 5 mins or until mostly smooth.</step>
-  <step>Serve immediately with crackers and/or cut up veggies.</step>
-  <step>Or store in fridge until required.</step>
-  <step>This is seriously good despite its colour!.</step>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Spicy Lentil Dip</title>
+<filename>spicy_lentil_dip.xml</filename>
+<thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<ingredient>1 can lentils drained or 1 1/2 cups cooked lentils</ingredient>
+<ingredient>1 TBSP olive oil</ingredient>
+<ingredient>1-2 TBsp hot chilli sauce (gluten free)</ingredient>
+<ingredient>2 garlic cloves crushed </ingredient>
+<ingredient>1/2 teaspoon curry powder </ingredient>
+<ingredient>2 TBSP lime juice</ingredient>
+<ingredient>salt and pepper (to taste if desired)</ingredient>
+<step>
+Place all ingredients in a blender and whiz for about 5 mins or until mostly smooth.
+    </step>
+<step>
+Serve immediately with crackers and/or cut up veggies. Or store in fridge until required. This is seriously good despite its colour!
+    </step>
 </recipe>
+
