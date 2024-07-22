@@ -48,10 +48,18 @@ function loadRecipe(recipeFile) {
 
 
 function addPageMetaData($recipe) {
+    const imageBaseUrl = "https://cazzscookingcommunity.github.io/images";
     const title = $recipe.find('title').first().text();
     const image = $recipe.find('thumbnail').text();
-    const ingredients = $recipe.find('ingredient').text()
-    const instructions = $recipe.find('step').text()
+    const imageFileName = image.split('/').pop();
+    const fullImageUrl = `${imageBaseUrl}/${imageFileName}`; // Construct the full URL using the base URL and the filename
+    const prepTime = $recipe.find('prepTime').text();
+    const cookTime = $recipe.find('cookTime').text();
+    const dietType = $recipe.find('diet').text();
+    const recipeYield = $recipe.find('yield').text();
+    const recipeCategory = $recipe.find('category').text();
+    const ingredients = $recipe.find('ingredient').text();
+    const instructions = $recipe.find('step').text();
     var sitemap_data = `
         {
         "@context": "https://schema.org/",
@@ -61,8 +69,13 @@ function addPageMetaData($recipe) {
             "@type": "Person",
             "name": "Carolyn Cullin"
         },
-        "image": "${image}",
-        "description": "${title}"
+        "image": "${fullImageUrl}",
+        "description": "${title}",
+        "prepTime": "${prepTime}",
+        "cookTime": "${cookTime}",
+        "keywords": "${dietType}",
+        "recipeYield": "${recipeYield}",
+        "recipeCategory": "${recipeCategory}"
         }`;
         // "recipeIngredient": "${ingredients}",
         // "recipeInstructions": "${instructions}"
