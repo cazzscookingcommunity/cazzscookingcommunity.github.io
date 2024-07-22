@@ -6,1495 +6,1595 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xsd">
 
 <recipe>
-  <title>Gluten Free Orange Cake</title>
-    <filename>gluten_free_orange_cake.xml</filename>
-  <thumbnail>../images/gluten_free_orange_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Gails Potato Salad</title>
-    <filename>gails_potato_salad.xml</filename>
-  <thumbnail>../images/gails_potatoe_salad.jpeg</thumbnail>
-  <category>Salad</category>
-</recipe>
-<recipe>
-  <title>Calzone</title>
-    <filename>calzone.xml</filename>
-  <thumbnail>../images/calzone.jpeg</thumbnail>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Home made Carmen Bars</title>
-    <filename>home_made_carmen_bars.xml</filename>
-  <thumbnail>../images/homemade_carmen_bars.jpeg</thumbnail>
-  <category>Lunch</category>
-</recipe>
-<recipe>
-  <title>Three Ingredient Cookies</title>
-    <filename>three_ingredient_cookies.xml</filename>
-  <thumbnail>../images/three_ingredient_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Popcorn </title>
-    <filename>popcorn.xml</filename>
-  <thumbnail>../images/popcorn.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Feel Good Shake</title>
-    <filename>feel_good_shake.xml</filename>
-  <thumbnail>../images/feel_good_shake.jpeg</thumbnail>
-  <category>Drink</category>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>GlutenFree Creamy Pasta</title>
-    <filename>glutenfree_creamy_pasta.xml</filename>
-  <thumbnail>../images/gluten_free_creamy_paste.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Mars Bar Slice</title>
-    <filename>mars_bar_slice.xml</filename>
-  <thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Chocolate Ripple Cake</title>
-    <filename>chocolate_ripple_cake.xml</filename>
-  <thumbnail>../images/chocolate_ripple_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Chicken Noodle Soup</title>
-    <filename>chicken_noodle_soup.xml</filename>
-  <thumbnail>../images/chicken_noodle_soup.jpeg</thumbnail>
-  <category>Soup</category>
-</recipe>
-<recipe>
-  <title>Spanakopita </title>
-    <filename>spanakopita.xml</filename>
-  <thumbnail>../images/spanakopita.jpeg</thumbnail>
-  <category>Vegetarian</category>
-</recipe>
-<recipe>
-  <title>Anzac Cookies</title>
-    <filename>anzac_cookies.xml</filename>
-  <thumbnail>../images/anzacs.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Pea and Ham Soup</title>
-    <filename>pea_and_ham_soup.xml</filename>
-  <thumbnail>../images/pea_and_ham_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Sesame Squares </title>
-    <filename>seasame_squares.xml</filename>
-  <thumbnail>../images/seasame_squares.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Big Boy Burgers</title>
-    <filename>big_boy_burgers.xml</filename>
-  <thumbnail>../images/big_boy_burgers.jpeg</thumbnail>
-  <category>Beef</category>
-</recipe>
-<recipe>
-  <title>Buckwheat Pancakes</title>
-    <filename>buckwheat_pancakes.xml</filename>
-  <thumbnail>../images/buckwheat_pancakes.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>WheatBix slice</title>
-    <filename>wheatbix_slice.xml</filename>
-  <thumbnail>../images/wheatbix_slice.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Russian Tea Cakes</title>
-    <filename>russian_tea_cakes.xml</filename>
-  <thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Tuna Rice Bake</title>
-    <filename>tuna_rice_bake.xml</filename>
-  <thumbnail>../images/tuna_bake.jpeg</thumbnail>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Healthy Christmas Cake</title>
-    <filename>healthy_christmas_cake.xml</filename>
-  <thumbnail>../images/healthy_christmas_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-  <diet>Paleo</diet>
-</recipe>
-<recipe>
-  <title>Spicy Lentil Dip</title>
-    <filename>spicy_lentil_dip.xml</filename>
-  <thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Vegetable Lentil Curry</title>
-    <filename>vegetable_lentil_curry.xml</filename>
-  <thumbnail>../images/vegetable-lentil_curry.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>smoked salmon cucumber</title>
-    <filename>smoked_salmon_cucumber.xml</filename>
-  <thumbnail>../images/smoked_salmon_and_cucumber.jpeg</thumbnail>
-  <category>Sides</category>
-  <category>Fish</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Sarah Os Brownies</title>
-    <filename>sarah_os_brownies.xml</filename>
-  <thumbnail>../images/sarah_os_brownies.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Emmas Slow Roast Beef</title>
-    <filename>emmas_slow_roast_beef.xml</filename>
-  <thumbnail>../images/emmas_slow_roast_beef.jpeg</thumbnail>
-  <category>Beef</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Easy Mini Cheese Cakes</title>
-    <filename>easy_mini_cheese_cakes.xml</filename>
-  <thumbnail>../images/easy_mini_cheese_cakes.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Hippocrates Soup</title>
-    <filename>hippocrates_soup.xml</filename>
-  <thumbnail>../images/hippocrates_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Six layer dip</title>
-    <filename>six_layer_dip.xml</filename>
-  <thumbnail>../images/six_layer_dip.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Irish Mashed Spud</title>
-    <filename>irish_mashed_spud.xml</filename>
-  <thumbnail>../images/irish_mash_spud.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Spanish Rice</title>
-    <filename>spanish_rice.xml</filename>
-  <thumbnail>../images/spanish_rice.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Sues Brown Rice Salad</title>
-    <filename>sues_brown_rice_salad.xml</filename>
-  <thumbnail>../images/sues_brown_rice_salad.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Healthy Sausage Rolls</title>
-    <filename>healthy_sausage_rolls.xml</filename>
-  <thumbnail>../images/healthy_sausage_rolls.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Warm French Lentils </title>
-    <filename>warm_french_lentils.xml</filename>
-  <thumbnail>../images/warm_french_lentils.jpeg</thumbnail>
-  <category>Lunch</category>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Muesli Cookies</title>
-    <filename>muesli_cookies.xml</filename>
-  <thumbnail>../images/muesli_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Curry Noodles</title>
-    <filename>curry_noodles.xml</filename>
-  <thumbnail>../images/curry_noodles.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Turkey Burgers</title>
-    <filename>turkey_burgers.xml</filename>
-  <thumbnail>../images/turkey_burgers.jpeg</thumbnail>
-  <category>Dinner</category>
-  <category>Lunch</category>
-  <diet>FODMAP</diet>
-  <diet>EggFree</diet>
-  <diet>DiaryFree</diet>
-</recipe>
-<recipe>
-  <title>Paleo Chocolate Chip Cookies </title>
-    <filename>paleo_chocolate_chip_cookies.xml</filename>
-  <thumbnail>../images/paleo_choc_chip_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Paleo</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Fasolada </title>
-    <filename>fasolada.xml</filename>
-  <thumbnail>../images/fasolada.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>Vegan</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Roasted Veg and Buckwheat Salad</title>
-    <filename>roasted_veg_and_buckwheat_salad.xml</filename>
-  <thumbnail>../images/roasted_veg_salad.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Dark Chocolate Fudge</title>
-    <filename>dark_chocolate_fudge.xml</filename>
-  <thumbnail>../images/dark_chocolate_fudge.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Gluten Free Brownie</title>
-    <filename>gluten_free_brownie.xml</filename>
-  <thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Lazy Risotto</title>
-    <filename>lazy_risotto.xml</filename>
-  <thumbnail>../images/lazy_risotto.jpeg</thumbnail>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Orange Cake</title>
-    <filename>orange_cake.xml</filename>
-  <thumbnail>../images/orange_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Middle Eastern Lentil Salad</title>
-    <filename>middle_eastern_lentil_salad.xml</filename>
-  <thumbnail>../images/middle_eastern_lentil_salad.jpeg</thumbnail>
-  <category>Salad</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Cazzies Veggie Soup</title>
-    <filename>cazzies_veggie_soup.xml</filename>
-  <thumbnail>../images/cazzies_veggie_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Veggie Soup</title>
-    <filename>grandmas_veggie_soup.xml</filename>
-  <thumbnail>../images/grandmas_veggie_soup.jpeg</thumbnail>
-  <category>Soup</category>
-</recipe>
-<recipe>
-  <title>Traditional Shortbread</title>
-    <filename>traditional_shortbread.xml</filename>
-  <thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Mini Oat Bars</title>
-    <filename>mini_oat_bars.xml</filename>
-  <thumbnail>../images/mini_oat_bars.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Rice Custard </title>
-    <filename>grandmas_rice_custard_.xml</filename>
-  <thumbnail>../images/grandmas_rice_custard.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Gerrys Banana and Pecan Cake</title>
-    <filename>gerrys_banana_pecan_cake.xml</filename>
-  <thumbnail>../images/gerrys_banana_bread.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Lamb Cutlets</title>
-    <filename>lamb_cutlets.xml</filename>
-  <thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Awesome Roast Spuds</title>
-    <filename>awesome_roast_spuds.xml</filename>
-  <thumbnail>../images/awesome_roast_spuds.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>No Cook Vegan ChocCoconut Slice</title>
-    <filename>no_cook_vegan_choccoconut_slice.xml</filename>
-  <thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-  <diet>Paleo</diet>
-</recipe>
-<recipe>
-  <title>Moroccan Beetroot Salad</title>
-    <filename>moroccan_beetroot_salad.xml</filename>
-  <thumbnail>../images/moroccan_beetroot_salad.jpeg</thumbnail>
-  <category>Salad</category>
-  <diet>Paleo</diet>
-</recipe>
-<recipe>
-  <title>Teresas Chilli</title>
-    <filename>teresas_chilli.xml</filename>
-  <thumbnail>../images/teresas_chilli.jpeg</thumbnail>
-  <category>Beef</category>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Chow Mein</title>
-    <filename>chow_mein2.xml</filename>
-  <thumbnail>../images/chow_mein.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Cazzies Smoothy</title>
-    <filename>cazzies_smoothy.xml</filename>
-  <thumbnail>../images/cazzie_smoothy.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>CHOW MEIN</title>
-    <filename>chow_mein.xml</filename>
-  <thumbnail>../images/chow_mein.jpeg</thumbnail>
-  <category>Pork</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Chicken Soup with Rice</title>
-    <filename>chicken_soup_with_rice.xml</filename>
-  <thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Jasmine Special</title>
-    <filename>jasmine_special.xml</filename>
-  <thumbnail>../images/jasmine_special.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Patricias Pannecotta</title>
-    <filename>patricias_pannecotta.xml</filename>
-  <thumbnail>../images/patricas_pannecotta.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Aunty Jackies Pancakes</title>
-    <filename>aunty_jackies_pancakes.xml</filename>
-  <thumbnail>../images/aunty_jackies_pancakes.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Basic Ice Tea</title>
-    <filename>basic_ice_tea.xml</filename>
-  <thumbnail>../images/basic_ice_tea.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Simple Dahl </title>
-    <filename>simple_dahl.xml</filename>
-  <thumbnail>../images/simple_dahl.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Oatmeal Banana Bread</title>
-    <filename>oatmeal_banana_bread.xml</filename>
-  <thumbnail>../images/oatmeal_banana_bread.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Home made dishwasher powder </title>
-    <filename>home_made_dishwasher_powder.xml</filename>
-  <thumbnail>../images/homemade_dish_washer_powder.jpeg</thumbnail>
-  <category>Household</category>
-</recipe>
-<recipe>
-  <title>Rocky Road</title>
-    <filename>rocky_road.xml</filename>
-  <thumbnail>../images/rocky_road.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Cauliflower-Crust Spinach Pie</title>
-    <filename>cauliflower_crust_spinach_pie.xml</filename>
-  <thumbnail>../images/cauliflour_crust_spinach_pie.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>Vegetarian</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Gluten Free Cheese Muffins</title>
-    <filename>gluten_free_cheese_muffins.xml</filename>
-  <thumbnail>../images/gluten_free_cheese_muffins.jpeg</thumbnail>
-  <category>Breakfast</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Adrianas Chicken and Chorizo</title>
-    <filename>adrianas_chicken_chorizo.xml</filename>
-  <thumbnail>../images/adrianas_chicken.jpeg</thumbnail>
-  <category>Dinner</category>
-  <category>Poultry</category>
-  <category>Pork</category>
-</recipe>
-<recipe>
-  <title>Easy chicken dinner</title>
-    <filename>easy_chicken_dinner.xml</filename>
-  <thumbnail>../images/easy_chicken_dinner.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Oat Slice</title>
-    <filename>oat_slice.xml</filename>
-  <thumbnail>../images/oat _slice.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Vegan</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Asian Salad</title>
-    <filename>asian_salad.xml</filename>
-  <thumbnail>../images/asian_salad.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Easy Pud</title>
-    <filename>easy_pud.xml</filename>
-  <thumbnail>../images/easy_pud.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Ridiculously Good Olive Oil Dip!</title>
-    <filename>ridiculously_good_olive_oil_dip.xml</filename>
-  <thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Herb Rub</title>
-    <filename>herb_rub.xml</filename>
-  <thumbnail>../images/herb_rub.jpeg</thumbnail>
-  <category>Poultry</category>
-</recipe>
-<recipe>
-  <title>One Pot Pasta</title>
-    <filename>one_pot_pasta copy.xml</filename>
-  <thumbnail>../images/one_pot_pasta.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>chickpeas</title>
-    <filename>chickpeas.xml</filename>
-  <thumbnail>../images/chickpeas.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Easy Hiking Breakfast </title>
-    <filename>easy_hiking_breakfast.xml</filename>
-  <thumbnail>../images/easy_hiking_breakfast.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>No Knead Bread</title>
-    <filename>no_knead_bread.xml</filename>
-  <thumbnail>../images/no_knead_bread.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Cottage Pie</title>
-    <filename>cottage_pie.xml</filename>
-  <thumbnail>../images/cottage_pie.jpeg</thumbnail>
-  <category>Lamb</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Greek chicken and lemon rice</title>
-    <filename>greek_chicken_lemon_rice.xml</filename>
-  <thumbnail>../images/greek_chicken_with_rice.jpeg</thumbnail>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Hummus </title>
-    <filename>hummus.xml</filename>
-  <thumbnail>../images/hummus.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Mini Pear Puddings </title>
-    <filename>mini_pear_puddings_.xml</filename>
-  <thumbnail>../images/mini_pear_pudding.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Carlys Dads Veggie Lasagna</title>
-    <filename>carlys_dads_veggie_lasagna.xml</filename>
-  <thumbnail>../images/carlys_dad_veggie_lasagna.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Awesome Cappuccino Mix</title>
-    <filename>awesome_cappuccino_mix.xml</filename>
-  <thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Moroccan Fries</title>
-    <filename>moroccan_fries.xml</filename>
-  <thumbnail>../images/moroccan_fries.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Coconut Roughs</title>
-    <filename>coconut_roughs.xml</filename>
-  <thumbnail>../images/coconut_roughs.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Tzatziki </title>
-    <filename>tzatziki.xml</filename>
-  <thumbnail>../images/tzatziki.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Pasties</title>
-    <filename>grandmas_pasties.xml</filename>
-  <thumbnail>../images/grandmas_pasties.jpeg</thumbnail>
-  <category>Beef</category>
-</recipe>
-<recipe>
-  <title>Individual lemon tarts</title>
-    <filename>individual_lemon_tarts.xml</filename>
-  <thumbnail>../images/individual_lemon_tarts.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Vegan Snickers Slice</title>
-    <filename>vegan_snickers_slice.xml</filename>
-  <thumbnail>../images/vegan_snickers_slice.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Nasi Goreng</title>
-    <filename>nasi_goreng.xml</filename>
-  <thumbnail>../images/nasi_goreng.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Rum Balls</title>
-    <filename>rum_balls.xml</filename>
-  <thumbnail>../images/rum_balls.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Pesto</title>
-    <filename>pesto.xml</filename>
-  <thumbnail>../images/pesto.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Fall Greens</title>
-    <filename>fall_greens.xml</filename>
-  <thumbnail>../images/fall_greens.jpeg</thumbnail>
-  <category>Salad</category>
-</recipe>
-<recipe>
-  <title>Awesome Roasted Beetroot Dip</title>
-    <filename>awesome_roasted_beetroot_dip.xml</filename>
-  <thumbnail>../images/beetroot_dip.jpeg</thumbnail>
-  <diet>FODMAP</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Mac and Cheese</title>
-    <filename>mac_and_cheese.xml</filename>
-  <thumbnail>../images/mac_and_cheese.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Summer Quiche</title>
-    <filename>summer_quiche.xml</filename>
-  <thumbnail>../images/summer_quiche.jpeg</thumbnail>
-  <category>Vegetarian</category>
-  <category>Dinner</category>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <diet>Keto</diet>
-</recipe>
-<recipe>
-  <title>Life Changing Bread</title>
-    <filename>life_changing_bread.xml</filename>
-  <thumbnail>../images/life_changing_bread.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Moroccan Lentils</title>
-    <filename>moroccan_lentils.xml</filename>
-  <thumbnail>../images/moroccan_lentils.jpeg</thumbnail>
-  <category>Vegetarian</category>
-  <diet>GlutenFree</diet>
-  <diet>FODMAP</diet>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Bread and Butter Pud</title>
-    <filename>grandmas_bread_and_butter_pud.xml</filename>
-  <thumbnail>../images/grandmas_bread_and_butter_pud.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Mince Tarts</title>
-    <filename>mince_tarts.xml</filename>
-  <thumbnail>../images/mince_tarts.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Gratin</title>
-    <filename>gratin.xml</filename>
-  <thumbnail>../images/gratin.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Banana Bread</title>
-    <filename>banana_bread.xml</filename>
-  <thumbnail>../images/large_banana_bread.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Quick Pasta Bake</title>
-    <filename>quick_pasta_bake.xml</filename>
-  <thumbnail>../images/quick_pasta_bake.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Fennel Soup</title>
-    <filename>fennel_soup.xml</filename>
-  <thumbnail>../images/fennel_soup.jpeg</thumbnail>
-  <category>Soup</category>
-</recipe>
-<recipe>
-  <title>Cauliflower Soup</title>
-    <filename>cauliflower_soup.xml</filename>
-  <thumbnail>../images/cauliflower_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>KETO toastie </title>
-    <filename>keto_toastie.xml</filename>
-  <thumbnail>../images/keto_toastie.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <diet>Keto</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Punch</title>
-    <filename>grandmas_punch.xml</filename>
-  <thumbnail>../images/punch.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Kathys Hedgehog</title>
-    <filename>kathys_hedgehog.xml</filename>
-  <thumbnail>../images/kathy_hedgehog.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Keto Lava Chocolate Mug Cake</title>
-    <filename>keto_lava_chocolate_mug_cake.xml</filename>
-  <thumbnail>../images/keto_lava_chocolate_mug_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Keto</diet>
-</recipe>
-<recipe>
-  <title>Lasagne</title>
-    <filename>lasagna.xml</filename>
-  <thumbnail>../images/lasagna.jpeg</thumbnail>
-  <category>Beef</category>
-</recipe>
-<recipe>
-  <title>White Sauce</title>
-    <filename>white_sauce.xml</filename>
-  <thumbnail>../images/white_sauce.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Simple Greek Seasoning </title>
-    <filename>simple_greek_seasoning.xml</filename>
-  <thumbnail>../images/greek_seasoning.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Homemade Toothpaste and Deodorant</title>
-    <filename>homemade_toothpaste_and_deodorant.xml</filename>
-  <thumbnail>../images/homemade_toothpaste_deoderant.jpeg</thumbnail>
-  <category>Household</category>
-</recipe>
-<recipe>
-  <title>Steak and Blackbean Sauce</title>
-    <filename>steak_and_blackbean_sauce.xml</filename>
-  <thumbnail>../images/steak_in_blackbean_sauce.jpeg</thumbnail>
-  <category>Beef</category>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Chocolate Chip Cookies</title>
-    <filename>chocolate_chip_cookies.xml</filename>
-  <thumbnail>../images/chocolate_chip_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Guacamole</title>
-    <filename>guacamole.xml</filename>
-  <thumbnail>../images/guacomole.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Cup Cakes</title>
-    <filename>cup_cakes.xml</filename>
-  <thumbnail>../images/cup_cakes.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Garlic Chilli Chard</title>
-    <filename>garlic_chilli_chard.xml</filename>
-  <thumbnail>../images/garlic_chilli_chard.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Larb</title>
-    <filename>larb.xml</filename>
-  <thumbnail>../images/larb.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Coq au vin</title>
-    <filename>coq_au_vin.xml</filename>
-  <thumbnail>../images/coq_an_vin.jpeg</thumbnail>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>GlutenFree Brownies </title>
-    <filename>glutenfree_brownies.xml</filename>
-  <thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Sams Chocolate Chip Cookies</title>
-    <filename>sams_chocolate_chip_cookies.xml</filename>
-  <thumbnail>../images/sams_choc_chip_cookies.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Sophias Mums Lentil Soup</title>
-    <filename>sophias_mums_lentil_soup.xml</filename>
-  <thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Filo Pie</title>
-    <filename>filo_pie.xml</filename>
-  <thumbnail>../images/filo_pie.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Upside Down Banana Cake</title>
-    <filename>upside_down_banana_cake.xml</filename>
-  <thumbnail>../images/upside_down_banana_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Easy Lunch Bowl</title>
-    <filename>easy_lunch_bowl.xml</filename>
-  <thumbnail>../images/easy_lunch_bowl.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Chocolate Pud</title>
-    <filename>chocolate_pud.xml</filename>
-  <thumbnail>../images/chocolate_pudding.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Cherry Tomato Bake</title>
-    <filename>cherry_tomato_bake.xml</filename>
-  <thumbnail>../images/cherry_tomato_bake.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Quick and Easy Butter Chicken </title>
-    <filename>quick_easy_butter_chicken.xml</filename>
-  <thumbnail>../images/quick_and_easy_butter_chicken.jpeg</thumbnail>
-  <category>Poultry</category>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Paleo Pumpkin Pie</title>
-    <filename>paleo_pumpkin_pie.xml</filename>
-  <thumbnail>../images/paleo_pumpkin_pie.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Paleo</diet>
-</recipe>
-<recipe>
-  <title>Rosemary Spuds</title>
-    <filename>rosemary_spuds.xml</filename>
-  <thumbnail>../images/rosemary_roast_spuds.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Lunch slice </title>
+<title>Lunch slice </title>
     <filename>lunch_slice.xml</filename>
-  <thumbnail>../images/lunch_slice.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
+<thumbnail>../images/lunch_slice.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
-  <title>Beans and Sausages</title>
-    <filename>beans_sausages.xml</filename>
-  <thumbnail>../images/beans_sausages.jpeg</thumbnail>
-  <category>Pork</category>
-</recipe>
-<recipe>
-  <title>Potatoe and Leek Soup</title>
-    <filename>potatoe_and_leek_soup.xml</filename>
-  <thumbnail>../images/potatoe_and_leek_loup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Hummingbird Cake</title>
-    <filename>hummingbird_cake.xml</filename>
-  <thumbnail>../images/hummingbird_cake.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Baked Christmas Ham</title>
-    <filename>baked_christmas_ham.xml</filename>
-  <thumbnail>../images/baked_christmas_ham.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>CHOWDER</title>
-    <filename>chowder.xml</filename>
-  <thumbnail>../images/chowder.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Healthy Oat and Honey Bread</title>
-    <filename>healthy_oat_and_honey_bread.xml</filename>
-  <thumbnail>../images/healthy_oat_and_honey_bread.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Pad Thai Noodles</title>
-    <filename>pad_thai_noodles.xml</filename>
-  <thumbnail>../images/pad_thai_noodles.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Spinach Artichoke Quinoa Casserole</title>
-    <filename>spinach_artichoke_quinoa_casserole.xml</filename>
-  <thumbnail>../images/spinach_artichoke_quinoa_casserole.jpeg</thumbnail>
-  <category>Vegetarian</category>
-  <diet>Vegetarian</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Montys Pancakes</title>
-    <filename>montys_pancakes.xml</filename>
-  <thumbnail>../images/montys_pancakes.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Reginas Rum Cake </title>
-    <filename>reginas_rum_cake.xml</filename>
-  <thumbnail>../images/reginas_rum_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Boston Tea</title>
-    <filename>boston_tea.xml</filename>
-  <thumbnail>../images/boston_tea.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Spiced Cake</title>
-    <filename>spiced_cake.xml</filename>
-  <thumbnail>../images/spiced_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Black bean Burgers</title>
-    <filename>black_bean_burgers.xml</filename>
-  <thumbnail>../images/blackbean_burgers.jpeg</thumbnail>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Jasmines Ice Coffee</title>
-    <filename>jasmines_ice_coffee.xml</filename>
-  <thumbnail>../images/ice_coffee.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Black Bean Salad</title>
-    <filename>black_bean_salad.xml</filename>
-  <thumbnail>../images/blackbean_salad.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Osso Buco</title>
-    <filename>osso_buco.xml</filename>
-  <thumbnail>../images/osso_buco.jpeg</thumbnail>
-  <category>Beef</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Green Thai Chicken Curry</title>
-    <filename>green_thai_chicken_curry.xml</filename>
-  <thumbnail>../images/green_thai_chicken_curry.jpeg</thumbnail>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Coconut Rough Slice</title>
-    <filename>coconut_rough_slice.xml</filename>
-  <thumbnail>../images/coconut_rough_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Quick Chicken Pho</title>
-    <filename>quick_chicken_pho.xml</filename>
-  <thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
-  <category>Soup</category>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Ashmas Mash Spud</title>
-    <filename>ashmas_mash_spud.xml</filename>
-  <thumbnail>../images/ashmas_mash_spud.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Home made crackers</title>
-    <filename>home_made_crackers.xml</filename>
-  <thumbnail>../images/homemade_crackers.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Homemade Fajita Mix</title>
-    <filename>homemade_fajita_mix.xml</filename>
-  <thumbnail>../images/home_made_fajita_mix.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Curtis Stones Rice Noodles</title>
-    <filename>curtis_stones_rice_noodles.xml</filename>
-  <thumbnail>../images/curtis_stones_rice_noodles.jpeg</thumbnail>
-  <category>Poultry</category>
-</recipe>
-<recipe>
-  <title>Oven Risotto with Sweet Spud</title>
-    <filename>oven_risotto_with_sweet_spud.xml</filename>
-  <thumbnail>../images/oven_risotto_with_sweet_spud.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Callums Chilli</title>
-    <filename>callums_chilli.xml</filename>
-  <thumbnail>../images/callums_chilli.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Grandmas Pumkin Soup</title>
-    <filename>grandmas_pumkin_soup.xml</filename>
-  <thumbnail>../images/grandmas_pumpkin_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Vegetable Bake</title>
-    <filename>vegetable_bake.xml</filename>
-  <thumbnail>../images/vegetable_bake.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Home Made Hoisin Sauce</title>
-    <filename>home_made_hoisin_sauce.xml</filename>
-  <thumbnail>../images/home_made_hoisin_sauce.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Okonomiyaki</title>
-    <filename>okonomiyaki.xml</filename>
-  <thumbnail>../images/okonomiyaki.jpeg</thumbnail>
-  <category>Lunch</category>
-</recipe>
-<recipe>
-  <title>Frittata</title>
-    <filename>frittata.xml</filename>
-  <thumbnail>../images/frittata.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Raspberry Blondies</title>
-    <filename>raspberry_blondies.xml</filename>
-  <thumbnail>../images/raspberries_blondies.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Roasted Carrot Dip</title>
-    <filename>roasted_carrot_dip.xml</filename>
-  <thumbnail>../images/roasted_carrot_dip.jpeg</thumbnail>
-  <category>Vegetarian</category>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>Harira</title>
-    <filename>harira.xml</filename>
-  <thumbnail>../images/harira.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Lentil Salad</title>
-    <filename>lentil_salad.xml</filename>
-  <thumbnail>../images/lentil_salad.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Salmon Fajitas </title>
-    <filename>salmon_fajitas.xml</filename>
-  <thumbnail>../images/salmon_fajitas.jpeg</thumbnail>
-  <category>Fish</category>
-</recipe>
-<recipe>
-  <title>Martys Tiramisu</title>
-    <filename>martys_tiramisu.xml</filename>
-  <thumbnail>../images/martys_tiramisu.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Baked Puttanesca Risotto </title>
-    <filename>baked_puttanesca_risotto.xml</filename>
-  <thumbnail>../images/baked_puttanesca_risotto.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Quick Kale Soup</title>
-    <filename>quick_kale_soup.xml</filename>
-  <thumbnail>../images/quick_kale_soup.jpeg</thumbnail>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>Mexican Black Beans and Rice</title>
-    <filename>mexican_black_beans_and_rice.xml</filename>
-  <thumbnail>../images/mexican_blackbeans_and_rice.jpeg</thumbnail>
-  <category>Vegetarian</category>
-</recipe>
-<recipe>
-  <title>Black bean noodles </title>
-    <filename>black_bean_noodles.xml</filename>
-  <thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Hash brown Slice</title>
-    <filename>hash_brown_slice.xml</filename>
-  <thumbnail>../images/hash_brown_slice.jpeg</thumbnail>
-  <category>Breakfast</category>
-  <diet>Vegetarian</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>My Mums Curry Sausages</title>
-    <filename>grandmas_curry_sausages.xml</filename>
-  <thumbnail>../images/grandmas_curry_sausages.jpeg</thumbnail>
-  <category>Pork</category>
-</recipe>
-<recipe>
-  <title>Vegan Chocolate Cake</title>
-    <filename>vegan_chocolate_cake.xml</filename>
-  <thumbnail>../images/vegan_chocolate_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Julians Bubcias Schnitzel</title>
-    <filename>julians_bubcias_schnitzel.xml</filename>
-  <thumbnail>../images/julians_bucia_schnitz.jpeg</thumbnail>
-  <category>Poultry</category>
-</recipe>
-<recipe>
-  <title>Artichoke Dip</title>
-    <filename>artichoke_dip.xml</filename>
-  <thumbnail>../images/artichoke_dip.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Dutch Oven Enchiladas</title>
-    <filename>dutch_oven_enchiladas.xml</filename>
-  <thumbnail>../images/dutch_oven_enchiladas.jpeg</thumbnail>
-  <category>Poultry</category>
-</recipe>
-<recipe>
-  <title>Gluten Free Shortbread </title>
-    <filename>gluten_free_shortbread.xml</filename>
-  <thumbnail>../images/glutenfree_shortbread.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Pizza Dough</title>
-    <filename>pizza_dough.xml</filename>
-  <thumbnail>../images/pizza_dough.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>One Pot Pasta</title>
-    <filename>one_pot_pasta.xml</filename>
-  <thumbnail>../images/one_pot_pasta.jpeg</thumbnail>
-  <category>Beef</category>
-</recipe>
-<recipe>
-  <title>Grandmas Steak and Black Beans</title>
-    <filename>grandmas_steak_and_black_beans.xml</filename>
-  <thumbnail>../images/grandmas_steak_and_blackbean.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Jassy Tasty Wraps</title>
-    <filename>jassy_tasty_wraps.xml</filename>
-  <thumbnail>../images/jassys_tasty_wraps.jpeg</thumbnail>
-  <category>Lunch</category>
-</recipe>
-<recipe>
-  <title>Tuna Pasta</title>
-    <filename>tuna_pasta.xml</filename>
-  <thumbnail>../images/tuna_pasta.jpeg</thumbnail>
-  <category>Fish</category>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Egg Slice</title>
-    <filename>egg_slice.xml</filename>
-  <thumbnail>../images/egg_slice.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Quick Banana Dessert</title>
-    <filename>quick_banana_dessert.xml</filename>
-  <thumbnail>../images/quick_banana_dessert.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Mac and Cheese Slice</title>
-    <filename>mac_and_cheese_slice.xml</filename>
-  <thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
-  <category>Lunch</category>
-</recipe>
-<recipe>
-  <title>Egg and Bacon Pie</title>
-    <filename>egg_and_bacon_pie.xml</filename>
-  <thumbnail>../images/egg_and_bacon_pie.jpeg</thumbnail>
-  <category>Dinner</category>
-</recipe>
-<recipe>
-  <title>Rice Bubble Slice</title>
-    <filename>rice_bubble_slice.xml</filename>
-  <thumbnail>../images/rice_bubble_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Corner Store Curry</title>
-    <filename>corner_store_curry.xml</filename>
-  <thumbnail>../images/jamie_oliver_corner_store_curry.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Breakfast Rolls</title>
-    <filename>breakfast_rolls.xml</filename>
-  <thumbnail>../images/breakfast_rolls.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Easy Scones</title>
-    <filename>easy_scones.xml</filename>
-  <thumbnail>../images/easiest_scones_in_the_world.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Alecias Cinnamon Rolls</title>
-    <filename>alecias_cinnamon_rolls.xml</filename>
-  <thumbnail>../images/alecias_cinnamon_rolls.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Cauliflower and Broccoli Bake</title>
-    <filename>cauliflower_and_broccoli_bake.xml</filename>
-  <thumbnail>../images/cauliflower_broccoli_bake.jpeg</thumbnail>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Acquacotta</title>
-    <filename>acquacotta.xml</filename>
-  <thumbnail>../images/acquacotta.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>Vegetarian</diet>
-</recipe>
-<recipe>
-  <title>Apple Pie</title>
-    <filename>apple_pie.xml</filename>
-  <thumbnail>../images/grandmas_applepie.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Macaroons</title>
-    <filename>macaroons.xml</filename>
-  <thumbnail>../images/macaroons.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Cookie in a Cup</title>
-    <filename>cookie_in_a_cup.xml</filename>
-  <thumbnail>../images/cookie _in_a_cup.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Turmeric Latte</title>
-    <filename>turmeric_latte.xml</filename>
-  <thumbnail>../images/turmeric_latte.jpeg</thumbnail>
-  <category>Drink</category>
-</recipe>
-<recipe>
-  <title>Natural Homemade Face Scrub</title>
-    <filename>natural_homemade_face_scrub.xml</filename>
-  <thumbnail>../images/natural_homemade_face_scrub.jpeg</thumbnail>
-  <category>Household</category>
-</recipe>
-<recipe>
-  <title>Peanut Butter Slice</title>
-    <filename>peanut_butter_slice.xml</filename>
-  <thumbnail>../images/peanut_butter_slice.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Mon and Chloes Stir Fried Noodles</title>
-    <filename>mon_chloes_stir_fried_noodles.xml</filename>
-  <thumbnail>../images/chloes_fried_noodles.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Mujadara</title>
-    <filename>mujadara.xml</filename>
-  <thumbnail>../images/mujadara.jpeg</thumbnail>
-  <category>Sides</category>
-</recipe>
-<recipe>
-  <title>American BBQ SpareRibs</title>
-    <filename>american_bbq_spareribs.xml</filename>
-  <thumbnail>../images/spare_ribs.jpeg</thumbnail>
-  <category>Pork</category>
-</recipe>
-<recipe>
-  <title>Callums Saute Pumpkin with Peanuts</title>
-    <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
-  <thumbnail>../images/callums_pumpkin_dish.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegetarian</diet>
-  <diet>FODMAP</diet>
-</recipe>
-<recipe>
-  <title>No Bake Oreo Cheese Cake</title>
-    <filename>no_bake_oreo_cheese_cake.xml</filename>
-  <thumbnail>../images/no_bake_oreo_cheese_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Nutella Slice</title>
-    <filename>nutella_slice.xml</filename>
-  <thumbnail>../images/nutella_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Green Bean Salad</title>
-    <filename>green_bean_salad.xml</filename>
-  <thumbnail>../images/green_bean_salad.jpeg</thumbnail>
-  <category>Salad</category>
-</recipe>
-<recipe>
-  <title>Taco Mix</title>
-    <filename>taco_mix.xml</filename>
-  <thumbnail>../images/taco_bake.jpeg</thumbnail>
-  <category>Beef</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Home Made English Muffins</title>
-    <filename>home_made_english_muffins.xml</filename>
-  <thumbnail>../images/home_made_english_muffins.jpeg</thumbnail>
-  <category>Breakfast</category>
-</recipe>
-<recipe>
-  <title>Chriss Filipino Egg Pie</title>
-    <filename>chriss_filipino_egg_pie.xml</filename>
-  <thumbnail>../images/chriss_filipino_egg_pie.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Gluten Free Chocolate Cookies</title>
-    <filename>gluten_free_chocolate_cookies.xml</filename>
-  <thumbnail>../images/gluten_free_chocolate_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Carrot Dip</title>
-    <filename>carrot_dip.xml</filename>
-  <thumbnail>../images/carrot_dip.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Curry Rice with Salmon</title>
-    <filename>curry_rice_with_salmon.xml</filename>
-  <thumbnail>../images/curry_rice_with_salmon.jpeg</thumbnail>
-  <category>Fish</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Zucchini and Sweet Spud Fritters</title>
-    <filename>zucchini_and_sweet_spud_fritters.xml</filename>
-  <thumbnail>../images/zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Rocket and Pine nut Salad</title>
-    <filename>rocket_pine_nut_salad.xml</filename>
-  <thumbnail>../images/rocket_and_pine_nut_salad.jpeg</thumbnail>
-  <category>Salad</category>
-</recipe>
-<recipe>
-  <title>Grain and Nut Free Sandwich Bread</title>
-    <filename>grain_and_nut_free_sandwich_bread.xml</filename>
-  <thumbnail>../images/grain_and_nut_free_sandwich_bread.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>Paleo</diet>
-</recipe>
-<recipe>
-  <title>Lemon Slice</title>
-    <filename>lemon_slice.xml</filename>
-  <thumbnail>../images/lemon_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Mint Slice</title>
-    <filename>mint_slice.xml</filename>
-  <thumbnail>../images/mint_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-</recipe>
-<recipe>
-  <title>Upside-down cake</title>
-    <filename>upside_down_cake.xml</filename>
-  <thumbnail>../images/upside_down_cake.jpeg</thumbnail>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Easy Stir Fry</title>
-    <filename>easy_stir_fry.xml</filename>
-  <thumbnail>../images/easy_stir_fry.jpeg</thumbnail>
-  <category>Poultry</category>
-</recipe>
-<recipe>
-  <title>Simple Friedrice</title>
-    <filename>simple_friedrice.xml</filename>
-  <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
-</recipe>
-<recipe>
-  <title>Quinoa filled eggplant</title>
-    <filename>quinoa_filled_eggplant.xml</filename>
-  <thumbnail>../images/quinoa_filled_eggplant.jpeg</thumbnail>
-  <category>Lunch</category>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-</recipe>
-<recipe>
-  <title>Lemon Shortbread </title>
-    <filename>lemon_shortbread.xml</filename>
-  <thumbnail>../images/lemon_shrotbread.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>LowCarb</diet>
-  <diet>GlutenFree</diet>
-</recipe>
-<recipe>
-  <title>Mexican Chilli Pie</title>
+<title>Mexican Chilli Pie</title>
     <filename>mexican_chilli_pie.xml</filename>
-  <thumbnail>../images/mexican_chilli_pie.jpeg</thumbnail>
-  <category>Beef</category>
+<thumbnail>../images/mexican_chilli_pie.jpeg</thumbnail>
+<category>Beef</category>
 </recipe>
 <recipe>
-  <title>Mango Slushie</title>
-    <filename>mango_slushie.xml</filename>
-  <thumbnail>../images/mango_slushie.jpeg</thumbnail>
-  <category>Drink</category>
+<title>Anzac Cookies</title>
+    <filename>anzac_cookies.xml</filename>
+<thumbnail>../images/anzacs.jpeg</thumbnail>
+<category></category>
 </recipe>
 <recipe>
-  <title>Coleslaw Dressing </title>
+<title>Sophias Mums Lentil Soup</title>
+    <filename>sophias_mums_lentil_soup.xml</filename>
+<thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+    <title>Peanut Butter Slice</title>
+    <filename>peanut_butter_slice.xml</filename>
+    <thumbnail>../images/peanut_butter_slice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Rocket and Pine nut Salad</title>
+    <filename>rocket_pine_nut_salad.xml</filename>
+<thumbnail>../images/rocket_and_pine_nut_salad.jpeg</thumbnail>
+<category>Salad</category>
+</recipe>
+<recipe>
+<title>KETO toastie </title>
+    <filename>keto_toastie.xml</filename>
+<thumbnail>../images/keto_toastie.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<diet>Keto</diet>
+</recipe>
+<recipe>
+    <title>Chicken Soup with Rice</title>
+    <filename>chicken_soup_with_rice.xml</filename>
+    <thumbnail>../images/chicken_soup_with_rice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Easy Hiking Breakfast </title>
+    <filename>easy_hiking_breakfast.xml</filename>
+    <thumbnail>../images/easy_hiking_breakfast.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Calzone</title>
+    <filename>calzone.xml</filename>
+    <thumbnail>../images/calzone.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Individual lemon tarts</title>
+    <filename>individual_lemon_tarts.xml</filename>
+<thumbnail>../images/individual_lemon_tarts.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Roasted Carrot Dip</title>
+    <filename>roasted_carrot_dip.xml</filename>
+<thumbnail>../images/roasted_carrot_dip.jpeg</thumbnail>
+<category>Vegetarian</category>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Coleslaw Dressing </title>
     <filename>coleslaw_dressing.xml</filename>
-  <thumbnail>../images/coleslaw_dressing.jpeg</thumbnail>
-  <category>Salad</category>
-  <diet>GlutenFree</diet>
+<thumbnail>../images/coleslaw_dressing.jpeg</thumbnail>
+<category>Salad</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
-  <title>Smart Cookies</title>
+<title>Feel Good Shake</title>
+    <filename>feel_good_shake.xml</filename>
+<thumbnail>../images/feel_good_shake.jpeg</thumbnail>
+<category>Drink</category>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Lazy Risotto</title>
+    <filename>lazy_risotto.xml</filename>
+<thumbnail>../images/lazy_risotto.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Sesame Squares </title>
+    <filename>seasame_squares.xml</filename>
+<thumbnail>../images/seasame_squares.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Macaroons</title>
+    <filename>macaroons.xml</filename>
+<thumbnail>../images/macaroons.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Herb Rub</title>
+    <filename>herb_rub.xml</filename>
+<thumbnail>../images/herb_rub.jpeg</thumbnail>
+<category>Poultry</category>
+</recipe>
+<recipe>
+<title>Aunty Jackies Pancakes</title>
+    <filename>aunty_jackies_pancakes.xml</filename>
+<thumbnail>../images/aunty_jackies_pancakes.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>American BBQ SpareRibs</title>
+    <filename>american_bbq_spareribs.xml</filename>
+<thumbnail>../images/spare_ribs.jpeg</thumbnail>
+<category>Pork</category>
+</recipe>
+<recipe>
+<title>Cauliflower and Broccoli Bake</title>
+    <filename>cauliflower_and_broccoli_bake.xml</filename>
+<thumbnail>../images/cauliflower_broccoli_bake.jpeg</thumbnail>
+<category></category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+    <title>Lentil Salad</title>
+    <filename>lentil_salad.xml</filename>
+    <thumbnail>../images/lentil_salad.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Mujadara</title>
+    <filename>mujadara.xml</filename>
+<thumbnail>../images/mujadara.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Teresas Chilli</title>
+    <filename>teresas_chilli.xml</filename>
+<thumbnail>../images/teresas_chilli.jpeg</thumbnail>
+<category>Beef</category>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Guacamole</title>
+    <filename>guacamole.xml</filename>
+<thumbnail>../images/guacomole.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>My Mums Curry Sausages</title>
+    <filename>grandmas_curry_sausages.xml</filename>
+<thumbnail>../images/grandmas_curry_sausages.jpeg</thumbnail>
+<category>Pork</category>
+</recipe>
+<recipe>
+    <title>Banana Bread</title>
+    <filename>banana_bread.xml</filename>
+    <thumbnail>../images/large_banana_bread.jpeg</thumbnail>
+    <image></image>
+    <category>Sweets</category>
+</recipe>
+<recipe>
+<title>Julians Bubcias Schnitzel</title>
+    <filename>julians_bubcias_schnitzel.xml</filename>
+<thumbnail>../images/julians_bucia_schnitz.jpeg</thumbnail>
+<category>Poultry</category>
+</recipe>
+<recipe>
+<title>Hash brown Slice</title>
+    <filename>hash_brown_slice.xml</filename>
+<thumbnail>../images/hash_brown_slice.jpeg</thumbnail>
+<category>Breakfast</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Larb</title>
+    <filename>larb.xml</filename>
+<thumbnail>../images/larb.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Vegetable Bake</title>
+    <filename>vegetable_bake.xml</filename>
+<thumbnail>../images/vegetable_bake.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Steak and Blackbean Sauce</title>
+    <filename>steak_and_blackbean_sauce.xml</filename>
+<thumbnail>../images/steak_in_blackbean_sauce.jpeg</thumbnail>
+<category>Beef</category>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Ashmas Mash Spud</title>
+    <filename>ashmas_mash_spud.xml</filename>
+<thumbnail>../images/ashmas_mash_spud.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>Frittata</title>
+    <filename>frittata.xml</filename>
+<thumbnail>../images/frittata.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Oatmeal Banana Bread</title>
+    <filename>oatmeal_banana_bread.xml</filename>
+<thumbnail>../images/oatmeal_banana_bread.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Mars Bar Slice</title>
+    <filename>mars_bar_slice.xml</filename>
+<thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Chriss Filipino Egg Pie</title>
+    <filename>chriss_filipino_egg_pie.xml</filename>
+<thumbnail>../images/chriss_filipino_egg_pie.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Homemade Toothpaste and Deodorant</title>
+    <filename>homemade_toothpaste_and_deodorant.xml</filename>
+<thumbnail>../images/homemade_toothpaste_deoderant.jpeg</thumbnail>
+<category>Household</category>
+</recipe>
+<recipe>
+    <title>Easy chicken dinner</title>
+    <filename>easy_chicken_dinner.xml</filename>
+    <thumbnail>../images/easy_chicken_dinner.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Nutella Slice</title>
+    <filename>nutella_slice.xml</filename>
+<thumbnail>../images/nutella_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Black Bean Salad</title>
+    <filename>black_bean_salad.xml</filename>
+<thumbnail>../images/blackbean_salad.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+    <title>Vegan Snickers Slice</title>
+    <filename>vegan_snickers_slice.xml</filename>
+    <thumbnail>../images/vegan_snickers_slice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+    <title>GlutenFree Brownies </title>
+    <filename>glutenfree_brownies.xml</filename>
+    <thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Hippocrates Soup</title>
+    <filename>hippocrates_soup.xml</filename>
+<thumbnail>../images/hippocrates_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+    <title>chickpeas</title>
+    <filename>chickpeas.xml</filename>
+    <thumbnail>../images/chickpeas.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Curtis Stones Rice Noodles</title>
+    <filename>curtis_stones_rice_noodles.xml</filename>
+<thumbnail>../images/curtis_stones_rice_noodles.jpeg</thumbnail>
+<category>Poultry</category>
+</recipe>
+<recipe>
+    <title>Six layer dip</title>
+    <filename>six_layer_dip.xml</filename>
+    <thumbnail>../images/six_layer_dip.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Salmon Fajitas </title>
+    <filename>salmon_fajitas.xml</filename>
+<thumbnail>../images/salmon_fajitas.jpeg</thumbnail>
+<category>Fish</category>
+</recipe>
+<recipe>
+<title>Vegetable Lentil Curry</title>
+    <filename>vegetable_lentil_curry.xml</filename>
+<thumbnail>../images/vegetable-lentil_curry.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Gails Potato Salad</title>
+    <filename>gails_potato_salad.xml</filename>
+<thumbnail>../images/gails_potatoe_salad.jpeg</thumbnail>
+<category>Salad</category>
+</recipe>
+<recipe>
+<title>Ridiculously Good Olive Oil Dip!</title>
+    <filename>ridiculously_good_olive_oil_dip.xml</filename>
+<thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+    <title>Carrot Dip</title>
+    <filename>carrot_dip.xml</filename>
+    <thumbnail>../images/carrot_dip.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Grandmas Punch</title>
+    <filename>grandmas_punch.xml</filename>
+<thumbnail>../images/punch.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+    <title>Chow Mein</title>
+    <filename>chow_mein2.xml</filename>
+    <thumbnail>../images/chow_mein.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Grandmas Pumkin Soup</title>
+    <filename>grandmas_pumkin_soup.xml</filename>
+<thumbnail>../images/grandmas_pumpkin_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Buckwheat Pancakes</title>
+    <filename>buckwheat_pancakes.xml</filename>
+<thumbnail>../images/buckwheat_pancakes.jpeg</thumbnail>
+<category></category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Easy Pud</title>
+    <filename>easy_pud.xml</filename>
+<thumbnail>../images/easy_pud.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Mon and Chloes Stir Fried Noodles</title>
+    <filename>mon_chloes_stir_fried_noodles.xml</filename>
+    <thumbnail>../images/chloes_fried_noodles.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Callums Saute Pumpkin with Peanuts</title>
+    <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
+<thumbnail>../images/callums_pumpkin_dish.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegetarian</diet>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Spiced Cake</title>
+    <filename>spiced_cake.xml</filename>
+<thumbnail>../images/spiced_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>No Knead Bread</title>
+    <filename>no_knead_bread.xml</filename>
+    <thumbnail>../images/no_knead_bread.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Gluten Free Cheese Muffins</title>
+    <filename>gluten_free_cheese_muffins.xml</filename>
+    <thumbnail>../images/gluten_free_cheese_muffins.jpeg</thumbnail>
+    <category>Breakfast</category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Curry Rice with Salmon</title>
+    <filename>curry_rice_with_salmon.xml</filename>
+<thumbnail>../images/curry_rice_with_salmon.jpeg</thumbnail>
+<category>Fish</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Lemon Slice</title>
+    <filename>lemon_slice.xml</filename>
+<thumbnail>../images/lemon_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Mince Tarts</title>
+    <filename>mince_tarts.xml</filename>
+<thumbnail>../images/mince_tarts.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Adrianas Chicken and Chorizo</title>
+    <filename>adrianas_chicken_chorizo.xml</filename>
+<thumbnail>../images/adrianas_chicken.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Poultry</category>
+<category>Pork</category>
+</recipe>
+<recipe>
+<title>Fasolada </title>
+    <filename>fasolada.xml</filename>
+<thumbnail>../images/fasolada.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegan</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Moroccan Lentils</title>
+    <filename>moroccan_lentils.xml</filename>
+<thumbnail>../images/moroccan_lentils.jpeg</thumbnail>
+<category>Vegetarian</category>
+<diet>GlutenFree</diet>
+<diet>FODMAP</diet>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Beans and Sausages</title>
+    <filename>beans_sausages.xml</filename>
+<thumbnail>../images/beans_sausages.jpeg</thumbnail>
+<category>Pork</category>
+</recipe>
+<recipe>
+    <title>Simple Dahl </title>
+    <filename>simple_dahl.xml</filename>
+    <thumbnail>../images/simple_dahl.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Apple Pie</title>
+    <filename>apple_pie.xml</filename>
+<thumbnail>../images/grandmas_applepie.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Popcorn </title>
+    <filename>popcorn.xml</filename>
+<thumbnail>../images/popcorn.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Dark Chocolate Fudge</title>
+    <filename>dark_chocolate_fudge.xml</filename>
+<thumbnail>../images/dark_chocolate_fudge.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Fennel Soup</title>
+    <filename>fennel_soup.xml</filename>
+<thumbnail>../images/fennel_soup.jpeg</thumbnail>
+<category>Soup</category>
+</recipe>
+<recipe>
+<title>Turkey Burgers</title>
+    <filename>turkey_burgers.xml</filename>
+<thumbnail>../images/turkey_burgers.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Lunch</category>
+<diet>FODMAP</diet>
+<diet>EggFree</diet>
+<diet>DiaryFree</diet>
+</recipe>
+<recipe>
+<title>Pad Thai Noodles</title>
+    <filename>pad_thai_noodles.xml</filename>
+<thumbnail>../images/pad_thai_noodles.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Lasagna</title>
+    <filename>lasagna.xml</filename>
+<thumbnail>../images/lasagna.jpeg</thumbnail>
+<category>Beef</category>
+</recipe>
+<recipe>
+<title>Potatoe and Leek Soup</title>
+    <filename>potatoe_and_leek_soup.xml</filename>
+<thumbnail>../images/potatoe_and_leek_loup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+    <title>Montys Pancakes</title>
+    <filename>montys_pancakes.xml</filename>
+    <thumbnail>../images/montys_pancakes.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Chocolate Ripple Cake</title>
+    <filename>chocolate_ripple_cake.xml</filename>
+<thumbnail>../images/chocolate_ripple_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Jasmines Ice Coffee</title>
+    <filename>jasmines_ice_coffee.xml</filename>
+    <thumbnail>../images/ice_coffee.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Reginas Rum Cake </title>
+    <filename>reginas_rum_cake.xml</filename>
+<thumbnail>../images/reginas_rum_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Gratin</title>
+    <filename>gratin.xml</filename>
+<thumbnail>../images/gratin.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Moroccan Fries</title>
+    <filename>moroccan_fries.xml</filename>
+<thumbnail>../images/moroccan_fries.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Artichoke Dip</title>
+    <filename>artichoke_dip.xml</filename>
+<thumbnail>../images/artichoke_dip.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>Garlic Chilli Chard</title>
+    <filename>garlic_chilli_chard.xml</filename>
+<thumbnail>../images/garlic_chilli_chard.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>Grain and Nut Free Sandwich Bread</title>
+    <filename>grain_and_nut_free_sandwich_bread.xml</filename>
+<thumbnail>../images/grain_and_nut_free_sandwich_bread.jpeg</thumbnail>
+<category>Sides</category>
+<diet>Paleo</diet>
+</recipe>
+<recipe>
+<title>Baked Christmas Ham</title>
+    <filename>baked_christmas_ham.xml</filename>
+<thumbnail>../images/baked_christmas_ham.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+    <title>Upside-down cake</title>
+    <filename>upside_down_cake.xml</filename>
+    <thumbnail>../images/upside_down_cake.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Smart Cookies</title>
     <filename>smart_cookies.xml</filename>
-  <thumbnail>../images/smart_cookies.jpeg</thumbnail>
-  <category>Sweets</category>
+<thumbnail>../images/smart_cookies.jpeg</thumbnail>
+<category>Sweets</category>
 </recipe>
 <recipe>
-  <title>Curry Carrot Soup</title>
-    <filename>curry_carrot_soup.xml</filename>
-  <thumbnail>../images/curry_carrot_soup.jpeg</thumbnail>
-  <category>Soup</category>
-  <diet>GlutenFree</diet>
+<title>Mac and Cheese</title>
+    <filename>mac_and_cheese.xml</filename>
+<thumbnail>../images/mac_and_cheese.jpeg</thumbnail>
+<category>Dinner</category>
 </recipe>
 <recipe>
-  <title>Greek Salad</title>
+    <title>Gluten Free Chocolate Cookies</title>
+    <filename>gluten_free_chocolate_cookies.xml</filename>
+    <thumbnail>../images/gluten_free_chocolate_cookies.jpeg</thumbnail>
+    <category>Sweets</category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Black bean Burgers</title>
+    <filename>black_bean_burgers.xml</filename>
+<thumbnail>../images/blackbean_burgers.jpeg</thumbnail>
+<category></category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Osso Buco</title>
+    <filename>osso_buco.xml</filename>
+<thumbnail>../images/osso_buco.jpeg</thumbnail>
+<category>Beef</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>One Pot Pasta</title>
+    <filename>one_pot_pasta copy.xml</filename>
+    <thumbnail>../images/one_pot_pasta.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Turmeric Latte</title>
+    <filename>turmeric_latte.xml</filename>
+<thumbnail>../images/turmeric_latte.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Basic Ice Tea</title>
+    <filename>basic_ice_tea.xml</filename>
+<thumbnail>../images/basic_ice_tea.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Quick Chicken Pho</title>
+    <filename>quick_chicken_pho.xml</filename>
+<thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
+<category>Soup</category>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Greek Salad</title>
     <filename>greek_salad.xml</filename>
-  <thumbnail>../images/greek_salad.jpeg</thumbnail>
-  <category>Salad</category>
-  <diet>FODMAP</diet>
+<thumbnail>../images/greek_salad.jpeg</thumbnail>
+<category>Salad</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Carlys Dads Veggie Lasagna</title>
+    <filename>carlys_dads_veggie_lasagna.xml</filename>
+<thumbnail>../images/carlys_dad_veggie_lasagna.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Mexican Black Beans and Rice</title>
+    <filename>mexican_black_beans_and_rice.xml</filename>
+<thumbnail>../images/mexican_blackbeans_and_rice.jpeg</thumbnail>
+<category>Vegetarian</category>
+</recipe>
+<recipe>
+<title>Mini Pear Puddings </title>
+    <filename>mini_pear_puddings_.xml</filename>
+<thumbnail>../images/mini_pear_pudding.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Cottage Pie</title>
+    <filename>cottage_pie.xml</filename>
+<thumbnail>../images/cottage_pie.jpeg</thumbnail>
+<category>Lamb</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Breakfast Rolls</title>
+    <filename>breakfast_rolls.xml</filename>
+    <thumbnail>../images/breakfast_rolls.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>CHOW MEIN</title>
+    <filename>chow_mein.xml</filename>
+<thumbnail>../images/chow_mein.jpeg</thumbnail>
+<category>Pork</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Grandmas Pasties</title>
+    <filename>grandmas_pasties.xml</filename>
+<thumbnail>../images/grandmas_pasties.jpeg</thumbnail>
+<category>Beef</category>
+</recipe>
+<recipe>
+<title>Cauliflower Soup</title>
+    <filename>cauliflower_soup.xml</filename>
+<thumbnail>../images/cauliflower_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Chocolate Pud</title>
+    <filename>chocolate_pud.xml</filename>
+<thumbnail>../images/chocolate_pudding.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Okonomiyaki</title>
+    <filename>okonomiyaki.xml</filename>
+<thumbnail>../images/okonomiyaki.jpeg</thumbnail>
+<category>Lunch</category>
+</recipe>
+<recipe>
+    <title>Roasted Veg and Buckwheat Salad</title>
+    <filename>roasted_veg_and_buckwheat_salad.xml</filename>
+    <thumbnail>../images/roasted_veg_salad.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Green Thai Chicken Curry</title>
+    <filename>green_thai_chicken_curry.xml</filename>
+<thumbnail>../images/green_thai_chicken_curry.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Gluten Free Orange Cake</title>
+    <filename>gluten_free_orange_cake.xml</filename>
+    <thumbnail>../images/gluten_free_orange_cake.jpeg</thumbnail>
+    <category>Sweets</category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Coq au vin</title>
+    <filename>coq_au_vin.xml</filename>
+<thumbnail>../images/coq_an_vin.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>One Pot Pasta</title>
+    <filename>one_pot_pasta.xml</filename>
+<thumbnail>../images/one_pot_pasta.jpeg</thumbnail>
+<category>Beef</category>
+</recipe>
+<recipe>
+    <title>Grandmas Steak and Black Beans</title>
+    <filename>grandmas_steak_and_black_beans.xml</filename>
+    <thumbnail>../images/grandmas_steak_and_blackbean.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Pizza Dough</title>
+    <filename>pizza_dough.xml</filename>
+<thumbnail>../images/pizza_dough.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Keto Lava Chocolate Mug Cake</title>
+    <filename>keto_lava_chocolate_mug_cake.xml</filename>
+<thumbnail>../images/keto_lava_chocolate_mug_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Keto</diet>
+</recipe>
+<recipe>
+<title>Home Made English Muffins</title>
+    <filename>home_made_english_muffins.xml</filename>
+<thumbnail>../images/home_made_english_muffins.jpeg</thumbnail>
+<category>Breakfast</category>
+</recipe>
+<recipe>
+<title>Dutch Oven Enchiladas</title>
+    <filename>dutch_oven_enchiladas.xml</filename>
+<thumbnail>../images/dutch_oven_enchiladas.jpeg</thumbnail>
+<category>Poultry</category>
+</recipe>
+<recipe>
+<title>Paleo Chocolate Chip Cookies </title>
+    <filename>paleo_chocolate_chip_cookies.xml</filename>
+<thumbnail>../images/paleo_choc_chip_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Paleo</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Orange Cake</title>
+    <filename>orange_cake.xml</filename>
+<thumbnail>../images/orange_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Rosemary Spuds</title>
+    <filename>rosemary_spuds.xml</filename>
+<thumbnail>../images/rosemary_roast_spuds.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Cookie in a Cup</title>
+    <filename>cookie_in_a_cup.xml</filename>
+<thumbnail>../images/cookie _in_a_cup.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Oven Risotto with Sweet Spud</title>
+    <filename>oven_risotto_with_sweet_spud.xml</filename>
+    <thumbnail>../images/oven_risotto_with_sweet_spud.jpeg</thumbnail>
+    <category>Dinner</category>
+    <diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Home made crackers</title>
+    <filename>home_made_crackers.xml</filename>
+<thumbnail>../images/homemade_crackers.jpeg</thumbnail>
+<category></category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Alecias Cinnamon Rolls</title>
+    <filename>alecias_cinnamon_rolls.xml</filename>
+    <thumbnail>../images/alecias_cinnamon_rolls.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Tzatziki </title>
+    <filename>tzatziki.xml</filename>
+<thumbnail>../images/tzatziki.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Middle Eastern Lentil Salad</title>
+    <filename>middle_eastern_lentil_salad.xml</filename>
+<thumbnail>../images/middle_eastern_lentil_salad.jpeg</thumbnail>
+<category>Salad</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Tuna Pasta</title>
+    <filename>tuna_pasta.xml</filename>
+<thumbnail>../images/tuna_pasta.jpeg</thumbnail>
+<category>Fish</category>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Spicy Lentil Dip</title>
+    <filename>spicy_lentil_dip.xml</filename>
+<thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Chocolate Chip Cookies</title>
+    <filename>chocolate_chip_cookies.xml</filename>
+<thumbnail>../images/chocolate_chip_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Grandmas Bread and Butter Pud</title>
+    <filename>grandmas_bread_and_butter_pud.xml</filename>
+<thumbnail>../images/grandmas_bread_and_butter_pud.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Pesto</title>
+    <filename>pesto.xml</filename>
+    <thumbnail>../images/pesto.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Acquacotta</title>
+    <filename>acquacotta.xml</filename>
+<thumbnail>../images/acquacotta.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Coconut Rough Slice</title>
+    <filename>coconut_rough_slice.xml</filename>
+<thumbnail>../images/coconut_rough_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Corner Store Curry</title>
+    <filename>corner_store_curry.xml</filename>
+    <thumbnail>../images/jamie_oliver_corner_store_curry.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>Awesome Roasted Beetroot Dip</title>
+    <filename>awesome_roasted_beetroot_dip.xml</filename>
+    <thumbnail>../images/beetroot_dip.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP</diet>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Cauliflower-Crust Spinach Pie</title>
+    <filename>cauliflower_crust_spinach_pie.xml</filename>
+<thumbnail>../images/cauliflour_crust_spinach_pie.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>No Bake Oreo Cheese Cake</title>
+    <filename>no_bake_oreo_cheese_cake.xml</filename>
+<thumbnail>../images/no_bake_oreo_cheese_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Taco Mix</title>
+    <filename>taco_mix.xml</filename>
+<thumbnail>../images/taco_bake.jpeg</thumbnail>
+<category>Beef</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Rum Balls</title>
+    <filename>rum_balls.xml</filename>
+<thumbnail>../images/rum_balls.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Big Boy Burgers</title>
+    <filename>big_boy_burgers.xml</filename>
+<thumbnail>../images/big_boy_burgers.jpeg</thumbnail>
+<category>Beef</category>
+</recipe>
+<recipe>
+    <title>Simple Greek Seasoning </title>
+    <filename>simple_greek_seasoning.xml</filename>
+    <thumbnail>../images/greek_seasoning.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Quinoa filled eggplant</title>
+    <filename>quinoa_filled_eggplant.xml</filename>
+<thumbnail>../images/quinoa_filled_eggplant.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Easy Mini Cheese Cakes</title>
+    <filename>easy_mini_cheese_cakes.xml</filename>
+<thumbnail>../images/easy_mini_cheese_cakes.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Spinach Artichoke Quinoa Casserole</title>
+    <filename>spinach_artichoke_quinoa_casserole.xml</filename>
+<thumbnail>../images/spinach_artichoke_quinoa_casserole.jpeg</thumbnail>
+<category>Vegetarian</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Quick Banana Dessert</title>
+    <filename>quick_banana_dessert.xml</filename>
+<thumbnail>../images/quick_banana_dessert.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Black bean noodles </title>
+    <filename>black_bean_noodles.xml</filename>
+<thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>Pea and Ham Soup</title>
+    <filename>pea_and_ham_soup.xml</filename>
+<thumbnail>../images/pea_and_ham_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Healthy Sausage Rolls</title>
+    <filename>healthy_sausage_rolls.xml</filename>
+    <thumbnail>../images/healthy_sausage_rolls.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Coconut Roughs</title>
+    <filename>coconut_roughs.xml</filename>
+<thumbnail>../images/coconut_roughs.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Martys Tiramisu</title>
+    <filename>martys_tiramisu.xml</filename>
+<thumbnail>../images/martys_tiramisu.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>smoked salmon cucumber</title>
+    <filename>smoked_salmon_cucumber.xml</filename>
+<thumbnail>../images/smoked_salmon_and_cucumber.jpeg</thumbnail>
+<category>Sides</category>
+<category>Fish</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Home made dishwasher powder </title>
+    <filename>home_made_dishwasher_powder.xml</filename>
+<thumbnail>../images/homemade_dish_washer_powder.jpeg</thumbnail>
+<category>Household</category>
+</recipe>
+<recipe>
+<title>Muesli Cookies</title>
+    <filename>muesli_cookies.xml</filename>
+<thumbnail>../images/muesli_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Asian Salad</title>
+    <filename>asian_salad.xml</filename>
+    <thumbnail>../images/asian_salad.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Nasi Goreng</title>
+    <filename>nasi_goreng.xml</filename>
+<thumbnail>../images/nasi_goreng.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Mango Slushie</title>
+    <filename>mango_slushie.xml</filename>
+<thumbnail>../images/mango_slushie.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Filo Pie</title>
+    <filename>filo_pie.xml</filename>
+<thumbnail>../images/filo_pie.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Simple Friedrice</title>
+    <filename>simple_friedrice.xml</filename>
+    <thumbnail>../images/simple_friedrice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Green Bean Salad</title>
+    <filename>green_bean_salad.xml</filename>
+<thumbnail>../images/green_bean_salad.jpeg</thumbnail>
+<category>Salad</category>
+</recipe>
+<recipe>
+    <title>Tuna Rice Bake</title>
+    <filename>tuna_rice_bake.xml</filename>
+    <thumbnail>../images/tuna_bake.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Zucchini and Sweet Spud Fritters</title>
+    <filename>zucchini_and_sweet_spud_fritters.xml</filename>
+<thumbnail>../images/zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Gerrys Banana and Pecan Cake</title>
+    <filename>gerrys_banana_pecan_cake.xml</filename>
+<thumbnail>../images/gerrys_banana_bread.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Rocky Road</title>
+    <filename>rocky_road.xml</filename>
+<thumbnail>../images/rocky_road.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Sues Brown Rice Salad</title>
+    <filename>sues_brown_rice_salad.xml</filename>
+<thumbnail>../images/sues_brown_rice_salad.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Vegan Chocolate Cake</title>
+    <filename>vegan_chocolate_cake.xml</filename>
+<thumbnail>../images/vegan_chocolate_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Kathys Hedgehog</title>
+    <filename>kathys_hedgehog.xml</filename>
+<thumbnail>../images/kathy_hedgehog.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>FODMAP</diet>
+</recipe>
+<recipe>
+    <title>Patricias Pannecotta</title>
+    <filename>patricias_pannecotta.xml</filename>
+    <thumbnail>../images/patricas_pannecotta.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Traditional Shortbread</title>
+    <filename>traditional_shortbread.xml</filename>
+<thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Spanish Rice</title>
+    <filename>spanish_rice.xml</filename>
+    <thumbnail>../images/spanish_rice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+    <diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Healthy Oat and Honey Bread</title>
+    <filename>healthy_oat_and_honey_bread.xml</filename>
+<thumbnail>../images/healthy_oat_and_honey_bread.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Summer Quiche</title>
+    <filename>summer_quiche.xml</filename>
+<thumbnail>../images/summer_quiche.jpeg</thumbnail>
+<category>Vegetarian</category>
+<category>Dinner</category>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<diet>Keto</diet>
+</recipe>
+<recipe>
+<title>Home Made Hoisin Sauce</title>
+    <filename>home_made_hoisin_sauce.xml</filename>
+<thumbnail>../images/home_made_hoisin_sauce.jpeg</thumbnail>
+<category></category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Cazzies Veggie Soup</title>
+    <filename>cazzies_veggie_soup.xml</filename>
+<thumbnail>../images/cazzies_veggie_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Easy Stir Fry</title>
+    <filename>easy_stir_fry.xml</filename>
+<thumbnail>../images/easy_stir_fry.jpeg</thumbnail>
+<category>Poultry</category>
+</recipe>
+<recipe>
+<title>Harira</title>
+    <filename>harira.xml</filename>
+<thumbnail>../images/harira.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Easy Scones</title>
+    <filename>easy_scones.xml</filename>
+<thumbnail>../images/easiest_scones_in_the_world.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Upside Down Banana Cake</title>
+    <filename>upside_down_banana_cake.xml</filename>
+<thumbnail>../images/upside_down_banana_cake.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+    <title>Gluten Free Shortbread </title>
+    <filename>gluten_free_shortbread.xml</filename>
+    <thumbnail>../images/glutenfree_shortbread.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Homemade Fajita Mix</title>
+    <filename>homemade_fajita_mix.xml</filename>
+<thumbnail>../images/home_made_fajita_mix.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Moroccan Beetroot Salad</title>
+    <filename>moroccan_beetroot_salad.xml</filename>
+<thumbnail>../images/moroccan_beetroot_salad.jpeg</thumbnail>
+<category>Salad</category>
+<diet>Paleo</diet>
+</recipe>
+<recipe>
+<title>Lemon Shortbread </title>
+    <filename>lemon_shortbread.xml</filename>
+<thumbnail>../images/lemon_shrotbread.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>LowCarb</diet>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Cherry Tomato Bake</title>
+    <filename>cherry_tomato_bake.xml</filename>
+    <thumbnail>../images/cherry_tomato_bake.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Egg Slice</title>
+    <filename>egg_slice.xml</filename>
+<thumbnail>../images/egg_slice.jpeg</thumbnail>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Egg and Bacon Pie</title>
+    <filename>egg_and_bacon_pie.xml</filename>
+<thumbnail>../images/egg_and_bacon_pie.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Irish Mashed Spud</title>
+    <filename>irish_mashed_spud.xml</filename>
+<thumbnail>../images/irish_mash_spud.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Rice Bubble Slice</title>
+    <filename>rice_bubble_slice.xml</filename>
+<thumbnail>../images/rice_bubble_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Grandmas Veggie Soup</title>
+    <filename>grandmas_veggie_soup.xml</filename>
+<thumbnail>../images/grandmas_veggie_soup.jpeg</thumbnail>
+<category>Soup</category>
+</recipe>
+<recipe>
+<title>Cazzies Smoothy</title>
+    <filename>cazzies_smoothy.xml</filename>
+<thumbnail>../images/cazzie_smoothy.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+    <title>Cup Cakes</title>
+    <filename>cup_cakes.xml</filename>
+    <thumbnail>../images/cup_cakes.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Spanakopita </title>
+    <filename>spanakopita.xml</filename>
+<thumbnail>../images/spanakopita.jpeg</thumbnail>
+<category>Vegetarian</category>
+</recipe>
+<recipe>
+<title>Greek chicken and lemon rice</title>
+    <filename>greek_chicken_lemon_rice.xml</filename>
+<thumbnail>../images/greek_chicken_with_rice.jpeg</thumbnail>
+<category>Poultry</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Natural Homemade Face Scrub</title>
+    <filename>natural_homemade_face_scrub.xml</filename>
+<thumbnail>../images/natural_homemade_face_scrub.jpeg</thumbnail>
+<category>Household</category>
+</recipe>
+<recipe>
+<title>Mint Slice</title>
+    <filename>mint_slice.xml</filename>
+<thumbnail>../images/mint_slice.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>No Cook Vegan ChocCoconut Slice</title>
+    <filename>no_cook_vegan_choccoconut_slice.xml</filename>
+<thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>Paleo</diet>
+</recipe>
+<recipe>
+<title>Warm French Lentils </title>
+    <filename>warm_french_lentils.xml</filename>
+<thumbnail>../images/warm_french_lentils.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Easy Lunch Bowl</title>
+    <filename>easy_lunch_bowl.xml</filename>
+    <thumbnail>../images/easy_lunch_bowl.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+    <title>WheatBix slice</title>
+    <filename>wheatbix_slice.xml</filename>
+    <thumbnail>../images/wheatbix_slice.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Quick Kale Soup</title>
+    <filename>quick_kale_soup.xml</filename>
+    <thumbnail>../images/quick_kale_soup.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>FODMAP</diet>
+</recipe>
+<recipe>
+<title>Lamb Cutlets</title>
+    <filename>lamb_cutlets.xml</filename>
+<thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+<title>Sarah Os Brownies</title>
+    <filename>sarah_os_brownies.xml</filename>
+<thumbnail>../images/sarah_os_brownies.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Raspberry Blondies</title>
+    <filename>raspberry_blondies.xml</filename>
+<thumbnail>../images/raspberries_blondies.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>GlutenFree Creamy Pasta</title>
+    <filename>glutenfree_creamy_pasta.xml</filename>
+<thumbnail>../images/gluten_free_creamy_paste.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Jassy Tasty Wraps</title>
+    <filename>jassy_tasty_wraps.xml</filename>
+<thumbnail>../images/jassys_tasty_wraps.jpeg</thumbnail>
+<category>Lunch</category>
+</recipe>
+<recipe>
+<title>Mini Oat Bars</title>
+    <filename>mini_oat_bars.xml</filename>
+<thumbnail>../images/mini_oat_bars.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Quick and Easy Butter Chicken </title>
+    <filename>quick_easy_butter_chicken.xml</filename>
+<thumbnail>../images/quick_and_easy_butter_chicken.jpeg</thumbnail>
+<category>Poultry</category>
+<category>Dinner</category>
+</recipe>
+<recipe>
+    <title>Sams Chocolate Chip Cookies</title>
+    <filename>sams_chocolate_chip_cookies.xml</filename>
+    <thumbnail>../images/sams_choc_chip_cookies.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+</recipe>
+<recipe>
+<title>Gluten Free Brownie</title>
+    <filename>gluten_free_brownie.xml</filename>
+<thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Callums Chilli</title>
+    <filename>callums_chilli.xml</filename>
+<thumbnail>../images/callums_chilli.jpeg</thumbnail>
+<category>Dinner</category>
+<diet>Vegan</diet>
+</recipe>
+<recipe>
+<title>Life Changing Bread</title>
+    <filename>life_changing_bread.xml</filename>
+<thumbnail>../images/life_changing_bread.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Home made Carmen Bars</title>
+    <filename>home_made_carmen_bars.xml</filename>
+<thumbnail>../images/homemade_carmen_bars.jpeg</thumbnail>
+<category>Lunch</category>
+</recipe>
+<recipe>
+<title>Fall Greens</title>
+    <filename>fall_greens.xml</filename>
+<thumbnail>../images/fall_greens.jpeg</thumbnail>
+<category>Salad</category>
+</recipe>
+<recipe>
+<title>White Sauce</title>
+    <filename>white_sauce.xml</filename>
+<thumbnail>../images/white_sauce.jpeg</thumbnail>
+<category>Sides</category>
+</recipe>
+<recipe>
+<title>Curry Carrot Soup</title>
+    <filename>curry_carrot_soup.xml</filename>
+<thumbnail>../images/curry_carrot_soup.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Paleo Pumpkin Pie</title>
+    <filename>paleo_pumpkin_pie.xml</filename>
+<thumbnail>../images/paleo_pumpkin_pie.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Paleo</diet>
+</recipe>
+<recipe>
+<title>Awesome Cappuccino Mix</title>
+    <filename>awesome_cappuccino_mix.xml</filename>
+<thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Healthy Christmas Cake</title>
+    <filename>healthy_christmas_cake.xml</filename>
+<thumbnail>../images/healthy_christmas_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+<diet>Paleo</diet>
+</recipe>
+<recipe>
+<title>Jasmine Special</title>
+    <filename>jasmine_special.xml</filename>
+<thumbnail>../images/jasmine_special.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Curry Noodles</title>
+    <filename>curry_noodles.xml</filename>
+<thumbnail>../images/curry_noodles.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Three Ingredient Cookies</title>
+    <filename>three_ingredient_cookies.xml</filename>
+<thumbnail>../images/three_ingredient_cookies.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Chicken Noodle Soup</title>
+    <filename>chicken_noodle_soup.xml</filename>
+<thumbnail>../images/chicken_noodle_soup.jpeg</thumbnail>
+<category>Soup</category>
+</recipe>
+<recipe>
+<title>Russian Tea Cakes</title>
+    <filename>russian_tea_cakes.xml</filename>
+<thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Grandmas Rice Custard </title>
+    <filename>grandmas_rice_custard_.xml</filename>
+<thumbnail>../images/grandmas_rice_custard.jpeg</thumbnail>
+<category>Sweets</category>
+</recipe>
+<recipe>
+<title>Quick Pasta Bake</title>
+    <filename>quick_pasta_bake.xml</filename>
+<thumbnail>../images/quick_pasta_bake.jpeg</thumbnail>
+<category>Dinner</category>
+</recipe>
+<recipe>
+<title>Boston Tea</title>
+    <filename>boston_tea.xml</filename>
+<thumbnail>../images/boston_tea.jpeg</thumbnail>
+<category>Drink</category>
+</recipe>
+<recipe>
+<title>Mac and Cheese Slice</title>
+    <filename>mac_and_cheese_slice.xml</filename>
+<thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
+<category>Lunch</category>
+</recipe>
+<recipe>
+<title>CHOWDER</title>
+    <filename>chowder.xml</filename>
+<thumbnail>../images/chowder.jpeg</thumbnail>
+<category>Soup</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Awesome Roast Spuds</title>
+    <filename>awesome_roast_spuds.xml</filename>
+<thumbnail>../images/awesome_roast_spuds.jpeg</thumbnail>
+<category></category>
+</recipe>
+<recipe>
+    <title>Hummingbird Cake</title>
+    <filename>hummingbird_cake.xml</filename>
+    <thumbnail>../images/hummingbird_cake.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Emmas Slow Roast Beef</title>
+    <filename>emmas_slow_roast_beef.xml</filename>
+<thumbnail>../images/emmas_slow_roast_beef.jpeg</thumbnail>
+<category>Beef</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+    <title>Baked Puttanesca Risotto </title>
+    <filename>baked_puttanesca_risotto.xml</filename>
+    <thumbnail>../images/baked_puttanesca_risotto.jpeg</thumbnail>
+    <image></image>
+    <category></category>
+    <diet>GlutenFree</diet>
+    <diet>Vegetarian</diet>
+</recipe>
+<recipe>
+<title>Hummus </title>
+    <filename>hummus.xml</filename>
+<thumbnail>../images/hummus.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+</recipe>
+<recipe>
+<title>Oat Slice</title>
+    <filename>oat_slice.xml</filename>
+<thumbnail>../images/oat _slice.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>Vegan</diet>
+<diet>GlutenFree</diet>
 </recipe>
 
 
