@@ -1,23 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>White Sauce</title>
-<filename>white_sauce.xml</filename>
-<thumbnail>../images/white_sauce.jpeg</thumbnail>
-<category>Sides</category>
-<ingredient>125gms butter</ingredient>
-<ingredient>1/3 cup flour</ingredient>
-<ingredient>500-600 mls milk</ingredient>
-<ingredient>Salt and White pepper to taste</ingredient>
-<ingredient>Nutmeg</ingredient>
-<ingredient>1 Teaspoon mustard (if desired)</ingredient>
-<step>
-Get all ingredients ready on the bench. In a small pot on medium to low heat, melt butter and add flour. Stir to make a paste and remove any lumps. Add milk approximately 1/4 cup at a time,  and stir until blended and becomes slightly thickened. Keep adding milk in small amounts stirring constantly until all used. Add salt, white pepper and small amount freshly grated nutmeg. Stir well and add mustard if desired. You can also add 1/2-1 cup grated cheese to make a cheese sauce. Use immediately! Add to pasta or use in lasagna or even pies.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>White Sauce</title>
+  <filename>white_sauce.xml</filename>
+  <thumbnail>../images/white_sauce.jpeg</thumbnail>
+  <category>Sides</category>
+  <ingredient>125gms butter</ingredient>
+  <ingredient>1/3 cup flour</ingredient>
+  <ingredient>500-600 mls milk</ingredient>
+  <ingredient>Salt and White pepper to taste</ingredient>
+  <ingredient>Nutmeg</ingredient>
+  <ingredient>1 Teaspoon mustard (if desired)</ingredient>
+  <step>Get all ingredients ready on the bench.</step>
+  <step>In a small pot on medium to low heat, melt butter and add flour.</step>
+  <step>Stir to make a paste and remove any lumps.</step>
+  <step>Add milk approximately 1/4 cup at a time,  and stir until blended and becomes slightly thickened.</step>
+  <step>Keep adding milk in small amounts stirring constantly until all used.</step>
+  <step>Add salt, white pepper and small amount freshly grated nutmeg.</step>
+  <step>Stir well and add mustard if desired.</step>
+  <step>You can also add 1/2-1 cup grated cheese to make a cheese sauce.</step>
+  <step>Use immediately! Add to pasta or use in lasagna or even pies.</step>
 </recipe>
-

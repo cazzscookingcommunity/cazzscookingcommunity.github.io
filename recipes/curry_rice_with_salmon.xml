@@ -1,28 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Curry Rice with Salmon</title>
-<filename>curry_rice_with_salmon.xml</filename>
-<thumbnail>../images/curry_rice_with_salmon.jpeg</thumbnail>
-<category>Fish</category>
-<diet>GlutenFree</diet>
-<ingredient>2 cups of basmati rice</ingredient>
-<ingredient>1 can wild Alaskan salmon drained and flaked (remove bones if desired)</ingredient>
-<ingredient>2 TBsp olive oil</ingredient>
-<ingredient>2 TBsp butter</ingredient>
-<ingredient>2-4 garlic cloves crushed</ingredient>
-<ingredient>1 teasp curry powder</ingredient>
-<ingredient>4 cups of water</ingredient>
-<ingredient>3 chicken stock cubes</ingredient>
-<ingredient>1 bunch dill finely chopped</ingredient>
-<ingredient>6 eggs</ingredient>
-<step>
-Heat oil in medium size saucepan for a few minutes then add butter. Melt the butter and add garlic cloves, cook for a few minutes, then add curry powder. Stir around to mix with the garlic and smells aromatic.  Add the rice and stir continuously until all the rice is coated. Pour in the water and stock cubes and give it a good stir. Bring to the boil and reduce to a simmer with the lid off. Continue to cook until water is absorbed and small holes appear in the rice. While you are waiting for the rice, cook the eggs. In a small saucepan bring some water to the boil. Once boiling add eggs and cook for exactly 7 minutes. Remove eggs from the water and rinse under cool running water. When rice is ready turn of the heat and place lid on and leave on stove top for 12-15 minutes. While you are waiting on this, peel your eggs and place in a bowl. Once rice is ready, stir through salmon and dill.  Serve in a bowl with one of the boiled eggs cut in half on the top of the rice.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Curry Rice with Salmon</title>
+  <filename>curry_rice_with_salmon.xml</filename>
+  <thumbnail>../images/curry_rice_with_salmon.jpeg</thumbnail>
+  <category>Fish</category>
+  <diet>GlutenFree</diet>
+  <ingredient>2 cups of basmati rice</ingredient>
+  <ingredient>1 can wild Alaskan salmon drained and flaked (remove bones if desired)</ingredient>
+  <ingredient>2 TBsp olive oil</ingredient>
+  <ingredient>2 TBsp butter</ingredient>
+  <ingredient>2-4 garlic cloves crushed</ingredient>
+  <ingredient>1 teasp curry powder</ingredient>
+  <ingredient>4 cups of water</ingredient>
+  <ingredient>3 chicken stock cubes</ingredient>
+  <ingredient>1 bunch dill finely chopped</ingredient>
+  <ingredient>6 eggs</ingredient>
+  <step>Heat oil in medium size saucepan for a few minutes then add butter.</step>
+  <step>Melt the butter and add garlic cloves, cook for a few minutes, then add curry powder.</step>
+  <step>Stir around to mix with the garlic and smells aromatic.</step>
+  <step>Add the rice and stir continuously until all the rice is coated.</step>
+  <step>Pour in the water and stock cubes and give it a good stir.</step>
+  <step>Bring to the boil and reduce to a simmer with the lid off.</step>
+  <step>Continue to cook until water is absorbed and small holes appear in the rice.</step>
+  <step>While you are waiting for the rice, cook the eggs.</step>
+  <step>In a small saucepan bring some water to the boil.</step>
+  <step>Once boiling add eggs and cook for exactly 7 minutes.</step>
+  <step>Remove eggs from the water and rinse under cool running water.</step>
+  <step>When rice is ready turn of the heat and place lid on and leave on stove top for 12-15 minutes.</step>
+  <step>While you are waiting on this, peel your eggs and place in a bowl.</step>
+  <step>Once rice is ready, stir through salmon and dill.</step>
+  <step>Serve in a bowl with one of the boiled eggs cut in half on the top of the rice.</step>
 </recipe>
-

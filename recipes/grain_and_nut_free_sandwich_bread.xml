@@ -1,29 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Grain and Nut Free Sandwich Bread</title>
-<filename>grain_and_nut_free_sandwich_bread.xml</filename>
-<comment>c/o primal paleo</comment>
-<thumbnail>../images/grain_and_nut_free_sandwich_bread.jpeg</thumbnail>
-<category>Sides</category>
-<diet>Paleo</diet>
-<ingredient>6 eggs separated </ingredient>
-<ingredient>4 Tbsp unsalted butter melted </ingredient>
-<ingredient>1/2 cup plain Greek yogurt </ingredient>
-<ingredient>2 Tbsp Apple Cider Vinegar </ingredient>
-<ingredient>1/2 cup coconut flour sifted</ingredient>
-<ingredient>1/4 cup Psyllium husks (powder)</ingredient>
-<ingredient>1/4 teaspoon salt</ingredient>
-<ingredient>Sesames seeds (optional)</ingredient>
-<step>
-Preheat oven to 180C. Grease and line a bread tin and set aside. In one bowl add all dry ingredients. In a blender or use a hand mixer beat egg white until soft peaks form. In a separate bowl add the yolks, Greek yogurt and cooled butter and stir well. Add this to the dry ingredients and stir until combined. Fold through 1/3 of
-the whites until combined. Add the next third and do the same and lastly add the last 1/3 and fold until incorporated. Pour into prepared pan and smooth the top with the back of a spoon. Sprinkle over sesame seeds if desired. Place
-In middle rack of the oven and cook for 30-40 minutes or until golden brown. Cool in pan for 10 minutes before removing. Slice and serve.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Grain and Nut Free Sandwich Bread</title>
+  <filename>grain_and_nut_free_sandwich_bread.xml</filename>
+  <comment>c/o primal paleo</comment>
+  <thumbnail>../images/grain_and_nut_free_sandwich_bread.jpeg</thumbnail>
+  <category>Sides</category>
+  <diet>Paleo</diet>
+  <ingredient>6 eggs separated </ingredient>
+  <ingredient>4 Tbsp unsalted butter melted </ingredient>
+  <ingredient>1/2 cup plain Greek yogurt </ingredient>
+  <ingredient>2 Tbsp Apple Cider Vinegar </ingredient>
+  <ingredient>1/2 cup coconut flour sifted</ingredient>
+  <ingredient>1/4 cup Psyllium husks (powder)</ingredient>
+  <ingredient>1/4 teaspoon salt</ingredient>
+  <ingredient>Sesames seeds (optional)</ingredient>
+  <step>Preheat oven to 180C.</step>
+  <step>Grease and line a bread tin and set aside.</step>
+  <step>In one bowl add all dry ingredients.</step>
+  <step>In a blender or use a hand mixer beat egg white until soft peaks form.</step>
+  <step>In a separate bowl add the yolks, Greek yogurt and cooled butter and stir well.</step>
+  <step>Add this to the dry ingredients and stir until combined.</step>
+  <step>Fold through 1/3 of
+the whites until combined.</step>
+  <step>Add the next third and do the same and lastly add the last 1/3 and fold until incorporated.</step>
+  <step>Pour into prepared pan and smooth the top with the back of a spoon.</step>
+  <step>Sprinkle over sesame seeds if desired.</step>
+  <step>Place
+In middle rack of the oven and cook for 30-40 minutes or until golden brown.</step>
+  <step>Cool in pan for 10 minutes before removing.</step>
+  <step>Slice and serve.</step>
 </recipe>
-

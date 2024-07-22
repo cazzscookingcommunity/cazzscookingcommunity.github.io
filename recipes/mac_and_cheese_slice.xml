@@ -1,30 +1,31 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Mac and Cheese Slice</title>
-<filename>mac_and_cheese_slice.xml</filename>
-<thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
-<category>Lunch</category>
-<part><title>Main</title>
-<ingredient>1 packet macaroni </ingredient>
-<ingredient>400 gms bacon pieces cooked</ingredient>
-<ingredient>1 quantity white sauce*</ingredient>
-<ingredient>2 TBsp Olive oil </ingredient>
-<ingredient>Grated tasty cheese</ingredient>
-<ingredient>Salt and Pepper to taste</ingredient>
-<step>Preheat oven to 180D. Cook macaroni to packet directions and pour 2 Tbsp olive oil and stir to coat all pasta (this stops it sticking together.) Pour into baking dish with all other ingredients except cheese and stir to combine. Top with cheese and bake for 40 minutes or until lightly browned on top.</step>
-</part>
-<part><title>White Sauce</title>
-<ingredient>125 gms butter</ingredient>
-<ingredient>1/3 cup flour </ingredient>
-<ingredient>700 MPs milk</ingredient>
-<ingredient>Salt and white pepper to taste</ingredient>
-<step>Melt butter on stove top, add flour and stir to combine. Add a little milk and stir well until it thickens. Continually do this until all milk use up. Add Salt and Pepper to taste.</step>
-</part>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Mac and Cheese Slice</title>
+  <filename>mac_and_cheese_slice.xml</filename>
+  <thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
+  <category>Lunch</category>
+  <part>
+    <title>Main</title>
+    <ingredient>1 packet macaroni </ingredient>
+    <ingredient>400 gms bacon pieces cooked</ingredient>
+    <ingredient>1 quantity white sauce*</ingredient>
+    <ingredient>2 TBsp Olive oil </ingredient>
+    <ingredient>Grated tasty cheese</ingredient>
+    <ingredient>Salt and Pepper to taste</ingredient>
+    <step>Preheat oven to 180D.</step>
+    <step>Cook macaroni to packet directions and pour 2 Tbsp olive oil and stir to coat all pasta (this stops it sticking together.</step>
+    <step>) Pour into baking dish with all other ingredients except cheese and stir to combine.</step>
+    <step>Top with cheese and bake for 40 minutes or until lightly browned on top.</step>
+  </part>
+  <part>
+    <title>White Sauce</title>
+    <ingredient>125 gms butter</ingredient>
+    <ingredient>1/3 cup flour </ingredient>
+    <ingredient>700 MPs milk</ingredient>
+    <ingredient>Salt and white pepper to taste</ingredient>
+    <step>Melt butter on stove top, add flour and stir to combine.</step>
+    <step>Add a little milk and stir well until it thickens.</step>
+    <step>Continually do this until all milk use up.</step>
+    <step>Add Salt and Pepper to taste.</step>
+  </part>
 </recipe>
-

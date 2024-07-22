@@ -1,21 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Home Made English Muffins</title>
-<filename>home_made_english_muffins.xml</filename>
-<thumbnail>../images/home_made_english_muffins.jpeg</thumbnail>
-<category>Breakfast</category>
-<ingredient>1 cup plain flour</ingredient>
-<ingredient>1/4 cup boiling water</ingredient>
-<ingredient>1/2 cup room temperature water</ingredient>
-<ingredient>1/2 teaspoon salt, dry yeast, sugar and baking powder</ingredient>
-<ingredient>Spray oil</ingredient>
-<step>In a bowl mix two waters together and mix in yeast and set aside. In a separate bowl whisk all other dry ingredients. Make a well in the centre and add the wet ingredients. Mix until combined and add quarter cup to a medium hot pan that has been sprayed with a light coat of oil. Cook for 10 minutes and flip over and cook for a further 6 minutes. Once done cut in half and toast. Once toasted apply lashings of butter and vegemite or jam. Eat hot, makes 6, and worth the effort.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Home Made English Muffins</title>
+  <filename>home_made_english_muffins.xml</filename>
+  <thumbnail>../images/home_made_english_muffins.jpeg</thumbnail>
+  <category>Breakfast</category>
+  <ingredient>1 cup plain flour</ingredient>
+  <ingredient>1/4 cup boiling water</ingredient>
+  <ingredient>1/2 cup room temperature water</ingredient>
+  <ingredient>1/2 teaspoon salt, dry yeast, sugar and baking powder</ingredient>
+  <ingredient>Spray oil</ingredient>
+  <step>In a bowl mix two waters together and mix in yeast and set aside.</step>
+  <step>In a separate bowl whisk all other dry ingredients.</step>
+  <step>Make a well in the centre and add the wet ingredients.</step>
+  <step>Mix until combined and add quarter cup to a medium hot pan that has been sprayed with a light coat of oil.</step>
+  <step>Cook for 10 minutes and flip over and cook for a further 6 minutes.</step>
+  <step>Once done cut in half and toast.</step>
+  <step>Once toasted apply lashings of butter and vegemite or jam.</step>
+  <step>Eat hot, makes 6, and worth the effort.</step>
 </recipe>
-

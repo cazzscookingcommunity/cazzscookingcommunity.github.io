@@ -1,38 +1,47 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Healthy Christmas Cake</title>
-<filename>healthy_christmas_cake.xml</filename>
-<comment>c/o nourish every day </comment>
-<thumbnail>../images/healthy_christmas_cake.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<diet>Paleo</diet>
-<ingredient>500 gms mixed dried fruit </ingredient>
-<ingredient>3/4 cup walnuts chopped </ingredient>
-<ingredient>1 orange</ingredient>
-<ingredient>1 1/4 cup hazelnut or almond meal</ingredient>
-<ingredient>1/2 cup coconut </ingredient>
-<ingredient>1/2 teaspoon bicarbonate soda</ingredient>
-<ingredient>1/2 teaspoon salt </ingredient>
-<ingredient>3 teaspoon mixed spice</ingredient>
-<ingredient>1 teaspoon cinnamon </ingredient>
-<ingredient>5 eggs </ingredient>
-<ingredient>50 gms butter, melted</ingredient>
-<ingredient>1 teaspoon vanilla extract </ingredient>
-<ingredient>1/2 cup brandy</ingredient>
-<step>Remove 60ml from  brandy and set aside. Place the rest of the brandy in a bowl with all of the fruit. Place lid on top and let soak overnight (this can be done for up to a week and some people even do it for a month. You can also add additional brandy and stir every day.) Once fruit is soaked you can use it for your recipe. 
-Line a grease a round cake tin and lime it with at least three layers of greaseproof paper. Make sure the paper come up out of the tin on around the sides. Preheat oven to 150C.
-Combine the hazelnut meal, coconut four, bicarbonate soda, salt, mixed spice and cinnamon in a large bowl. Zest the orange and add to the flour mixture with the walnuts (keep the orange.)
-In a separate bowl whisk the eggs and add the melted butter vanilla and the squeezed orange juice. 
-Create a well in the dry ingredients and add the wet ingredients. Mix until combined then fold through the drained mix fruit and chopped walnuts. 
-Scoop into prepared tin and smooth down with a wet hand. 
-Place in the middle rack of the oven and cook for an hour. Check every 1/2 hour to make sure it is not getting to brown. If getting too dark you can place some foil on top. Depending on your oven it may even take longer than an hour, if this is the case then you will need to turn the oven down to 140 or 130C. Remove from oven when skewer comes out clean. Pour the reserved brandy on top of the cake. Remove to a wire rack and cool completely in tin before removing.  Once totally cool wrap totally in foil, keep in fridge. Curt slices as desired and wrap remainder in foil until all gone!
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Healthy Christmas Cake</title>
+  <filename>healthy_christmas_cake.xml</filename>
+  <comment>c/o nourish every day </comment>
+  <thumbnail>../images/healthy_christmas_cake.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <diet>Paleo</diet>
+  <ingredient>500 gms mixed dried fruit </ingredient>
+  <ingredient>3/4 cup walnuts chopped </ingredient>
+  <ingredient>1 orange</ingredient>
+  <ingredient>1 1/4 cup hazelnut or almond meal</ingredient>
+  <ingredient>1/2 cup coconut </ingredient>
+  <ingredient>1/2 teaspoon bicarbonate soda</ingredient>
+  <ingredient>1/2 teaspoon salt </ingredient>
+  <ingredient>3 teaspoon mixed spice</ingredient>
+  <ingredient>1 teaspoon cinnamon </ingredient>
+  <ingredient>5 eggs </ingredient>
+  <ingredient>50 gms butter, melted</ingredient>
+  <ingredient>1 teaspoon vanilla extract </ingredient>
+  <ingredient>1/2 cup brandy</ingredient>
+  <step>Remove 60ml from  brandy and set aside.</step>
+  <step>Place the rest of the brandy in a bowl with all of the fruit.</step>
+  <step>Place lid on top and let soak overnight (this can be done for up to a week and some people even do it for a month.</step>
+  <step>You can also add additional brandy and stir every day.</step>
+  <step>) Once fruit is soaked you can use it for your recipe.</step>
+  <step>Line a grease a round cake tin and lime it with at least three layers of greaseproof paper.</step>
+  <step>Make sure the paper come up out of the tin on around the sides.</step>
+  <step>Preheat oven to 150C.</step>
+  <step>Combine the hazelnut meal, coconut four, bicarbonate soda, salt, mixed spice and cinnamon in a large bowl.</step>
+  <step>Zest the orange and add to the flour mixture with the walnuts (keep the orange.</step>
+  <step>)
+In a separate bowl whisk the eggs and add the melted butter vanilla and the squeezed orange juice.</step>
+  <step>Create a well in the dry ingredients and add the wet ingredients.</step>
+  <step>Mix until combined then fold through the drained mix fruit and chopped walnuts.</step>
+  <step>Scoop into prepared tin and smooth down with a wet hand.</step>
+  <step>Place in the middle rack of the oven and cook for an hour.</step>
+  <step>Check every 1/2 hour to make sure it is not getting to brown.</step>
+  <step>If getting too dark you can place some foil on top.</step>
+  <step>Depending on your oven it may even take longer than an hour, if this is the case then you will need to turn the oven down to 140 or 130C.</step>
+  <step>Remove from oven when skewer comes out clean.</step>
+  <step>Pour the reserved brandy on top of the cake.</step>
+  <step>Remove to a wire rack and cool completely in tin before removing.</step>
+  <step>Once totally cool wrap totally in foil, keep in fridge.</step>
+  <step>Curt slices as desired and wrap remainder in foil until all gone!.</step>
 </recipe>
-

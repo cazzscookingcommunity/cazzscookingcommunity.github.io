@@ -1,7 +1,10 @@
 # ignore ALL files in ANY directory named ...
 fb_files/
 fb_recipes/
-# scripts/python_scripts/
+
+# backup recipes pre Step expansion and pretty formatting
+recipes copy/ 
+
 .vscode/
 
 # ignore these files

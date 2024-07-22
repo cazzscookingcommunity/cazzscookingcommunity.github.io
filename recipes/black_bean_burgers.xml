@@ -1,28 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Black bean Burgers</title>
-<filename>black_bean_burgers.xml</filename>
-<comment>c/o myrecipes with cazzie tweaks </comment>
-<thumbnail>../images/blackbean_burgers.jpeg</thumbnail>
-<category></category>
-<diet>Vegetarian</diet>
-<ingredient>3 TBsp olive oil</ingredient>
-<ingredient>1 can black beans</ingredient>
-<ingredient>1 egg</ingredient>
-<ingredient>1/4 cup bread crumbs </ingredient>
-<ingredient>2 green onions chopped </ingredient>
-<ingredient>1 teaspoon cumin and coriander</ingredient>
-<ingredient>1 teaspoon mustard </ingredient>
-<ingredient>2 garlic cloves crushed</ingredient>
-<ingredient>1/4 teaspoon salt and pepper</ingredient>
-<step>
-Rinse and drain black beans, either purée in blender or mash with a fork in a bowl.  Add the other ingredients, except the oil and mix well with your hands. Form into four even patties. Heat the oil in a pan and cook on each side for 4 minutes each side. Serve with salad or inside a burger bun.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Black bean Burgers</title>
+  <filename>black_bean_burgers.xml</filename>
+  <comment>c/o myrecipes with cazzie tweaks </comment>
+  <thumbnail>../images/blackbean_burgers.jpeg</thumbnail>
+  <category/>
+  <diet>Vegetarian</diet>
+  <ingredient>3 TBsp olive oil</ingredient>
+  <ingredient>1 can black beans</ingredient>
+  <ingredient>1 egg</ingredient>
+  <ingredient>1/4 cup bread crumbs </ingredient>
+  <ingredient>2 green onions chopped </ingredient>
+  <ingredient>1 teaspoon cumin and coriander</ingredient>
+  <ingredient>1 teaspoon mustard </ingredient>
+  <ingredient>2 garlic cloves crushed</ingredient>
+  <ingredient>1/4 teaspoon salt and pepper</ingredient>
+  <step>Rinse and drain black beans, either purée in blender or mash with a fork in a bowl.</step>
+  <step>Add the other ingredients, except the oil and mix well with your hands.</step>
+  <step>Form into four even patties.</step>
+  <step>Heat the oil in a pan and cook on each side for 4 minutes each side.</step>
+  <step>Serve with salad or inside a burger bun.</step>
 </recipe>
-

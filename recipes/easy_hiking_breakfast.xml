@@ -1,32 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Easy Hiking Breakfast </title>
-    <filename>easy_hiking_breakfast.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/easy_hiking_breakfast.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-    
-
-
-
-    <ingredient>1 small ziplock bag</ingredient>
-    <ingredient>2 Wheatbix</ingredient>
-    <ingredient>2 TBsp powered full cream milk</ingredient>
-    <ingredient>2 teasp sugar</ingredient>
-    <ingredient>1/4 cup water ( added at camp site)</ingredient>
-
-    <step>
-Add to the ziplock bag wheatbix, powdered milk and sugar. Bring one for each morning for your hike. Add 1/4 cup water directly to the bag and massage to mix. Eat directly out of the bag.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Easy Hiking Breakfast </title>
+  <filename>easy_hiking_breakfast.xml</filename>
+  <comment/>
+  <thumbnail>../images/easy_hiking_breakfast.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime/>
+  <cookTime/>
+  <ingredient>1 small ziplock bag</ingredient>
+  <ingredient>2 Wheatbix</ingredient>
+  <ingredient>2 TBsp powered full cream milk</ingredient>
+  <ingredient>2 teasp sugar</ingredient>
+  <ingredient>1/4 cup water ( added at camp site)</ingredient>
+  <step>Add to the ziplock bag wheatbix, powdered milk and sugar.</step>
+  <step>Bring one for each morning for your hike.</step>
+  <step>Add 1/4 cup water directly to the bag and massage to mix.</step>
+  <step>Eat directly out of the bag.</step>
 </recipe>

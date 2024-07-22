@@ -1,32 +1,38 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>No Cook Vegan ChocCoconut Slice</title>
-<filename>no_cook_vegan_choccoconut_slice.xml</filename>
-<thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<diet>Vegan</diet>
-<diet>Paleo</diet>
-<part><title>Base</title>
-<ingredient>2 cups desiccated coconut </ingredient>
-<ingredient>4 tablespoons coconut oil</ingredient>
-<ingredient>3 tablespoons cocoa</ingredient>
-<ingredient>3 tablespoons rice malt syrup</ingredient>
-<step>To make the base grease a square cake pan with a little coconut oil and line with baking paper and set aside.  Place the coconut and sifted cocoa in a bowl and mix well. Melt the coconut oil for one minute in the microwave(or until coconut oil has melted), pour in the rice malt syrup and reheat for another minute. Pour into the coconut and cocoa mixture and stir until combined.  Pour into prepared pan and flatten with the back of a spoon or your hand.  Place in freezer while you prepare the icing.  </step>
-</part>
-<part><title>Icing</title>
-<ingredient>120 gms dark chocolate (dairy free if vegan)</ingredient>
-<ingredient>1/2 cup mixed blueberries, goji berrie and coconut chips</ingredient>
-<ingredient>1 tablespoon coconut oil</ingredient>
-<step>Break the chocolate into pieces and place in microwave proof bowl and put the coconut oil in the same bowl.  Place in microwave for thirty seconds, remove and stir. Keep doing this until the chocolate has completely melted ( mine took 1 1/2 minutes.) Remove cake pan from freezer and pour over chocolate, smooth with a back of a spoon and sprinkle over berries and coconut.  Place back in freezer for about 15 minutes or until the chocolate icing is set ( don&apos;t let it go rock hard or it will be too difficult to cut). Once set remove from pan and cut into squares. Store in fridge, if you have any left!</step>
-<step>* you can replace the rice syrup with honey or maple syrup </step>
-<step>** you can replace the berries and coconut chips with your own additions or leave them off altogether</step>
-</part>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>No Cook Vegan ChocCoconut Slice</title>
+  <filename>no_cook_vegan_choccoconut_slice.xml</filename>
+  <thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <diet>Vegan</diet>
+  <diet>Paleo</diet>
+  <part>
+    <title>Base</title>
+    <ingredient>2 cups desiccated coconut </ingredient>
+    <ingredient>4 tablespoons coconut oil</ingredient>
+    <ingredient>3 tablespoons cocoa</ingredient>
+    <ingredient>3 tablespoons rice malt syrup</ingredient>
+    <step>To make the base grease a square cake pan with a little coconut oil and line with baking paper and set aside.</step>
+    <step>Place the coconut and sifted cocoa in a bowl and mix well.</step>
+    <step>Melt the coconut oil for one minute in the microwave(or until coconut oil has melted), pour in the rice malt syrup and reheat for another minute.</step>
+    <step>Pour into the coconut and cocoa mixture and stir until combined.</step>
+    <step>Pour into prepared pan and flatten with the back of a spoon or your hand.</step>
+    <step>Place in freezer while you prepare the icing.</step>
+  </part>
+  <part>
+    <title>Icing</title>
+    <ingredient>120 gms dark chocolate (dairy free if vegan)</ingredient>
+    <ingredient>1/2 cup mixed blueberries, goji berrie and coconut chips</ingredient>
+    <ingredient>1 tablespoon coconut oil</ingredient>
+    <step>Break the chocolate into pieces and place in microwave proof bowl and put the coconut oil in the same bowl.</step>
+    <step>Place in microwave for thirty seconds, remove and stir.</step>
+    <step>Keep doing this until the chocolate has completely melted ( mine took 1 1/2 minutes.</step>
+    <step>) Remove cake pan from freezer and pour over chocolate, smooth with a back of a spoon and sprinkle over berries and coconut.</step>
+    <step>Place back in freezer for about 15 minutes or until the chocolate icing is set ( don't let it go rock hard or it will be too difficult to cut).</step>
+    <step>Once set remove from pan and cut into squares.</step>
+    <step>Store in fridge, if you have any left!.</step>
+    <step>* you can replace the rice syrup with honey or maple syrup.</step>
+    <step>** you can replace the berries and coconut chips with your own additions or leave them off altogether.</step>
+  </part>
 </recipe>
-

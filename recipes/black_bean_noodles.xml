@@ -1,33 +1,39 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Black bean noodles </title>
-<filename>black_bean_noodles.xml</filename>
-<thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
-<category></category>
-<ingredient>1 kg fresh Hokkien noodles</ingredient>
-<ingredient>500gms minced pork</ingredient>
-<ingredient>2-3 Bok Choy washed and chopped</ingredient>
-<ingredient>1 zucchini diced</ingredient>
-<ingredient>2 russet potatoes peeled and chopped </ingredient>
-<ingredient>1/2 cucumber diced or sliced </ingredient>
-<ingredient>6 TBsp black bean paste</ingredient>
-<ingredient>2 teaspoon sugar</ingredient>
-<ingredient>1 TBsp oyster sauce</ingredient>
-<ingredient>1 TBsp soy sauce </ingredient>
-<ingredient>2 TBsp corn flour mixed with water (about 3-4 TBsp)</ingredient>
-<ingredient>1/2 cup water</ingredient>
-<ingredient>1 chicken stock cube</ingredient>
-<ingredient>1 1/2 cups water</ingredient>
-<ingredient>Olive oil</ingredient>
-<ingredient>salt and pepper to taste</ingredient>
-<step>
-Prepare all veggies and get all ingredients on to bench. Cook potatoes covered in water in a small bowl, on high in microwave for 5-8 mins. You want them still firm and not mushy. Drain and place in fridge to prevent them cooking further.  Heat some oil in large pan or wok and cook pork until no longer pink.  Remove from pan and set aside. Place potatoes and zucchini in pan with 1/2 cup of water and stock cube. Cook until zucchini done. Remove from pan and set aside. Heat some oil in pan and cook for 3-5 mins, combine black bean paste and sugar. Add fresh noodles and toss and mix until noodle have separated and are coated. Place pork, potatoes and zucchini back in pan. Also pour in the 1 1/2 cups water, corn flour mixture, soy and oysters sauce. Mix through, then add Bok Choy and mix through. Add salt and pepper while stirring through.  Once all hot and totally mix, serve in bowls with cucumber garnish.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Black bean noodles </title>
+  <filename>black_bean_noodles.xml</filename>
+  <thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
+  <category/>
+  <ingredient>1 kg fresh Hokkien noodles</ingredient>
+  <ingredient>500gms minced pork</ingredient>
+  <ingredient>2-3 Bok Choy washed and chopped</ingredient>
+  <ingredient>1 zucchini diced</ingredient>
+  <ingredient>2 russet potatoes peeled and chopped </ingredient>
+  <ingredient>1/2 cucumber diced or sliced </ingredient>
+  <ingredient>6 TBsp black bean paste</ingredient>
+  <ingredient>2 teaspoon sugar</ingredient>
+  <ingredient>1 TBsp oyster sauce</ingredient>
+  <ingredient>1 TBsp soy sauce </ingredient>
+  <ingredient>2 TBsp corn flour mixed with water (about 3-4 TBsp)</ingredient>
+  <ingredient>1/2 cup water</ingredient>
+  <ingredient>1 chicken stock cube</ingredient>
+  <ingredient>1 1/2 cups water</ingredient>
+  <ingredient>Olive oil</ingredient>
+  <ingredient>salt and pepper to taste</ingredient>
+  <step>Prepare all veggies and get all ingredients on to bench.</step>
+  <step>Cook potatoes covered in water in a small bowl, on high in microwave for 5-8 mins.</step>
+  <step>You want them still firm and not mushy.</step>
+  <step>Drain and place in fridge to prevent them cooking further.</step>
+  <step>Heat some oil in large pan or wok and cook pork until no longer pink.</step>
+  <step>Remove from pan and set aside.</step>
+  <step>Place potatoes and zucchini in pan with 1/2 cup of water and stock cube.</step>
+  <step>Cook until zucchini done.</step>
+  <step>Remove from pan and set aside.</step>
+  <step>Heat some oil in pan and cook for 3-5 mins, combine black bean paste and sugar.</step>
+  <step>Add fresh noodles and toss and mix until noodle have separated and are coated.</step>
+  <step>Place pork, potatoes and zucchini back in pan.</step>
+  <step>Also pour in the 1 1/2 cups water, corn flour mixture, soy and oysters sauce.</step>
+  <step>Mix through, then add Bok Choy and mix through.</step>
+  <step>Add salt and pepper while stirring through.</step>
+  <step>Once all hot and totally mix, serve in bowls with cucumber garnish.</step>
 </recipe>
-

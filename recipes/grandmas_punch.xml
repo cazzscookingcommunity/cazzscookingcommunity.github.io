@@ -1,24 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Grandmas Punch</title>
-<filename>grandmas_punch.xml</filename>
-<thumbnail>../images/punch.jpeg</thumbnail>
-<category>Drink</category>
-<ingredient>2L Pineapple juice</ingredient>
-<ingredient>1.25L Lemonade</ingredient>
-<ingredient>1.5L Cranberry juice</ingredient>
-<ingredient>2 cans 440 gms Pineapple pieces in juice</ingredient>
-<ingredient>2 punets strawberries washed and chopped</ingredient>
-<ingredient>1 bunch mint washed and chopped</ingredient>
-<ingredient>1 Lime finely sliced</ingredient>
-<ingredient>1 1/2 cups Vodka (optional)</ingredient>
-<step>Place all items in fridge over night except ice (leave this in freezer.)</step>
-<step>Place all items in a large punch bowl and stir well. Add as much ice as desired (4-5 handfuls.)</step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Grandmas Punch</title>
+  <filename>grandmas_punch.xml</filename>
+  <thumbnail>../images/punch.jpeg</thumbnail>
+  <category>Drink</category>
+  <ingredient>2L Pineapple juice</ingredient>
+  <ingredient>1.25L Lemonade</ingredient>
+  <ingredient>1.5L Cranberry juice</ingredient>
+  <ingredient>2 cans 440 gms Pineapple pieces in juice</ingredient>
+  <ingredient>2 punets strawberries washed and chopped</ingredient>
+  <ingredient>1 bunch mint washed and chopped</ingredient>
+  <ingredient>1 Lime finely sliced</ingredient>
+  <ingredient>1 1/2 cups Vodka (optional)</ingredient>
+  <step>Place all items in fridge over night except ice (leave this in freezer.</step>
+  <step>).</step>
+  <step>Place all items in a large punch bowl and stir well.</step>
+  <step>Add as much ice as desired (4-5 handfuls.</step>
+  <step>).</step>
 </recipe>
-

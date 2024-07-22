@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Awesome Roast Spuds</title>
-<filename>awesome_roast_spuds.xml</filename>
-<thumbnail>../images/awesome_roast_spuds.jpeg</thumbnail>
-<category></category>
-<ingredient>10 white potatoes </ingredient>
-<ingredient>1/2 cup duck fat melted </ingredient>
-<ingredient>Salt</ingredient>
-<step>
-Preheat oven to 180C. Peel spuds and cut in half. Place in a microwave proof bowl and fill with water until spuds covered and sprinkle with 1/2 teaspoon salt. Microwave for 20-30 minutes. The spuds should be mostly done and not falling apart. Drain well in a colander and shake gently to knock the sides up a bit. Pour into a baking dish and pour in the melted duck fat. Mix together until spuds are all coated. Place in oven for 60 minutes or until golden brown. You can turn them over, halfway through the cooking. Salt generously and serve with roast meat if desired. (When cooking with roast meat I get the meat in the oven then start preparing my spuds next.)
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Awesome Roast Spuds</title>
+  <filename>awesome_roast_spuds.xml</filename>
+  <thumbnail>../images/awesome_roast_spuds.jpeg</thumbnail>
+  <category/>
+  <ingredient>10 white potatoes </ingredient>
+  <ingredient>1/2 cup duck fat melted </ingredient>
+  <ingredient>Salt</ingredient>
+  <step>Preheat oven to 180C.</step>
+  <step>Peel spuds and cut in half.</step>
+  <step>Place in a microwave proof bowl and fill with water until spuds covered and sprinkle with 1/2 teaspoon salt.</step>
+  <step>Microwave for 20-30 minutes.</step>
+  <step>The spuds should be mostly done and not falling apart.</step>
+  <step>Drain well in a colander and shake gently to knock the sides up a bit.</step>
+  <step>Pour into a baking dish and pour in the melted duck fat.</step>
+  <step>Mix together until spuds are all coated.</step>
+  <step>Place in oven for 60 minutes or until golden brown.</step>
+  <step>You can turn them over, halfway through the cooking.</step>
+  <step>Salt generously and serve with roast meat if desired.</step>
+  <step>(When cooking with roast meat I get the meat in the oven then start preparing my spuds next.</step>
+  <step>).</step>
 </recipe>
-

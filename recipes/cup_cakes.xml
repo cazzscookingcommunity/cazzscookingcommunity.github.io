@@ -1,46 +1,34 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe 
-xmlns="https://cazzscookingcommunity.github.io" 
-xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-                                                                                
-    <title>Cup Cakes</title>
-    <filename>cup_cakes.xml</filename>
-
-    <comment></comment>
-    <thumbnail>../images/cup_cakes.jpeg</thumbnail>
-    <image></image>
-    <category></category>
-    <yield></yield>
-    <prepTime></prepTime>
-    <cookTime></cookTime>
-
-
-    <diet>GlutenFree</diet>
-
-    <part>
-        <title>Main</title>
-        <ingredient>125gm butter </ingredient>
-        <ingredient>1/3 cup sugar</ingredient>
-        <ingredient>2 eggs  </ingredient>
-        <ingredient>1 1/4 cup Gluten Free SR Flour </ingredient>
-        <ingredient>1/3 cup milk</ingredient>
-        <ingredient>1/2 cup jam</ingredient>
-        <step></step>
-    </part>
-
-    <part>
-        <title>Icing</title>
-        <ingredient>150gms cream cheese</ingredient>
-        <ingredient>1 cup icing sugar</ingredient>
-        <ingredient>1/4 lemon juice</ingredient>
-        
-        <step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Cup Cakes</title>
+  <filename>cup_cakes.xml</filename>
+  <comment/>
+  <thumbnail>../images/cup_cakes.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime/>
+  <cookTime/>
+  <diet>GlutenFree</diet>
+  <part>
+    <title>Main</title>
+    <ingredient>125gm butter </ingredient>
+    <ingredient>1/3 cup sugar</ingredient>
+    <ingredient>2 eggs  </ingredient>
+    <ingredient>1 1/4 cup Gluten Free SR Flour </ingredient>
+    <ingredient>1/3 cup milk</ingredient>
+    <ingredient>1/2 cup jam</ingredient>
+    <step/>
+  </part>
+  <part>
+    <title>Icing</title>
+    <ingredient>150gms cream cheese</ingredient>
+    <ingredient>1 cup icing sugar</ingredient>
+    <ingredient>1/4 lemon juice</ingredient>
+    <step>
             Preheat oven to 180C, remove cream cheese from fridge and place cup cake liners in cup cake tray.  Cut butter into cubes and place in mixer on high until colour change to little yellow. Add sugar and mix again. Add eggs one at a time and mix well between each addition. Add sifted flour and mix while adding milk. Once all combined fold through jam. Spoon out about 1 heap table spoon in each cup cake hole (makes about 16.)
             Cook for 20 minutes or until golden on top. Cool completely on baking rack. Once completely cool you can ice them.
             Beat the room temperature cream cheese and add the sifted icing sugar. Pour in your squeezed lemon 1/4 (may need to adjust depending on the size of your lemon.) You want a nice spreadable constancy. Smooth generously over each cup cake and place in fridge until set (about 1-2 hours.)  Store in fridge in airtight container.
         </step>
-    </part>
+  </part>
 </recipe>

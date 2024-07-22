@@ -1,32 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Chriss Filipino Egg Pie</title>
-<filename>chriss_filipino_egg_pie.xml</filename>
-<thumbnail>../images/chriss_filipino_egg_pie.jpeg</thumbnail>
-<category>Sweets</category>
-<part><title>Crust</title>
-<ingredient>3 cups plain flour</ingredient>
-<ingredient>4 TBsp sugar</ingredient>
-<ingredient>1 teasp salt</ingredient>
-<ingredient>250gms butter cut into cubes</ingredient>
-<ingredient>1/4 cup cold water</ingredient>
-<step>Combine flour, sugar and salt and mix well. Add butter and beat in mixer, until well combine. Gradually add the cold water and mix well. Remove dough from bowl and make into a ball. Cover with wrap and refrigerate for 30 minutes. Once done sprinkle flour on a clean surface. Flatten dough and roll until about 1/2 cm thick. Cut in two and carefully place in two greased metal pie dishes. Push down and trim edges but leave some excess all around to allow for shrinking. Put in fridge while making the filling.</step>
-</part>
-<part><title>Filling</title>
-<ingredient>1 can evaporated milk</ingredient>
-<ingredient>1 can condensed milk</ingredient>
-<ingredient>4 eggs</ingredient>
-<ingredient>1 egg yolk and white separated</ingredient>
-<ingredient>1 teasp vanilla extract</ingredient>
-<ingredient>1 TBsp lemon juice</ingredient>
-<step>Heat evaporated milk in bowl for 1 minute. In a large bowl whisk the four eggs and seperate yolk. Gradually pour in condensed milk while whisking. Add vanilla and lemon juice, while whisking. Add the evaporated milk and whisk while pouring in. Continue whisking until all ingredients well combined. Beat the egg white until soft peaks form, then fold into the mixture.</step>
-<step>Remove crusts from fridge and pour in filling. Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes. Or cook until tooth pick comes out clean when inserted in the centre of the pie. Allow to cool completely before cutting.</step>
-</part>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Chriss Filipino Egg Pie</title>
+  <filename>chriss_filipino_egg_pie.xml</filename>
+  <thumbnail>../images/chriss_filipino_egg_pie.jpeg</thumbnail>
+  <category>Sweets</category>
+  <part>
+    <title>Crust</title>
+    <ingredient>3 cups plain flour</ingredient>
+    <ingredient>4 TBsp sugar</ingredient>
+    <ingredient>1 teasp salt</ingredient>
+    <ingredient>250gms butter cut into cubes</ingredient>
+    <ingredient>1/4 cup cold water</ingredient>
+    <step>Combine flour, sugar and salt and mix well.</step>
+    <step>Add butter and beat in mixer, until well combine.</step>
+    <step>Gradually add the cold water and mix well.</step>
+    <step>Remove dough from bowl and make into a ball.</step>
+    <step>Cover with wrap and refrigerate for 30 minutes.</step>
+    <step>Once done sprinkle flour on a clean surface.</step>
+    <step>Flatten dough and roll until about 1/2 cm thick.</step>
+    <step>Cut in two and carefully place in two greased metal pie dishes.</step>
+    <step>Push down and trim edges but leave some excess all around to allow for shrinking.</step>
+    <step>Put in fridge while making the filling.</step>
+  </part>
+  <part>
+    <title>Filling</title>
+    <ingredient>1 can evaporated milk</ingredient>
+    <ingredient>1 can condensed milk</ingredient>
+    <ingredient>4 eggs</ingredient>
+    <ingredient>1 egg yolk and white separated</ingredient>
+    <ingredient>1 teasp vanilla extract</ingredient>
+    <ingredient>1 TBsp lemon juice</ingredient>
+    <step>Heat evaporated milk in bowl for 1 minute.</step>
+    <step>In a large bowl whisk the four eggs and seperate yolk.</step>
+    <step>Gradually pour in condensed milk while whisking.</step>
+    <step>Add vanilla and lemon juice, while whisking.</step>
+    <step>Add the evaporated milk and whisk while pouring in.</step>
+    <step>Continue whisking until all ingredients well combined.</step>
+    <step>Beat the egg white until soft peaks form, then fold into the mixture.</step>
+    <step>Remove crusts from fridge and pour in filling.</step>
+    <step>Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes.</step>
+    <step>Or cook until tooth pick comes out clean when inserted in the centre of the pie.</step>
+    <step>Allow to cool completely before cutting.</step>
+  </part>
 </recipe>
-

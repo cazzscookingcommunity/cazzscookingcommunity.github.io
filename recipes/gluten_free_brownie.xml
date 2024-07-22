@@ -1,24 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Gluten Free Brownie</title>
-<filename>gluten_free_brownie.xml</filename>
-<comment>c/o Cacao powder with cazzie tweaks</comment>
-<thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<ingredient>1 cup cacao powder</ingredient>
-<ingredient>1 cup hazelnut or almond meal</ingredient>
-<ingredient>1 cup raw sugar</ingredient>
-<ingredient>4 eggs beaten</ingredient>
-<ingredient>1/3 cup milk of your choice</ingredient>
-<ingredient>1/2 cup coconut oil melted and cooled</ingredient>
-<step>Turn on oven to 180C. Grease rectangular dish and line with grease proof paper, then set aside.  Place dry ingredients in a bowl and stir to combine. Stir in coconut oil then combined milk and eggs. Stir well and pour into prepared dish. Smooth over top and place in oven for 20 minutes or when centre is cooked. Cool on wire rack, sprinkle over a little more cacao powder to decorate. Cut into squares, and store in airtight container when completely cool.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Gluten Free Brownie</title>
+  <filename>gluten_free_brownie.xml</filename>
+  <comment>c/o Cacao powder with cazzie tweaks</comment>
+  <thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <ingredient>1 cup cacao powder</ingredient>
+  <ingredient>1 cup hazelnut or almond meal</ingredient>
+  <ingredient>1 cup raw sugar</ingredient>
+  <ingredient>4 eggs beaten</ingredient>
+  <ingredient>1/3 cup milk of your choice</ingredient>
+  <ingredient>1/2 cup coconut oil melted and cooled</ingredient>
+  <step>Turn on oven to 180C.</step>
+  <step>Grease rectangular dish and line with grease proof paper, then set aside.</step>
+  <step>Place dry ingredients in a bowl and stir to combine.</step>
+  <step>Stir in coconut oil then combined milk and eggs.</step>
+  <step>Stir well and pour into prepared dish.</step>
+  <step>Smooth over top and place in oven for 20 minutes or when centre is cooked.</step>
+  <step>Cool on wire rack, sprinkle over a little more cacao powder to decorate.</step>
+  <step>Cut into squares, and store in airtight container when completely cool.</step>
 </recipe>
-

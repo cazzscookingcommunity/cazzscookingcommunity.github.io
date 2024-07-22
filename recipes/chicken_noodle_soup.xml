@@ -1,25 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Chicken Noodle Soup</title>
-<filename>chicken_noodle_soup.xml</filename>
-<comment>Easy quick lunch!</comment>
-<thumbnail>../images/chicken_noodle_soup.jpeg</thumbnail>
-<category>Soup</category>
-<ingredient>Water</ingredient>
-<ingredient>2-3 chicken breasts chopped</ingredient>
-<ingredient>1/2 cup parsley chopped</ingredient>
-<ingredient>2 big carrots diced</ingredient>
-<ingredient>2 sticks celery chopped</ingredient>
-<ingredient>3 chicken stock cubes</ingredient>
-<ingredient>2 rice noodle bundles</ingredient>
-<ingredient>salt and pepper to taste</ingredient>
-<step>Bring water to boil and add carrots, celery and stock cubes. Continue to boil for 10 minutes then add chicken, salt and pepper, and cook for a further 3-5 minutes. Add noodles and cook for 2 minutes. Lastly add parsley and serve immediately with crusty bread or toasted if desired.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Chicken Noodle Soup</title>
+  <filename>chicken_noodle_soup.xml</filename>
+  <comment>Easy quick lunch!</comment>
+  <thumbnail>../images/chicken_noodle_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <ingredient>Water</ingredient>
+  <ingredient>2-3 chicken breasts chopped</ingredient>
+  <ingredient>1/2 cup parsley chopped</ingredient>
+  <ingredient>2 big carrots diced</ingredient>
+  <ingredient>2 sticks celery chopped</ingredient>
+  <ingredient>3 chicken stock cubes</ingredient>
+  <ingredient>2 rice noodle bundles</ingredient>
+  <ingredient>salt and pepper to taste</ingredient>
+  <step>Bring water to boil and add carrots, celery and stock cubes.</step>
+  <step>Continue to boil for 10 minutes then add chicken, salt and pepper, and cook for a further 3-5 minutes.</step>
+  <step>Add noodles and cook for 2 minutes.</step>
+  <step>Lastly add parsley and serve immediately with crusty bread or toasted if desired.</step>
 </recipe>
-

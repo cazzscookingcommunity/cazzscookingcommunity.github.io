@@ -1,31 +1,27 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Teresas Chilli</title>
-<filename>teresas_chilli.xml</filename>
-<thumbnail>../images/teresas_chilli.jpeg</thumbnail>
-<category>Beef</category>
-<category>Dinner</category>
-<ingredient>1 Kilo Minced Meat ( I use beef, Teresa uses Turkey)</ingredient>
-<ingredient>2 Celery Sticks chopped</ingredient>
-<ingredient>1 Green pepper chopped</ingredient>
-<ingredient>3-4 garlic cloves crushed</ingredient>
-<ingredient>1/2 bunch parsley chopped</ingredient>
-<ingredient>1 can or 2 fresh corn</ingredient>
-<ingredient>1 carrot grated</ingredient>
-<ingredient>1 can black beans</ingredient>
-<ingredient>2 cans chopped tomatoes</ingredient>
-<ingredient>1/2 cup tomatoe paste</ingredient>
-<ingredient>1-1/2 teaspoon chilli</ingredient>
-<ingredient>olive oil</ingredient>
-<ingredient>salt and pepper to taste</ingredient>
-<step>
-Heat oil in a large pot and then add garlic, cook for a few minutes before adding celery and pepper.  Cook for two minutes more and add chilli powder then mince meat.  Cook the meat until brown.  Add all other ingredients and bring to the boil.  Reduce to a simmer and cook for at least 1 hour.  This gets better with age!  Serve with cheese on top and/or crusty bread if desired.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Teresas Chilli</title>
+  <filename>teresas_chilli.xml</filename>
+  <thumbnail>../images/teresas_chilli.jpeg</thumbnail>
+  <category>Beef</category>
+  <category>Dinner</category>
+  <ingredient>1 Kilo Minced Meat ( I use beef, Teresa uses Turkey)</ingredient>
+  <ingredient>2 Celery Sticks chopped</ingredient>
+  <ingredient>1 Green pepper chopped</ingredient>
+  <ingredient>3-4 garlic cloves crushed</ingredient>
+  <ingredient>1/2 bunch parsley chopped</ingredient>
+  <ingredient>1 can or 2 fresh corn</ingredient>
+  <ingredient>1 carrot grated</ingredient>
+  <ingredient>1 can black beans</ingredient>
+  <ingredient>2 cans chopped tomatoes</ingredient>
+  <ingredient>1/2 cup tomatoe paste</ingredient>
+  <ingredient>1-1/2 teaspoon chilli</ingredient>
+  <ingredient>olive oil</ingredient>
+  <ingredient>salt and pepper to taste</ingredient>
+  <step>Heat oil in a large pot and then add garlic, cook for a few minutes before adding celery and pepper.</step>
+  <step>Cook for two minutes more and add chilli powder then mince meat.</step>
+  <step>Cook the meat until brown.</step>
+  <step>Add all other ingredients and bring to the boil.</step>
+  <step>Reduce to a simmer and cook for at least 1 hour.</step>
+  <step>This gets better with age!  Serve with cheese on top and/or crusty bread if desired.</step>
 </recipe>
-

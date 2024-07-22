@@ -1,35 +1,42 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Gluten Free Orange Cake</title>
-<filename>gluten_free_orange_cake.xml</filename>
-<comment>c/o Cristina Cucina</comment>
-<thumbnail>../images/gluten_free_orange_cake.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<part><title>Main</title>
-<ingredient>3 eggs</ingredient>
-<ingredient>1 cup sugar</ingredient>
-<ingredient>1 cup gluten free flour</ingredient>
-<ingredient>1/2 cup rice flour*</ingredient>
-<ingredient>3 teaspoons baking powder </ingredient>
-<ingredient>1/4 teaspoon xanthan gum</ingredient>
-<ingredient>100 gms butter melted </ingredient>
-<ingredient>100 gms cream cheese (at room temperature)</ingredient>
-<ingredient>1 large orange washed and cut into pieces, with skin</ingredient>
-<step>Preheat oven to 180C. Grease and line bottom of 8 inch springform pan. Beat eggs and sugar until fluffy. In a separate bowl mix dry ingredients and add a bit at a time while mixing eggs and sugar. Mix in butter then cream cheese (cut it into small pieces.)  Place washed and cut up orange into a food processor and blend until fine pulp. Fold it into cake mix and pour into prepared pan. Smooth top and place in the middle rack of the oven for 1 hour or until toothpick comes out clean. </step>
-</part>
-<part><title>Glaze</title>
-<ingredient>1 orange</ingredient>
-<ingredient>1 TBsp sugar</ingredient>
-<step>
-            To prepare the glaze wash the orange and zest it. Squeeze out the juice and place in a small pan with the sugar. Cook on low heat until sugar dissolved. Remove from heat and mix in zest. Brush over warm cake until all surface is covered and glaze finished. Wait for an hour and remove from pan. Serve plain or with cream or ice cream.</step>
-<step>*rice flour can be replaced- I have used buckwheat flour and chickpea flour and it still taste amazing!</step>
-</part>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Gluten Free Orange Cake</title>
+  <filename>gluten_free_orange_cake.xml</filename>
+  <comment>c/o Cristina Cucina</comment>
+  <thumbnail>../images/gluten_free_orange_cake.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <part>
+    <title>Main</title>
+    <ingredient>3 eggs</ingredient>
+    <ingredient>1 cup sugar</ingredient>
+    <ingredient>1 cup gluten free flour</ingredient>
+    <ingredient>1/2 cup rice flour*</ingredient>
+    <ingredient>3 teaspoons baking powder </ingredient>
+    <ingredient>1/4 teaspoon xanthan gum</ingredient>
+    <ingredient>100 gms butter melted </ingredient>
+    <ingredient>100 gms cream cheese (at room temperature)</ingredient>
+    <ingredient>1 large orange washed and cut into pieces, with skin</ingredient>
+    <step>Preheat oven to 180C.</step>
+    <step>Grease and line bottom of 8 inch springform pan.</step>
+    <step>Beat eggs and sugar until fluffy.</step>
+    <step>In a separate bowl mix dry ingredients and add a bit at a time while mixing eggs and sugar.</step>
+    <step>Mix in butter then cream cheese (cut it into small pieces.</step>
+    <step>)  Place washed and cut up orange into a food processor and blend until fine pulp.</step>
+    <step>Fold it into cake mix and pour into prepared pan.</step>
+    <step>Smooth top and place in the middle rack of the oven for 1 hour or until toothpick comes out clean.</step>
+  </part>
+  <part>
+    <title>Glaze</title>
+    <ingredient>1 orange</ingredient>
+    <ingredient>1 TBsp sugar</ingredient>
+    <step>To prepare the glaze wash the orange and zest it.</step>
+    <step>Squeeze out the juice and place in a small pan with the sugar.</step>
+    <step>Cook on low heat until sugar dissolved.</step>
+    <step>Remove from heat and mix in zest.</step>
+    <step>Brush over warm cake until all surface is covered and glaze finished.</step>
+    <step>Wait for an hour and remove from pan.</step>
+    <step>Serve plain or with cream or ice cream.</step>
+    <step>*rice flour can be replaced- I have used buckwheat flour and chickpea flour and it still taste amazing!.</step>
+  </part>
 </recipe>
-

@@ -1,27 +1,33 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Steak and Blackbean Sauce</title>
-<filename>steak_and_blackbean_sauce.xml</filename>
-<thumbnail>../images/steak_in_blackbean_sauce.jpeg</thumbnail>
-<category>Beef</category>
-<category>Dinner</category>
-<ingredient>500-700 grams rump steak</ingredient>
-<ingredient>2-4 garlic cloves crushed </ingredient>
-<ingredient>1 green and red capsicum</ingredient>
-<ingredient>1/3 cup blackbean sauce (I use Cheng because its gluten free)</ingredient>
-<ingredient>1 TBsp corn or tapioca flour</ingredient>
-<ingredient>1 TBsp oil</ingredient>
-<ingredient>1 TBsp soy sauce</ingredient>
-<ingredient>Oil for frying</ingredient>
-<ingredient>Spring onions for garnish if desired </ingredient>
-<ingredient>2-4 cups cooked rice to serve</ingredient>
-<step>Requires marinating overnight for best results</step>
-<step>In a bowl add the 1 tablespoon of soy sauce, oil and corn flour and stir to combine. Chop the rump steak into very thin slices. You can place the rump in the freezer to make it hard and it will make it easier to slice it thinly, if you have extra time. Mix the rump with the marinate and cover bowl and place in fridge overnight. When ready place the bowl with steak in the bench while you get all other ingredients ready. Thinly slice the capsicum and put aside. Heat oil for frying in a large wok over medium to hot heat.  Add the garlic and cook for a few minutes. Add the capsicum and toss for a few minutes then remove from the wok. Cook the steak in batches until brown all over. Once the steak has been all cooked place it all back in the pan and add the capsicum. Pour in the blackbean sauce and stir to combine. Add pepper and salt if desired or extra soy sauce. Serve with rice and spring onions sprinkled on top if desired.</step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Steak and Blackbean Sauce</title>
+  <filename>steak_and_blackbean_sauce.xml</filename>
+  <thumbnail>../images/steak_in_blackbean_sauce.jpeg</thumbnail>
+  <category>Beef</category>
+  <category>Dinner</category>
+  <ingredient>500-700 grams rump steak</ingredient>
+  <ingredient>2-4 garlic cloves crushed </ingredient>
+  <ingredient>1 green and red capsicum</ingredient>
+  <ingredient>1/3 cup blackbean sauce (I use Cheng because its gluten free)</ingredient>
+  <ingredient>1 TBsp corn or tapioca flour</ingredient>
+  <ingredient>1 TBsp oil</ingredient>
+  <ingredient>1 TBsp soy sauce</ingredient>
+  <ingredient>Oil for frying</ingredient>
+  <ingredient>Spring onions for garnish if desired </ingredient>
+  <ingredient>2-4 cups cooked rice to serve</ingredient>
+  <step>Requires marinating overnight for best results.</step>
+  <step>In a bowl add the 1 tablespoon of soy sauce, oil and corn flour and stir to combine.</step>
+  <step>Chop the rump steak into very thin slices.</step>
+  <step>You can place the rump in the freezer to make it hard and it will make it easier to slice it thinly, if you have extra time.</step>
+  <step>Mix the rump with the marinate and cover bowl and place in fridge overnight.</step>
+  <step>When ready place the bowl with steak in the bench while you get all other ingredients ready.</step>
+  <step>Thinly slice the capsicum and put aside.</step>
+  <step>Heat oil for frying in a large wok over medium to hot heat.</step>
+  <step>Add the garlic and cook for a few minutes.</step>
+  <step>Add the capsicum and toss for a few minutes then remove from the wok.</step>
+  <step>Cook the steak in batches until brown all over.</step>
+  <step>Once the steak has been all cooked place it all back in the pan and add the capsicum.</step>
+  <step>Pour in the blackbean sauce and stir to combine.</step>
+  <step>Add pepper and salt if desired or extra soy sauce.</step>
+  <step>Serve with rice and spring onions sprinkled on top if desired.</step>
 </recipe>
-

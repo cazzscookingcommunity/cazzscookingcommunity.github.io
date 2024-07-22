@@ -1,38 +1,37 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-
-    <title>Oven Risotto with Sweet Spud</title>
-    <filename>oven_risotto_with_sweet_spud.xml</filename>
-    <thumbnail>../images/oven_risotto_with_sweet_spud.jpeg</thumbnail>
-    <category>Dinner</category>
-    <yield>4</yield> <!-- Assumed serving size -->
-    <prepTime>15 minutes</prepTime> <!-- Estimated preparation time -->
-    <cookTime>30 minutes</cookTime> <!-- Estimated cooking time -->
-
-    <!-- Added diet types as an example; adjust as needed -->
-    <diet>Vegetarian</diet>
-
-    <!-- Ingredients -->
-    <ingredient>1 1/2 cups arborio rice</ingredient>
-    <ingredient>3 cloves garlic crushed</ingredient>
-    <ingredient>6 TBsp olive oil</ingredient>
-    <ingredient>1/2 cup dry white wine</ingredient>
-    <ingredient>3 1/2 cups chicken stock hot</ingredient>
-    <ingredient>1 cup Parmesan grated</ingredient>
-    <ingredient>50gms butter melted</ingredient>
-    <ingredient>1 sweet potato diced</ingredient>
-    <ingredient>180 gms baby spinach washed</ingredient>
-    <ingredient>4 bacon rashers chopped</ingredient>
-
-    <!-- Steps -->
-    <step>In a large fry pan cook 2 table spoons of olive oil and add garlic and cook for 5 minutes. Add rice and stir to combine and coat all the rice. Add wine and bring to the boil and simmer for 2 minutes.</step>
-    <step>Add stock and stir well. Place lid on pan and pop in Pre-heated (180C) oven.</step>
-    <step>On a cooking tray spread out sweet potatoes and mix with two table spoons of olive oil. Place in oven on top shelf above Risotto. Cook for 15 minutes then stir potatoes and make sure they are only one layer thick before putting back in oven for a further 15 minutes. Meanwhile cook the bacon in a small fry pan with the remaining olive oil until crispy, then set aside.</step>
-    <step>Remove Risotto from oven after half an hour then mix in spinach, butter and Parmesan. Remove sweet potatoes from oven and fold through Risotto. Sprinkle top with bacon, cracked pepper, and additional Parmesan if desired. Recipe can be doubled.</step>
-
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Oven Risotto with Sweet Spud</title>
+  <filename>oven_risotto_with_sweet_spud.xml</filename>
+  <thumbnail>../images/oven_risotto_with_sweet_spud.jpeg</thumbnail>
+  <category>Dinner</category>
+  <yield>4</yield>
+  <prepTime>15 minutes</prepTime>
+  <cookTime>30 minutes</cookTime>
+  <!-- Added diet types as an example; adjust as needed -->
+  <diet>Vegetarian</diet>
+  <!-- Ingredients -->
+  <ingredient>1 1/2 cups arborio rice</ingredient>
+  <ingredient>3 cloves garlic crushed</ingredient>
+  <ingredient>6 TBsp olive oil</ingredient>
+  <ingredient>1/2 cup dry white wine</ingredient>
+  <ingredient>3 1/2 cups chicken stock hot</ingredient>
+  <ingredient>1 cup Parmesan grated</ingredient>
+  <ingredient>50gms butter melted</ingredient>
+  <ingredient>1 sweet potato diced</ingredient>
+  <ingredient>180 gms baby spinach washed</ingredient>
+  <ingredient>4 bacon rashers chopped</ingredient>
+  <!-- Steps -->
+  <step>In a large fry pan cook 2 table spoons of olive oil and add garlic and cook for 5 minutes.</step>
+  <step>Add rice and stir to combine and coat all the rice.</step>
+  <step>Add wine and bring to the boil and simmer for 2 minutes.</step>
+  <step>Add stock and stir well.</step>
+  <step>Place lid on pan and pop in Pre-heated (180C) oven.</step>
+  <step>On a cooking tray spread out sweet potatoes and mix with two table spoons of olive oil.</step>
+  <step>Place in oven on top shelf above Risotto.</step>
+  <step>Cook for 15 minutes then stir potatoes and make sure they are only one layer thick before putting back in oven for a further 15 minutes.</step>
+  <step>Meanwhile cook the bacon in a small fry pan with the remaining olive oil until crispy, then set aside.</step>
+  <step>Remove Risotto from oven after half an hour then mix in spinach, butter and Parmesan.</step>
+  <step>Remove sweet potatoes from oven and fold through Risotto.</step>
+  <step>Sprinkle top with bacon, cracked pepper, and additional Parmesan if desired.</step>
+  <step>Recipe can be doubled.</step>
 </recipe>

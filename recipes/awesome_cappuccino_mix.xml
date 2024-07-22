@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Awesome Cappuccino Mix</title>
-<filename>awesome_cappuccino_mix.xml</filename>
-<thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
-<category>Drink</category>
-<ingredient>1/2 cup instant coffee</ingredient>
-<ingredient>1 cup powder milk</ingredient>
-<ingredient>1 heap TBspoon sugar (more or less depending on your sweet tooth!)</ingredient>
-<ingredient>Pinch of nutmeg (optional)</ingredient>
-<step>
-Place all ingredients in a jar and shake well. Place two heap teaspoons in a cup with boiling water and stir. Great for cold days at Uni or camping, or anywhere that you dont have easy access to milk.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Awesome Cappuccino Mix</title>
+  <filename>awesome_cappuccino_mix.xml</filename>
+  <thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
+  <category>Drink</category>
+  <ingredient>1/2 cup instant coffee</ingredient>
+  <ingredient>1 cup powder milk</ingredient>
+  <ingredient>1 heap TBspoon sugar (more or less depending on your sweet tooth!)</ingredient>
+  <ingredient>Pinch of nutmeg (optional)</ingredient>
+  <step>Place all ingredients in a jar and shake well.</step>
+  <step>Place two heap teaspoons in a cup with boiling water and stir.</step>
+  <step>Great for cold days at Uni or camping, or anywhere that you dont have easy access to milk.</step>
 </recipe>
-

@@ -1,28 +1,35 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>No Bake Oreo Cheese Cake</title>
-<filename>no_bake_oreo_cheese_cake.xml</filename>
-<comment>c/o Live well bake often</comment>
-<thumbnail>../images/no_bake_oreo_cheese_cake.jpeg</thumbnail>
-<category>Sweets</category>
-<part><title>Crust</title>
-<ingredient>24 Oreos</ingredient>
-<ingredient>4 TBsp butter melted </ingredient>
-<step>Prepare a 9 inch spring form pan, by greasing base and sides. Place grease proof paper in base and set aside. In a blender, blend cookies for the base and while rotating add melted butter. Once all the cookie crumbs are wet, remove from blender and pour into prepared pan. Push the crumbs down until they are even on the bottom. Place pan in fridge while preparing the cheese cake.</step>
-</part>
-<part><title>Cheese Cake</title>
-<ingredient>455gms cream cheese room temperature</ingredient>
-<ingredient>1 cup icing sugar sifted</ingredient>
-<ingredient>1 teaspoon vanilla essence</ingredient>
-<ingredient>2 cups heavy whipping cream</ingredient>
-<ingredient>15 Oreos chopped</ingredient>
-<step>Whip cheese with whip attachment until smooth. Add sugar and vanilla and whip until well combined. Pour over n cream and whip until very well blended. Fold through cookies and scoop into prepared pan. Smooth over top and decorate as desired. Cover with plastic wrap and refrigerate for 4-5 hours. Carefully remove from pan and serve chilled. Keep any remaining cake in fridge for up to 3 days.</step>
-</part>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>No Bake Oreo Cheese Cake</title>
+  <filename>no_bake_oreo_cheese_cake.xml</filename>
+  <comment>c/o Live well bake often</comment>
+  <thumbnail>../images/no_bake_oreo_cheese_cake.jpeg</thumbnail>
+  <category>Sweets</category>
+  <part>
+    <title>Crust</title>
+    <ingredient>24 Oreos</ingredient>
+    <ingredient>4 TBsp butter melted </ingredient>
+    <step>Prepare a 9 inch spring form pan, by greasing base and sides.</step>
+    <step>Place grease proof paper in base and set aside.</step>
+    <step>In a blender, blend cookies for the base and while rotating add melted butter.</step>
+    <step>Once all the cookie crumbs are wet, remove from blender and pour into prepared pan.</step>
+    <step>Push the crumbs down until they are even on the bottom.</step>
+    <step>Place pan in fridge while preparing the cheese cake.</step>
+  </part>
+  <part>
+    <title>Cheese Cake</title>
+    <ingredient>455gms cream cheese room temperature</ingredient>
+    <ingredient>1 cup icing sugar sifted</ingredient>
+    <ingredient>1 teaspoon vanilla essence</ingredient>
+    <ingredient>2 cups heavy whipping cream</ingredient>
+    <ingredient>15 Oreos chopped</ingredient>
+    <step>Whip cheese with whip attachment until smooth.</step>
+    <step>Add sugar and vanilla and whip until well combined.</step>
+    <step>Pour over n cream and whip until very well blended.</step>
+    <step>Fold through cookies and scoop into prepared pan.</step>
+    <step>Smooth over top and decorate as desired.</step>
+    <step>Cover with plastic wrap and refrigerate for 4-5 hours.</step>
+    <step>Carefully remove from pan and serve chilled.</step>
+    <step>Keep any remaining cake in fridge for up to 3 days.</step>
+  </part>
 </recipe>
-

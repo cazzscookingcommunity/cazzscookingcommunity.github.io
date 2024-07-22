@@ -1,23 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Easy Mini Cheese Cakes</title>
-<filename>easy_mini_cheese_cakes.xml</filename>
-<thumbnail>../images/easy_mini_cheese_cakes.jpeg</thumbnail>
-<category>Sweets</category>
-<ingredient>125gms granita biscuits </ingredient>
-<ingredient>40gms butter melted</ingredient>
-<ingredient>1/4 cup sugar</ingredient>
-<ingredient>2 eggs</ingredient>
-<ingredient>2/3 cup lemon curd</ingredient>
-<ingredient>250gms cream cheese </ingredient>
-<step>
-In 12 hole muffin tin place paper lining in each hole and set aside.  Get cheese out of fridge and bring to room temperature. Place biscuits in blender and blend until fully crushed then pour in melted butter. Blitz for a few minutes then distribute between muffin casings and push down with knuckles to flatten. Place in fridge until ready for topping. Chop cheese into small pieces and place in mixmaster on medium speed until smooth.  Add sugar and mix for a few minutes. Add eggs one at a time and mix until completely blended between each egg. Then add lemon curd and push down sides occasionally until all mixed together.  Distribute between muffin pan and cook in preheat (160C) for 20 minutes, turning pan around once at 10 minutes. Remove from oven and cool on bench for 10 minutes then place in fridge for 1-2 hours. Sprinkle with icing sugar (if desired) and serve with your choice of fruit or a table spoon of cream. Store in fridge.
-    </step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Easy Mini Cheese Cakes</title>
+  <filename>easy_mini_cheese_cakes.xml</filename>
+  <thumbnail>../images/easy_mini_cheese_cakes.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>125gms granita biscuits </ingredient>
+  <ingredient>40gms butter melted</ingredient>
+  <ingredient>1/4 cup sugar</ingredient>
+  <ingredient>2 eggs</ingredient>
+  <ingredient>2/3 cup lemon curd</ingredient>
+  <ingredient>250gms cream cheese </ingredient>
+  <step>In 12 hole muffin tin place paper lining in each hole and set aside.</step>
+  <step>Get cheese out of fridge and bring to room temperature.</step>
+  <step>Place biscuits in blender and blend until fully crushed then pour in melted butter.</step>
+  <step>Blitz for a few minutes then distribute between muffin casings and push down with knuckles to flatten.</step>
+  <step>Place in fridge until ready for topping.</step>
+  <step>Chop cheese into small pieces and place in mixmaster on medium speed until smooth.</step>
+  <step>Add sugar and mix for a few minutes.</step>
+  <step>Add eggs one at a time and mix until completely blended between each egg.</step>
+  <step>Then add lemon curd and push down sides occasionally until all mixed together.</step>
+  <step>Distribute between muffin pan and cook in preheat (160C) for 20 minutes, turning pan around once at 10 minutes.</step>
+  <step>Remove from oven and cool on bench for 10 minutes then place in fridge for 1-2 hours.</step>
+  <step>Sprinkle with icing sugar (if desired) and serve with your choice of fruit or a table spoon of cream.</step>
+  <step>Store in fridge.</step>
 </recipe>
-
