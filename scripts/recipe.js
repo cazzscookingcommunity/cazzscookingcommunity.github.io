@@ -75,10 +75,11 @@ function addPageMetaData($recipe) {
         "cookTime": "${cookTime}",
         "keywords": "${dietType}",
         "recipeYield": "${recipeYield}",
-        "recipeCategory": "${recipeCategory}"
+        "recipeCategory": "${recipeCategory}",
+        "recipeIngredient": "${ingredients}",
+        "recipeInstructions": "${instructions}"
         }`;
-        // "recipeIngredient": "${ingredients}",
-        // "recipeInstructions": "${instructions}"
+
     const script = document.createElement('script');
     script.setAttribute('type', 'application/ld+json');
     script.textContent = sitemap_data;
