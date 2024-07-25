@@ -40,7 +40,15 @@ xmlfooter = '''
 
 sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-'''
+
+    <url>
+        <loc>https://cazzscookingcommunity.github.io/index.html</loc>
+        <lastmod>{}</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>'''
+
+
 
 sitemap_page = '''
     <url>
@@ -71,6 +79,13 @@ def closeOutput(file, content):
         dst.write(content)
         dst.close()
 
+def get_file_modified_date(file_path):
+    # Get the timestamp of the last modification
+    timestamp = os.path.getmtime(file_path)
+    # Convert the timestamp to a datetime object
+    modified_date = datetime.datetime.fromtimestamp(timestamp).date()
+    return modified_date
+
 def processFile(inputfile, recipelist, sitemap):
     try:
         validRecipe = schema.is_valid(recipedir + filename)
@@ -84,7 +99,7 @@ def processFile(inputfile, recipelist, sitemap):
         with open(recipelist, "a") as dst:
             with open(sitemap, "a") as sm:
                 with open(recipedir + inputfile, "rt") as src:
-                    sm.write(sitemap_page.format(filename, date))
+                    sm.write(sitemap_page.format(filename, fileDate))
                     dst.write("<recipe>\n")
                     firstTitle = True
                     while True:
@@ -119,14 +134,17 @@ def processFile(inputfile, recipelist, sitemap):
 if __name__== "__main__":
     recipelist = "./xml/recipeList.xml"
     sitemap = "sitemap.xml"
+    index = "index.html"
 
     initOutput(recipelist, xmlheader)
-    initOutput(sitemap, sitemap_header)
+    initOutput(sitemap, sitemap_header.format(get_file_modified_date(index)))
 
+                        
     directory = os.fsencode(recipedir)
     
     for file in os.listdir(directory):
         filename = os.fsdecode(file)
+        fileDate = get_file_modified_date(recipedir + filename)
         if filename.endswith(".xml") and filename != outputfile: 
             print(filename)
             processFile(filename, recipelist, sitemap)
