@@ -52,9 +52,33 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
 
 /* Heading */
 .heading{text-transform:uppercase;font-size:36px;font-weight:bold;font-family:'Roboto Slab', serif;transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);text-align:center;margin-bottom:0}
-section#random h3#dynamicTitle{transform:rotate(0deg)}
+/* section#random h3#dynamicTitle{transform:rotate(0deg)} */
+
+h1.brand{
+    font-size: 36px;
+    text-transform:uppercase;
+    /* text-align: center; */
+    margin-bottom: 0px;
+    font-family:'Roboto Slab', serif;
+    font-weight: bold;
+    /* font-size:36px;
+    font-weight:bold;
+    font-family:'Roboto Slab', serif;
+    text-align:center;
+    margin-bottom:0 */
+}
+
+/* h1.brand:hover,h1.brand:focus{pointer-events: none;} */
 
 /* Ingredients */
+h2.ingredients {
+    margin-right:20px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
 .mealMetadata ul > li{margin:0;float:left;width:50%}
 .mealMetadata ul{margin-bottom:0}
 table.ingredients, td { 
@@ -62,6 +86,14 @@ table.ingredients, td {
 }
 
 /* Intructions */
+h2.instructions {
+    margin-right:20px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
 .mealInstructions ul {
     list-style-type: none;
     margin-bottom: 0px;
@@ -70,7 +102,7 @@ table.ingredients, td {
 /* Meal */
 .mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
 /* .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
-.mealImg img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+.mealImg img{width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
 #randomMealActions img.cardAction {width:10%; display:inline; margin-left:10px;}
 #randomMealActions img.cardAction:hover {background-color: #689f38}
 
@@ -99,7 +131,7 @@ footer{bottom:0;text-align:center; margin-top:50px}
 /* Others */
 a{cursor:pointer}
 .brand{font-size:2rem;font-weight:bold}
-.brand:hover,.brand:focus{color:black}
+a.brand:hover,a.brand:focus{color:black}
 main{justify-content:center;align-items:center}
 #userInput{font-weight:bold}
 

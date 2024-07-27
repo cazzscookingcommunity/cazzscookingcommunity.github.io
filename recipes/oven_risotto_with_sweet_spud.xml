@@ -8,13 +8,11 @@
 
     <title>Oven Risotto with Sweet Spud</title>
     <filename>oven_risotto_with_sweet_spud.xml</filename>
-    <thumbnail>../images/oven_risotto_with_sweet_spud.jpeg</thumbnail>
+    <thumbnail>oven_risotto_with_sweet_spud.jpeg</thumbnail>
     <category>Dinner</category>
     <yield>4</yield>
     <prepTime>15 minutes</prepTime>
     <cookTime>30 minutes</cookTime>
-
-    <!-- Added diet types as an example; adjust as needed -->
     <diet>Vegetarian</diet>
 
     <!-- Ingredients -->

@@ -9,8 +9,6 @@ recipes copy/
 
 # ignore these files
 *.bak
-app.js
 recipes-missing-images.txt
 images-missing-recipes.txt
-update-recipeindex.py
 .DS_Store

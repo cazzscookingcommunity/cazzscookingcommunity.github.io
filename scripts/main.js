@@ -181,27 +181,6 @@ const getCookie = (key) => {
     return null;
 }
 
-// Function to get cache data if it exists, otherwise, fetch from the API
-// const getData = (types) => {
-//     console.log("not yet implement");
-    // types.forEach(type => {
-    //     if( type === "u" ) {
-    //         let mealData = JSON.parse(sessionStorage.getItem(type));
-    //         if( mealData !== null ) {
-    //             createMealCards(mealData);      
-    //             window.scrollTo(0,$('#mealCardsSection').offset().top);
-    //             $('#userInput').text(sessionStorage.getItem("search"));
-    //         }
-    //     }
-    //     else {
-    //         let mealData = null;
-    //         try {
-    //             mealData = JSON.parse(getCookie(type));
-    //         } catch (error) { console.warn(error) };
-    //         mealData !== null ? createMeal(mealData, type) : fetchMeal(type);
-    //     }
-    // })
-// }
 
 
 // search title, category, diet for a regex term

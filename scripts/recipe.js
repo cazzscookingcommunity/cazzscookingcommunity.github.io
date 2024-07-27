@@ -1,87 +1,54 @@
+const recipeDir = 'recipes/';
+const xslFile = 'xml/recipe.xsl';
+var $recipe = 'blank';
 
-const recipeDir = '/recipes/';
-var $recipe;
-
-
-
-$(document).ready(function() {		
-	if( window.location.search != "" ){
+document.addEventListener("DOMContentLoaded", function() {
+    if (window.location.search !== "") {
         const urlParams = new URLSearchParams(window.location.search);
         const recipe = urlParams.get('recipe');
         console.debug(recipe);
-		loadRecipe(recipeDir + recipe);
-	}
+        loadRecipe(recipeDir + recipe);
+    }
 });
 
-// July 2024 changed loadRecipe to use XSLT rather than 
-// parsing the XML recipe within JS functions.
 function loadRecipe(recipeFile) {
-    console.debug(recipeFile);
+    console.debug("Loading recipe file:", recipeFile);
     fetch(recipeFile)
         .then(res => res.text())
         .then(res => {
             const parser = new DOMParser();
             const xmlDoc = parser.parseFromString(res, "text/xml");
+            console.debug("XML Document loaded:", xmlDoc);
 
             // Fetch the XSLT file
-            fetch('/xml/recipe.xsl')
+            fetch(xslFile)
                 .then(xsltRes => xsltRes.text())
                 .then(xsltText => {
                     const xsltDoc = parser.parseFromString(xsltText, "application/xml");
+                    console.debug("XSLT Document loaded:", xsltDoc);
+
                     const xsltProcessor = new XSLTProcessor();
                     xsltProcessor.importStylesheet(xsltDoc);
 
-                    const resultDocument = xsltProcessor.transformToFragment(xmlDoc, document);
-                    document.getElementById('random').innerHTML = '';
-                    document.getElementById('random').appendChild(resultDocument);
+                    // transform xml into html using the xslt file
+                    const resultDocument = xsltProcessor.transformToDocument(xmlDoc);
+                    console.debug("Transformation result:", resultDocument);
+                    
+                    if (resultDocument) {
+                        const headContent = resultDocument.querySelector('head');
+                        const bodyContent = resultDocument.querySelector('body');
 
-                    // Scroll to the main content
-                    window.scrollTo(0, $('#random').offset().top);
+                        if (headContent) {
+                            document.head.innerHTML = headContent.innerHTML;
+                        }
+                        if (bodyContent) {
+                            document.body.innerHTML = bodyContent.innerHTML;
+                        }                      
+                    } else {
+                        console.warn("Transformation result is null.");
+                    }
                 })
-                .catch(e => console.warn(e));
-            let recipe = xmlDoc.querySelectorAll('recipe');
-            let $recipe = $( recipe );
-            addPageMetaData($recipe);
+                .catch(e => console.warn("Error loading XSLT:", e));
         })
-        .catch(e => console.warn(e));
-}
-
-
-function addPageMetaData($recipe) {
-    const imageBaseUrl = "https://cazzscookingcommunity.github.io/images";
-    const title = $recipe.find('title').first().text();
-    const image = $recipe.find('thumbnail').text();
-    const imageFileName = image.split('/').pop();
-    const fullImageUrl = `${imageBaseUrl}/${imageFileName}`; // Construct the full URL using the base URL and the filename
-    const prepTime = $recipe.find('prepTime').text();
-    const cookTime = $recipe.find('cookTime').text();
-    const dietType = $recipe.find('diet').text();
-    const recipeYield = $recipe.find('yield').text();
-    const recipeCategory = $recipe.find('category').text();
-    const ingredients = $recipe.find('ingredient').text();
-    const instructions = $recipe.find('step').text();
-    var sitemap_data = `
-        {
-        "@context": "https://schema.org/",
-        "@type": "Recipe",
-        "name": "${title}",
-        "author": {
-            "@type": "Person",
-            "name": "Carolyn Cullin"
-        },
-        "image": "${fullImageUrl}",
-        "description": "${title}",
-        "prepTime": "${prepTime}",
-        "cookTime": "${cookTime}",
-        "keywords": "${dietType}",
-        "recipeYield": "${recipeYield}",
-        "recipeCategory": "${recipeCategory}",
-        "recipeIngredient": "${ingredients}",
-        "recipeInstructions": "${instructions}"
-        }`;
-
-    const script = document.createElement('script');
-    script.setAttribute('type', 'application/ld+json');
-    script.textContent = sitemap_data;
-    document.head.appendChild(script);
+        .catch(e => console.warn("Error loading XML:", e));
 }
