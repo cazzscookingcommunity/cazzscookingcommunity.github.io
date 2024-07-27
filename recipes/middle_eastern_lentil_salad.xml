@@ -1,30 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Middle Eastern Lentil Salad</title>
-<filename>middle_eastern_lentil_salad.xml</filename>
-<comment>Easy, healthy, quick and yum!</comment>
-<thumbnail>../images/middle_eastern_lentil_salad.jpeg</thumbnail>
-<category>Salad</category>
-<diet>FODMAP</diet>
-<ingredient>Can of lentils drained and rinsed </ingredient>
-<ingredient>1/4 cup extra virgin olive oil</ingredient>
-<ingredient>1 teaspoon red wine vinegar</ingredient>
-<ingredient>1 teaspoon cumin</ingredient>
-<ingredient>2 carrots grated </ingredient>
-<ingredient>4 fresh dates pitted and finely chopped</ingredient>
-<ingredient>4 spring onions chopped </ingredient>
-<ingredient>8 cups baby spinach</ingredient>
-<ingredient>1/4 cup feta in olive oil crumbled</ingredient>
-<ingredient>1 cup cherry tomatoes chopped in half</ingredient>
-<ingredient>Salt and Pepper to taste </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Middle Eastern Lentil Salad</title>
+  <filename>middle_eastern_lentil_salad.xml</filename>
+  <comment>Easy, healthy, quick and yum!</comment>
+  <thumbnail>../images/middle_eastern_lentil_salad.jpeg</thumbnail>
+  <category>Salad</category>
+  <diet>FODMAP</diet>
+  <ingredient>Can of lentils drained and rinsed </ingredient>
+  <ingredient>1/4 cup extra virgin olive oil</ingredient>
+  <ingredient>1 teaspoon red wine vinegar</ingredient>
+  <ingredient>1 teaspoon cumin</ingredient>
+  <ingredient>2 carrots grated </ingredient>
+  <ingredient>4 fresh dates pitted and finely chopped</ingredient>
+  <ingredient>4 spring onions chopped </ingredient>
+  <ingredient>8 cups baby spinach</ingredient>
+  <ingredient>1/4 cup feta in olive oil crumbled</ingredient>
+  <ingredient>1 cup cherry tomatoes chopped in half</ingredient>
+  <ingredient>Salt and Pepper to taste </ingredient>
+  <step>
 Place olive oil , cumin, red wine vinegar and dates in sauce pan and heat on low until warm. Add lentils and reheat then add carrots and season with Salt and Pepper. Place baby spinach and tomatoes on 4 plates then heap lentil mix on top. Sprinkle spring onions and feta on top. Serve alone or with your choice of meat. I used a pork cutlets for each person seasoned with salt and pepper.
     </step>
 </recipe>
-

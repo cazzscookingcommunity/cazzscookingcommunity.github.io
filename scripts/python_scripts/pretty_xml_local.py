@@ -94,11 +94,11 @@ def format_test_file(file):
 
 def main():
     # Example usage
-    # directory_path = 'recipes/'
-    # format_xml_files_in_directory(directory_path)
+    directory_path = 'recipes/'
+    format_xml_files_in_directory(directory_path)
 
-    test_file = 'recipes/gluten_free_orange_cake.xml'
-    format_test_file(test_file)
+    test_file = 'recipes/simple_friedrice.xml'
+    # format_test_file(test_file)
 
 if __name__ == "__main__":
     main()

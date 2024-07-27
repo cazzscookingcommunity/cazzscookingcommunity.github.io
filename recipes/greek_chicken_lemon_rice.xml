@@ -1,33 +1,26 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Greek chicken and lemon rice</title>
-<filename>greek_chicken_lemon_rice.xml</filename>
-<thumbnail>../images/greek_chicken_with_rice.jpeg</thumbnail>
-<category>Poultry</category>
-<diet>GlutenFree</diet>
-<ingredient>3 TBsp Greek seasoning</ingredient>
-<ingredient>8 chicken thigh fillets cut in half</ingredient>
-<ingredient>4 TBsp olive oil</ingredient>
-<ingredient>2 large lemons</ingredient>
-<ingredient>4 garlic cloves crushed </ingredient>
-<ingredient>1 TBsp oregano</ingredient>
-<ingredient>1 1/2 cups water</ingredient>
-<ingredient>2 teaspoon chicken powder stock </ingredient>
-<ingredient>1 cup long grain rice </ingredient>
-<ingredient>1 cup artichoke hearts (drained)</ingredient>
-<ingredient>or kalamata olives</ingredient>
-<ingredient>1/2 can brown lentils drained</ingredient>
-<ingredient>1 punnet tiny tomatoes cut in half</ingredient>
-<ingredient>4-6 large handfuls baby spinach leaves</ingredient>
-<ingredient>salt and pepper to taste</ingredient>
-<ingredient>1/4 cup pine nuts or pepitas (optional)</ingredient>
-<step>Preheat oven to 180C. Combine oregano, garlic, salt and pepper, one lemon zest and juice in a large glass dish at the back of the stove top. Heat oil in large fry pan that can go in oven. Cook chicken in batches, (approximately 3-4 mins each side) sprinkling Greek seasoning on each side as you go.  As each batch is done place in lemon juice dish and turn to coat. Rotate the chicken as you add them.  Once the chicken is all done cook rice in pan and stir to coat all sides.  Add water and stock, stirring well and scrap bottom of pan to get all the pieces of the bottom. Bring to the boil, then add chicken pieces and remaining juices from the bowl. Place artichokes through out dish, then place lid on pan and place in preheated oven for 20 minutes. When done all the  juice should be absorbed. Sprinkle over lentils, spinach leaves and tomatoes, on top off chicken ( no need to stir through.) Place lid back on pan and put back in oven for a further 5 minutes. Serve immediately, with pine nuts sprinkled all over and extra lemon squeezed on top.</step>
-<step>Rice and chicken can be doubled. If doubling rice, double the water and stock powder to match.</step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Greek chicken and lemon rice</title>
+  <filename>greek_chicken_lemon_rice.xml</filename>
+  <thumbnail>../images/greek_chicken_with_rice.jpeg</thumbnail>
+  <category>Poultry</category>
+  <diet>GlutenFree</diet>
+  <ingredient>3 TBsp Greek seasoning</ingredient>
+  <ingredient>8 chicken thigh fillets cut in half</ingredient>
+  <ingredient>4 TBsp olive oil</ingredient>
+  <ingredient>2 large lemons</ingredient>
+  <ingredient>4 garlic cloves crushed </ingredient>
+  <ingredient>1 TBsp oregano</ingredient>
+  <ingredient>1 1/2 cups water</ingredient>
+  <ingredient>2 teaspoon chicken powder stock </ingredient>
+  <ingredient>1 cup long grain rice </ingredient>
+  <ingredient>1 cup artichoke hearts (drained)</ingredient>
+  <ingredient>or kalamata olives</ingredient>
+  <ingredient>1/2 can brown lentils drained</ingredient>
+  <ingredient>1 punnet tiny tomatoes cut in half</ingredient>
+  <ingredient>4-6 large handfuls baby spinach leaves</ingredient>
+  <ingredient>salt and pepper to taste</ingredient>
+  <ingredient>1/4 cup pine nuts or pepitas (optional)</ingredient>
+  <step>Preheat oven to 180C. Combine oregano, garlic, salt and pepper, one lemon zest and juice in a large glass dish at the back of the stove top. Heat oil in large fry pan that can go in oven. Cook chicken in batches, (approximately 3-4 mins each side) sprinkling Greek seasoning on each side as you go.  As each batch is done place in lemon juice dish and turn to coat. Rotate the chicken as you add them.  Once the chicken is all done cook rice in pan and stir to coat all sides.  Add water and stock, stirring well and scrap bottom of pan to get all the pieces of the bottom. Bring to the boil, then add chicken pieces and remaining juices from the bowl. Place artichokes through out dish, then place lid on pan and place in preheated oven for 20 minutes. When done all the  juice should be absorbed. Sprinkle over lentils, spinach leaves and tomatoes, on top off chicken ( no need to stir through.) Place lid back on pan and put back in oven for a further 5 minutes. Serve immediately, with pine nuts sprinkled all over and extra lemon squeezed on top.</step>
+  <step>Rice and chicken can be doubled. If doubling rice, double the water and stock powder to match.</step>
 </recipe>
-

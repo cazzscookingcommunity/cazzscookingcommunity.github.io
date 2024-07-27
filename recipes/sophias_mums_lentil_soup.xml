@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Sophias Mums Lentil Soup</title>
-<filename>sophias_mums_lentil_soup.xml</filename>
-<thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
-<category>Soup</category>
-<diet>Vegan</diet>
-<ingredient>375 gms brown lentils</ingredient>
-<ingredient>2 bay leaves</ingredient>
-<ingredient>2 cloves of garlic crushed</ingredient>
-<ingredient>1 onion chopped (optional)</ingredient>
-<ingredient>1 - 2 carrots chopped (optional)</ingredient>
-<ingredient>1 cup passata sauce</ingredient>
-<ingredient>1 TBsp Italian herbs</ingredient>
-<ingredient>1/4 cup olive oil</ingredient>
-<ingredient>Vinegar or lemon juice to serve (optional)</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Sophias Mums Lentil Soup</title>
+  <filename>sophias_mums_lentil_soup.xml</filename>
+  <thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>Vegan</diet>
+  <ingredient>375 gms brown lentils</ingredient>
+  <ingredient>2 bay leaves</ingredient>
+  <ingredient>2 cloves of garlic crushed</ingredient>
+  <ingredient>1 onion chopped (optional)</ingredient>
+  <ingredient>1 - 2 carrots chopped (optional)</ingredient>
+  <ingredient>1 cup passata sauce</ingredient>
+  <ingredient>1 TBsp Italian herbs</ingredient>
+  <ingredient>1/4 cup olive oil</ingredient>
+  <ingredient>Vinegar or lemon juice to serve (optional)</ingredient>
+  <step>
 Wash lentils and place in a medium pot. Fill with water until lentils cover with about one knuckle over of water. Add garlic, bay leaves, carrot and onion. Bring to boil and simmer for 10 minutes.  Add olive oil and passata sauce, herbs and salt and pepper to taste. Serve with lemon on side or a splash of vinegar if desired.
     </step>
 </recipe>
-

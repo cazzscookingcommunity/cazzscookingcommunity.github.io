@@ -1,29 +1,22 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Curry Noodles</title>
-<filename>curry_noodles.xml</filename>
-<thumbnail>../images/curry_noodles.jpeg</thumbnail>
-<category>Dinner</category>
-<ingredient>300-400 gms prawns fresh or frozen (replace with tofu for vegetarian)</ingredient>
-<ingredient>1 packet noodles cooked per instructions (retain some water)</ingredient>
-<ingredient>(Use gluten free if preferred)</ingredient>
-<ingredient>1-2 bunches Bok  Choy or chow sum washed and chopped</ingredient>
-<ingredient>1-2 red chillies chopped</ingredient>
-<ingredient>3 spring onions washed and chopped </ingredient>
-<ingredient>2-3 cloves garlic ground </ingredient>
-<ingredient>1 inch ginger grated</ingredient>
-<ingredient>1-2 TBsp Green curry paste</ingredient>
-<ingredient>1 stock cube</ingredient>
-<ingredient>1 can coconut milk </ingredient>
-<ingredient>2-3 TBSP olive oil </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Curry Noodles</title>
+  <filename>curry_noodles.xml</filename>
+  <thumbnail>../images/curry_noodles.jpeg</thumbnail>
+  <category>Dinner</category>
+  <ingredient>300-400 gms prawns fresh or frozen (replace with tofu for vegetarian)</ingredient>
+  <ingredient>1 packet noodles cooked per instructions (retain some water)</ingredient>
+  <ingredient>(Use gluten free if preferred)</ingredient>
+  <ingredient>1-2 bunches Bok  Choy or chow sum washed and chopped</ingredient>
+  <ingredient>1-2 red chillies chopped</ingredient>
+  <ingredient>3 spring onions washed and chopped </ingredient>
+  <ingredient>2-3 cloves garlic ground </ingredient>
+  <ingredient>1 inch ginger grated</ingredient>
+  <ingredient>1-2 TBsp Green curry paste</ingredient>
+  <ingredient>1 stock cube</ingredient>
+  <ingredient>1 can coconut milk </ingredient>
+  <ingredient>2-3 TBSP olive oil </ingredient>
+  <step>
 Heat oil in large pan or wok. Add oil and wash hot add garlic and ginger, cook for a few minutes. Add the curry paste and stir for a minute or two then add coconut milk and stock cube. Add the prawns and cook until done (they will turn pink.) Add the noodle and extra water as required. Stir through Bok choy and pepper. Serve with spring onions sprinkled on top. (You can add other vegetables like bean sprouts, beans, snow peas ect what ever you have available.)
     </step>
 </recipe>
-

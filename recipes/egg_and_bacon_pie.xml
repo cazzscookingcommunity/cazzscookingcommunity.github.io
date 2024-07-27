@@ -1,24 +1,17 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Egg and Bacon Pie</title>
-<filename>egg_and_bacon_pie.xml</filename>
-<thumbnail>../images/egg_and_bacon_pie.jpeg</thumbnail>
-<category>Dinner</category>
-<ingredient>2 sheets puff pastry </ingredient>
-<ingredient>4 eggs </ingredient>
-<ingredient>200-300 gms diced bacon cooked well</ingredient>
-<ingredient>salt and pepper (lots)</ingredient>
-<ingredient>1/2 teasp butter or margarine</ingredient>
-<ingredient>1/3 cup milk (for basting)</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Egg and Bacon Pie</title>
+  <filename>egg_and_bacon_pie.xml</filename>
+  <thumbnail>../images/egg_and_bacon_pie.jpeg</thumbnail>
+  <category>Dinner</category>
+  <ingredient>2 sheets puff pastry </ingredient>
+  <ingredient>4 eggs </ingredient>
+  <ingredient>200-300 gms diced bacon cooked well</ingredient>
+  <ingredient>salt and pepper (lots)</ingredient>
+  <ingredient>1/2 teasp butter or margarine</ingredient>
+  <ingredient>1/3 cup milk (for basting)</ingredient>
+  <step>
 Pre heat oven to 180C. Grease tin pie dish with butter and set aside. In a small bowl beat eggs and set aside. Place one sheet over the base of the tin and gently push in to remove any air bubbles. Cut of edges and pour in eggs. Sprinkle bacon evenly over the surface and sprinkle with salt and pepper. Carefully place other pastry sheet on top and cut off excess edges. Press down with your fingers on the edges to seal pie. Brush with milk and place in oven until golden on top (about 45 mins.)  recipe can be doubled, I usually cook at lease 4 at one time. Serve piping hot or cold.
 I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins.) Once cool cut in half and serve with jam and whipped cream inside. Sprinkle with a little icing sugar, if you want to be fancy!
     </step>
 </recipe>
-

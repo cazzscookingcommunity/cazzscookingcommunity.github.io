@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Rocket and Pine nut Salad</title>
-<filename>rocket_pine_nut_salad.xml</filename>
-<thumbnail>../images/rocket_and_pine_nut_salad.jpeg</thumbnail>
-<category>Salad</category>
-<ingredient>100gms rocket leave mix</ingredient>
-<ingredient>80gms sun dried tomatoes</ingredient>
-<ingredient>60gms Parmesan cheese</ingredient>
-<ingredient>1/4 cup pine nuts</ingredient>
-<ingredient>1/4 cup olive oil</ingredient>
-<ingredient>1/4 cup balsamic vinegar </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Rocket and Pine nut Salad</title>
+  <filename>rocket_pine_nut_salad.xml</filename>
+  <thumbnail>../images/rocket_and_pine_nut_salad.jpeg</thumbnail>
+  <category>Salad</category>
+  <ingredient>100gms rocket leave mix</ingredient>
+  <ingredient>80gms sun dried tomatoes</ingredient>
+  <ingredient>60gms Parmesan cheese</ingredient>
+  <ingredient>1/4 cup pine nuts</ingredient>
+  <ingredient>1/4 cup olive oil</ingredient>
+  <ingredient>1/4 cup balsamic vinegar </ingredient>
+  <step>
 Place clean rocket leave mix on a platter. Cut sun dried tomatoes length wise and sprinkle over leaves. Toast pine nuts in fry pan, by continually stirring on high heat until chard slightly. Sprinkle over leaves, along with Parmesan that has been grated with a vegetable peeler to make long strips.  Combine vinegar and oil in a small jar and shake well. Lastly pour this generously over the salad ( you may not need all of the dressing.)
     </step>
 </recipe>
-

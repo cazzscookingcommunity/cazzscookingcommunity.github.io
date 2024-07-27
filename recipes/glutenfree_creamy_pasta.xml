@@ -1,28 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>GlutenFree Creamy Pasta</title>
-<filename>glutenfree_creamy_pasta.xml</filename>
-<thumbnail>../images/gluten_free_creamy_paste.jpeg</thumbnail>
-<category>Dinner</category>
-<diet>GlutenFree</diet>
-<ingredient>1 packet gluten free spaghetti or fettuccine </ingredient>
-<ingredient>1/4 cup olive oil</ingredient>
-<ingredient>4 egg yolks</ingredient>
-<ingredient>1/4 cup cream</ingredient>
-<ingredient>1/4 cup butter melted</ingredient>
-<ingredient>1/4 cup pine nuts</ingredient>
-<ingredient>1/2 cup Grated Parmesan </ingredient>
-<ingredient>8 garlic cloves sliced</ingredient>
-<ingredient>4 hand fulls of rocket</ingredient>
-<ingredient>salt and pepper </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>GlutenFree Creamy Pasta</title>
+  <filename>glutenfree_creamy_pasta.xml</filename>
+  <thumbnail>../images/gluten_free_creamy_paste.jpeg</thumbnail>
+  <category>Dinner</category>
+  <diet>GlutenFree</diet>
+  <ingredient>1 packet gluten free spaghetti or fettuccine </ingredient>
+  <ingredient>1/4 cup olive oil</ingredient>
+  <ingredient>4 egg yolks</ingredient>
+  <ingredient>1/4 cup cream</ingredient>
+  <ingredient>1/4 cup butter melted</ingredient>
+  <ingredient>1/4 cup pine nuts</ingredient>
+  <ingredient>1/2 cup Grated Parmesan </ingredient>
+  <ingredient>8 garlic cloves sliced</ingredient>
+  <ingredient>4 hand fulls of rocket</ingredient>
+  <ingredient>salt and pepper </ingredient>
+  <step>
 In a large pot boil 4 litres of salted water and cook pasta per packet directions. Meanwhile in a small dry sauce pan toast pine by heating over a flame constantly tossing until you get desired colour ( dark brown, not black.) Remove pine nuts and set aside. In the same pan place the olive oil and garlic and cook until the garlic is golden colour. In a separate bowl combine egg yolks, 1/4 cup Parmesan, cream and cooled butter. Once pasta cooked immediately drain and place back in pan. Pour over olive oil and garlic mixture, season with salt and pepper and toss well. Stir through egg mixture, then rockets. Serve into bowls and top with some of the remaining Parmesan and pine nuts. Serve immediately.
     </step>
 </recipe>
-

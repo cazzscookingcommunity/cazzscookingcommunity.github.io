@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Coconut Rough Slice</title>
-<filename>coconut_rough_slice.xml</filename>
-<comment>c/o Irena Macri with cazzie tweaks</comment>
-<thumbnail>../images/coconut_rough_slice.jpeg</thumbnail>
-<category>Sweets</category>
-<ingredient>2 cups desiccated coconut </ingredient>
-<ingredient>2 TBSP cocoa</ingredient>
-<ingredient>10 medjool dates</ingredient>
-<ingredient>5 TBSP coconut oil melted </ingredient>
-<ingredient>200 gms dark chocolate </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Coconut Rough Slice</title>
+  <filename>coconut_rough_slice.xml</filename>
+  <comment>c/o Irena Macri with cazzie tweaks</comment>
+  <thumbnail>../images/coconut_rough_slice.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>2 cups desiccated coconut </ingredient>
+  <ingredient>2 TBSP cocoa</ingredient>
+  <ingredient>10 medjool dates</ingredient>
+  <ingredient>5 TBSP coconut oil melted </ingredient>
+  <ingredient>200 gms dark chocolate </ingredient>
+  <step>
 Prepare a dish by greasing it and placing grease proof paper in it. Cut the dates and remove the pips, then cut them roughly. Place in a blender and blend until well chopped and starting to clump. Pour in the coconut, cocoa and 4 TBSP of coconut oil. Blend until combined, push down the sides if necessary. Pour into prepared dish and push down to make it all flat. Place in freezer while you prepare the topping. In a microwave melt the remaining coconut oil. Break the chocolate into small pieces and place in the bowl with the melted coconut oil. Place in microwave for a minute, remove and stir. Keep doing this until completely melted (mine only took one minute.) Remove slice from the freezer and pour the melted chocolate over the top. Smooth out with the back of a spoon. Place back in freezer for 20-30 minutes (or until top set.) Remove from freezer and chop into slices with a sharp knife. Store in an airtight container in the fridge.
     </step>
 </recipe>
-

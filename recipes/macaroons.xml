@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Macaroons</title>
-<filename>macaroons.xml</filename>
-<thumbnail>../images/macaroons.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<ingredient>4 egg whites</ingredient>
-<ingredient>4 3/4 cups desiccated coconut </ingredient>
-<ingredient>1/2 cup caster sugar</ingredient>
-<ingredient>1 teaspoon vanilla essence </ingredient>
-<step>Preheat oven to 160C and line two baking trays with baking paper.</step>
-<step>In a mixer beat egg whites, sugar and vanilla essence until foamy and sugar dissolved. Fold in coconut and make sure all the coconut is moistened. </step>
-<step>Scoop out 1 TBSP of mixture onto trays, evenly spread out, until all used up. Bake in oven for 20 minutes or until golden.</step>
-<step>Cool completely on trays and store in airtight container.</step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Macaroons</title>
+  <filename>macaroons.xml</filename>
+  <thumbnail>../images/macaroons.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <ingredient>4 egg whites</ingredient>
+  <ingredient>4 3/4 cups desiccated coconut </ingredient>
+  <ingredient>1/2 cup caster sugar</ingredient>
+  <ingredient>1 teaspoon vanilla essence </ingredient>
+  <step>Preheat oven to 160C and line two baking trays with baking paper.</step>
+  <step>In a mixer beat egg whites, sugar and vanilla essence until foamy and sugar dissolved. Fold in coconut and make sure all the coconut is moistened. </step>
+  <step>Scoop out 1 TBSP of mixture onto trays, evenly spread out, until all used up. Bake in oven for 20 minutes or until golden.</step>
+  <step>Cool completely on trays and store in airtight container.</step>
 </recipe>
-

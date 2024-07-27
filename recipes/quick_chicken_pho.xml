@@ -1,32 +1,25 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Quick Chicken Pho</title>
-<filename>quick_chicken_pho.xml</filename>
-<comment>c/o Woolworth</comment>
-<thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
-<category>Soup</category>
-<category>Poultry</category>
-<diet>GlutenFree</diet>
-<ingredient>5cm ginger peeled and sliced </ingredient>
-<ingredient>2-4 garlic cloves crushed</ingredient>
-<ingredient>2 star anise</ingredient>
-<ingredient>1 TBsp soy sauce</ingredient>
-<ingredient>1 TBsp fish sauce</ingredient>
-<ingredient>2 chicken thighs</ingredient>
-<ingredient>150 gms Thai rice noodles</ingredient>
-<ingredient>100 gms bean shoots washed</ingredient>
-<ingredient>1/4 cup mint leaves washed </ingredient>
-<ingredient>2 spring onions chopped</ingredient>
-<ingredient>1 red chilli sliced</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Quick Chicken Pho</title>
+  <filename>quick_chicken_pho.xml</filename>
+  <comment>c/o Woolworth</comment>
+  <thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
+  <category>Soup</category>
+  <category>Poultry</category>
+  <diet>GlutenFree</diet>
+  <ingredient>5cm ginger peeled and sliced </ingredient>
+  <ingredient>2-4 garlic cloves crushed</ingredient>
+  <ingredient>2 star anise</ingredient>
+  <ingredient>1 TBsp soy sauce</ingredient>
+  <ingredient>1 TBsp fish sauce</ingredient>
+  <ingredient>2 chicken thighs</ingredient>
+  <ingredient>150 gms Thai rice noodles</ingredient>
+  <ingredient>100 gms bean shoots washed</ingredient>
+  <ingredient>1/4 cup mint leaves washed </ingredient>
+  <ingredient>2 spring onions chopped</ingredient>
+  <ingredient>1 red chilli sliced</ingredient>
+  <step>
 Combine ginger, garlic, star anise, soy and fish sauce with 2 cups of water. Bring to boil rapidly then reduce to simmer.  Mean while prepare herbs and vegetables then set aside. Add chicken and simmer for 10 minutes then remove to a plate. Remove ginger and star anise from broth.  Discard both, then add chicken stock to broth and bring to the boil. Mean while cook noodles per instructions and shred chicken fillets. Once noodles are done seperate between 4-5 bowls, ladle over broth then sprinkle over chicken. Add all other ingredients in a decorative way and serve immediately.
 Recipe can be doubled.
     </step>
 </recipe>
-

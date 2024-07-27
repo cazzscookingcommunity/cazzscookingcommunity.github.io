@@ -1,20 +1,13 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Three Ingredient Cookies</title>
-<filename>three_ingredient_cookies.xml</filename>
-<thumbnail>../images/three_ingredient_cookies.jpeg</thumbnail>
-<category>Sweets</category>
-<diet>GlutenFree</diet>
-<ingredient>1 cup peanut butter (smooth)</ingredient>
-<ingredient>1/2 cup sugar</ingredient>
-<ingredient>1 egg</ingredient>
-<step>Preheat oven to 180C. In a mixer combine all ingredients and mix until combined.   Scoop out 1 TBSP of mixture and roll into a ball. Place on a line baking sheet. Once sheet is full use the back of a fork to flatten each cookie. Bake in oven for 8-10 minutes.
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Three Ingredient Cookies</title>
+  <filename>three_ingredient_cookies.xml</filename>
+  <thumbnail>../images/three_ingredient_cookies.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>GlutenFree</diet>
+  <ingredient>1 cup peanut butter (smooth)</ingredient>
+  <ingredient>1/2 cup sugar</ingredient>
+  <ingredient>1 egg</ingredient>
+  <step>Preheat oven to 180C. In a mixer combine all ingredients and mix until combined.   Scoop out 1 TBSP of mixture and roll into a ball. Place on a line baking sheet. Once sheet is full use the back of a fork to flatten each cookie. Bake in oven for 8-10 minutes.
     </step>
 </recipe>
-

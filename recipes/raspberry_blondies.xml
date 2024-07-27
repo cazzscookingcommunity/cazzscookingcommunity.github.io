@@ -1,25 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Raspberry Blondies</title>
-<filename>raspberry_blondies.xml</filename>
-<thumbnail>../images/raspberries_blondies.jpeg</thumbnail>
-<category>Sweets</category>
-<ingredient>125 gms butter</ingredient>
-<ingredient>180 gms plaistowe white chocolate broken into pieces</ingredient>
-<ingredient>3/4 cup frozen raspberries </ingredient>
-<ingredient>3/4 cup caster sugar</ingredient>
-<ingredient>2 teaspoons vanilla extract</ingredient>
-<ingredient>2 eggs whisked</ingredient>
-<ingredient>1 cup flour sieved </ingredient>
-<ingredient>Icing sugar to serve</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Raspberry Blondies</title>
+  <filename>raspberry_blondies.xml</filename>
+  <thumbnail>../images/raspberries_blondies.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>125 gms butter</ingredient>
+  <ingredient>180 gms plaistowe white chocolate broken into pieces</ingredient>
+  <ingredient>3/4 cup frozen raspberries </ingredient>
+  <ingredient>3/4 cup caster sugar</ingredient>
+  <ingredient>2 teaspoons vanilla extract</ingredient>
+  <ingredient>2 eggs whisked</ingredient>
+  <ingredient>1 cup flour sieved </ingredient>
+  <ingredient>Icing sugar to serve</ingredient>
+  <step>
 Heat oven to 160 C. Grease a 18x28x4cm dish with butter and cover with grease proof paper, then set aside. In medium pan melt butter completely then pour in chocolate pieces. Stir until all pieces are melted and mixed together with the butter. Remove from heat and stir in sugar and vanilla essence. Pour in beaten eggs and stir until all combined. Sift flour over pot and stir until all combined. Pour in prepared dish and smooth over top, sprinkle raspberries over the top and push them in the mixture with your finger. Cook for 30-40 minutes or until golden on top. Remove from pan and place on cooling wrack. Sprinkle with icing sugar and cut into pieces. Serve warm or cold. Once cooled completely store in an air tight container.
     </step>
 </recipe>
-

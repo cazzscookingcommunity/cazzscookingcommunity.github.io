@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Ridiculously Good Olive Oil Dip!</title>
-<filename>ridiculously_good_olive_oil_dip.xml</filename>
-<thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
-<category>Sides</category>
-<ingredient>2 garlic cloves crushed</ingredient>
-<ingredient>2 TBsp capers finely chopped</ingredient>
-<ingredient>1/2 teaspoon dried oregano</ingredient>
-<ingredient>2 TBsp fresh rosemary finely chopped</ingredient>
-<ingredient>2 teaspoons fresh thyme finely chopped</ingredient>
-<ingredient>3 TBsp finely grated Parmesan cheese</ingredient>
-<ingredient>salt and cracked pepper to taste</ingredient>
-<ingredient>1/2 cup good quality extra-virgin olive oil</ingredient>
-<ingredient>pepper flakes (optional)</ingredient>
-<ingredient>Crusty bread to serve</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Ridiculously Good Olive Oil Dip!</title>
+  <filename>ridiculously_good_olive_oil_dip.xml</filename>
+  <thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
+  <category>Sides</category>
+  <ingredient>2 garlic cloves crushed</ingredient>
+  <ingredient>2 TBsp capers finely chopped</ingredient>
+  <ingredient>1/2 teaspoon dried oregano</ingredient>
+  <ingredient>2 TBsp fresh rosemary finely chopped</ingredient>
+  <ingredient>2 teaspoons fresh thyme finely chopped</ingredient>
+  <ingredient>3 TBsp finely grated Parmesan cheese</ingredient>
+  <ingredient>salt and cracked pepper to taste</ingredient>
+  <ingredient>1/2 cup good quality extra-virgin olive oil</ingredient>
+  <ingredient>pepper flakes (optional)</ingredient>
+  <ingredient>Crusty bread to serve</ingredient>
+  <step>
 Place all ingredients in a jar and shake well.  Serve spread out on a flat plate with crusty bread.  Alternatively you can mix all ingredients except olive oil and make two mounds on a plate, then pour olive oil around mounds.  Serve with crusty bread or crackers.
     </step>
 </recipe>
-

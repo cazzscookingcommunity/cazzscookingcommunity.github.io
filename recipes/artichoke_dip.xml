@@ -1,23 +1,16 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Artichoke Dip</title>
-<filename>artichoke_dip.xml</filename>
-<thumbnail>../images/artichoke_dip.jpeg</thumbnail>
-<category></category>
-<ingredient>1 jar artichokes drained</ingredient>
-<ingredient>1 cup mayonnaise </ingredient>
-<ingredient>1 cup Parmesan cheese </ingredient>
-<ingredient>1/2 teasp garlic salt</ingredient>
-<ingredient>Parsley flakes </ingredient>
-<ingredient>Crackers to serve</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Artichoke Dip</title>
+  <filename>artichoke_dip.xml</filename>
+  <thumbnail>../images/artichoke_dip.jpeg</thumbnail>
+  <category/>
+  <ingredient>1 jar artichokes drained</ingredient>
+  <ingredient>1 cup mayonnaise </ingredient>
+  <ingredient>1 cup Parmesan cheese </ingredient>
+  <ingredient>1/2 teasp garlic salt</ingredient>
+  <ingredient>Parsley flakes </ingredient>
+  <ingredient>Crackers to serve</ingredient>
+  <step>
 Preheat oven to 180 C. Chop artichokes roughly. In oven proof bowl mix all ingredients except parsley. Smooth over top and place in oven for 20-30 mins. Remove from oven and sprinkle parsley flakes on top and serve with crackers.
     </step>
 </recipe>
-

@@ -1,27 +1,20 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Dutch Oven Enchiladas</title>
-<filename>dutch_oven_enchiladas.xml</filename>
-<comment>C/O Cabelas with Chris tweaks. Great to cook when camping- cook in camp fire instead of oven!</comment>
-<thumbnail>../images/dutch_oven_enchiladas.jpeg</thumbnail>
-<category>Poultry</category>
-<ingredient>6-8 chicken thigh filets chopped</ingredient>
-<ingredient>2 TBsp olive oil </ingredient>
-<ingredient>1/2 teasp chilli</ingredient>
-<ingredient>2 garlic cloves crushed</ingredient>
-<ingredient>1 can refried beans</ingredient>
-<ingredient>2 cans corn drained </ingredient>
-<ingredient>2 cans black bean rinsed and drained</ingredient>
-<ingredient>2 jars enchilada sauce </ingredient>
-<ingredient>8 tortillas </ingredient>
-<ingredient>300 gms grated tasty cheese</ingredient>
-<ingredient>1 large Dutch oven</ingredient>
-<step>Preheat oven to 180C. Heat the olive oil in a fry pan and cook garlic for a few minutes. Then cook chicken sprinkled with chilli, in batches until all cooked. Place all the chicken back in the fry pan and pour in enchilada sauce. Reheat and cook for 6 minutes or until the sauce reduces a little. Remove from heat. Pour half of the sauce in the bottom of the Dutch oven. Place a layer of tortillas on top, tearing the tortillas if necessary to cover it all. Next spread over refried beans over the top then add another layer of tortillas. Then sprinkle over black beans, corn and cheese. Cover this with another layer of tortillas. Repeat layers until all ingredients are used, but end with enchilada sauce and cheese sprinkled on top. Place lid on Dutch Oven and cook for 45-60 minutes.</step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Dutch Oven Enchiladas</title>
+  <filename>dutch_oven_enchiladas.xml</filename>
+  <comment>C/O Cabelas with Chris tweaks. Great to cook when camping- cook in camp fire instead of oven!</comment>
+  <thumbnail>../images/dutch_oven_enchiladas.jpeg</thumbnail>
+  <category>Poultry</category>
+  <ingredient>6-8 chicken thigh filets chopped</ingredient>
+  <ingredient>2 TBsp olive oil </ingredient>
+  <ingredient>1/2 teasp chilli</ingredient>
+  <ingredient>2 garlic cloves crushed</ingredient>
+  <ingredient>1 can refried beans</ingredient>
+  <ingredient>2 cans corn drained </ingredient>
+  <ingredient>2 cans black bean rinsed and drained</ingredient>
+  <ingredient>2 jars enchilada sauce </ingredient>
+  <ingredient>8 tortillas </ingredient>
+  <ingredient>300 gms grated tasty cheese</ingredient>
+  <ingredient>1 large Dutch oven</ingredient>
+  <step>Preheat oven to 180C. Heat the olive oil in a fry pan and cook garlic for a few minutes. Then cook chicken sprinkled with chilli, in batches until all cooked. Place all the chicken back in the fry pan and pour in enchilada sauce. Reheat and cook for 6 minutes or until the sauce reduces a little. Remove from heat. Pour half of the sauce in the bottom of the Dutch oven. Place a layer of tortillas on top, tearing the tortillas if necessary to cover it all. Next spread over refried beans over the top then add another layer of tortillas. Then sprinkle over black beans, corn and cheese. Cover this with another layer of tortillas. Repeat layers until all ingredients are used, but end with enchilada sauce and cheese sprinkled on top. Place lid on Dutch Oven and cook for 45-60 minutes.</step>
 </recipe>
-

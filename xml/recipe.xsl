@@ -6,8 +6,9 @@
 
     <!-- Output method is HTML -->
     <xsl:output method="html" encoding="UTF-8" indent="yes"/>
-
-    <!-- Template to match the root element and transform it into the HTML structure -->
+    
+    
+    <!-- Template to convert XML recipe into HTML -->
     <xsl:template match="/ns:recipe">
 
     <html lang="en">    
@@ -103,7 +104,7 @@
                             <br/>
                         </div>
                     </div>
-                    
+
                     <div class="row">
                         <div class="four columns mealImg" id="randomMealImg">
                             <img src="/images/{ns:thumbnail}" alt="{ns:title}"/>
@@ -116,10 +117,14 @@
                             <xsl:value-of select="ns:yield"/>
                             <br/>
                             <span>Prep Time:</span>
-                            <xsl:value-of select="ns:prepTime"/>
+                            <xsl:call-template name="convertTime">
+                                <xsl:with-param name="duration" select="ns:prepTime"/>
+                            </xsl:call-template>
                             <br/>
                             <span>Cook Time:</span>
-                            <xsl:value-of select="ns:cookTime"/>
+                            <xsl:call-template name="convertTime">
+                                <xsl:with-param name="duration" select="ns:cookTime"/>
+                            </xsl:call-template>
                             <br/>
                             
                             <br/>
@@ -222,10 +227,119 @@
 
         </main>
         </body>
-        <!-- <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> -->
-        <!-- <script src="/scripts/main.js"></script> -->
-        <!-- <script src="/scripts/recipe.js"></script> -->
     </html>
+    </xsl:template> 
+    
+    
+    <!-- Function to convert ISO 8601 duration to a readable format -->
+    <xsl:template name="convertTime">
+        <xsl:param name="duration"/>
+        <xsl:choose>
+            <!-- Check if the duration parameter is empty or not provided -->
+            <xsl:when test="not($duration) or $duration = ''">
+                <xsl:text>Not specified</xsl:text>
+            </xsl:when>
 
+            <!-- Check if the duration starts with 'PT' -->
+            <xsl:when test="starts-with($duration, 'PT')">
+                <xsl:variable name="time" select="substring-after($duration, 'PT')"/>
+    
+                
+                <!-- Extract hours, minutes, and seconds from the time string -->
+                <xsl:variable name="hours">
+                    <xsl:choose>
+                        <xsl:when test="contains($time, 'H')">
+                            <xsl:value-of select="substring-before($time, 'H')"/>
+                        </xsl:when>
+                        <xsl:otherwise>0</xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <xsl:variable name="remainingTimeAfterHours">
+                    <xsl:choose>
+                        <xsl:when test="contains($time, 'H')">
+                            <xsl:value-of select="substring-after($time, 'H')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$time"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <xsl:variable name="minutes">
+                    <xsl:choose>
+                        <xsl:when test="contains($remainingTimeAfterHours, 'M')">
+                            <xsl:value-of select="substring-before($remainingTimeAfterHours, 'M')"/>
+                        </xsl:when>
+                        <xsl:otherwise>0</xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <xsl:variable name="remainingTimeAfterMinutes">
+                    <xsl:choose>
+                        <xsl:when test="contains($remainingTimeAfterHours, 'M')">
+                            <xsl:value-of select="substring-after($remainingTimeAfterHours, 'M')"/>
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:value-of select="$remainingTimeAfterHours"/>
+                        </xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <xsl:variable name="seconds">
+                    <xsl:choose>
+                        <xsl:when test="contains($remainingTimeAfterMinutes, 'S')">
+                            <xsl:value-of select="substring-before($remainingTimeAfterMinutes, 'S')"/>
+                        </xsl:when>
+                        <xsl:otherwise>0</xsl:otherwise>
+                    </xsl:choose>
+                </xsl:variable>
+
+                <!-- <xsl:value-of select="concat($hours, ' hours, ', $minutes, ' minutes, and ', $seconds, ' seconds')"/> -->
+                
+
+                <!-- Format output string -->
+                <xsl:choose>
+                    <!-- When all time parts are empty or zero -->
+                    <xsl:when test="$hours = 0 and $minutes = 0 and $seconds = 0">
+                        <xsl:text>0 minutes</xsl:text>
+                    </xsl:when>
+                    <!-- When only hours are present -->
+                    <xsl:when test="$minutes = 0 and $seconds = 0">
+                        <xsl:value-of select="concat($hours, ' hours')"/>
+                    </xsl:when>
+                    <!-- When only minutes are present -->
+                    <xsl:when test="$hours = 0 and $seconds = 0">
+                        <xsl:value-of select="concat($minutes, ' minutes')"/>
+                    </xsl:when>
+                    <!-- When only seconds are present -->
+                    <xsl:when test="$hours = 0 and $minutes = 0">
+                        <xsl:value-of select="concat($seconds, ' seconds')"/>
+                    </xsl:when>
+                    <!-- When hours and minutes are present -->
+                    <xsl:when test="$seconds = 0">
+                        <xsl:value-of select="concat($hours, ' hours and ', $minutes, ' minutes')"/>
+                    </xsl:when>
+                    <!-- When hours and seconds are present -->
+                    <xsl:when test="$minutes = 0">
+                        <xsl:value-of select="concat($hours, ' hours and ', $seconds, ' seconds')"/>
+                    </xsl:when>
+                    <!-- When minutes and seconds are present -->
+                    <xsl:when test="$hours = 0">
+                        <xsl:value-of select="concat($minutes, ' minutes and ', $seconds, ' seconds')"/>
+                    </xsl:when>
+                    <!-- When all time parts are present -->
+                    <xsl:otherwise>
+                        <xsl:value-of select="concat($hours, ' hours, ', $minutes, ' minutes, and ', $seconds, ' seconds')"/>
+                    </xsl:otherwise>
+                </xsl:choose>
+            </xsl:when>
+            <!-- Handle cases where the format is not recognized -->
+            <xsl:otherwise>
+                <xsl:text>Unknown duration format</xsl:text>
+            </xsl:otherwise>
+        </xsl:choose>
     </xsl:template>
+
+       
 </xsl:stylesheet>

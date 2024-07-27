@@ -1,25 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Anzac Cookies</title>
-<filename>anzac_cookies.xml</filename>
-<thumbnail>../images/anzacs.jpeg</thumbnail>
-<category></category>
-<ingredient>1 1/4 cups rolled oats </ingredient>
-<ingredient>1 1/4 cups plain flour </ingredient>
-<ingredient>1 1/4 cups desiccated coconut</ingredient>
-<ingredient>1 cup sugar</ingredient>
-<ingredient>175 gms butter</ingredient>
-<ingredient>2 TBsp golden syrup</ingredient>
-<ingredient>1 1/4 teaspoon bicarb soda</ingredient>
-<ingredient>2 TBsp boiling water</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Anzac Cookies</title>
+  <filename>anzac_cookies.xml</filename>
+  <thumbnail>../images/anzacs.jpeg</thumbnail>
+  <category/>
+  <ingredient>1 1/4 cups rolled oats </ingredient>
+  <ingredient>1 1/4 cups plain flour </ingredient>
+  <ingredient>1 1/4 cups desiccated coconut</ingredient>
+  <ingredient>1 cup sugar</ingredient>
+  <ingredient>175 gms butter</ingredient>
+  <ingredient>2 TBsp golden syrup</ingredient>
+  <ingredient>1 1/4 teaspoon bicarb soda</ingredient>
+  <ingredient>2 TBsp boiling water</ingredient>
+  <step>
 Heat oven to 160C and grease a few flat trays. In a large bowl place the flour, oats, coconut and sugar and set aside.  In a small pan melt the butter slowly and add golden syrup. Stir to combine and remove from heat.  In a small cup place boiling water and add bicarbonate soda (this will bubble.) Add the boiling water mix to the butter and stir. Pour into bowl with dry ingredients, then stir to combine. Roll into balls and place with about 5cm around each ball to allow expanding. Cook in oven for 10-15 mins in batches. Remove from oven when golden brown. Use a spatula to move to cooling tray to cool completely.  Store in an airtight container once completely cool.
     </step>
 </recipe>
-

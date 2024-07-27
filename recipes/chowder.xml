@@ -1,26 +1,19 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>CHOWDER</title>
-<filename>chowder.xml</filename>
-<thumbnail>../images/chowder.jpeg</thumbnail>
-<category>Soup</category>
-<diet>GlutenFree</diet>
-<ingredient>1 can creamed corn </ingredient>
-<ingredient>4 potatoes peeled and chopped</ingredient>
-<ingredient>2 large carrots chopped</ingredient>
-<ingredient>200-300gms diced bacon</ingredient>
-<ingredient>2 chicken stock cubes</ingredient>
-<ingredient>Milk and Water</ingredient>
-<ingredient>Oil</ingredient>
-<ingredient>Salt and Pepper to taste</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>CHOWDER</title>
+  <filename>chowder.xml</filename>
+  <thumbnail>../images/chowder.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>GlutenFree</diet>
+  <ingredient>1 can creamed corn </ingredient>
+  <ingredient>4 potatoes peeled and chopped</ingredient>
+  <ingredient>2 large carrots chopped</ingredient>
+  <ingredient>200-300gms diced bacon</ingredient>
+  <ingredient>2 chicken stock cubes</ingredient>
+  <ingredient>Milk and Water</ingredient>
+  <ingredient>Oil</ingredient>
+  <ingredient>Salt and Pepper to taste</ingredient>
+  <step>
 Heat oil in large pot and cook the bacon until brown.  Add can of creamed corn then fill can with milk and pour into pot then do the same with water. Add all other ingredients and bring to simmer. Cook until veggies are soft, stir every now and then, to stop bottom catching (about 30-45 mins) Serve with thick toast or fresh bread if desired. You can double recipe.  Great for a cold winter lunch!
     </step>
 </recipe>
-

@@ -1,21 +1,14 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Mango Slushie</title>
-<filename>mango_slushie.xml</filename>
-<thumbnail>../images/mango_slushie.jpeg</thumbnail>
-<category>Drink</category>
-<ingredient>1 cup frozen mango pieces</ingredient>
-<ingredient>1 cup cold jasmine tea</ingredient>
-<ingredient>Mint leaves</ingredient>
-<ingredient>Frozen lime slices </ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Mango Slushie</title>
+  <filename>mango_slushie.xml</filename>
+  <thumbnail>../images/mango_slushie.jpeg</thumbnail>
+  <category>Drink</category>
+  <ingredient>1 cup frozen mango pieces</ingredient>
+  <ingredient>1 cup cold jasmine tea</ingredient>
+  <ingredient>Mint leaves</ingredient>
+  <ingredient>Frozen lime slices </ingredient>
+  <step>
 Wiz tea and mango in blender until done. Pour into Long glass or two smaller glasses, and garnish with lime and mint.  Serve immediately. You can sweeten with honey if desired.
     </step>
 </recipe>
-

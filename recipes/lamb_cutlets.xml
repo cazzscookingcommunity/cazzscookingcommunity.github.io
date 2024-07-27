@@ -1,28 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Lamb Cutlets</title>
-<filename>lamb_cutlets.xml</filename>
-<comment>10 minute meal</comment>
-<thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
-<category></category>
-<yield>4</yield>
-<prepTime>5</prepTime>
-<cookTime>10</cookTime>
-<ingredient>Lamb cutlets 2-4 per person</ingredient>
-<ingredient>Punnet mini tomatoes</ingredient>
-<ingredient>Few handfuls snap or snow peas</ingredient>
-<ingredient>Pita bread</ingredient>
-<ingredient>Cumin</ingredient>
-<ingredient>1 Tbsp balsamic vinegar</ingredient>
-<ingredient>Salt and Pepper to taste</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Lamb Cutlets</title>
+  <filename>lamb_cutlets.xml</filename>
+  <comment>10 minute meal</comment>
+  <thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
+  <category/>
+  <yield>4</yield>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <ingredient>Lamb cutlets 2-4 per person</ingredient>
+  <ingredient>Punnet mini tomatoes</ingredient>
+  <ingredient>Few handfuls snap or snow peas</ingredient>
+  <ingredient>Pita bread</ingredient>
+  <ingredient>Cumin</ingredient>
+  <ingredient>1 Tbsp balsamic vinegar</ingredient>
+  <ingredient>Salt and Pepper to taste</ingredient>
+  <step>
 Heat small amount of olive oil in fry pan. Cook cutlets for 4 minutes one side and 2 minutes the other side. Sprinkle with cumin while cooking. Mean while blanch snow peas and chop tomatoes in half. Once peas done pop them in fridge to cool. Once cool, mix with tomatoes and balsamic vinegar. Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate. Ready in 10 minutes- for nights you need something super quick!
     </step>
 </recipe>
-

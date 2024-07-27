@@ -1,28 +1,21 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Curry Carrot Soup</title>
-<filename>curry_carrot_soup.xml</filename>
-<thumbnail>../images/curry_carrot_soup.jpeg</thumbnail>
-<category>Soup</category>
-<diet>GlutenFree</diet>
-<ingredient>500gms carrots peeled and chopped</ingredient>
-<ingredient>500gms pumpkin peeled and chopped</ingredient>
-<ingredient>4 garlic cloves crushed</ingredient>
-<ingredient>2 inches ginger peeled and finely grated</ingredient>
-<ingredient>1 teasp red curry paste</ingredient>
-<ingredient>2-3 TBsp olive oil </ingredient>
-<ingredient>6 cups vegetable stock</ingredient>
-<ingredient>1 can chickpeas drained and rinse</ingredient>
-<ingredient>Salt to taste</ingredient>
-<ingredient>Greek yogurt and bread to serve</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Curry Carrot Soup</title>
+  <filename>curry_carrot_soup.xml</filename>
+  <thumbnail>../images/curry_carrot_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>GlutenFree</diet>
+  <ingredient>500gms carrots peeled and chopped</ingredient>
+  <ingredient>500gms pumpkin peeled and chopped</ingredient>
+  <ingredient>4 garlic cloves crushed</ingredient>
+  <ingredient>2 inches ginger peeled and finely grated</ingredient>
+  <ingredient>1 teasp red curry paste</ingredient>
+  <ingredient>2-3 TBsp olive oil </ingredient>
+  <ingredient>6 cups vegetable stock</ingredient>
+  <ingredient>1 can chickpeas drained and rinse</ingredient>
+  <ingredient>Salt to taste</ingredient>
+  <ingredient>Greek yogurt and bread to serve</ingredient>
+  <step>
 Heat oil in medium size sauce pan. Once hot add garlic and stir for a few minutes, then add ginger. While cooking cut up veggies. Once ginger and garlic well cooked, add red curry paste and cook for one minute further, stirring to blend all together.  Add stock and veggies and bring to the boil. Reduce to a simmer and cook until veggies very soft, about 30 minutes. While still in the pot blend veggies with a stick blender (take care as it will still be very hot.) You can add some more stock at this stage if required. Return to heat and add chickpeas and heat for a further five minutes. Serve with a teaspoon full of Greek yogurt and your choice of bread.
     </step>
 </recipe>
-

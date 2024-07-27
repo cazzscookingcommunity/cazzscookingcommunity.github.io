@@ -1,22 +1,15 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Mars Bar Slice</title>
-<filename>mars_bar_slice.xml</filename>
-<thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
-<category>Sweets</category>
-<ingredient>4 cups rice bubbles</ingredient>
-<ingredient>6 Mars bars (53gms) chopped</ingredient>
-<ingredient>400gms milk chocolate broken up into small pieces</ingredient>
-<ingredient>Butter</ingredient>
-<step>
+<?xml version='1.0' encoding='UTF-8'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io https://cazzscookingcommunity.github.io/xml/recipe.xsd">
+  <title>Mars Bar Slice</title>
+  <filename>mars_bar_slice.xml</filename>
+  <thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>4 cups rice bubbles</ingredient>
+  <ingredient>6 Mars bars (53gms) chopped</ingredient>
+  <ingredient>400gms milk chocolate broken up into small pieces</ingredient>
+  <ingredient>Butter</ingredient>
+  <step>
 Grease a lamington tray and line with baking paper, set aside. Put rice bubbles in a large bowl and set aside. Melt a knob of butter in a small pot. Add Mars bars and stir continuously until all combined and looks silky and all the same colour. Tip into bowl with rice bubbles and when cool enough to handle fold through until both are combined together. Tip into prepared tray with your hands push firmly into the tray until evenly spread and top is flat as possible. Cover and place in fridge to cool. Meanwhile heat another knob of butter in a clean small pot until completely melted. Add chocolate and stir until all melted and it looks silky. Remove tray from fridge and pour melted chocolate on top of slice and smooth over chocolate to cover the top completely. Cover and place back in the fridge until chocolate set. Remove from tray with the aid of the baking paper and chop* into mouth size pieces. Serve cold or at room temperature.
 *its easier to cut into pieces if you dont let it get too cold!
     </step>
 </recipe>
-
