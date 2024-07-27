@@ -72,11 +72,11 @@ def update_xml_files_in_directory(directory_path):
 def main():
     # Example usage
     directory_path = 'recipes/'
-    update_xml_files_in_directory(directory_path)
+    # update_xml_files_in_directory(directory_path)
     
-    test_file = 'recipes/simple_friedrice.xml'
+    test_file = 'recipes/oven_risotto_with_sweet_spud.xml'
     # test_file = 'recipes/white_sauce.xml'
-    # update_xml_file(test_file)
+    update_xml_file(test_file)
 
 if __name__ == "__main__":
     main()
