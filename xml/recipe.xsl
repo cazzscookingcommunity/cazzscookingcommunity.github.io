@@ -79,7 +79,7 @@
                     <div class="container">
                         <div class="row">
                             <div class="eight columns">
-                                <a class="brand" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                                <a class="heading" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
                             </div>
                             <div class="four columns">
                             </div>
@@ -98,7 +98,7 @@
                     <!-- heading 1 = recipe name -->
                     <div class="row">
                         <div class="twelve columns">
-                            <h1 class="brand">
+                            <h1 class="heading brand">
                                     <xsl:value-of select="ns:title"/>
                             </h1>
                             <br/>
