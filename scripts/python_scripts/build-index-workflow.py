@@ -44,7 +44,7 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
     <url>
         <loc>https://cazzscookingcommunity.github.io/index.html</loc>
         <lastmod>{}</lastmod>
-        <changefreq>yearly</changefreq>
+        <changefreq>monthly</changefreq>
         <priority>0.8</priority>
     </url>'''
 
@@ -54,7 +54,7 @@ sitemap_page = '''
     <url>
         <loc>https://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
         <lastmod>{}</lastmod>
-        <changefreq>monthly</changefreq>
+        <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>'''
 

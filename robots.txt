@@ -1,3 +1,10 @@
 User-agent: *
 
-Sitemap: https://cazzscookingcommunity.github.io/sitemap.xml
+Disallow: /xml/
+Disallow: /scripts/python_scripts/
+Disallow: /components/
+Disallow: /*.xml$
+Disallow: /*.xsd$
+Disallow: /*.xslt$
+
+Allow: /sitemap.xml
