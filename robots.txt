@@ -1,17 +1,17 @@
 User-agent: *
 
-Disallow: /xml/
-Disallow: /scripts/python_scripts/
-Disallow: /components/
-
-# block recipe update pages and allow recipes
-Disallow: /*.xml$
+# allow recipes and block recipe update pages
 Allow: /recipe.html
 Allow: /recipe.html?recipe=*
+Disallow: /*.xml$
+
 
 # disallow file and folders
 Disallow: /*.xsd$
 Disallow: /*.xslt$
+Disallow: /xml/
+Disallow: /scripts/python_scripts/
+Disallow: /components/
 
-Allow: /sitemap.xml
+Allow: https://cazzscookingcommunity.github.io/sitemap.xml
 
