@@ -15,6 +15,7 @@
         <head>
             <meta charset="utf-8"></meta>
             <title><xsl:value-of select="ns:title"/></title>
+            <link rel="canonical" href="https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}" />
           
             <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
             <meta name="author" content="Chris Cullin"></meta>
