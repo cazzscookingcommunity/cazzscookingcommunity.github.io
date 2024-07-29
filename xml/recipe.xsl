@@ -196,15 +196,15 @@
                             <h2 class="heading">About</h2>
                             </div>
                             <div class="eight columns">
-                            <p>
-                                A food recipes website for all of Cazz's favourite family recipes
-                            </p>
-                            
-                            <p>
-                                We are a family of 5. The 3 kids, now young adults, take turns cookng.  
-                                This webiste is a collection of family and friends favourites collected over the years 
-                                and is recorded to pass, and is used by the kids to cook each week.<br/>
-                            </p>
+                                <p>
+                                    A food recipes website for all of Cazz's favourite family recipes.
+                                  </p>
+                                  
+                                  <p>
+                                    We are a family of 5. The 3 kids, now young adults, take turns at cooking dinner.  
+                                    This webiste is a collection of family and friends favourite recipes collected over the years 
+                                    and is recorded to pass on, and to be used by the kids to cook each week.<br/>
+                                  </p>
                             </div>
                         </div>
                         </div>
