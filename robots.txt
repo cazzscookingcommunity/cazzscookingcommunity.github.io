@@ -1,11 +1,11 @@
 User-agent: *
 
-Disallow: /xml/
+#Disallow: /xml/
 Disallow: /scripts/python_scripts/
 Disallow: /components/
 
 # disallow recipe update pages
-Disallow: /*.xml$
+#Disallow: /*.xml$
 
 # disallow file and folders
 Disallow: /*.xsd$

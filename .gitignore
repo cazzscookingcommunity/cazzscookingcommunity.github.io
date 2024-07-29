@@ -2,8 +2,9 @@
 .vscode/
 .venv/
 
-# backup recipes pre Step expansion and pretty formatting
+# backup directories
 recipes copy/ 
+xml/backup_xsd2html2xml_customisations/
 
 
 
