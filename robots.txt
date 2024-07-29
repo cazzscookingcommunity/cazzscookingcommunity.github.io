@@ -2,7 +2,7 @@ User-agent: *
 
 #Disallow: /xml/
 Disallow: /scripts/python_scripts/
-Disallow: /components/
+#Disallow: /components/
 
 # disallow recipe update pages
 #Disallow: /*.xml$
