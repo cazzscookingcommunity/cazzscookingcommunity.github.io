@@ -18,7 +18,16 @@
     <ingredient>1/2 lime juiced</ingredient>
     <ingredient>1 teasp sugar</ingredient>
     <ingredient>salt and pepper to taste</ingredient>
-    <step>Get all your ingredients ready on the bench. Heat a large pan, then add oil and heat oil. While you are doing this prepare your saute curry paste.  Once curry paste prepared add to hot fry pan and cook for about five minutes. Add pumpkin and stir to coat all the pieces. Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin is cooked but not mushy, about 15 minutes. Stirring pumpkin several times while it is cooking. You can use a lid to aid with this step if you have one. Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes.  Taste again and add any extra salt and pepper if required.</step>
+    <step>Get all your ingredients ready on the bench.</step>
+    <step>Heat a large pan, then add oil and heat oil.</step>
+    <step>While you are doing this prepare your saute curry paste.</step>
+    <step>Once curry paste prepared add to hot fry pan and cook for about five minutes.</step>
+    <step>Add pumpkin and stir to coat all the pieces.</step>
+    <step>Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin is cooked but not mushy, about 15 minutes.</step>
+    <step>Stirring pumpkin several times while it is cooking.</step>
+    <step>You can use a lid to aid with this step if you have one.</step>
+    <step>Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes.</step>
+    <step>Taste again and add any extra salt and pepper if required.</step>
   </part>
   <part>
     <title>Saute curry paste</title>
@@ -29,7 +38,8 @@
     <ingredient>2 TBsp five spice</ingredient>
     <ingredient>5 TBsp light soy sauce</ingredient>
     <ingredient>2 TBsp honey</ingredient>
-    <step>Using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together. Once mushed to your liking add soy sauce, honey, five spice and salt and pepper. </step>
+    <step>Using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together.</step>
+    <step>Once mushed to your liking add soy sauce, honey, five spice and salt and pepper.</step>
   </part>
   <part>
     <title>To serve</title>
@@ -37,8 +47,10 @@
     <ingredient>Rice</ingredient>
     <ingredient>Peanuts</ingredient>
     <ingredient>Chopped spring onions</ingredient>
-    <step>Put several tablespoons of rice in the bottom of a bowl, sprinkle over a layer of bean sprouts. Then ladle over your pumpkin ensuring to use a lot of the sauce. Sprinkle over spring onions and peanuts (if desired.)
-            Ps you can adapt with other vegetables or chicken.
-        </step>
+    <step>Put several tablespoons of rice in the bottom of a bowl, sprinkle over a layer of bean sprouts.</step>
+    <step>Then ladle over your pumpkin ensuring to use a lot of the sauce.</step>
+    <step>Sprinkle over spring onions and peanuts (if desired.</step>
+    <step>)
+            Ps you can adapt with other vegetables or chicken.</step>
   </part>
 </recipe>

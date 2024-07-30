@@ -2,8 +2,8 @@
 
 """ Runs locally and updates recipe steps
 
-Scans the recipe directory and seperate steps into multiple steps 
-with "." as the seperator.
+Scans the recipe directory and separates steps into multiple steps 
+with "." as the separator.
 """
 
 from lxml import etree
@@ -36,34 +36,45 @@ def process_xml(file_path):
         # Find and process all 'step' elements
         steps = root.findall('.//ns:step', namespaces=ns)
         for step in steps:
-            step_text = step.text.strip()
-            if step_text:
-                # Split the text by periods and create new steps
-                step_texts = [s.strip() for s in step_text.split('.') if s.strip()]
-                
-                # Remove the original step
-                parent = step.getparent()
-                parent.remove(step)
-                
-                # Add new step elements
-                for text in step_texts:
-                    new_step = etree.Element('{https://cazzscookingcommunity.github.io}step')
-                    new_step.text = text + '.'
-                    parent.append(new_step)
+            if step.text is not None:
+                step_text = step.text.strip()
+                if step_text:
+                    # Split the text by periods and create new steps
+                    step_texts = [s.strip() for s in step_text.split('.') if s.strip()]
+                    
+                    # Remove the original step
+                    parent = step.getparent()
+                    parent.remove(step)
+                    
+                    # Add new step elements
+                    for text in step_texts:
+                        new_step = etree.Element('{https://cazzscookingcommunity.github.io}step')
+                        new_step.text = text + '.'
+                        parent.append(new_step)
         
         # Save the updated XML file
         xml_doc.write(file_path, pretty_print=True, xml_declaration=True, encoding='UTF-8')
-        # print(f"Updated {file_path}")
+        print(f"Updated {file_path}")
         
     except etree.XMLSyntaxError as e:
         print(f"XMLSyntaxError in {file_path}: {e}")
     except Exception as e:
         print(f"Error processing {file_path}: {e}")
 
-# Process each XML file in the directory
-for filename in os.listdir(recipe_dir):
-    if filename.endswith('.xml'):
-        file_path = os.path.join(recipe_dir, filename)
-        process_xml(file_path)
+def crawl_directory():
+    # Process each XML file in the directory
+    for filename in os.listdir(recipe_dir):
+        if filename.endswith('.xml'):
+            file_path = os.path.join(recipe_dir, filename)
+            process_xml(file_path)
 
-print("Processing completed.")
+    print("Processing completed.")
+
+def main():
+    test_file="recipes/wheatbix_slice.xml"
+    crawl_directory()
+    # process_xml(test_file)
+    
+
+if __name__ == "__main__":
+    main()

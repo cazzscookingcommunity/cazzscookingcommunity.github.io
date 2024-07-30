@@ -14,7 +14,10 @@
     <ingredient>4 eggs</ingredient>
     <ingredient>1/2 cup oil </ingredient>
     <ingredient>1/2 cup rum</ingredient>
-    <step>Preheat oven to 160C and grease a ring cake tin and set aside. Mix all ingredients in a medium bowl for a few minutes with an electric mixer. Pour into tin and bake for 45-60 minutes or until skew come out out clean. Remove from oven and prick the top with a skew, all of over the cake.</step>
+    <step>Preheat oven to 160C and grease a ring cake tin and set aside.</step>
+    <step>Mix all ingredients in a medium bowl for a few minutes with an electric mixer.</step>
+    <step>Pour into tin and bake for 45-60 minutes or until skew come out out clean.</step>
+    <step>Remove from oven and prick the top with a skew, all of over the cake.</step>
   </part>
   <part>
     <title>Sauce</title>
@@ -22,6 +25,11 @@
     <ingredient>3/4 cup sugar</ingredient>
     <ingredient>125 gms butter</ingredient>
     <ingredient>1/2 cup water</ingredient>
-    <step>Heat all ingredients in a small saucepan until all are melted and combined.  Stir a few times while cooking. Pour sauce on cake while still hot.  Leave in tin for one hour, then turn out on to a plate. Serve it warm or cold with cream and strawberries. You can sprinkle the top with a little icing sugar if desired.</step>
+    <step>Heat all ingredients in a small saucepan until all are melted and combined.</step>
+    <step>Stir a few times while cooking.</step>
+    <step>Pour sauce on cake while still hot.</step>
+    <step>Leave in tin for one hour, then turn out on to a plate.</step>
+    <step>Serve it warm or cold with cream and strawberries.</step>
+    <step>You can sprinkle the top with a little icing sugar if desired.</step>
   </part>
 </recipe>

@@ -22,11 +22,18 @@
     <ingredient>2 chicken stock cubes</ingredient>
     <ingredient>2 TBsp olive oil </ingredient>
     <ingredient>salt and pepper taste</ingredient>
-    <step>Soak lentils in water with a little salt for 6-8 hours. Once soaked crush with your fingers the stock cubes in lentils and stir well. </step>
-    <step>Place on heat and cook for 20-25 minutes. Add extra water if it becomes dry. Stir occasionally. Once done drain and return to pot. </step>
-    <step>Meanwhile heat olive oil in a fry pan and cook bacon, until crispy and brown. Add garlic and cook for a further 3-5 minutes. </step>
-    <step>Add rosemary and cook for a further minute or two. Turn off heat and add dressing and capers.</step>
-    <step>Stir well then pot into lentils. Add salt and pepper to taste and parsley and stir well.</step>
+    <step>Soak lentils in water with a little salt for 6-8 hours.</step>
+    <step>Once soaked crush with your fingers the stock cubes in lentils and stir well.</step>
+    <step>Place on heat and cook for 20-25 minutes.</step>
+    <step>Add extra water if it becomes dry.</step>
+    <step>Stir occasionally.</step>
+    <step>Once done drain and return to pot.</step>
+    <step>Meanwhile heat olive oil in a fry pan and cook bacon, until crispy and brown.</step>
+    <step>Add garlic and cook for a further 3-5 minutes.</step>
+    <step>Add rosemary and cook for a further minute or two.</step>
+    <step>Turn off heat and add dressing and capers.</step>
+    <step>Stir well then pot into lentils.</step>
+    <step>Add salt and pepper to taste and parsley and stir well.</step>
     <step>Serve with crusty bread or as a side.</step>
   </part>
   <part>
@@ -35,6 +42,6 @@
     <ingredient>1 TBsp grainy mustard</ingredient>
     <ingredient>1/2 TBsp balsamic vinegar</ingredient>
     <ingredient>1 teasp dried sage</ingredient>
-    <step>Mix in jar and pour over</step>
+    <step>Mix in jar and pour over.</step>
   </part>
 </recipe>

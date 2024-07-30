@@ -16,7 +16,15 @@
     <ingredient>400 gms cheese grated</ingredient>
     <ingredient>salt and pepper to taste</ingredient>
     <ingredient>One quantity white sauce</ingredient>
-    <step>Cook pasta per packet directions.  While pasta is cooking, chop parsley and set aside.  Then drain can of tuna and set aside.  Cook the white sauce.  Once pasta is cooked drain well then place back in pot.  Stir through parsley and tuna, then stir through white sauce. Season with white pepper and salt.  Add all ingredients together, except cheese and stir well. Serve in bowls with good handful of cheese on top.</step>
+    <step>Cook pasta per packet directions.</step>
+    <step>While pasta is cooking, chop parsley and set aside.</step>
+    <step>Then drain can of tuna and set aside.</step>
+    <step>Cook the white sauce.</step>
+    <step>Once pasta is cooked drain well then place back in pot.</step>
+    <step>Stir through parsley and tuna, then stir through white sauce.</step>
+    <step>Season with white pepper and salt.</step>
+    <step>Add all ingredients together, except cheese and stir well.</step>
+    <step>Serve in bowls with good handful of cheese on top.</step>
   </part>
   <part>
     <title>White sauce</title>
@@ -25,6 +33,10 @@
     <ingredient>500ml milk</ingredient>
     <ingredient>Sand white pepper to taste</ingredient>
     <ingredient>Pinch Grated nutmeg</ingredient>
-    <step>Melt butter in small saucepan, then add flour stirring until all lumps removed. Add a small amount of milk (about 1/4-1/3 cup) and stir continuously until it thickens. Add more milk as before and continue until all the milk is used up. Add salt and pepper and nutmeg and stir well. Use immediately.</step>
+    <step>Melt butter in small saucepan, then add flour stirring until all lumps removed.</step>
+    <step>Add a small amount of milk (about 1/4-1/3 cup) and stir continuously until it thickens.</step>
+    <step>Add more milk as before and continue until all the milk is used up.</step>
+    <step>Add salt and pepper and nutmeg and stir well.</step>
+    <step>Use immediately.</step>
   </part>
 </recipe>

@@ -13,8 +13,11 @@
     <ingredient>1/2 cup cranberries </ingredient>
     <ingredient>1/2 cup walnuts </ingredient>
     <ingredient>4 TBsp crumbled blue cheese or feta ( whatever is available in your fridge)</ingredient>
-    <step>Sprinkle spinach leaves on a platter, then cranberries and walnuts. Gently crushing the walnuts in your hands as you sprinkle. Drizzle over dressing and then top with crumbled cheese on top. Serve immediate. This recipe can be doubled.
-        </step>
+    <step>Sprinkle spinach leaves on a platter, then cranberries and walnuts.</step>
+    <step>Gently crushing the walnuts in your hands as you sprinkle.</step>
+    <step>Drizzle over dressing and then top with crumbled cheese on top.</step>
+    <step>Serve immediate.</step>
+    <step>This recipe can be doubled.</step>
   </part>
   <part>
     <title>Dressing</title>
@@ -22,6 +25,7 @@
     <ingredient>1 TBsp champagne or white wine vinegar</ingredient>
     <ingredient>1 teaspoon seeded mustard</ingredient>
     <ingredient>1-4 teasp salt and pepper</ingredient>
-    <step>Put all dressing ingredients in a small jar with a lid. Give it a good shake and set aside. </step>
+    <step>Put all dressing ingredients in a small jar with a lid.</step>
+    <step>Give it a good shake and set aside.</step>
   </part>
 </recipe>

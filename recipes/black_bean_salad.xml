@@ -14,7 +14,9 @@
     <ingredient>1 red capsicum diced</ingredient>
     <ingredient>3-4 spring onions chopped </ingredient>
     <ingredient>1/2 bunch parsley finely chopped</ingredient>
-    <step>Put all Salad ingredients in a medium bowl and stir well to mix. Place dressing ingredients in a small jar and shake well. Pour dressing over salad just before serving and mix well.</step>
+    <step>Put all Salad ingredients in a medium bowl and stir well to mix.</step>
+    <step>Place dressing ingredients in a small jar and shake well.</step>
+    <step>Pour dressing over salad just before serving and mix well.</step>
   </part>
   <part>
     <title>Dressing</title>
@@ -22,6 +24,6 @@
     <ingredient>1 TBsp balsamic vinegar</ingredient>
     <ingredient>1/2 teaspoon Dijon mustard</ingredient>
     <ingredient>salt and pepper to taste</ingredient>
-    <step>mix in jar and shake</step>
+    <step>mix in jar and shake.</step>
   </part>
 </recipe>

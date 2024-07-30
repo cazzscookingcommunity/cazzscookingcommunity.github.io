@@ -20,8 +20,10 @@
     <ingredient>1 teaspoon cumin</ingredient>
     <ingredient>1 teaspoon oregano </ingredient>
     <ingredient>salt and pepper to taste</ingredient>
-    <step>Heat oil in large fry pan and cook garlic for a few minutes. Then cook mince until brown. </step>
-    <step>Add all other ingredients to the pan and stir well. Heat through and pour into large baking dish. </step>
+    <step>Heat oil in large fry pan and cook garlic for a few minutes.</step>
+    <step>Then cook mince until brown.</step>
+    <step>Add all other ingredients to the pan and stir well.</step>
+    <step>Heat through and pour into large baking dish.</step>
   </part>
   <part>
     <title>Topping</title>
@@ -30,9 +32,9 @@
     <ingredient>2-3 garlic cloves crushed</ingredient>
     <ingredient>1/2 cup grated cheese</ingredient>
     <ingredient>2-3 spring onions chopped</ingredient>
-    <step>Place bread slice in top in a single layer until completely covered. </step>
-    <step>Brush top with combined oil and garlic, then sprinkle with cheese. </step>
-    <step>Cook in preheated moderate oven for 30 minutes. </step>
+    <step>Place bread slice in top in a single layer until completely covered.</step>
+    <step>Brush top with combined oil and garlic, then sprinkle with cheese.</step>
+    <step>Cook in preheated moderate oven for 30 minutes.</step>
     <step>Remove from oven and sprinkle top with spring onions to serve.</step>
   </part>
 </recipe>
