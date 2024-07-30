@@ -13,5 +13,4 @@ Disallow: /xml/
 Disallow: /scripts/python_scripts/
 Disallow: /components/
 
-Allow: https://cazzscookingcommunity.github.io/sitemap.xml
-
+Allow: /sitemap.xml

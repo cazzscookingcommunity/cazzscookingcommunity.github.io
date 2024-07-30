@@ -23,7 +23,7 @@ body {
 }
 
 .xsd2html2xml textarea {
-    height: 100px;
+    /* height: 100px; */
     /* overflow-wrap: break-word; */
     width: 60%;
     font-weight: normal;
