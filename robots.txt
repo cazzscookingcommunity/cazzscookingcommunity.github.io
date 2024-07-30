@@ -1,8 +1,10 @@
 User-agent: *
 
-# allow recipes and block recipe update pages
+Allow: /sitemap.xml
 Allow: /recipe.html
 Allow: /recipe.html?recipe=*
+
+# block recipe update pages
 Disallow: /*.xml$
 
 
@@ -12,5 +14,3 @@ Disallow: /*.xslt$
 Disallow: /xml/
 Disallow: /scripts/python_scripts/
 Disallow: /components/
-
-Allow: /sitemap.xml
