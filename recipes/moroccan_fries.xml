@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Moroccan Fries</title>
   <filename>moroccan_fries.xml</filename>
-  <thumbnail>../images/moroccan_fries.jpeg</thumbnail>
+  <thumbnail>moroccan_fries.jpeg</thumbnail>
   <category>Sides</category>
   <ingredient>10 white potatoes </ingredient>
   <ingredient>Moroccan spice</ingredient>

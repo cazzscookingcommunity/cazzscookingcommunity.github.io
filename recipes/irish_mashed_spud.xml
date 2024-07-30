@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Irish Mashed Spud</title>
   <filename>irish_mashed_spud.xml</filename>
-  <thumbnail>../images/irish_mash_spud.jpeg</thumbnail>
+  <thumbnail>irish_mash_spud.jpeg</thumbnail>
   <category>Dinner</category>
   <ingredient>1/4 head cabbage chopped</ingredient>
   <ingredient>3 rashes bacon chopped </ingredient>

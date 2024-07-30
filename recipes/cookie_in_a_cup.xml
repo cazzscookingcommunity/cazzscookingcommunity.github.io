@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cookie in a Cup</title>
   <filename>cookie_in_a_cup.xml</filename>
-  <thumbnail>../images/cookie _in_a_cup.jpeg</thumbnail>
+  <thumbnail>cookie _in_a_cup.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>2 ceramic cups </ingredient>
   <ingredient>2 TBsp butter</ingredient>

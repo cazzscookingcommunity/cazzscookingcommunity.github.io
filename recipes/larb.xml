@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Larb</title>
   <filename>larb.xml</filename>
-  <thumbnail>../images/larb.jpeg</thumbnail>
+  <thumbnail>larb.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>FODMAP</diet>
   <ingredient>850gms minced pork </ingredient>

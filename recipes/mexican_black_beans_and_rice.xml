@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mexican Black Beans and Rice</title>
   <filename>mexican_black_beans_and_rice.xml</filename>
-  <thumbnail>../images/mexican_blackbeans_and_rice.jpeg</thumbnail>
+  <thumbnail>mexican_blackbeans_and_rice.jpeg</thumbnail>
   <category>Vegetarian</category>
   <ingredient>3 cups cooked rice</ingredient>
   <ingredient>1 can black beans rinsed</ingredient>

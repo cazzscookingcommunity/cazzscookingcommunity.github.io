@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Muesli Cookies</title>
   <filename>muesli_cookies.xml</filename>
-  <thumbnail>../images/muesli_cookies.jpeg</thumbnail>
+  <thumbnail>muesli_cookies.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>1 1/2 cups muesli</ingredient>
   <ingredient>1 cup desiccated coconut</ingredient>

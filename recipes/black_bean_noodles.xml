@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Black bean noodles </title>
   <filename>black_bean_noodles.xml</filename>
-  <thumbnail>../images/blackbean_noodles.jpeg</thumbnail>
+  <thumbnail>blackbean_noodles.jpeg</thumbnail>
   <category/>
   <ingredient>1 kg fresh Hokkien noodles</ingredient>
   <ingredient>500gms minced pork</ingredient>

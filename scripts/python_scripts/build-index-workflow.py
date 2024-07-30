@@ -8,11 +8,11 @@ new sitemap.xml and recipeList.xml files.
 """
 
 import os
-import sys
 import xmlschema
+from lxml import etree
 import datetime
-date = datetime.datetime.now().date()
 
+date = datetime.datetime.now().date()
 
 # source info
 recipedir = "./recipes/"
@@ -39,7 +39,8 @@ xmlfooter = '''
 '''
 
 sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" 
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
     <url>
         <loc>https://cazzscookingcommunity.github.io/index.html</loc>
@@ -53,6 +54,9 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 sitemap_page = '''
     <url>
         <loc>https://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
+        <image:image>
+            <image:loc>https://cazzscookingcommunity.github.io/images/{}</image:loc>
+        </image:image>
         <lastmod>{}</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
@@ -86,6 +90,20 @@ def get_file_modified_date(file_path):
     modified_date = datetime.datetime.fromtimestamp(timestamp).date()
     return modified_date
 
+def extract_image_name(file_path):
+    try:
+        tree = etree.parse(file_path)
+        root = tree.getroot()
+        namespace = {'ns': 'https://cazzscookingcommunity.github.io'}
+        # Find the <thumbnail> tag with namespace handling
+        image = root.find('.//ns:thumbnail', namespaces=namespace).text
+        return image
+    except:
+        print("\n*********1")
+        print("ERROR getting image: " + filename + " Skipping\n")
+        return
+
+
 def processFile(inputfile, recipelist, sitemap):
     try:
         validRecipe = schema.is_valid(recipedir + filename)
@@ -99,7 +117,7 @@ def processFile(inputfile, recipelist, sitemap):
         with open(recipelist, "a") as dst:
             with open(sitemap, "a") as sm:
                 with open(recipedir + inputfile, "rt") as src:
-                    sm.write(sitemap_page.format(filename, fileDate))
+                    sm.write(sitemap_page.format(filename, imagename, fileDate))
                     dst.write("<recipe>\n")
                     firstTitle = True
                     while True:
@@ -146,7 +164,8 @@ if __name__== "__main__":
         filename = os.fsdecode(file)
         fileDate = get_file_modified_date(recipedir + filename)
         if filename.endswith(".xml") and filename != outputfile: 
-            print(filename)
+            imagename = extract_image_name(recipedir + filename)
+            print(f"file: {filename} imagename: {imagename}")
             processFile(filename, recipelist, sitemap)
 
     closeOutput(recipelist, xmlfooter)

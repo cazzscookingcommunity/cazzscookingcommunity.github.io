@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cauliflower Soup</title>
   <filename>cauliflower_soup.xml</filename>
-  <thumbnail>../images/cauliflower_soup.jpeg</thumbnail>
+  <thumbnail>cauliflower_soup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>

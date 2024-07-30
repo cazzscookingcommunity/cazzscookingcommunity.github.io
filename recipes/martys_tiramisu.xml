@@ -6,7 +6,7 @@
   <title>Martys Tiramisu</title>
   <filename>martys_tiramisu.xml</filename>
   <comment>this recipe can be doubled or even tripled</comment>
-  <thumbnail>../images/martys_tiramisu.jpeg</thumbnail>
+  <thumbnail>martys_tiramisu.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>4 eggs separated</ingredient>
   <ingredient>1/2 cup caster sugar</ingredient>

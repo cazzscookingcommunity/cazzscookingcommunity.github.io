@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Traditional Shortbread</title>
   <filename>traditional_shortbread.xml</filename>
-  <thumbnail>../images/traditional_shortbread.jpeg</thumbnail>
+  <thumbnail>traditional_shortbread.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>250 gms butter melted</ingredient>
   <ingredient>2 cups plain flour sifted</ingredient>

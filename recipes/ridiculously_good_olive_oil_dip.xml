@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Ridiculously Good Olive Oil Dip!</title>
   <filename>ridiculously_good_olive_oil_dip.xml</filename>
-  <thumbnail>../images/ridiculously_good_olive_oil_dip.jpeg</thumbnail>
+  <thumbnail>ridiculously_good_olive_oil_dip.jpeg</thumbnail>
   <category>Sides</category>
   <ingredient>2 garlic cloves crushed</ingredient>
   <ingredient>2 TBsp capers finely chopped</ingredient>

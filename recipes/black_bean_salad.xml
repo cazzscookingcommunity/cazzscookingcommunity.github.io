@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Black Bean Salad</title>
   <filename>black_bean_salad.xml</filename>
-  <thumbnail>../images/blackbean_salad.jpeg</thumbnail>
+  <thumbnail>blackbean_salad.jpeg</thumbnail>
   <category/>
   <part>
     <title>Main</title>

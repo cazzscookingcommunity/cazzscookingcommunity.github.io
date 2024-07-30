@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Russian Tea Cakes</title>
   <filename>russian_tea_cakes.xml</filename>
-  <thumbnail>../images/russian_tea_cakes.jpeg</thumbnail>
+  <thumbnail>russian_tea_cakes.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>225 gms butter melted</ingredient>
   <ingredient>2 1/4 cups plain flour</ingredient>

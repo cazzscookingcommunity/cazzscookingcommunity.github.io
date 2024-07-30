@@ -6,7 +6,7 @@
   <title>Quick Chicken Pho</title>
   <filename>quick_chicken_pho.xml</filename>
   <comment>c/o Woolworth</comment>
-  <thumbnail>../images/quick_chicken_pho.jpeg</thumbnail>
+  <thumbnail>quick_chicken_pho.jpeg</thumbnail>
   <category>Soup</category>
   <category>Poultry</category>
   <diet>GlutenFree</diet>

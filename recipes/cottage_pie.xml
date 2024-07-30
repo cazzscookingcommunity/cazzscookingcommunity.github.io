@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cottage Pie</title>
   <filename>cottage_pie.xml</filename>
-  <thumbnail>../images/cottage_pie.jpeg</thumbnail>
+  <thumbnail>cottage_pie.jpeg</thumbnail>
   <category>Lamb</category>
   <diet>FODMAP</diet>
   <ingredient>One amount of mashed spud</ingredient>

@@ -6,7 +6,7 @@
   <title>Greek Salad</title>
   <filename>greek_salad.xml</filename>
   <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
-  <thumbnail>../images/greek_salad.jpeg</thumbnail>
+  <thumbnail>greek_salad.jpeg</thumbnail>
   <category>Salad</category>
   <diet>FODMAP</diet>
   <part>

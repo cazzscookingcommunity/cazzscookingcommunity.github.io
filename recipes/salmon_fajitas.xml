@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Salmon Fajitas </title>
   <filename>salmon_fajitas.xml</filename>
-  <thumbnail>../images/salmon_fajitas.jpeg</thumbnail>
+  <thumbnail>salmon_fajitas.jpeg</thumbnail>
   <category>Fish</category>
   <ingredient>1 TBsp oil </ingredient>
   <ingredient>1 green capsicum chopped </ingredient>

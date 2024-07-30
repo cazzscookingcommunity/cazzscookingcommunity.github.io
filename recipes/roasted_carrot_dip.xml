@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Roasted Carrot Dip</title>
   <filename>roasted_carrot_dip.xml</filename>
-  <thumbnail>../images/roasted_carrot_dip.jpeg</thumbnail>
+  <thumbnail>roasted_carrot_dip.jpeg</thumbnail>
   <category>Vegetarian</category>
   <category>Sides</category>
   <ingredient>500 gms carrots chopped </ingredient>

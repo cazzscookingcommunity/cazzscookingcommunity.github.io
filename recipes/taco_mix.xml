@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Taco Mix</title>
   <filename>taco_mix.xml</filename>
-  <thumbnail>../images/taco_bake.jpeg</thumbnail>
+  <thumbnail>taco_bake.jpeg</thumbnail>
   <category>Beef</category>
   <diet>GlutenFree</diet>
   <ingredient>2 teaspoon cumin</ingredient>

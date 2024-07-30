@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Rocket and Pine nut Salad</title>
   <filename>rocket_pine_nut_salad.xml</filename>
-  <thumbnail>../images/rocket_and_pine_nut_salad.jpeg</thumbnail>
+  <thumbnail>rocket_and_pine_nut_salad.jpeg</thumbnail>
   <category>Salad</category>
   <ingredient>100gms rocket leave mix</ingredient>
   <ingredient>80gms sun dried tomatoes</ingredient>

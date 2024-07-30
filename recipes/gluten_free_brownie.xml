@@ -6,7 +6,7 @@
   <title>Gluten Free Brownie</title>
   <filename>gluten_free_brownie.xml</filename>
   <comment>c/o Cacao powder with cazzie tweaks</comment>
-  <thumbnail>../images/gluten_free_brownies.jpeg</thumbnail>
+  <thumbnail>gluten_free_brownies.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <ingredient>1 cup cacao powder</ingredient>

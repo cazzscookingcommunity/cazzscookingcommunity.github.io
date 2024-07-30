@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>GlutenFree Creamy Pasta</title>
   <filename>glutenfree_creamy_pasta.xml</filename>
-  <thumbnail>../images/gluten_free_creamy_paste.jpeg</thumbnail>
+  <thumbnail>gluten_free_creamy_paste.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>GlutenFree</diet>
   <ingredient>1 packet gluten free spaghetti or fettuccine </ingredient>

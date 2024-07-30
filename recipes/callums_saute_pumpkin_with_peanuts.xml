@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Callums Saute Pumpkin with Peanuts</title>
   <filename>callums_saute_pumpkin_with_peanuts.xml</filename>
-  <thumbnail>../images/callums_pumpkin_dish.jpeg</thumbnail>
+  <thumbnail>callums_pumpkin_dish.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegetarian</diet>
   <diet>FODMAP</diet>

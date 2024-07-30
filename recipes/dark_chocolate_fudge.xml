@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Dark Chocolate Fudge</title>
   <filename>dark_chocolate_fudge.xml</filename>
-  <thumbnail>../images/dark_chocolate_fudge.jpeg</thumbnail>
+  <thumbnail>dark_chocolate_fudge.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <ingredient>375gms dark chocolate broken in to pieces</ingredient>

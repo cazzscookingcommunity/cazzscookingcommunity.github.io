@@ -6,7 +6,7 @@
   <title>Pizza Dough</title>
   <filename>pizza_dough.xml</filename>
   <comment>c/o Harrys Mum</comment>
-  <thumbnail>../images/pizza_dough.jpeg</thumbnail>
+  <thumbnail>pizza_dough.jpeg</thumbnail>
   <category>Dinner</category>
   <ingredient>5 cups plain flour</ingredient>
   <ingredient>1 1/2 teaspoon yeast</ingredient>

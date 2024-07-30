@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Egg and Bacon Pie</title>
   <filename>egg_and_bacon_pie.xml</filename>
-  <thumbnail>../images/egg_and_bacon_pie.jpeg</thumbnail>
+  <thumbnail>egg_and_bacon_pie.jpeg</thumbnail>
   <category>Dinner</category>
   <ingredient>2 sheets puff pastry </ingredient>
   <ingredient>4 eggs </ingredient>

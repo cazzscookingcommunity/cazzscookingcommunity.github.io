@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Jassy Tasty Wraps</title>
   <filename>jassy_tasty_wraps.xml</filename>
-  <thumbnail>../images/jassys_tasty_wraps.jpeg</thumbnail>
+  <thumbnail>jassys_tasty_wraps.jpeg</thumbnail>
   <category>Lunch</category>
   <ingredient>1 sheet puff pastry </ingredient>
   <ingredient>Tasty cheese cut in 1 inch x 2 inch strips</ingredient>

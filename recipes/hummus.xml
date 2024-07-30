@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Hummus </title>
   <filename>hummus.xml</filename>
-  <thumbnail>../images/hummus.jpeg</thumbnail>
+  <thumbnail>hummus.jpeg</thumbnail>
   <category>Sides</category>
   <diet>GlutenFree</diet>
   <ingredient>185 gms chick peas (dried)</ingredient>

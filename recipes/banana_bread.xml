@@ -6,7 +6,7 @@
   <title>Banana Bread</title>
   <filename>banana_bread.xml</filename>
   <comment/>
-  <thumbnail>../images/large_banana_bread.jpeg</thumbnail>
+  <thumbnail>large_banana_bread.jpeg</thumbnail>
   <image/>
   <category>Sweets</category>
   <yield/>

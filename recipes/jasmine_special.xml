@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Jasmine Special</title>
   <filename>jasmine_special.xml</filename>
-  <thumbnail>../images/jasmine_special.jpeg</thumbnail>
+  <thumbnail>jasmine_special.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>2 bananas peeled </ingredient>
   <ingredient>1 handful baby spinach </ingredient>

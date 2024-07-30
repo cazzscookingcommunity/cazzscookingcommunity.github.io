@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mini Pear Puddings </title>
   <filename>mini_pear_puddings_.xml</filename>
-  <thumbnail>../images/mini_pear_pudding.jpeg</thumbnail>
+  <thumbnail>mini_pear_pudding.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>3 Packham Pairs</ingredient>
   <ingredient>1 cup SR flour</ingredient>

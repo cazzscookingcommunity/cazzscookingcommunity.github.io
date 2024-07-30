@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Quick Pasta Bake</title>
   <filename>quick_pasta_bake.xml</filename>
-  <thumbnail>../images/quick_pasta_bake.jpeg</thumbnail>
+  <thumbnail>quick_pasta_bake.jpeg</thumbnail>
   <category>Dinner</category>
   <ingredient>500gms pasta cooked per directions</ingredient>
   <ingredient>200gms kalamata olives</ingredient>

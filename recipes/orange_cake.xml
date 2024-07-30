@@ -6,7 +6,7 @@
   <title>Orange Cake</title>
   <filename>orange_cake.xml</filename>
   <comment>c/o good food.com.au with cazzie tweaks </comment>
-  <thumbnail>../images/orange_cake.jpeg</thumbnail>
+  <thumbnail>orange_cake.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>2 oranges</ingredient>
   <ingredient>180 butter melted </ingredient>

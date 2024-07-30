@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Sophias Mums Lentil Soup</title>
   <filename>sophias_mums_lentil_soup.xml</filename>
-  <thumbnail>../images/sophias_mums_lentil_soup.jpeg</thumbnail>
+  <thumbnail>sophias_mums_lentil_soup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>Vegan</diet>
   <ingredient>375 gms brown lentils</ingredient>

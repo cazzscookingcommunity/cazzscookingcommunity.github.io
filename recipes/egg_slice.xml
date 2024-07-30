@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Egg Slice</title>
   <filename>egg_slice.xml</filename>
-  <thumbnail>../images/egg_slice.jpeg</thumbnail>
+  <thumbnail>egg_slice.jpeg</thumbnail>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <ingredient>12-16 eggs beaten</ingredient>

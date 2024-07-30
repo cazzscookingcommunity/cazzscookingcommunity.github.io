@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Easy Pud</title>
   <filename>easy_pud.xml</filename>
-  <thumbnail>../images/easy_pud.jpeg</thumbnail>
+  <thumbnail>easy_pud.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>440 can crushed pineapple </ingredient>
   <ingredient>1 packet butter cake mix</ingredient>

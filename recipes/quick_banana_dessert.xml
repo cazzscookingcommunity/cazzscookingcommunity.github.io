@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Quick Banana Dessert</title>
   <filename>quick_banana_dessert.xml</filename>
-  <thumbnail>../images/quick_banana_dessert.jpeg</thumbnail>
+  <thumbnail>quick_banana_dessert.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <ingredient>1 banana per person </ingredient>

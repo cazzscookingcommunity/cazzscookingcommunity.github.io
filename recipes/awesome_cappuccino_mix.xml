@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Awesome Cappuccino Mix</title>
   <filename>awesome_cappuccino_mix.xml</filename>
-  <thumbnail>../images/awesome_cappuccino_mix.jpeg</thumbnail>
+  <thumbnail>awesome_cappuccino_mix.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>1/2 cup instant coffee</ingredient>
   <ingredient>1 cup powder milk</ingredient>

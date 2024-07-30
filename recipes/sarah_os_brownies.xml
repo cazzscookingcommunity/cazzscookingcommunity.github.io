@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Sarah Os Brownies</title>
   <filename>sarah_os_brownies.xml</filename>
-  <thumbnail>../images/sarah_os_brownies.jpeg</thumbnail>
+  <thumbnail>sarah_os_brownies.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>200gms milk chocolate (broken into small pieces)</ingredient>
   <ingredient>170 gms butter</ingredient>

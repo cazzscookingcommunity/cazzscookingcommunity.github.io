@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Curry Noodles</title>
   <filename>curry_noodles.xml</filename>
-  <thumbnail>../images/curry_noodles.jpeg</thumbnail>
+  <thumbnail>curry_noodles.jpeg</thumbnail>
   <category>Dinner</category>
   <ingredient>300-400 gms prawns fresh or frozen (replace with tofu for vegetarian)</ingredient>
   <ingredient>1 packet noodles cooked per instructions (retain some water)</ingredient>

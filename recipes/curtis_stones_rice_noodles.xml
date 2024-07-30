@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Curtis Stones Rice Noodles</title>
   <filename>curtis_stones_rice_noodles.xml</filename>
-  <thumbnail>../images/curtis_stones_rice_noodles.jpeg</thumbnail>
+  <thumbnail>curtis_stones_rice_noodles.jpeg</thumbnail>
   <category>Poultry</category>
   <ingredient>500gms mince chicken</ingredient>
   <ingredient>200gms Pad Thai rice noodles</ingredient>

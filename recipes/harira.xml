@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Harira</title>
   <filename>harira.xml</filename>
-  <thumbnail>../images/harira.jpeg</thumbnail>
+  <thumbnail>harira.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegan</diet>
   <ingredient>1 cup or can of chickpeas</ingredient>

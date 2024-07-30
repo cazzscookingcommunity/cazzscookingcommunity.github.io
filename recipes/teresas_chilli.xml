@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Teresas Chilli</title>
   <filename>teresas_chilli.xml</filename>
-  <thumbnail>../images/teresas_chilli.jpeg</thumbnail>
+  <thumbnail>teresas_chilli.jpeg</thumbnail>
   <category>Beef</category>
   <category>Dinner</category>
   <ingredient>1 Kilo Minced Meat ( I use beef, Teresa uses Turkey)</ingredient>

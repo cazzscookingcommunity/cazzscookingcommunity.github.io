@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Life Changing Bread</title>
   <filename>life_changing_bread.xml</filename>
-  <thumbnail>../images/life_changing_bread.jpeg</thumbnail>
+  <thumbnail>life_changing_bread.jpeg</thumbnail>
   <category>Sides</category>
   <diet>GlutenFree</diet>
   <ingredient>1 1/2 cups rolled oats</ingredient>

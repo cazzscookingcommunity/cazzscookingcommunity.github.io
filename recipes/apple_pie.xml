@@ -6,7 +6,7 @@
   <title>Apple Pie</title>
   <filename>apple_pie.xml</filename>
   <comment>If you hate rolling pastry, but love home made style, this is a good one for you!</comment>
-  <thumbnail>../images/grandmas_applepie.jpeg</thumbnail>
+  <thumbnail>grandmas_applepie.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>150 gms butter</ingredient>
   <ingredient>2/3 cup sugar</ingredient>

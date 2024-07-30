@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Gails Potato Salad</title>
   <filename>gails_potato_salad.xml</filename>
-  <thumbnail>../images/gails_potatoe_salad.jpeg</thumbnail>
+  <thumbnail>gails_potatoe_salad.jpeg</thumbnail>
   <category>Salad</category>
   <ingredient>1-2 kgs small potatoes</ingredient>
   <ingredient>1/2 cup mayo</ingredient>

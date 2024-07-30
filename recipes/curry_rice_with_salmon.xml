@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Curry Rice with Salmon</title>
   <filename>curry_rice_with_salmon.xml</filename>
-  <thumbnail>../images/curry_rice_with_salmon.jpeg</thumbnail>
+  <thumbnail>curry_rice_with_salmon.jpeg</thumbnail>
   <category>Fish</category>
   <diet>GlutenFree</diet>
   <ingredient>2 cups of basmati rice</ingredient>

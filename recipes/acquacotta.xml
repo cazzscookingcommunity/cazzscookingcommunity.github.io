@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Acquacotta</title>
   <filename>acquacotta.xml</filename>
-  <thumbnail>../images/acquacotta.jpeg</thumbnail>
+  <thumbnail>acquacotta.jpeg</thumbnail>
   <category>Soup</category>
   <yield>4</yield>
   <prepTime>PT15M</prepTime>

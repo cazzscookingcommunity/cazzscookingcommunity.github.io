@@ -6,7 +6,7 @@
   <title>Lamb Cutlets</title>
   <filename>lamb_cutlets.xml</filename>
   <comment>10 minute meal</comment>
-  <thumbnail>../images/lamb_cutlet.jpeg</thumbnail>
+  <thumbnail>lamb_cutlet.jpeg</thumbnail>
   <category/>
   <yield>4</yield>
   <prepTime>PT0M</prepTime>

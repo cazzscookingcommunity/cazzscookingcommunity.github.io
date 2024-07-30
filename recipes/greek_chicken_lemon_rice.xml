@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Greek chicken and lemon rice</title>
   <filename>greek_chicken_lemon_rice.xml</filename>
-  <thumbnail>../images/greek_chicken_with_rice.jpeg</thumbnail>
+  <thumbnail>greek_chicken_with_rice.jpeg</thumbnail>
   <category>Poultry</category>
   <diet>GlutenFree</diet>
   <ingredient>3 TBsp Greek seasoning</ingredient>

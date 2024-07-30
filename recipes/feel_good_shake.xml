@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Feel Good Shake</title>
   <filename>feel_good_shake.xml</filename>
-  <thumbnail>../images/feel_good_shake.jpeg</thumbnail>
+  <thumbnail>feel_good_shake.jpeg</thumbnail>
   <category>Drink</category>
   <diet>Vegan</diet>
   <ingredient>1/2 cup soy milk</ingredient>

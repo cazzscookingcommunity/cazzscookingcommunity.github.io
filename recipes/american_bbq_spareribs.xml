@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>American BBQ SpareRibs</title>
   <filename>american_bbq_spareribs.xml</filename>
-  <thumbnail>../images/spare_ribs.jpeg</thumbnail>
+  <thumbnail>spare_ribs.jpeg</thumbnail>
   <category>Pork</category>
   <ingredient>1.8 kg Pork Spare Ribs</ingredient>
   <ingredient>6 tbsp tomatoe sauce</ingredient>

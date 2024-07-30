@@ -56,6 +56,14 @@ def insert_stylesheet(xml_string):
     xml_string = xml_string.replace(xmlDeclaration, xmlDeclaration + "\n" + stylesheet)
     return xml_string
 
+
+def update_thumbnail(xml_string):
+    """Update the thumbnail tag content to replace paths with filenames."""
+    image_path = "../images/"
+    
+    xml_string = xml_string.replace(image_path, '')
+    return xml_string
+
 def pretty_print_xml(file_path):
     """Format XML file to pretty print with indentation and remove namespace prefixes."""
     try:
@@ -65,6 +73,9 @@ def pretty_print_xml(file_path):
 
         # Remove Stylesheet that was inserted in the wrong place
         xml_string = remove_stylesheet(xml_string)
+
+        # Check and update the image tag
+        xml_string = update_thumbnail(xml_string)
 
         # Parse the XML string
         parser = etree.XMLParser(remove_blank_text=True)
@@ -111,7 +122,7 @@ def main():
     format_xml_files_in_directory(directory_path)
 
     # test_file = 'recipes/simple_friedrice.xml'
-    test_file = 'recipes/oven_risotto_with_sweet_spud.xml'
+    test_file = 'recipes/lasagna.xml'
     # format_file(test_file)
 
 if __name__ == "__main__":

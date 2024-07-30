@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cazzies Smoothy</title>
   <filename>cazzies_smoothy.xml</filename>
-  <thumbnail>../images/cazzie_smoothy.jpeg</thumbnail>
+  <thumbnail>cazzie_smoothy.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>1 old banana</ingredient>
   <ingredient>1/2 cup frozen strawberries </ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>KETO toastie </title>
   <filename>keto_toastie.xml</filename>
-  <thumbnail>../images/keto_toastie.jpeg</thumbnail>
+  <thumbnail>keto_toastie.jpeg</thumbnail>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <diet>Keto</diet>

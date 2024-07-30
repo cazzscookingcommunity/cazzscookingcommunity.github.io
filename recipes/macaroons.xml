@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Macaroons</title>
   <filename>macaroons.xml</filename>
-  <thumbnail>../images/macaroons.jpeg</thumbnail>
+  <thumbnail>macaroons.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <ingredient>4 egg whites</ingredient>

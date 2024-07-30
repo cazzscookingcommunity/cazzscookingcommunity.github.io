@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Herb Rub</title>
   <filename>herb_rub.xml</filename>
-  <thumbnail>../images/herb_rub.jpeg</thumbnail>
+  <thumbnail>herb_rub.jpeg</thumbnail>
   <category>Poultry</category>
   <ingredient>2 teasp dried basil</ingredient>
   <ingredient>1 teasp dried thyme</ingredient>

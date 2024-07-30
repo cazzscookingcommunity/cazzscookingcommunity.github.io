@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Turmeric Latte</title>
   <filename>turmeric_latte.xml</filename>
-  <thumbnail>../images/turmeric_latte.jpeg</thumbnail>
+  <thumbnail>turmeric_latte.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>1 teaspoon turmeric </ingredient>
   <ingredient>1/2 teaspoon cinnamon </ingredient>

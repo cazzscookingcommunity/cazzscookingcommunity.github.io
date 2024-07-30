@@ -6,7 +6,7 @@
   <title>Chocolate Chip Cookies</title>
   <filename>chocolate_chip_cookies.xml</filename>
   <comment>Sams Recipe </comment>
-  <thumbnail>../images/chocolate_chip_cookies.jpeg</thumbnail>
+  <thumbnail>chocolate_chip_cookies.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>125 gms butter </ingredient>
   <ingredient>1/2 cup brown sugar</ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Boston Tea</title>
   <filename>boston_tea.xml</filename>
-  <thumbnail>../images/boston_tea.jpeg</thumbnail>
+  <thumbnail>boston_tea.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>4 lt water</ingredient>
   <ingredient>1 cup sugar</ingredient>

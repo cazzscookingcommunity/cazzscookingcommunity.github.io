@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Rosemary Spuds</title>
   <filename>rosemary_spuds.xml</filename>
-  <thumbnail>../images/rosemary_roast_spuds.jpeg</thumbnail>
+  <thumbnail>rosemary_roast_spuds.jpeg</thumbnail>
   <category>Sides</category>
   <ingredient>1-2 Red skin potatoes per person cut in 1/4 length ways</ingredient>
   <ingredient>2-3 TBsp olive oil</ingredient>

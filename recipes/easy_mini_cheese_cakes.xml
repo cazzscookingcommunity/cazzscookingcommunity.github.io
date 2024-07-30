@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Easy Mini Cheese Cakes</title>
   <filename>easy_mini_cheese_cakes.xml</filename>
-  <thumbnail>../images/easy_mini_cheese_cakes.jpeg</thumbnail>
+  <thumbnail>easy_mini_cheese_cakes.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>125gms granita biscuits </ingredient>
   <ingredient>40gms butter melted</ingredient>

@@ -6,7 +6,7 @@
   <title>Chow Mein</title>
   <filename>chow_mein2.xml</filename>
   <comment>Quick and easy!</comment>
-  <thumbnail>../images/chow_mein.jpeg</thumbnail>
+  <thumbnail>chow_mein.jpeg</thumbnail>
   <image/>
   <category/>
   <yield/>

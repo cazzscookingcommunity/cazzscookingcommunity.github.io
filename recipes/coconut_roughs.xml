@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Coconut Roughs</title>
   <filename>coconut_roughs.xml</filename>
-  <thumbnail>../images/coconut_roughs.jpeg</thumbnail>
+  <thumbnail>coconut_roughs.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <ingredient>1 cup desiccated coconut </ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Potatoe and Leek Soup</title>
   <filename>potatoe_and_leek_soup.xml</filename>
-  <thumbnail>../images/potatoe_and_leek_loup.jpeg</thumbnail>
+  <thumbnail>potatoe_and_leek_loup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>

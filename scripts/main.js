@@ -2,6 +2,7 @@ var searchTree = {};
 var recipeList = new DOMParser();
 var $recipeList;
 const path = "/recipes/";
+const imgpath = "/images/"
 const XMLrecipelist = "/xml/recipeList.xml";
 window.scrollTo(0,$('#main').offset().top);
 
@@ -240,7 +241,7 @@ function createMealCards(shortlist) {
             mealCards += 
             `<div class="four columns">
                 <div class="card">
-                    <img src="${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
+                    <img src="${imgpath}${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
                     <div class="card-body recipe-action" display="none">
                         <div class="cardTitle">${title}</div>
                         <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>

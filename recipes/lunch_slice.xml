@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Lunch slice </title>
   <filename>lunch_slice.xml</filename>
-  <thumbnail>../images/lunch_slice.jpeg</thumbnail>
+  <thumbnail>lunch_slice.jpeg</thumbnail>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <ingredient>1 cup gluten free flour</ingredient>

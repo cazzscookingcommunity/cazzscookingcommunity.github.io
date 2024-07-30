@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cazzies Veggie Soup</title>
   <filename>cazzies_veggie_soup.xml</filename>
-  <thumbnail>../images/cazzies_veggie_soup.jpeg</thumbnail>
+  <thumbnail>cazzies_veggie_soup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>Vegetarian</diet>
   <ingredient>2 TBsp olive oil</ingredient>

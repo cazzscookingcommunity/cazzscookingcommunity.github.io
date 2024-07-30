@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>smoked salmon cucumber</title>
   <filename>smoked_salmon_cucumber.xml</filename>
-  <thumbnail>../images/smoked_salmon_and_cucumber.jpeg</thumbnail>
+  <thumbnail>smoked_salmon_and_cucumber.jpeg</thumbnail>
   <category>Sides</category>
   <category>Fish</category>
   <diet>GlutenFree</diet>

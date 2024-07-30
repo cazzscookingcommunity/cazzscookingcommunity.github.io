@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mango Slushie</title>
   <filename>mango_slushie.xml</filename>
-  <thumbnail>../images/mango_slushie.jpeg</thumbnail>
+  <thumbnail>mango_slushie.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>1 cup frozen mango pieces</ingredient>
   <ingredient>1 cup cold jasmine tea</ingredient>

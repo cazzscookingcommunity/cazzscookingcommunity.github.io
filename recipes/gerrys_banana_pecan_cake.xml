@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Gerrys Banana and Pecan Cake</title>
   <filename>gerrys_banana_pecan_cake.xml</filename>
-  <thumbnail>../images/gerrys_banana_bread.jpeg</thumbnail>
+  <thumbnail>gerrys_banana_bread.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>3 bananas mashed </ingredient>
   <ingredient>1 1/2 cups pecans </ingredient>

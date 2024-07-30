@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Emmas Slow Roast Beef</title>
   <filename>emmas_slow_roast_beef.xml</filename>
-  <thumbnail>../images/emmas_slow_roast_beef.jpeg</thumbnail>
+  <thumbnail>emmas_slow_roast_beef.jpeg</thumbnail>
   <category>Beef</category>
   <diet>GlutenFree</diet>
   <ingredient>1 Coles Slow Cook Family Roast</ingredient>

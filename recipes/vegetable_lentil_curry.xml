@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Vegetable Lentil Curry</title>
   <filename>vegetable_lentil_curry.xml</filename>
-  <thumbnail>../images/vegetable-lentil_curry.jpeg</thumbnail>
+  <thumbnail>vegetable-lentil_curry.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegetarian</diet>
   <ingredient>2 Tbsp oil</ingredient>

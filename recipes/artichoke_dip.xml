@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Artichoke Dip</title>
   <filename>artichoke_dip.xml</filename>
-  <thumbnail>../images/artichoke_dip.jpeg</thumbnail>
+  <thumbnail>artichoke_dip.jpeg</thumbnail>
   <category/>
   <ingredient>1 jar artichokes drained</ingredient>
   <ingredient>1 cup mayonnaise </ingredient>

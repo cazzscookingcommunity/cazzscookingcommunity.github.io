@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Callums Chilli</title>
   <filename>callums_chilli.xml</filename>
-  <thumbnail>../images/callums_chilli.jpeg</thumbnail>
+  <thumbnail>callums_chilli.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegan</diet>
   <ingredient>3 cans chopped tomatoes </ingredient>

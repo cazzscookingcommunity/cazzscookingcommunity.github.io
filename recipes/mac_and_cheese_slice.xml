@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mac and Cheese Slice</title>
   <filename>mac_and_cheese_slice.xml</filename>
-  <thumbnail>../images/mac_and_cheese_slice.jpeg</thumbnail>
+  <thumbnail>mac_and_cheese_slice.jpeg</thumbnail>
   <category>Lunch</category>
   <part>
     <title>Main</title>

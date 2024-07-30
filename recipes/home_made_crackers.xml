@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Home made crackers</title>
   <filename>home_made_crackers.xml</filename>
-  <thumbnail>../images/homemade_crackers.jpeg</thumbnail>
+  <thumbnail>homemade_crackers.jpeg</thumbnail>
   <category/>
   <diet>GlutenFree</diet>
   <ingredient>1 cup mix sun flower, pepita and pine nuts</ingredient>

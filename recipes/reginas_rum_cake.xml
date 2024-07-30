@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Reginas Rum Cake </title>
   <filename>reginas_rum_cake.xml</filename>
-  <thumbnail>../images/reginas_rum_cake.jpeg</thumbnail>
+  <thumbnail>reginas_rum_cake.jpeg</thumbnail>
   <category>Sweets</category>
   <part>
     <title>Cake</title>

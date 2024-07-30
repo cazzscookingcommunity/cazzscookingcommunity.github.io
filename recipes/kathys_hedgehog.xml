@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Kathys Hedgehog</title>
   <filename>kathys_hedgehog.xml</filename>
-  <thumbnail>../images/kathy_hedgehog.jpeg</thumbnail>
+  <thumbnail>kathy_hedgehog.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>

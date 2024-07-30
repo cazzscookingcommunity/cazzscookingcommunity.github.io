@@ -6,7 +6,7 @@
   <title>Big Boy Burgers</title>
   <filename>big_boy_burgers.xml</filename>
   <comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
-  <thumbnail>../images/big_boy_burgers.jpeg</thumbnail>
+  <thumbnail>big_boy_burgers.jpeg</thumbnail>
   <category>Beef</category>
   <part>
     <title>Patties</title>

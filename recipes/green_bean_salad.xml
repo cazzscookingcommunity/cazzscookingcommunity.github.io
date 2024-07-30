@@ -6,7 +6,7 @@
   <title>Green Bean Salad</title>
   <filename>green_bean_salad.xml</filename>
   <comment>c/o Genius Kitchen</comment>
-  <thumbnail>../images/green_bean_salad.jpeg</thumbnail>
+  <thumbnail>green_bean_salad.jpeg</thumbnail>
   <category>Salad</category>
   <ingredient>200-300gms green beans</ingredient>
   <ingredient>1 punnet cherry tomatoes </ingredient>

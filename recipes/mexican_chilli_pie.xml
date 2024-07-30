@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mexican Chilli Pie</title>
   <filename>mexican_chilli_pie.xml</filename>
-  <thumbnail>../images/mexican_chilli_pie.jpeg</thumbnail>
+  <thumbnail>mexican_chilli_pie.jpeg</thumbnail>
   <category>Beef</category>
   <part>
     <title>Filling</title>

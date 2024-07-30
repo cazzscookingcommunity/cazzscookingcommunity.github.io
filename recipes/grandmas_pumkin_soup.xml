@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Grandmas Pumkin Soup</title>
   <filename>grandmas_pumkin_soup.xml</filename>
-  <thumbnail>../images/grandmas_pumpkin_soup.jpeg</thumbnail>
+  <thumbnail>grandmas_pumpkin_soup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>FODMAP</diet>
   <ingredient>6-10 cups chopped Kent pumpkin</ingredient>

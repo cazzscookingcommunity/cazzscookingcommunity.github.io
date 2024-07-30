@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Moroccan Lentils</title>
   <filename>moroccan_lentils.xml</filename>
-  <thumbnail>../images/moroccan_lentils.jpeg</thumbnail>
+  <thumbnail>moroccan_lentils.jpeg</thumbnail>
   <category>Vegetarian</category>
   <diet>GlutenFree</diet>
   <diet>FODMAP</diet>

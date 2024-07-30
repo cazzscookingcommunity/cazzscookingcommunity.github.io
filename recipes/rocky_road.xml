@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Rocky Road</title>
   <filename>rocky_road.xml</filename>
-  <thumbnail>../images/rocky_road.jpeg</thumbnail>
+  <thumbnail>rocky_road.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>500gms milk chocolate </ingredient>
   <ingredient>200gms dark chocolate </ingredient>

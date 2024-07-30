@@ -6,7 +6,7 @@
   <title>CHOW MEIN</title>
   <filename>chow_mein.xml</filename>
   <comment>Easy, Quick, Yummy </comment>
-  <thumbnail>../images/chow_mein.jpeg</thumbnail>
+  <thumbnail>chow_mein.jpeg</thumbnail>
   <category>Pork</category>
   <diet>FODMAP</diet>
   <ingredient>500-600 gms Pork Mince</ingredient>

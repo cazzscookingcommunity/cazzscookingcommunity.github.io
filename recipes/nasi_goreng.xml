@@ -6,7 +6,7 @@
   <title>Nasi Goreng</title>
   <filename>nasi_goreng.xml</filename>
   <comment>c/o New Idea with cazzie tweaks.   </comment>
-  <thumbnail>../images/nasi_goreng.jpeg</thumbnail>
+  <thumbnail>nasi_goreng.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>GlutenFree</diet>
   <ingredient>2-3 cups long grain rice cooked </ingredient>

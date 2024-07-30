@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>CHOWDER</title>
   <filename>chowder.xml</filename>
-  <thumbnail>../images/chowder.jpeg</thumbnail>
+  <thumbnail>chowder.jpeg</thumbnail>
   <category>Soup</category>
   <diet>GlutenFree</diet>
   <ingredient>1 can creamed corn </ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Osso Buco</title>
   <filename>osso_buco.xml</filename>
-  <thumbnail>../images/osso_buco.jpeg</thumbnail>
+  <thumbnail>osso_buco.jpeg</thumbnail>
   <category>Beef</category>
   <diet>GlutenFree</diet>
   <part>

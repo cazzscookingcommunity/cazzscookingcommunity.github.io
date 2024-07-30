@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Baked Christmas Ham</title>
   <filename>baked_christmas_ham.xml</filename>
-  <thumbnail>../images/baked_christmas_ham.jpeg</thumbnail>
+  <thumbnail>baked_christmas_ham.jpeg</thumbnail>
   <category/>
   <part>
     <title>Main</title>

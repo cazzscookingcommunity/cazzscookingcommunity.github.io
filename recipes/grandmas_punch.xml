@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Grandmas Punch</title>
   <filename>grandmas_punch.xml</filename>
-  <thumbnail>../images/punch.jpeg</thumbnail>
+  <thumbnail>punch.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>2L Pineapple juice</ingredient>
   <ingredient>1.25L Lemonade</ingredient>

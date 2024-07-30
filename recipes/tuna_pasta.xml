@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Tuna Pasta</title>
   <filename>tuna_pasta.xml</filename>
-  <thumbnail>../images/tuna_pasta.jpeg</thumbnail>
+  <thumbnail>tuna_pasta.jpeg</thumbnail>
   <category>Fish</category>
   <category>Dinner</category>
   <part>

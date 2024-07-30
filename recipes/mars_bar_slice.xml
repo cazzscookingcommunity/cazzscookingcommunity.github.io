@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mars Bar Slice</title>
   <filename>mars_bar_slice.xml</filename>
-  <thumbnail>../images/mars_bar_slice.jpeg</thumbnail>
+  <thumbnail>mars_bar_slice.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>4 cups rice bubbles</ingredient>
   <ingredient>6 Mars bars (53gms) chopped</ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>No Cook Vegan ChocCoconut Slice</title>
   <filename>no_cook_vegan_choccoconut_slice.xml</filename>
-  <thumbnail>../images/no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
+  <thumbnail>no_cook_vegan_choc_coconut_slice.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>

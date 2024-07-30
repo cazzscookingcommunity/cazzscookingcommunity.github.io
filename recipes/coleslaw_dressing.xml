@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Coleslaw Dressing </title>
   <filename>coleslaw_dressing.xml</filename>
-  <thumbnail>../images/coleslaw_dressing.jpeg</thumbnail>
+  <thumbnail>coleslaw_dressing.jpeg</thumbnail>
   <category>Salad</category>
   <diet>GlutenFree</diet>
   <ingredient>1/4 Mayo</ingredient>

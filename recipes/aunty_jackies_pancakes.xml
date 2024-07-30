@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Aunty Jackies Pancakes</title>
   <filename>aunty_jackies_pancakes.xml</filename>
-  <thumbnail>../images/aunty_jackies_pancakes.jpeg</thumbnail>
+  <thumbnail>aunty_jackies_pancakes.jpeg</thumbnail>
   <category/>
   <ingredient>1 1/2 cups milk</ingredient>
   <ingredient>2 cups SR flour</ingredient>

@@ -6,7 +6,7 @@
   <title>Lazy Risotto</title>
   <filename>lazy_risotto.xml</filename>
   <comment>If you love risotto but hate standing at the stove stirring it, this one is for you!</comment>
-  <thumbnail>../images/lazy_risotto.jpeg</thumbnail>
+  <thumbnail>lazy_risotto.jpeg</thumbnail>
   <category>Poultry</category>
   <diet>GlutenFree</diet>
   <ingredient>1-2 tablespoons olive oil</ingredient>

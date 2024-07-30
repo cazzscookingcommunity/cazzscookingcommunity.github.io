@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Guacamole</title>
   <filename>guacamole.xml</filename>
-  <thumbnail>../images/guacomole.jpeg</thumbnail>
+  <thumbnail>guacomole.jpeg</thumbnail>
   <category>Sides</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>

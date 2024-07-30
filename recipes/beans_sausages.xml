@@ -6,7 +6,7 @@
   <title>Beans and Sausages</title>
   <filename>beans_sausages.xml</filename>
   <comment>Great camping dish</comment>
-  <thumbnail>../images/beans_sausages.jpeg</thumbnail>
+  <thumbnail>beans_sausages.jpeg</thumbnail>
   <category>Pork</category>
   <ingredient>6 sausages</ingredient>
   <ingredient>1 cans chopped tomatoes </ingredient>

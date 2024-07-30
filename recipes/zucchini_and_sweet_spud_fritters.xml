@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Zucchini and Sweet Spud Fritters</title>
   <filename>zucchini_and_sweet_spud_fritters.xml</filename>
-  <thumbnail>../images/zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
+  <thumbnail>zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <ingredient>1 medium sweet spud grated</ingredient>

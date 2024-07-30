@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Curry Carrot Soup</title>
   <filename>curry_carrot_soup.xml</filename>
-  <thumbnail>../images/curry_carrot_soup.jpeg</thumbnail>
+  <thumbnail>curry_carrot_soup.jpeg</thumbnail>
   <category>Soup</category>
   <diet>GlutenFree</diet>
   <ingredient>500gms carrots peeled and chopped</ingredient>

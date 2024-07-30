@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Spicy Lentil Dip</title>
   <filename>spicy_lentil_dip.xml</filename>
-  <thumbnail>../images/spicy_lentil_dip.jpeg</thumbnail>
+  <thumbnail>spicy_lentil_dip.jpeg</thumbnail>
   <category>Sides</category>
   <diet>GlutenFree</diet>
   <ingredient>1 can lentils drained or 1 1/2 cups cooked lentils</ingredient>

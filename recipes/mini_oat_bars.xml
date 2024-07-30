@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Mini Oat Bars</title>
   <filename>mini_oat_bars.xml</filename>
-  <thumbnail>../images/mini_oat_bars.jpeg</thumbnail>
+  <thumbnail>mini_oat_bars.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>Vegan</diet>
   <ingredient>1 cup rolled oats</ingredient>

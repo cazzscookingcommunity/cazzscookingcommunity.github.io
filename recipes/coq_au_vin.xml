@@ -6,7 +6,7 @@
   <title>Coq au vin</title>
   <filename>coq_au_vin.xml</filename>
   <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
-  <thumbnail>../images/coq_an_vin.jpeg</thumbnail>
+  <thumbnail>coq_an_vin.jpeg</thumbnail>
   <category>Poultry</category>
   <diet>GlutenFree</diet>
   <ingredient>12 chicken legs</ingredient>

@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Basic Ice Tea</title>
   <filename>basic_ice_tea.xml</filename>
-  <thumbnail>../images/basic_ice_tea.jpeg</thumbnail>
+  <thumbnail>basic_ice_tea.jpeg</thumbnail>
   <category>Drink</category>
   <ingredient>4 cups boiling water</ingredient>
   <ingredient>2 teabags</ingredient>

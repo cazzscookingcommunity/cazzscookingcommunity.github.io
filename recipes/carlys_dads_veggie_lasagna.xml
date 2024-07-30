@@ -5,7 +5,7 @@
         xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Carlys Dads Veggie Lasagna</title>
   <filename>carlys_dads_veggie_lasagna.xml</filename>
-  <thumbnail>../images/carlys_dad_veggie_lasagna.jpeg</thumbnail>
+  <thumbnail>carlys_dad_veggie_lasagna.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegetarian</diet>
   <ingredient>1 large sweet potatoe peeled and chopped</ingredient>
