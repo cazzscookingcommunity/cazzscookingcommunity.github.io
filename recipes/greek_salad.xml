@@ -12,7 +12,7 @@
 <thumbnail>greek_salad.jpeg</thumbnail>
 <category>Salad</category>
 <yield>4</yield>
-<prepTime>15 minutes </prepTime>
+<prepTime>PT15M</prepTime>
 <diet>FODMAP</diet>
 <diet>GlutenFree</diet>
 <diet>Vegetarian</diet>
