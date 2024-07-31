@@ -11,6 +11,6 @@ Allow: /recipe.html?recipe=*
 # disallow file and folders
 Disallow: /*.xsd$
 Disallow: /*.xslt$
-Disallow: /xml/
+#Disallow: /xml/
 Disallow: /scripts/python_scripts/
 Disallow: /components/
