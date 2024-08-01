@@ -31,41 +31,41 @@
             <script type="application/ld+json"> {
                 "@context": "https://schema.org/",
                 "@type": "Recipe",
-                "name": '<xsl:value-of select="ns:title"/>',
+                "name": "<xsl:value-of select='ns:title'/>",
                 "author": {
                     "@type": "Person",
                     "name": "Carolyn Cullin"
                 },
-                "image":            '/images/<xsl:value-of select="ns:thumbnail"/>',
-                "description":      '<xsl:value-of select="ns:title"/>',
-                "prepTime":         '<xsl:value-of select="ns:prepTime"/>',
-                "cookTime":         '<xsl:value-of select="ns:cookTime"/>',
-                "keywords":         '<xsl:value-of select="ns:diet"/>',
-                "recipeYield":      '<xsl:value-of select="ns:yield"/>',
-                "recipeCategory":   '<xsl:value-of select="ns:category"/>',
+                "image":            "/images/<xsl:value-of select='ns:thumbnail'/>",
+                "description":      "<xsl:value-of select='ns:title'/>",
+                "prepTime":         "<xsl:value-of select='ns:prepTime'/>",
+                "cookTime":         "<xsl:value-of select='ns:cookTime'/>",
+                "keywords":         "<xsl:value-of select='ns:diet'/>",
+                "recipeYield":      "<xsl:value-of select='ns:yield'/>",
+                "recipeCategory":   "<xsl:value-of select='ns:category'/>",
                 "recipeIngredient": [
                                         <xsl:for-each select="ns:ingredient">
-                                            '<xsl:value-of select="."/>',
+                                            "<xsl:value-of select='.'/>",
                                         </xsl:for-each>
 
                                         <!-- Loop through parts if they exist -->
                                         <xsl:for-each select="ns:part">
-                                            '<xsl:value-of select="ns:title"/>:',
+                                            "<xsl:value-of select='ns:title'/>:",
                                             <xsl:for-each select="ns:ingredient">
-                                                '<xsl:value-of select="."/>',
+                                                "<xsl:value-of select='.'/>",
                                             </xsl:for-each>
                                         </xsl:for-each>,
                                     ]
                 "recipeInstructions": [
                                         <xsl:for-each select="ns:step">
-                                            '<xsl:value-of select="."/>',
+                                            "<xsl:value-of select='.'/>",
                                         </xsl:for-each>
 
                                         <!-- Loop through parts if they exist -->
                                         <xsl:for-each select="ns:part">
-                                                '<xsl:value-of select="ns:title"/>:',
+                                                "<xsl:value-of select='ns:title'/>:",
                                                 <xsl:for-each select="ns:step">
-                                                    '<xsl:value-of select="."/>',
+                                                    "<xsl:value-of select='.'/>",
                                                 </xsl:for-each>
                                         </xsl:for-each>
                                     ]
