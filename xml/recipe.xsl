@@ -21,13 +21,18 @@
             <meta name="author" content="Chris Cullin"></meta>
             <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
             <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
-            <!-- <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet"> -->
             <link rel="stylesheet" href="/css/normalize.css"></link>
             <link rel="stylesheet" href="/css/skeleton.css"></link>
             <link rel="stylesheet" href="/css/app.css"></link>
-            <link rel="icon" type="/image/x-icon" href="/favicon.ico"></link>
-            <link rel="mask-icon" href="components/chef.svg">
-        
+            <!-- <link rel="icon" type="image/x-icon" href="/favicon.ico"></link> -->
+            <!-- <link rel="mask-icon" href="/components/chef.svg" color="#000000"></link> -->
+            <!-- <link rel="icon" type="image/png" sizes="any" href="/components/chef_favicon.png"></link> -->
+            <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+            <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+            <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link><!-- 180×180 -->
+            <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+
             <!-- search recipe meta data -->
             <script type="application/ld+json">
                 {
