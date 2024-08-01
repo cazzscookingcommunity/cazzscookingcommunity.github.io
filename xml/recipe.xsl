@@ -44,31 +44,55 @@
                 "recipeYield":      "<xsl:value-of select='ns:yield'/>",
                 "recipeCategory":   "<xsl:value-of select='ns:category'/>",
                 "recipeIngredient": [
-                                        <xsl:for-each select="ns:ingredient">
-                                            "<xsl:value-of select='.'/>",
-                                        </xsl:for-each>
-
-                                        <!-- Loop through parts if they exist -->
-                                        <xsl:for-each select="ns:part">
-                                            "<xsl:value-of select='ns:title'/>:",
-                                            <xsl:for-each select="ns:ingredient">
-                                                "<xsl:value-of select='.'/>",
-                                            </xsl:for-each>
-                                        </xsl:for-each>,
-                                    ]
+                    <xsl:for-each select="ns:ingredient">
+                        <xsl:if test="position() > 1">
+                            <xsl:text>,   
+                            </xsl:text>
+                        </xsl:if>
+                        <xsl:text>"</xsl:text><xsl:value-of select="."/><xsl:text>"</xsl:text>
+                    </xsl:for-each>
+                    <xsl:for-each select="ns:part">
+                        <xsl:if test="position() > 1 or preceding-sibling::ns:ingredient">
+                            <xsl:text>,
+                            </xsl:text>
+                        </xsl:if>
+                        <xsl:text>"</xsl:text><xsl:value-of select="ns:title"/><xsl:text>:</xsl:text>
+                        <xsl:for-each select="ns:ingredient">
+                            <xsl:if test="position() > 1">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                            <xsl:text>"</xsl:text><xsl:value-of select="."/><xsl:text>"</xsl:text>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                ],
+                  
                 "recipeInstructions": [
-                                        <xsl:for-each select="ns:step">
-                                            "<xsl:value-of select='.'/>",
-                                        </xsl:for-each>
-
-                                        <!-- Loop through parts if they exist -->
-                                        <xsl:for-each select="ns:part">
-                                                "<xsl:value-of select='ns:title'/>:",
-                                                <xsl:for-each select="ns:step">
-                                                    "<xsl:value-of select='.'/>",
-                                                </xsl:for-each>
-                                        </xsl:for-each>
-                                    ]
+                    <xsl:for-each select="ns:step">
+                        <xsl:if test="position() != 1">
+                            <xsl:text>,
+                            </xsl:text>
+                        </xsl:if>
+                        <xsl:text>{ "@type": "HowToStep", 
+                                    "name": "Step </xsl:text><xsl:value-of select="position()"/><xsl:text>", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>"
+                                }</xsl:text>
+                    </xsl:for-each>,
+                    <xsl:for-each select="ns:part">
+                        <xsl:if test="position() != 1 or preceding-sibling::ns:step">
+                            <xsl:text>,
+                            </xsl:text>
+                        </xsl:if>
+                        <xsl:text>{ "@type": "HowToSection", "name": "</xsl:text><xsl:value-of select="ns:title"/><xsl:text>", "itemListElement": [</xsl:text>
+                        <xsl:for-each select="ns:step">
+                            <xsl:if test="position() != 1">
+                                <xsl:text>,</xsl:text>
+                            </xsl:if>
+                            <xsl:text>{ "@type": "HowToStep",
+                                        "name": "Step </xsl:text><xsl:value-of select="position()"/><xsl:text>", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>"
+                                    }</xsl:text>
+                        </xsl:for-each>
+                        <xsl:text>] }</xsl:text>
+                    </xsl:for-each>
+                ]                 
                 }
             </script>
         </head>
