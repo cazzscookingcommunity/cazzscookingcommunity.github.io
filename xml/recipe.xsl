@@ -28,76 +28,75 @@
             <link rel="icon" type="/image/x-icon" href="/components/chef_favicon.ico"></link>
         
             <!-- search recipe meta data -->
-            <script type="application/ld+json"> {
-                "@context": "https://schema.org/",
-                "@type": "Recipe",
-                "name": "<xsl:value-of select='ns:title'/>",
-                "author": {
-                    "@type": "Person",
-                    "name": "Carolyn Cullin"
-                },
-                "image":            "/images/<xsl:value-of select='ns:thumbnail'/>",
-                "description":      "<xsl:value-of select='ns:title'/>",
-                "prepTime":         "<xsl:value-of select='ns:prepTime'/>",
-                "cookTime":         "<xsl:value-of select='ns:cookTime'/>",
-                "keywords":         "<xsl:value-of select='ns:diet'/>",
-                "recipeYield":      "<xsl:value-of select='ns:yield'/>",
-                "recipeCategory":   "<xsl:value-of select='ns:category'/>",
-                "recipeIngredient": [
-                    <xsl:for-each select="ns:ingredient">
-                        <xsl:if test="position() > 1">
-                            <xsl:text>,   
-                            </xsl:text>
-                        </xsl:if>
-                        <xsl:text>"</xsl:text><xsl:value-of select="."/><xsl:text>"</xsl:text>
-                    </xsl:for-each>
-
-                    <xsl:for-each select="ns:part">
-                        <xsl:if test="position() > 1 or preceding-sibling::ns:ingredient">
-                            <xsl:text>,
-                            </xsl:text>
-                        </xsl:if>
-                        <!-- <xsl:text>"</xsl:text><xsl:value-of select="ns:title"/><xsl:text>:</xsl:text> -->
+            <script type="application/ld+json">
+                {
+                    "@context": "https://schema.org/",
+                    "@type": "Recipe",
+                    "name": "<xsl:value-of select='ns:title'/>",
+                    "author": {
+                        "@type": "Person",
+                        "name": "Carolyn Cullin"
+                    },
+                    "image": "/images/<xsl:value-of select='ns:thumbnail'/>",
+                    "description": "<xsl:value-of select='ns:title'/>",
+                    "prepTime": "<xsl:value-of select='ns:prepTime'/>",
+                    "cookTime": "<xsl:value-of select='ns:cookTime'/>",
+                    "keywords": "<xsl:value-of select='ns:diet'/>",
+                    "recipeYield": "<xsl:value-of select='ns:yield'/>",
+                    "recipeCategory": "<xsl:value-of select='ns:category'/>",
+                    "recipeIngredient": [
                         <xsl:for-each select="ns:ingredient">
                             <xsl:if test="position() > 1">
                                 <xsl:text>, </xsl:text>
                             </xsl:if>
                             <xsl:text>"</xsl:text><xsl:value-of select="."/><xsl:text>"</xsl:text>
                         </xsl:for-each>
-                    </xsl:for-each>
-                ],
-                  
-                "recipeInstructions": [
-                    <xsl:for-each select="ns:step">
-                        <xsl:if test="position() > 1">
+            
+                        <xsl:for-each select="ns:part">
+                            <xsl:if test="position() > 1 or preceding-sibling::ns:ingredient">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                            <xsl:for-each select="ns:ingredient">
+                                <xsl:if test="position() > 1">
+                                    <xsl:text>, </xsl:text>
+                                </xsl:if>
+                                <xsl:text>"</xsl:text><xsl:value-of select="."/><xsl:text>"</xsl:text>
+                            </xsl:for-each>
+                        </xsl:for-each>
+                    ],
+            
+                    "recipeInstructions": [
+                        <xsl:for-each select="ns:step">
+                            <xsl:if test="position() > 1">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                            <xsl:text>{ "@type": "HowToStep", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>" }</xsl:text>
+                        </xsl:for-each>
+            
+                        <xsl:if test="ns:step and ns:part">
                             <xsl:text>, </xsl:text>
                         </xsl:if>
-                        <xsl:text>{ "@type": "HowToStep", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>" }</xsl:text>
-                    </xsl:for-each>
-
-                    <xsl:if test="ns:step and ns:part">
-                        <xsl:text>, </xsl:text>
-                    </xsl:if>
-
-                    <xsl:for-each select="ns:part">
-                        <xsl:if test="position() > 1 or preceding-sibling::ns:step">
-                            <xsl:text>, </xsl:text>
-                        </xsl:if>
-                        <xsl:text>{ "@type": "HowToSection", 
-                                    "name": "</xsl:text><xsl:value-of select="ns:title"/><xsl:text>", 
-                                    "itemListElement": [</xsl:text>
-                                        <xsl:for-each select="ns:step">
-                                            <xsl:if test="position() > 1">
-                                                <xsl:text>, </xsl:text>
-                                            </xsl:if>
-                                            <xsl:text>{ "@type": "HowToStep", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>" }</xsl:text>
-                                        </xsl:for-each><xsl:text>
-                                        ] 
-                                    }</xsl:text>
-                    </xsl:for-each>
-                ]            
+            
+                        <xsl:for-each select="ns:part">
+                            <xsl:if test="position() > 1 or preceding-sibling::ns:step">
+                                <xsl:text>, </xsl:text>
+                            </xsl:if>
+                            <xsl:text>{ "@type": "HowToSection",
+                                        "name": "</xsl:text><xsl:value-of select="ns:title"/><xsl:text>",
+                                        "itemListElement": [</xsl:text>
+                                            <xsl:for-each select="ns:step">
+                                                <xsl:if test="position() > 1">
+                                                    <xsl:text>, </xsl:text>
+                                                </xsl:if>
+                                                <xsl:text>{ "@type": "HowToStep", "text": "</xsl:text><xsl:value-of select="."/><xsl:text>" }</xsl:text>
+                                            </xsl:for-each><xsl:text>
+                                            ]
+                                        }</xsl:text>
+                        </xsl:for-each>
+                    ]
                 }
             </script>
+            
         </head>
 
         <body>
