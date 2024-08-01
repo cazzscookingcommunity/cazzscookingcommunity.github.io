@@ -25,7 +25,7 @@
             <link rel="stylesheet" href="/css/normalize.css"></link>
             <link rel="stylesheet" href="/css/skeleton.css"></link>
             <link rel="stylesheet" href="/css/app.css"></link>
-            <link rel="icon" type="/image/png" href="/components/favicon.png"></link>
+            <link rel="icon" type="/image/png" href="/components/chef.svg"></link>
         
             <!-- search recipe meta data -->
             <script type="application/ld+json"> {
