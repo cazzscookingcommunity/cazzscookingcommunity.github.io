@@ -502,11 +502,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <category>Poultry</category>
 </recipe>
 <recipe>
-  <title>One Pot Pasta</title>
-    <filename>one_pot_pasta copy.xml</filename>
-  <thumbnail>one_pot_pasta.jpeg</thumbnail>
-</recipe>
-<recipe>
   <title>chickpeas</title>
     <filename>chickpeas.xml</filename>
   <thumbnail>chickpeas.jpeg</thumbnail>
@@ -1186,7 +1181,6 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>One Pot Pasta</title>
     <filename>one_pot_pasta.xml</filename>
   <thumbnail>one_pot_pasta.jpeg</thumbnail>
-  <category>Beef</category>
 </recipe>
 <recipe>
   <title>Grandmas Steak and Black Beans</title>
@@ -1495,6 +1489,12 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <thumbnail>greek_salad.jpeg</thumbnail>
   <category>Salad</category>
   <diet>FODMAP</diet>
+  <diet>GlutenFree</diet>
+  <diet>Vegetarian</diet>
+  <diet>Keto</diet>
+  <diet>LowCarb</diet>
+  <diet>LowSugar</diet>
+  <diet>EggFree</diet>
 </recipe>
 
 

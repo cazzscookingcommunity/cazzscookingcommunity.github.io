@@ -1,47 +1,45 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Greek Salad</title>
-<filename>greek_salad.xml</filename>
-<comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
-<thumbnail>greek_salad.jpeg</thumbnail>
-<category>Salad</category>
-<yield>4</yield>
-<prepTime>PT15M</prepTime>
-<diet>FODMAP</diet>
-<diet>GlutenFree</diet>
-<diet>Vegetarian</diet>
-<diet>Keto</diet>
-<diet>LowCarb</diet>
-<diet>LowSugar</diet>
-<diet>EggFree</diet>
-<part><title>Main</title>
-<ingredient>3-4 tomatoes chopped</ingredient>
-<ingredient>2 Lebanese cucumbers peeled, de-seeded and chopped</ingredient>
-<ingredient>150 gms pitted kalamata olives</ingredient>
-<ingredient>160 gms firm Greek feta chopped</ingredient>
-<ingredient>1 red, or yellow capsicum chopped (can be omitted)</ingredient>
-<ingredient>3 spring onions chopped</ingredient>
-<step>Place all ingredients in a bowl, except dressing ingredients and stir well.</step>
-<step>Place dressing ingredients in a small jar and shake well.</step>
-<step>Pour contents of dressing over salad and mix to combine.</step>
-<step>Best served immediately.</step>
-</part>
-<part><title>Dressing</title>
-<ingredient>3 TBsp olive oil</ingredient>
-<ingredient>1 TBsp white wine vinegar</ingredient>
-<ingredient>1 teasp oregano</ingredient>
-<ingredient>1/4 teasp salt and pepper</ingredient>
-<step>Place all ingredients in a bowl, except dressing ingredients and stir well.</step>
-<step>Place dressing ingredients in a small jar and shake well.</step>
-<step>Pour contents of dressing over salad and mix to combine.</step>
-<step>Best served immediately.</step>
-<step>Ps if you prefer you can replace spring onions with a red onion ( However, this will no longer be FODMAP friendly.)</step>
-</part>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Greek Salad</title>
+  <filename>greek_salad.xml</filename>
+  <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
+  <thumbnail>greek_salad.jpeg</thumbnail>
+  <category>Salad</category>
+  <yield>4</yield>
+  <prepTime>PT15M</prepTime>
+  <diet>FODMAP</diet>
+  <diet>GlutenFree</diet>
+  <diet>Vegetarian</diet>
+  <diet>Keto</diet>
+  <diet>LowCarb</diet>
+  <diet>LowSugar</diet>
+  <diet>EggFree</diet>
+  <part>
+    <title>Main</title>
+    <ingredient>3-4 tomatoes chopped</ingredient>
+    <ingredient>2 Lebanese cucumbers peeled, de-seeded and chopped</ingredient>
+    <ingredient>150 gms pitted kalamata olives</ingredient>
+    <ingredient>160 gms firm Greek feta chopped</ingredient>
+    <ingredient>1 red, or yellow capsicum chopped (can be omitted)</ingredient>
+    <ingredient>3 spring onions chopped</ingredient>
+    <step>Place all ingredients in a bowl, except dressing ingredients and stir well.</step>
+    <step>Place dressing ingredients in a small jar and shake well.</step>
+    <step>Pour contents of dressing over salad and mix to combine.</step>
+    <step>Best served immediately.</step>
+  </part>
+  <part>
+    <title>Dressing</title>
+    <ingredient>3 TBsp olive oil</ingredient>
+    <ingredient>1 TBsp white wine vinegar</ingredient>
+    <ingredient>1 teasp oregano</ingredient>
+    <ingredient>1/4 teasp salt and pepper</ingredient>
+    <step>Place all ingredients in a bowl, except dressing ingredients and stir well.</step>
+    <step>Place dressing ingredients in a small jar and shake well.</step>
+    <step>Pour contents of dressing over salad and mix to combine.</step>
+    <step>Best served immediately.</step>
+    <step>Ps if you prefer you can replace spring onions with a red onion ( However, this will no longer be FODMAP friendly.)</step>
+  </part>
 </recipe>
-

@@ -64,6 +64,22 @@ def update_thumbnail(xml_string):
     xml_string = xml_string.replace(image_path, '')
     return xml_string
 
+def check_filename(tree, file_path):
+    # Extract the filename from the file path
+    actual_filename = os.path.basename(file_path)
+    
+    # Find the <filename> tag content (without namespace)
+    filename_element = tree.find('.//filename')
+    
+    if filename_element is not None:
+        xml_filename = filename_element.text.strip()   
+        # Compare the XML filename with the actual filename (ignoring the file extension)
+        if not actual_filename.startswith(xml_filename):
+            print(f"Filename mismatch in {file_path}: {xml_filename} != {actual_filename}")
+    else:
+        print(f"<filename> tag not found in {file_path}")
+
+
 def pretty_print_xml(file_path):
     """Format XML file to pretty print with indentation and remove namespace prefixes."""
     try:
@@ -83,6 +99,9 @@ def pretty_print_xml(file_path):
         
         # Remove namespace prefixes
         tree = remove_namespace(tree)
+
+        # Check filename field for match on actual filename
+        check_filename(tree, file_path)
 
         # Pretty print the XML
         pretty_xml_str = prettify(tree)
@@ -122,7 +141,7 @@ def main():
     format_xml_files_in_directory(directory_path)
 
     # test_file = 'recipes/simple_friedrice.xml'
-    test_file = 'recipes/lasagna.xml'
+    test_file = 'recipes/one_pot_pasta.xml'
     # format_file(test_file)
 
 if __name__ == "__main__":
