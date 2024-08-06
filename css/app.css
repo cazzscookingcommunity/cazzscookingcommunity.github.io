@@ -59,7 +59,7 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
     font-weight:bold;
     font-family:'Roboto Slab', serif;
     transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);
-    text-align:center;
+    text-align:left;
     margin-bottom:0
 }
 /* section#random h3#dynamicTitle{transform:rotate(0deg)} */
@@ -90,8 +90,25 @@ h2.ingredients {
     font-size: 1.1em;
     line-height: 1.6;
 }
-.mealMetadata ul > li{margin:0;float:left;width:50%}
-.mealMetadata ul{margin-bottom:0}
+
+.ingredients strong {
+    margin-top: 5;
+}
+
+.ingredients ul {
+    margin: 0;
+    margin-bottom: 0;
+}
+
+.ingredients ul li{
+    margin: 0;
+    margin-bottom: 0;
+}
+
+
+/* .mealMetadata ul > li{margin:0;float:left;width:50%} */
+.mealMetadata ul{margin:0}
+.mealMetadata ul li{margin:0}
 table.ingredients, td { 
     padding:0 10px;
 }
@@ -107,15 +124,27 @@ h2.instructions {
 }
 .mealInstructions ul {
     list-style-type: none;
+    margin: 0;
     margin-bottom: 0px;
 }
 
+.mealInstructions ul li {
+    margin:0;
+    margin-bottom: 0;
+}
+
+
 /* Meal */
+
+.row.mealMetadata {display: flex; align-items: centre;}
+.mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;}
 .mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
 /* .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
-.mealImg img{width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
-#randomMealActions img.cardAction {width:10%; display:inline; margin-left:10px;}
-#randomMealActions img.cardAction:hover {background-color: #689f38}
+/* .mealImg img{width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
+#mealImg {width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+#mealActions {width: 100%; margin: 0 auto; text-align: center;}
+#mealActions img.cardAction {width:10%; display:inline-block; margin-left: 20;}
+#mealActions img.cardAction:hover {background-color: #689f38}
 
 
 /* Nav */

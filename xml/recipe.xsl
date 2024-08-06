@@ -101,8 +101,7 @@
                         </xsl:for-each>
                     ]
                 }
-            </script>
-            
+            </script>        
         </head>
 
         <body>
@@ -138,6 +137,7 @@
 
             <section id="random" style="display:block;">
                 <div class="container">
+
                     <!-- heading 1 = recipe name -->
                     <div class="row">
                         <div class="twelve columns">
@@ -148,80 +148,92 @@
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="four columns mealImg" id="randomMealImg">
-                            <img src="/images/{ns:thumbnail}" alt="{ns:title}"/>
-                        </div>
-                        <div class="eight columns mealMetadata" id="randomMealMetadata">
+                    <div class="row mealMetadata">
+
+                        <div class="four columns mealMetadata" id="randomMealMetadata">
                             <span>Category:</span>
                             <xsl:value-of select="ns:category"/>
                             <br/>
+
                             <span>Serves:</span>
                             <xsl:value-of select="ns:yield"/>
                             <br/>
+                           
                             <span>Prep Time:</span>
                             <xsl:call-template name="convertTime">
                                 <xsl:with-param name="duration" select="ns:prepTime"/>
                             </xsl:call-template>
                             <br/>
+
                             <span>Cook Time:</span>
                             <xsl:call-template name="convertTime">
                                 <xsl:with-param name="duration" select="ns:cookTime"/>
                             </xsl:call-template>
-                            <br/>
-                            
-                            <br/>
+                            <br/><br/>
+                        </div>
+
+                        <div class="four columns mealImg" id="randomMealImg">
+                            <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
+
+                            <div id="mealActions">
+                                <!-- Share button using the Web Share API -->
+                                <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+            
+                                <!-- Print button -->
+                                <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                                <!-- <button onclick="printRecipe()">Print Recipe</button> -->
+
+                                <!-- <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
+                                    <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png"/>
+                                </a> -->
+
+                                <!-- Edit the recipe -->
+                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                            </div>
+                        </div>
+
+                        <div class="four columns ">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="twelve columns ingredients" id="Ingredients">
+
                             <h2 class="ingredients">Ingredients:</h2>
                             <ul>
                                 <xsl:for-each select="ns:ingredient">
                                     <li><xsl:value-of select="."/></li>
                                 </xsl:for-each>
-                                <xsl:if test="count(ns:ingredient) mod 2 != 0">
+                                <!-- add a blank ingredient if odd number -->
+                                <!-- <xsl:if test="count(ns:ingredient) mod 2 != 0">
                                     <li></li>
-                                </xsl:if>
+                                </xsl:if> -->
                             </ul>
                             <!-- Loop through parts if they exist -->
                             <xsl:for-each select="ns:part">
-                                <div>
+                                <!-- <div> -->
                                     <strong><u><xsl:value-of select="ns:title"/></u></strong>
                                     <ul>
                                         <xsl:for-each select="ns:ingredient">
                                             <li><xsl:value-of select="."/></li>
                                         </xsl:for-each>
-                                        <xsl:if test="count(ns:ingredient) mod 2 != 0">
+                                        <!-- add a blank ingrdient if odd number -->
+                                        <!-- <xsl:if test="count(ns:ingredient) mod 2 != 0">
                                             <li></li>
-                                        </xsl:if>
+                                        </xsl:if> -->
                                     </ul>
-                                </div>
+                                <!-- </div> -->
                             </xsl:for-each>
                         </div>
                     </div>
 
-                    <div class="row">
-                        <div class="four columns mealActions" id="randomMealActions">
-                            <!-- Share button using the Web Share API -->
-                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-        
-                            <!-- Print button -->
-                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                            <!-- <button onclick="printRecipe()">Print Recipe</button> -->
-
-                            <!-- <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
-                                <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png"/>
-                            </a> -->
-
-                            <!-- Edit the recipe -->
-                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                           
-                        </div>
-                    </div>
-
+                    <!-- preperation steps -->
                     <div class="row">
                         <div class="twelve columns mealInstructions" id="randomMealInstructions">
                             <h2 class="instructions">Instructions:</h2>
                             <ul>
                                 <xsl:for-each select="ns:step">
-                                    <p>step <xsl:number format="1"/>:<br/><xsl:value-of select="."/></p>
+                                    <li>step <xsl:number format="1"/>:<xsl:text>   </xsl:text><xsl:value-of select="."/></li>
                                 </xsl:for-each>
                             </ul>
                             <!-- Loop through parts if they exist -->
@@ -230,13 +242,14 @@
                                     <strong><u><xsl:value-of select="ns:title"/></u></strong>
                                     <ul>
                                         <xsl:for-each select="ns:step">
-                                            <p>step <xsl:number format="1"/>:<br/><xsl:value-of select="."/></p>
+                                            <li>step <xsl:number format="1"/>:<xsl:text>    </xsl:text><xsl:value-of select="."/></li>
                                         </xsl:for-each>
                                     </ul>
                                 </div>
                             </xsl:for-each>
                         </div>
                     </div>
+
                 </div>
             </section>
 
@@ -245,19 +258,21 @@
                     <div class="row">
                         <div class="twelve columns">
                         <div class="row d-flex">
+                            
                             <div class="four columns" style="align-self:center;">
-                            <h2 class="heading">About</h2>
+                                <h2 class="heading">About</h2>
                             </div>
+                            
                             <div class="eight columns">
                                 <p>
                                     A food recipes website for all of Cazz's favourite family recipes.
-                                  </p>
+                                </p>
                                   
-                                  <p>
+                                <p>
                                     We are a family of 5. The 3 kids, now young adults, take turns at cooking dinner.  
                                     This webiste is a collection of family and friends favourite recipes collected over the years 
                                     and is recorded to pass on, and to be used by the kids to cook each week.<br/>
-                                  </p>
+                                </p>
                             </div>
                         </div>
                         </div>
@@ -270,9 +285,11 @@
                 Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> <br/>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
+
                 <div>
                 <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
                 </div>
+
                 <div>
                 <a href="/components/admin.html">recipe admin</a>
                 </div>
@@ -348,8 +365,6 @@
                     </xsl:choose>
                 </xsl:variable>
 
-                <!-- <xsl:value-of select="concat($hours, ' hours, ', $minutes, ' minutes, and ', $seconds, ' seconds')"/> -->
-                
 
                 <!-- Format output string -->
                 <xsl:choose>
