@@ -119,7 +119,6 @@
                                     <li class="navbar-item">
                                         <!-- <a class="navbar-link" tabindex="0" onclick="history.back()">Back</a> -->
                                         <img class="navbar-link" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
-        
                                     </li>                       
                                     <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="/index.html">Home</a></li>                        -->
                                     <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="#about-section">About</a></li> -->
@@ -134,7 +133,7 @@
             <div class="back">
                 <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
             </div> 
-
+            <!-- Recipe Section -->
             <section id="random" style="display:block;">
                 <div class="container">
 
@@ -148,50 +147,41 @@
                         </div>
                     </div>
 
+                    <!-- meal meta data -->
                     <div class="row mealMetadata">
-
                         <div class="four columns mealMetadata" id="randomMealMetadata">
-                            <span>Category:</span>
-                            <xsl:value-of select="ns:category"/>
-                            <br/>
-
-                            <span>Serves:</span>
-                            <xsl:value-of select="ns:yield"/>
-                            <br/>
-                           
-                            <span>Prep Time:</span>
-                            <xsl:call-template name="convertTime">
-                                <xsl:with-param name="duration" select="ns:prepTime"/>
-                            </xsl:call-template>
-                            <br/>
-
-                            <span>Cook Time:</span>
-                            <xsl:call-template name="convertTime">
-                                <xsl:with-param name="duration" select="ns:cookTime"/>
-                            </xsl:call-template>
-                            <br/><br/>
+                            <p><span>Category:</span> <xsl:value-of select="ns:category"/></p>
+                            <p><span>Serves:</span>   <xsl:value-of select="ns:yield"/></p>
+                            <p><span>Prep Time:</span>
+                                <xsl:call-template name="convertTime">
+                                    <xsl:with-param name="duration" select="ns:prepTime"/>
+                                </xsl:call-template>
+                            </p>
+                            <p>
+                                <span>Cook Time:</span>
+                                <xsl:call-template name="convertTime">
+                                    <xsl:with-param name="duration" select="ns:cookTime"/>
+                                </xsl:call-template>
+                            </p>
                         </div>
 
+                        <!-- meal image and actions -->
                         <div class="four columns mealImg" id="randomMealImg">
-                            <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
+                            <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}">
+                                <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
+                            </a>
 
                             <div id="mealActions">
-                                <!-- Share button using the Web Share API -->
                                 <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-            
-                                <!-- Print button -->
                                 <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                                <!-- <button onclick="printRecipe()">Print Recipe</button> -->
-
+                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
                                 <!-- <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
                                     <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png"/>
                                 </a> -->
-
-                                <!-- Edit the recipe -->
-                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
                             </div>
                         </div>
 
+                        <!-- remainder of html grid -->
                         <div class="four columns ">
                         </div>
                     </div>
@@ -253,6 +243,7 @@
                 </div>
             </section>
 
+            <!-- About Section -->
             <section id="about-section">
                 <div class="container">
                     <div class="row">
@@ -282,7 +273,7 @@
 
             <footer>
                 <div>
-                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> <br/>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
 
@@ -307,7 +298,7 @@
         <xsl:choose>
             <!-- Check if the duration parameter is empty or not provided -->
             <xsl:when test="not($duration) or $duration = ''">
-                <xsl:text>Not specified</xsl:text>
+                <xsl:text> </xsl:text>
             </xsl:when>
 
             <!-- Check if the duration starts with 'PT' -->

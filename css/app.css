@@ -135,19 +135,19 @@ h2.instructions {
 
 
 /* Meal */
-
 .row.mealMetadata {display: flex; align-items: centre;}
 .mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;}
-.mealMetadata span,.mealInstructions span{margin-right:20px;font-weight:bold;text-transform:uppercase}
-/* .mealImg > img{height:100%;width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
-/* .mealImg img{width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)} */
-#mealImg {width:100%;border-radius:100%;box-shadow:0px 5px 15px rgba(0,0,0,0.2)}
+.mealMetadata p {margin-bottom: 0;}
+.mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase}
+
+#mealImg {width:100%;border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
-#mealActions img.cardAction {width:10%; display:inline-block; margin-left: 20;}
+#mealActions img.cardAction {display:inline-block; margin-right: 20;}
 #mealActions img.cardAction:hover {background-color: #689f38}
 
 
 /* Nav */
+ul.navbar-list {text-align: right;}
 .navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
@@ -157,12 +157,12 @@ h2.instructions {
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 
 /* Section */
-section{margin-top:5vw; height:auto}
-section#landing{display:flex;flex-direction:row;align-items:center} /* CC remove height 80vh */
+section{margin-top:5vh; height:auto}
+section#landing{display:flex;flex-direction:row;align-items:center}
 /* section#landing > .container{margin-top:-100px} */
 section#landing .chefimg{top:-20px;right:-3px}
 section#random .chefimg{top:5px;right:-14px}
-section#random, section#mealCardsSection {padding: 0 0 20vh 0}
+section#random, section#mealCardsSection {padding: 0 0 5vh 0}
 section#mealCardsSection .chefimg{top:-20px;right:22px}
 
 /* Footer */
