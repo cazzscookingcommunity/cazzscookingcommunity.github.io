@@ -115,6 +115,16 @@
                                 <a class="heading" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
                             </div>
                             <div class="four columns">
+                                <ul class="navbar-list">
+                                    <!-- <li class="navbar-item"><a class="navbar-link btnRandomRecipe clear-field" tabindex="0" href="#random" title="Show a random recipe">Random</a></li>                        -->
+                                    <li class="navbar-item">
+                                        <!-- <a class="navbar-link" tabindex="0" onclick="history.back()">Back</a> -->
+                                        <img class="navbar-link" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        
+                                    </li>                       
+                                    <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="/index.html">Home</a></li>                        -->
+                                    <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="#about-section">About</a></li> -->
+                                </ul>
                             </div>
                         </div>
                     </div>
@@ -123,7 +133,7 @@
             
             <!-- scroll up -->
             <div class="back">
-                <a href="#main" tabindex="-1"><img src="/components/scroll.svg" title="Back to top" /></a>
+                <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
             </div> 
 
             <section id="random" style="display:block;">
@@ -189,10 +199,20 @@
 
                     <div class="row">
                         <div class="four columns mealActions" id="randomMealActions">
-                            <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
+                            <!-- Share button using the Web Share API -->
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+        
+                            <!-- Print button -->
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <!-- <button onclick="printRecipe()">Print Recipe</button> -->
+
+                            <!-- <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
                                 <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png"/>
-                            </a>
+                            </a> -->
+
+                            <!-- Edit the recipe -->
                             <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                           
                         </div>
                     </div>
 

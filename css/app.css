@@ -16,10 +16,13 @@ body{background-color:whitesmoke;color:black}
 .loader{outline: 0 solid #689f38}
 
 /* Back to top */
-.back{text-align:right;position:relative;right:20px}
+/* .back{text-align:right;position:relative;right:20px} */
 section#landing .back,section#random .back,section#latest .back{top:-60px}
 section#mealCardsSection .back{top:0}
-.back img{height:40px;width:40px;transform:rotate(180deg);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg)}
+/* .back img{height:40px;width:40px;transform:rotate(180deg);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg)} */
+img {
+    image-orientation: from-image;
+}
 
 /* Button */
 .button{font-weight:bold;font-size:13px;border:1px solid black}
