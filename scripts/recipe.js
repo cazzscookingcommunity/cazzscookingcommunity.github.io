@@ -54,7 +54,7 @@ function loadRecipe(recipeFile) {
 }
 
 function shareRecipe() {
-    if (navigator.share) {
+    if (navigator.share) {    
         navigator.share({
             title: document.title,
             text: "Check out this recipe!",
