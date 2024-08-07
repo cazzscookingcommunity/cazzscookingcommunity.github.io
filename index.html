@@ -48,22 +48,24 @@
 
 <body>
   <main role="main" id="main">
+
+    <!-- scroll to top and back -->
+    <div class="goTop">
+      <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+    </div> 
+    <div class="goBack">
+      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+    </div>
+
     <header>
-      <nav class="navbar">
-        <div class="container">
-          <div class="row">
-            <div class="twelve columns">
-              <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>
-            </div>
-          </div>
+      <div class="container">
+        <div class="twelve columns">
+          <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>
         </div>
-      </nav>
+      </div>
     </header>
-      
-<div class="back"><a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a></div>
 
-
-      <section id="landing">
+    <section id="landing">
           <div class="container">
               <div class="row">
                   <div class="twelve columns">
@@ -109,6 +111,7 @@
           </div>
       </section>
 
+      <!-- Search results palce holder.  Populated by JS -->
       <section id="mealCardsSection" style="display:none;">
         <br/>
         <div class="container" style="display:none;">
@@ -130,7 +133,8 @@
             <div class="row mealCards d-flex"><div class="loader"></div></div>
         </div>
       </section>
-           
+
+      <!-- About Section -->        
       <section id="about-section">
         <div class="container">
             <div class="row">
@@ -158,12 +162,14 @@
 
     <footer>
         <div>
-          Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> <br/>
+          Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
           from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
         </div>
+
         <div>
           <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
         </div>
+        
         <div>
           <a href="/components/admin.html">recipe admin</a>
         </div>

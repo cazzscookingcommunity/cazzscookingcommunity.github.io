@@ -106,33 +106,26 @@
 
         <body>
         <main role="main" id="main">
-            <header>
-                <nav class="navbar">
-                    <div class="container">
-                        <div class="row">
-                            <div class="eight columns">
-                                <a class="heading" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
-                            </div>
-                            <div class="four columns">
-                                <ul class="navbar-list">
-                                    <!-- <li class="navbar-item"><a class="navbar-link btnRandomRecipe clear-field" tabindex="0" href="#random" title="Show a random recipe">Random</a></li>                        -->
-                                    <li class="navbar-item">
-                                        <!-- <a class="navbar-link" tabindex="0" onclick="history.back()">Back</a> -->
-                                        <img class="navbar-link" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
-                                    </li>                       
-                                    <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="/index.html">Home</a></li>                        -->
-                                    <!-- <li class="navbar-item"><a class="navbar-link" tabindex="0" href="#about-section">About</a></li> -->
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </nav>
-            </header>
-            
+
             <!-- scroll up -->
-            <div class="back">
+            <div class="goTop">
                 <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
             </div> 
+            <div class="goBack">
+                <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+            </div>
+
+            <!-- Header with branded title -->
+            <header>
+                <div class="container">
+                    <div class="twelve columns">
+                        <a class="heading" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                    </div> 
+                </div>
+            </header>
+            
+
+
             <!-- Recipe Section -->
             <section id="random" style="display:block;">
                 <div class="container">
@@ -149,7 +142,43 @@
 
                     <!-- meal meta data -->
                     <div class="row mealMetadata">
-                        <div class="four columns mealMetadata" id="randomMealMetadata">
+
+                        <!-- meal image and actions -->
+                        <!-- <div class="eight columns mealImg" id="mealImgContainer"> -->
+                        <div class="three columns" id="mealImgContainer">
+                            <!--  -->
+                            <div class="card">
+                                <!-- <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}"> -->
+                                    <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
+                                <!-- </a> -->
+                                <div class="card-body recipe-action">
+                                    <!-- <div id="mealActions"> -->
+                                        <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                                        <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                                    <!-- </div> -->
+                                    <!-- <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
+                                    <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
+                                      <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png">
+                                    </a>
+                                    <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/components/icons8-edit-24.png"> -->
+                                </div>
+                            </div>
+
+
+                            <!--  -->
+                            <!-- <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}">
+                                <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
+                            </a>
+
+                            <div id="mealActions">
+                                <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                                <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                            </div> -->
+                        </div>
+
+                        <div class="nine columns mealMetadata" id="randomMealMetadata">
                             <p><span>Category:</span> <xsl:value-of select="ns:category"/></p>
                             <p><span>Serves:</span>   <xsl:value-of select="ns:yield"/></p>
                             <p><span>Prep Time:</span>
@@ -163,27 +192,9 @@
                                     <xsl:with-param name="duration" select="ns:cookTime"/>
                                 </xsl:call-template>
                             </p>
-                        </div>
+                        </div> 
 
-                        <!-- meal image and actions -->
-                        <div class="four columns mealImg" id="randomMealImg">
-                            <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}">
-                                <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
-                            </a>
 
-                            <div id="mealActions">
-                                <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-                                <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                                <!-- <a href="mailto:?subject=https://cazzscookingcommunity.github.io/recipe.html?recipe={ns:filename}">
-                                    <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png"/>
-                                </a> -->
-                            </div>
-                        </div>
-
-                        <!-- remainder of html grid -->
-                        <div class="four columns ">
-                        </div>
                     </div>
 
                     <div class="row">
@@ -194,25 +205,15 @@
                                 <xsl:for-each select="ns:ingredient">
                                     <li><xsl:value-of select="."/></li>
                                 </xsl:for-each>
-                                <!-- add a blank ingredient if odd number -->
-                                <!-- <xsl:if test="count(ns:ingredient) mod 2 != 0">
-                                    <li></li>
-                                </xsl:if> -->
                             </ul>
                             <!-- Loop through parts if they exist -->
                             <xsl:for-each select="ns:part">
-                                <!-- <div> -->
-                                    <strong><u><xsl:value-of select="ns:title"/></u></strong>
-                                    <ul>
-                                        <xsl:for-each select="ns:ingredient">
-                                            <li><xsl:value-of select="."/></li>
-                                        </xsl:for-each>
-                                        <!-- add a blank ingrdient if odd number -->
-                                        <!-- <xsl:if test="count(ns:ingredient) mod 2 != 0">
-                                            <li></li>
-                                        </xsl:if> -->
-                                    </ul>
-                                <!-- </div> -->
+                                <strong><u><xsl:value-of select="ns:title"/></u></strong>
+                                <ul>
+                                    <xsl:for-each select="ns:ingredient">
+                                        <li><xsl:value-of select="."/></li>
+                                    </xsl:for-each>
+                                </ul>
                             </xsl:for-each>
                         </div>
                     </div>
@@ -221,25 +222,22 @@
                     <div class="row">
                         <div class="twelve columns mealInstructions" id="randomMealInstructions">
                             <h2 class="instructions">Instructions:</h2>
-                            <ul>
+                            <ol class="recipe-steps">
                                 <xsl:for-each select="ns:step">
-                                    <li>step <xsl:number format="1"/>:<xsl:text>   </xsl:text><xsl:value-of select="."/></li>
+                                    <li><xsl:value-of select="."/></li>
                                 </xsl:for-each>
-                            </ul>
+                            </ol>
                             <!-- Loop through parts if they exist -->
                             <xsl:for-each select="ns:part">
-                                <div>
-                                    <strong><u><xsl:value-of select="ns:title"/></u></strong>
-                                    <ul>
-                                        <xsl:for-each select="ns:step">
-                                            <li>step <xsl:number format="1"/>:<xsl:text>    </xsl:text><xsl:value-of select="."/></li>
-                                        </xsl:for-each>
-                                    </ul>
-                                </div>
+                                <strong><u><xsl:value-of select="ns:title"/></u></strong>
+                                <ol class="recipe-steps">
+                                    <xsl:for-each select="ns:step">
+                                        <li><xsl:value-of select="."/></li>
+                                    </xsl:for-each>
+                                </ol>
                             </xsl:for-each>
                         </div>
                     </div>
-
                 </div>
             </section>
 
@@ -361,35 +359,35 @@
                 <xsl:choose>
                     <!-- When all time parts are empty or zero -->
                     <xsl:when test="$hours = 0 and $minutes = 0 and $seconds = 0">
-                        <xsl:text>0 minutes</xsl:text>
+                        <xsl:text>0 min</xsl:text>
                     </xsl:when>
                     <!-- When only hours are present -->
                     <xsl:when test="$minutes = 0 and $seconds = 0">
-                        <xsl:value-of select="concat($hours, ' hours')"/>
+                        <xsl:value-of select="concat($hours, ' hrs')"/>
                     </xsl:when>
                     <!-- When only minutes are present -->
                     <xsl:when test="$hours = 0 and $seconds = 0">
-                        <xsl:value-of select="concat($minutes, ' minutes')"/>
+                        <xsl:value-of select="concat($minutes, ' min')"/>
                     </xsl:when>
                     <!-- When only seconds are present -->
                     <xsl:when test="$hours = 0 and $minutes = 0">
-                        <xsl:value-of select="concat($seconds, ' seconds')"/>
+                        <xsl:value-of select="concat($seconds, ' sec')"/>
                     </xsl:when>
                     <!-- When hours and minutes are present -->
                     <xsl:when test="$seconds = 0">
-                        <xsl:value-of select="concat($hours, ' hours and ', $minutes, ' minutes')"/>
+                        <xsl:value-of select="concat($hours, ' hrs and ', $minutes, ' min')"/>
                     </xsl:when>
                     <!-- When hours and seconds are present -->
                     <xsl:when test="$minutes = 0">
-                        <xsl:value-of select="concat($hours, ' hours and ', $seconds, ' seconds')"/>
+                        <xsl:value-of select="concat($hours, ' hrs  ', $seconds, ' sec')"/>
                     </xsl:when>
                     <!-- When minutes and seconds are present -->
                     <xsl:when test="$hours = 0">
-                        <xsl:value-of select="concat($minutes, ' minutes and ', $seconds, ' seconds')"/>
+                        <xsl:value-of select="concat($minutes, ' min  ', $seconds, ' sec')"/>
                     </xsl:when>
                     <!-- When all time parts are present -->
                     <xsl:otherwise>
-                        <xsl:value-of select="concat($hours, ' hours, ', $minutes, ' minutes, and ', $seconds, ' seconds')"/>
+                        <xsl:value-of select="concat($hours, ' hr, ', $minutes, ' min,  ', $seconds, ' sec')"/>
                     </xsl:otherwise>
                 </xsl:choose>
             </xsl:when>

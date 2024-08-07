@@ -15,41 +15,45 @@ body{background-color:whitesmoke;color:black}
 .button:hover{background-color:#689f38}
 .loader{outline: 0 solid #689f38}
 
-/* Back to top */
-/* .back{text-align:right;position:relative;right:20px} */
-section#landing .back,section#random .back,section#latest .back{top:-60px}
-section#mealCardsSection .back{top:0}
-/* .back img{height:40px;width:40px;transform:rotate(180deg);-webkit-transform:rotate(180deg);-moz-transform:rotate(180deg);-o-transform:rotate(180deg)} */
-img {
-    image-orientation: from-image;
-}
+/* images and icons */
+img {image-orientation: from-image;}
+
+/* Scroll to Top & Back buttons */
+/* section#landing .back,section#random .back,section#latest .back{top:-60px}
+section#mealCardsSection .back{top:0} */
+
+
 
 /* Button */
 .button{font-weight:bold;font-size:13px;border:1px solid black}
 .button:hover{transition:all 500ms ease;color:white}
 .button,.card{box-shadow: 2px 6px 15px rgba(0,0,0,0.1)}
 
-/* Cards */
+/* Meal Cards */
 .card{border-radius:7px;margin:10px}
-/* .card img{width:100%;max-height:150px} */
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
-.card-body{padding:5px 15px}
+.card-body{padding:5px 15px; display: flex; justify-content: center;}
 .cardTitle{margin-bottom:5px}
 .mealCardRecipeBtn{display: inline}
-div.recipe-action img.cardAction {width:10%; display:none; cursor:pointer;}
+div.recipe-action img.cardAction {width:10%; cursor:pointer;}
 div.recipe-action img.cardAction:hover {background-color: #689f38}
-.mealCards{text-align:center}
-.mealCards .columns{margin-left:0}
+/* .mealCards{text-align:center}
+.mealCards .columns{margin-left:0} */
+
+.card .card-body .cardAction {
+    margin-left: 5px;
+    margin-right: 5px;
+}
 
 
 /* Chef icon */
 .chefimg{position:absolute;height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 
-/*  Flex */
+/* Flex */
 .d-flex{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:middle}
 
-/*Random Recipe button alignment - Bhaveshm23 */
+/* Random Recipe button alignment */
 #landing .row:first-child{display: flex; align-items: center;} 
 section#landing .row .chefimg{top:26px; left:160px; position: relative;}
 
@@ -62,26 +66,29 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
     text-align:left;
     margin-bottom:0
 }
-/* section#random h3#dynamicTitle{transform:rotate(0deg)} */
 
 h1.brand{
-    /* font-size: 36px; */
     text-transform:uppercase;
     transform: none;
-    /* text-align: center; */
-    /* margin-bottom: 0px; */
-    /* font-family:'Roboto Slab', serif; */
-    /* font-weight: bold; */
-    /* font-size:36px;
-    font-weight:bold;
-    font-family:'Roboto Slab', serif;
-    text-align:center;
-    margin-bottom:0 */
+    margin: 0;
 }
 
-/* h1.brand:hover,h1.brand:focus{pointer-events: none;} */
+/* Meal Metadata and Image section */
+.mealMetadata ul {margin:0}
+.mealMetadata ul li {margin:0}
 
-/* Ingredients */
+.row.mealMetadata {display: flex; align-items: centre;}
+.mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;}
+.mealMetadata p {margin-bottom: 0;}
+.mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase}
+
+#mealImgContainer {margin: 0 auto; text-align: center;}
+#mealImg {width:100%; border-radius:100%;}
+#mealActions {width: 100%; margin: 0 auto; text-align: center;}
+#mealActions img.cardAction {display:inline-block; margin-right: 20;}
+#mealActions img.cardAction:hover {background-color: #689f38}
+
+/* Recipe Ingredients */
 h2.ingredients {
     margin-right:20px;
     margin-bottom:0px;
@@ -91,29 +98,19 @@ h2.ingredients {
     line-height: 1.6;
 }
 
-.ingredients strong {
-    margin-top: 5;
-}
-
 .ingredients ul {
-    margin: 0;
+    padding-left: 0;
     margin-bottom: 0;
 }
 
-.ingredients ul li{
-    margin: 0;
-    margin-bottom: 0;
+.ingredients ul li {
+    padding-left: 1.7em; /* Add padding to create space for the bullets */
+    text-indent: -1.5em; /* Pull the first line back to align with the bullet */
+    line-height: 1em; /* tight line spacing within a bullet */
+    margin-bottom: 0.5em; /* space between bullets */
 }
 
-
-/* .mealMetadata ul > li{margin:0;float:left;width:50%} */
-.mealMetadata ul{margin:0}
-.mealMetadata ul li{margin:0}
-table.ingredients, td { 
-    padding:0 10px;
-}
-
-/* Intructions */
+/* Recipe Instructions */
 h2.instructions {
     margin-right:20px;
     margin-bottom:0px;
@@ -122,29 +119,34 @@ h2.instructions {
     font-size: 1.1em;
     line-height: 1.6;
 }
-.mealInstructions ul {
+
+ol.recipe-steps {
+    counter-reset: step-counter;
     list-style-type: none;
+}
+
+ol.recipe-steps li {
     margin: 0;
-    margin-bottom: 0px;
+    position: relative;
+    padding-left: 4em;
+    text-indent: 0em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
 }
 
-.mealInstructions ul li {
-    margin:0;
-    margin-bottom: 0;
+ol.recipe-steps li::before {
+    counter-increment: step-counter;
+    content: "Step " counter(step-counter) ": ";
+    font-weight: bold;
+    position: absolute;
+    left: 0;
 }
 
-
-/* Meal */
-.row.mealMetadata {display: flex; align-items: centre;}
-.mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;}
-.mealMetadata p {margin-bottom: 0;}
-.mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase}
-
-#mealImg {width:100%;border-radius:100%;}
-#mealActions {width: 100%; margin: 0 auto; text-align: center;}
-#mealActions img.cardAction {display:inline-block; margin-right: 20;}
-#mealActions img.cardAction:hover {background-color: #689f38}
-
+ol.recipe-steps li p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.5em;
+}
 
 /* Nav */
 ul.navbar-list {text-align: right;}
@@ -156,10 +158,14 @@ ul.navbar-list {text-align: right;}
 #NavBarCategory {display: inline;}
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 
+
+
+
+
+
 /* Section */
 section{margin-top:5vh; height:auto}
 section#landing{display:flex;flex-direction:row;align-items:center}
-/* section#landing > .container{margin-top:-100px} */
 section#landing .chefimg{top:-20px;right:-3px}
 section#random .chefimg{top:5px;right:-14px}
 section#random, section#mealCardsSection {padding: 0 0 5vh 0}
@@ -175,30 +181,23 @@ a.brand:hover,a.brand:focus{color:black}
 main{justify-content:center;align-items:center}
 #userInput{font-weight:bold}
 
+
 /* Media queries */
 @media (min-width: 750px) {
     .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
-}
-@media (min-width: 750px) {
     .navbar-list {list-style:none;margin-bottom: 0}
-}
-@media (min-width: 750px) {
     .navbar-item {position:relative;display:inline}
-}
-@media (min-width: 750px){
     .navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
-}
-@media (min-width: 750px){
     .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
 }
 
-
-#navList{list-style:none;margin-bottom:0;display:flex;justify-content:space-evenly}
+#navList{list-style:none;margin-bottom:0;display:flex;justify-content:space-evenly;}
 #navBar{position:fixed;padding:7px;display:flex;justify-content:space-evenly;width:100%;background:#f5f5f5;z-index:99;border-top:1px solid #eee;border-bottom:1px solid #eee}
-#navItem{position:relative;display:inline}
+#navItem{position:relative;display:inline; cursor: pointer;}
 #navLink{text-transform:uppercase;font-size:2vw;font-weight:600;letter-spacing:.2rem;text-decoration:none;color:#000}
 .button:hover{background-color:#689f38}
-.back{text-align:right;position:fixed;right:20px;bottom:20px}
+.goTop{text-align:right;position:fixed;right:20px;bottom:20px}
+.goBack{text-align:right;position:fixed;right:20px;top:20px}
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 /* #about-section{height:80vh;padding-top:20vh;} */
@@ -206,22 +205,25 @@ main{justify-content:center;align-items:center}
 .brand{font-size:5vw;font-weight:700}
 /* .brand:focus,.brand:hover,.brand:visited{color:#000} */
 
+#errorMessageContainer{display: none; background: #679f38; text-align: center;height: 100px; color: white; justify-content: center; align-items: center;}
+#errorMessageText{line-height: 100px; padding: 0px; margin: 0 40px 0 0;}
+#errorMessageBtn{margin: 0px; color: white; border: 1px solid white;}
+
+
+/* MEDIA QUERIES */
+
+/* large screens */
+@media (min-width: 750px) {
+}
+
 /* phablet and above */
 @media (min-width:440px){
     .brand{font-size:3vw;}
     .navbar-link{font-size:1.5vw}
 }
 
-/* @media (max-width:880px){
-    .heading{margin:20px;width:100%;font-size: 3vw}
-    #NavBarCategory {display: none;}
-} */
-
-
 /* iphone 6 in landscape mode or smaller */
 @media (max-width: 750px) {
-    /* hide pre-defined search categories */
-    /* #NavBarCategory {display: none;} */
 }
 
 /* below the CSS grid start size */
@@ -242,11 +244,7 @@ main{justify-content:center;align-items:center}
     /* meal card section - create space on right for scroll button */
     section#mealCardsSection > .container{padding: 0 40px}
     /* scroll to top button */
-    .back{right:10px}
+    /* .back{right:10px} */
 }
 
 
-
-#errorMessageContainer{display: none; background: #679f38; text-align: center;height: 100px; color: white; justify-content: center; align-items: center;}
-#errorMessageText{line-height: 100px; padding: 0px; margin: 0 40px 0 0;}
-#errorMessageBtn{margin: 0px; color: white; border: 1px solid white;}
