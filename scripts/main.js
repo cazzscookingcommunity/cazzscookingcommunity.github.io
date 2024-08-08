@@ -244,11 +244,9 @@ function createMealCards(shortlist) {
                     <img src="${imgpath}${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
                     <div class="card-body recipe-action" display="none">
                         <div class="cardTitle">${title}</div>
-                        <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
-                        <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
-                          <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png">
-                        </a>
-                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/components/icons8-edit-24.png">
+                        <div class="cardActions">
+                            <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
+                        </div>
                     </div>
                 </div>
             </div>`;

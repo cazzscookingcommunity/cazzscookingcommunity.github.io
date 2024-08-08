@@ -33,17 +33,16 @@ section#mealCardsSection .back{top:0} */
 .card{border-radius:7px;margin:10px}
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
-.card-body{padding:5px 15px; display: flex; justify-content: center;}
+.card-body{padding:5px 15px; text-align: center;}
 .cardTitle{margin-bottom:5px}
 .mealCardRecipeBtn{display: inline}
-div.recipe-action img.cardAction {width:10%; cursor:pointer;}
-div.recipe-action img.cardAction:hover {background-color: #689f38}
-/* .mealCards{text-align:center}
-.mealCards .columns{margin-left:0} */
+.card img.cardAction {width:20%; cursor:pointer;}
+.card img.cardAction:hover {background-color: #689f38}
+
 
 .card .card-body .cardAction {
     margin-left: 5px;
-    margin-right: 5px;
+    margin-right: 10px;
 }
 
 
@@ -59,7 +58,7 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
 
 /* Heading */
 .heading{text-transform:uppercase;
-    font-size:36px;
+    font-size:30px;
     font-weight:bold;
     font-family:'Roboto Slab', serif;
     transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);
@@ -71,6 +70,14 @@ h1.brand{
     text-transform:uppercase;
     transform: none;
     margin: 0;
+}
+
+/* Search prompts on home page */
+.searchPrompt {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    font-weight: 300; 
+    font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; 
 }
 
 /* Meal Metadata and Image section */
@@ -85,8 +92,7 @@ h1.brand{
 #mealImgContainer {margin: 0 auto; text-align: center;}
 #mealImg {width:100%; border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
-#mealActions img.cardAction {display:inline-block; margin-right: 20;}
-#mealActions img.cardAction:hover {background-color: #689f38}
+
 
 /* Recipe Ingredients */
 h2.ingredients {
@@ -220,10 +226,6 @@ main{justify-content:center;align-items:center}
 @media (min-width:440px){
     .brand{font-size:3vw;}
     .navbar-link{font-size:1.5vw}
-}
-
-/* iphone 6 in landscape mode or smaller */
-@media (max-width: 750px) {
 }
 
 /* below the CSS grid start size */

@@ -143,39 +143,18 @@
                     <!-- meal meta data -->
                     <div class="row mealMetadata">
 
-                        <!-- meal image and actions -->
-                        <!-- <div class="eight columns mealImg" id="mealImgContainer"> -->
+                        <!-- meal image card -->
                         <div class="three columns" id="mealImgContainer">
-                            <!--  -->
                             <div class="card">
-                                <!-- <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}"> -->
-                                    <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
-                                <!-- </a> -->
+                                <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
                                 <div class="card-body recipe-action">
-                                    <!-- <div id="mealActions"> -->
+                                    <div id="cardActions">
                                         <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
                                         <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
                                         <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                                    <!-- </div> -->
-                                    <!-- <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
-                                    <a href="mailto:?subject=https://cazzscookingcommunity.io/recipe.html?recipe=${file}">
-                                      <img class="cardAction" border="0" alt="email recipe" src="/components/icons8-mail-24.png">
-                                    </a>
-                                    <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('${path}${file}')" src="/components/icons8-edit-24.png"> -->
+                                    </div>
                                 </div>
                             </div>
-
-
-                            <!--  -->
-                            <!-- <a href="https://cazzscookingcommunity.github.io/images/{ns:thumbnail}">
-                                <img id="mealImg" src="/images/{ns:thumbnail}" alt="{ns:title}"/>
-                            </a>
-
-                            <div id="mealActions">
-                                <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-                                <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                            </div> -->
                         </div>
 
                         <div class="nine columns mealMetadata" id="randomMealMetadata">
