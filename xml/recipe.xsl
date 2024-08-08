@@ -144,20 +144,7 @@
                     <div class="row mealMetadata">
 
                         <!-- meal image card -->
-                        <div class="three columns" id="mealImgContainer">
-                            <div class="card">
-                                <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
-                                <div class="card-body recipe-action">
-                                    <div id="cardActions">
-                                        <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-                                        <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="nine columns mealMetadata" id="randomMealMetadata">
+                        <div class="four columns mealMetadata" id="randomMealMetadata">
                             <p><span>Category:</span> <xsl:value-of select="ns:category"/></p>
                             <p><span>Serves:</span>   <xsl:value-of select="ns:yield"/></p>
                             <p><span>Prep Time:</span>
@@ -172,6 +159,19 @@
                                 </xsl:call-template>
                             </p>
                         </div> 
+
+                        <div class="four columns" id="mealImgContainer">
+                            <div class="card">
+                                <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
+                                <div class="card-body recipe-action">
+                                    <div id="cardActions">
+                                        <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                                        <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
                     </div>
