@@ -36,14 +36,13 @@ section#mealCardsSection .back{top:0} */
 .card-body{padding:5px 15px; text-align: center;}
 .cardTitle{margin-bottom:5px}
 .mealCardRecipeBtn{display: inline}
-.card img.cardAction {width:20%; cursor:pointer;}
-.card img.cardAction:hover {background-color: #689f38}
+
+div#cardActions {margin: 10px 0px;}
+img.cardAction {width:15%; cursor:pointer; margin-left: 5px; margin-right: 10px;}
+img.cardAction:hover {background-color: #689f38}
 
 
-.card .card-body .cardAction {
-    margin-left: 5px;
-    margin-right: 10px;
-}
+
 
 
 /* Chef icon */

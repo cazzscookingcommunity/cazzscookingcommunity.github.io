@@ -158,18 +158,23 @@
                                     <xsl:with-param name="duration" select="ns:cookTime"/>
                                 </xsl:call-template>
                             </p>
+                            <div id="cardActions">
+                                <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                                <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                                <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
+                            </div>
                         </div> 
 
-                        <div class="four columns" id="mealImgContainer">
+                        <div class="six columns" id="mealImgContainer">
                             <div class="card">
                                 <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
-                                <div class="card-body recipe-action">
-                                    <div id="cardActions">
+                                <!-- <div class="card-body recipe-action"> -->
+                                    <!-- <div id="cardActions">
                                         <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
                                         <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
                                         <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                                    </div>
-                                </div>
+                                    </div> -->
+                                <!-- </div> -->
                             </div>
                         </div>
 
