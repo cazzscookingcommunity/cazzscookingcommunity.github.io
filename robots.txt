@@ -5,12 +5,12 @@ Allow: /recipe.html
 Allow: /recipe.html?recipe=*
 
 # block recipe update pages
-#Disallow: /*.xml$
+Disallow: /recipe/*.xml$
 
 
 # disallow file and folders
 Disallow: /*.xsd$
 Disallow: /*.xslt$
-#Disallow: /xml/
+Disallow: /xml/
 Disallow: /scripts/python_scripts/
 Disallow: /components/
