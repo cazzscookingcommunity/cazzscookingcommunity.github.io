@@ -247,9 +247,8 @@ main{justify-content:center;align-items:center}
     /* scroll to top button */
     /* .back{right:10px} */
 
-    .cards.four.columns {
-        width:50%
-    }
+    .cards.four.columns {width:50%}
+    .card-body {padding:0;}
 }
 
 
