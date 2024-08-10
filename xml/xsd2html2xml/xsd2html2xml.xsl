@@ -310,6 +310,10 @@
 					<xsl:attribute name="onclick">history.back();</xsl:attribute>
 					Close
 				</xsl:element>
+				<xsl:element name="img">
+					<xsl:attribute name="alt">github status icon</xsl:attribute>
+					<xsl:attribute name="src">https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg</xsl:attribute>
+				</xsl:element>
 			</xsl:element>
 		</xsl:element>
 		

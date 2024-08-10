@@ -218,7 +218,9 @@
 
             <footer>
                 <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
-                
+                <br/>
+                <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+          
                 <div>
                 Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
