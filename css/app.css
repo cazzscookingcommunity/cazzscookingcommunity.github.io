@@ -246,6 +246,10 @@ main{justify-content:center;align-items:center}
     section#mealCardsSection > .container{padding: 0 40px}
     /* scroll to top button */
     /* .back{right:10px} */
+
+    .cards.four.columns {
+        width:50%
+    }
 }
 
 

@@ -239,7 +239,7 @@ function createMealCards(shortlist) {
             let file = recipeList[i].getElementsByTagName("filename")[0].innerHTML;
 
             mealCards += 
-            `<div class="four columns">
+            `<div class="cards four columns">
                 <div class="card">
                     <img src="${imgpath}${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
                     <div class="card-body recipe-action" display="none">
