@@ -165,7 +165,7 @@ if __name__== "__main__":
         fileDate = get_file_modified_date(recipedir + filename)
         if filename.endswith(".xml") and filename != outputfile: 
             imagename = extract_image_name(recipedir + filename)
-            print(f"file: {filename} imagename: {imagename}")
+            # print(f"file: {filename} imagename: {imagename}")
             processFile(filename, recipelist, sitemap)
 
     closeOutput(recipelist, xmlfooter)

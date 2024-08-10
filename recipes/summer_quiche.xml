@@ -7,11 +7,11 @@
   <filename>summer_quiche.xml</filename>
   <comment>c/o Coles with cazzie tweaks </comment>
   <thumbnail>summer_quiche.jpeg</thumbnail>
-  <category>Vegetarian</category>
   <category>Dinner</category>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <diet>Keto</diet>
+  <diet>Vegetarian</diet>
   <ingredient>1 large sweet potatoe</ingredient>
   <ingredient>1 TBsp olive oil </ingredient>
   <ingredient>1 hand full spinach chopped </ingredient>

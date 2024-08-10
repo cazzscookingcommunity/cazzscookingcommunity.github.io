@@ -6,7 +6,8 @@
   <title>Mexican Black Beans and Rice</title>
   <filename>mexican_black_beans_and_rice.xml</filename>
   <thumbnail>mexican_blackbeans_and_rice.jpeg</thumbnail>
-  <category>Vegetarian</category>
+  <category>Sides</category>
+  <diet>Vegetarian</diet>
   <ingredient>3 cups cooked rice</ingredient>
   <ingredient>1 can black beans rinsed</ingredient>
   <ingredient>1 can chopped tomatoes </ingredient>

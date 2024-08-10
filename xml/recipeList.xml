@@ -6,23 +6,29 @@ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xsd">
 
 <recipe>
-  <title>Gluten Free Orange Cake</title>
+<title>Gluten Free Orange Cake</title>
     <filename>gluten_free_orange_cake.xml</filename>
-  <thumbnail>gluten_free_orange_cake.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>GlutenFree</diet>
+<thumbnail>gluten_free_orange_cake.jpeg</thumbnail>
+<category>Sweets</category>
+<diet>GlutenFree</diet>
 </recipe>
 <recipe>
-  <title>Gails Potato Salad</title>
+<title>Gails Potato Salad</title>
     <filename>gails_potato_salad.xml</filename>
-  <thumbnail>gails_potatoe_salad.jpeg</thumbnail>
-  <category>Salad</category>
+<thumbnail>gails_potatoe_salad.jpeg</thumbnail>
+<category>Salad</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
 </recipe>
 <recipe>
-  <title>Calzone</title>
+<title>Calzone</title>
     <filename>calzone.xml</filename>
-  <thumbnail>calzone.jpeg</thumbnail>
-  <diet>Vegetarian</diet>
+<thumbnail>calzone.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Sides</category>
+<category>Breakfast</category>
+<diet>LowSugar</diet>
 </recipe>
 <recipe>
   <title>Home made Carmen Bars</title>
@@ -79,7 +85,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Spanakopita </title>
     <filename>spanakopita.xml</filename>
   <thumbnail>spanakopita.jpeg</thumbnail>
-  <category>Vegetarian</category>
+  <category>Lunch</category>
+  <diet>Vegetarian</diet>
 </recipe>
 <recipe>
   <title>Anzac Cookies</title>
@@ -636,11 +643,11 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Summer Quiche</title>
     <filename>summer_quiche.xml</filename>
   <thumbnail>summer_quiche.jpeg</thumbnail>
-  <category>Vegetarian</category>
   <category>Dinner</category>
   <category>Lunch</category>
   <diet>GlutenFree</diet>
   <diet>Keto</diet>
+  <diet>Vegetarian</diet>
 </recipe>
 <recipe>
   <title>Life Changing Bread</title>
@@ -653,7 +660,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Moroccan Lentils</title>
     <filename>moroccan_lentils.xml</filename>
   <thumbnail>moroccan_lentils.jpeg</thumbnail>
-  <category>Vegetarian</category>
+  <category>Dinner</category>
   <diet>GlutenFree</diet>
   <diet>FODMAP</diet>
   <diet>Vegetarian</diet>
@@ -923,7 +930,7 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Spinach Artichoke Quinoa Casserole</title>
     <filename>spinach_artichoke_quinoa_casserole.xml</filename>
   <thumbnail>spinach_artichoke_quinoa_casserole.jpeg</thumbnail>
-  <category>Vegetarian</category>
+  <category>Dinner</category>
   <diet>Vegetarian</diet>
   <diet>GlutenFree</diet>
 </recipe>
@@ -1074,8 +1081,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Roasted Carrot Dip</title>
     <filename>roasted_carrot_dip.xml</filename>
   <thumbnail>roasted_carrot_dip.jpeg</thumbnail>
-  <category>Vegetarian</category>
   <category>Sides</category>
+  <diet>Vegetarian</diet>
 </recipe>
 <recipe>
   <title>Harira</title>
@@ -1119,7 +1126,8 @@ xsi:schemaLocation="https://cazzscookingcommunity.github.io ../xml/recipeList.xs
   <title>Mexican Black Beans and Rice</title>
     <filename>mexican_black_beans_and_rice.xml</filename>
   <thumbnail>mexican_blackbeans_and_rice.jpeg</thumbnail>
-  <category>Vegetarian</category>
+  <category>Sides</category>
+  <diet>Vegetarian</diet>
 </recipe>
 <recipe>
   <title>Black bean noodles </title>
