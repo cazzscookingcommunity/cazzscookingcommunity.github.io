@@ -8,6 +8,7 @@
         <xs:restriction base="xs:string">
             <xs:enumeration value="LowSugar" />
             <xs:enumeration value="GlutenFree" />
+            <xs:enumeration value="GlutenFree Option" />
             <xs:enumeration value="EggFree" />
             <xs:enumeration value="Vegan" />
             <xs:enumeration value="Vegetarian" />
@@ -29,6 +30,7 @@
             <xs:enumeration value="Lunch" />
             <xs:enumeration value="Dinner" />
             <xs:enumeration value="Sweets" />
+            <xs:enumeration value="Snack" />
             <xs:enumeration value="Soup" />
             <xs:enumeration value="Sides" />
             <xs:enumeration value="Beef" />
