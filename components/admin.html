@@ -14,26 +14,25 @@
 
 <body>
   <main role="main" id="main">
+
+    <!-- scroll to top and back -->
+    <div class="goTop">
+      <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+    </div> 
+    <div class="goBack">
+      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+    </div>
+
+    <!-- HEADER SECTION -->
     <header>
-      <nav class="navbar">
-        <div class="container">
-          <div class="row">
-            <div class="eight columns">
-              <a class="brand" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
-            </div>
-            <div class="four columns">
-              <ul class="navbar-list">
-                <!-- add any navigation buttons here -->
-                <!-- home button not used as Brand is href to home -->
-              </ul>
-            </div>
-          </div>
+      <div class="container">
+        <div class="twelve columns">
+          <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>
         </div>
-      </nav>
+      </div>
     </header>
 
-    <div class="back"><a href="#main" tabindex="-1"><img src="/components/scroll.svg" title="Back to top" /></a></div>
-
+    <!-- MAIN SECTION -->
     <section>
       <div class="container">
         <div class="row">
@@ -50,6 +49,7 @@
       </div>
     </section>
 
+    <!-- LIST OF ALL RECIPES -->
     <section id="mealCardsSection">
       <div class="container">
         <div class="row">
