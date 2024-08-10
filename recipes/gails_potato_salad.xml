@@ -1,22 +1,32 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Gails Potato Salad</title>
-  <filename>gails_potato_salad.xml</filename>
-  <thumbnail>gails_potatoe_salad.jpeg</thumbnail>
-  <category>Salad</category>
-  <ingredient>1-2 kgs small potatoes</ingredient>
-  <ingredient>1/2 cup mayo</ingredient>
-  <ingredient>2 teaspoons vinegar</ingredient>
-  <ingredient>3 spring onions chopped </ingredient>
-  <ingredient>2-3 TBsp parsley and dill chopped</ingredient>
-  <ingredient>salt and pepper to taste</ingredient>
-  <step>Cut spuds in half and boil until tender but not mushy.</step>
-  <step>Drain let sit in drainer for about 10 minutes to allow them to dry out.</step>
-  <step>Place in bowl and mix through herbs.</step>
-  <step>In a separate bowl stir together mayo, vinegar and salt and pepper.</step>
-  <step>Once mixed carefully mix through spuds.</step>
-  <step>Serve with spring onions sprinkled on top.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Gails Potato Salad</title>
+<filename>gails_potato_salad.xml</filename>
+<thumbnail>gails_potatoe_salad.jpeg</thumbnail>
+<category>Salad</category>
+<yield>6</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT30M</cookTime>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
+<ingredient>1-2 kgs small potatoes</ingredient>
+<ingredient>1/2 cup mayo</ingredient>
+<ingredient>2 teaspoons vinegar</ingredient>
+<ingredient>3 spring onions chopped </ingredient>
+<ingredient>2-3 TBsp parsley and dill chopped</ingredient>
+<ingredient>Salt and pepper to taste</ingredient>
+<step>Cut spuds in half and boil until tender but not mushy, approximately 15 to 20 minutes</step>
+<step>Drain let sit in drainer for about 10 minutes to allow them to dry out.</step>
+<step>Place in bowl and mix through herbs.</step>
+<step>In a separate bowl stir together mayo, vinegar and salt and pepper.</step>
+<step>Once mixed, carefully mix through spuds.</step>
+<step>Serve with spring onions sprinkled on top.</step>
 </recipe>
+
