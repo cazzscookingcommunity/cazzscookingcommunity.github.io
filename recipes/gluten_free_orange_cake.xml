@@ -11,6 +11,7 @@
 <comment>care of Cristina Cucina</comment>
 <thumbnail>gluten_free_orange_cake.jpeg</thumbnail>
 <category>Sweets</category>
+<prepTime>PT15M</prepTime>
 <diet>GlutenFree</diet>
 <part><title>Main</title>
 <ingredient>3 eggs</ingredient>
@@ -26,8 +27,8 @@
 <step>Grease and line bottom of 8 inch springform pan.</step>
 <step>Beat eggs and sugar until fluffy.</step>
 <step>In a separate bowl mix dry ingredients and add a bit at a time while mixing eggs and sugar.</step>
-<step>Mix in butter then cream cheese (cut it into small pieces.)</step>
-<step>Place washed and cut up orange into a food processor and blend until fine pulp.</step>
+<step>Mix in butter then cream cheese (cut it into small pieces.</step>
+<step>)  Place washed and cut up orange into a food processor and blend until fine pulp.</step>
 <step>Fold it into cake mix and pour into prepared pan.</step>
 <step>Smooth top and place in the middle rack of the oven for 1 hour or until toothpick comes out clean.</step>
 </part>
