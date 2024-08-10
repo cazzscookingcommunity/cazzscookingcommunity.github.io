@@ -243,7 +243,7 @@ main{justify-content:center;align-items:center}
     section#landing{display: inline-block; height:auto}
     section#landing > .container{margin-top:0}
     /* meal card section - create space on right for scroll button */
-    section#mealCardsSection > .container{padding: 0 40px}
+    section#mealCardsSection > .container{padding: 0 10px}
     /* scroll to top button */
     /* .back{right:10px} */
 
