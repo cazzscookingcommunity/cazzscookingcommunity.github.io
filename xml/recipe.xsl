@@ -166,16 +166,7 @@
                         </div> 
 
                         <div class="six columns" id="mealImgContainer">
-                            <div class="card">
-                                <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="u-max-full-width mealCardRecipeBtn"/>
-                                <!-- <div class="card-body recipe-action"> -->
-                                    <!-- <div id="cardActions">
-                                        <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-                                        <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                                        <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/{ns:filename}')" src="/components/icons8-edit-24.png"/>
-                                    </div> -->
-                                <!-- </div> -->
-                            </div>
+                                <img src="/images/{ns:thumbnail}" alt="{ns:title}" class="card u-max-full-width mealCardRecipeBtn"/>
                         </div>
 
 
@@ -225,46 +216,10 @@
                 </div>
             </section>
 
-            <!-- About Section -->
-            <section id="about-section">
-                <div class="container">
-                    <div class="row">
-                        <div class="twelve columns">
-                        <div class="row d-flex">
-                            
-                            <div class="four columns" style="align-self:center;">
-                                <h2 class="heading">About</h2>
-                            </div>
-                            
-                            <div class="eight columns">
-                                <p>
-                                    A food recipes website for all of Cazz's favourite family recipes.
-                                </p>
-                                  
-                                <p>
-                                    We are a family of 5. The 3 kids, now young adults, take turns at cooking dinner.  
-                                    This webiste is a collection of family and friends favourite recipes collected over the years 
-                                    and is recorded to pass on, and to be used by the kids to cook each week.<br/>
-                                </p>
-                            </div>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </section>
-
             <footer>
                 <div>
                 Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
-                </div>
-
-                <div>
-                <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
-                </div>
-
-                <div>
-                <a href="/components/admin.html">recipe admin</a>
                 </div>
             </footer>
 
