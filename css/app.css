@@ -79,8 +79,8 @@ h1.brand{
 }
 
 .info-icon {
-    background-color: #007bff;
-    color: white;
+    /* background-color: #007bff; */
+    /* color: white; */
     padding: 5px;
     border-radius: 50%;
     font-size: 14px;
@@ -96,7 +96,8 @@ h1.brand{
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    width: 200px;
+    width: 300px;
+    height: 200px;
     text-align: center;
     z-index: 1000; /* Ensure it's above other elements */
     white-space: nowrap; /* Prevent line breaks for smaller content */
@@ -108,8 +109,8 @@ h1.brand{
     content: "";
     position: absolute;
     bottom: -10px; /* Position the arrow below the popup */
-    left: 50%;
-    transform: translateX(-50%);
+    left: 10%;
+    /* transform: translateX(-50%); */
     border-width: 10px;
     border-style: solid;
     border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
@@ -120,8 +121,8 @@ h1.brand{
     .info-container:hover .info-popup {
         display: block;
         bottom: 125%; /* Position it above the icon */
-        left: 50%;
-        transform: translate(-50%, -10px); /* Adjust the position above the icon */
+        left: 10%;
+        /* transform: translate(-50%, -10px); Adjust the position above the icon */
     }
 }
 

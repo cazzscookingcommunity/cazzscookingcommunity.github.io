@@ -99,7 +99,6 @@
                     <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />
                   </div>
                   <div class="four columns" style="position:relative;" id="randomMealBtnContainer">
-                    <!-- search button -->
                     <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
                   </div>
                 </div>
@@ -107,9 +106,10 @@
                 <!-- clear button -->
                 <div class="row">
                   <div class="eight columns">
-                                        <!-- search tips pop -->
+                    <!-- search tips popup -->
                     <div class="info-container">
-                      <span class="info-icon">i</span>
+                      <!-- <span class="info-icon">i</span> -->
+                      <img src="components/icons_info_24.png" class="info-icon" />
                       <div class="info-popup">
                         <small id="searchTips">search tips:<br>
                           'banana' any recipe with banana.<br/>
@@ -208,6 +208,9 @@
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="scripts/search.js"></script>
+<script src="scripts/recipeCards.js"></script>
+<script src="scripts/utils.js"></script>
 <script src="scripts/main.js"></script>
 </html>
 
