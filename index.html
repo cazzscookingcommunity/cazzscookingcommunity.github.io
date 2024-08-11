@@ -85,12 +85,15 @@
                       <p class="searchPrompt">Not sure what to cook?</p>
                       <p class="searchPrompt"><small>Search or try a random recipe!</small></p>
                   </div>
+
+                  <!-- Random recipe button -->
                   <div class="four columns randomSearch">
                       <img src="components/chef.svg" class="u-max-full-width chefimg" />
                       <a class="button btnRandomRecipe" href="#random" title="Show a random recipe" onclick="clear()">Random Recipe</a>
                   </div>
                 </div>
 
+                <!-- Search button -->
                 <div class="row">
                   <div class="eight columns">
                     <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />
@@ -99,6 +102,20 @@
                       <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
                   </div>
                 </div>
+
+                <!-- clear button -->
+                <div class="row">
+                  <div class="eight columns">
+                    <small id="searchTips">search tips:<br>
+                      'banana' any recipe with banana.<br/>
+                      '+glutenfree +diaryfree' must be both
+                    </small>
+                  </div>
+                  <div class="four columns" style="position:relative;">
+                      <a class="button" id="clearButton" href="#main" title="Clear">Clear Search</a>
+                  </div>
+                </div>                 
+
                 <div class="row">
                   <div class="eight columns">
                     <ul class="navbar-list u-full-width" style="text-align:center;" id="NavBarCategory">
@@ -118,7 +135,8 @@
       <div class="container" style="display:none;">
           <div class="row">
               <div class="four columns">
-                <h4 class="heading">The Recipes You Wanted</h4> <br/>
+                <h4 class="heading">The Recipes You Wanted</h4>
+                <br/>
               </div>
               <div class="row">
                 <div class="eight columns">
@@ -182,6 +200,7 @@
   </main>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="scripts/main.js"></script>
 </html>
 

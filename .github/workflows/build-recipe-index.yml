@@ -58,12 +58,13 @@ jobs:
           architecture: x64
       - run: pip install xmlschema
       - run: pip intall lxml
+      - run: pip intall json
       - run: python scripts/python_scripts/build-index-workflow.py
       - if: ${{ success() }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-      - run: git add xml/recipeList.xml
+      - run: git add components/search_index.json
       - run: git add sitemap.xml
       - run: git commit -m "automated recipe index update"
       - run: git push

@@ -91,6 +91,7 @@ h1.brand{
 #mealImgContainer {margin: 0 auto; text-align: center;}
 #mealImg {width:100%; border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
+div.cardActions > a {text-decoration-line: none;}
 
 
 /* Recipe Ingredients */

@@ -1,47 +1,87 @@
-var searchTree = {};
-var recipeList = new DOMParser();
-var $recipeList;
+// var searchTree = {};
+// var recipeList = new DOMParser();
+// var $recipeList;
+var recipeList=[];
 const path = "/recipes/";
 const imgpath = "/images/"
-const XMLrecipelist = "/xml/recipeList.xml";
+const SearchIndexFile = "/components/search_index.json";
+let idx;
 window.scrollTo(0,$('#main').offset().top);
 
 
 
 $(document).ready(function(){
-    let recipelist = new DOMParser();
-    fetch(XMLrecipelist)
-    .then(res => res.text())
-    .then(res => new DOMParser().parseFromString(res, "text/xml"))
-    .then(res => {
-        categorys = new Set();
-        recipeList = res.querySelectorAll('recipe');
-        $recipeList = $( recipeList );
+    const searchTags = new Set();
 
-        getCategorys($recipeList, "category, diet", categorys);
+    // Load the search index from the JSON file
+    fetch(SearchIndexFile)
+        .then(response => response.json())
+        .then(data => {
+            // Initialize the Lunr.js index
+            idx = lunr(function () {
+                this.ref('id');
+                this.field('title');
+                this.field('category');
+                this.field('diet');
+                this.field('ingredients');
 
-        //display categories for simple search
-        let listCategory = [];
-        categorys.forEach (function(value) {
-            listCategory.push(`
+                // Add documents to the index
+                data.forEach(recipe => {
+                    // add lowercase recipes to index
+                    this.add({
+                        id: recipe.id,
+                        title: recipe.title.toLowerCase(),
+                        category: recipe.category.toLowerCase(),
+                        diet: recipe.diet.toLowerCase(),
+                        ingredients: recipe.ingredients.toLowerCase(),
+                    });
+
+                    // create in-memory list of recipe key elements for meal cards 
+                    recipeList.push(recipe);
+
+                    // used for predefined searches
+                    if (recipe.category) {
+                        searchTags.add(recipe.category);
+                    }
+                    if (recipe.diet) {
+                        searchTags.add(recipe.diet);
+                    }
+                });
+
+                
+            });
+
+        console.debug("search tags:", searchTags);
+        console.debug("index: ", idx);
+        console.debug("recipeList: ");
+        console.log(JSON.stringify(recipeList, null, 4));
+
+        // Display predefined searchTags for simple search
+        let simpleSearchTerms = [];
+        searchTags.forEach(value => {
+            simpleSearchTerms.push(`
             <li class="navbar-item">
-            <a onclick="fetchCategoryMeal('${value}')"
+            <a onclick="searchRecipes('${value}')"
             class="navbar-link-category" tabindex="0" href="#mealCardsSection">${value}</a>
             </li>`);
-        })
-        NavBarCategory.innerHTML = listCategory.join('');
+        });
 
-        // create keyword to recipe map for category search & searchbar
-        createSearchTree($recipeList);
+        // Insert the category list into the HTML
+        // document.getElementById('categoryList').innerHTML = simpleSearchTerms.join('');
+        // NavBarCategory.innerHTML = simpleSearchTerms.join('');
+
         document.getElementById('searchRecipe').value='';
 
-        addPageMetaData($recipeList);
+        // addPageMetaData(recipeList);
+        restoreSearchState();
+    
+        })
+        .catch(error => console.error('Error fetching JSON index:', error));
 
-    });
 
     // Fetches random recipe
     $('.btnRandomRecipe').on('click', function(){
-        fetchMeal($recipeList,'r');
+        fetchMeal(recipeList,'r');
 
         // Textual updates
         $('#dynamicTitle').text('The Random Recipe');
@@ -50,47 +90,64 @@ $(document).ready(function(){
     // Fetch searched recipe on click
     $('.btnSearchRecipe').on('click', function(){
         searchTerm = $.trim($('#searchRecipe').val());
-        fetchCategoryMeal(searchTerm);
-        // fetchMeal($recipeList, 'u');
+        searchRecipes(searchTerm);
     })
 
+});
+
+// this is part of preserving search state for the back function
+window.addEventListener('popstate', function(event) {
+    if (event.state && event.state.searchTerm && event.state.searchResults) {
+        const recipeNameShortList = event.state.searchResults.map(result => {
+            return data.find(doc => doc.id === result.ref);
+        });
+
+        $('#searchRecipe').val(event.state.searchTerm);
+        createMealCards(recipeNameShortList);
+    }
+});
+
+// JavaScript to clear session storage on clear button click
+document.getElementById('clearButton').addEventListener('click', function() {
+    sessionStorage.removeItem('searchTerm'); // Clear search term
+    sessionStorage.removeItem('searchResults'); // Clear search results
+    document.getElementById('searchRecipe').value='';
+    $('section#mealCardsSection').show();
+    $('section#random').hide();
+    $('#mealCardsSection .container').hide();
 });
 
 // Get recipe list based on search input using enter rather than click
 $(document).keypress(function(e) {
     if( e.which == 13 && $.trim($('#searchRecipe').val()) !== '' ) {
         searchTerm = $.trim($('#searchRecipe').val());
-        fetchCategoryMeal(searchTerm);
+        searchRecipes(searchTerm);
     }
 });
 
-// Show recipe of clicked meal
-$(document).on('click','.mealCardRecipeBtn',function(){
-    let meal = $(this).attr("data-meal"); // format = string
-    meal = $.parseXML( meal ); // format = #document
-    $meal = $( meal ); // format = jquery
+// this is part of preserving search state for the back function
+function updateHistoryState(searchTerm, results) {
+    window.history.pushState({ searchTerm, searchResults: results }, '', `?search=${encodeURIComponent(searchTerm)}`);
+}
 
-    // fetchMeal($meal,'u');
-    recipeFilename = $meal.find('filename').text()
-    location.assign(`/recipe.html?recipe=${recipeFilename}`)
-
-});
-
-function addPageMetaData($recipeList) {
-    var metaData = "";
+// NEED TO UPDATE FOR RECIPE DIET
+// adds itemList schema to the homepage
+function addPageMetaData(data) {
+    let metaData = "";
     metaData += `{
         "@context": "https://schema.org",
         "@type": "ItemList",
         "itemListElement": [`;
 
-    for ( i = 0; i < 10; i++ ) {
-        filename = $recipeList[i].getElementsByTagName("filename")[0].innerHTML
-        if ( i > 0 ) {
-            metaData += ','
+    // Iterate over the first 10 recipes in the data array
+    for (let i = 0; i < Math.min(data.length, 10); i++) {
+        const filename = data[i].id; // Assuming 'id' is the filename property
+        if (i > 0) {
+            metaData += ',';
         }
         metaData += `{
             "@type": "ListItem",
-            "position": "${i}",
+            "position": "${i + 1}", // Schema.org expects positions to start from 1
             "url": "https://cazzscookingcommunity.github.io/recipe.html?recipe=${filename}"
         }`;
     }
@@ -102,6 +159,8 @@ function addPageMetaData($recipeList) {
     document.head.appendChild(script);
 }
 
+
+// NOT REQUIRED ONCE SEARCH BOXES ADDED
 // get recipe Categories for pre-defined search filters 
 function getCategorys($recipe, cssSelector, newlist) {
     x = $recipe.find(cssSelector);
@@ -122,6 +181,8 @@ function getCategorys($recipe, cssSelector, newlist) {
     }
 }
 
+
+// NOT REQUIRED ONCE SEARCH BOXES ADDED
 function addToTree(value, title) {
     if (!(value in searchTree)) {  // add new property
         searchTree[value] = [title];
@@ -130,6 +191,7 @@ function addToTree(value, title) {
     }
 }
 
+// NOT REQUIRED ONCE SEARCH BOXES ADDED
 // get lables for search tree 
 function getSearchValues($recipe, cssSelector) {
     keywords = $recipe.querySelectorAll(cssSelector);
@@ -142,80 +204,54 @@ function getSearchValues($recipe, cssSelector) {
     }
 }
 
-// Build search structure
-function createSearchTree($recipeList) {
-    for ( i = 0; i < $recipeList.length; i++ ) {
-        getSearchValues($recipeList[i], "category, diet, title");
-    }
-}    
-
-// Uses the fetch() to renadom recipe
-function fetchMeal($meal, type){
-    let url = '';
-    if ( type == 'r' ) {
-        randomNo = Math.floor(Math.random() * $meal.length );
-        recipeFilename = $meal[randomNo].getElementsByTagName("filename")[0].innerHTML;
-        url = (path + recipeFilename);
-        location.assign(`/recipe.html?recipe=${recipeFilename}`)
+// get a random recipe
+function fetchMeal(allRecipes, type) {
+    if (type === 'r') {
+        const randomNo = Math.floor(Math.random() * allRecipes.length);
+        const recipeFilename = allRecipes[randomNo].id;
+        const url = path + recipeFilename;
+        // Redirect to the recipe page
+        location.assign(`/recipe.html?recipe=${recipeFilename}`);
     } else {
-        console.error("invalid type requested");
+        console.error("Invalid type requested");
     }
 }
- 
 
-// Function to set the cookie
-const setCookie = (key, value, exDays = 3) => {
-    let date = new Date();
-    date.setTime(date.getTime() + exDays*24*60*60*1000);
-    document.cookie = key + "=" + value + "; expires=" + date.toUTCString() + ";path=/";
+
+
+function saveSearchState(searchTerm, results) {
+    sessionStorage.setItem('searchTerm', searchTerm);
+    sessionStorage.setItem('searchResults', JSON.stringify(results));
 }
 
-// Function to get cookie
-const getCookie = (key) => {
-    key = key + "=";
-    var cookies = document.cookie.split(';');
-    for(let i = 0; i < cookies.length; i++) {
-      var cookie = cookies[i];
-      while (cookie.charAt(0) == ' ') cookie = cookie.substring(1);
-      if (cookie.indexOf(key) == 0) { return cookie.substring(key.length, cookie.length) };
+function restoreSearchState() {
+    const savedSearchTerm = sessionStorage.getItem('searchTerm');
+    const savedResults = sessionStorage.getItem('searchResults');
+
+    if (savedSearchTerm && savedResults) {
+        const results = JSON.parse(savedResults);
+        const recipeNameShortList = results.map(result => {
+            return recipeList.find(doc => doc.id === result.ref);
+        });
+
+        $('#searchRecipe').val(savedSearchTerm);
+        createMealCards(recipeNameShortList);
+        $('section#mealCardsSection').show();
+        $('#mealCardsSection .container').show();
     }
-    return null;
 }
 
 
-
-// search title, category, diet for a regex term
-function searchRecipeList( searchTerm ) {
-    var shortlist = []
-    for ( i = 0; i < recipeList.length; i++ ) {
-        $recipe = $( recipeList[i] );
-        recipetitle = $recipe.find('title').text();
-        title = $recipe.find('title').text().toLowerCase().indexOf(searchTerm.toLowerCase());
-        category = $recipe.find('category').text().toLowerCase().indexOf(searchTerm.toLowerCase());
-        diet = $recipe.find('diet').text().toLowerCase().indexOf(searchTerm.toLowerCase());
-        
-        if ( ( title > -1 ) || (category > -1) || (diet > -1) ) {
-            shortlist.push(recipetitle)
-        }
-    }
-    return(shortlist);
-}
-
-// fetch meals matching searchTerm
-function fetchCategoryMeal(searchTerm){
-    // let recipeNameShortList = searchTree[searchTerm.toUpperCase()];
-    const recipeNameShortList = searchRecipeList(searchTerm);
-
+function displaySearchResults(searchResult, searchTerm) {
     $("#errorMessageContainer").remove();
     $('#searchRecipe').val(searchTerm);
     $('#userInput').text(searchTerm);
 
-    if ( ! ( recipeNameShortList == undefined ) ) {
+    if ( ! ( searchResult == undefined ) ) {
         $('section#mealCardsSection').show();
         $('#mealCardsSection .container').show();
         window.scrollTo(0,$('#mealCardsSection').offset().top);
-        createMealCards(recipeNameShortList);
-        // setCache(res.meals, type);
+        createMealCards(searchResult);
     } else {
         $('section#mealCardsSection').show();
         $('section#random').hide();
@@ -225,33 +261,52 @@ function fetchCategoryMeal(searchTerm){
     }
 }
 
-// Create meal cards for shortlisted recipes
+
+
+function searchRecipes(searchTerm) {
+    const results = idx.search(searchTerm);
+    saveSearchState(searchTerm, results); 
+    
+    // Fetch the results from the index
+    const searchResult = results.map(result => {
+        return recipeList.find(doc => doc.id === result.ref);
+    });
+  
+    displaySearchResults(searchResult, searchTerm);
+}
+
+
+
+
+
+//  create the mealCards for the searched recipes
 function createMealCards(shortlist) {
     let mealCards = '';
 
-    for ( i = 0; i < recipeList.length; i++ ) {
-        let title = recipeList[i].getElementsByTagName("title")[0].innerHTML;
-        if ( shortlist.includes(title) ) {
-            let serializer = new XMLSerializer();
-            let mealData = serializer.serializeToString(recipeList[i]);
-            console.debug(mealData);
-            let img = recipeList[i].getElementsByTagName("thumbnail")[0].innerHTML;
-            let file = recipeList[i].getElementsByTagName("filename")[0].innerHTML;
+    // Iterate over the shortlist directly
+    shortlist.forEach(recipe => {
+        let img = recipe.thumbnail || ""; // Assuming there's a `thumbnail` field
+        let file = recipe.filename || ""; // Assuming there's a `filename` field
 
-            mealCards += 
-            `<div class="cards four columns">
-                <div class="card">
-                    <img src="${imgpath}${img}" alt="${title} thumbnail" data-meal='${mealData}' class="u-max-full-width mealCardRecipeBtn" />
-                    <div class="card-body recipe-action" display="none">
-                        <div class="cardTitle">${title}</div>
-                        <div class="cardActions">
-                            <button class="button mealCardRecipeBtn" data-meal='${mealData}'>Recipe</button>
-                        </div>
+
+        mealCards += 
+        `<div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=${file}">
+                    <img src="${imgpath}${img}" alt="${recipe.title} thumbnail" class="u-max-full-width mealCardRecipeBtn" />
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">${recipe.title}</div>
+                    <div class="cardActions">
+                        <a href="/recipe.html?recipe=${file}">
+                            <button class="button mealCardRecipeBtn">Recipe</button>
+                        </a>
                     </div>
                 </div>
-            </div>`;
-        }
-    }
+            </div>
+        </div>`;
+    });
+
     $('section#random').hide();
     $('section#mealCardsSection').show();
     $('#mealCardsSection .container').show();
@@ -260,14 +315,14 @@ function createMealCards(shortlist) {
 
 // hamburger menu for mobile devices
 // Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu bar icon
-function mobileMenu() {
-    var x = document.getElementById("navbar-list");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-} 
+// function mobileMenu() {
+//     var x = document.getElementById("navbar-list");
+//     if (x.style.display === "block") {
+//       x.style.display = "none";
+//     } else {
+//       x.style.display = "block";
+//     }
+// } 
 
 // hamburger menu for category list
 function mobileCategoryMenu() {
