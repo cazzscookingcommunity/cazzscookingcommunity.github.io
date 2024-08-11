@@ -338,37 +338,41 @@ function mobileCategoryMenu() {
 document.querySelectorAll('.info-container').forEach(function(container) {
     let pressTimer;
 
-    container.addEventListener('mousedown', function() {
-        pressTimer = setTimeout(function() {
-            container.classList.add('active');
-        }, 500); // 500ms for long press
-    });
+    // For devices with hover capability (e.g., desktop)
+    if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        container.addEventListener('mousedown', function() {
+            pressTimer = setTimeout(function() {
+                container.classList.add('active');
+            }, 500); // 500ms for long press
+        });
 
-    container.addEventListener('mouseup', function() {
-        clearTimeout(pressTimer);
-        container.classList.remove('active');
-    });
+        container.addEventListener('mouseup', function() {
+            clearTimeout(pressTimer);
+            container.classList.remove('active');
+        });
 
-    container.addEventListener('mouseleave', function() {
-        clearTimeout(pressTimer);
-        container.classList.remove('active');
-    });
+        container.addEventListener('mouseleave', function() {
+            clearTimeout(pressTimer);
+            container.classList.remove('active');
+        });
+    } else {
+        // For touch devices (e.g., mobile)
+        container.addEventListener('touchstart', function(e) {
+            pressTimer = setTimeout(function() {
+                container.classList.add('active');
+            }, 500);
+            e.preventDefault(); // Prevent default behavior to avoid issues on touch devices
+        });
 
-    // Touch events for mobile
-    container.addEventListener('touchstart', function(e) {
-        pressTimer = setTimeout(function() {
-            container.classList.add('active');
-        }, 500);
-        e.preventDefault(); // Prevent mouse events from being triggered
-    });
+        container.addEventListener('touchend', function() {
+            clearTimeout(pressTimer);
+            container.classList.remove('active');
+        });
 
-    container.addEventListener('touchend', function() {
-        clearTimeout(pressTimer);
-        container.classList.remove('active');
-    });
-
-    container.addEventListener('touchcancel', function() {
-        clearTimeout(pressTimer);
-        container.classList.remove('active');
-    });
+        container.addEventListener('touchcancel', function() {
+            clearTimeout(pressTimer);
+            container.classList.remove('active');
+        });
+    }
 });
+

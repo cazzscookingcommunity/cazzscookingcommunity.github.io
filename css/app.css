@@ -87,7 +87,7 @@ h1.brand{
 }
 
 .info-popup {
-    display: none;
+    display: none; /* Ensure it is hidden by default */
     position: absolute;
     bottom: 125%;
     left: 50%;
@@ -110,6 +110,13 @@ h1.brand{
     border-width: 5px;
     border-style: solid;
     border-color: #555 transparent transparent transparent;
+}
+
+@media (hover: hover) and (pointer: fine) {
+    /* Only apply hover effects on devices that support it */
+    .info-container:hover .info-popup {
+        display: block;
+    }
 }
 
 .info-container.active .info-popup {
