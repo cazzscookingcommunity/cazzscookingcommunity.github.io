@@ -339,35 +339,33 @@ document.querySelectorAll('.info-container').forEach(function(container) {
     let pressTimer;
 
     if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-        // Desktop: Long press or hover logic as before
-        container.addEventListener('mousedown', function() {
-            pressTimer = setTimeout(function() {
-                container.classList.add('active');
-            }, 500);
+        // Desktop: Hover logic
+        container.addEventListener('mouseover', function() {
+            const popup = container.querySelector('.info-popup');
+            popup.style.display = 'block';
+            const rect = container.getBoundingClientRect();
+            popup.style.left = `${rect.left + (rect.width / 2) - (popup.offsetWidth / 2)}px`;
+            popup.style.top = `${rect.top - popup.offsetHeight - 10}px`; // Position above the icon
         });
 
-        container.addEventListener('mouseup', function() {
-            clearTimeout(pressTimer);
-            container.classList.remove('active');
-        });
-
-        container.addEventListener('mouseleave', function() {
-            clearTimeout(pressTimer);
-            container.classList.remove('active');
+        container.addEventListener('mouseout', function() {
+            container.querySelector('.info-popup').style.display = 'none';
         });
     } else {
         // Mobile: Touch logic
         container.addEventListener('touchstart', function(e) {
+            clearTimeout(pressTimer); // Clear any existing timer
             pressTimer = setTimeout(function() {
                 container.classList.add('active');
-                
-                // Position the popup based on touch coordinates
                 const touch = e.touches[0];
                 const popup = container.querySelector('.info-popup');
-                
-                popup.style.top = `${touch.clientY - popup.offsetHeight - 20}px`; // Position above the finger
+
+                popup.style.display = 'block';
+                popup.style.position = 'fixed'; // Use fixed positioning for mobile
                 popup.style.left = '50%'; // Center horizontally
-                popup.style.transform = 'translateX(-50%)';
+                popup.style.top = `${Math.max(touch.clientY - popup.offsetHeight - 20, 0)}px`; // Ensure it stays within the viewport
+                popup.style.transform = 'translate(-50%, 0)'; // Center horizontally
+                popup.style.zIndex = '1000'; // Ensure it's above other elements
             }, 500);
             e.preventDefault();
         });
@@ -375,13 +373,23 @@ document.querySelectorAll('.info-container').forEach(function(container) {
         container.addEventListener('touchend', function() {
             clearTimeout(pressTimer);
             container.classList.remove('active');
+            const popup = container.querySelector('.info-popup');
+            popup.style.display = 'none'; // Hide the popup when touch ends
+            popup.style.left = ''; // Reset position
+            popup.style.top = ''; // Reset position
         });
 
         container.addEventListener('touchcancel', function() {
             clearTimeout(pressTimer);
             container.classList.remove('active');
+            const popup = container.querySelector('.info-popup');
+            popup.style.display = 'none'; // Hide the popup if touch is canceled
+            popup.style.left = ''; // Reset position
+            popup.style.top = ''; // Reset position
         });
     }
 });
+
+
 
 

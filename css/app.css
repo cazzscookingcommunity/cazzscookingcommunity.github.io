@@ -84,8 +84,11 @@ h1.brand{
     padding: 5px;
     border-radius: 50%;
     font-size: 14px;
+    display: inline-block; /* Ensure it displays as expected */
+    text-align: center;
 }
 
+/* Ensure popup is positioned correctly */
 .info-popup {
     display: none; /* Hidden by default */
     position: absolute;
@@ -95,8 +98,9 @@ h1.brand{
     border-radius: 5px;
     width: 200px;
     text-align: center;
-    z-index: 1;
+    z-index: 1000; /* Ensure it's above other elements */
     white-space: nowrap; /* Prevent line breaks for smaller content */
+    transform: translateX(-50%); /* Center horizontally */
 }
 
 /* Arrow pointing upwards */
