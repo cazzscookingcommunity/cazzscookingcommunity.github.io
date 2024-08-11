@@ -99,17 +99,24 @@
                     <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />
                   </div>
                   <div class="four columns" style="position:relative;" id="randomMealBtnContainer">
-                      <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
+                    <!-- search button -->
+                    <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
                   </div>
                 </div>
 
                 <!-- clear button -->
                 <div class="row">
                   <div class="eight columns">
-                    <small id="searchTips">search tips:<br>
-                      'banana' any recipe with banana.<br/>
-                      '+glutenfree +diaryfree' must be both
-                    </small>
+                                        <!-- search tips pop -->
+                    <div class="info-container">
+                      <span class="info-icon">i</span>
+                      <div class="info-popup">
+                        <small id="searchTips">search tips:<br>
+                          'banana' any recipe with banana.<br/>
+                          '+glutenfree +diaryfree' must be both
+                        </small>
+                      </div>
+                    </div>
                   </div>
                   <div class="four columns" style="position:relative;">
                       <a class="button" id="clearButton" href="#main" title="Clear">Clear Search</a>

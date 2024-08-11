@@ -71,13 +71,53 @@ h1.brand{
     margin: 0;
 }
 
-/* Search prompts on home page */
-.searchPrompt {
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-    font-weight: 300; 
-    font-size: 2.4rem; line-height: 1.35; letter-spacing: -.08rem; 
+/* Search prompts and Tips on home page */
+.info-container {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
 }
+
+.info-icon {
+    background-color: #007bff;
+    color: white;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 14px;
+}
+
+.info-popup {
+    display: none;
+    position: absolute;
+    bottom: 125%;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #555;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    width: 200px;
+    text-align: center;
+    z-index: 1;
+}
+
+.info-popup::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+.info-container.active .info-popup {
+    display: block;
+}
+
+
+
 
 /* Meal Metadata and Image section */
 .mealMetadata ul {margin:0}
@@ -91,6 +131,7 @@ h1.brand{
 #mealImgContainer {margin: 0 auto; text-align: center;}
 #mealImg {width:100%; border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
+
 div.cardActions > a {text-decoration-line: none;}
 
 
