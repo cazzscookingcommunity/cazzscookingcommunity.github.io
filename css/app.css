@@ -96,38 +96,40 @@ h1.brand{
     width: 200px;
     text-align: center;
     z-index: 1;
+    white-space: nowrap; /* Prevent line breaks for smaller content */
 }
 
-/* Arrow pointing downwards */
+/* Arrow pointing upwards */
 .info-popup::after {
     content: "";
     position: absolute;
-    top: 100%;
+    bottom: -10px; /* Position the arrow below the popup */
     left: 50%;
     transform: translateX(-50%);
-    border-width: 5px;
+    border-width: 10px;
     border-style: solid;
-    border-color: #555 transparent transparent transparent;
+    border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
 }
 
 /* Hover styles for desktop */
-@media (hover: hover) and (pointer: fine) {
+@media (min-width: 769px) {
     .info-container:hover .info-popup {
         display: block;
         bottom: 125%; /* Position it above the icon */
         left: 50%;
-        transform: translateX(-50%);
+        transform: translate(-50%, -10px); /* Adjust the position above the icon */
     }
 }
 
 /* Touch-specific styles for mobile */
-@media (hover: none) and (pointer: coarse) {
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
     .info-container.active .info-popup {
         display: block;
         position: fixed; /* Use fixed positioning for mobile */
-        top: 50%; /* Center vertically */
+        top: auto; /* Remove top alignment */
+        bottom: 20%; /* Adjust to position above the finger */
         left: 50%; /* Center horizontally */
-        transform: translate(-50%, -50%); /* Offset to center */
+        transform: translate(-50%, -60px); /* Offset to center and above */
         width: 80%; /* Adjust width for mobile view */
     }
 
@@ -135,8 +137,6 @@ h1.brand{
         display: none; /* Hide the arrow on mobile */
     }
 }
-
-
 
 
 /* Meal Metadata and Image section */

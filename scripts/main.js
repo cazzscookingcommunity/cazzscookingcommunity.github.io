@@ -360,8 +360,14 @@ document.querySelectorAll('.info-container').forEach(function(container) {
         container.addEventListener('touchstart', function(e) {
             pressTimer = setTimeout(function() {
                 container.classList.add('active');
-
-                // No need for additional positioning since it's centered in CSS
+                
+                // Position the popup based on touch coordinates
+                const touch = e.touches[0];
+                const popup = container.querySelector('.info-popup');
+                
+                popup.style.top = `${touch.clientY - popup.offsetHeight - 20}px`; // Position above the finger
+                popup.style.left = '50%'; // Center horizontally
+                popup.style.transform = 'translateX(-50%)';
             }, 500);
             e.preventDefault();
         });
@@ -377,6 +383,5 @@ document.querySelectorAll('.info-container').forEach(function(container) {
         });
     }
 });
-
 
 
