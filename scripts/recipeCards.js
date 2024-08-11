@@ -13,11 +13,11 @@ function createMealCards(shortlist) {
         let img = recipe.thumbnail || ""; // Assuming there's a `thumbnail` field
         let file = recipe.filename || ""; // Assuming there's a `filename` field
         let categoryTags = recipe.category
-            ? recipe.category.split(' ').map(tag => `<a href="#" class="tag" onclick="searchByTag('${encodeURIComponent(tag.trim())}')">#${tag.trim()}</a>`).join(' ')
+            ? recipe.category.split(' ').map(tag => `<a href="#mealCardsSection" class="tag" onclick="searchByTag('${encodeURIComponent(tag.trim())}')">#${tag.trim()}</a>`).join(' ')
             : '';
 
         let dietTags = recipe.diet
-            ? recipe.diet.split(' ').map(tag => `<a href="#" class="tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`).join(' ')
+            ? recipe.diet.split(' ').map(tag => `<a href="#mealCardsSection" class="tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`).join(' ')
             : '';
 
         mealCards += 

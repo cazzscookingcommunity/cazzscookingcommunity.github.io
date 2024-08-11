@@ -246,6 +246,11 @@ ul.navbar-list {text-align: right;}
 #NavBarCategory {display: inline;}
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 
+.navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
+.navbar-list {list-style:none;margin-bottom: 0}
+.navbar-item {position:relative;display:inline}
+.navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
+.navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
 
 
 
@@ -272,11 +277,11 @@ main{justify-content:center;align-items:center}
 
 /* Media queries */
 @media (min-width: 750px) {
-    .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
+    /* .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
     .navbar-list {list-style:none;margin-bottom: 0}
     .navbar-item {position:relative;display:inline}
     .navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
-    .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
+    .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black} */
 }
 
 #navList{list-style:none;margin-bottom:0;display:flex;justify-content:space-evenly;}
@@ -313,14 +318,18 @@ main{justify-content:center;align-items:center}
 /* below the CSS grid start size */
 @media (max-width: 750px) {
     /* scal branding and remove rotation */
-    .heading{margin:20px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
+    .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
+    .eight.columns.randomSearch {display:none;}
+    /* .four.columns.randomSearch {width: 100%; display: block;} */
+    .four.columns.randomSearch > a {display: block;}
+    #NavBarCategory > a {text-decoration-line: none;}
     /* dont bother with random search.  can use Hamburger menu */
-    .randomSearch{display:none}
+    /* .randomSearch{display:none} */
     /* display the hambuger mnav menu and hide full nav links */
-    #navbar-list{display:none; position:relative;}
-    .navbar a.icon{display:block;}
-    #NavBarCategory {display: none;}
-    section#landing a.categoryIcon {display:block; margin-top:10px}
+    /* #navbar-list{display:none; position:relative;} */
+    /* .navbar a.icon{display:block;} */
+    /* #NavBarCategory {display: none;} */
+    /* section#landing a.categoryIcon {display:block; margin-top:10px} */
 
     /* address some container layout */
     section#landing{display: inline-block; height:auto}
