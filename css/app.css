@@ -34,8 +34,24 @@ section#mealCardsSection .back{top:0} */
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
 .card-body{padding:5px 15px; text-align: center;}
-.cardTitle{margin-bottom:5px}
-.mealCardRecipeBtn{display: inline}
+.cardTitle{margin-bottom:5px;}
+.mealCardRecipeBtn{display: inline;}
+
+.cardTags {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #007bff;
+}
+
+.cardTags p {
+    margin: 0;
+}
+
+.cardTags a {
+    text-decoration: none;
+    color: #007bff;
+}
+
 
 div#cardActions {margin: 10px 0px;}
 img.cardAction {width:15%; cursor:pointer; margin-left: 5px; margin-right: 10px;}

@@ -65,6 +65,11 @@ function displaySearchResults(searchResult, searchTerm) {
     }
 }
 
+function searchByTag(tag) {
+    $('#searchRecipe').val(decodeURIComponent(tag));
+    searchRecipes(decodeURIComponent(tag));
+}
+
 // search tips popup
 document.querySelectorAll('.info-container').forEach(function(container) {
     let pressTimer;
