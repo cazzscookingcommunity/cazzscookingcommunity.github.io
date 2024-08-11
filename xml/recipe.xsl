@@ -31,7 +31,7 @@
             <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
             <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link><!-- 180×180 -->
             <link rel="manifest" href="/components/manifest.webmanifest"></link>
-
+            <script src="scripts/utils.js" ></script>
 
             <!-- search recipe meta data -->
             <script type="application/ld+json">
@@ -101,33 +101,34 @@
                         </xsl:for-each>
                     ]
                 }
-            </script>        
+            </script> 
+
         </head>
 
         <body>
         <main role="main" id="main">
 
             <!-- scroll up -->
-            <div class="goTop">
+            <!-- <div class="goTop">
                 <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
             </div> 
             <div class="goBack">
                 <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
-            </div>
+            </div> -->
 
             <!-- Header with branded title -->
-            <header>
+            <!-- <header>
                 <div class="container">
                     <div class="twelve columns">
-                        <a class="heading" tabindex="0" href="/index.html" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                        <a class="heading" onclick="clearSearchStatus(); return false;" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
                     </div> 
                 </div>
-            </header>
+            </header> -->
             
 
 
             <!-- Recipe Section -->
-            <section id="random" style="display:block;">
+            <section id="recipe" style="display:block;">
                 <div class="container">
 
                     <!-- heading 1 = recipe name -->
@@ -216,7 +217,7 @@
                 </div>
             </section>
 
-            <footer>
+            <!-- <footer>
                 <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
                 <br/>
                 <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
@@ -225,11 +226,10 @@
                 Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
                 from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
                 </div>
-            </footer>
-
+            </footer> -->
         </main>
         </body>
-    </html>
+        </html>
     </xsl:template> 
     
     

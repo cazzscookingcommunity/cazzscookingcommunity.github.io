@@ -7,6 +7,7 @@ function createMealCards(shortlist) {
     // Initialize tag variables
     let categoryTags = '';
     let dietTags = '';
+    
 
     // Iterate over the shortlist directly
     shortlist.forEach(recipe => {

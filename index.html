@@ -61,7 +61,9 @@
     <header>
       <div class="container">
         <div class="twelve columns">
-          <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>
+          <a id="homeButton" class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community">
+            <h1 class="heading brand">Family Recipe Favourites</h1>
+          </a>
         </div>
       </div>
     </header>
@@ -110,11 +112,11 @@
                     <div class="info-container">
                       <img src="components/icons_info_24.png" class="info-icon" />
                       <div class="info-popup">
-                        <small id="searchTips">search tips:<br>
-                          'banana' any recipe with banana.<br/>
-                          '+glutenfree +diaryfree' must be both
-                          'title:cake' searches recipe name
-                        </small>
+                        SEARCH TIPS:<br>
+                        'banana'   any recipe with banana.<br/>
+                        '+glutenfree +diaryfree'   must be both.<br/>
+                        'title:cake'   searches recipe name.<br/>
+                        'category:sweet -patato'  sweet but no sweet patato<br/>
                       </div>
                     </div>
                   </div>
@@ -193,16 +195,15 @@
           
       <div>
         Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-        from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a>
       </div>
 
       <div>
         <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
       </div>
 
-      <div>
+      <!-- <div>
         <a href="/components/admin.html">recipe admin</a>
-      </div>
+      </div> -->
     </footer>
   </main>
 </body>
@@ -210,7 +211,6 @@
 <script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="scripts/search.js"></script>
 <script src="scripts/recipeCards.js"></script>
-<script src="scripts/utils.js"></script>
 <script src="scripts/main.js"></script>
 </html>
 

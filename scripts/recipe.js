@@ -11,6 +11,19 @@ document.addEventListener("DOMContentLoaded", function() {
     }
 });
 
+document.addEventListener('DOMContentLoaded', function() {
+    const homeButton = document.getElementById('homeButton');
+    if (homeButton) {
+        homeButton.addEventListener('click', function(event) {
+            event.preventDefault();
+            clearSearchStatus();
+            window.location.href = '/index.html';
+        });
+    } else {
+        console.debug('Home button does not exist in the DOM.');
+    }
+});
+
 function loadRecipe(recipeFile) {
     console.debug("Loading recipe file:", recipeFile);
     fetch(recipeFile)
@@ -36,13 +49,13 @@ function loadRecipe(recipeFile) {
                     
                     if (resultDocument) {
                         const headContent = resultDocument.querySelector('head');
-                        const bodyContent = resultDocument.querySelector('body');
+                        const recipeContent = resultDocument.querySelector('section#recipe');
 
                         if (headContent) {
                             document.head.innerHTML = headContent.innerHTML;
                         }
-                        if (bodyContent) {
-                            document.body.innerHTML = bodyContent.innerHTML;
+                        if (recipeContent) {
+                            document.getElementById('recipe').innerHTML = recipeContent.innerHTML;
                         }                      
                     } else {
                         console.warn("Transformation result is null.");
@@ -69,8 +82,13 @@ function shareRecipe() {
     }
 }
 
-
-
 function printRecipe() {
     window.print();
+}
+
+function clearSearchStatus() {
+    console.log("clearing search status");
+    sessionStorage.removeItem('searchTerm'); // Clear search term
+    sessionStorage.removeItem('searchResults'); // Clear search results
+
 }

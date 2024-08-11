@@ -33,12 +33,26 @@ function restoreSearchState() {
             return recipeList.find(doc => doc.id === result.ref);
         });
 
+        // Show the relevant sections
         $('#searchRecipe').val(savedSearchTerm);
         createMealCards(recipeNameShortList);
         $('section#mealCardsSection').show();
         $('#mealCardsSection .container').show();
+
+        // Navigate to the #mealCardsSection
+        window.location.href = '#mealCardsSection';
     }
 }
+
+function clearSearch() {
+    sessionStorage.removeItem('searchTerm'); // Clear search term
+    sessionStorage.removeItem('searchResults'); // Clear search results
+    document.getElementById('searchRecipe').value = '';
+    $('section#mealCardsSection').show();
+    $('section#random').hide();
+    $('#mealCardsSection .container').hide();
+}
+
 
 // this is part of preserving search state for the back function
 function updateHistoryState(searchTerm, results) {

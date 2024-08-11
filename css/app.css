@@ -101,7 +101,7 @@ h1.brand{
     border-radius: 50%;
     font-size: 14px;
     display: inline-block; /* Ensure it displays as expected */
-    text-align: center;
+    text-align: left;
 }
 
 /* Ensure popup is positioned correctly */
@@ -112,9 +112,9 @@ h1.brand{
     color: #fff;
     padding: 10px;
     border-radius: 5px;
-    width: 300px;
+    max-width: 400px;
     height: 200px;
-    text-align: center;
+    text-align: left;
     z-index: 1000; /* Ensure it's above other elements */
     white-space: nowrap; /* Prevent line breaks for smaller content */
     transform: translateX(-50%); /* Center horizontally */
