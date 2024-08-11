@@ -1,3 +1,47 @@
+
+// generate a list of all hastags for simple search
+function getSearchTags(recipeList) {
+    let categorySet = new Set();
+    let dietSet = new Set();
+
+    recipeList.forEach(recipe => {
+        // Accumulate unique category tags
+        if (recipe.category) {
+            recipe.category.split(' ').forEach(tag => {
+                categorySet.add(tag.trim());
+            });
+        }
+
+        // Accumulate unique diet tags
+        if (recipe.diet) {
+            recipe.diet.split(' ').forEach(tag => {
+                dietSet.add(tag.trim());
+            });
+        }
+    });
+
+    // Convert sets to arrays and then to HTML string with tags
+    let categoryTags = Array.from(categorySet).map(tag => 
+        `<a href="#mealCardsSection" class="tag navbar-link-category" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+    ).join(' ');
+
+    let dietTags = Array.from(dietSet).map(tag => 
+        `<a href="#mealCardsSection" class="tag navbar-link-category" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+    ).join(' ');
+
+    return categoryTags + ' ' + dietTags;
+}
+
+
+
+function displaySearchTags(tags) {
+    NavBarCategory.innerHTML = tags;
+}
+
+
+
+
+
 // NEED TO UPDATE FOR RECIPE DIET
 // adds itemList schema to the homepage
 function addPageMetaData(data) {

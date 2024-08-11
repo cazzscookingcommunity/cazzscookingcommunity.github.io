@@ -20,16 +20,6 @@ function createMealCards(shortlist) {
             ? recipe.diet.split(' ').map(tag => `<a href="#" class="tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`).join(' ')
             : '';
 
-        // Split category into tags if not empty
-        // if (recipe.category) {
-        //     categoryTags = recipe.category.split(' ').map(tag => `#${tag}`).join(' ');
-        // }
-
-        // Split diet into tags if not empty
-        // if (recipe.diet) {
-        //     dietTags = recipe.diet.split(' ').map(tag => `#${tag}`).join(' ');
-        // }
-
         mealCards += 
         `<div class="cards four columns">
             <div class="card">
@@ -43,12 +33,6 @@ function createMealCards(shortlist) {
             </div>
         </div>`;
     });
-
-//     <div class="cardActions">
-//     <a href="/recipe.html?recipe=${file}">
-//         <button class="button mealCardRecipeBtn">Recipe</button>
-//     </a>
-// </div>
 
     $('section#random').hide();
     $('section#mealCardsSection').show();

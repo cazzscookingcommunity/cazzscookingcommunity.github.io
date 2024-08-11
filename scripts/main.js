@@ -33,40 +33,13 @@ $(document).ready(function(){
                         diet: recipe.diet.toLowerCase(),
                         ingredients: recipe.ingredients.toLowerCase(),
                     });
-
                     // create in-memory list of recipe key elements for meal cards 
                     recipeList.push(recipe);
-
-                    // used for predefined searches
-                    if (recipe.category) {
-                        searchTags.add(recipe.category);
-                    }
-                    if (recipe.diet) {
-                        searchTags.add(recipe.diet);
-                    }
                 });
-
-                
             });
 
-        console.debug("search tags:", searchTags);
-        console.debug("index: ", idx);
-        console.debug("recipeList: ");
-        console.log(JSON.stringify(recipeList, null, 4));
-
-        // Display predefined searchTags for simple search
-        let simpleSearchTerms = [];
-        searchTags.forEach(value => {
-            simpleSearchTerms.push(`
-            <li class="navbar-item">
-            <a onclick="searchRecipes('${value}')"
-            class="navbar-link-category" tabindex="0" href="#mealCardsSection">${value}</a>
-            </li>`);
-        });
-
-        // Insert the category list into the HTML
-        // document.getElementById('categoryList').innerHTML = simpleSearchTerms.join('');
-        // NavBarCategory.innerHTML = simpleSearchTerms.join('');
+        let searchTags = getSearchTags(recipeList); 
+        displaySearchTags(searchTags);
 
         document.getElementById('searchRecipe').value='';
 
@@ -123,65 +96,6 @@ $(document).keypress(function(e) {
     }
 });
 
-
-// NOT REQUIRED ONCE SEARCH BOXES ADDED
-// get recipe Categories for pre-defined search filters 
-function getCategorys($recipe, cssSelector, newlist) {
-    x = $recipe.find(cssSelector);
-    for ( let i = 0; i < x.length; i++ ) {
-        y = x[i].innerHTML.split(" ");  // handle space separated elements like <title>
-        for ( let j = 0; j < y.length; j++ ) {
-            cat = y[j];
-            // cat = y[j].replace(",", "");
-            // cat = cat.replace("(", "");
-            // cat = cat.replace(")", "");
-            // cat = cat.replace("*", "");
-            // cat = cat.replace("!", "");
-            // cat = cat.replace("-", "");
-            if ( ! ( cat == "" ) ) {
-                newlist.add(cat);
-            }
-        }
-    }
-}
-
-
-// NOT REQUIRED ONCE SEARCH BOXES ADDED
-function addToTree(value, title) {
-    if (!(value in searchTree)) {  // add new property
-        searchTree[value] = [title];
-    } else {                       // append recipe to existing property  
-        searchTree[value].push(title);
-    }
-}
-
-// NOT REQUIRED ONCE SEARCH BOXES ADDED
-// get lables for search tree 
-function getSearchValues($recipe, cssSelector) {
-    keywords = $recipe.querySelectorAll(cssSelector);
-    title = $recipe.getElementsByTagName('title')[0].innerHTML;
-    for ( let i = 0; i < keywords.length; i++ ) {
-        x = keywords[i].innerHTML.split(" ");  // handle space separated elements like <title>
-        for ( let j = 0; j < x.length; j++ ) { 
-            addToTree(x[j].toUpperCase(), title);
-        }
-    }
-}
-
-
-
-
-
-// hamburger menu for mobile devices
-// Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu bar icon
-// function mobileMenu() {
-//     var x = document.getElementById("navbar-list");
-//     if (x.style.display === "block") {
-//       x.style.display = "none";
-//     } else {
-//       x.style.display = "block";
-//     }
-// } 
 
 // hamburger menu for category list
 function mobileCategoryMenu() {
