@@ -87,11 +87,8 @@ h1.brand{
 }
 
 .info-popup {
-    display: none; /* Ensure it is hidden by default */
+    display: none; /* Hidden by default */
     position: absolute;
-    bottom: 125%;
-    left: 50%;
-    transform: translateX(-50%);
     background-color: #555;
     color: #fff;
     padding: 10px;
@@ -101,6 +98,7 @@ h1.brand{
     z-index: 1;
 }
 
+/* Arrow pointing downwards */
 .info-popup::after {
     content: "";
     position: absolute;
@@ -112,15 +110,30 @@ h1.brand{
     border-color: #555 transparent transparent transparent;
 }
 
+/* Hover styles for desktop */
 @media (hover: hover) and (pointer: fine) {
-    /* Only apply hover effects on devices that support it */
     .info-container:hover .info-popup {
         display: block;
+        bottom: 125%; /* Position it above the icon */
+        left: 50%;
+        transform: translateX(-50%);
     }
 }
 
-.info-container.active .info-popup {
-    display: block;
+/* Touch-specific styles for mobile */
+@media (hover: none) and (pointer: coarse) {
+    .info-container.active .info-popup {
+        display: block;
+        position: fixed; /* Use fixed positioning for mobile */
+        top: 50%; /* Center vertically */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -50%); /* Offset to center */
+        width: 80%; /* Adjust width for mobile view */
+    }
+
+    .info-popup::after {
+        display: none; /* Hide the arrow on mobile */
+    }
 }
 
 

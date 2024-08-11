@@ -338,12 +338,12 @@ function mobileCategoryMenu() {
 document.querySelectorAll('.info-container').forEach(function(container) {
     let pressTimer;
 
-    // For devices with hover capability (e.g., desktop)
     if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
+        // Desktop: Long press or hover logic as before
         container.addEventListener('mousedown', function() {
             pressTimer = setTimeout(function() {
                 container.classList.add('active');
-            }, 500); // 500ms for long press
+            }, 500);
         });
 
         container.addEventListener('mouseup', function() {
@@ -356,12 +356,14 @@ document.querySelectorAll('.info-container').forEach(function(container) {
             container.classList.remove('active');
         });
     } else {
-        // For touch devices (e.g., mobile)
+        // Mobile: Touch logic
         container.addEventListener('touchstart', function(e) {
             pressTimer = setTimeout(function() {
                 container.classList.add('active');
+
+                // No need for additional positioning since it's centered in CSS
             }, 500);
-            e.preventDefault(); // Prevent default behavior to avoid issues on touch devices
+            e.preventDefault();
         });
 
         container.addEventListener('touchend', function() {
@@ -375,4 +377,6 @@ document.querySelectorAll('.info-container').forEach(function(container) {
         });
     }
 });
+
+
 
