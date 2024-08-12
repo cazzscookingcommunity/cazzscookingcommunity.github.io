@@ -6,26 +6,25 @@
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
   <link rel="stylesheet" href="/css/app.css">
-  <link rel="stylesheet" href="/css/admin.css">
+  <link rel="stylesheet" href="/css/github.css">
 
   <title>GitHub passcode prompt</title>
 
 
-  <script>
+  <!-- <script>
     document.addEventListener('DOMContentLoaded', (event) => {
         document.getElementById('popup').style.display = 'block';
 
         const passcodeInput = document.getElementById('passcode');
         const form = passcodeInput.closest('form');
 
-
         // this prevents autosubmit caused by 1password manager on safari browswer
         form.addEventListener('submit', (event) => {
-            // event.preventDefault();
-            console.log('Form submission prevented');
+            window.opener.console.log('automatic form submission prevented');
+            event.preventDefault();
         });
     });
-</script>
+</script> -->
 
 
 
@@ -35,17 +34,15 @@
 
 <body>
     <div id="popup">
-        <div>Enter Github Token to upload file
-            or cancel to download:</div>
+        <div>Enter Github Token to upload file.</div>
         <br>
-        <form onsubmit="set_passcode()" onreset="close_popup()">
+        <form>
             <label id="passcode-label" for="passcode">Github Personal Access Token</label>
             <input id="passcode" type="password"/>
-            <input class="button" type="submit"/>  
-            <input class="button" type="reset"/>
+
+            <input class="button submit" type="button" onclick="set_passcode()" value="Submit">
+            <input class="button" type="button" onclick="close_popup()" value="Cancel">
         </form>
-        <!-- <button class="button" type="button" onclick="set_passcode()">upload</button>    
-        <button class="button" type="button" onclick="close_popup()">cancel</button>    -->
     </div>
     <div id="commit">
         <div>Committing file to Github.  Please wait.</div>
@@ -55,30 +52,32 @@
 
 <script>
     function set_passcode() {
-        window.opener.console.debug('set passcode called')
+        window.opener.console.debug('popup: set passcode called')
         const passcodeEntered = document.getElementById("passcode").value
-        window.opener.console.debug(`passcode entered: ${passcodeEntered}`);
-        if ( passcodeEntered != null ) {
+        window.opener.console.debug(`popup: passcode entered: ${passcodeEntered}`);
+        if ( passcodeEntered ) {
+            console.debug("passcode entered: ", passcodeEntered);
             var parentwindow = window.opener.document.getElementById("token");
             parentwindow.value = passcodeEntered;
             window.opener.passcode = passcodeEntered;
-            window.opener.console.debug(`parent window passcode: ${parentwindow.value}`);
 
             window.opener.headers = {
                     'Accept': 'application/json',
                     'Content-Type': 'application/json;charset=utf-8',
                     'authorization': `Token ${passcodeEntered}`
                 }
-            // calling function continues after this window closes
+            window.opener.console.debug("popup: passcode entered, popup closing.");
+            window.alert(`upload started.  Click 'Close' and wait for process to complete on the previous screen (about 15sec)`);
             window.close();
+            
         } else {
-            window.alert("please enter token or cancel to download recipe or exit");
+            window.opener.console.log("popup: passcode is empty");
+            window.alert("please enter token or cancel");
         }
     }
 
     function close_popup() { 
-        console.debug("cancel pushed");
-        console.debug(window.location.pathname);
+        window.opener.console.debug("popup: cancel passcode popup");
         window.close();
     }
 </script>

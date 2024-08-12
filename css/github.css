@@ -1,0 +1,36 @@
+/* GitHub page styles */
+.button {
+    padding: 0 15px;
+    background-color: #aed68a;
+}
+
+#passcode-label, #imageupload-label {
+    background-color: #689f38;
+    color:#fff;
+}
+
+input#passcode, input#imageupload {
+    width: 100%;
+}
+
+#popup { 
+    border: solid;
+    border-color: #689f38;
+
+    font-weight:600;
+    border-radius:5px;
+
+
+    width:50%;
+    height:auto;
+    padding:20px;
+    margin: 30px;
+    position:absolute;
+    top:100px;
+    left:100px;
+    display:block;
+}
+
+#commit {
+    display: none;
+}

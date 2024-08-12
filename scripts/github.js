@@ -35,33 +35,29 @@ function upload_recipe(file) {
 
 async function commit_recipe() {
     console.debug("commit_recipe");
-    
-    console.debug(`passcode = ${passcode}`);
-    console.debug(passcode == null);
-    console.debug(passcode == "");
-    console.debug(document.getElementById('token').value);
-    console.debug(headers);
+
     if ( passcode == null ) {
-        download_recipe();
+        // download_recipe();
+        // ignore and do nothing
+        console.debug("ignore empty passcode");
     } else {
         // retrieve updated file and meta data
-        const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));
-        console.debug(recipeupdate);    
+        const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));  
         parser = new DOMParser();
         recipeXML = parser.parseFromString(recipeupdate,"text/xml");
         recipename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
-        console.debug(recipename);
-        console.debug(recipeXML);
         // commit changes to GitHub
-        const sha =  await getSHA(recipedir, recipename);
         try {
-            await postFile(recipeupdate, recipedir+recipename, sha);
+            const sha =  await getSHA(recipedir, recipename);
+            await postFile(recipeupdate, recipedir + recipename, sha);
             console.log("File uploaded successfully");
-            history.back();
-            window.location.asign('/components/admin.html');
+            window.alert(`Recipe updated successfully, but will take 1 min to show on website. you can continue to edit other recipes. Going back to previous screen`);
+            window.location.assign('/index.html');
         } catch (error) {
-            console.error("Error uploading file:", error);
+            console.error("Error occurred:", error.message); // Logs the detailed error message
+            alert(`An error occurred: ${error.message}`); // Displays the error to the user
         }
+        
     }
 };
 
@@ -127,7 +123,6 @@ function get_token(callback) {
     var popup = window.open('/components/popup.html','','toolbar=0,status=0,width=626,height=436');
     popup.addEventListener("unload", function (event) {
         if ( popup.closed ) {
-            console.debug("popup closed");
             callback();
         }
     })
@@ -141,10 +136,11 @@ async function getSHA(path, filename) {
         "method": "GET",
     })
 
-    if ( !response.ok) {
-        const message  = `GitHub error has occured try again or cancel to download.  error: ${response.statusText}`
+    if (!response.ok) {
+        const errorData = await response.json(); // Parse the response as JSON
+        const message = `GitHub error occurred: ${errorData.message}`;
         console.debug(message);
-        throw error(message);
+        throw new Error(message);
     }
 
     const data = await response.json();
@@ -161,25 +157,27 @@ async function getSHA(path, filename) {
 
 // commit change 
 async function postFile(file, path, sha) {
-    console.debug(path+file);
-    console.debug(sha);
-    // const path = `files/${filename}`;
     const body = JSON.stringify({
         "content": btoa(file),
         "message": "Webform recipe update",
         "branch": "master",
         "sha": `${sha}`
-    })
+    });
     let endpoint = `/repos/${owner}/${repo}/contents/${path}`;
-    console.debug(github+endpoint);
-    console.debug(headers);
-    console.debug(body);
-    const response = await fetch(github+endpoint, {
+
+    const response = await fetch(github + endpoint, {
         "headers": headers,
         "method": "PUT",
         "body": body
-    })
+    });
+
+    if (!response.ok) {  // Check if the response status is not in the range 200-299
+        throw new Error(`Failed to upload file: ${response.statusText}`);
+    }
+
+    return response;
 }
+
 
 
 // RECIPE FILE FORMATTING
