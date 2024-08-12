@@ -57,8 +57,8 @@ jobs:
           python-version: '3.x'
           architecture: x64
       - run: pip install xmlschema
-      - run: pip intall lxml
-      - run: pip intall json
+      - run: pip install lxml
+      - run: pip install json
       - run: python scripts/python_scripts/build-index-workflow.py
       - if: ${{ success() }}
         run: |
