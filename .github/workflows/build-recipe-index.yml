@@ -58,7 +58,6 @@ jobs:
           architecture: x64
       - run: pip install xmlschema
       - run: pip install lxml
-      - run: pip install json
       - run: python scripts/python_scripts/build-index-workflow.py
       - if: ${{ success() }}
         run: |
