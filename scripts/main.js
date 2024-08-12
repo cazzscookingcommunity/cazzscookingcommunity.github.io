@@ -67,30 +67,22 @@ $(document).ready(function(){
 });
 
 // this is part of preserving search state for the back function
-window.addEventListener('popstate', function(event) {
-    if (event.state && event.state.searchTerm && event.state.searchResults) {
-        const recipeNameShortList = event.state.searchResults.map(result => {
-            return data.find(doc => doc.id === result.ref);
-        });
-
-        $('#searchRecipe').val(event.state.searchTerm);
-        createMealCards(recipeNameShortList);
-    }
+document.querySelectorAll('.clearButton').forEach(button => {
+    button.addEventListener('click', function(event) {
+        event.preventDefault(); // Prevents the default action, if necessary
+        clearSearch(); // Calls the clearSearch function
+        window.location.href = '/index.html'; // Redirects to the home page
+        console.debug('Event listener added to a clearButton successfully.');
+    });
 });
 
 
 // Attach the clear search function to the clear button
-document.addEventListener('DOMContentLoaded', function() {
-    const homeButton = document.getElementById('homeButton');
-    if (homeButton) {
-        homeButton.addEventListener('click', function(event) {
-            event.preventDefault();
-            clearSearch();
-            window.location.href = '/index.html';
-        });
-    } else {
-        console.debug('Home button does not exist in the DOM.');
-    }
+clearButton.addEventListener('click', function(event) {
+    event.preventDefault();
+    clearSearch();
+    window.location.href = '/index.html';
+    console.debug('event listender added to Homebutton successfully.');
 });
 
 

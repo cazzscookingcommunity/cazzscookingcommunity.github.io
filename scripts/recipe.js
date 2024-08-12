@@ -18,10 +18,12 @@ document.addEventListener('DOMContentLoaded', function() {
             event.preventDefault();
             clearSearchStatus();
             window.location.href = '/index.html';
+            console.debug('event listender added to Homebutton successfully.');
         });
     } else {
         console.debug('Home button does not exist in the DOM.');
     }
+    console.debug('add event listener completed');
 });
 
 function loadRecipe(recipeFile) {
