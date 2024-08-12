@@ -1,30 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Anzac Cookies</title>
-  <filename>anzac_cookies.xml</filename>
-  <thumbnail>anzacs.jpeg</thumbnail>
-  <category/>
-  <ingredient>1 1/4 cups rolled oats </ingredient>
-  <ingredient>1 1/4 cups plain flour </ingredient>
-  <ingredient>1 1/4 cups desiccated coconut</ingredient>
-  <ingredient>1 cup sugar</ingredient>
-  <ingredient>175 gms butter</ingredient>
-  <ingredient>2 TBsp golden syrup</ingredient>
-  <ingredient>1 1/4 teaspoon bicarb soda</ingredient>
-  <ingredient>2 TBsp boiling water</ingredient>
-  <step>Heat oven to 160C and grease a few flat trays.</step>
-  <step>In a large bowl place the flour, oats, coconut and sugar and set aside.</step>
-  <step>In a small pan melt the butter slowly and add golden syrup.</step>
-  <step>Stir to combine and remove from heat.</step>
-  <step>In a small cup place boiling water and add bicarbonate soda (this will bubble.</step>
-  <step>) Add the boiling water mix to the butter and stir.</step>
-  <step>Pour into bowl with dry ingredients, then stir to combine.</step>
-  <step>Roll into balls and place with about 5cm around each ball to allow expanding.</step>
-  <step>Cook in oven for 10-15 mins in batches.</step>
-  <step>Remove from oven when golden brown.</step>
-  <step>Use a spatula to move to cooling tray to cool completely.</step>
-  <step>Store in an airtight container once completely cool.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Anzac Cookies</title>
+<filename>anzac_cookies.xml</filename>
+<thumbnail>anzacs.jpeg</thumbnail>
+<category>Snack</category>
+<prepTime>PT15M</prepTime>
+<cookTime>PT15M</cookTime>
+<ingredient>1 1/4 cups rolled oats </ingredient>
+<ingredient>1 1/4 cups plain flour </ingredient>
+<ingredient>1 1/4 cups desiccated coconut</ingredient>
+<ingredient>1 cup sugar</ingredient>
+<ingredient>175 gms butter</ingredient>
+<ingredient>2 TBsp golden syrup</ingredient>
+<ingredient>1 1/4 teaspoon bicarb soda</ingredient>
+<ingredient>2 TBsp boiling water</ingredient>
+<step>Heat oven to 160C and grease a few flat trays.</step>
+<step>In a large bowl place the flour, oats, coconut and sugar and set aside.</step>
+<step>In a small pan melt the butter slowly and add golden syrup.</step>
+<step>Stir to combine and remove from heat.</step>
+<step>In a small cup place boiling water and add bicarbonate soda (this will bubble).</step>
+<step>Add the boiling water mix to the butter and stir.</step>
+<step>Pour into bowl with dry ingredients, then stir to combine.</step>
+<step>Roll into balls and place with about 5cm around each ball to allow expanding.</step>
+<step>Cook in oven for 10-15 mins in batches.</step>
+<step>Remove from oven when golden brown.</step>
+<step>Use a spatula to move to cooling tray to cool completely.</step>
+<step>Store in an airtight container once completely cool.</step>
 </recipe>
+
