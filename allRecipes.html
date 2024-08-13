@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>All of Cazz's Favoutie Recipes</title>
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/allRecipes.html" />
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <main role="main" id="main">
+
+    <!-- scroll to top and back -->
+    <div class="goTop">
+      <a href="#mealCardsSection" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+    </div> 
+    <div class="goBack">
+      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+    </div>
+
+    <!-- HEADER SECTION -->
+    <header>
+      <div class="container">
+        <div class="twelve columns">
+          <a id="homeButton" class="brand clearButton" tabindex="0" href="/index.html" title="All Recipes | Cazzs Cooking Community">
+            <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
+    <section id="mealCardsSection" style="display:none;">
+      <br/>
+      <div class="container" style="display:none;">
+          <div class="row">
+              <div class="four columns">
+                <h4 class="heading">The Recipes You Wanted</h4>
+                <br/>
+              </div>
+              <div class="row">
+                <div class="eight columns">
+                  <div class="row">
+                    <div class="eight columns" style="text-align:center;font-size:20px">
+                      <p>You searched for: <span id="userInput"></span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row mealCards d-flex"><div class="loader"></div></div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+      <br/>
+      <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+          
+      <div>
+        Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+      </div>
+
+      <div>
+        <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
+      </div>
+    </footer>
+
+  </main>
+</body>
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="scripts/recipeCards.js"></script>
+<script src="scripts/allRecipes.js"></script>
+
+</html>
+
+
