@@ -51,6 +51,12 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
         <lastmod>{}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://cazzscookingcommunity.github.io/allRecipes.html</loc>
+        <lastmod>{}</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.8</priority>
     </url>'''
 
 
@@ -186,9 +192,10 @@ def parse_recipe(filename):
         
 def main(): 
     searchIndexData = []
+    date = get_file_modified_date(index)
 
     initOutput(searchIndex, "")
-    initOutput(sitemap, sitemap_header.format(get_file_modified_date(index)))
+    initOutput(sitemap, sitemap_header.format(date, date))
 
                         
     directory = os.fsencode(recipedir)
