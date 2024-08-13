@@ -1,6 +1,7 @@
 # ignore ALL files in ANY directory named ...
 .vscode/
 .venv/
+node_modules/
 
 # backup directories
 recipes copy/ 
@@ -13,3 +14,4 @@ xml/backup_xsd2html2xml_customisations/
 recipes-missing-images.txt
 images-missing-recipes.txt
 .DS_Store
+package*.json

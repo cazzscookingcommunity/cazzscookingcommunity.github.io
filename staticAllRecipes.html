@@ -1,0 +1,2451 @@
+<!DOCTYPE html><html lang="en"><head>
+  <meta charset="utf-8">
+  <title>All of Cazz's Favoutie Recipes</title>
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/allRecipes.html">
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/skeleton.css">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+
+<body>
+  <main role="main" id="main">
+
+    <!-- scroll to top and back -->
+    <div class="goTop">
+      <a href="#mealCardsSection" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top"></a>
+    </div> 
+    <div class="goBack">
+      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png">
+    </div>
+
+    <!-- HEADER SECTION -->
+    <header>
+      <div class="container">
+        <div class="twelve columns">
+          <a id="homeButton" class="brand clearButton" tabindex="0" href="/index.html" title="All Recipes | Cazzs Cooking Community">
+            <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
+          </a>
+        </div>
+      </div>
+    </header>
+
+    <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
+    <section id="mealCardsSection" style="">
+      <br>
+      <div class="container" style="">
+          <div class="row">
+              <div class="four columns">
+                <h4 class="heading">The Recipes You Wanted</h4>
+                <br>
+              </div>
+              <div class="row">
+                <div class="eight columns">
+                  <div class="row">
+                    <div class="eight columns" style="text-align:center;font-size:20px">
+                      <p>You searched for: <span id="userInput"></span></p>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+          </div>
+          <div class="row mealCards d-flex"><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gluten_free_orange_cake.xml">
+                    <img src="/images/gluten_free_orange_cake.jpeg" alt="Gluten Free Orange Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gluten Free Orange Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gails_potato_salad.xml">
+                    <img src="/images/gails_potatoe_salad.jpeg" alt="Gails Potato Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gails Potato Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('EggFree')">#EggFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=calzone.xml">
+                    <img src="/images/calzone.jpeg" alt="Calzone thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Calzone</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('LowSugar')">#LowSugar</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=home_made_carmen_bars.xml">
+                    <img src="/images/homemade_carmen_bars.jpeg" alt="Home made Carmen Bars thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Home made Carmen Bars</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Snack')">#Snack</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=three_ingredient_cookies.xml">
+                    <img src="/images/three_ingredient_cookies.jpeg" alt="Three Ingredient Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Three Ingredient Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Snack')">#Snack</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('DiaryFree')">#DiaryFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=popcorn.xml">
+                    <img src="/images/popcorn.jpeg" alt="Popcorn  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Popcorn </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=feel_good_shake.xml">
+                    <img src="/images/feel_good_shake.jpeg" alt="Feel Good Shake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Feel Good Shake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=glutenfree_creamy_pasta.xml">
+                    <img src="/images/gluten_free_creamy_paste.jpeg" alt="GlutenFree Creamy Pasta thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">GlutenFree Creamy Pasta</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mars_bar_slice.xml">
+                    <img src="/images/mars_bar_slice.jpeg" alt="Mars Bar Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mars Bar Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chocolate_ripple_cake.xml">
+                    <img src="/images/chocolate_ripple_cake.jpeg" alt="Chocolate Ripple Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chocolate Ripple Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chicken_noodle_soup.xml">
+                    <img src="/images/chicken_noodle_soup.jpeg" alt="Chicken Noodle Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chicken Noodle Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=spanakopita.xml">
+                    <img src="/images/spanakopita.jpeg" alt="Spanakopita  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Spanakopita </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=anzac_cookies.xml">
+                    <img src="/images/anzacs.jpeg" alt="Anzac Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Anzac Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Snack')">#Snack</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=pea_and_ham_soup.xml">
+                    <img src="/images/pea_and_ham_soup.jpeg" alt="Pea and Ham Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Pea and Ham Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=seasame_squares.xml">
+                    <img src="/images/seasame_squares.jpeg" alt="Sesame Squares  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Sesame Squares </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=big_boy_burgers.xml">
+                    <img src="/images/big_boy_burgers.jpeg" alt="Big Boy Burgers thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Big Boy Burgers</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=buckwheat_pancakes.xml">
+                    <img src="/images/buckwheat_pancakes.jpeg" alt="Buckwheat Pancakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Buckwheat Pancakes</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=wheatbix_slice.xml">
+                    <img src="/images/wheatbix_slice.jpeg" alt="WheatBix slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">WheatBix slice</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=russian_tea_cakes.xml">
+                    <img src="/images/russian_tea_cakes.jpeg" alt="Russian Tea Cakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Russian Tea Cakes</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=tuna_rice_bake.xml">
+                    <img src="/images/tuna_bake.jpeg" alt="Tuna Rice Bake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Tuna Rice Bake</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=healthy_christmas_cake.xml">
+                    <img src="/images/healthy_christmas_cake.jpeg" alt="Healthy Christmas Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Healthy Christmas Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=spicy_lentil_dip.xml">
+                    <img src="/images/spicy_lentil_dip.jpeg" alt="Spicy Lentil Dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Spicy Lentil Dip</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=vegetable_lentil_curry.xml">
+                    <img src="/images/vegetable-lentil_curry.jpeg" alt="Vegetable Lentil Curry thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Vegetable Lentil Curry</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=smoked_salmon_cucumber.xml">
+                    <img src="/images/smoked_salmon_and_cucumber.jpeg" alt="smoked salmon cucumber thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">smoked salmon cucumber</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Fish')">#Fish</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=sarah_os_brownies.xml">
+                    <img src="/images/sarah_os_brownies.jpeg" alt="Sarah Os Brownies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Sarah Os Brownies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=emmas_slow_roast_beef.xml">
+                    <img src="/images/emmas_slow_roast_beef.jpeg" alt="Emmas Slow Roast Beef thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Emmas Slow Roast Beef</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_mini_cheese_cakes.xml">
+                    <img src="/images/easy_mini_cheese_cakes.jpeg" alt="Easy Mini Cheese Cakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Mini Cheese Cakes</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=hippocrates_soup.xml">
+                    <img src="/images/hippocrates_soup.jpeg" alt="Hippocrates Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Hippocrates Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=six_layer_dip.xml">
+                    <img src="/images/six_layer_dip.jpeg" alt="Six layer dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Six layer dip</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=irish_mashed_spud.xml">
+                    <img src="/images/irish_mash_spud.jpeg" alt="Irish Mashed Spud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Irish Mashed Spud</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=spanish_rice.xml">
+                    <img src="/images/spanish_rice.jpeg" alt="Spanish Rice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Spanish Rice</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=sues_brown_rice_salad.xml">
+                    <img src="/images/sues_brown_rice_salad.jpeg" alt="Sues Brown Rice Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Sues Brown Rice Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=healthy_sausage_rolls.xml">
+                    <img src="/images/healthy_sausage_rolls.jpeg" alt="Healthy Sausage Rolls thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Healthy Sausage Rolls</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=warm_french_lentils.xml">
+                    <img src="/images/warm_french_lentils.jpeg" alt="Warm French Lentils  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Warm French Lentils </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=muesli_cookies.xml">
+                    <img src="/images/muesli_cookies.jpeg" alt="Muesli Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Muesli Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=curry_noodles.xml">
+                    <img src="/images/curry_noodles.jpeg" alt="Curry Noodles thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Curry Noodles</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=turkey_burgers.xml">
+                    <img src="/images/turkey_burgers.jpeg" alt="Turkey Burgers thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Turkey Burgers</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('EggFree')">#EggFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('DiaryFree')">#DiaryFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=paleo_chocolate_chip_cookies.xml">
+                    <img src="/images/paleo_choc_chip_cookies.jpeg" alt="Paleo Chocolate Chip Cookies  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Paleo Chocolate Chip Cookies </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=fasolada.xml">
+                    <img src="/images/fasolada.jpeg" alt="Fasolada  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Fasolada </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=roasted_veg_and_buckwheat_salad.xml">
+                    <img src="/images/roasted_veg_salad.jpeg" alt="Roasted Veg and Buckwheat Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Roasted Veg and Buckwheat Salad</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=dark_chocolate_fudge.xml">
+                    <img src="/images/dark_chocolate_fudge.jpeg" alt="Dark Chocolate Fudge thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Dark Chocolate Fudge</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gluten_free_brownie.xml">
+                    <img src="/images/gluten_free_brownies.jpeg" alt="Gluten Free Brownie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gluten Free Brownie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lazy_risotto.xml">
+                    <img src="/images/lazy_risotto.jpeg" alt="Lazy Risotto thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lazy Risotto</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=orange_cake.xml">
+                    <img src="/images/orange_cake.jpeg" alt="Orange Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Orange Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=middle_eastern_lentil_salad.xml">
+                    <img src="/images/middle_eastern_lentil_salad.jpeg" alt="Middle Eastern Lentil Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Middle Eastern Lentil Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cazzies_veggie_soup.xml">
+                    <img src="/images/cazzies_veggie_soup.jpeg" alt="Cazzies Veggie Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cazzies Veggie Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_veggie_soup.xml">
+                    <img src="/images/grandmas_veggie_soup.jpeg" alt="Grandmas Veggie Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Veggie Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=traditional_shortbread.xml">
+                    <img src="/images/traditional_shortbread.jpeg" alt="Traditional Shortbread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Traditional Shortbread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mini_oat_bars.xml">
+                    <img src="/images/mini_oat_bars.jpeg" alt="Mini Oat Bars thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mini Oat Bars</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_rice_custard_.xml">
+                    <img src="/images/grandmas_rice_custard.jpeg" alt="Grandmas Rice Custard  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Rice Custard </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gerrys_banana_pecan_cake.xml">
+                    <img src="/images/gerrys_banana_bread.jpeg" alt="Gerrys Banana and Pecan Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gerrys Banana and Pecan Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lamb_cutlets.xml">
+                    <img src="/images/lamb_cutlet.jpeg" alt="Lamb Cutlets thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lamb Cutlets</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Lamb')">#Lamb</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=awesome_roast_spuds.xml">
+                    <img src="/images/awesome_roast_spuds.jpeg" alt="Awesome Roast Spuds thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Awesome Roast Spuds</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=no_cook_vegan_choccoconut_slice.xml">
+                    <img src="/images/no_cook_vegan_choc_coconut_slice.jpeg" alt="No Cook Vegan ChocCoconut Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">No Cook Vegan ChocCoconut Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=moroccan_beetroot_salad.xml">
+                    <img src="/images/moroccan_beetroot_salad.jpeg" alt="Moroccan Beetroot Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Moroccan Beetroot Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=teresas_chilli.xml">
+                    <img src="/images/teresas_chilli.jpeg" alt="Teresas Chilli thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Teresas Chilli</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chow_mein2.xml">
+                    <img src="/images/chow_mein.jpeg" alt="Chow Mein thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chow Mein</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cazzies_smoothy.xml">
+                    <img src="/images/cazzie_smoothy.jpeg" alt="Cazzies Smoothy thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cazzies Smoothy</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chow_mein.xml">
+                    <img src="/images/chow_mein.jpeg" alt="CHOW MEIN thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">CHOW MEIN</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Pork')">#Pork</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chicken_soup_with_rice.xml">
+                    <img src="/images/chicken_soup_with_rice.jpeg" alt="Chicken Soup with Rice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chicken Soup with Rice</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=jasmine_special.xml">
+                    <img src="/images/jasmine_special.jpeg" alt="Jasmine Special thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Jasmine Special</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=patricias_pannecotta.xml">
+                    <img src="/images/patricas_pannecotta.jpeg" alt="Patricias Pannecotta thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Patricias Pannecotta</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=aunty_jackies_pancakes.xml">
+                    <img src="/images/aunty_jackies_pancakes.jpeg" alt="Aunty Jackies Pancakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Aunty Jackies Pancakes</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=basic_ice_tea.xml">
+                    <img src="/images/basic_ice_tea.jpeg" alt="Basic Ice Tea thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Basic Ice Tea</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=simple_dahl.xml">
+                    <img src="/images/simple_dahl.jpeg" alt="Simple Dahl  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Simple Dahl </div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=oatmeal_banana_bread.xml">
+                    <img src="/images/oatmeal_banana_bread.jpeg" alt="Oatmeal Banana Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Oatmeal Banana Bread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=home_made_dishwasher_powder.xml">
+                    <img src="/images/homemade_dish_washer_powder.jpeg" alt="Home made dishwasher powder  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Home made dishwasher powder </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Household')">#Household</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=rocky_road.xml">
+                    <img src="/images/rocky_road.jpeg" alt="Rocky Road thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Rocky Road</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cauliflower_crust_spinach_pie.xml">
+                    <img src="/images/cauliflour_crust_spinach_pie.jpeg" alt="Cauliflower-Crust Spinach Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cauliflower-Crust Spinach Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gluten_free_cheese_muffins.xml">
+                    <img src="/images/gluten_free_cheese_muffins.jpeg" alt="Gluten Free Cheese Muffins thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gluten Free Cheese Muffins</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=adrianas_chicken_chorizo.xml">
+                    <img src="/images/adrianas_chicken.jpeg" alt="Adrianas Chicken and Chorizo thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Adrianas Chicken and Chorizo</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Pork')">#Pork</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_chicken_dinner.xml">
+                    <img src="/images/easy_chicken_dinner.jpeg" alt="Easy chicken dinner thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy chicken dinner</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=oat_slice.xml">
+                    <img src="/images/oat _slice.jpeg" alt="Oat Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Oat Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=asian_salad.xml">
+                    <img src="/images/asian_salad.jpeg" alt="Asian Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Asian Salad</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_pud.xml">
+                    <img src="/images/easy_pud.jpeg" alt="Easy Pud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Pud</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=ridiculously_good_olive_oil_dip.xml">
+                    <img src="/images/ridiculously_good_olive_oil_dip.jpeg" alt="Ridiculously Good Olive Oil Dip! thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Ridiculously Good Olive Oil Dip!</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=herb_rub.xml">
+                    <img src="/images/herb_rub.jpeg" alt="Herb Rub thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Herb Rub</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chickpeas.xml">
+                    <img src="/images/chickpeas.jpeg" alt="chickpeas thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">chickpeas</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_hiking_breakfast.xml">
+                    <img src="/images/easy_hiking_breakfast.jpeg" alt="Easy Hiking Breakfast  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Hiking Breakfast </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=no_knead_bread.xml">
+                    <img src="/images/no_knead_bread.jpeg" alt="No Knead Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">No Knead Bread</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cottage_pie.xml">
+                    <img src="/images/cottage_pie.jpeg" alt="Cottage Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cottage Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lamb')">#Lamb</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=greek_chicken_lemon_rice.xml">
+                    <img src="/images/greek_chicken_with_rice.jpeg" alt="Greek chicken and lemon rice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Greek chicken and lemon rice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=hummus.xml">
+                    <img src="/images/hummus.jpeg" alt="Hummus  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Hummus </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mini_pear_puddings_.xml">
+                    <img src="/images/mini_pear_pudding.jpeg" alt="Mini Pear Puddings  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mini Pear Puddings </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=carlys_dads_veggie_lasagna.xml">
+                    <img src="/images/carlys_dad_veggie_lasagna.jpeg" alt="Carlys Dads Veggie Lasagna thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Carlys Dads Veggie Lasagna</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=awesome_cappuccino_mix.xml">
+                    <img src="/images/awesome_cappuccino_mix.jpeg" alt="Awesome Cappuccino Mix thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Awesome Cappuccino Mix</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=moroccan_fries.xml">
+                    <img src="/images/moroccan_fries.jpeg" alt="Moroccan Fries thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Moroccan Fries</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=coconut_roughs.xml">
+                    <img src="/images/coconut_roughs.jpeg" alt="Coconut Roughs thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Coconut Roughs</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=tzatziki.xml">
+                    <img src="/images/tzatziki.jpeg" alt="Tzatziki  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Tzatziki </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_pasties.xml">
+                    <img src="/images/grandmas_pasties.jpeg" alt="Grandmas Pasties thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Pasties</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=individual_lemon_tarts.xml">
+                    <img src="/images/individual_lemon_tarts.jpeg" alt="Individual lemon tarts thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Individual lemon tarts</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=vegan_snickers_slice.xml">
+                    <img src="/images/vegan_snickers_slice.jpeg" alt="Vegan Snickers Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Vegan Snickers Slice</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=nasi_goreng.xml">
+                    <img src="/images/nasi_goreng.jpeg" alt="Nasi Goreng thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Nasi Goreng</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=rum_balls.xml">
+                    <img src="/images/rum_balls.jpeg" alt="Rum Balls thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Rum Balls</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=pesto.xml">
+                    <img src="/images/pesto.jpeg" alt="Pesto thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Pesto</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=fall_greens.xml">
+                    <img src="/images/fall_greens.jpeg" alt="Fall Greens thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Fall Greens</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=awesome_roasted_beetroot_dip.xml">
+                    <img src="/images/beetroot_dip.jpeg" alt="Awesome Roasted Beetroot Dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Awesome Roasted Beetroot Dip</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mac_and_cheese.xml">
+                    <img src="/images/mac_and_cheese.jpeg" alt="Mac and Cheese thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mac and Cheese</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=summer_quiche.xml">
+                    <img src="/images/summer_quiche.jpeg" alt="Summer Quiche thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Summer Quiche</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Keto')">#Keto</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=life_changing_bread.xml">
+                    <img src="/images/life_changing_bread.jpeg" alt="Life Changing Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Life Changing Bread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=moroccan_lentils.xml">
+                    <img src="/images/moroccan_lentils.jpeg" alt="Moroccan Lentils thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Moroccan Lentils</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_bread_and_butter_pud.xml">
+                    <img src="/images/grandmas_bread_and_butter_pud.jpeg" alt="Grandmas Bread and Butter Pud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Bread and Butter Pud</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mince_tarts.xml">
+                    <img src="/images/mince_tarts.jpeg" alt="Mince Tarts thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mince Tarts</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gratin.xml">
+                    <img src="/images/gratin.jpeg" alt="Gratin thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gratin</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=banana_bread.xml">
+                    <img src="/images/large_banana_bread.jpeg" alt="Banana Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Banana Bread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quick_pasta_bake.xml">
+                    <img src="/images/quick_pasta_bake.jpeg" alt="Quick Pasta Bake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quick Pasta Bake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=fennel_soup.xml">
+                    <img src="/images/fennel_soup.jpeg" alt="Fennel Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Fennel Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cauliflower_soup.xml">
+                    <img src="/images/cauliflower_soup.jpeg" alt="Cauliflower Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cauliflower Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=keto_toastie.xml">
+                    <img src="/images/keto_toastie.jpeg" alt="KETO toastie  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">KETO toastie </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Keto')">#Keto</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_punch.xml">
+                    <img src="/images/punch.jpeg" alt="Grandmas Punch thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Punch</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=kathys_hedgehog.xml">
+                    <img src="/images/kathy_hedgehog.jpeg" alt="Kathys Hedgehog thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Kathys Hedgehog</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=keto_lava_chocolate_mug_cake.xml">
+                    <img src="/images/keto_lava_chocolate_mug_cake.jpeg" alt="Keto Lava Chocolate Mug Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Keto Lava Chocolate Mug Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Keto')">#Keto</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lasagna.xml">
+                    <img src="/images/lasagna.jpeg" alt="Lasagna thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lasagna</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=white_sauce.xml">
+                    <img src="/images/white_sauce.jpeg" alt="White Sauce thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">White Sauce</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=simple_greek_seasoning.xml">
+                    <img src="/images/greek_seasoning.jpeg" alt="Simple Greek Seasoning  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Simple Greek Seasoning </div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=homemade_toothpaste_and_deodorant.xml">
+                    <img src="/images/homemade_toothpaste_deoderant.jpeg" alt="Homemade Toothpaste and Deodorant thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Homemade Toothpaste and Deodorant</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Household')">#Household</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=steak_and_blackbean_sauce.xml">
+                    <img src="/images/steak_in_blackbean_sauce.jpeg" alt="Steak and Blackbean Sauce thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Steak and Blackbean Sauce</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chocolate_chip_cookies.xml">
+                    <img src="/images/chocolate_chip_cookies.jpeg" alt="Chocolate Chip Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chocolate Chip Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=guacamole.xml">
+                    <img src="/images/guacomole.jpeg" alt="Guacamole thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Guacamole</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cup_cakes.xml">
+                    <img src="/images/cup_cakes.jpeg" alt="Cup Cakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cup Cakes</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=garlic_chilli_chard.xml">
+                    <img src="/images/garlic_chilli_chard.jpeg" alt="Garlic Chilli Chard thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Garlic Chilli Chard</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=larb.xml">
+                    <img src="/images/larb.jpeg" alt="Larb thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Larb</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=coq_au_vin.xml">
+                    <img src="/images/coq_an_vin.jpeg" alt="Coq au vin thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Coq au vin</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=glutenfree_brownies.xml">
+                    <img src="/images/gluten_free_brownies.jpeg" alt="GlutenFree Brownies  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">GlutenFree Brownies </div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=sams_chocolate_chip_cookies.xml">
+                    <img src="/images/sams_choc_chip_cookies.jpeg" alt="Sams Chocolate Chip Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Sams Chocolate Chip Cookies</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=sophias_mums_lentil_soup.xml">
+                    <img src="/images/sophias_mums_lentil_soup.jpeg" alt="Sophias Mums Lentil Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Sophias Mums Lentil Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=filo_pie.xml">
+                    <img src="/images/filo_pie.jpeg" alt="Filo Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Filo Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=upside_down_banana_cake.xml">
+                    <img src="/images/upside_down_banana_cake.jpeg" alt="Upside Down Banana Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Upside Down Banana Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_lunch_bowl.xml">
+                    <img src="/images/easy_lunch_bowl.jpeg" alt="Easy Lunch Bowl thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Lunch Bowl</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chocolate_pud.xml">
+                    <img src="/images/chocolate_pudding.jpeg" alt="Chocolate Pud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chocolate Pud</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cherry_tomato_bake.xml">
+                    <img src="/images/cherry_tomato_bake.jpeg" alt="Cherry Tomato Bake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cherry Tomato Bake</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quick_easy_butter_chicken.xml">
+                    <img src="/images/quick_and_easy_butter_chicken.jpeg" alt="Quick and Easy Butter Chicken  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quick and Easy Butter Chicken </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=paleo_pumpkin_pie.xml">
+                    <img src="/images/paleo_pumpkin_pie.jpeg" alt="Paleo Pumpkin Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Paleo Pumpkin Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=rosemary_spuds.xml">
+                    <img src="/images/rosemary_roast_spuds.jpeg" alt="Rosemary Spuds thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Rosemary Spuds</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lunch_slice.xml">
+                    <img src="/images/lunch_slice.jpeg" alt="Lunch slice  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lunch slice </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=beans_sausages.xml">
+                    <img src="/images/beans_sausages.jpeg" alt="Beans and Sausages thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Beans and Sausages</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Pork')">#Pork</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=potatoe_and_leek_soup.xml">
+                    <img src="/images/potatoe_and_leek_loup.jpeg" alt="Potatoe and Leek Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Potatoe and Leek Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=hummingbird_cake.xml">
+                    <img src="/images/hummingbird_cake.jpeg" alt="Hummingbird Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Hummingbird Cake</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=baked_christmas_ham.xml">
+                    <img src="/images/baked_christmas_ham.jpeg" alt="Baked Christmas Ham thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Baked Christmas Ham</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chowder.xml">
+                    <img src="/images/chowder.jpeg" alt="CHOWDER thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">CHOWDER</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=healthy_oat_and_honey_bread.xml">
+                    <img src="/images/healthy_oat_and_honey_bread.jpeg" alt="Healthy Oat and Honey Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Healthy Oat and Honey Bread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=pad_thai_noodles.xml">
+                    <img src="/images/pad_thai_noodles.jpeg" alt="Pad Thai Noodles thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Pad Thai Noodles</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=spinach_artichoke_quinoa_casserole.xml">
+                    <img src="/images/spinach_artichoke_quinoa_casserole.jpeg" alt="Spinach Artichoke Quinoa Casserole thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Spinach Artichoke Quinoa Casserole</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=montys_pancakes.xml">
+                    <img src="/images/montys_pancakes.jpeg" alt="Montys Pancakes thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Montys Pancakes</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=reginas_rum_cake.xml">
+                    <img src="/images/reginas_rum_cake.jpeg" alt="Reginas Rum Cake  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Reginas Rum Cake </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=boston_tea.xml">
+                    <img src="/images/boston_tea.jpeg" alt="Boston Tea thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Boston Tea</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=spiced_cake.xml">
+                    <img src="/images/spiced_cake.jpeg" alt="Spiced Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Spiced Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=black_bean_burgers.xml">
+                    <img src="/images/blackbean_burgers.jpeg" alt="Black bean Burgers thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Black bean Burgers</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=jasmines_ice_coffee.xml">
+                    <img src="/images/ice_coffee.jpeg" alt="Jasmines Ice Coffee thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Jasmines Ice Coffee</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=black_bean_salad.xml">
+                    <img src="/images/blackbean_salad.jpeg" alt="Black Bean Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Black Bean Salad</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=osso_buco.xml">
+                    <img src="/images/osso_buco.jpeg" alt="Osso Buco thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Osso Buco</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=green_thai_chicken_curry.xml">
+                    <img src="/images/green_thai_chicken_curry.jpeg" alt="Green Thai Chicken Curry thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Green Thai Chicken Curry</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=coconut_rough_slice.xml">
+                    <img src="/images/coconut_rough_slice.jpeg" alt="Coconut Rough Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Coconut Rough Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quick_chicken_pho.xml">
+                    <img src="/images/quick_chicken_pho.jpeg" alt="Quick Chicken Pho thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quick Chicken Pho</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=ashmas_mash_spud.xml">
+                    <img src="/images/ashmas_mash_spud.jpeg" alt="Ashmas Mash Spud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Ashmas Mash Spud</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=home_made_crackers.xml">
+                    <img src="/images/homemade_crackers.jpeg" alt="Home made crackers thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Home made crackers</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=homemade_fajita_mix.xml">
+                    <img src="/images/home_made_fajita_mix.jpeg" alt="Homemade Fajita Mix thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Homemade Fajita Mix</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=curtis_stones_rice_noodles.xml">
+                    <img src="/images/curtis_stones_rice_noodles.jpeg" alt="Curtis Stones Rice Noodles thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Curtis Stones Rice Noodles</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=oven_risotto_with_sweet_spud.xml">
+                    <img src="/images/oven_risotto_with_sweet_spud.jpeg" alt="Oven Risotto with Sweet Spud thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Oven Risotto with Sweet Spud</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=callums_chilli.xml">
+                    <img src="/images/callums_chilli.jpeg" alt="Callums Chilli thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Callums Chilli</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_pumkin_soup.xml">
+                    <img src="/images/grandmas_pumpkin_soup.jpeg" alt="Grandmas Pumkin Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Pumkin Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=vegetable_bake.xml">
+                    <img src="/images/vegetable_bake.jpeg" alt="Vegetable Bake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Vegetable Bake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=home_made_hoisin_sauce.xml">
+                    <img src="/images/home_made_hoisin_sauce.jpeg" alt="Home Made Hoisin Sauce thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Home Made Hoisin Sauce</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=okonomiyaki.xml">
+                    <img src="/images/okonomiyaki.jpeg" alt="Okonomiyaki thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Okonomiyaki</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=frittata.xml">
+                    <img src="/images/frittata.jpeg" alt="Frittata thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Frittata</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=raspberry_blondies.xml">
+                    <img src="/images/raspberries_blondies.jpeg" alt="Raspberry Blondies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Raspberry Blondies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=roasted_carrot_dip.xml">
+                    <img src="/images/roasted_carrot_dip.jpeg" alt="Roasted Carrot Dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Roasted Carrot Dip</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=harira.xml">
+                    <img src="/images/harira.jpeg" alt="Harira thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Harira</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lentil_salad.xml">
+                    <img src="/images/lentil_salad.jpeg" alt="Lentil Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lentil Salad</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=salmon_fajitas.xml">
+                    <img src="/images/salmon_fajitas.jpeg" alt="Salmon Fajitas  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Salmon Fajitas </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Fish')">#Fish</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=martys_tiramisu.xml">
+                    <img src="/images/martys_tiramisu.jpeg" alt="Martys Tiramisu thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Martys Tiramisu</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=baked_puttanesca_risotto.xml">
+                    <img src="/images/baked_puttanesca_risotto.jpeg" alt="Baked Puttanesca Risotto  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Baked Puttanesca Risotto </div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quick_kale_soup.xml">
+                    <img src="/images/quick_kale_soup.jpeg" alt="Quick Kale Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quick Kale Soup</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mexican_black_beans_and_rice.xml">
+                    <img src="/images/mexican_blackbeans_and_rice.jpeg" alt="Mexican Black Beans and Rice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mexican Black Beans and Rice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=black_bean_noodles.xml">
+                    <img src="/images/blackbean_noodles.jpeg" alt="Black bean noodles  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Black bean noodles </div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=hash_brown_slice.xml">
+                    <img src="/images/hash_brown_slice.jpeg" alt="Hash brown Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Hash brown Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_curry_sausages.xml">
+                    <img src="/images/grandmas_curry_sausages.jpeg" alt="My Mums Curry Sausages thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">My Mums Curry Sausages</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Pork')">#Pork</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=vegan_chocolate_cake.xml">
+                    <img src="/images/vegan_chocolate_cake.jpeg" alt="Vegan Chocolate Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Vegan Chocolate Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=julians_bubcias_schnitzel.xml">
+                    <img src="/images/julians_bucia_schnitz.jpeg" alt="Julians Bubcias Schnitzel thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Julians Bubcias Schnitzel</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=artichoke_dip.xml">
+                    <img src="/images/artichoke_dip.jpeg" alt="Artichoke Dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Artichoke Dip</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=dutch_oven_enchiladas.xml">
+                    <img src="/images/dutch_oven_enchiladas.jpeg" alt="Dutch Oven Enchiladas thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Dutch Oven Enchiladas</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gluten_free_shortbread.xml">
+                    <img src="/images/glutenfree_shortbread.jpeg" alt="Gluten Free Shortbread  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gluten Free Shortbread </div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=pizza_dough.xml">
+                    <img src="/images/pizza_dough.jpeg" alt="Pizza Dough thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Pizza Dough</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=one_pot_pasta.xml">
+                    <img src="/images/one_pot_pasta.jpeg" alt="One Pot Pasta thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">One Pot Pasta</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grandmas_steak_and_black_beans.xml">
+                    <img src="/images/grandmas_steak_and_blackbean.jpeg" alt="Grandmas Steak and Black Beans thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grandmas Steak and Black Beans</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=jassy_tasty_wraps.xml">
+                    <img src="/images/jassys_tasty_wraps.jpeg" alt="Jassy Tasty Wraps thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Jassy Tasty Wraps</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=tuna_pasta.xml">
+                    <img src="/images/tuna_pasta.jpeg" alt="Tuna Pasta thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Tuna Pasta</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Fish')">#Fish</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=egg_slice.xml">
+                    <img src="/images/egg_slice.jpeg" alt="Egg Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Egg Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quick_banana_dessert.xml">
+                    <img src="/images/quick_banana_dessert.jpeg" alt="Quick Banana Dessert thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quick Banana Dessert</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mac_and_cheese_slice.xml">
+                    <img src="/images/mac_and_cheese_slice.jpeg" alt="Mac and Cheese Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mac and Cheese Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=egg_and_bacon_pie.xml">
+                    <img src="/images/egg_and_bacon_pie.jpeg" alt="Egg and Bacon Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Egg and Bacon Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=rice_bubble_slice.xml">
+                    <img src="/images/rice_bubble_slice.jpeg" alt="Rice Bubble Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Rice Bubble Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=corner_store_curry.xml">
+                    <img src="/images/jamie_oliver_corner_store_curry.jpeg" alt="Corner Store Curry thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Corner Store Curry</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=breakfast_rolls.xml">
+                    <img src="/images/breakfast_rolls.jpeg" alt="Breakfast Rolls thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Breakfast Rolls</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_scones.xml">
+                    <img src="/images/easiest_scones_in_the_world.jpeg" alt="Easy Scones thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Scones</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=alecias_cinnamon_rolls.xml">
+                    <img src="/images/alecias_cinnamon_rolls.jpeg" alt="Alecias Cinnamon Rolls thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Alecias Cinnamon Rolls</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cauliflower_and_broccoli_bake.xml">
+                    <img src="/images/cauliflower_broccoli_bake.jpeg" alt="Cauliflower and Broccoli Bake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cauliflower and Broccoli Bake</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=acquacotta.xml">
+                    <img src="/images/acquacotta.jpeg" alt="Acquacotta thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Acquacotta</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=apple_pie.xml">
+                    <img src="/images/grandmas_applepie.jpeg" alt="Apple Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Apple Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=macaroons.xml">
+                    <img src="/images/macaroons.jpeg" alt="Macaroons thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Macaroons</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=cookie_in_a_cup.xml">
+                    <img src="/images/cookie _in_a_cup.jpeg" alt="Cookie in a Cup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Cookie in a Cup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=turmeric_latte.xml">
+                    <img src="/images/turmeric_latte.jpeg" alt="Turmeric Latte thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Turmeric Latte</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=natural_homemade_face_scrub.xml">
+                    <img src="/images/natural_homemade_face_scrub.jpeg" alt="Natural Homemade Face Scrub thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Natural Homemade Face Scrub</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Household')">#Household</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=peanut_butter_slice.xml">
+                    <img src="/images/peanut_butter_slice.jpeg" alt="Peanut Butter Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Peanut Butter Slice</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mon_chloes_stir_fried_noodles.xml">
+                    <img src="/images/chloes_fried_noodles.jpeg" alt="Mon and Chloes Stir Fried Noodles thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mon and Chloes Stir Fried Noodles</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mujadara.xml">
+                    <img src="/images/mujadara.jpeg" alt="Mujadara thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mujadara</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=american_bbq_spareribs.xml">
+                    <img src="/images/spare_ribs.jpeg" alt="American BBQ SpareRibs thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">American BBQ SpareRibs</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Pork')">#Pork</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=callums_saute_pumpkin_with_peanuts.xml">
+                    <img src="/images/callums_pumpkin_dish.jpeg" alt="Callums Saute Pumpkin with Peanuts thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Callums Saute Pumpkin with Peanuts</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=no_bake_oreo_cheese_cake.xml">
+                    <img src="/images/no_bake_oreo_cheese_cake.jpeg" alt="No Bake Oreo Cheese Cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">No Bake Oreo Cheese Cake</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=nutella_slice.xml">
+                    <img src="/images/nutella_slice.jpeg" alt="Nutella Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Nutella Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=green_bean_salad.xml">
+                    <img src="/images/green_bean_salad.jpeg" alt="Green Bean Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Green Bean Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=taco_mix.xml">
+                    <img src="/images/taco_bake.jpeg" alt="Taco Mix thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Taco Mix</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=home_made_english_muffins.xml">
+                    <img src="/images/home_made_english_muffins.jpeg" alt="Home Made English Muffins thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Home Made English Muffins</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Breakfast')">#Breakfast</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=chriss_filipino_egg_pie.xml">
+                    <img src="/images/chriss_filipino_egg_pie.jpeg" alt="Chriss Filipino Egg Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Chriss Filipino Egg Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=gluten_free_chocolate_cookies.xml">
+                    <img src="/images/gluten_free_chocolate_cookies.jpeg" alt="Gluten Free Chocolate Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Gluten Free Chocolate Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=carrot_dip.xml">
+                    <img src="/images/carrot_dip.jpeg" alt="Carrot Dip thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Carrot Dip</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=curry_rice_with_salmon.xml">
+                    <img src="/images/curry_rice_with_salmon.jpeg" alt="Curry Rice with Salmon thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Curry Rice with Salmon</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Fish')">#Fish</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=zucchini_and_sweet_spud_fritters.xml">
+                    <img src="/images/zucchinin_and_sweet_spud_fritters.jpeg" alt="Zucchini and Sweet Spud Fritters thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Zucchini and Sweet Spud Fritters</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=rocket_pine_nut_salad.xml">
+                    <img src="/images/rocket_and_pine_nut_salad.jpeg" alt="Rocket and Pine nut Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Rocket and Pine nut Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=grain_and_nut_free_sandwich_bread.xml">
+                    <img src="/images/grain_and_nut_free_sandwich_bread.jpeg" alt="Grain and Nut Free Sandwich Bread thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Grain and Nut Free Sandwich Bread</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sides')">#Sides</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Paleo')">#Paleo</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lemon_slice.xml">
+                    <img src="/images/lemon_slice.jpeg" alt="Lemon Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lemon Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mint_slice.xml">
+                    <img src="/images/mint_slice.jpeg" alt="Mint Slice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mint Slice</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=upside_down_cake.xml">
+                    <img src="/images/upside_down_cake.jpeg" alt="Upside-down cake thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Upside-down cake</div>
+                    <div class="cardTags"> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=easy_stir_fry.xml">
+                    <img src="/images/easy_stir_fry.jpeg" alt="Easy Stir Fry thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Easy Stir Fry</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Poultry')">#Poultry</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=simple_friedrice.xml">
+                    <img src="/images/simple_friedrice.jpeg" alt="Simple Friedrice thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Simple Friedrice</div>
+                    <div class="cardTags"> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=quinoa_filled_eggplant.xml">
+                    <img src="/images/quinoa_filled_eggplant.jpeg" alt="Quinoa filled eggplant thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Quinoa filled eggplant</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Lunch')">#Lunch</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Dinner')">#Dinner</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegan')">#Vegan</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=lemon_shortbread.xml">
+                    <img src="/images/lemon_shrotbread.jpeg" alt="Lemon Shortbread  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Lemon Shortbread </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('LowCarb')">#LowCarb</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mexican_chilli_pie.xml">
+                    <img src="/images/mexican_chilli_pie.jpeg" alt="Mexican Chilli Pie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mexican Chilli Pie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Beef')">#Beef</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=mango_slushie.xml">
+                    <img src="/images/mango_slushie.jpeg" alt="Mango Slushie thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Mango Slushie</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Drink')">#Drink</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=coleslaw_dressing.xml">
+                    <img src="/images/coleslaw_dressing.jpeg" alt="Coleslaw Dressing  thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Coleslaw Dressing </div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=smart_cookies.xml">
+                    <img src="/images/smart_cookies.jpeg" alt="Smart Cookies thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Smart Cookies</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Sweets')">#Sweets</a> </div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=curry_carrot_soup.xml">
+                    <img src="/images/curry_carrot_soup.jpeg" alt="Curry Carrot Soup thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Curry Carrot Soup</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Soup')">#Soup</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a></div>
+                </div>
+            </div>
+        </div><div class="cards four columns">
+            <div class="card">
+                <a href="/recipe.html?recipe=greek_salad.xml">
+                    <img src="/images/greek_salad.jpeg" alt="Greek Salad thumbnail" class="u-max-full-width mealCardRecipeBtn">
+                </a>
+                <div class="card-body recipe-action" display="none">
+                    <div class="cardTitle">Greek Salad</div>
+                    <div class="cardTags"><a href="#mealCardsSection" class="tag" onclick="searchByTag('Salad')">#Salad</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('FODMAP')">#FODMAP</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('GlutenFree')">#GlutenFree</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Vegetarian')">#Vegetarian</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('Keto')">#Keto</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('LowCarb')">#LowCarb</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('LowSugar')">#LowSugar</a> <a href="#mealCardsSection" class="tag" onclick="searchByTag('EggFree')">#EggFree</a></div>
+                </div>
+            </div>
+        </div></div>
+      </div>
+    </section>
+
+    <footer>
+      <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+      <br>
+      <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg">
+          
+      <div>
+        Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+      </div>
+
+      <div>
+        <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
+      </div>
+    </footer>
+
+  </main>
+<!-- Code injected by live-server -->
+<script>
+	// <![CDATA[  <-- For SVG support
+	if ('WebSocket' in window) {
+		(function () {
+			function refreshCSS() {
+				var sheets = [].slice.call(document.getElementsByTagName("link"));
+				var head = document.getElementsByTagName("head")[0];
+				for (var i = 0; i < sheets.length; ++i) {
+					var elem = sheets[i];
+					var parent = elem.parentElement || head;
+					parent.removeChild(elem);
+					var rel = elem.rel;
+					if (elem.href && typeof rel != "string" || rel.length == 0 || rel.toLowerCase() == "stylesheet") {
+						var url = elem.href.replace(/(&|\?)_cacheOverride=\d+/, '');
+						elem.href = url + (url.indexOf('?') >= 0 ? '&' : '?') + '_cacheOverride=' + (new Date().valueOf());
+					}
+					parent.appendChild(elem);
+				}
+			}
+			var protocol = window.location.protocol === 'http:' ? 'ws://' : 'wss://';
+			var address = protocol + window.location.host + window.location.pathname + '/ws';
+			var socket = new WebSocket(address);
+			socket.onmessage = function (msg) {
+				if (msg.data == 'reload') window.location.reload();
+				else if (msg.data == 'refreshcss') refreshCSS();
+			};
+			if (sessionStorage && !sessionStorage.getItem('IsThisFirstTime_Log_From_LiveServer')) {
+				console.log('Live reload enabled.');
+				sessionStorage.setItem('IsThisFirstTime_Log_From_LiveServer', true);
+			}
+		})();
+	}
+	else {
+		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
+	}
+	// ]]>
+</script>
+
+
+
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="scripts/recipeCards.js"></script>
+<script src="scripts/allRecipes.js"></script>
+
+
+
+
+</body></html>

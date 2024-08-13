@@ -4,60 +4,60 @@ const imgpath = "/images/"
 const SearchIndexFile = "/components/search_index.json";
 let idx;
 
-fetch('/components/search_index.json')
-  .then(response => response.json())
-  .then(data => {
-    const recipeContainer = document.getElementById('mealCardsSection');
-    data.forEach(recipe => {
-      const recipeCard = document.createElement('div');
-      recipeCard.innerHTML = `
-        <a href="/recipe.html?recipe=${recipe.filename}">
-          ${recipe.title}
-        </a>
-      `;
-      recipeContainer.appendChild(recipeCard);
-    });
-    recipeContainer.style.display = 'block';
-  });
+// fetch('/components/search_index.json')
+//   .then(response => response.json())
+//   .then(data => {
+//     const recipeContainer = document.getElementById('mealCardsSection');
+//     data.forEach(recipe => {
+//       const recipeCard = document.createElement('div');
+//       recipeCard.innerHTML = `
+//         <a href="/recipe.html?recipe=${recipe.filename}">
+//           ${recipe.title}
+//         </a>
+//       `;
+//       recipeContainer.appendChild(recipeCard);
+//     });
+//     recipeContainer.style.display = 'block';
+//   });
 
 
-// $(document).ready(function(){
-//     // Load the search index from the JSON file
-//     fetch(SearchIndexFile)
-//         .then(response => response.json())
-//         .then(data => {
-//             // Initialize the Lunr.js index
-//             idx = lunr(function () {
-//                 this.ref('id');
-//                 this.field('title');
-//                 this.field('category');
-//                 this.field('diet');
-//                 this.field('ingredients');
+$(document).ready(function(){
+    // Load the search index from the JSON file
+    fetch(SearchIndexFile)
+        .then(response => response.json())
+        .then(data => {
+            // Initialize the Lunr.js index
+            idx = lunr(function () {
+                this.ref('id');
+                this.field('title');
+                this.field('category');
+                this.field('diet');
+                this.field('ingredients');
 
-//                 // Add documents to the index
-//                 data.forEach(recipe => {
-//                     // add lowercase recipes to index
-//                     this.add({
-//                         id: recipe.id,
-//                         title: recipe.title.toLowerCase(),
-//                         category: recipe.category.toLowerCase(),
-//                         diet: recipe.diet.toLowerCase(),
-//                         ingredients: recipe.ingredients.toLowerCase(),
-//                     });
-//                     // create in-memory list of recipe key elements for meal cards 
-//                     recipeList.push(recipe);
-//                 });
-//             });
+                // Add documents to the index
+                data.forEach(recipe => {
+                    // add lowercase recipes to index
+                    this.add({
+                        id: recipe.id,
+                        title: recipe.title.toLowerCase(),
+                        category: recipe.category.toLowerCase(),
+                        diet: recipe.diet.toLowerCase(),
+                        ingredients: recipe.ingredients.toLowerCase(),
+                    });
+                    // create in-memory list of recipe key elements for meal cards 
+                    recipeList.push(recipe);
+                });
+            });
 
-//         sessionStorage.removeItem('searchTerm'); // Clear search term
-//         sessionStorage.removeItem('searchResults'); // Clear search results
-//         searchRecipes(''); // Call searchRecipes when the page loads
+        sessionStorage.removeItem('searchTerm'); // Clear search term
+        sessionStorage.removeItem('searchResults'); // Clear search results
+        searchRecipes(''); // Call searchRecipes when the page loads
 
-//         // document.getElementById('searchRecipe').value='';
+        // document.getElementById('searchRecipe').value='';
 
-//         })
-//         .catch(error => console.error('Error fetching JSON index:', error));
-// });
+        })
+        .catch(error => console.error('Error fetching JSON index:', error));
+});
 
 
 // Ensure the DOM is fully loaded before adding event listeners
