@@ -13,4 +13,4 @@ Disallow: /*.xsd$
 Disallow: /*.xslt$
 Disallow: /xml/
 Disallow: /scripts/python_scripts/
-Disallow: /components/
+
