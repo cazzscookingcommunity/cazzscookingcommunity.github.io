@@ -1,34 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Mon and Chloes Stir Fried Noodles</title>
-  <filename>mon_chloes_stir_fried_noodles.xml</filename>
-  <comment/>
-  <thumbnail>chloes_fried_noodles.jpeg</thumbnail>
-  <image/>
-  <category/>
-  <yield/>
-  <prepTime>PT0M</prepTime>
-  <cookTime>PT0M</cookTime>
-  <ingredient>Flat rice noodles </ingredient>
-  <ingredient>Stir Fries Veggies</ingredient>
-  <ingredient>Bean shoots</ingredient>
-  <ingredient>Coriander 1/4 cup chopped</ingredient>
-  <ingredient>4 onions chopped </ingredient>
-  <ingredient>2 cloves crushed</ingredient>
-  <ingredient>Oil</ingredient>
-  <ingredient>Sauce</ingredient>
-  <ingredient>1/4 cup soy sauce</ingredient>
-  <ingredient>1 TBsp each sweet chilli, fish, oyster sauce</ingredient>
-  <ingredient>1/2 lime juiced</ingredient>
-  <step>Make sauce and set aside.</step>
-  <step>Cook noodles per packet direction, then set aside.</step>
-  <step>Heat wok and heat a small amount of oil.</step>
-  <step>Cook the garlic for 3 minutes.</step>
-  <step>Place veggies in pan and stir fry until veggies cooked.</step>
-  <step>Place noodles in the pan with the sauce.</step>
-  <step>Stir together until blended and heated through.</step>
-  <step>Serve with bean shoots, spring onion and coriander sprinkled on top.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Mon and Chloes Stir Fried Noodles</title>
+<filename>mon_chloes_stir_fried_noodles.xml</filename>
+<thumbnail>chloes_fried_noodles.jpeg</thumbnail>
+<category>Dinner</category>
+<prepTime>PT0M</prepTime>
+<cookTime>PT0M</cookTime>
+<ingredient>Flat rice noodles </ingredient>
+<ingredient>Stir Fries Veggies</ingredient>
+<ingredient>Bean shoots</ingredient>
+<ingredient>Coriander 1/4 cup chopped</ingredient>
+<ingredient>4 onions chopped </ingredient>
+<ingredient>2 cloves crushed</ingredient>
+<ingredient>Oil</ingredient>
+<ingredient>Sauce</ingredient>
+<ingredient>1/4 cup soy sauce</ingredient>
+<ingredient>1 TBsp each sweet chilli, fish, oyster sauce</ingredient>
+<ingredient>1/2 lime juiced</ingredient>
+<step>Make sauce and set aside.</step>
+<step>Cook noodles per packet direction, then set aside.</step>
+<step>Heat wok and heat a small amount of oil.</step>
+<step>Cook the garlic for 3 minutes.</step>
+<step>Place veggies in pan and stir fry until veggies cooked.</step>
+<step>Place noodles in the pan with the sauce.</step>
+<step>Stir together until blended and heated through.</step>
+<step>Serve with bean shoots, spring onion and coriander sprinkled on top.</step>
 </recipe>
+
