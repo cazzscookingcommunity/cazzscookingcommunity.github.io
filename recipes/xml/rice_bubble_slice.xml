@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Rice Bubble Slice</title>
+  <filename>rice_bubble_slice.xml</filename>
+  <htmlFilename>rice_bubble_slice.html</htmlFilename>
+  <comment>c/o mykidslickthebowl with cazzie tweaks</comment>
+  <thumbnail>rice_bubble_slice.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>30gms butter</ingredient>
+  <ingredient>3 TBsp honey</ingredient>
+  <ingredient>1/2 cup Mayvers peanut butter</ingredient>
+  <ingredient>3 cups rice bubbles (gluten free if desired or regular)</ingredient>
+  <step>Grease a small loaf/slice tray and line with baking paper, then set aside.</step>
+  <step>In a saucepan melt the butter, then add the honey and stir until combined.</step>
+  <step>Remove from heat and stir in peanut butter.</step>
+  <step>Pour in rice bubbles and stir until all the rice bubbles are coated.</step>
+  <step>Pour into prepared tray and push down with the back of a spoon.</step>
+  <step>(You can sprinkle top with sprinkles if desired at this stage) place in fridge for 3 hours.</step>
+  <step>Once set cut into small squares.</step>
+  <step>Once slice is set, before cutting you can pour over melted 200gm block of chocolate.</step>
+  <step>Replace in fridge until top is set then cut into squares.</step>
+</recipe>

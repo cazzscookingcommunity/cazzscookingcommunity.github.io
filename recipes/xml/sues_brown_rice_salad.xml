@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Sues Brown Rice Salad</title>
+  <filename>sues_brown_rice_salad.xml</filename>
+  <htmlFilename>sues_brown_rice_salad.html</htmlFilename>
+  <thumbnail>sues_brown_rice_salad.jpeg</thumbnail>
+  <category>Sides</category>
+  <part>
+    <title>Dressing</title>
+    <ingredient>1/4 cup olive oil</ingredient>
+    <ingredient>3 TBsp soy sauce</ingredient>
+    <ingredient>1 lemon juiced</ingredient>
+    <ingredient>Pepper to taste</ingredient>
+    <step>Mix dressing in a small jar and shake.</step>
+    <step>Pour over rice then add all other ingredients and stir to combine.</step>
+    <step>This can be served hot or cold as a side or main.</step>
+  </part>
+  <part>
+    <title>Rice</title>
+    <ingredient>2-3 cups brown rice cooked</ingredient>
+    <ingredient>1/2 cup sultanas (or substitute)</ingredient>
+    <ingredient>1/2 cup cashew (or substitute) slightly pan fried</ingredient>
+    <ingredient>1 chilli deseeded and finely chopped</ingredient>
+    <ingredient>2-3 spring onions chopped</ingredient>
+    <ingredient>1 red pepper chopped</ingredient>
+    <ingredient>1 can corn drained</ingredient>
+    <ingredient>1/2 cup seeds</ingredient>
+    <step>cook as normal.</step>
+  </part>
+</recipe>

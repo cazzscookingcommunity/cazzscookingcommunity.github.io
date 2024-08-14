@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Dutch Oven Enchiladas</title>
+        <link rel="canonical" href="/recipes/html/dutch_oven_enchiladas.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Dutch Oven Enchiladas",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "dutch_oven_enchiladas.jpeg",
+                "description": "Dutch Oven Enchiladas",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Poultry",
+                "recipeIngredient":   ["6-8 chicken thigh filets chopped", "2 TBsp olive oil ", "1/2 teasp chilli", "2 garlic cloves crushed", "1 can refried beans", "2 cans corn drained ", "2 cans black bean rinsed and drained", "2 jars enchilada sauce ", "8 tortillas ", "300 gms grated tasty cheese", "1 large Dutch oven"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Heat the olive oil in a fry pan and cook garlic for a few minutes."}, {"@type": "HowToStep", "text": "Then cook chicken sprinkled with chilli, in batches until all cooked."}, {"@type": "HowToStep", "text": "Place all the chicken back in the fry pan and pour in enchilada sauce."}, {"@type": "HowToStep", "text": "Reheat and cook for 6 minutes or until the sauce reduces a little."}, {"@type": "HowToStep", "text": "Remove from heat."}, {"@type": "HowToStep", "text": "Pour half of the sauce in the bottom of the Dutch oven."}, {"@type": "HowToStep", "text": "Place a layer of tortillas on top, tearing the tortillas if necessary to cover it all."}, {"@type": "HowToStep", "text": "Next spread over refried beans over the top then add another layer of tortillas."}, {"@type": "HowToStep", "text": "Then sprinkle over black beans, corn and cheese."}, {"@type": "HowToStep", "text": "Cover this with another layer of tortillas."}, {"@type": "HowToStep", "text": "Repeat layers until all ingredients are used, but end with enchilada sauce and cheese sprinkled on top."}, {"@type": "HowToStep", "text": "Place lid on Dutch Oven and cook for 45-60 minutes."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Dutch Oven Enchiladas</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Poultry</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/dutch_oven_enchiladas.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/dutch_oven_enchiladas.jpeg" alt="Dutch Oven Enchiladas" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>6-8 chicken thigh filets chopped</li><li>2 TBsp olive oil </li><li>1/2 teasp chilli</li><li>2 garlic cloves crushed</li><li>1 can refried beans</li><li>2 cans corn drained </li><li>2 cans black bean rinsed and drained</li><li>2 jars enchilada sauce </li><li>8 tortillas </li><li>300 gms grated tasty cheese</li><li>1 large Dutch oven</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Heat the olive oil in a fry pan and cook garlic for a few minutes.</li><li>Then cook chicken sprinkled with chilli, in batches until all cooked.</li><li>Place all the chicken back in the fry pan and pour in enchilada sauce.</li><li>Reheat and cook for 6 minutes or until the sauce reduces a little.</li><li>Remove from heat.</li><li>Pour half of the sauce in the bottom of the Dutch oven.</li><li>Place a layer of tortillas on top, tearing the tortillas if necessary to cover it all.</li><li>Next spread over refried beans over the top then add another layer of tortillas.</li><li>Then sprinkle over black beans, corn and cheese.</li><li>Cover this with another layer of tortillas.</li><li>Repeat layers until all ingredients are used, but end with enchilada sauce and cheese sprinkled on top.</li><li>Place lid on Dutch Oven and cook for 45-60 minutes.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

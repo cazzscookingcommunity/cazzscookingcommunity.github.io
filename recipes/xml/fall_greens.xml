@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Fall Greens</title>
+  <filename>fall_greens.xml</filename>
+  <htmlFilename>fall_greens.html</htmlFilename>
+  <thumbnail>fall_greens.jpeg</thumbnail>
+  <category>Salad</category>
+  <part>
+    <title>Main</title>
+    <ingredient>250 gms baby spinach stems removed </ingredient>
+    <ingredient>1/2 cup cranberries </ingredient>
+    <ingredient>1/2 cup walnuts </ingredient>
+    <ingredient>4 TBsp crumbled blue cheese or feta ( whatever is available in your fridge)</ingredient>
+    <step>Sprinkle spinach leaves on a platter, then cranberries and walnuts.</step>
+    <step>Gently crushing the walnuts in your hands as you sprinkle.</step>
+    <step>Drizzle over dressing and then top with crumbled cheese on top.</step>
+    <step>Serve immediate.</step>
+    <step>This recipe can be doubled.</step>
+  </part>
+  <part>
+    <title>Dressing</title>
+    <ingredient>3 TBsp extra virgin olive oil</ingredient>
+    <ingredient>1 TBsp champagne or white wine vinegar</ingredient>
+    <ingredient>1 teaspoon seeded mustard</ingredient>
+    <ingredient>1-4 teasp salt and pepper</ingredient>
+    <step>Put all dressing ingredients in a small jar with a lid.</step>
+    <step>Give it a good shake and set aside.</step>
+  </part>
+</recipe>

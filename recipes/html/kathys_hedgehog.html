@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Kathys Hedgehog</title>
+        <link rel="canonical" href="/recipes/html/kathys_hedgehog.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Kathys Hedgehog",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "kathy_hedgehog.jpeg",
+                "description": "Kathys Hedgehog",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "GlutenFree, Vegan, FODMAP",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["1 packet Marie biscuits crushed or *replace with plain gluten free biscuits", "150gms Nutalex", "1/2 cup brown sugar", "2 Tbsp cocoa", "1 quantity egg replacer or 1 egg beaten", "1 teaspoon vanilla", "1/2 cup coconut", "1 1/2 cup pure icing sugar sifted", "2 Tbsp cocoa sifted", "1 Tbsp Nutalex melted", "4-6 Tbsp boiling water", "Extra coconut"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside."}, {"@type": "HowToStep", "text": "Melt Nutalex in small pan and add sugar, stir until sugar dissolves."}, {"@type": "HowToStep", "text": "Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using."}, {"@type": "HowToStep", "text": ") Add combined biscuits and coconut and stir until combine."}, {"@type": "HowToStep", "text": "Place in prepared dish and smooth top as much as possible."}, {"@type": "HowToStep", "text": "Cover with glad wrap and place in fridge."}, {"@type": "HowToStep", "text": "Combine cocoa and icing sugar, add Nutalex stir well."}, {"@type": "HowToStep", "text": "Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top."}, {"@type": "HowToStep", "text": "Smooth top with back of a spoon or knife."}, {"@type": "HowToStep", "text": "Sprinkle with extra coconut if desired, while moist."}, {"@type": "HowToStep", "text": "Recover with glad wrap."}, {"@type": "HowToStep", "text": "Place in fridge for 4-6  hours then remove from dish and cut into slices."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Kathys Hedgehog</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/kathys_hedgehog.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/kathy_hedgehog.jpeg" alt="Kathys Hedgehog" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Main:</strong><ul><li>1 packet Marie biscuits crushed or *replace with plain gluten free biscuits</li><li>150gms Nutalex</li><li>1/2 cup brown sugar</li><li>2 Tbsp cocoa</li><li>1 quantity egg replacer or 1 egg beaten</li><li>1 teaspoon vanilla</li><li>1/2 cup coconut</li></ul><strong>Icing:</strong><ul><li>1 1/2 cup pure icing sugar sifted</li><li>2 Tbsp cocoa sifted</li><li>1 Tbsp Nutalex melted</li><li>4-6 Tbsp boiling water</li><li>Extra coconut</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Main:</strong><ol class='recipe-steps'><li>Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside.</li><li>Melt Nutalex in small pan and add sugar, stir until sugar dissolves.</li><li>Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using.</li><li>) Add combined biscuits and coconut and stir until combine.</li><li>Place in prepared dish and smooth top as much as possible.</li><li>Cover with glad wrap and place in fridge.</li></ol><strong>Icing:</strong><ol class='recipe-steps'><li>Combine cocoa and icing sugar, add Nutalex stir well.</li><li>Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top.</li><li>Smooth top with back of a spoon or knife.</li><li>Sprinkle with extra coconut if desired, while moist.</li><li>Recover with glad wrap.</li><li>Place in fridge for 4-6  hours then remove from dish and cut into slices.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

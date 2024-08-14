@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Gluten Free Shortbread </title>
+  <filename>gluten_free_shortbread.xml</filename>
+  <htmlFilename>gluten_free_shortbread.html</htmlFilename>
+  <comment>c/o White Mill with cazzie tweaks </comment>
+  <thumbnail>glutenfree_shortbread.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <diet>GlutenFree</diet>
+  <ingredient>300 gms Gluten Free flour (Aldi brand)</ingredient>
+  <ingredient>1 egg</ingredient>
+  <ingredient>1 1/2 scant teaspoon gluten free baking powder </ingredient>
+  <ingredient>1 cup sugar (I use coconut sugar but feel free to use regular caster sugar)</ingredient>
+  <ingredient>200 gms butter </ingredient>
+  <ingredient>1 teaspoon vanilla essence </ingredient>
+  <step>Prepare three baking sheets by covering them with baking paper.</step>
+  <step>In a bowl whisk together all dry ingredients.</step>
+  <step>Cut butter up into small cubes and rub into the dry ingredients until it resembles crumbs and there are no clumps of butter.</step>
+  <step>Crack egg into mixture and pour in vanilla essence.</step>
+  <step>Stir until all combined.</step>
+  <step>Roll into a bowl and cover with wrap and place in fridge for 30 minutes.</step>
+  <step>While dough in fridge preheat oven to 160 C.</step>
+  <step>Once dough firm roll out better two pieces of baking paper, until it is 5mm thick.</step>
+  <step>Cut with cookie cutter or a small glass and carefully place on the trays.</step>
+  <step>You can use a spatula or a knife to transfer cookies to the trays.</step>
+  <step>Evenly distributed the cookies and place in oven for 10-12 minutes or until golden colour.</step>
+  <step>Cool on wire wrack until completely cool and store in airtight container.</step>
+</recipe>

@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Pea and Ham Soup</title>
+  <filename>pea_and_ham_soup.xml</filename>
+  <htmlFilename>pea_and_ham_soup.html</htmlFilename>
+  <thumbnail>pea_and_ham_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>FODMAP</diet>
+  <ingredient>Packet green split peas</ingredient>
+  <ingredient>2 large carrots chopped</ingredient>
+  <ingredient>1 teaspoon mixed spice</ingredient>
+  <ingredient>1 teaspoon pepper</ingredient>
+  <ingredient>1-2 bay leaves</ingredient>
+  <ingredient>1-2 garlic cloves crushed</ingredient>
+  <ingredient>1 whole ham hock (Bertocchi)</ingredient>
+  <ingredient>Salt and Pepper to taste</ingredient>
+  <step>Rinse peas under running water and remove any foreign objects.</step>
+  <step>Place in large pot with all other ingredients except Salt and Pepper.</step>
+  <step>Pour in enough water to cover everything plus up to your thumb joint more.</step>
+  <step>Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs.</step>
+  <step>) Remove hock from soup and remove skin and discard.</step>
+  <step>Shred the meat with a small knife or two forks.</step>
+  <step>Place back in soup with the bones, these will help thicken the soup.</step>
+  <step>When the soup is at your desired thickness remove the bones and add Salt and Pepper to taste, check first before adding.</step>
+  <step>Some hocks are more salty than others.</step>
+  <step>Bertocchi ham hocks give the most consistent best flavour.</step>
+  <step>This recipe takes hours and is one for a rainy day spent inside, but well worth it!.</step>
+</recipe>

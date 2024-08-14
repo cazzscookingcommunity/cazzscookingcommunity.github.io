@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Curry Rice with Salmon</title>
+        <link rel="canonical" href="/recipes/html/curry_rice_with_salmon.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Curry Rice with Salmon",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "curry_rice_with_salmon.jpeg",
+                "description": "Curry Rice with Salmon",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "GlutenFree",
+                "recipeYield": "None",
+                "recipeCategory": "Fish",
+                "recipeIngredient":   ["2 cups of basmati rice", "1 can wild Alaskan salmon drained and flaked (remove bones if desired)", "2 TBsp olive oil", "2 TBsp butter", "2-4 garlic cloves crushed", "1 teasp curry powder", "4 cups of water", "3 chicken stock cubes", "1 bunch dill finely chopped", "6 eggs"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat oil in medium size saucepan for a few minutes then add butter."}, {"@type": "HowToStep", "text": "Melt the butter and add garlic cloves, cook for a few minutes, then add curry powder."}, {"@type": "HowToStep", "text": "Stir around to mix with the garlic and smells aromatic."}, {"@type": "HowToStep", "text": "Add the rice and stir continuously until all the rice is coated."}, {"@type": "HowToStep", "text": "Pour in the water and stock cubes and give it a good stir."}, {"@type": "HowToStep", "text": "Bring to the boil and reduce to a simmer with the lid off."}, {"@type": "HowToStep", "text": "Continue to cook until water is absorbed and small holes appear in the rice."}, {"@type": "HowToStep", "text": "While you are waiting for the rice, cook the eggs."}, {"@type": "HowToStep", "text": "In a small saucepan bring some water to the boil."}, {"@type": "HowToStep", "text": "Once boiling add eggs and cook for exactly 7 minutes."}, {"@type": "HowToStep", "text": "Remove eggs from the water and rinse under cool running water."}, {"@type": "HowToStep", "text": "When rice is ready turn of the heat and place lid on and leave on stove top for 12-15 minutes."}, {"@type": "HowToStep", "text": "While you are waiting on this, peel your eggs and place in a bowl."}, {"@type": "HowToStep", "text": "Once rice is ready, stir through salmon and dill."}, {"@type": "HowToStep", "text": "Serve in a bowl with one of the boiled eggs cut in half on the top of the rice."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Curry Rice with Salmon</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Fish</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/curry_rice_with_salmon.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/curry_rice_with_salmon.jpeg" alt="Curry Rice with Salmon" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>2 cups of basmati rice</li><li>1 can wild Alaskan salmon drained and flaked (remove bones if desired)</li><li>2 TBsp olive oil</li><li>2 TBsp butter</li><li>2-4 garlic cloves crushed</li><li>1 teasp curry powder</li><li>4 cups of water</li><li>3 chicken stock cubes</li><li>1 bunch dill finely chopped</li><li>6 eggs</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat oil in medium size saucepan for a few minutes then add butter.</li><li>Melt the butter and add garlic cloves, cook for a few minutes, then add curry powder.</li><li>Stir around to mix with the garlic and smells aromatic.</li><li>Add the rice and stir continuously until all the rice is coated.</li><li>Pour in the water and stock cubes and give it a good stir.</li><li>Bring to the boil and reduce to a simmer with the lid off.</li><li>Continue to cook until water is absorbed and small holes appear in the rice.</li><li>While you are waiting for the rice, cook the eggs.</li><li>In a small saucepan bring some water to the boil.</li><li>Once boiling add eggs and cook for exactly 7 minutes.</li><li>Remove eggs from the water and rinse under cool running water.</li><li>When rice is ready turn of the heat and place lid on and leave on stove top for 12-15 minutes.</li><li>While you are waiting on this, peel your eggs and place in a bowl.</li><li>Once rice is ready, stir through salmon and dill.</li><li>Serve in a bowl with one of the boiled eggs cut in half on the top of the rice.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

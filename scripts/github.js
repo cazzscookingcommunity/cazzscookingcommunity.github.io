@@ -3,8 +3,8 @@ const github = `https://api.github.com`
 const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
-const recipedir = 'recipes/';
-const imagedir = 'images/';
+const recipedir = 'recipes/html/';
+const imagedir = 'recipes/images/';
 
 var passcode = null
 var headers = {}

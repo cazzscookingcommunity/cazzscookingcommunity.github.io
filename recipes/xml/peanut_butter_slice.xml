@@ -1,0 +1,34 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Peanut Butter Slice</title>
+  <filename>peanut_butter_slice.xml</filename>
+  <htmlFilename>peanut_butter_slice.html</htmlFilename>
+  <comment/>
+  <thumbnail>peanut_butter_slice.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <diet>GlutenFree</diet>
+  <diet>Vegan</diet>
+  <ingredient>1 can chickpeas rinsed and drain </ingredient>
+  <ingredient>1/2 cup peanut butter</ingredient>
+  <ingredient>1/2 cup maple syrup</ingredient>
+  <ingredient>2 teaspoon vanilla </ingredient>
+  <ingredient>1/4 teaspoon baking powder </ingredient>
+  <ingredient>1/4 teaspoon baking soda</ingredient>
+  <ingredient>3/4 cup dark choc chips (dairy free for vegan)</ingredient>
+  <ingredient>Pinch of salt</ingredient>
+  <step>Grease a small dish and line with grease proof paper.</step>
+  <step>Turn on oven to 160 C.</step>
+  <step>In a blender add all ingredients except choc chips.</step>
+  <step>Blend until combined, then stir in 1/2 cup of choc chips with a spoon.</step>
+  <step>Pour into prepared dish and sprinkle over the remaining choc chips.</step>
+  <step>Place in oven for 40 minutes or until cooked.</step>
+  <step>Cool in pan for 10 minutes then remove to cooling rack.</step>
+  <step>Once cool cut into squares.</step>
+</recipe>

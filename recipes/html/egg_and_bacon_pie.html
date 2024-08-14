@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Egg and Bacon Pie</title>
+        <link rel="canonical" href="/recipes/html/egg_and_bacon_pie.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Egg and Bacon Pie",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "egg_and_bacon_pie.jpeg",
+                "description": "Egg and Bacon Pie",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Dinner",
+                "recipeIngredient":   ["2 sheets puff pastry ", "4 eggs ", "200-300 gms diced bacon cooked well", "salt and pepper (lots)", "1/2 teasp butter or margarine", "1/3 cup milk (for basting)"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Pre heat oven to 180C."}, {"@type": "HowToStep", "text": "Grease tin pie dish with butter and set aside."}, {"@type": "HowToStep", "text": "In a small bowl beat eggs and set aside."}, {"@type": "HowToStep", "text": "Place one sheet over the base of the tin and gently push in to remove any air bubbles."}, {"@type": "HowToStep", "text": "Cut of edges and pour in eggs."}, {"@type": "HowToStep", "text": "Sprinkle bacon evenly over the surface and sprinkle with salt and pepper."}, {"@type": "HowToStep", "text": "Carefully place other pastry sheet on top and cut off excess edges."}, {"@type": "HowToStep", "text": "Press down with your fingers on the edges to seal pie."}, {"@type": "HowToStep", "text": "Brush with milk and place in oven until golden on top (about 45 mins."}, {"@type": "HowToStep", "text": ")  recipe can be doubled, I usually cook at lease 4 at one time."}, {"@type": "HowToStep", "text": "Serve piping hot or cold."}, {"@type": "HowToStep", "text": "I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins."}, {"@type": "HowToStep", "text": ") Once cool cut in half and serve with jam and whipped cream inside."}, {"@type": "HowToStep", "text": "Sprinkle with a little icing sugar, if you want to be fancy!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Egg and Bacon Pie</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Dinner</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/egg_and_bacon_pie.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/egg_and_bacon_pie.jpeg" alt="Egg and Bacon Pie" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>2 sheets puff pastry </li><li>4 eggs </li><li>200-300 gms diced bacon cooked well</li><li>salt and pepper (lots)</li><li>1/2 teasp butter or margarine</li><li>1/3 cup milk (for basting)</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Pre heat oven to 180C.</li><li>Grease tin pie dish with butter and set aside.</li><li>In a small bowl beat eggs and set aside.</li><li>Place one sheet over the base of the tin and gently push in to remove any air bubbles.</li><li>Cut of edges and pour in eggs.</li><li>Sprinkle bacon evenly over the surface and sprinkle with salt and pepper.</li><li>Carefully place other pastry sheet on top and cut off excess edges.</li><li>Press down with your fingers on the edges to seal pie.</li><li>Brush with milk and place in oven until golden on top (about 45 mins.</li><li>)  recipe can be doubled, I usually cook at lease 4 at one time.</li><li>Serve piping hot or cold.</li><li>I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins.</li><li>) Once cool cut in half and serve with jam and whipped cream inside.</li><li>Sprinkle with a little icing sugar, if you want to be fancy!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

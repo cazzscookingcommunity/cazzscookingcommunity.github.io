@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Mint Slice</title>
+        <link rel="canonical" href="/recipes/html/mint_slice.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Mint Slice",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "mint_slice.jpeg",
+                "description": "Mint Slice",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["125gms pitted dates chopped ", "1/4 cup water", "250gm Scotch finger biscuits ", "1/4 cup copha melted", "350gms icing sugar sifted", "1 teasp peppermint essence", "4 drops green food colour (optional)", "1/3 cup copha melted", "2 TBsp maple syrup or honey", "1/4 cup pure cocoa sifted"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a dish approximately 18x26cm then place baking paper in it and set aside."}, {"@type": "HowToStep", "text": "Place dates and water in a small sauce pan and bring to boil then turn down low."}, {"@type": "HowToStep", "text": "Continuously stir until dates are soft and water absorbed."}, {"@type": "HowToStep", "text": "Take it of the heat and set aside."}, {"@type": "HowToStep", "text": "Break biscuits up and place in a blend."}, {"@type": "HowToStep", "text": "Whiz until fine crumbs, then do another whiz with cocoa added."}, {"@type": "HowToStep", "text": "Add date mixture and copha, mix until nicely combined."}, {"@type": "HowToStep", "text": "Tip into prepared dish and push down with your hands until flat."}, {"@type": "HowToStep", "text": "Place in freezer while you make the filling."}, {"@type": "HowToStep", "text": "Pour icing sugar in a bowl and have metal spoon ready."}, {"@type": "HowToStep", "text": "In a separate bowl place 3 TBsp boiling water, food colour and essence."}, {"@type": "HowToStep", "text": "Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick."}, {"@type": "HowToStep", "text": "Pour over base and smooth it out."}, {"@type": "HowToStep", "text": "Place dish back in freezer while making the topping."}, {"@type": "HowToStep", "text": "In a small saucepan melt copha."}, {"@type": "HowToStep", "text": "Once completely melted remove from heat and add maple syrup then cocoa."}, {"@type": "HowToStep", "text": "Stir well to remove any lumps."}, {"@type": "HowToStep", "text": "Pour over filling and this time place in fridge for 20 minutes."}, {"@type": "HowToStep", "text": "Remove from dish and cut into small squares."}, {"@type": "HowToStep", "text": "Store in fridge."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Mint Slice</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/mint_slice.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/mint_slice.jpeg" alt="Mint Slice" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Base:</strong><ul><li>125gms pitted dates chopped </li><li>1/4 cup water</li><li>250gm Scotch finger biscuits </li><li>1/4 cup copha melted</li></ul><strong>Filling:</strong><ul><li>350gms icing sugar sifted</li><li>1 teasp peppermint essence</li><li>4 drops green food colour (optional)</li></ul><strong>Top:</strong><ul><li>1/3 cup copha melted</li><li>2 TBsp maple syrup or honey</li><li>1/4 cup pure cocoa sifted</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Base:</strong><ol class='recipe-steps'><li>Grease a dish approximately 18x26cm then place baking paper in it and set aside.</li><li>Place dates and water in a small sauce pan and bring to boil then turn down low.</li><li>Continuously stir until dates are soft and water absorbed.</li><li>Take it of the heat and set aside.</li><li>Break biscuits up and place in a blend.</li><li>Whiz until fine crumbs, then do another whiz with cocoa added.</li><li>Add date mixture and copha, mix until nicely combined.</li><li>Tip into prepared dish and push down with your hands until flat.</li><li>Place in freezer while you make the filling.</li></ol><strong>Filling:</strong><ol class='recipe-steps'><li>Pour icing sugar in a bowl and have metal spoon ready.</li><li>In a separate bowl place 3 TBsp boiling water, food colour and essence.</li><li>Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick.</li><li>Pour over base and smooth it out.</li><li>Place dish back in freezer while making the topping.</li></ol><strong>Top:</strong><ol class='recipe-steps'><li>In a small saucepan melt copha.</li><li>Once completely melted remove from heat and add maple syrup then cocoa.</li><li>Stir well to remove any lumps.</li><li>Pour over filling and this time place in fridge for 20 minutes.</li><li>Remove from dish and cut into small squares.</li><li>Store in fridge.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

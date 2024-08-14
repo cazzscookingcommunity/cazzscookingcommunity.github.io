@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Anzac Cookies</title>
+        <link rel="canonical" href="/recipes/html/anzac_cookies.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Anzac Cookies",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "anzacs.jpeg",
+                "description": "Anzac Cookies",
+                "prepTime": "15 mins",
+                "cookTime": "15 mins",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Snack",
+                "recipeIngredient":   ["1 1/4 cups rolled oats ", "1 1/4 cups plain flour ", "1 1/4 cups desiccated coconut", "1 cup sugar", "175 gms butter", "2 TBsp golden syrup", "1 1/4 teaspoon bicarb soda", "2 TBsp boiling water"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat oven to 160C and grease a few flat trays."}, {"@type": "HowToStep", "text": "In a large bowl place the flour, oats, coconut and sugar and set aside."}, {"@type": "HowToStep", "text": "In a small pan melt the butter slowly and add golden syrup."}, {"@type": "HowToStep", "text": "Stir to combine and remove from heat."}, {"@type": "HowToStep", "text": "In a small cup place boiling water and add bicarbonate soda (this will bubble)."}, {"@type": "HowToStep", "text": "Add the boiling water mix to the butter and stir."}, {"@type": "HowToStep", "text": "Pour into bowl with dry ingredients, then stir to combine."}, {"@type": "HowToStep", "text": "Roll into balls and place with about 5cm around each ball to allow expanding."}, {"@type": "HowToStep", "text": "Cook in oven for 10-15 mins in batches."}, {"@type": "HowToStep", "text": "Remove from oven when golden brown."}, {"@type": "HowToStep", "text": "Use a spatula to move to cooling tray to cool completely."}, {"@type": "HowToStep", "text": "Store in an airtight container once completely cool."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Anzac Cookies</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Snack</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> 15 mins</p>
+                        <p><span>Cook Time:</span> 15 mins</p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/anzac_cookies.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/anzacs.jpeg" alt="Anzac Cookies" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>1 1/4 cups rolled oats </li><li>1 1/4 cups plain flour </li><li>1 1/4 cups desiccated coconut</li><li>1 cup sugar</li><li>175 gms butter</li><li>2 TBsp golden syrup</li><li>1 1/4 teaspoon bicarb soda</li><li>2 TBsp boiling water</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat oven to 160C and grease a few flat trays.</li><li>In a large bowl place the flour, oats, coconut and sugar and set aside.</li><li>In a small pan melt the butter slowly and add golden syrup.</li><li>Stir to combine and remove from heat.</li><li>In a small cup place boiling water and add bicarbonate soda (this will bubble).</li><li>Add the boiling water mix to the butter and stir.</li><li>Pour into bowl with dry ingredients, then stir to combine.</li><li>Roll into balls and place with about 5cm around each ball to allow expanding.</li><li>Cook in oven for 10-15 mins in batches.</li><li>Remove from oven when golden brown.</li><li>Use a spatula to move to cooling tray to cool completely.</li><li>Store in an airtight container once completely cool.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

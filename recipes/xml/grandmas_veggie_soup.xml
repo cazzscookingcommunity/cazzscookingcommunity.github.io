@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Grandmas Veggie Soup</title>
+  <filename>grandmas_veggie_soup.xml</filename>
+  <htmlFilename>grandmas_veggie_soup.html</htmlFilename>
+  <comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
+  <thumbnail>grandmas_veggie_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <ingredient>2 lamb shanks or other lamb bones</ingredient>
+  <ingredient>1 swede chopped</ingredient>
+  <ingredient>1 turnip chopped</ingredient>
+  <ingredient>1 parsnip chopped</ingredient>
+  <ingredient>2 celery sticks chopped</ingredient>
+  <ingredient>2 large carrots chopped</ingredient>
+  <ingredient>250 gms McKenzies soup mix</ingredient>
+  <ingredient>1 bay leaf</ingredient>
+  <ingredient>Stock to cover </ingredient>
+  <ingredient>Salt and Pepper to taste</ingredient>
+  <step>Place all ingredients in a large pot and cover with stock until it is up to your thumb joint over all ingredients.</step>
+  <step>Bring to the boil, then reduce to a simmer.</step>
+  <step>Remove scum from the top and cook until the meat is falling of the bone (about 4-6 hours.</step>
+  <step>) Remove shanks and shred meat with knife and fork.</step>
+  <step>Place all back into the pot, including the bones.</step>
+  <step>Cook until soup thickens, usually another 1-2 hours.</step>
+  <step>Remove bones and season with Salt and Pepper.</step>
+  <step>Serve with crusty bread.</step>
+  <step>You can freeze the soup or cook in slow cooker on low for 8-10 hours.</step>
+</recipe>

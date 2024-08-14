@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Larb</title>
+  <filename>larb.xml</filename>
+  <htmlFilename>larb.html</htmlFilename>
+  <thumbnail>larb.jpeg</thumbnail>
+  <category>Dinner</category>
+  <diet>FODMAP</diet>
+  <ingredient>850gms minced pork </ingredient>
+  <ingredient>3 TBspoons olive oil </ingredient>
+  <ingredient>2 garlic cloves crushed</ingredient>
+  <ingredient>1 inch ginger grated</ingredient>
+  <ingredient>1/2 teaspoon chilli powder </ingredient>
+  <ingredient>1-2 limes juiced</ingredient>
+  <ingredient>1/3 cup fish sauce</ingredient>
+  <ingredient>1 teaspoon sugar</ingredient>
+  <ingredient>1/4 cup mint leaves chopped</ingredient>
+  <ingredient>3 cups rice noodles cooked and chopped</ingredient>
+  <ingredient>1 lettuce leaves removed</ingredient>
+  <ingredient>Extra limes to serve</ingredient>
+  <step>Prepare lettuce leaves and set aside.</step>
+  <step>Combine lime juice, fish sauce and sugar, stir to combine and set aside.</step>
+  <step>Heat oil in pan and cook meat until brown.</step>
+  <step>Add garlic, ginger and chilli and cook a few minutes.</step>
+  <step>Pour in juice mixture and stir through with noodles.</step>
+  <step>Sever inside a lettuce cup with lime on the side.</step>
+  <step>Alternately serve in told with thinly sliced cumber, lettuce and some chilli sauce.</step>
+</recipe>

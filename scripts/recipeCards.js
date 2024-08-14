@@ -1,4 +1,4 @@
-
+imgpath = '/recipes/images/'
 
 
 //  create the mealCards for the searched recipes
@@ -12,7 +12,7 @@ function createMealCards(shortlist) {
     // Iterate over the shortlist directly
     shortlist.forEach(recipe => {
         let img = recipe.thumbnail || ""; // Assuming there's a `thumbnail` field
-        let file = recipe.filename || ""; // Assuming there's a `filename` field
+        let file = recipe.htmlFilename || ""; // Assuming there's a `htmlFilename` field
         let categoryTags = recipe.category
             ? recipe.category.split(' ').map(tag => `<a href="#mealCardsSection" class="tag" onclick="searchByTag('${encodeURIComponent(tag.trim())}')">#${tag.trim()}</a>`).join(' ')
             : '';
@@ -24,7 +24,7 @@ function createMealCards(shortlist) {
         mealCards += 
         `<div class="cards four columns">
             <div class="card">
-                <a href="/recipe.html?recipe=${file}">
+                <a href="/recipes/html/${file}">
                     <img src="${imgpath}${img}" alt="${recipe.title} thumbnail" class="u-max-full-width mealCardRecipeBtn" />
                 </a>
                 <div class="card-body recipe-action" display="none">
@@ -47,10 +47,10 @@ function createMealCards(shortlist) {
 function fetchMeal(allRecipes, type) {
     if (type === 'r') {
         const randomNo = Math.floor(Math.random() * allRecipes.length);
-        const recipeFilename = allRecipes[randomNo].id;
-        const url = path + recipeFilename;
+        const recipeFilename = allRecipes[randomNo].htmlFilename;
+        // const url = path + recipeFilename;
         // Redirect to the recipe page
-        location.assign(`/recipe.html?recipe=${recipeFilename}`);
+        location.assign(`/recipes/html/${recipeFilename}`);
     } else {
         console.error("Invalid type requested");
     }

@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>CHOW MEIN</title>
+  <filename>chow_mein.xml</filename>
+  <htmlFilename>chow_mein.html</htmlFilename>
+  <comment>Easy, Quick, Yummy </comment>
+  <thumbnail>chow_mein.jpeg</thumbnail>
+  <category>Pork</category>
+  <diet>FODMAP</diet>
+  <ingredient>500-600 gms Pork Mince</ingredient>
+  <ingredient>Two small rice noodles (each about same size of two minute noodle packet)</ingredient>
+  <ingredient>2 Carrots grated</ingredient>
+  <ingredient>1/2 head cabbage* chopped</ingredient>
+  <ingredient>3 spring onions chopped</ingredient>
+  <ingredient>2-3 garlic cloves crushed</ingredient>
+  <ingredient>1/2 cup stir fry sauce*</ingredient>
+  <ingredient>2 chicken stock cubes</ingredient>
+  <ingredient>1/2 cup water</ingredient>
+  <ingredient>Salt and Pepper</ingredient>
+  <ingredient>Oil</ingredient>
+  <step>Heat large fry pan with lid and add oil.</step>
+  <step>Cook garlic until golden then add pork.</step>
+  <step>While pork is cooking (prepare your veggies and cook noodles by covering with boiling water in a bowl and drain after two minutes, then chop with kitchen scissors.</step>
+  <step>) Cook pork until no longer pink.</step>
+  <step>Add cabbage and 1/2 cup of water and stock cubes.</step>
+  <step>Place lid on pan and steam for 10 minutes.</step>
+  <step>Remove lid and add carrots and noodles.</step>
+  <step>Pour over stir fry sauce, add Salt and Pepper to taste and stir to combine.</step>
+  <step>Serve with spring onions sprinkled on top and extra soy sauce if desired.</step>
+  <step>* you can use regular cabbage or Chinese cabbage or even Bok Choy ( whatever takes your fancy)
+* if you can not find stir fry sauce you can substitute with soy sauce thickened with some corn flour.</step>
+</recipe>

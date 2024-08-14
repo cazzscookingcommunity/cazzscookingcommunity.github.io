@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Moroccan Fries</title>
+  <filename>moroccan_fries.xml</filename>
+  <htmlFilename>moroccan_fries.html</htmlFilename>
+  <thumbnail>moroccan_fries.jpeg</thumbnail>
+  <category>Sides</category>
+  <ingredient>10 white potatoes </ingredient>
+  <ingredient>Moroccan spice</ingredient>
+  <ingredient>Olive oil spray</ingredient>
+  <step>Heat oven to 180C spray oven tray with olive oil spray.</step>
+  <step>Cut spuds into 1/8 and spread out evenly on tray.</step>
+  <step>Spray them with olive oil spray and sprinkle generously with Moroccan spice.</step>
+  <step>Place in oven for 15 minutes remove and flip them and give the tray a little shake before returning it to the oven for another 15 minutes or until golden.</step>
+  <step>Serve hot with sweet chilli sauce if desired.</step>
+</recipe>

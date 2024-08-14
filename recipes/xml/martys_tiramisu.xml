@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Martys Tiramisu</title>
+  <filename>martys_tiramisu.xml</filename>
+  <htmlFilename>martys_tiramisu.html</htmlFilename>
+  <comment>this recipe can be doubled or even tripled</comment>
+  <thumbnail>martys_tiramisu.jpeg</thumbnail>
+  <category>Sweets</category>
+  <ingredient>4 eggs separated</ingredient>
+  <ingredient>1/2 cup caster sugar</ingredient>
+  <ingredient>1-2 cups strong black coffee</ingredient>
+  <ingredient>250 gms mascarpone </ingredient>
+  <ingredient>1/2 block dark chocolate shaved</ingredient>
+  <ingredient>Cocoa (lumps removed)</ingredient>
+  <ingredient>1 packet sponge fingers</ingredient>
+  <step>Whip eggs whites until soft peaks form.</step>
+  <step>Stir egg yolks and sugar together until sugar is dissolved.</step>
+  <step>Add the mascarpone to egg yoke mixture.</step>
+  <step>Then fold the egg whites into egg yoke mixture, until combined.</step>
+  <step>Rub a small amount of this mixture around a square or rectangular pan.</step>
+  <step>Place the coffee in a flat dish.</step>
+  <step>Dip a sponge finger in the coffee and wet both sides.</step>
+  <step>Place a layer of coffee dipped sponge fingers in deep baking dish, then top with a thin layer of egg mixture, covering the surface.</step>
+  <step>Sprinkle over a thin layer of cocoa, then sprinkle a thin layer of shaved chocolate.</step>
+  <step>Top with another layer of coffee dipped sponge fingers and egg mixture and cocoa and chocolate.</step>
+  <step>Repeat layers at least thee times until you reach the top of the pan, finishing with cocoa and chocolate on top layer.</step>
+  <step>Cover with glad wrap and place in fridge over night.</step>
+  <step>Cut into squares and serve cold.</step>
+</recipe>

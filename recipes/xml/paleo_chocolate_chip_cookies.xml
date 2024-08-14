@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Paleo Chocolate Chip Cookies </title>
+  <filename>paleo_chocolate_chip_cookies.xml</filename>
+  <htmlFilename>paleo_chocolate_chip_cookies.html</htmlFilename>
+  <comment>c/o ambitious kitchen</comment>
+  <thumbnail>paleo_choc_chip_cookies.jpeg</thumbnail>
+  <category>Sweets</category>
+  <diet>Paleo</diet>
+  <diet>GlutenFree</diet>
+  <ingredient>1 egg (room temperature)</ingredient>
+  <ingredient>1 teaspoon vanilla extract </ingredient>
+  <ingredient>1/3 cup coconut oil</ingredient>
+  <ingredient>1/2 cup coconut sugar </ingredient>
+  <ingredient>1 cup almond or hazelnut flour</ingredient>
+  <ingredient>1/4 cup coconut flour</ingredient>
+  <ingredient>1/2 teaspoon baking soda</ingredient>
+  <ingredient>3/4 cup choc chips (diary free if required)</ingredient>
+  <ingredient>Pinch of salt</ingredient>
+  <step>Preheat oven to 180C.</step>
+  <step>Line a baking sheet and set aside.</step>
+  <step>Melt coconut oil and set aside (should not be hot when adding other ingredients.</step>
+  <step>) In a bowl mix flours, salt, sugar and baking soda.</step>
+  <step>Whisk to mix and remove any lumps.</step>
+  <step>In the cooled coconut oil add the vanilla extract and egg.</step>
+  <step>Whisk until combined.</step>
+  <step>Pour wet ingredients into dry and mix until dough forms.</step>
+  <step>Fold in 1/2 cup of choc chips.</step>
+  <step>Place Table spoon amounts on baking tray and sprinkle a couple of extra choc chips on top of each cookie.</step>
+  <step>Cook for 8-10 minutes or until golden.</step>
+  <step>Cool on tray then remove to a cooling rack.</step>
+  <step>Store in an airtight container once completely cold.</step>
+  <step>Yum yum!.</step>
+</recipe>

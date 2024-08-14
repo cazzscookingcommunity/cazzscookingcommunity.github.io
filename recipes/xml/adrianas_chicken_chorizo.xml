@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Adrianas Chicken and Chorizo</title>
+  <filename>adrianas_chicken_chorizo.xml</filename>
+  <htmlFilename>adrianas_chicken_chorizo.html</htmlFilename>
+  <thumbnail>adrianas_chicken.jpeg</thumbnail>
+  <category>Dinner</category>
+  <category>Poultry</category>
+  <category>Pork</category>
+  <ingredient>4-6 chicken thighs cut into strips</ingredient>
+  <ingredient>2 chorizo sausages sliced</ingredient>
+  <ingredient>1 can cannoli beans rinsed and drained</ingredient>
+  <ingredient>3-4 garlic cloves crushed</ingredient>
+  <ingredient>2 tins chopped tomatoes </ingredient>
+  <ingredient>1 TBsp Italian herbs</ingredient>
+  <ingredient>salt and pepper to taste </ingredient>
+  <ingredient>3 TBsp olive oil </ingredient>
+  <ingredient>Bunch parsley chopped </ingredient>
+  <step>Heat olive oil in a large pan.</step>
+  <step>Cook garlic for a few minutes, then add the chorizo and cooked for about five minutes then remove from pan.</step>
+  <step>Add chicken fillets and cook until all sides are cooked.</step>
+  <step>Put chorizo back in pan, add all other ingredients except parsley.</step>
+  <step>Put lid on pan and place in preheated oven for 20 minutes.</step>
+  <step>Remove lid and give it a good stir and sprinkle with parsley.</step>
+  <step>If desired serve with crusty bread, rice or mash spud.</step>
+</recipe>

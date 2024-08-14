@@ -16,7 +16,7 @@ import datetime
 date = datetime.datetime.now().date()
 
 # input files
-recipedir = "recipes/"
+recipedir = "recipes/xml/"
 index = "index.html"
 
 
@@ -53,7 +53,7 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/allRecipes.html</loc>
+        <loc>https://cazzscookingcommunity.github.io/staticAllRecipes.html</loc>
         <lastmod>{}</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.8</priority>
@@ -63,9 +63,9 @@ sitemap_header = '''<?xml version="1.0" encoding="UTF-8"?>
 
 sitemap_page = '''
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipe.html?recipe={}</loc>
+        <loc>https://cazzscookingcommunity.github.io/recipes/html/{}</loc>
         <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/images/{}</image:loc>
+            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/{}</image:loc>
         </image:image>
         <lastmod>{}</lastmod>
         <changefreq>yearly</changefreq>
@@ -100,18 +100,18 @@ def get_file_modified_date(file_path):
     modified_date = datetime.datetime.fromtimestamp(timestamp).date()
     return modified_date
 
-def extract_image_name(file_path):
-    try:
-        tree = etree.parse(file_path)
-        root = tree.getroot()
-        namespace = {'ns': 'https://cazzscookingcommunity.github.io'}
-        # Find the <thumbnail> tag with namespace handling
-        image = root.find('.//ns:thumbnail', namespaces=namespace).text
-        return image
-    except:
-        print("\n*********1")
-        print("ERROR getting image: " + filename + " Skipping\n")
-        return
+# def extract_image_name(file_path):
+#     try:
+#         tree = etree.parse(file_path)
+#         root = tree.getroot()
+#         namespace = {'ns': 'https://cazzscookingcommunity.github.io'}
+#         # Find the <thumbnail> tag with namespace handling
+#         image = root.find('.//ns:thumbnail', namespaces=namespace).text
+#         return image
+#     except:
+#         print("\n*********1")
+#         print("ERROR getting image: " + file_path + " Skipping\n")
+#         return
 
 
 def parse_recipe(filename):
@@ -124,21 +124,26 @@ def parse_recipe(filename):
         # Define the namespace
         namespace = {"ns": "https://cazzscookingcommunity.github.io"}
 
+        htmlFilename = root.find("ns:htmlFilename", namespace).text if root.find("ns:htmlFilename", namespace) is not None else ""
+        thumbnail = root.find("ns:thumbnail", namespace).text if root.find("ns:thumbnail", namespace) is not None else ""
+                
+
         # Extract fields from the XML
         recipe = {
             "id": os.path.basename(recipedir + filename),
             "title": root.find("ns:title", namespace).text if root.find("ns:title", namespace) is not None else "",
             "filename": root.find("ns:filename", namespace).text if root.find("ns:filename", namespace) is not None else "",
-            "thumbnail": root.find("ns:thumbnail", namespace).text if root.find("ns:thumbnail", namespace) is not None else "",
+            "htmlFilename": htmlFilename,
+            "thumbnail": thumbnail,
             "category": " ".join([elem.text for elem in root.findall("ns:category", namespace) if elem.text]),
             "diet": " ".join([elem.text for elem in root.findall("ns:diet", namespace) if elem.text]),
             "ingredients": " ".join([elem.text for elem in root.findall("ns:ingredient", namespace) if elem.text])
             # "steps": " ".join([elem.text for elem in root.findall("ns:step", namespace) if elem.text])
         }
         
-        imagename = extract_image_name(recipedir + filename)
-        fileDate = get_file_modified_date(recipedir + filename)   
-        recipeXML = sitemap_page.format(filename, imagename, fileDate)
+
+        fileDate = get_file_modified_date(recipedir + filename) 
+        recipeXML = sitemap_page.format(htmlFilename, thumbnail, fileDate)
 
                     
         return recipe, recipeXML

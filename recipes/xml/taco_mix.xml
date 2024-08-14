@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Taco Mix</title>
+  <filename>taco_mix.xml</filename>
+  <htmlFilename>taco_mix.html</htmlFilename>
+  <thumbnail>taco_bake.jpeg</thumbnail>
+  <category>Beef</category>
+  <diet>GlutenFree</diet>
+  <ingredient>2 teaspoon cumin</ingredient>
+  <ingredient>1 teaspoon paprika</ingredient>
+  <ingredient>1/2 - 1 teaspoon chilli</ingredient>
+  <ingredient>1 1/2 teaspoon garlic salt</ingredient>
+  <ingredient>1 teaspoon oregano</ingredient>
+  <ingredient>1 teaspoon corn flour</ingredient>
+  <ingredient>1/4 teaspoon salt</ingredient>
+  <step>Mix all together and use for 500gms-750gms mince meat or 3 cans of beans (mixed, cannelloni and black beans.</step>
+  <step>)
+    Serve in tacos with your choice of extras ( cheese, avocado, lettuce, tomatoe ect.</step>
+</recipe>

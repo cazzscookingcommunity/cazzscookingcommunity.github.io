@@ -1,11 +1,10 @@
 User-agent: *
 
 Allow: /sitemap.xml
-Allow: /recipe.html
-Allow: /recipe.html?recipe=*
+Allow: /recipes/
 
 # block recipe update pages
-Disallow: /recipe/*.xml$
+#Disallow: /recipe/*.xml$
 
 
 # disallow file and folders

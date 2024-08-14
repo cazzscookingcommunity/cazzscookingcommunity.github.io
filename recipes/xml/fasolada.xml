@@ -1,0 +1,41 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Fasolada </title>
+  <filename>fasolada.xml</filename>
+  <htmlFilename>fasolada.html</htmlFilename>
+  <comment>c/o Akis Petretzikis.  Greek white bean soup. </comment>
+  <thumbnail>fasolada.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>Vegan</diet>
+  <diet>GlutenFree</diet>
+  <ingredient>500gms white beans (soaked overnight)</ingredient>
+  <ingredient>1 teaspoon salt</ingredient>
+  <ingredient>2 celery sticks chopped </ingredient>
+  <ingredient>3 carrots chopped </ingredient>
+  <ingredient>5 cloves garlic crushed </ingredient>
+  <ingredient>2-3 TBsp olive oil </ingredient>
+  <ingredient>1 TBsp tomatoe paste</ingredient>
+  <ingredient>3 bay leaves </ingredient>
+  <ingredient>2 sprigs rosemary</ingredient>
+  <ingredient>2 stock cubes</ingredient>
+  <ingredient>1 red apple peeled</ingredient>
+  <ingredient>2 litres water</ingredient>
+  <ingredient>salt and pepper to taste</ingredient>
+  <ingredient>Thyme leaves to serve </ingredient>
+  <step>In a bowl add beans and cover with water.</step>
+  <step>Add salt and stir well.</step>
+  <step>Cover and leave over night (8-12 hours.</step>
+  <step>) Drain any water when done and rinse twice very well under cold water.</step>
+  <step>Drain and set aside.</step>
+  <step>In a large pot heat oil and add carrots and celery and cook on low for 5 minutes.</step>
+  <step>Add the garlic and cook for a further 5 minuets.</step>
+  <step>Stir in n the tomatoe paste, then add the rest of the ingredients.</step>
+  <step>Bring to the boil and lower to a simmer and cook for 1 1/2 hours.</step>
+  <step>Be sure to stir occasionally so it doesnt stick to the bottom.</step>
+  <step>Add salt and pepper to taste before serving.</step>
+  <step>Serve with thyme sprinkled on top.</step>
+  <step>You can also serve with lemon, olives, and feta if desired.</step>
+</recipe>

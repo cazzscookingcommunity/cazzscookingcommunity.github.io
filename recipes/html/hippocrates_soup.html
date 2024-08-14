@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Hippocrates Soup</title>
+        <link rel="canonical" href="/recipes/html/hippocrates_soup.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Hippocrates Soup",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "hippocrates_soup.jpeg",
+                "description": "Hippocrates Soup",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "GlutenFree, Vegan",
+                "recipeYield": "None",
+                "recipeCategory": "Soup",
+                "recipeIngredient":   ["1/2 celery root", "2 celery sticks", "1-2 leeks", "1 onion (optional)", "4 garlic cloves crushed ", "1 small bunch parsley ", "1-2 tomatoes (optional)", "1-2 potatoes", "Extra veggies if desired or left in fridge", "3 stock cubes or stock (I used chicken stock and added cabbage and zucchini)", "Olive oil"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Wash and Chop all veggies and set aside."}, {"@type": "HowToStep", "text": "Wash and chop parsley, including stems, reserving a handful of leaves to garnish when serving."}, {"@type": "HowToStep", "text": "Heat olive oil in a large pot and cook garlic and leeks on low heat for 5-10 minutes."}, {"@type": "HowToStep", "text": "Dont brown just let the leeks become soft."}, {"@type": "HowToStep", "text": "Add celery sticks and carrots and cook a few more minutes."}, {"@type": "HowToStep", "text": "Add the rest of the veggies and cover all the veggies with water or stock (add stock cubes if only adding water."}, {"@type": "HowToStep", "text": ") Bring to boil and reduce to a slimmer and cook for about 1-2 hours."}, {"@type": "HowToStep", "text": "Serve with salt and pepper, if desired and a few parsley leaves on top."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Hippocrates Soup</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Soup</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/hippocrates_soup.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/hippocrates_soup.jpeg" alt="Hippocrates Soup" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>1/2 celery root</li><li>2 celery sticks</li><li>1-2 leeks</li><li>1 onion (optional)</li><li>4 garlic cloves crushed </li><li>1 small bunch parsley </li><li>1-2 tomatoes (optional)</li><li>1-2 potatoes</li><li>Extra veggies if desired or left in fridge</li><li>3 stock cubes or stock (I used chicken stock and added cabbage and zucchini)</li><li>Olive oil</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Wash and Chop all veggies and set aside.</li><li>Wash and chop parsley, including stems, reserving a handful of leaves to garnish when serving.</li><li>Heat olive oil in a large pot and cook garlic and leeks on low heat for 5-10 minutes.</li><li>Dont brown just let the leeks become soft.</li><li>Add celery sticks and carrots and cook a few more minutes.</li><li>Add the rest of the veggies and cover all the veggies with water or stock (add stock cubes if only adding water.</li><li>) Bring to boil and reduce to a slimmer and cook for about 1-2 hours.</li><li>Serve with salt and pepper, if desired and a few parsley leaves on top.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

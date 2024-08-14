@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Filo Pie</title>
+        <link rel="canonical" href="/recipes/html/filo_pie.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Filo Pie",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "filo_pie.jpeg",
+                "description": "Filo Pie",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["8-10 Filo pastry sheets*", "1 1/2  cups milk", "100 gms butter melted", "3 eggs", "1/2 cup sugar", "1 teaspoon vanilla essence", "1/2 cup Blue berries", "Cinnamon", "Pinch or two of icing sugar"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a pie dish with butter and preheat oven to 180C."}, {"@type": "HowToStep", "text": "Lie the Filo pastry sheets on a damp tea towel."}, {"@type": "HowToStep", "text": "Brush the top sheet with butter and fold it over long ways in half, then in half again (it will be a long strip."}, {"@type": "HowToStep", "text": ")  Gently roll it in a loose fashion and then cut in half with kitchen scissors."}, {"@type": "HowToStep", "text": "Place the cut side down in the pie dish."}, {"@type": "HowToStep", "text": "Continue with the brushing, folding, rolling then cutting until you have used up all the sheets."}, {"@type": "HowToStep", "text": "Space the rosettes evenly around the dish and paint the top with the remaining butter."}, {"@type": "HowToStep", "text": "Sprinkle with cinnamon and place in preheated oven for 20-30 minutes (tops should be going golden brown."}, {"@type": "HowToStep", "text": ")  Meanwhile whisk eggs, sugar and vanilla essence in a bowl and set aside."}, {"@type": "HowToStep", "text": "In a small pot heat milk until bubbling."}, {"@type": "HowToStep", "text": "Once bubbling pour into egg mixture while you whisk at the same time."}, {"@type": "HowToStep", "text": "Remove pie dish after its golden brown (20-30 minutes) then sprinkle over blueberries, then pour over egg mixture."}, {"@type": "HowToStep", "text": "Place back in the oven for another 20-30 minutes or until custard sets."}, {"@type": "HowToStep", "text": "Remove from oven and sprinkle over icing sugar if desired."}, {"@type": "HowToStep", "text": "Serve with a little cream or ice cream."}, {"@type": "HowToStep", "text": "I use the fresh Filo pastry (found in the refrigerator section of the supermarket, not the frozen type."}, {"@type": "HowToStep", "text": ")\n    Great for using up those last few of sheets of Filo Pastry!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Filo Pie</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/filo_pie.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/filo_pie.jpeg" alt="Filo Pie" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>8-10 Filo pastry sheets*</li><li>1 1/2  cups milk</li><li>100 gms butter melted</li><li>3 eggs</li><li>1/2 cup sugar</li><li>1 teaspoon vanilla essence</li><li>1/2 cup Blue berries</li><li>Cinnamon</li><li>Pinch or two of icing sugar</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Grease a pie dish with butter and preheat oven to 180C.</li><li>Lie the Filo pastry sheets on a damp tea towel.</li><li>Brush the top sheet with butter and fold it over long ways in half, then in half again (it will be a long strip.</li><li>)  Gently roll it in a loose fashion and then cut in half with kitchen scissors.</li><li>Place the cut side down in the pie dish.</li><li>Continue with the brushing, folding, rolling then cutting until you have used up all the sheets.</li><li>Space the rosettes evenly around the dish and paint the top with the remaining butter.</li><li>Sprinkle with cinnamon and place in preheated oven for 20-30 minutes (tops should be going golden brown.</li><li>)  Meanwhile whisk eggs, sugar and vanilla essence in a bowl and set aside.</li><li>In a small pot heat milk until bubbling.</li><li>Once bubbling pour into egg mixture while you whisk at the same time.</li><li>Remove pie dish after its golden brown (20-30 minutes) then sprinkle over blueberries, then pour over egg mixture.</li><li>Place back in the oven for another 20-30 minutes or until custard sets.</li><li>Remove from oven and sprinkle over icing sugar if desired.</li><li>Serve with a little cream or ice cream.</li><li>I use the fresh Filo pastry (found in the refrigerator section of the supermarket, not the frozen type.</li><li>)
+    Great for using up those last few of sheets of Filo Pastry!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>
