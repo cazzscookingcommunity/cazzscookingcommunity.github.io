@@ -62,6 +62,7 @@
         <xs:sequence>
             <xs:element name="title" type="xs:token" />
             <xs:element name="filename" type="xs:token" />
+            <xs:element name="htmlFilename" type="xs:token" />
             <xs:element name="comment" type="xs:string" minOccurs="0" />
             <xs:element name="thumbnail" type="xs:string" />
             <xs:element name="image" type="xs:string" minOccurs="0" />

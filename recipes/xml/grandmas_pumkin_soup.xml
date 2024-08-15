@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Grandmas Pumkin Soup</title>
+  <filename>grandmas_pumkin_soup.xml</filename>
+  <htmlFilename>grandmas_pumkin_soup.html</htmlFilename>
+  <thumbnail>grandmas_pumpkin_soup.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>FODMAP</diet>
+  <ingredient>6-10 cups chopped Kent pumpkin</ingredient>
+  <ingredient>5 cups chopped butternut pumpkin</ingredient>
+  <ingredient>2-3 large carrots chopped finely</ingredient>
+  <ingredient>1-3 garlic cloves crushed</ingredient>
+  <ingredient>1 teaspoon curry power</ingredient>
+  <ingredient>Olive oil</ingredient>
+  <ingredient>Chicken stock</ingredient>
+  <ingredient>Salt and Pepper to taste</ingredient>
+  <ingredient>Fresh nutmeg and cream to serve</ingredient>
+  <step>Heat oil in a large pot, add garlic and cook a few minutes.</step>
+  <step>Place a small amount of curry powder in the pot and cook for a few minutes.</step>
+  <step>Throw in enough of the pumpkin to cover the bottom of the pot.</step>
+  <step>Stir continuously to coat all sides of the pumpkin then remove from pot.</step>
+  <step>Cook pumpkin and carrot in batches until all done.</step>
+  <step>Once all pumpkin and carrot is coated, place back into the pot and add enough stock to cover.</step>
+  <step>Bring to boil and then lower to a simmer.</step>
+  <step>Cook until carrots are very soft, then blend with stick blender and add Salt and Pepper to taste.</step>
+  <step>Serve in a bowl with a teaspoon of cream poured in the middle and stirred in a circular motion.</step>
+  <step>Grate fresh nutmeg on top then serve.</step>
+</recipe>

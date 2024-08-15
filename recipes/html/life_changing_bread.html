@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Life Changing Bread</title>
+        <link rel="canonical" href="/recipes/html/life_changing_bread.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Life Changing Bread",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "life_changing_bread.jpeg",
+                "description": "Life Changing Bread",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "GlutenFree",
+                "recipeYield": "None",
+                "recipeCategory": "Sides",
+                "recipeIngredient":   ["1 1/2 cups rolled oats", "8 TBsp psyllium seed husks", "1 cup sunflower seeds", "1/2 cup flax seeds", "1/2 cup pumpkin seeds or nuts", "2 TBsp chia seeds", "1 teaspoon salt", "2 TBsp maple syrup or honey", "3 TBsp melted coconut oil or ghee", "1 1/2 cups water"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a loaf tin, by lining it with grease proof paper and set aside."}, {"@type": "HowToStep", "text": "In two separate bowls mix all dry ingredients and wet ingredients."}, {"@type": "HowToStep", "text": "Pour wet ingredients into dry ingredients and mix well."}, {"@type": "HowToStep", "text": "Scoop into prepared tin and push down with your hand and make it smooth on top."}, {"@type": "HowToStep", "text": "Cover with a clean tea towel and set aside for at least 2 hours."}, {"@type": "HowToStep", "text": "Can be left overnight."}, {"@type": "HowToStep", "text": "When ready place in preheated oven at 180C and cook for 20 minutes."}, {"@type": "HowToStep", "text": "Remove from oven and remove from tin and paper and place back in oven upside down directly on rack."}, {"@type": "HowToStep", "text": "Turn down oven to 130C and cook for about 1-2 hours."}, {"@type": "HowToStep", "text": "It will sound hollow when taped, if it is ready."}, {"@type": "HowToStep", "text": "Remove from oven and cool completely on rack."}, {"@type": "HowToStep", "text": "Cut in skinny slices and serve with favorite spreads and dips."}, {"@type": "HowToStep", "text": "Can be toasted and frozen (cut in slices before freezing."}, {"@type": "HowToStep", "text": ")."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Life Changing Bread</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sides</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/life_changing_bread.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/life_changing_bread.jpeg" alt="Life Changing Bread" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>1 1/2 cups rolled oats</li><li>8 TBsp psyllium seed husks</li><li>1 cup sunflower seeds</li><li>1/2 cup flax seeds</li><li>1/2 cup pumpkin seeds or nuts</li><li>2 TBsp chia seeds</li><li>1 teaspoon salt</li><li>2 TBsp maple syrup or honey</li><li>3 TBsp melted coconut oil or ghee</li><li>1 1/2 cups water</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Prepare a loaf tin, by lining it with grease proof paper and set aside.</li><li>In two separate bowls mix all dry ingredients and wet ingredients.</li><li>Pour wet ingredients into dry ingredients and mix well.</li><li>Scoop into prepared tin and push down with your hand and make it smooth on top.</li><li>Cover with a clean tea towel and set aside for at least 2 hours.</li><li>Can be left overnight.</li><li>When ready place in preheated oven at 180C and cook for 20 minutes.</li><li>Remove from oven and remove from tin and paper and place back in oven upside down directly on rack.</li><li>Turn down oven to 130C and cook for about 1-2 hours.</li><li>It will sound hollow when taped, if it is ready.</li><li>Remove from oven and cool completely on rack.</li><li>Cut in skinny slices and serve with favorite spreads and dips.</li><li>Can be toasted and frozen (cut in slices before freezing.</li><li>).</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

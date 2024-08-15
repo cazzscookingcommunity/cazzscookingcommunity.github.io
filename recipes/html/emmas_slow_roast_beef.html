@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Emmas Slow Roast Beef</title>
+        <link rel="canonical" href="/recipes/html/emmas_slow_roast_beef.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Emmas Slow Roast Beef",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "emmas_slow_roast_beef.jpeg",
+                "description": "Emmas Slow Roast Beef",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "GlutenFree",
+                "recipeYield": "None",
+                "recipeCategory": "Beef",
+                "recipeIngredient":   ["1 Coles Slow Cook Family Roast", "3 TBSP seeded mustard", "1 TBSP oregano ", "1 TBSP basil", "1 bay leaf", "1 TBSP tapioca flour", "salt and pepper"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Remove roast from wrapper and remove strings."}, {"@type": "HowToStep", "text": "Place in the centre of slow cooker."}, {"@type": "HowToStep", "text": "Put bay leaf in the bottom."}, {"@type": "HowToStep", "text": "Spread mustard over top and sprinkle herbs evenly over the top."}, {"@type": "HowToStep", "text": "Generously add salt and pepper all over top and close lid."}, {"@type": "HowToStep", "text": "Cook for at least six hours."}, {"@type": "HowToStep", "text": "Once done remove from slow cooker and cover with foil and keep warm."}, {"@type": "HowToStep", "text": "Use a sieve and drain all liquid into a sauce pan."}, {"@type": "HowToStep", "text": "Turn the pan on low heat."}, {"@type": "HowToStep", "text": "In a small cup mix tapioca flour with a couple of table spoons of water and mix until there are no lumps."}, {"@type": "HowToStep", "text": "While stirring juices, pour in tapioca flour mixture and continue to stir until sauce thickens."}, {"@type": "HowToStep", "text": "Keep sauce warm."}, {"@type": "HowToStep", "text": "Using two forks shred meat (you may need a knife  for parts of it."}, {"@type": "HowToStep", "text": ") Pour sauce over meat reserving some for extra gravy."}, {"@type": "HowToStep", "text": "Serve hot with mash spud and other veggies."}, {"@type": "HowToStep", "text": "Yum yum!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Emmas Slow Roast Beef</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Beef</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/emmas_slow_roast_beef.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/emmas_slow_roast_beef.jpeg" alt="Emmas Slow Roast Beef" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>1 Coles Slow Cook Family Roast</li><li>3 TBSP seeded mustard</li><li>1 TBSP oregano </li><li>1 TBSP basil</li><li>1 bay leaf</li><li>1 TBSP tapioca flour</li><li>salt and pepper</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Remove roast from wrapper and remove strings.</li><li>Place in the centre of slow cooker.</li><li>Put bay leaf in the bottom.</li><li>Spread mustard over top and sprinkle herbs evenly over the top.</li><li>Generously add salt and pepper all over top and close lid.</li><li>Cook for at least six hours.</li><li>Once done remove from slow cooker and cover with foil and keep warm.</li><li>Use a sieve and drain all liquid into a sauce pan.</li><li>Turn the pan on low heat.</li><li>In a small cup mix tapioca flour with a couple of table spoons of water and mix until there are no lumps.</li><li>While stirring juices, pour in tapioca flour mixture and continue to stir until sauce thickens.</li><li>Keep sauce warm.</li><li>Using two forks shred meat (you may need a knife  for parts of it.</li><li>) Pour sauce over meat reserving some for extra gravy.</li><li>Serve hot with mash spud and other veggies.</li><li>Yum yum!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

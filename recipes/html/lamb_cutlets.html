@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Lamb Cutlets</title>
+        <link rel="canonical" href="/recipes/html/lamb_cutlets.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Lamb Cutlets",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "lamb_cutlet.jpeg",
+                "description": "Lamb Cutlets",
+                "prepTime": "10 mins",
+                "cookTime": "10 mins",
+                "suitableForDiet": "",
+                "recipeYield": "4",
+                "recipeCategory": "Dinner, Lamb",
+                "recipeIngredient":   ["Lamb cutlets 2-4 per person", "Punnet mini tomatoes", "Few handfuls snap or snow peas", "Pita bread", "Cumin", "1 Tbsp balsamic vinegar", "Salt and Pepper to taste"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat small amount of olive oil in fry pan."}, {"@type": "HowToStep", "text": "Cook cutlets for 4 minutes one side and 2 minutes the other side."}, {"@type": "HowToStep", "text": "Sprinkle with cumin while cooking."}, {"@type": "HowToStep", "text": "Mean while blanch snow peas and chop tomatoes in half."}, {"@type": "HowToStep", "text": "Once peas done pop them in fridge to cool."}, {"@type": "HowToStep", "text": "Once cool, mix with tomatoes and balsamic vinegar."}, {"@type": "HowToStep", "text": "Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate."}, {"@type": "HowToStep", "text": "Ready in 10 minutes- for nights you need something super quick!"}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Lamb Cutlets</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Dinner, Lamb</p>
+                        <p><span>Serves:</span>    4</p>
+                        <p><span>Prep Time:</span> 10 mins</p>
+                        <p><span>Cook Time:</span> 10 mins</p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/lamb_cutlets.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/lamb_cutlet.jpeg" alt="Lamb Cutlets" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>Lamb cutlets 2-4 per person</li><li>Punnet mini tomatoes</li><li>Few handfuls snap or snow peas</li><li>Pita bread</li><li>Cumin</li><li>1 Tbsp balsamic vinegar</li><li>Salt and Pepper to taste</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat small amount of olive oil in fry pan.</li><li>Cook cutlets for 4 minutes one side and 2 minutes the other side.</li><li>Sprinkle with cumin while cooking.</li><li>Mean while blanch snow peas and chop tomatoes in half.</li><li>Once peas done pop them in fridge to cool.</li><li>Once cool, mix with tomatoes and balsamic vinegar.</li><li>Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate.</li><li>Ready in 10 minutes- for nights you need something super quick!</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

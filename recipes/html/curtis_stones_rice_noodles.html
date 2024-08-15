@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Curtis Stones Rice Noodles</title>
+        <link rel="canonical" href="/recipes/html/curtis_stones_rice_noodles.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Curtis Stones Rice Noodles",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "curtis_stones_rice_noodles.jpeg",
+                "description": "Curtis Stones Rice Noodles",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Poultry",
+                "recipeIngredient":   ["500gms mince chicken", "200gms Pad Thai rice noodles", "2-3 carrots grated", "4 spring onions chopped ", "2-4 garlic cloves crushed", "1/4 cup Oyster sauce", "2 TBsp Soy sauce", "1 TBsp chilli sauce", "1 teaspoon cornflour, mixed with 2 TBsp water ", "Olive oil ", "salt and pepper to taste"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Cook Pad Thai noodles per packet and instructions and sprinkle olive oil  over them and mix (this stops the noodles sticking together) then set aside."}, {"@type": "HowToStep", "text": "Meanwhile mix all sauces together, with cornflour mixture and set aside."}, {"@type": "HowToStep", "text": "Heat wok or large pan and add olive oil."}, {"@type": "HowToStep", "text": "Heat oil for a few minutes before adding garlic."}, {"@type": "HowToStep", "text": "Cook garlic for 5 minutes then add mince chicken."}, {"@type": "HowToStep", "text": "Cook chicken until fully cooked then add carrot, sauce mixture and noodles."}, {"@type": "HowToStep", "text": "Stir to combine then add salt and pepper and top with spring onion."}, {"@type": "HowToStep", "text": "Serve immediately with additional spring onion on top of each bowl."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Curtis Stones Rice Noodles</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Poultry</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/curtis_stones_rice_noodles.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/curtis_stones_rice_noodles.jpeg" alt="Curtis Stones Rice Noodles" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>500gms mince chicken</li><li>200gms Pad Thai rice noodles</li><li>2-3 carrots grated</li><li>4 spring onions chopped </li><li>2-4 garlic cloves crushed</li><li>1/4 cup Oyster sauce</li><li>2 TBsp Soy sauce</li><li>1 TBsp chilli sauce</li><li>1 teaspoon cornflour, mixed with 2 TBsp water </li><li>Olive oil </li><li>salt and pepper to taste</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Cook Pad Thai noodles per packet and instructions and sprinkle olive oil  over them and mix (this stops the noodles sticking together) then set aside.</li><li>Meanwhile mix all sauces together, with cornflour mixture and set aside.</li><li>Heat wok or large pan and add olive oil.</li><li>Heat oil for a few minutes before adding garlic.</li><li>Cook garlic for 5 minutes then add mince chicken.</li><li>Cook chicken until fully cooked then add carrot, sauce mixture and noodles.</li><li>Stir to combine then add salt and pepper and top with spring onion.</li><li>Serve immediately with additional spring onion on top of each bowl.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

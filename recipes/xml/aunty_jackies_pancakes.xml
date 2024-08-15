@@ -1,0 +1,25 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Aunty Jackies Pancakes</title>
+  <filename>aunty_jackies_pancakes.xml</filename>
+  <htmlFilename>aunty_jackies_pancakes.html</htmlFilename>
+  <thumbnail>aunty_jackies_pancakes.jpeg</thumbnail>
+  <category>Breakfast</category>
+  <yield>6</yield>
+  <prepTime>PT10M</prepTime>
+  <cookTime>PT30M</cookTime>
+  <ingredient>1 1/2 cups milk</ingredient>
+  <ingredient>2 cups SR flour</ingredient>
+  <ingredient>2 TBSP sugar</ingredient>
+  <ingredient>1 egg beaten</ingredient>
+  <step>Whisk flour and sugar together, add milk and egg.</step>
+  <step>Whisk together until combined and there are no lumps.</step>
+  <step>Heat fry pan to medium to hot and melt some butter in pan then add 1/4 cup of the mixture.</step>
+  <step>Turn pancake when bubbles are popping in the middle.</step>
+  <step>Remove once golden brown.</step>
+  <step>Continue until all mixture is used.</step>
+  <step>Serve with your favourite toppings.</step>
+</recipe>

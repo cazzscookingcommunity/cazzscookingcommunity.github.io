@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Gluten Free Orange Cake</title>
+        <link rel="canonical" href="/recipes/html/gluten_free_orange_cake.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Gluten Free Orange Cake",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "gluten_free_orange_cake.jpeg",
+                "description": "Gluten Free Orange Cake",
+                "prepTime": "15 mins",
+                "cookTime": "1 hrs",
+                "suitableForDiet": "GlutenFree",
+                "recipeYield": "8",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["3 eggs", "1 cup sugar", "1 cup gluten free flour", "1/2 cup rice flour*", "3 teaspoons baking powder ", "1/4 teaspoon xanthan gum", "100 gms butter melted ", "100 gms cream cheese (at room temperature)", "1 large orange washed and cut into pieces, with skin", "1 orange", "1 TBsp sugar"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Grease and line bottom of 8 inch springform pan."}, {"@type": "HowToStep", "text": "Beat eggs and sugar until fluffy."}, {"@type": "HowToStep", "text": "In a separate bowl mix dry ingredients and add a bit at a time while mixing eggs and sugar."}, {"@type": "HowToStep", "text": "Mix in butter then cream cheese (cut it into small pieces.)"}, {"@type": "HowToStep", "text": "Place washed and cut up orange into a food processor and blend until fine pulp."}, {"@type": "HowToStep", "text": "Fold it into cake mix and pour into prepared pan."}, {"@type": "HowToStep", "text": "Smooth top and place in the middle rack of the oven for 1 hour or until toothpick comes out clean."}, {"@type": "HowToStep", "text": "To prepare the glaze wash the orange and zest it."}, {"@type": "HowToStep", "text": "Squeeze out the juice and place in a small pan with the sugar."}, {"@type": "HowToStep", "text": "Cook on low heat until sugar dissolved."}, {"@type": "HowToStep", "text": "Remove from heat and mix in zest."}, {"@type": "HowToStep", "text": "Brush over warm cake until all surface is covered and glaze finished."}, {"@type": "HowToStep", "text": "Wait for an hour and remove from pan."}, {"@type": "HowToStep", "text": "Serve plain or with cream or ice cream."}, {"@type": "HowToStep", "text": "note:  the rice flour can be replaced - I have used buckwheat flour and chickpea flour and it still taste amazing!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Gluten Free Orange Cake</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    8</p>
+                        <p><span>Prep Time:</span> 15 mins</p>
+                        <p><span>Cook Time:</span> 1 hrs</p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/gluten_free_orange_cake.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/gluten_free_orange_cake.jpeg" alt="Gluten Free Orange Cake" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Main:</strong><ul><li>3 eggs</li><li>1 cup sugar</li><li>1 cup gluten free flour</li><li>1/2 cup rice flour*</li><li>3 teaspoons baking powder </li><li>1/4 teaspoon xanthan gum</li><li>100 gms butter melted </li><li>100 gms cream cheese (at room temperature)</li><li>1 large orange washed and cut into pieces, with skin</li></ul><strong>Glaze:</strong><ul><li>1 orange</li><li>1 TBsp sugar</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Main:</strong><ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Grease and line bottom of 8 inch springform pan.</li><li>Beat eggs and sugar until fluffy.</li><li>In a separate bowl mix dry ingredients and add a bit at a time while mixing eggs and sugar.</li><li>Mix in butter then cream cheese (cut it into small pieces.)</li><li>Place washed and cut up orange into a food processor and blend until fine pulp.</li><li>Fold it into cake mix and pour into prepared pan.</li><li>Smooth top and place in the middle rack of the oven for 1 hour or until toothpick comes out clean.</li></ol><strong>Glaze:</strong><ol class='recipe-steps'><li>To prepare the glaze wash the orange and zest it.</li><li>Squeeze out the juice and place in a small pan with the sugar.</li><li>Cook on low heat until sugar dissolved.</li><li>Remove from heat and mix in zest.</li><li>Brush over warm cake until all surface is covered and glaze finished.</li><li>Wait for an hour and remove from pan.</li><li>Serve plain or with cream or ice cream.</li><li>note:  the rice flour can be replaced - I have used buckwheat flour and chickpea flour and it still taste amazing!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

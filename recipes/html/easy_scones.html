@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Easy Scones</title>
+        <link rel="canonical" href="/recipes/html/easy_scones.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Easy Scones",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "easiest_scones_in_the_world.jpeg",
+                "description": "Easy Scones",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["4 cups SR flour", "300 mls cream", "300 mls water", "Pinch salt", "250 gms dates chopped", "3 TBsp sugar"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Turn on oven to medium (180D)."}, {"@type": "HowToStep", "text": "Grease a large flat tray and set aside."}, {"@type": "HowToStep", "text": "In a large bowl stir the dry ingredients."}, {"@type": "HowToStep", "text": "Pour in the cream and water and stir with a KNIFE until combined."}, {"@type": "HowToStep", "text": "Do not over stir! Tip out to a generously floured surface and turn once to flour all sides."}, {"@type": "HowToStep", "text": "Gently push down to desired thickness about thumb joint high."}, {"@type": "HowToStep", "text": "Cut out with scone cutter or small glass and place close together on tray."}, {"@type": "HowToStep", "text": "( Unlike cookies you want them touching."}, {"@type": "HowToStep", "text": ") Cook until just starting to change colour, about 20-40 minutes."}, {"@type": "HowToStep", "text": "Turn the tray around a few time to ensure all sides brown evenly while cooking."}, {"@type": "HowToStep", "text": "Sever with whipped cream and jam and hot cup of tea!."}, {"@type": "HowToStep", "text": "As above but adjust as follows: Add sugar to the flour and mix."}, {"@type": "HowToStep", "text": "After water and cream is added to the flour add the chopped dates."}, {"@type": "HowToStep", "text": "Stir with a knife until combined."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Easy Scones</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/easy_scones.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/easiest_scones_in_the_world.jpeg" alt="Easy Scones" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Plain scones:</strong><ul><li>4 cups SR flour</li><li>300 mls cream</li><li>300 mls water</li><li>Pinch salt</li></ul><strong>Date scones:</strong><ul><li>250 gms dates chopped</li><li>3 TBsp sugar</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Plain scones:</strong><ol class='recipe-steps'><li>Turn on oven to medium (180D).</li><li>Grease a large flat tray and set aside.</li><li>In a large bowl stir the dry ingredients.</li><li>Pour in the cream and water and stir with a KNIFE until combined.</li><li>Do not over stir! Tip out to a generously floured surface and turn once to flour all sides.</li><li>Gently push down to desired thickness about thumb joint high.</li><li>Cut out with scone cutter or small glass and place close together on tray.</li><li>( Unlike cookies you want them touching.</li><li>) Cook until just starting to change colour, about 20-40 minutes.</li><li>Turn the tray around a few time to ensure all sides brown evenly while cooking.</li><li>Sever with whipped cream and jam and hot cup of tea!.</li></ol><strong>Date scones:</strong><ol class='recipe-steps'><li>As above but adjust as follows: Add sugar to the flour and mix.</li><li>After water and cream is added to the flour add the chopped dates.</li><li>Stir with a knife until combined.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

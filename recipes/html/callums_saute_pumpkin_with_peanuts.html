@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Callums Saute Pumpkin with Peanuts</title>
+        <link rel="canonical" href="/recipes/html/callums_saute_pumpkin_with_peanuts.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Callums Saute Pumpkin with Peanuts",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "callums_pumpkin_dish.jpeg",
+                "description": "Callums Saute Pumpkin with Peanuts",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "Vegetarian, FODMAP",
+                "recipeYield": "None",
+                "recipeCategory": "Dinner",
+                "recipeIngredient":   ["1/2 pumpkin deseeded peeled and cut into wedges ", "1 can coconut milk", "4 cups of chicken or veggie stock", "3-4 TBsp canola oil", "1/2 lime juiced", "1 teasp sugar", "salt and pepper to taste", "2 lemon sticks cut finely", "1 chilli chopped", "5 garlic cloves sliced", "1 teaspoon turmeric", "2 TBsp five spice", "5 TBsp light soy sauce", "2 TBsp honey", "Bean Sprouts washed", "Rice", "Peanuts", "Chopped spring onions"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Get all your ingredients ready on the bench."}, {"@type": "HowToStep", "text": "Heat a large pan, then add oil and heat oil."}, {"@type": "HowToStep", "text": "While you are doing this prepare your saute curry paste."}, {"@type": "HowToStep", "text": "Once curry paste prepared add to hot fry pan and cook for about five minutes."}, {"@type": "HowToStep", "text": "Add pumpkin and stir to coat all the pieces."}, {"@type": "HowToStep", "text": "Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin is cooked but not mushy, about 15 minutes."}, {"@type": "HowToStep", "text": "Stirring pumpkin several times while it is cooking."}, {"@type": "HowToStep", "text": "You can use a lid to aid with this step if you have one."}, {"@type": "HowToStep", "text": "Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes."}, {"@type": "HowToStep", "text": "Taste again and add any extra salt and pepper if required."}, {"@type": "HowToStep", "text": "Using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together."}, {"@type": "HowToStep", "text": "Once mushed to your liking add soy sauce, honey, five spice and salt and pepper."}, {"@type": "HowToStep", "text": "Put several tablespoons of rice in the bottom of a bowl, sprinkle over a layer of bean sprouts."}, {"@type": "HowToStep", "text": "Then ladle over your pumpkin ensuring to use a lot of the sauce."}, {"@type": "HowToStep", "text": "Sprinkle over spring onions and peanuts (if desired."}, {"@type": "HowToStep", "text": ")\n            Ps you can adapt with other vegetables or chicken."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Callums Saute Pumpkin with Peanuts</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Dinner</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/callums_saute_pumpkin_with_peanuts.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/callums_pumpkin_dish.jpeg" alt="Callums Saute Pumpkin with Peanuts" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Main:</strong><ul><li>1/2 pumpkin deseeded peeled and cut into wedges </li><li>1 can coconut milk</li><li>4 cups of chicken or veggie stock</li><li>3-4 TBsp canola oil</li><li>1/2 lime juiced</li><li>1 teasp sugar</li><li>salt and pepper to taste</li></ul><strong>Saute curry paste:</strong><ul><li>2 lemon sticks cut finely</li><li>1 chilli chopped</li><li>5 garlic cloves sliced</li><li>1 teaspoon turmeric</li><li>2 TBsp five spice</li><li>5 TBsp light soy sauce</li><li>2 TBsp honey</li></ul><strong>To serve:</strong><ul><li>Bean Sprouts washed</li><li>Rice</li><li>Peanuts</li><li>Chopped spring onions</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Main:</strong><ol class='recipe-steps'><li>Get all your ingredients ready on the bench.</li><li>Heat a large pan, then add oil and heat oil.</li><li>While you are doing this prepare your saute curry paste.</li><li>Once curry paste prepared add to hot fry pan and cook for about five minutes.</li><li>Add pumpkin and stir to coat all the pieces.</li><li>Pour in stock and bring to the boil, reduce to a simmer and cook until pumpkin is cooked but not mushy, about 15 minutes.</li><li>Stirring pumpkin several times while it is cooking.</li><li>You can use a lid to aid with this step if you have one.</li><li>Add coconut milk, lime juice and sugar, stir well and cook for a further five minutes.</li><li>Taste again and add any extra salt and pepper if required.</li></ol><strong>Saute curry paste:</strong><ol class='recipe-steps'><li>Using a mortar and pestle, crush the garlic, lemon grass, chilli and turmeric together.</li><li>Once mushed to your liking add soy sauce, honey, five spice and salt and pepper.</li></ol><strong>To serve:</strong><ol class='recipe-steps'><li>Put several tablespoons of rice in the bottom of a bowl, sprinkle over a layer of bean sprouts.</li><li>Then ladle over your pumpkin ensuring to use a lot of the sauce.</li><li>Sprinkle over spring onions and peanuts (if desired.</li><li>)
+            Ps you can adapt with other vegetables or chicken.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

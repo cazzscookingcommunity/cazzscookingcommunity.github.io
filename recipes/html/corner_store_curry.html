@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Corner Store Curry</title>
+        <link rel="canonical" href="/recipes/html/corner_store_curry.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Corner Store Curry",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "jamie_oliver_corner_store_curry.jpeg",
+                "description": "Corner Store Curry",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "",
+                "recipeCategory": "",
+                "recipeIngredient":   ["4-6 chicken thigh fillets", "2 TB spoons curry paste (what ever you have on hand)", "2 TBsp olive oil", "2-4 cloves garlic crushed ", "4 inches ginger grated ", "2 fresh chilli sliced (optional)", "2 TBsp curry paste (what ever you have on hand)", "1/4 cup mango chutney ", "1 can of chopped tomatoes, chickpeas (rinsed and drained)  and coconut milk", "Any veggies you have on hand - chopped into 2-3 cm cubes", "Rice or grains to serve", "Serve with Roman lettuce if desired."],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Coat the chicken on all sides, with 1 TBsp curry paste and place back in fridge until ready to cook."}, {"@type": "HowToStep", "text": "Heat olive oil in a pot and add garlic, ginger and remaining curry paste."}, {"@type": "HowToStep", "text": "Cook for 3-5 minutes then add chopped tomatoes, coconut milk and chickpeas."}, {"@type": "HowToStep", "text": "Add the veggies and mango chutney, stir well to combine."}, {"@type": "HowToStep", "text": "Bring to a boil and reduce to a simmer and cook for 30 minutes."}, {"@type": "HowToStep", "text": "Cook rice or grains at this time if serving with your curry."}, {"@type": "HowToStep", "text": "15 minutes before done cook the chicken in a little oil in a fry pan for 5 minutes each side."}, {"@type": "HowToStep", "text": "Remove form pan and rest for 5 minutes."}, {"@type": "HowToStep", "text": "Serve the curry on rice or grains, chilli sprinkle on top if you want it vegetarian."}, {"@type": "HowToStep", "text": "Serve on a plate with meat, grains and lettuce and lemon wedge and chilli sprinkled on top if desired."}, {"@type": "HowToStep", "text": "Easy and delish! This is one of those recipes that you can substitute, if you don\u2019t have fresh ginger used dried or add left over veggies that you don\u2019t know what to do with!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Corner Store Curry</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  </p>
+                        <p><span>Serves:</span>    </p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/corner_store_curry.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/jamie_oliver_corner_store_curry.jpeg" alt="Corner Store Curry" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>4-6 chicken thigh fillets</li><li>2 TB spoons curry paste (what ever you have on hand)</li><li>2 TBsp olive oil</li><li>2-4 cloves garlic crushed </li><li>4 inches ginger grated </li><li>2 fresh chilli sliced (optional)</li><li>2 TBsp curry paste (what ever you have on hand)</li><li>1/4 cup mango chutney </li><li>1 can of chopped tomatoes, chickpeas (rinsed and drained)  and coconut milk</li><li>Any veggies you have on hand - chopped into 2-3 cm cubes</li><li>Rice or grains to serve</li><li>Serve with Roman lettuce if desired.</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Coat the chicken on all sides, with 1 TBsp curry paste and place back in fridge until ready to cook.</li><li>Heat olive oil in a pot and add garlic, ginger and remaining curry paste.</li><li>Cook for 3-5 minutes then add chopped tomatoes, coconut milk and chickpeas.</li><li>Add the veggies and mango chutney, stir well to combine.</li><li>Bring to a boil and reduce to a simmer and cook for 30 minutes.</li><li>Cook rice or grains at this time if serving with your curry.</li><li>15 minutes before done cook the chicken in a little oil in a fry pan for 5 minutes each side.</li><li>Remove form pan and rest for 5 minutes.</li><li>Serve the curry on rice or grains, chilli sprinkle on top if you want it vegetarian.</li><li>Serve on a plate with meat, grains and lettuce and lemon wedge and chilli sprinkled on top if desired.</li><li>Easy and delish! This is one of those recipes that you can substitute, if you don’t have fresh ginger used dried or add left over veggies that you don’t know what to do with!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

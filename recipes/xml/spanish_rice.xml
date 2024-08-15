@@ -1,0 +1,35 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Spanish Rice</title>
+  <filename>spanish_rice.xml</filename>
+  <htmlFilename>spanish_rice.html</htmlFilename>
+  <comment/>
+  <thumbnail>spanish_rice.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <diet>GlutenFree</diet>
+  <diet>Vegan</diet>
+  <ingredient>Olive oil</ingredient>
+  <ingredient>2-4 garlic cloves crushed</ingredient>
+  <ingredient>1 red and yellow capsicum chopped</ingredient>
+  <ingredient>1/2 teaspoon chilli</ingredient>
+  <ingredient>1 1/2 cups medium grain rice</ingredient>
+  <ingredient>2 teaspoons paprika</ingredient>
+  <ingredient>2 teaspoons cumin</ingredient>
+  <ingredient>2 teaspoons coriander</ingredient>
+  <ingredient>400 gm can chopped tomatoes </ingredient>
+  <ingredient>1 cup chicken stock</ingredient>
+  <step>Heat oil in large pan then add garlic and cook for a few minutes.</step>
+  <step>Add capsicum and stir until cooked, then remove from pan.</step>
+  <step>Put all spices in fry pan and cook for a minute then add rice and stir until rice is coated.</step>
+  <step>Return capsicum and add stock and tomatoes to pan.</step>
+  <step>Bring to the boil then reduce heat to a simmer and cover for 25 minutes or until rice is tender and fluids absorbed.</step>
+  <step>Set aside for 10 minutes then stir well and serve with American style ribs.</step>
+  <step>Also great with tuna.</step>
+</recipe>

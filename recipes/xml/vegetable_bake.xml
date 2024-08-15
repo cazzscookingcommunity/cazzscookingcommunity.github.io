@@ -1,0 +1,27 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Vegetable Bake</title>
+  <filename>vegetable_bake.xml</filename>
+  <htmlFilename>vegetable_bake.html</htmlFilename>
+  <thumbnail>vegetable_bake.jpeg</thumbnail>
+  <category>Sides</category>
+  <ingredient>1-2 Sweet potatoes chopped </ingredient>
+  <ingredient>400gms pumpkin chopped</ingredient>
+  <ingredient>400gms butternut pumpkin chopped</ingredient>
+  <ingredient>1 red and yellow capsicums chopped</ingredient>
+  <ingredient>1 red onion cut in 1/8</ingredient>
+  <ingredient>1/2 cup feta crumbled</ingredient>
+  <ingredient>200 gms sundries tomatoes chopped</ingredient>
+  <ingredient>1/2 bunch coriander leaves removed </ingredient>
+  <ingredient>Olive oil </ingredient>
+  <ingredient>salt and pepper (cracked pepper)</ingredient>
+  <step>Place all ingredients except coriander and salt and pepper in oven dish and mix to coat all.</step>
+  <step>Seal with foil and cook in preheat moderate oven for 30-40 minutes.</step>
+  <step>Remove foil and stir well.</step>
+  <step>Return to oven for a further 15minutes.</step>
+  <step>Remove from oven and season to taste, then stir well.</step>
+  <step>Sprinkle with coriander and serve with meat dish if desired.</step>
+</recipe>

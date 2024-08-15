@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>No Bake Oreo Cheese Cake</title>
+        <link rel="canonical" href="/recipes/html/no_bake_oreo_cheese_cake.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "No Bake Oreo Cheese Cake",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "no_bake_oreo_cheese_cake.jpeg",
+                "description": "No Bake Oreo Cheese Cake",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["24 Oreos", "4 TBsp butter melted ", "455gms cream cheese room temperature", "1 cup icing sugar sifted", "1 teaspoon vanilla essence", "2 cups heavy whipping cream", "15 Oreos chopped"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a 9 inch spring form pan, by greasing base and sides."}, {"@type": "HowToStep", "text": "Place grease proof paper in base and set aside."}, {"@type": "HowToStep", "text": "In a blender, blend cookies for the base and while rotating add melted butter."}, {"@type": "HowToStep", "text": "Once all the cookie crumbs are wet, remove from blender and pour into prepared pan."}, {"@type": "HowToStep", "text": "Push the crumbs down until they are even on the bottom."}, {"@type": "HowToStep", "text": "Place pan in fridge while preparing the cheese cake."}, {"@type": "HowToStep", "text": "Whip cheese with whip attachment until smooth."}, {"@type": "HowToStep", "text": "Add sugar and vanilla and whip until well combined."}, {"@type": "HowToStep", "text": "Pour over n cream and whip until very well blended."}, {"@type": "HowToStep", "text": "Fold through cookies and scoop into prepared pan."}, {"@type": "HowToStep", "text": "Smooth over top and decorate as desired."}, {"@type": "HowToStep", "text": "Cover with plastic wrap and refrigerate for 4-5 hours."}, {"@type": "HowToStep", "text": "Carefully remove from pan and serve chilled."}, {"@type": "HowToStep", "text": "Keep any remaining cake in fridge for up to 3 days."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">No Bake Oreo Cheese Cake</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/no_bake_oreo_cheese_cake.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/no_bake_oreo_cheese_cake.jpeg" alt="No Bake Oreo Cheese Cake" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Crust:</strong><ul><li>24 Oreos</li><li>4 TBsp butter melted </li></ul><strong>Cheese Cake:</strong><ul><li>455gms cream cheese room temperature</li><li>1 cup icing sugar sifted</li><li>1 teaspoon vanilla essence</li><li>2 cups heavy whipping cream</li><li>15 Oreos chopped</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Crust:</strong><ol class='recipe-steps'><li>Prepare a 9 inch spring form pan, by greasing base and sides.</li><li>Place grease proof paper in base and set aside.</li><li>In a blender, blend cookies for the base and while rotating add melted butter.</li><li>Once all the cookie crumbs are wet, remove from blender and pour into prepared pan.</li><li>Push the crumbs down until they are even on the bottom.</li><li>Place pan in fridge while preparing the cheese cake.</li></ol><strong>Cheese Cake:</strong><ol class='recipe-steps'><li>Whip cheese with whip attachment until smooth.</li><li>Add sugar and vanilla and whip until well combined.</li><li>Pour over n cream and whip until very well blended.</li><li>Fold through cookies and scoop into prepared pan.</li><li>Smooth over top and decorate as desired.</li><li>Cover with plastic wrap and refrigerate for 4-5 hours.</li><li>Carefully remove from pan and serve chilled.</li><li>Keep any remaining cake in fridge for up to 3 days.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

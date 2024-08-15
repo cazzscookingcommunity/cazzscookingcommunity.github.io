@@ -1,7 +1,7 @@
 
 var recipeList=[];
-const path = "/recipes/";
-const imgpath = "/images/"
+// const path = "/recipes/";
+// const imgpath = "/recipes/images/"
 const SearchIndexFile = "/components/search_index.json";
 let idx;
 window.scrollTo(0,$('#main').offset().top);
@@ -163,7 +163,7 @@ function addPageMetaData(data) {
         metaData += `{
             "@type": "ListItem",
             "position": "${i + 1}", // Schema.org expects positions to start from 1
-            "url": "https://cazzscookingcommunity.github.io/recipe.html?recipe=${filename}"
+            "url": "https://cazzscookingcommunity.github.io/recipes/html/${filename}"
         }`;
     }
     metaData += `]}`;

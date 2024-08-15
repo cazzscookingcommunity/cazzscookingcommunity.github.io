@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Martys Tiramisu</title>
+        <link rel="canonical" href="/recipes/html/martys_tiramisu.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Martys Tiramisu",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "martys_tiramisu.jpeg",
+                "description": "Martys Tiramisu",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["4 eggs separated", "1/2 cup caster sugar", "1-2 cups strong black coffee", "250 gms mascarpone ", "1/2 block dark chocolate shaved", "Cocoa (lumps removed)", "1 packet sponge fingers"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Whip eggs whites until soft peaks form."}, {"@type": "HowToStep", "text": "Stir egg yolks and sugar together until sugar is dissolved."}, {"@type": "HowToStep", "text": "Add the mascarpone to egg yoke mixture."}, {"@type": "HowToStep", "text": "Then fold the egg whites into egg yoke mixture, until combined."}, {"@type": "HowToStep", "text": "Rub a small amount of this mixture around a square or rectangular pan."}, {"@type": "HowToStep", "text": "Place the coffee in a flat dish."}, {"@type": "HowToStep", "text": "Dip a sponge finger in the coffee and wet both sides."}, {"@type": "HowToStep", "text": "Place a layer of coffee dipped sponge fingers in deep baking dish, then top with a thin layer of egg mixture, covering the surface."}, {"@type": "HowToStep", "text": "Sprinkle over a thin layer of cocoa, then sprinkle a thin layer of shaved chocolate."}, {"@type": "HowToStep", "text": "Top with another layer of coffee dipped sponge fingers and egg mixture and cocoa and chocolate."}, {"@type": "HowToStep", "text": "Repeat layers at least thee times until you reach the top of the pan, finishing with cocoa and chocolate on top layer."}, {"@type": "HowToStep", "text": "Cover with glad wrap and place in fridge over night."}, {"@type": "HowToStep", "text": "Cut into squares and serve cold."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Martys Tiramisu</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/martys_tiramisu.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/martys_tiramisu.jpeg" alt="Martys Tiramisu" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>4 eggs separated</li><li>1/2 cup caster sugar</li><li>1-2 cups strong black coffee</li><li>250 gms mascarpone </li><li>1/2 block dark chocolate shaved</li><li>Cocoa (lumps removed)</li><li>1 packet sponge fingers</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Whip eggs whites until soft peaks form.</li><li>Stir egg yolks and sugar together until sugar is dissolved.</li><li>Add the mascarpone to egg yoke mixture.</li><li>Then fold the egg whites into egg yoke mixture, until combined.</li><li>Rub a small amount of this mixture around a square or rectangular pan.</li><li>Place the coffee in a flat dish.</li><li>Dip a sponge finger in the coffee and wet both sides.</li><li>Place a layer of coffee dipped sponge fingers in deep baking dish, then top with a thin layer of egg mixture, covering the surface.</li><li>Sprinkle over a thin layer of cocoa, then sprinkle a thin layer of shaved chocolate.</li><li>Top with another layer of coffee dipped sponge fingers and egg mixture and cocoa and chocolate.</li><li>Repeat layers at least thee times until you reach the top of the pan, finishing with cocoa and chocolate on top layer.</li><li>Cover with glad wrap and place in fridge over night.</li><li>Cut into squares and serve cold.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Big Boy Burgers</title>
+        <link rel="canonical" href="/recipes/html/big_boy_burgers.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Big Boy Burgers",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "big_boy_burgers.jpeg",
+                "description": "Big Boy Burgers",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Beef",
+                "recipeIngredient":   ["400 gms beef minced", "200 gms pork minced", "1 egg beaten", "2 Carrots minced or grated", "1 TBsp mix herbs", "salt and pepper to taste", "6 sour dough rolls halved and slightly toasted", "1 egg per roll fried", "1 piece of cooked bacon per roll", "Few leaves of baby spinach per roll", "1-2 slices of tomatoes per roll", "1 slice of cheese per roll", "Condiments of your choice"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Mix all ingredients together and make into 6-8 patties."}, {"@type": "HowToStep", "text": "Cook on stove top until brown about 6-8 minutes."}, {"@type": "HowToStep", "text": "Place in oven proof dish and cover with foil and place in preheated oven while you cook the other ingredients."}, {"@type": "HowToStep", "text": "Cook the bacon first and place in oven proof dish then pop in oven to keep warm."}, {"@type": "HowToStep", "text": "You can place your cheese slices on top of your burgers while they are keeping them warm at this time."}, {"@type": "HowToStep", "text": "While you fry your eggs, toast your rolls."}, {"@type": "HowToStep", "text": "You can either make the burger or place all ingredients on the bench or table and let people decide what they would like in their burger."}, {"@type": "HowToStep", "text": "You can substitute the rolls for a gluten free option if desired."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Big Boy Burgers</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Beef</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/big_boy_burgers.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/big_boy_burgers.jpeg" alt="Big Boy Burgers" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Patties:</strong><ul><li>400 gms beef minced</li><li>200 gms pork minced</li><li>1 egg beaten</li><li>2 Carrots minced or grated</li><li>1 TBsp mix herbs</li><li>salt and pepper to taste</li></ul><strong>Extras:</strong><ul><li>6 sour dough rolls halved and slightly toasted</li><li>1 egg per roll fried</li><li>1 piece of cooked bacon per roll</li><li>Few leaves of baby spinach per roll</li><li>1-2 slices of tomatoes per roll</li><li>1 slice of cheese per roll</li><li>Condiments of your choice</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Patties:</strong><ol class='recipe-steps'><li>Mix all ingredients together and make into 6-8 patties.</li><li>Cook on stove top until brown about 6-8 minutes.</li><li>Place in oven proof dish and cover with foil and place in preheated oven while you cook the other ingredients.</li></ol><strong>Extras:</strong><ol class='recipe-steps'><li>Cook the bacon first and place in oven proof dish then pop in oven to keep warm.</li><li>You can place your cheese slices on top of your burgers while they are keeping them warm at this time.</li><li>While you fry your eggs, toast your rolls.</li><li>You can either make the burger or place all ingredients on the bench or table and let people decide what they would like in their burger.</li><li>You can substitute the rolls for a gluten free option if desired.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

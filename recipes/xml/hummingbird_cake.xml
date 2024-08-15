@@ -1,0 +1,37 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Hummingbird Cake</title>
+  <filename>hummingbird_cake.xml</filename>
+  <htmlFilename>hummingbird_cake.html</htmlFilename>
+  <comment/>
+  <thumbnail>hummingbird_cake.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <diet>GlutenFree</diet>
+  <ingredient>1 can crushed pineapple in juice drained</ingredient>
+  <ingredient>2 ripe bananas mushed</ingredient>
+  <ingredient>2/3 cup desiccated coconut </ingredient>
+  <ingredient>1 cup coconut sugar or substitute with raw sugar </ingredient>
+  <ingredient>1 cup coconut flour or almond flour</ingredient>
+  <ingredient>1 cup gluten free flour </ingredient>
+  <ingredient>2 teaspoon baking powder </ingredient>
+  <ingredient>2 teaspoon cinnamon </ingredient>
+  <ingredient>2 teaspoon vanilla essence </ingredient>
+  <ingredient>4 eggs beaten</ingredient>
+  <ingredient>1/2 cup oil (olive or vegetable)</ingredient>
+  <ingredient>1 lemon zest</ingredient>
+  <step>Preheat oven to 160C and grease 26cm ring cake tin.</step>
+  <step>In large bowl add pineapple, bananas, lemon zest, coconut, sugar, coconut flour and gluten free flour.</step>
+  <step>In a separate bowl combine all other ingredients and stir with a fork.</step>
+  <step>Add to the other ingredients and fold through.</step>
+  <step>Pour into cake tin and smooth top down with back of a spoon or a wet hand.</step>
+  <step>Place in oven for 40 minutes or until knife once inserted comes out clean.</step>
+  <step>Remove by flipping onto a plate and serve warm or cold.</step>
+  <step>You can ice if desired.</step>
+</recipe>

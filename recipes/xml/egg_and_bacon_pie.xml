@@ -1,0 +1,31 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Egg and Bacon Pie</title>
+  <filename>egg_and_bacon_pie.xml</filename>
+  <htmlFilename>egg_and_bacon_pie.html</htmlFilename>
+  <thumbnail>egg_and_bacon_pie.jpeg</thumbnail>
+  <category>Dinner</category>
+  <ingredient>2 sheets puff pastry </ingredient>
+  <ingredient>4 eggs </ingredient>
+  <ingredient>200-300 gms diced bacon cooked well</ingredient>
+  <ingredient>salt and pepper (lots)</ingredient>
+  <ingredient>1/2 teasp butter or margarine</ingredient>
+  <ingredient>1/3 cup milk (for basting)</ingredient>
+  <step>Pre heat oven to 180C.</step>
+  <step>Grease tin pie dish with butter and set aside.</step>
+  <step>In a small bowl beat eggs and set aside.</step>
+  <step>Place one sheet over the base of the tin and gently push in to remove any air bubbles.</step>
+  <step>Cut of edges and pour in eggs.</step>
+  <step>Sprinkle bacon evenly over the surface and sprinkle with salt and pepper.</step>
+  <step>Carefully place other pastry sheet on top and cut off excess edges.</step>
+  <step>Press down with your fingers on the edges to seal pie.</step>
+  <step>Brush with milk and place in oven until golden on top (about 45 mins.</step>
+  <step>)  recipe can be doubled, I usually cook at lease 4 at one time.</step>
+  <step>Serve piping hot or cold.</step>
+  <step>I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins.</step>
+  <step>) Once cool cut in half and serve with jam and whipped cream inside.</step>
+  <step>Sprinkle with a little icing sugar, if you want to be fancy!.</step>
+</recipe>

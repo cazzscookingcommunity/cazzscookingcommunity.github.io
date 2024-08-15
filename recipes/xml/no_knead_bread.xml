@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>No Knead Bread</title>
+  <filename>no_knead_bread.xml</filename>
+  <htmlFilename>no_knead_bread.html</htmlFilename>
+  <comment>c/o Jenny Can Cook</comment>
+  <thumbnail>no_knead_bread.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <ingredient>3 cups flour</ingredient>
+  <ingredient>1/4 teaspoon yeast</ingredient>
+  <ingredient>1 teaspoon salt</ingredient>
+  <ingredient>1/2 cup boiling water</ingredient>
+  <ingredient>1 cup room temperature water</ingredient>
+  <ingredient>Extra flour</ingredient>
+  <step>Mix dry ingredients together.</step>
+  <step>In a jug mix the two waters together and pour it into the dry ingredients and mix until ingredients combined.</step>
+  <step>Cover and leave for 8-24 hours.</step>
+  <step>When ready heat oven to 220C.</step>
+  <step>While oven is heating up, spread flour on the bench.</step>
+  <step>Tip out dough and turn dough over to cover with flour.</step>
+  <step>Place bowl over flour for 15 minutes.</step>
+  <step>Meanwhile place Dutch oven in the oven for 15 minutes while the dough is under the bowl.</step>
+  <step>Once Dutch oven is hot place dough in it, and place lid on and cook for 30 minutes.</step>
+  <step>Then remove lid and cook a further 15 minutes.</step>
+  <step>Remove bread from Dutch oven and rest go a few hours before cutting.</step>
+</recipe>

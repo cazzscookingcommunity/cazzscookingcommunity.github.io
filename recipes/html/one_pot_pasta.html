@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>One Pot Pasta</title>
+        <link rel="canonical" href="/recipes/html/one_pot_pasta.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "One Pot Pasta",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "one_pot_pasta.jpeg",
+                "description": "One Pot Pasta",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "",
+                "recipeCategory": "",
+                "recipeIngredient":   ["4 garlic cloves crushed ", "4 TBsp olive oil ", "500 gms mince pork (or one can of lentils rinsed and drained and one or two carrots grated, if you want vegetarian)", "2 TBsp Italian herbs", "2 cans chopped tomatoes ", "1 bottle passata sauce", "1/3 cup tomatoe paste", "2 bay leaves", "1 TBsp oregano ", "1/4 cup water", "10 long thin lasagna pieces ( gluten free if required)", "2-3 cups baby spinach ", "2-3 cups grated cheese", "1/3 cup grated Parmesan ", "250 gms ricotta", "salt and pepper to taste", "Chopped parsley for garnish"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat oil in large dish and cook garlic with bay leaves for 4-5 minutes on medium heat."}, {"@type": "HowToStep", "text": "Add meat and cook until no longer pink (if using meat."}, {"@type": "HowToStep", "text": ") Add can tomatoes, passata sauce, tomatoe paste, oregano, water and pasta sheets and bring to a boil then reduce to a simmer."}, {"@type": "HowToStep", "text": "Cook for 15 minutes with the lid on (stir  occasionally."}, {"@type": "HowToStep", "text": ") Once Pasta is cooked add lentils and carrots if you want it vegetarian and add spinach, stir through well."}, {"@type": "HowToStep", "text": "Season with salt and pepper if desired."}, {"@type": "HowToStep", "text": "Sprinkle over grated cheeses and plop ricotta in heap spoonfuls evenly around dish."}, {"@type": "HowToStep", "text": "Cover with lid and cook for another 5-10 minutes."}, {"@type": "HowToStep", "text": "Remove lid and sprinkle with parsley, serve hot."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">One Pot Pasta</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  </p>
+                        <p><span>Serves:</span>    </p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/one_pot_pasta.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/one_pot_pasta.jpeg" alt="One Pot Pasta" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>4 garlic cloves crushed </li><li>4 TBsp olive oil </li><li>500 gms mince pork (or one can of lentils rinsed and drained and one or two carrots grated, if you want vegetarian)</li><li>2 TBsp Italian herbs</li><li>2 cans chopped tomatoes </li><li>1 bottle passata sauce</li><li>1/3 cup tomatoe paste</li><li>2 bay leaves</li><li>1 TBsp oregano </li><li>1/4 cup water</li><li>10 long thin lasagna pieces ( gluten free if required)</li><li>2-3 cups baby spinach </li><li>2-3 cups grated cheese</li><li>1/3 cup grated Parmesan </li><li>250 gms ricotta</li><li>salt and pepper to taste</li><li>Chopped parsley for garnish</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat oil in large dish and cook garlic with bay leaves for 4-5 minutes on medium heat.</li><li>Add meat and cook until no longer pink (if using meat.</li><li>) Add can tomatoes, passata sauce, tomatoe paste, oregano, water and pasta sheets and bring to a boil then reduce to a simmer.</li><li>Cook for 15 minutes with the lid on (stir  occasionally.</li><li>) Once Pasta is cooked add lentils and carrots if you want it vegetarian and add spinach, stir through well.</li><li>Season with salt and pepper if desired.</li><li>Sprinkle over grated cheeses and plop ricotta in heap spoonfuls evenly around dish.</li><li>Cover with lid and cook for another 5-10 minutes.</li><li>Remove lid and sprinkle with parsley, serve hot.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

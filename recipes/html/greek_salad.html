@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Greek Salad</title>
+        <link rel="canonical" href="/recipes/html/greek_salad.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Greek Salad",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "greek_salad.jpeg",
+                "description": "Greek Salad",
+                "prepTime": "15 mins",
+                "cookTime": "",
+                "suitableForDiet": "FODMAP, GlutenFree, Vegetarian, Keto, LowCarb, LowSugar, EggFree",
+                "recipeYield": "4",
+                "recipeCategory": "Salad",
+                "recipeIngredient":   ["3-4 tomatoes chopped", "2 Lebanese cucumbers peeled, de-seeded and chopped", "150 gms pitted kalamata olives", "160 gms firm Greek feta chopped", "1 red, or yellow capsicum chopped (can be omitted)", "3 spring onions chopped", "3 TBsp olive oil", "1 TBsp white wine vinegar", "1 teasp oregano", "1/4 teasp salt and pepper"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Place all ingredients in a bowl, except dressing ingredients and stir well."}, {"@type": "HowToStep", "text": "Place dressing ingredients in a small jar and shake well."}, {"@type": "HowToStep", "text": "Pour contents of dressing over salad and mix to combine."}, {"@type": "HowToStep", "text": "Best served immediately."}, {"@type": "HowToStep", "text": "Place all ingredients in a bowl, except dressing ingredients and stir well."}, {"@type": "HowToStep", "text": "Place dressing ingredients in a small jar and shake well."}, {"@type": "HowToStep", "text": "Pour contents of dressing over salad and mix to combine."}, {"@type": "HowToStep", "text": "Best served immediately."}, {"@type": "HowToStep", "text": "Ps if you prefer you can replace spring onions with a red onion ( However, this will no longer be FODMAP friendly.)"}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Greek Salad</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Salad</p>
+                        <p><span>Serves:</span>    4</p>
+                        <p><span>Prep Time:</span> 15 mins</p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/greek_salad.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/greek_salad.jpeg" alt="Greek Salad" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Main:</strong><ul><li>3-4 tomatoes chopped</li><li>2 Lebanese cucumbers peeled, de-seeded and chopped</li><li>150 gms pitted kalamata olives</li><li>160 gms firm Greek feta chopped</li><li>1 red, or yellow capsicum chopped (can be omitted)</li><li>3 spring onions chopped</li></ul><strong>Dressing:</strong><ul><li>3 TBsp olive oil</li><li>1 TBsp white wine vinegar</li><li>1 teasp oregano</li><li>1/4 teasp salt and pepper</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Main:</strong><ol class='recipe-steps'><li>Place all ingredients in a bowl, except dressing ingredients and stir well.</li><li>Place dressing ingredients in a small jar and shake well.</li><li>Pour contents of dressing over salad and mix to combine.</li><li>Best served immediately.</li></ol><strong>Dressing:</strong><ol class='recipe-steps'><li>Place all ingredients in a bowl, except dressing ingredients and stir well.</li><li>Place dressing ingredients in a small jar and shake well.</li><li>Pour contents of dressing over salad and mix to combine.</li><li>Best served immediately.</li><li>Ps if you prefer you can replace spring onions with a red onion ( However, this will no longer be FODMAP friendly.)</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

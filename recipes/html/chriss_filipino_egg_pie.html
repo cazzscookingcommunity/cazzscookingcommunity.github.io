@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Chriss Filipino Egg Pie</title>
+        <link rel="canonical" href="/recipes/html/chriss_filipino_egg_pie.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Chriss Filipino Egg Pie",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "chriss_filipino_egg_pie.jpeg",
+                "description": "Chriss Filipino Egg Pie",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["3 cups plain flour", "4 TBsp sugar", "1 teasp salt", "250gms butter cut into cubes", "1/4 cup cold water", "1 can evaporated milk", "1 can condensed milk", "4 eggs", "1 egg yolk and white separated", "1 teasp vanilla extract", "1 TBsp lemon juice"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Combine flour, sugar and salt and mix well."}, {"@type": "HowToStep", "text": "Add butter and beat in mixer, until well combine."}, {"@type": "HowToStep", "text": "Gradually add the cold water and mix well."}, {"@type": "HowToStep", "text": "Remove dough from bowl and make into a ball."}, {"@type": "HowToStep", "text": "Cover with wrap and refrigerate for 30 minutes."}, {"@type": "HowToStep", "text": "Once done sprinkle flour on a clean surface."}, {"@type": "HowToStep", "text": "Flatten dough and roll until about 1/2 cm thick."}, {"@type": "HowToStep", "text": "Cut in two and carefully place in two greased metal pie dishes."}, {"@type": "HowToStep", "text": "Push down and trim edges but leave some excess all around to allow for shrinking."}, {"@type": "HowToStep", "text": "Put in fridge while making the filling."}, {"@type": "HowToStep", "text": "Heat evaporated milk in bowl for 1 minute."}, {"@type": "HowToStep", "text": "In a large bowl whisk the four eggs and seperate yolk."}, {"@type": "HowToStep", "text": "Gradually pour in condensed milk while whisking."}, {"@type": "HowToStep", "text": "Add vanilla and lemon juice, while whisking."}, {"@type": "HowToStep", "text": "Add the evaporated milk and whisk while pouring in."}, {"@type": "HowToStep", "text": "Continue whisking until all ingredients well combined."}, {"@type": "HowToStep", "text": "Beat the egg white until soft peaks form, then fold into the mixture."}, {"@type": "HowToStep", "text": "Remove crusts from fridge and pour in filling."}, {"@type": "HowToStep", "text": "Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes."}, {"@type": "HowToStep", "text": "Or cook until tooth pick comes out clean when inserted in the centre of the pie."}, {"@type": "HowToStep", "text": "Allow to cool completely before cutting."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Chriss Filipino Egg Pie</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/chriss_filipino_egg_pie.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/chriss_filipino_egg_pie.jpeg" alt="Chriss Filipino Egg Pie" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Crust:</strong><ul><li>3 cups plain flour</li><li>4 TBsp sugar</li><li>1 teasp salt</li><li>250gms butter cut into cubes</li><li>1/4 cup cold water</li></ul><strong>Filling:</strong><ul><li>1 can evaporated milk</li><li>1 can condensed milk</li><li>4 eggs</li><li>1 egg yolk and white separated</li><li>1 teasp vanilla extract</li><li>1 TBsp lemon juice</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Crust:</strong><ol class='recipe-steps'><li>Combine flour, sugar and salt and mix well.</li><li>Add butter and beat in mixer, until well combine.</li><li>Gradually add the cold water and mix well.</li><li>Remove dough from bowl and make into a ball.</li><li>Cover with wrap and refrigerate for 30 minutes.</li><li>Once done sprinkle flour on a clean surface.</li><li>Flatten dough and roll until about 1/2 cm thick.</li><li>Cut in two and carefully place in two greased metal pie dishes.</li><li>Push down and trim edges but leave some excess all around to allow for shrinking.</li><li>Put in fridge while making the filling.</li></ol><strong>Filling:</strong><ol class='recipe-steps'><li>Heat evaporated milk in bowl for 1 minute.</li><li>In a large bowl whisk the four eggs and seperate yolk.</li><li>Gradually pour in condensed milk while whisking.</li><li>Add vanilla and lemon juice, while whisking.</li><li>Add the evaporated milk and whisk while pouring in.</li><li>Continue whisking until all ingredients well combined.</li><li>Beat the egg white until soft peaks form, then fold into the mixture.</li><li>Remove crusts from fridge and pour in filling.</li><li>Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes.</li><li>Or cook until tooth pick comes out clean when inserted in the centre of the pie.</li><li>Allow to cool completely before cutting.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

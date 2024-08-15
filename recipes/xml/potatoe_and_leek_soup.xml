@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Potatoe and Leek Soup</title>
+  <filename>potatoe_and_leek_soup.xml</filename>
+  <htmlFilename>potatoe_and_leek_soup.html</htmlFilename>
+  <thumbnail>potatoe_and_leek_loup.jpeg</thumbnail>
+  <category>Soup</category>
+  <diet>GlutenFree</diet>
+  <diet>Vegan</diet>
+  <ingredient>2 leeks white part chopped</ingredient>
+  <ingredient>8-10 Potatoes chopped</ingredient>
+  <ingredient>3-4 garlic cloves crushed</ingredient>
+  <ingredient>2-4 TBsp olive oil</ingredient>
+  <ingredient>10 cups stock</ingredient>
+  <ingredient>S and white P to taste</ingredient>
+  <step>In a large pot heat oil and slow cook garlic for 5-7 minutes.</step>
+  <step>Add remaining ingredients, except salt and pepper, and bring to the boil.</step>
+  <step>Reduce and simmer until spuds can be crushed easily on the side of the pot (about 30-40 mins.</step>
+  <step>) turn of heat and blend with stick blender, until all combined and smooth.</step>
+  <step>Add salt and pepper to taste.</step>
+  <step>(Re-heat if necessary.</step>
+  <step>) Serve with crusty bread if desired.</step>
+</recipe>

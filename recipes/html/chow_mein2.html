@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Chow Mein</title>
+        <link rel="canonical" href="/recipes/html/chow_mein2.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Chow Mein",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "chow_mein.jpeg",
+                "description": "Chow Mein",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "",
+                "recipeCategory": "",
+                "recipeIngredient":   ["600gms minced pork", "1/2 cabbage chopped", "2-3 garlic cloves crushed", "1/2 cup stir fry sauce", "2 carrots grated", "3 spring onions chopped", "200gms rice noodles", "1/2 cup chicken stock", "Olive oil", "Salt and Pepper to taste"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat olive oil in large pan or wok."}, {"@type": "HowToStep", "text": "Cook garlic for a few minutes then add pork."}, {"@type": "HowToStep", "text": "Cook until all brown."}, {"@type": "HowToStep", "text": "Add stock and cabbage then place lid on pan for 10 minutes."}, {"@type": "HowToStep", "text": "Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside."}, {"@type": "HowToStep", "text": "Once cabbage cooked add noodles, carrot, stir fry sauce and Salt and Pepper and stir well."}, {"@type": "HowToStep", "text": "Serve with spring onions sprinkled on top."}, {"@type": "HowToStep", "text": "You can replace the cabbage with any yummy Asian green."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Chow Mein</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  </p>
+                        <p><span>Serves:</span>    </p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/chow_mein2.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/chow_mein.jpeg" alt="Chow Mein" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>600gms minced pork</li><li>1/2 cabbage chopped</li><li>2-3 garlic cloves crushed</li><li>1/2 cup stir fry sauce</li><li>2 carrots grated</li><li>3 spring onions chopped</li><li>200gms rice noodles</li><li>1/2 cup chicken stock</li><li>Olive oil</li><li>Salt and Pepper to taste</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat olive oil in large pan or wok.</li><li>Cook garlic for a few minutes then add pork.</li><li>Cook until all brown.</li><li>Add stock and cabbage then place lid on pan for 10 minutes.</li><li>Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside.</li><li>Once cabbage cooked add noodles, carrot, stir fry sauce and Salt and Pepper and stir well.</li><li>Serve with spring onions sprinkled on top.</li><li>You can replace the cabbage with any yummy Asian green.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

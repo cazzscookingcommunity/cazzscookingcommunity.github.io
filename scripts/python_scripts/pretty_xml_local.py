@@ -140,9 +140,11 @@ def main():
     directory_path = 'recipes/'
     format_xml_files_in_directory(directory_path)
 
-    # test_file = 'recipes/simple_friedrice.xml'
-    test_file = 'recipes/one_pot_pasta.xml'
-    # format_file(test_file)
+    # testFile1 = 'recipes/xml/lasagna.xml'
+    # format_file(testFile1)
+    # testFile2 = 'recipes/xml/easy_stir_fry.xml'
+    # format_file(testFile2)
+
 
 if __name__ == "__main__":
     main()

@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>American BBQ SpareRibs</title>
+  <filename>american_bbq_spareribs.xml</filename>
+  <htmlFilename>american_bbq_spareribs.html</htmlFilename>
+  <thumbnail>spare_ribs.jpeg</thumbnail>
+  <category>Pork</category>
+  <ingredient>1.8 kg Pork Spare Ribs</ingredient>
+  <ingredient>6 tbsp tomatoe sauce</ingredient>
+  <ingredient>3 tbsp honey</ingredient>
+  <ingredient>2 tbsp red wine vinegar</ingredient>
+  <ingredient>2 tbsp mustard</ingredient>
+  <ingredient>S and P to taste</ingredient>
+  <step>Cut ribs then boil in large pot for 20 minutes and drain well.</step>
+  <step>Mix all other ingredients in a small bowl and set aside.</step>
+  <step>Place meat and marinate in large marinating container.</step>
+  <step>Ensure all meat is covered.</step>
+  <step>Leave overnight, but turn occasionally.</step>
+  <step>Cook on BBQ and serve with corn on the cob and Spanish rice.</step>
+</recipe>

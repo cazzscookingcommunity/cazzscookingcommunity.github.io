@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Lemon Slice</title>
+        <link rel="canonical" href="/recipes/html/lemon_slice.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Lemon Slice",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "lemon_slice.jpeg",
+                "description": "Lemon Slice",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Sweets",
+                "recipeIngredient":   ["1 Packet Marie biscuits crushed", "1 cup coconut ", "1 lemon grind grated", "125 gms butter", "1/2 can condensed milk", "1 1-2 cups icing sugar sifted", "1 TBsp butter melted", "2 TBsp lemon juice", "Extra coconut"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a baking dish about 19x28 cm with butter and put a sheet of grease proof paper on top, then set aside."}, {"@type": "HowToStep", "text": "Put crushed biscuits, coconut and lemon grind in a large bowl and stir to cook combine."}, {"@type": "HowToStep", "text": "Melt butter on stove top in a small saucepan and once all melted add condensed milk."}, {"@type": "HowToStep", "text": "Stir well and add to biscuits."}, {"@type": "HowToStep", "text": "Mix all together with a spoon and pour in prepared dish."}, {"@type": "HowToStep", "text": "Flatten with your hand or the back of the spoon to make it as smooth as possible."}, {"@type": "HowToStep", "text": "Place in fridge while you prepare icing."}, {"@type": "HowToStep", "text": "Place icing sugar in a bowl and pour in lemon juice and melted butter."}, {"@type": "HowToStep", "text": "Stir well to remove all the lumps."}, {"@type": "HowToStep", "text": "You may need to add a little hot water (1 TBsp) if it seems too dry."}, {"@type": "HowToStep", "text": "Pour on top of base and smooth out evenly."}, {"@type": "HowToStep", "text": "Sprinkle with extra coconut if desired."}, {"@type": "HowToStep", "text": "Cover and refrigerate for 4 hours or until icing set."}, {"@type": "HowToStep", "text": "Cut into bite size pieces."}, {"@type": "HowToStep", "text": "Stored in an airtight container."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Lemon Slice</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Sweets</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/lemon_slice.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/lemon_slice.jpeg" alt="Lemon Slice" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <strong>Base:</strong><ul><li>1 Packet Marie biscuits crushed</li><li>1 cup coconut </li><li>1 lemon grind grated</li><li>125 gms butter</li><li>1/2 can condensed milk</li></ul><strong>Icing::</strong><ul><li>1 1-2 cups icing sugar sifted</li><li>1 TBsp butter melted</li><li>2 TBsp lemon juice</li><li>Extra coconut</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <strong>Base:</strong><ol class='recipe-steps'><li>Grease a baking dish about 19x28 cm with butter and put a sheet of grease proof paper on top, then set aside.</li><li>Put crushed biscuits, coconut and lemon grind in a large bowl and stir to cook combine.</li><li>Melt butter on stove top in a small saucepan and once all melted add condensed milk.</li><li>Stir well and add to biscuits.</li><li>Mix all together with a spoon and pour in prepared dish.</li><li>Flatten with your hand or the back of the spoon to make it as smooth as possible.</li><li>Place in fridge while you prepare icing.</li></ol><strong>Icing::</strong><ol class='recipe-steps'><li>Place icing sugar in a bowl and pour in lemon juice and melted butter.</li><li>Stir well to remove all the lumps.</li><li>You may need to add a little hot water (1 TBsp) if it seems too dry.</li><li>Pour on top of base and smooth out evenly.</li><li>Sprinkle with extra coconut if desired.</li><li>Cover and refrigerate for 4 hours or until icing set.</li><li>Cut into bite size pieces.</li><li>Stored in an airtight container.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

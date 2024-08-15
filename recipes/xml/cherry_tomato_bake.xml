@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+<recipe xmlns="https://cazzscookingcommunity.github.io"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+  <title>Cherry Tomato Bake</title>
+  <filename>cherry_tomato_bake.xml</filename>
+  <htmlFilename>cherry_tomato_bake.html</htmlFilename>
+  <comment/>
+  <thumbnail>cherry_tomato_bake.jpeg</thumbnail>
+  <image/>
+  <category/>
+  <yield/>
+  <prepTime>PT0M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <ingredient>4 cups cherry tomatos halved</ingredient>
+  <ingredient>3 cloves garlic minced </ingredient>
+  <ingredient>2 TBsp olive oil </ingredient>
+  <ingredient>1/4 teaspoon Salt and Pepper</ingredient>
+  <ingredient>1/2 cup feta crumbled</ingredient>
+  <ingredient>1 bunch dill chopped</ingredient>
+  <step>Preheat oven to 180C while preparing the ingredients.</step>
+  <step>In shallow baking dish place all ingredients.</step>
+  <step>Cook for 30-40 mins.</step>
+  <step>When tomatoes have all collapsed remove from oven.</step>
+  <step>Stir and sprinkle with additional dill if desired.</step>
+  <step>Serve with BBQ meat.</step>
+  <step>* different variety tomatos can be used, I prefer 2 red and 1 yellow punnet.</step>
+</recipe>

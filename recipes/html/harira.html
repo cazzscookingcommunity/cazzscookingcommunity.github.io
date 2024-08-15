@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Harira</title>
+        <link rel="canonical" href="/recipes/html/harira.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Harira",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "harira.jpeg",
+                "description": "Harira",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "Vegan",
+                "recipeYield": "None",
+                "recipeCategory": "Dinner",
+                "recipeIngredient":   ["1 cup or can of chickpeas", "1 cup lentils (dark colour)", "3 TBsp olive oil", "600gms lamb dices (exc for Vegan)", "4 garlic cloves crushed", "4 cups water", "4 vegetable stock cubes", "400gm can dices tomatoes", "2 teaspoons cumin", "1 teaspoons cinnamon", "1/2 teaspoon ginger", "1/2 teaspoon turmeric", "1 teaspoon black pepper", "1 teaspoon salt", "1 TBsp corn flour (mixed with 2 TBsp water)", "1 lemon juiced", "1 cup fresh coriander chopped", "1-2 bunches spinach washed and chopped"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 160 C."}, {"@type": "HowToStep", "text": "On stove top heat oil in large heavy based casserole type sauce pan."}, {"@type": "HowToStep", "text": "Once hot cook garlic and meat in batches until brown all over."}, {"@type": "HowToStep", "text": "Place all meat back in pan and cook with spices for a few minutes, until fragrant."}, {"@type": "HowToStep", "text": "Stir in water, stock cubes, can tomatoes, chick peas and lentils."}, {"@type": "HowToStep", "text": "Stir well to combine and bring to the boil."}, {"@type": "HowToStep", "text": "Place lid on pot and pop in oven for 2 hours."}, {"@type": "HowToStep", "text": "Remove pot from oven and stir in the corn flour and water mixture and the spinach, and season if necessary."}, {"@type": "HowToStep", "text": "Place back in oven for 30 minutes."}, {"@type": "HowToStep", "text": "Once done remove from oven and stir in lemon juice and sprinkle over coriander."}, {"@type": "HowToStep", "text": "Serve with crusty bread, mash spud or rice."}, {"@type": "HowToStep", "text": "Good hardy winter dish!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Harira</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Dinner</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/harira.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/harira.jpeg" alt="Harira" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>1 cup or can of chickpeas</li><li>1 cup lentils (dark colour)</li><li>3 TBsp olive oil</li><li>600gms lamb dices (exc for Vegan)</li><li>4 garlic cloves crushed</li><li>4 cups water</li><li>4 vegetable stock cubes</li><li>400gm can dices tomatoes</li><li>2 teaspoons cumin</li><li>1 teaspoons cinnamon</li><li>1/2 teaspoon ginger</li><li>1/2 teaspoon turmeric</li><li>1 teaspoon black pepper</li><li>1 teaspoon salt</li><li>1 TBsp corn flour (mixed with 2 TBsp water)</li><li>1 lemon juiced</li><li>1 cup fresh coriander chopped</li><li>1-2 bunches spinach washed and chopped</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Preheat oven to 160 C.</li><li>On stove top heat oil in large heavy based casserole type sauce pan.</li><li>Once hot cook garlic and meat in batches until brown all over.</li><li>Place all meat back in pan and cook with spices for a few minutes, until fragrant.</li><li>Stir in water, stock cubes, can tomatoes, chick peas and lentils.</li><li>Stir well to combine and bring to the boil.</li><li>Place lid on pot and pop in oven for 2 hours.</li><li>Remove pot from oven and stir in the corn flour and water mixture and the spinach, and season if necessary.</li><li>Place back in oven for 30 minutes.</li><li>Once done remove from oven and stir in lemon juice and sprinkle over coriander.</li><li>Serve with crusty bread, mash spud or rice.</li><li>Good hardy winter dish!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>

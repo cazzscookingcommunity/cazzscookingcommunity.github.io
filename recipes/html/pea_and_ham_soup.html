@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<!-- This recipe-template.html page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Pea and Ham Soup</title>
+        <link rel="canonical" href="/recipes/html/pea_and_ham_soup.html"></link>
+      
+        <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes"></meta>
+        <meta name="author" content="Chris Cullin"></meta>
+        <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+        <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css"></link>
+        <link rel="icon" href="/favicon.ico" sizes="32x32"></link>
+        <link rel="icon" href="/components/chef.svg" type="image/svg+xml"></link>
+        <link rel="apple-touch-icon" href="/components/app_icon_114x114.png"></link>
+        <link rel="manifest" href="/components/manifest.webmanifest"></link>
+
+        <link rel="stylesheet" href="/css/normalize.css"></link>
+        <link rel="stylesheet" href="/css/skeleton.css"></link>
+        <link rel="stylesheet" href="/css/app.css"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Pea and Ham Soup",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "pea_and_ham_soup.jpeg",
+                "description": "Pea and Ham Soup",
+                "prepTime": "",
+                "cookTime": "",
+                "suitableForDiet": "FODMAP",
+                "recipeYield": "None",
+                "recipeCategory": "Soup",
+                "recipeIngredient":   ["Packet green split peas", "2 large carrots chopped", "1 teaspoon mixed spice", "1 teaspoon pepper", "1-2 bay leaves", "1-2 garlic cloves crushed", "1 whole ham hock (Bertocchi)", "Salt and Pepper to taste"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Rinse peas under running water and remove any foreign objects."}, {"@type": "HowToStep", "text": "Place in large pot with all other ingredients except Salt and Pepper."}, {"@type": "HowToStep", "text": "Pour in enough water to cover everything plus up to your thumb joint more."}, {"@type": "HowToStep", "text": "Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs."}, {"@type": "HowToStep", "text": ") Remove hock from soup and remove skin and discard."}, {"@type": "HowToStep", "text": "Shred the meat with a small knife or two forks."}, {"@type": "HowToStep", "text": "Place back in soup with the bones, these will help thicken the soup."}, {"@type": "HowToStep", "text": "When the soup is at your desired thickness remove the bones and add Salt and Pepper to taste, check first before adding."}, {"@type": "HowToStep", "text": "Some hocks are more salty than others."}, {"@type": "HowToStep", "text": "Bertocchi ham hocks give the most consistent best flavour."}, {"@type": "HowToStep", "text": "This recipe takes hours and is one for a rainy day spent inside, but well worth it!."}]
+            }
+        </script> 
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+        <div class="goBack">
+            <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+        </div>
+
+        <!-- Header with branded title -->
+        <header>
+            <div class="container">
+                <div class="twelve columns">
+                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
+                </div> 
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Pea and Ham Soup</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Soup</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/pea_and_ham_soup.xml')" src="/components/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/pea_and_ham_soup.jpeg" alt="Pea and Ham Soup" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>Packet green split peas</li><li>2 large carrots chopped</li><li>1 teaspoon mixed spice</li><li>1 teaspoon pepper</li><li>1-2 bay leaves</li><li>1-2 garlic cloves crushed</li><li>1 whole ham hock (Bertocchi)</li><li>Salt and Pepper to taste</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Rinse peas under running water and remove any foreign objects.</li><li>Place in large pot with all other ingredients except Salt and Pepper.</li><li>Pour in enough water to cover everything plus up to your thumb joint more.</li><li>Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs.</li><li>) Remove hock from soup and remove skin and discard.</li><li>Shred the meat with a small knife or two forks.</li><li>Place back in soup with the bones, these will help thicken the soup.</li><li>When the soup is at your desired thickness remove the bones and add Salt and Pepper to taste, check first before adding.</li><li>Some hocks are more salty than others.</li><li>Bertocchi ham hocks give the most consistent best flavour.</li><li>This recipe takes hours and is one for a rainy day spent inside, but well worth it!.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
+            <br/>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body>  
+<script src="/scripts/recipe.js"></script>
+</html>
