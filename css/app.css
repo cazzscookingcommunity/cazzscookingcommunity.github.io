@@ -81,7 +81,7 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;}
     margin-bottom:0
 }
 
-h1.brand, h2.brand{
+h1.brand, h2.heading.brand{
     transform:none;-webkit-transform:none;-moz-transform:none;-o-transform:none;
     text-transform:uppercase;
     margin: 0;
