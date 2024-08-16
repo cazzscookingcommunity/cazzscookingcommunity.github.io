@@ -57,8 +57,10 @@ def parse_recipe(xml_file):
         filename = root.findtext('ns:filename', namespaces=ns)
         htmlFilename = root.findtext('ns:htmlFilename', namespaces=ns)
         thumbnail = root.findtext('ns:thumbnail', namespaces=ns)
-        prep_time = format_time(root.findtext('ns:prepTime', namespaces=ns))
-        cook_time = format_time(root.findtext('ns:cookTime', namespaces=ns))
+        iso_preptime = root.findtext('ns:prepTime', namespaces=ns)
+        iso_cooktime = root.findtext('ns:cookTime', namespaces=ns)
+        preptime = format_time(iso_preptime)
+        cooktime = format_time(iso_cooktime)
         servings = root.findtext('ns:yield', namespaces=ns)
         
         # Collect all occurrences of diet and category into arrays
@@ -79,8 +81,10 @@ def parse_recipe(xml_file):
             "filename": filename,
             "htmlFilename": htmlFilename,
             "thumbnail": thumbnail,
-            "prep_time": prep_time,
-            "cook_time": cook_time,
+            "iso_preptime": iso_preptime,
+            "iso_cooktime": iso_cooktime,
+            "preptime": preptime,
+            "cooktime": cooktime,
             "servings": servings,
             "diet": diet,
             "category": category,
@@ -137,8 +141,10 @@ def generate_html_content(recipe_data, ingredients_list, instructions_list, sche
         filename=recipe_data['filename'],
         htmlFilename=recipe_data['htmlFilename'],
         thumbnail=recipe_data['thumbnail'],
-        prepTime=recipe_data['prep_time'],
-        cookTime=recipe_data['cook_time'],
+        iso_preptime=recipe_data['iso_preptime'],
+        preptime=recipe_data['preptime'],
+        iso_cooktime=recipe_data['iso_cooktime'],
+        cooktime=recipe_data['cooktime'],
         servings=recipe_data['servings'],
         diet=", ".join(recipe_data['diet']),
         category=", ".join(recipe_data['category']),
@@ -260,9 +266,9 @@ def generate_html_from_xml(xml_file):
         htmlFilename=htmlFilename,
         thumbnail=thumbnail,
         iso_preptime = iso_preptime,
-        prepTime=preptime,
+        preptime=preptime,
         iso_cooktime=iso_cooktime,
-        cookTime=cooktime,
+        cooktime=cooktime,
         diet=diet,
         servings=servings,
         category=category,

@@ -37,8 +37,8 @@
                 "author": {"@type": "Person", "name": "Carolyn Cullin"},
                 "image": "gerrys_banana_bread.jpeg",
                 "description": "Gerrys Banana and Pecan Cake",
-                "prepTime": "",
-                "cookTime": "",
+                "prepTime": "None",
+                "cookTime": "None",
                 "suitableForDiet": "",
                 "recipeYield": "None",
                 "recipeCategory": "Sweets",
@@ -55,16 +55,38 @@
         <div class="goTop">
             <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
         </div> 
-        <div class="goBack">
+        <!-- <div class="goBack">
             <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
-        </div>
+        </div> -->
 
         <!-- Header with branded title -->
         <header>
             <div class="container">
-                <div class="twelve columns">
-                    <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a>
-                </div> 
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <!-- <a id="homeButton" class="heading" tabindex="0" title="Cazzs Cooking Community">Cazz's Cooking Community</a> -->
+                        <h2 class="heading ">Cazz's Cooking Community</h2>
+                    </div> 
+                </div>
+
+                <nav class="navbar">
+                    <div class="row">
+                      <div class="twelve columns">
+                        <ul class="navbar-list" id="navbar-list">
+                          <li class="navbar-item" id="homeButton"><a href="/index.html">Home</a></li>
+                          <li class="navbar-item"><a href="/staticAllRecipes.html">All Recipes</a></li>
+                          <li class="navbar-item"><a href="/components/add_recipe.html">Create New Recipe</a></li>
+                          <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+                        </ul>
+                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                    </div> <!-- row -->
+                  </nav> <!-- Nav -->
+
             </div>
         </header>
         
@@ -124,8 +146,6 @@
 
         <!-- Footer Section -->
         <footer>
-            <a href="/staticAllRecipes.html" title="All Recipes"> All Recipes</a>
-            <br/>
             <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
             <br/>
             <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
