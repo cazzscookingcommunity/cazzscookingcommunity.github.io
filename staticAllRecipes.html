@@ -1,9 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
+<!DOCTYPE html><html lang="en"><head>
   <meta charset="utf-8">
   <title>All of Cazz's Favoutie Recipes</title>
-  <link rel="canonical" href="https://cazzscookingcommunity.github.io/staticAllRecipes.html">
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/allRecipes.html">
 
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/skeleton.css">
@@ -17,18 +15,39 @@
     <div class="goTop">
       <a href="#mealCardsSection" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top"></a>
     </div> 
-    <div class="goBack">
-      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png">
-    </div>
+    <!-- <div class="goBack">
+      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
+    </div> -->
 
     <!-- HEADER SECTION -->
     <header>
       <div class="container">
-        <div class="twelve columns">
-          <a id="homeButton" class="brand clearButton" tabindex="0" href="/index.html" title="All Recipes | Cazzs Cooking Community">
-            <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
-          </a>
+
+        <div class="row">
+          <div class="twelve columns">
+            <!-- <a id="homeButton" class="brand clearButton" tabindex="0" href="/index.html" title="All Recipes | Cazzs Cooking Community"> -->
+              <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
+            <!-- </a> -->
+          </div>
         </div>
+
+        <nav class="navbar">
+          <div class="row">
+            <div class="twelve columns">
+              <ul class="navbar-list" id="navbar-list">
+                <li class="navbar-item" id="homeButton"><a href="/index.html">Home</a></li>
+                <li class="navbar-item"><a href="/staticAllRecipes.html">All Recipes</a></li>
+                <li class="navbar-item"><a href="/components/add_recipe.html">Create New Recipe</a></li>
+                <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+              </ul>
+              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+              <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                <i class="fa fa-bars"></i>
+              </a>
+            </div>
+          </div> <!-- row -->
+        </nav> <!-- Nav -->
+
       </div>
     </header>
 
@@ -2394,15 +2413,11 @@
       <div>
         Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
       </div>
-
-      <div>
-        <a href="https://cazzscookingcommunity.github.io/sitemap.xml" title="sitemap">sitemap</a>
-      </div>
     </footer>
 
   </main>
 <!-- Code injected by live-server -->
-<!-- <script>
+<script>
 	// <![CDATA[  <-- For SVG support
 	if ('WebSocket' in window) {
 		(function () {
@@ -2436,16 +2451,16 @@
 	}
 	else {
 		console.error('Upgrade your browser. This Browser is NOT supported WebSocket for Live-Reloading.');
-	} -->
-	<!-- // ]]>
-</script> -->
+	}
+	// ]]>
+</script>
 
 
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<!-- <script src="https://unpkg.com/lunr/lunr.js"></script>
+<script src="https://unpkg.com/lunr/lunr.js"></script>
 <script src="scripts/recipeCards.js"></script>
-<script src="scripts/allRecipes.js"></script> -->
+<script src="scripts/allRecipes.js"></script>
 
 
 

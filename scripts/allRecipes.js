@@ -1,6 +1,6 @@
 var recipeList=[];
-const path = "/recipes/";
-const imgpath = "/images/"
+const path = "/recipes/xml/";
+const imgpath = "/recipes/images/"
 const SearchIndexFile = "/components/search_index.json";
 let idx;
 

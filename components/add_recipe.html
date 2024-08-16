@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>All of Cazz's Favoutie Recipes</title>
-  <link rel="canonical" href="https://cazzscookingcommunity.github.io/allRecipes.html" />
+  <title>recipe admin</title>
+  <meta name="description" content="admin page to create a new recipe">
+  <meta name="robots" content="noindex, nofollow" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/app.css">
+  <link rel="stylesheet" href="/css/normalize.css">
+  <link rel="stylesheet" href="/css/skeleton.css">
+  <link rel="stylesheet" href="/css/app.css">
+  <!-- <link rel="stylesheet" href="/css/admin.css"> -->
 </head>
 
 <body>
@@ -15,23 +17,19 @@
 
     <!-- scroll to top and back -->
     <div class="goTop">
-      <a href="#mealCardsSection" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+      <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
     </div> 
-    <!-- <div class="goBack">
-      <img class="goBack" border="0" alt="back" onclick="history.back()" src="/components/icons_back_24.png"/>
-    </div> -->
+
 
     <!-- HEADER SECTION -->
-    <header>
+    <header>  
       <div class="container">
 
         <div class="row">
           <div class="twelve columns">
-            <!-- <a id="homeButton" class="brand clearButton" tabindex="0" href="/index.html" title="All Recipes | Cazzs Cooking Community"> -->
-              <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
-            <!-- </a> -->
+            <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>    
           </div>
-        </div>
+        </div> 
 
         <nav class="navbar">
           <div class="row">
@@ -50,33 +48,38 @@
           </div> <!-- row -->
         </nav> <!-- Nav -->
 
-      </div>
+      </div>  <!-- container  -->
     </header>
 
-    <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
-    <section id="mealCardsSection" style="display:none;">
-      <br/>
-      <div class="container" style="display:none;">
-          <div class="row">
-              <div class="four columns">
-                <h4 class="heading">The Recipes You Wanted</h4>
-                <br/>
-              </div>
-              <div class="row">
-                <div class="eight columns">
-                  <div class="row">
-                    <div class="eight columns" style="text-align:center;font-size:20px">
-                      <p>You searched for: <span id="userInput"></span></p>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
+    <!-- MAIN SECTION -->
+    <section>
+      <div class="container">
+        <div class="row d-flex">
+          <div class="twelve columns">
+            <h4><small>Create a new recipe</small></h4>
+            <p>Tips and Tricks:<br/>
+              Step 1:  upload image, Step 2: create new recipe<br/>
+              image name is 'name'.jpeg  (avoid spaces to be safe).<br/>
+              filemname is 'name.xml'<br/>
+              htmlFilename is 'name.html'<br/>
+              preptime and cooktook is 'PTxxM or PTxHxxM'<br/>
+            </p>
+        </div>
+        <div class="row d-flex">
+          <div class="twelve columns">
+            <div id="newRecipe">
+              <button onclick="image_upload(document.getElementById('imgFilename').value)">upload image</button>
+              <input type="file" id="imgFilename" name="image" accept="image/*">
+              <br><br>
+          
+              <a href=${recipexsd}><button>CREATE NEW RECIPE</button></a>
+              <br><br>
+            </div>
           </div>
-          <div class="row mealCards d-flex"><div class="loader"></div></div>
-      </div>
+        </div>
     </section>
 
+    <!-- FOOTER SECTION -->
     <footer>
       <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
       <br/>
@@ -86,16 +89,12 @@
         Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
       </div>
     </footer>
-
   </main>
 </body>
 
-
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="scripts/recipeCards.js"></script>
-<script src="scripts/allRecipes.js"></script>
-
+<script src="/scripts/add_recipe.js"></script>
+<script src="/scripts/github.js"></script>
 </html>
 
 

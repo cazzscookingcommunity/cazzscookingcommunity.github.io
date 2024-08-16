@@ -241,14 +241,14 @@ ul.navbar-list {text-align: right;}
 .navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
-#navbar-list{display:inline; position:absolute; bottom:0; right:0}
+#navbar-list{display:inline; bottom:0; right:0}
 .navbar a.icon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 #NavBarCategory {display: inline;}
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 
 .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
 .navbar-list {list-style:none;margin-bottom: 0}
-.navbar-item {position:relative;display:inline}
+.navbar-item {position:relative;display:inline; padding-right: 10px;}
 .navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
 .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
 
