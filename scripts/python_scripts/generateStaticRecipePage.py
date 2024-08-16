@@ -196,8 +196,8 @@ def generate_html_from_xml(xml_file):
     thumbnail = root.findtext('ns:thumbnail', namespaces=ns)
     iso_preptime = root.findtext('ns:prepTime', namespaces=ns)
     iso_cooktime = root.findtext('ns:cookTime', namespaces=ns)
-    preptime = format_time(prep_time)
-    cooktime = format_time(cook_time)
+    preptime = format_time(iso_preptime)
+    cooktime = format_time(iso_cooktime)
     servings = root.findtext('ns:yield', namespaces=ns)
 
     # Collect all occurrences of diet and category into arrays
