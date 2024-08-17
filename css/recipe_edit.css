@@ -46,7 +46,7 @@ body {
 }
 
 .xsd2html2xml button[type='submit']:before {
-    content: "UPLOAD";
+    content: "";
     padding: auto;
     margin: 0;
 }

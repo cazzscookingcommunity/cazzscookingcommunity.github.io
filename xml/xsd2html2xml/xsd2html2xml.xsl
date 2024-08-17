@@ -303,11 +303,12 @@
 				<xsl:element name="button">
 					<xsl:attribute name="type">submit</xsl:attribute>
 					<xsl:attribute name="class">form-button</xsl:attribute>
+					Upload
 				</xsl:element>
 				<xsl:element name="button">
 					<xsl:attribute name="type">button</xsl:attribute>
 					<xsl:attribute name="class">form-button</xsl:attribute>
-					<xsl:attribute name="onclick">history.back();</xsl:attribute>
+					<xsl:attribute name="onclick">window.close();</xsl:attribute>
 					Close
 				</xsl:element>
 				<xsl:element name="img">

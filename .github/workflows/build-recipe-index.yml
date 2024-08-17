@@ -83,5 +83,10 @@ jobs:
           git add sitemap.xml
           git diff --name-only HEAD^ HEAD | grep 'recipes/html/' | xargs git add
           git add staticAllRecipes.html
-          git commit -m "automated recipe index and html update"
-          git push
+
+          if git diff-index --quiet HEAD --; then
+            echo "No changes to commit"
+          else
+            git commit -m "automated recipe index update"
+            git push
+          fi

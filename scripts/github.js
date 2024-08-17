@@ -51,35 +51,23 @@ async function commit_recipe() {
             await postFile(recipeupdate, recipeXmlDir + recipename, sha);
             console.log("File uploaded successfully");
             window.alert(`Recipe updated successfully, but will take 1 min to show on website. you can continue to edit other recipes. Going back to previous screen`);
-            window.location.assign('/index.html');
+
+            if (window.opener) {
+                // Go back in the parent's history
+                window.opener.history.back();
+                // Close the current (child) window
+                window.close();
+            } else {
+                // Cannot close the window so notify user that upload is complete
+                window.alert(`Recipe upload complete`);
+            }
+
         } catch (error) {
             console.error("Error occurred:", error.message); // Logs the detailed error message
             alert(`An error occurred: ${error.message}`); // Displays the error to the user
         }
         
     }
-};
-
-// cancel upload and download
-function download_recipe() { 
-    console.debug("download_recipe");
-    
-    const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));
-    console.debug(recipeupdate);    
-    parser = new DOMParser();
-    recipeXML = parser.parseFromString(recipeupdate,"text/xml");
-    filename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
-
-    const str = preparefile(recipeupdate.split('\n'))
-    var a = document.createElement('a');
-    a.addEventListener('blur',function(){
-        console.debug("in event listener");
-        // window.close('/components/github.html')
-    });
-    a.download = filename;
-    a.href = 'data:text/xml;charset=utf-8,' + encodeURI(str);
-    a.click();
-    console.debug("at end of download)")
 };
 
 
