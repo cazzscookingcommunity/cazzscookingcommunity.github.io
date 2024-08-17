@@ -73,7 +73,7 @@ jobs:
       - name: generate html files for changed recipes and allRecipes
         run: |
           python scripts/python_scripts/generateStaticRecipePage.py
-          python scripts/python_scripts/genterateStaticAllRecipesPage.py
+          python scripts/python_scripts/generateStaticAllRecipesPage.py
 
       - if: ${{ success() }}
         run: |
