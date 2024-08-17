@@ -3,7 +3,7 @@ const github = `https://api.github.com`
 const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
-const recipedir = 'recipes/html/';
+const recipeXmlDir = 'recipes/xml/';
 const imagedir = 'recipes/images/';
 
 var passcode = null
@@ -48,8 +48,8 @@ async function commit_recipe() {
         recipename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
         // commit changes to GitHub
         try {
-            const sha =  await getSHA(recipedir, recipename);
-            await postFile(recipeupdate, recipedir + recipename, sha);
+            const sha =  await getSHA(recipeXmlDir, recipename);
+            await postFile(recipeupdate, recipeXmlDir + recipename, sha);
             console.log("File uploaded successfully");
             window.alert(`Recipe updated successfully, but will take 1 min to show on website. you can continue to edit other recipes. Going back to previous screen`);
             window.location.assign('/index.html');
