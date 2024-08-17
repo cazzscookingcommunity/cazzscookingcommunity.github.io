@@ -234,14 +234,4 @@ if __name__== "__main__":
     main()
     print("generation of static html files complete")
 
-    # test individual files before do full directory
-    # testfile1="recipes/xml/easy_stir_fry.xml"
-    # testfile2="recipes/xml/lasagna.xml"
-
-    # generate_html_from_xml(testfile1)
-    # print(f"Conversion of {testfile1} is complete")
-
-    # generate_html_from_xml(testfile2)
-    # print(f"Conversion of {testfile2} is complete")
-
 

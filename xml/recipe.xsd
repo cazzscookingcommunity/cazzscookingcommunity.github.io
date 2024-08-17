@@ -31,6 +31,7 @@
             <xs:enumeration value="Lunch" />
             <xs:enumeration value="Dinner" />
             <xs:enumeration value="Sweets" />
+            <xs:enumeration value="Dessert" />
             <xs:enumeration value="Snack" />
             <xs:enumeration value="Soup" />
             <xs:enumeration value="Sides" />

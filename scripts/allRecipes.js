@@ -4,22 +4,6 @@ const imgpath = "/recipes/images/"
 const SearchIndexFile = "/components/search_index.json";
 let idx;
 
-// fetch('/components/search_index.json')
-//   .then(response => response.json())
-//   .then(data => {
-//     const recipeContainer = document.getElementById('mealCardsSection');
-//     data.forEach(recipe => {
-//       const recipeCard = document.createElement('div');
-//       recipeCard.innerHTML = `
-//         <a href="/recipe.html?recipe=${recipe.filename}">
-//           ${recipe.title}
-//         </a>
-//       `;
-//       recipeContainer.appendChild(recipeCard);
-//     });
-//     recipeContainer.style.display = 'block';
-//   });
-
 
 $(document).ready(function(){
     // Load the search index from the JSON file
@@ -58,17 +42,6 @@ $(document).ready(function(){
         })
         .catch(error => console.error('Error fetching JSON index:', error));
 });
-
-
-// Ensure the DOM is fully loaded before adding event listeners
-// document.addEventListener('DOMContentLoaded', (event) => {
-//     // Check if the current page is allRecipes.html
-//     if (window.location.pathname === '/allRecipes.html') {
-//         sessionStorage.removeItem('searchTerm'); // Clear search term
-//         sessionStorage.removeItem('searchResults'); // Clear search results
-//         searchRecipes(); // Call searchRecipes when the page loads
-//     }
-// });
 
 
 // Search

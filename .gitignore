@@ -4,14 +4,14 @@
 node_modules/
 
 # backup directories
-recipes copy/ 
 xml/backup_xsd2html2xml_customisations/
 
-
+# ignore these directories
+scripts/python_scripts/archive/
 
 # ignore these files
 *.bak
 recipes-missing-images.txt
 images-missing-recipes.txt
 .DS_Store
-package*.json
+

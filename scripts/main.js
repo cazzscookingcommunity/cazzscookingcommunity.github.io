@@ -1,7 +1,5 @@
 
 var recipeList=[];
-// const path = "/recipes/";
-// const imgpath = "/recipes/images/"
 const SearchIndexFile = "/components/search_index.json";
 let idx;
 window.scrollTo(0,$('#main').offset().top);

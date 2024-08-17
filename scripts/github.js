@@ -37,7 +37,6 @@ async function commit_recipe() {
     console.debug("commit_recipe");
 
     if ( passcode == null ) {
-        // download_recipe();
         // ignore and do nothing
         console.debug("ignore empty passcode");
     } else {
