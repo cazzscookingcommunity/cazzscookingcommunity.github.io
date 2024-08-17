@@ -11,7 +11,6 @@
 <htmlFilename>pea_and_ham_soup.html</htmlFilename>
 <thumbnail>pea_and_ham_soup.jpeg</thumbnail>
 <category>Soup</category>
-<cookTime>PT6H</cookTime>
 <diet>FODMAP</diet>
 <ingredient>Packet green split peas</ingredient>
 <ingredient>2 large carrots chopped</ingredient>
@@ -24,8 +23,8 @@
 <step>Rinse peas under running water and remove any foreign objects.</step>
 <step>Place in large pot with all other ingredients except Salt and Pepper.</step>
 <step>Pour in enough water to cover everything plus up to your thumb joint more.</step>
-<step>Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs).</step>
-<step>Remove hock from soup and remove skin and discard.</step>
+<step>Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs.</step>
+<step>) Remove hock from soup and remove skin and discard.</step>
 <step>Shred the meat with a small knife or two forks.</step>
 <step>Place back in soup with the bones, these will help thicken the soup.</step>
 <step>When the soup is at your desired thickness remove the bones and add Salt and Pepper to taste, check first before adding.</step>
