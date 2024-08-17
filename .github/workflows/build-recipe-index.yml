@@ -65,7 +65,7 @@ jobs:
           architecture: x64
 
       - name: install_dependencies
-        run: pip install xmlschema lmxl BeautifulSoup4
+        run: pip install xmlschema lmxl==5.2.2 BeautifulSoup4
 
       - name: generate sitemap and search index files
         run: python scripts/python_scripts/build-index-workflow.py
