@@ -1,12 +1,19 @@
 # Github workflow action
 
-# After push it scans for canges and updates recipelist and sitemap
+# files to be updated as recipes change include
+# sitemape.xml
+# search_index.json
+# recipe.html files when the source xml sourece recipe file is changed
+# staticAllRecipes.html when there is a change to recipe.xml file
+# 
+# After a Push it scans for changes and updates files as necessary
 
 
 name: build-recipe-index
-on: 
+on:
   push:
-
+    paths:
+      - 'recipes/xml/*'
 
 jobs:
   check:
@@ -56,14 +63,25 @@ jobs:
         with:
           python-version: '3.x'
           architecture: x64
-      - run: pip install xmlschema
-      - run: pip install lxml
-      - run: python scripts/python_scripts/build-index-workflow.py
+
+      - name: install_dependencies
+        run: pip install xmlschema lmxl BeautifulSoup4
+
+      - name: generate sitemap and search index files
+        run: python scripts/python_scripts/build-index-workflow.py
+
+      - name: generate html files for changed recipes and allRecipes
+        run: |
+          python scripts/python_scripts/generateStaticRecipePage.py
+          python scripts/python_scripts/genterateStaticAllRecipesPage.py
+
       - if: ${{ success() }}
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-      - run: git add components/search_index.json
-      - run: git add sitemap.xml
-      - run: git commit -m "automated recipe index update"
-      - run: git push
+          git add components/search_index.json
+          git add sitemap.xml
+          git diff --name-only HEAD^ HEAD | grep 'recipes/html/' | xargs git add
+          git add staticAllRecipes.html
+          git commit -m "automated recipe index and html update"
+          git push

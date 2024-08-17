@@ -3,11 +3,33 @@
 <head>
   <meta charset="utf-8">
   <title>All of Cazz's Favoutie Recipes</title>
-  <link rel="canonical" href="https://cazzscookingcommunity.github.io/allRecipes.html" />
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/staticAllRecipes.html" />
 
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/skeleton.css">
-  <link rel="stylesheet" href="css/app.css">
+  <!-- ALL PAGES -->
+      <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
+      viewport settings, and descriptions that may be indexed by search engines.  -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta name="application-name" content="Cazz's Recipes" />
+      <meta name="apple-mobile-web-app-title" content="Cazzs Cooking Community" />
+      <meta name="apple-mobile-web-app-capable" content="yes" />
+      <meta name="mobile-web-app-capable" content="yes" />
+      <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+      <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes">
+      <meta name="author" content="Chris Cullin">
+
+      <!-- Fonts and CSS styling -->
+      <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+      <link rel="stylesheet" href="css/normalize.css">
+      <link rel="stylesheet" href="css/skeleton.css">
+      <link rel="stylesheet" href="css/app.css">
+
+      <!-- These should remain for consistent branding and to support web app features across all pages. -->
+      <link rel="icon" href="/favicon.ico" sizes="32x32">
+      <link rel="icon" href="/components/chef.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/components/app_icon_114x114.png">
+      <link rel="manifest" href="/components/manifest.webmanifest">
 </head>
 
 <body>
@@ -54,27 +76,12 @@
     </header>
 
     <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
-    <section id="mealCardsSection" style="display:none;">
+    <section id="mealCardsSection">
       <br/>
-      <div class="container" style="display:none;">
-          <div class="row">
-              <div class="four columns">
-                <h4 class="heading">The Recipes You Wanted</h4>
-                <br/>
-              </div>
-              <div class="row">
-                <div class="eight columns">
-                  <div class="row">
-                    <div class="eight columns" style="text-align:center;font-size:20px">
-                      <p>You searched for: <span id="userInput"></span></p>
-                    </div>
-
-                  </div>
-                </div>
-              </div>
+      <div class="container">
+          <div class="row mealCards d-flex">
+            {meal_cards}
           </div>
-          <div class="row mealCards d-flex"><div class="loader"></div></div>
-      </div>
     </section>
 
     <footer>
@@ -93,8 +100,8 @@
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
-<script src="scripts/recipeCards.js"></script>
-<script src="scripts/allRecipes.js"></script>
+<!-- <script src="scripts/recipeCards.js"></script>
+<script src="scripts/allRecipes.js"></script> -->
 
 </html>
 

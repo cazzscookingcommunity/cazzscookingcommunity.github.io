@@ -3,10 +3,6 @@ User-agent: *
 Allow: /sitemap.xml
 Allow: /recipes/
 
-# block recipe update pages
-#Disallow: /recipe/*.xml$
-
-
 # disallow file and folders
 Disallow: /*.xsd$
 Disallow: /*.xslt$
