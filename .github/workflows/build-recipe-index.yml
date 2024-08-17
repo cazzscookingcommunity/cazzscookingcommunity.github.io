@@ -81,7 +81,7 @@ jobs:
           git config user.email github-actions@github.com
           git add components/search_index.json
           git add sitemap.xml
-          git diff --name-only HEAD^ HEAD | grep 'recipes/html/' | xargs git add
+          git diff --name-only HEAD~1 HEAD | grep 'recipes/html/' | xargs git add
           git add staticAllRecipes.html
 
           if git diff-index --quiet HEAD --; then
