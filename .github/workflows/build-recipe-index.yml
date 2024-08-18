@@ -82,8 +82,9 @@ jobs:
           git add components/search_index.json
           git add sitemap.xml
           git add staticAllRecipes.html
+          git add recipes/html/*.html
           # Extract the list of HTML files updated
-          grep 'recipes/xml/' files.txt | sed -e 's|recipes/xml/|recipes/html/|' -e 's|\.xml$|.html|' | xargs -I {} git add {}
+          # grep 'recipes/xml/' files.txt | sed -e 's|recipes/xml/|recipes/html/|' -e 's|\.xml$|.html|' | xargs -I {} git add {}
 
 
           if git diff-index --quiet HEAD --; then
