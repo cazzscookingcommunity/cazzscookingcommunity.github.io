@@ -59,18 +59,36 @@
         </xs:restriction>
     </xs:simpleType>
 
+    <xs:simpleType name="htmlFilenameType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".*\.html"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="xmlFilenameType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".*\.xml"/>
+        </xs:restriction>
+    </xs:simpleType>
+
+    <xs:simpleType name="imgType">
+        <xs:restriction base="xs:string">
+            <xs:pattern value=".*\.jpeg"/>
+        </xs:restriction>
+    </xs:simpleType>
+
     <xs:complexType name="recipeType">
         <xs:sequence>
-            <xs:element name="title" type="xs:token" />
-            <xs:element name="filename" type="xs:token" />
-            <xs:element name="htmlFilename" type="xs:token" />
+            <xs:element name="title" type="xs:token" default="e.g. recipe_name" />
+            <xs:element name="filename" type="xmlFilenameType"  default="e.g. recipe_name.xml"/>
+            <xs:element name="htmlFilename" type="htmlFilenameType"  default="e.g. recipe_name.html"/>
             <xs:element name="comment" type="xs:string" minOccurs="0" />
-            <xs:element name="thumbnail" type="xs:string" />
-            <xs:element name="image" type="xs:string" minOccurs="0" />
+            <xs:element name="thumbnail" type="imgType"  default="e.g. recipe_name.jpeg"/>
+            <xs:element name="image" type="xs:token" minOccurs="0" />
             <xs:element name="category" type="categoryType" maxOccurs="3" />
             <xs:element name="yield" type="NullOrInteger" minOccurs="0" />
-            <xs:element name="prepTime" type="xs:token" minOccurs="0" />
-            <xs:element name="cookTime" type="xs:token" minOccurs="0" />
+            <xs:element name="prepTime" type="xs:duration" minOccurs="0"/>
+            <xs:element name="cookTime" type="xs:duration" minOccurs="0"/>
             <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded" />
             <xs:element name="ingredient" type="xs:string" minOccurs="0" maxOccurs="unbounded" />
