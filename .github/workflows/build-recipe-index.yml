@@ -38,13 +38,13 @@ jobs:
           while IFS= read -r file
           do
             echo $file
-            if [[ $file != "recipes"* ]]; then
-              echo "This file is not under the directory 'recipes'."
+            if [[ $file != "recipes/xml/"* ]]; then
+              echo "This file is not under the directory 'recipes/xml/'."
               # echo "::set-output name=run_job::false"
               echo "run_job=false" >> $GITHUB_OUTPUT
               break
             else
-              echo "this file is in RECIPE directory."
+              echo "this file is in RECIPE/XML/ directory."
               # echo "::set-output name=run_job::true"
               echo "run_job=true" >> $GITHUB_OUTPUT
             fi
@@ -81,8 +81,10 @@ jobs:
           git config user.email github-actions@github.com
           git add components/search_index.json
           git add sitemap.xml
-          git diff --name-only HEAD~1 HEAD | grep 'recipes/html/' | xargs git add
           git add staticAllRecipes.html
+          # Extract the list of HTML files updated
+          grep 'recipes/xml/' files.txt | sed -e 's|recipes/xml/|recipes/html/|' -e 's|\.xml$|.html|' | xargs -I {} git add {}
+
 
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
