@@ -48,61 +48,26 @@ $(document).ready(function(){
         .catch(error => console.error('Error fetching JSON index:', error));
 
 
-    // Fetches random recipe
+    // Fetch a random recipe
     $('.btnRandomRecipe').on('click', function(){
         fetchMeal(recipeList,'r');
-
-        // Textual updates
         $('#dynamicTitle').text('The Random Recipe');
     });
 
-    // Fetch searched recipe on click
+    // Get the searched recipes on click
     $('.btnSearchRecipe').on('click', function(){
         searchTerm = $.trim($('#searchRecipe').val());
         searchRecipes(searchTerm);
     })
 
-});
-
-// this is part of preserving search state for the back function
-document.querySelectorAll('.clearButton').forEach(button => {
-    button.addEventListener('click', function(event) {
-        event.preventDefault(); // Prevents the default action, if necessary
-        clearSearch(); // Calls the clearSearch function
-        window.location.href = '/index.html'; // Redirects to the home page
-        console.debug('Event listener added to a clearButton successfully.');
+    // Get the searched recipes on Enter
+    $('#searchRecipe').keypress(function(e) {
+        if( e.which == 13 && $.trim($(this).val()) !== '' ) {
+            searchTerm = $.trim($(this).val());
+            searchRecipes(searchTerm);
+        }
     });
 });
-
-
-// Attach the clear search function to the clear button
-// clearButton.addEventListener('click', function(event) {
-//     event.preventDefault();
-//     clearSearch();
-//     window.location.href = '/index.html';
-//     console.debug('event listender added to Homebutton successfully.');
-// });
-
-
-// Get recipe list based on search input using enter rather than click
-$(document).keypress(function(e) {
-    if( e.which == 13 && $.trim($('#searchRecipe').val()) !== '' ) {
-        searchTerm = $.trim($('#searchRecipe').val());
-        searchRecipes(searchTerm);
-    }
-});
-
-
-// hamburger menu for category list
-function mobileCategoryMenu() {
-    var x = document.getElementById("NavBarCategory");
-    if (x.style.display === "block") {
-      x.style.display = "none";
-    } else {
-      x.style.display = "block";
-    }
-} 
-
 
 // generate a list of all hastags for simple search
 function getSearchTags(recipeList) {

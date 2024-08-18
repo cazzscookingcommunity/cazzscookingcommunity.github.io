@@ -4,7 +4,7 @@
 # sitemape.xml
 # search_index.json
 # recipe.html files when the source xml sourece recipe file is changed
-# staticAllRecipes.html when there is a change to recipe.xml file
+# all-recipes.html when there is a change to recipe.xml file
 # 
 # After a Push it scans for changes and updates files as necessary
 
@@ -81,7 +81,7 @@ jobs:
           git config user.email github-actions@github.com
           git add components/search_index.json
           git add sitemap.xml
-          git add staticAllRecipes.html
+          git add all-recipes.html
           git add recipes/html/*.html
           # Extract the list of HTML files updated
           # grep 'recipes/xml/' files.txt | sed -e 's|recipes/xml/|recipes/html/|' -e 's|\.xml$|.html|' | xargs -I {} git add {}
