@@ -76,12 +76,12 @@ document.querySelectorAll('.clearButton').forEach(button => {
 
 
 // Attach the clear search function to the clear button
-clearButton.addEventListener('click', function(event) {
-    event.preventDefault();
-    clearSearch();
-    window.location.href = '/index.html';
-    console.debug('event listender added to Homebutton successfully.');
-});
+// clearButton.addEventListener('click', function(event) {
+//     event.preventDefault();
+//     clearSearch();
+//     window.location.href = '/index.html';
+//     console.debug('event listender added to Homebutton successfully.');
+// });
 
 
 // Get recipe list based on search input using enter rather than click
