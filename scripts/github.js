@@ -40,6 +40,9 @@ async function commit_recipe() {
         // ignore and do nothing
         console.debug("ignore empty passcode");
     } else {
+        // diaplay busy icon
+        document.getElementById('loading-spinner').style.display = 'block';
+   
         // retrieve updated file and meta data
         const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));  
         parser = new DOMParser();
@@ -50,8 +53,7 @@ async function commit_recipe() {
             const sha =  await getSHA(recipeXmlDir, recipename);
             await postFile(recipeupdate, recipeXmlDir + recipename, sha);
             console.log("File uploaded successfully");
-            window.alert(`Recipe updated successfully, but will take 1 min to show on website. you can continue to edit other recipes. Going back to previous screen`);
-
+            
             if (window.opener) {
                 // Go back in the parent's history
                 window.opener.history.back();
