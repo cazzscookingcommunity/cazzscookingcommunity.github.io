@@ -73,40 +73,6 @@ async function commit_recipe() {
     }
 };
 
-
-//  IMAGE UPDATE
-// ================================
-// 
-
-// function image_upload() {
-//     var fileInput = document.getElementById('imageFile');  // Referencing the correct input element
-//     imageName = document.getElementById('imageName').value + ".jpeg";
-
-//     if (fileInput.files.length > 0) {
-//         imageFile = fileInput.files[0];
-
-//         // Debugging output to ensure the file is correct
-//         console.log('imageFile:', imageFile);
-//         console.log('imageFile type:', typeof imageFile);
-//         console.log('Is imageFile an instance of Blob?', imageFile instanceof Blob);
-
-//         // Check if imageFile is a Blob (or File)
-//         if (!(imageFile instanceof Blob)) {
-//             console.error('Invalid file type: The file must be a Blob or File instance.');
-//             return;
-//         }
-
-//         // Proceed with the upload
-//         get_token(commit_image);
-
-//         // postFile(imageFile, `recipes/images/${imageName}`, sha).then(() => {
-//         //     console.log('File uploaded successfully');
-//         // }).catch(error => {
-//         //     console.error('Error uploading image:', error);
-//         // });
-//     }
-// }
-
 function image_upload() {
     var fileInput = document.getElementById('imageFile');
     imageName = document.getElementById('imageName').value + ".jpeg";
@@ -123,25 +89,6 @@ function image_upload() {
         get_token(commit_image);
     }
 }
-
-
-// function image_upload(file) {
-//     image = file;
-//     get_token(commit_image);
-// }
-
-// async function commit_image() {  
-//     if ( passcode != null ) {
-//         // commit changes to GitHub
-//         // filename = getfilename(image);
-//         console.debug(imageFile);
-//         const sha =  await getSHA(imagedir, imageName);
-//         await postFile(imageFile, imagedir+imageName, sha);
-//         // window.close('/components/imageupload.html');
-//         window.alert("upload successful")
-//         // window.location.reload();
-//     }
-// }
 
 async function commit_image() {
     if (passcode != null) {
@@ -163,8 +110,6 @@ async function commit_image() {
             console.error('Error uploading image:', error);
             window.alert("An error occurred during the upload. Please try again.");
         }
-    } else {
-        window.alert("Passcode is missing.");
     }
 }
 
@@ -267,61 +212,6 @@ async function postFile(blob, path, sha) {
         reader.readAsDataURL(blob);
     });
 }
-
-
-
-
-async function old_postFile(file, path, sha) {
-    // Read the file as an ArrayBuffer
-    // const arrayBuffer = await file.arrayBuffer();
-
-    // Convert the ArrayBuffer to a binary string
-    // const binaryString = String.fromCharCode(...new Uint8Array(arrayBuffer));
-
-    // Convert the binary string to a base64-encoded string
-    const base64Content = btoa(file);
-
-    // Create the request body with the base64-encoded content
-    const body = JSON.stringify({
-        "content": base64Content,
-        "message": "Webform recipe update",
-        "branch": "master",
-        "sha": sha || ""
-    });
-    // const body = JSON.stringify({
-    //     "content": btoa(file),
-    //     "message": "Webform recipe update",
-    //     "branch": "master",
-    //     "sha": `${sha}`
-    // });
-
-    // Construct the GitHub API endpoint
-    const endpoint = `/repos/${owner}/${repo}/contents/${path}`;
-
-    // Send the PUT request to the GitHub API
-    const response = await fetch(github + endpoint, {
-        "headers": headers,
-        "method": "PUT",
-        "body": body
-    });
-
-    // Check if the response was not successful
-    if (!response.ok) {
-        throw new Error(`Failed to upload file: ${response.statusText}`);
-    }
-
-    return response;
-}
-
-    // const body = JSON.stringify({
-    //     "content": btoa(file),
-    //     "message": "Webform recipe update",
-    //     "branch": "master",
-    //     "sha": `${sha}`
-    // });
- 
-
-
 
 
 // RECIPE FILE FORMATTING

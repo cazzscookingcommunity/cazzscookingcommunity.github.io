@@ -7,7 +7,7 @@ node_modules/
 xml/backup_xsd2html2xml_customisations/
 
 # ignore these directories
-scripts/python_scripts/archive/
+scripts/python_scripts/local/
 
 # ignore these files
 *.bak

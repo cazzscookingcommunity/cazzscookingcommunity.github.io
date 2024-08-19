@@ -72,8 +72,8 @@ jobs:
 
       - name: generate html files for changed recipes and allRecipes
         run: |
-          python scripts/python_scripts/generateStaticRecipePage.py
-          python scripts/python_scripts/generateStaticAllRecipesPage.py
+          python scripts/python_scripts/make-recipe-pages.py
+          python scripts/python_scripts/make-allrecipes-page.py
 
       - if: ${{ success() }}
         run: |
@@ -83,13 +83,10 @@ jobs:
           git add sitemap.xml
           git add all-recipes.html
           git add recipes/html/*.html
-          # Extract the list of HTML files updated
-          # grep 'recipes/xml/' files.txt | sed -e 's|recipes/xml/|recipes/html/|' -e 's|\.xml$|.html|' | xargs -I {} git add {}
-
 
           if git diff-index --quiet HEAD --; then
             echo "No changes to commit"
           else
-            git commit -m "automated recipe index update"
+            git commit -m "automated html and index update"
             git push
           fi
