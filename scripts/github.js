@@ -8,7 +8,7 @@ const imagedir = 'recipes/images/';
 
 var passcode = null
 var headers = {}
-var image = '';   // full name and path of image to be uploaded
+// var image = '';   // full name and path of image to be uploaded
 
 
 // recipe file header
@@ -78,11 +78,10 @@ async function commit_recipe() {
 // 
 
 function image_upload(file) {
-    image = file;
-    get_token(commit_image);
+    get_token(commit_image(file));
 }
 
-async function commit_image() {  
+async function commit_image(image) {  
     if ( passcode != null ) {
         // commit changes to GitHub
         filename = getfilename(image);
@@ -109,7 +108,7 @@ function get_token(callback) {
     pat.id = "token";
     pat.value = "";
     document.body.appendChild(pat);
-    var popup = window.open('/components/popup.html','','toolbar=0,status=0,width=626,height=436');
+    var popup = window.open('/components/html/popup.html','','toolbar=0,status=0,width=626,height=436');
     popup.addEventListener("unload", function (event) {
         if ( popup.closed ) {
             callback();
@@ -174,14 +173,14 @@ async function postFile(file, path, sha) {
 // 
 
 // get the filename from the fill path
-function getfilename(file) {
-    console.debug(file);
-    const myArray = file.split("\\");
-    console.debug(myArray);
-    filename = myArray[myArray.length - 1];
-    console.debug(filename);
-    return( filename );
-}
+// function getfilename(file) {
+//     console.debug(file);
+//     const myArray = file.split("\\");
+//     console.debug(myArray);
+//     filename = myArray[myArray.length - 1];
+//     console.debug(filename);
+//     return( filename );
+// }
 
 // insert missing XML headers that have not lost on the way 
 function preparefile(array) {

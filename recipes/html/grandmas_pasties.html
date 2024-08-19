@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!-- This recipe-template.html page is a template for static html recipe pages.
+<!-- This page is a template for static html recipe pages.
     it is populated by python using recipe.xml data
     This provides static html pages for recipes, rather than using XSLT to dynamically generate them
     This should help Good index the site.
@@ -58,7 +58,7 @@
             <link rel="icon" href="/favicon.ico" sizes="32x32">
             <link rel="icon" href="/components/chef.svg" type="image/svg+xml">
             <link rel="apple-touch-icon" href="/components/app_icon_114x114.png">
-            <link rel="manifest" href="/components/manifest.webmanifest">
+            <link rel="manifest" href="/manifest.webmanifest">
 
     </head>
 
@@ -67,7 +67,7 @@
 
         <!-- scroll up -->
         <div class="goTop">
-            <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+            <a href="#main" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
         </div> 
 
         <!-- HEADER -->
@@ -86,7 +86,7 @@
                         <ul class="navbar-list" id="navbar-list">
                           <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
                           <li class="navbar-item"><a href="/all-recipes.html">All Recipes</a></li>
-                          <li class="navbar-item"><a href="/components/add-recipe.html">Create New Recipe</a></li>
+                          <li class="navbar-item"><a href="/add-recipe.html">Create New Recipe</a></li>
                           <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
                         </ul>
                         <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -122,9 +122,9 @@
                         <p><span>Prep Time:</span> </p>
                         <p><span>Cook Time:</span> </p>
                         <div id="cardActions">
-                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons_share.png"/>
-                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons_print_24.png"/>
-                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/grandmas_pasties.xml')" src="/components/icons8-edit-24.png"/>
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/grandmas_pasties.xml')" src="/components/icons/icons8-edit-24.png"/>
                         </div>
                     </div> 
 

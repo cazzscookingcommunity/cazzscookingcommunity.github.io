@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 # inputs
 recipeDir = "recipes/html/"
 imageDir = "recipes/images/"
-template_file = 'all-recipes-template.html'
-index_file = 'components/search_index.json'
+template_file = 'components/html/all-recipes-template.html'
+index_file = 'search_index.json'
 
 # outputs
 output_file = 'all-recipes.html'

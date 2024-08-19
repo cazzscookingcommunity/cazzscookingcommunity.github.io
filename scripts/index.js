@@ -1,6 +1,6 @@
 
 var recipeList=[];
-const SearchIndexFile = "/components/search_index.json";
+const SearchIndexFile = "/search_index.json";
 let idx;
 window.scrollTo(0,$('#main').offset().top);
 

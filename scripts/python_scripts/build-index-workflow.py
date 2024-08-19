@@ -21,7 +21,7 @@ indexHtmlFile = "index.html"
 
 
 # output files
-searchIndex = "components/search_index.json"
+searchIndex = "search_index.json"
 sitemap = "sitemap.xml"
 
 # SITEMAP.XML TEMPLATE

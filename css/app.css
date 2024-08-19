@@ -11,7 +11,7 @@ body{display:flex;flex-direction:column;flex-wrap:nowrap}
 
 /* Theme color */
 body{background-color:whitesmoke;color:black}
-.brand,.heading{color:#689f38; text-decoration: none}
+.brand, .heading{color:#689f38; text-decoration: none}
 .button:hover{background-color:#689f38}
 .loader{outline: 0 solid #689f38}
 
@@ -87,6 +87,18 @@ h1.brand, h2.heading.brand{
     margin: 0;
 }
 
+/* Create New Recipe */
+.upload.heading {
+    margin:0px; 
+    width:100%; 
+    text-align:left; 
+    transform:rotate(0deg);
+}
+
+div.uploadPrompt {margin-top: 5vh;}
+input#imageName {width: 50%;}
+
+
 /* Search prompts and Tips on home page */
 .info-container {
     position: relative;
@@ -119,6 +131,10 @@ h1.brand, h2.heading.brand{
     white-space: nowrap; /* Prevent line breaks for smaller content */
     transform: translateX(-50%); /* Center horizontally */
 }
+
+/* hide the passcode token on all pages.  it will be display on popup only */
+#token {display: none;}
+
 
 /* Arrow pointing upwards */
 .info-popup::after {

@@ -6,8 +6,8 @@ from bs4 import BeautifulSoup
 
 # Define the path to the directory containing XML files and the template file
 recipeDir = 'recipes/xml/'
-template_file = 'recipe-template.html'
-index_file = 'components/search_index.json'
+template_file = 'components/html/recipe-template.html'
+index_file = 'search_index.json'
 git_changes = 'files.txt' # files.txt created by Github Actions. see .gituhub/workflows/build-recipe-index.yml
 
 

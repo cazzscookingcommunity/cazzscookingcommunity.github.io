@@ -2,9 +2,8 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>recipe admin</title>
-  <link rel="canonical" href="https://cazzscookingcommunity.github.io/add-recipe.html" />
-  <meta name="robots" content="noindex, nofollow" />
+  <title>All of Cazz's Favoutie Recipes</title>
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/all-recipes.html" />
 
   <!-- ALL PAGES -->
       <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -30,7 +29,7 @@
       <link rel="icon" href="/favicon.ico" sizes="32x32">
       <link rel="icon" href="/components/chef.svg" type="image/svg+xml">
       <link rel="apple-touch-icon" href="/components/app_icon_114x114.png">
-      <link rel="manifest" href="/components/manifest.webmanifest">
+      <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
 <body>
@@ -38,19 +37,19 @@
 
     <!-- scroll to top and back -->
     <div class="goTop">
-      <a href="#main" tabindex="-1"><img src="/components/icons_up_24.png" title="Back to top" /></a>
+      <a href="#mealCardsSection" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
     </div> 
 
 
     <!-- HEADER SECTION -->
-    <header>  
+    <header>
       <div class="container">
 
         <div class="row">
           <div class="twelve columns">
-            <a class="brand" tabindex="0" href="/index.html" title="Family Favourite Recipes | Cazzs Cooking Community"><h1 class="heading brand">Family Recipe Favourites</h1></a>    
+            <h1 class="heading brand">All of Cazz's Favourite Recipes</h1>
           </div>
-        </div> 
+        </div>
 
         <nav class="navbar">
           <div class="row">
@@ -58,7 +57,7 @@
               <ul class="navbar-list" id="navbar-list">
                 <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
                 <li class="navbar-item"><a href="/all-recipes.html">All Recipes</a></li>
-                <li class="navbar-item"><a href="/components/add-recipe.html">New Recipe</a></li>
+                <li class="navbar-item"><a href="/add-recipe.html">Create New Recipe</a></li>
                 <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
               </ul>
               <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -66,43 +65,23 @@
                 <i class="fa fa-bars"></i>
               </a>
             </div>
-          </div>
-        </nav>
+          </div> <!-- row -->
+        </nav> <!-- Nav -->
 
       </div>
     </header>
 
-    <!-- MAIN SECTION -->
-    <section>
+    <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
+    <section id="mealCardsSection">
+      <br/>
       <div class="container">
-        <div class="row d-flex">
-          <div class="twelve columns">
-            <h4><small>Create a new recipe</small></h4>
-            <p>Tips and Tricks:<br/>
-              Step 1:  upload image, Step 2: create new recipe<br/>
-              image name is 'name'.jpeg  (avoid spaces to be safe).<br/>
-              filemname is 'name.xml'<br/>
-              htmlFilename is 'name.html'<br/>
-              preptime and cooktook is 'PTxxM or PTxHxxM'<br/>
-            </p>
-        </div>
-        <div class="row d-flex">
-          <div class="twelve columns">
-            <div id="newRecipe">
-              <button onclick="image_upload(document.getElementById('imgFilename').value)">upload image</button>
-              <input type="file" id="imgFilename" name="image" accept="image/*">
-              <br><br>
-          
-              <a href=${recipexsd}><button>CREATE NEW RECIPE</button></a>
-              <br><br>
-            </div>
+          <div class="row mealCards d-flex">
+            {meal_cards}
           </div>
-        </div>
     </section>
 
-    <!-- FOOTER SECTION -->
     <footer>
-      <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community"> https://cazzscookingcommunity.github.io</a>
+      <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community">GitHub repo: https://cazzscookingcommunity.github.io</a>
       <br/>
       <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
           
@@ -110,13 +89,11 @@
         Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
       </div>
     </footer>
+
   </main>
 </body>
 
-<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="scripts/utils.js"></script>
-<script src="/scripts/github.js"></script>
-<script src="/scripts/add-recipe.js"></script>
+<script src="/scripts/utils.js"></script>
 </html>
 
 

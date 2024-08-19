@@ -1,7 +1,7 @@
 # Github workflow action
 
 # files to be updated as recipes change include
-# sitemape.xml
+# sitemap.xml
 # search_index.json
 # recipe.html files when the source xml sourece recipe file is changed
 # all-recipes.html when there is a change to recipe.xml file
@@ -79,7 +79,7 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add components/search_index.json
+          git add search_index.json
           git add sitemap.xml
           git add all-recipes.html
           git add recipes/html/*.html
