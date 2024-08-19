@@ -28,8 +28,8 @@
 
       <!-- These should remain for consistent branding and to support web app features across all pages. -->
       <link rel="icon" href="/favicon.ico" sizes="32x32">
-      <link rel="icon" href="/components/chef.svg" type="image/svg+xml">
-      <link rel="apple-touch-icon" href="/components/app_icon_114x114.png">
+      <link rel="icon" href="/components/icons/chef.svg" type="image/svg+xml">
+      <link rel="apple-touch-icon" href="/components/icons/app_icon_114x114.png">
       <link rel="manifest" href="/manifest.webmanifest">
 </head>
 
@@ -81,17 +81,18 @@
               
               <h4 class="upload heading"><small>Upload New Image</small></h4>
               <!-- File selector -->
-              <input type="file" id="imgFilename" name="image" accept="*.jpeg">
+              <input type="file" id="imageFile" name="image" accept="image/jpeg">
               <br/>
 
               <!-- New field to enter the image name -->
-              <label for="imageName">Image Name:</label>
-              <input type="text" id="imageName" placeholder="Enter name as 'recipe_title'.jpeg" 
-                oninput="this.value = this.value.replace(/[^a-zA-Z0-9_]/g, '')">
+              <label for="imageName">Recipe Title:</label>
+              <input type="text" id="imageName" placeholder="Enter TITLE of recipe without spaces" 
+                     oninput="this.value = this.value.replace(/[^a-z0-9_]/g, '')">
               <br/>
 
               <!-- Upload button -->
-              <button onclick="image_upload(document.getElementById('imageName').value)">Upload Image</button>
+              <!-- <button onclick="image_upload(document.getElementById('imageName').value)">Upload Image</button> -->
+              <button onclick="image_upload()">Upload Image</button>
             </div>
 
             <div class="uploadPrompt">

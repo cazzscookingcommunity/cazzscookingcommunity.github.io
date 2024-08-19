@@ -321,7 +321,7 @@
 					<xsl:attribute name="style">display: none;</xsl:attribute>
 					<xsl:element name="img">
 						<xsl:attribute name="alt">Loading...</xsl:attribute>
-						<xsl:attribute name="src">/components/chef.svg</xsl:attribute>
+						<xsl:attribute name="src">/components/icons/chef.svg</xsl:attribute>
 					</xsl:element>
 					<p>Processing...</p>
 				</xsl:element>

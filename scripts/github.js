@@ -8,8 +8,8 @@ const imagedir = 'recipes/images/';
 
 var passcode = null
 var headers = {}
-// var image = '';   // full name and path of image to be uploaded
-
+var imageName = '';   // image name from add-recipe.html
+var imageFile = '';   // the image uploaded from add-recipe.html
 
 // recipe file header
 const xmlheader = [`<?xml version="1.0" encoding="UTF-8"?>`,
@@ -45,13 +45,14 @@ async function commit_recipe() {
    
         // retrieve updated file and meta data
         const recipeupdate = decodeURI(sessionStorage.getItem('recipeupdate'));  
+        recipeBlob = new Blob([recipeupdate], { type: 'text/xml' });
         parser = new DOMParser();
         recipeXML = parser.parseFromString(recipeupdate,"text/xml");
         recipename = recipeXML.getElementsByTagName("filename")[0].innerHTML;
         // commit changes to GitHub
         try {
             const sha =  await getSHA(recipeXmlDir, recipename);
-            await postFile(recipeupdate, recipeXmlDir + recipename, sha);
+            await postFile(recipeBlob, recipeXmlDir + recipename, sha);
             console.log("File uploaded successfully");
             
             if (window.opener) {
@@ -77,21 +78,101 @@ async function commit_recipe() {
 // ================================
 // 
 
-function image_upload(file) {
-    get_token(commit_image(file));
-}
+// function image_upload() {
+//     var fileInput = document.getElementById('imageFile');  // Referencing the correct input element
+//     imageName = document.getElementById('imageName').value + ".jpeg";
 
-async function commit_image(image) {  
-    if ( passcode != null ) {
-        // commit changes to GitHub
-        filename = getfilename(image);
-        console.debug(filename);
-        const sha =  await getSHA(imagedir, filename);
-        await postFile(image, imagedir+filename, sha);
-        // window.close('/components/imageupload.html');
-        window.location.reload();
+//     if (fileInput.files.length > 0) {
+//         imageFile = fileInput.files[0];
+
+//         // Debugging output to ensure the file is correct
+//         console.log('imageFile:', imageFile);
+//         console.log('imageFile type:', typeof imageFile);
+//         console.log('Is imageFile an instance of Blob?', imageFile instanceof Blob);
+
+//         // Check if imageFile is a Blob (or File)
+//         if (!(imageFile instanceof Blob)) {
+//             console.error('Invalid file type: The file must be a Blob or File instance.');
+//             return;
+//         }
+
+//         // Proceed with the upload
+//         get_token(commit_image);
+
+//         // postFile(imageFile, `recipes/images/${imageName}`, sha).then(() => {
+//         //     console.log('File uploaded successfully');
+//         // }).catch(error => {
+//         //     console.error('Error uploading image:', error);
+//         // });
+//     }
+// }
+
+function image_upload() {
+    var fileInput = document.getElementById('imageFile');
+    imageName = document.getElementById('imageName').value + ".jpeg";
+
+    // console.log("fileInput:", fileInput);
+
+    if (fileInput.files.length > 0) {
+        imageFile = fileInput.files[0];
+        console.log("imageFile: ", imageFile);
+
+        // Perform the upload or further processing here
+        console.log('Selected file:', imageFile);
+        console.log('New filename:', imageName);
+        get_token(commit_image);
     }
 }
+
+
+// function image_upload(file) {
+//     image = file;
+//     get_token(commit_image);
+// }
+
+// async function commit_image() {  
+//     if ( passcode != null ) {
+//         // commit changes to GitHub
+//         // filename = getfilename(image);
+//         console.debug(imageFile);
+//         const sha =  await getSHA(imagedir, imageName);
+//         await postFile(imageFile, imagedir+imageName, sha);
+//         // window.close('/components/imageupload.html');
+//         window.alert("upload successful")
+//         // window.location.reload();
+//     }
+// }
+
+async function commit_image() {
+    if (passcode != null) {
+        try {
+            // Debugging the selected image file
+            console.debug("image File: ",imageFile);
+            console.debug("image name: ", imageName);
+            console.debug("imgage path: ", imagedir + imageName);
+
+            // Get the SHA for the existing file, if it exists
+            const sha = await getSHA(imagedir, imageName);
+
+            // Upload or update the file in GitHub
+            await postFile(imageFile, imagedir + imageName, sha);
+
+            // Notify the user of the successful upload
+            window.alert("Upload successful");
+
+            // Optionally close or reload the window
+            // window.close('/components/imageupload.html');
+            // window.location.reload();
+        } catch (error) {
+            // Handle any errors that occur during the upload process
+            console.error('Error uploading image:', error);
+            window.alert("An error occurred during the upload. Please try again.");
+        }
+    } else {
+        window.alert("Passcode is missing.");
+    }
+}
+
 
 
 
@@ -143,28 +224,108 @@ async function getSHA(path, filename) {
     return ( sha );
 }
 
-// commit change 
-async function postFile(file, path, sha) {
+// commit change
+async function postFile(blob, path, sha) {
+    // Ensure that the file is a Blob (which includes File)
+    if (!(blob instanceof Blob)) {
+        throw new Error('Invalid file type: The file must be a Blob or File instance.');
+    }
+
+    return new Promise((resolve, reject) => {
+        const reader = new FileReader();
+
+        reader.onloadend = async function () {
+            // Remove the data URL prefix and get base64 content
+            const base64Content = reader.result.split(',')[1];
+
+            const body = JSON.stringify({
+                "content": base64Content,
+                "message": "Webform recipe update",
+                "branch": "master",
+                "sha": sha || ""
+            });
+
+            const endpoint = `/repos/${owner}/${repo}/contents/${path}`;
+
+            try {
+                const response = await fetch(github + endpoint, {
+                    "headers": headers,
+                    "method": "PUT",
+                    "body": body
+                });
+
+                if (!response.ok) {
+                    reject(new Error(`Failed to upload file: ${response.statusText}`));
+                }
+
+                resolve(response);
+            } catch (error) {
+                reject(new Error('Failed to upload file.'));
+            }
+        };
+
+        reader.onerror = function () {
+            reject(new Error('Failed to read file.'));
+        };
+
+        // Read the file as a DataURL (works for both images and text files)
+        reader.readAsDataURL(blob);
+    });
+}
+
+
+
+
+async function old_postFile(file, path, sha) {
+    // Read the file as an ArrayBuffer
+    // const arrayBuffer = await file.arrayBuffer();
+
+    // Convert the ArrayBuffer to a binary string
+    // const binaryString = String.fromCharCode(...new Uint8Array(arrayBuffer));
+
+    // Convert the binary string to a base64-encoded string
+    const base64Content = btoa(file);
+
+    // Create the request body with the base64-encoded content
     const body = JSON.stringify({
-        "content": btoa(file),
+        "content": base64Content,
         "message": "Webform recipe update",
         "branch": "master",
-        "sha": `${sha}`
+        "sha": sha || ""
     });
-    let endpoint = `/repos/${owner}/${repo}/contents/${path}`;
+    // const body = JSON.stringify({
+    //     "content": btoa(file),
+    //     "message": "Webform recipe update",
+    //     "branch": "master",
+    //     "sha": `${sha}`
+    // });
 
+    // Construct the GitHub API endpoint
+    const endpoint = `/repos/${owner}/${repo}/contents/${path}`;
+
+    // Send the PUT request to the GitHub API
     const response = await fetch(github + endpoint, {
         "headers": headers,
         "method": "PUT",
         "body": body
     });
 
-    if (!response.ok) {  // Check if the response status is not in the range 200-299
+    // Check if the response was not successful
+    if (!response.ok) {
         throw new Error(`Failed to upload file: ${response.statusText}`);
     }
 
     return response;
 }
+
+    // const body = JSON.stringify({
+    //     "content": btoa(file),
+    //     "message": "Webform recipe update",
+    //     "branch": "master",
+    //     "sha": `${sha}`
+    // });
+ 
+
 
 
 
@@ -173,14 +334,14 @@ async function postFile(file, path, sha) {
 // 
 
 // get the filename from the fill path
-// function getfilename(file) {
-//     console.debug(file);
-//     const myArray = file.split("\\");
-//     console.debug(myArray);
-//     filename = myArray[myArray.length - 1];
-//     console.debug(filename);
-//     return( filename );
-// }
+function getfilename(file) {
+    console.debug(file);
+    const myArray = file.split("\\");
+    console.debug(myArray);
+    filename = myArray[myArray.length - 1];
+    console.debug(filename);
+    return( filename );
+}
 
 // insert missing XML headers that have not lost on the way 
 function preparefile(array) {
