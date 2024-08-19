@@ -1431,6 +1431,15 @@
         "ingredients": "6-10 cups chopped Kent pumpkin 5 cups chopped butternut pumpkin 2-3 large carrots chopped finely 1-3 garlic cloves crushed 1 teaspoon curry power Olive oil Chicken stock Salt and Pepper to taste Fresh nutmeg and cream to serve"
     },
     {
+        "id": "jasmines_red_lentil_dhal.xml",
+        "title": "Jasmine's Red Lentil Dhal",
+        "htmlFilename": "jasmines_red_lentil_dhal.html",
+        "thumbnail": "jasmines_red_lentil_dhal.jpeg",
+        "category": "Dinner",
+        "diet": "Vegetarian",
+        "ingredients": ""
+    },
+    {
         "id": "vegetable_bake.xml",
         "title": "Vegetable Bake",
         "htmlFilename": "vegetable_bake.html",
@@ -1869,16 +1878,6 @@
         "thumbnail": "no_bake_oreo_cheese_cake.jpeg",
         "category": "Sweets",
         "diet": "",
-        "ingredients": "300-400 gms prawns fresh or frozen (replace with tofu for vegetarian) 1 packet noodles cooked per instructions (retain some water) (Use gluten free if preferred) 1-2 bunches Bok  Choy or chow sum washed and chopped 1-2 red chillies chopped 3 spring onions washed and chopped  2-3 cloves garlic ground  1 inch ginger grated 1-2 TBsp Green curry paste 1 stock cube 1 can coconut milk  2-3 TBSP olive oil "
-    },
-    {
-        "id": "jasmines_red_lentil_dhal.xml",
-        "title": "Jasmine's Red Lentil Dhal",
-        "filename": "jasmines_red_lentil_dhal.xml",
-        "htmlFilename": "jasmines_red_lentil_dhal.html",
-        "thumbnail": "jasmines_red_lentil_dhal.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian",
         "ingredients": ""
     },
     {
