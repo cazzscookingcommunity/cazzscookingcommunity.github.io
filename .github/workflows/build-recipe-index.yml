@@ -4,7 +4,7 @@
 # sitemap.xml
 # search_index.json
 # recipe.html files when the source xml sourece recipe file is changed
-# all-recipes.html when there is a change to recipe.xml file
+# recipe-all.html when there is a change to recipe.xml file
 # 
 # After a Push it scans for changes and updates files as necessary
 
@@ -70,10 +70,10 @@ jobs:
       - name: generate sitemap and search index files
         run: python scripts/python_scripts/build-index-workflow.py
 
-      - name: generate html files for changed recipes and allRecipes
+      - name: generate html files for changed recipes and recipes-all
         run: |
           python scripts/python_scripts/make-recipe-pages.py
-          python scripts/python_scripts/make-allrecipes-page.py
+          python scripts/python_scripts/make-recipe-all-page.py
 
       - if: ${{ success() }}
         run: |
@@ -81,7 +81,7 @@ jobs:
           git config user.email github-actions@github.com
           git add search_index.json
           git add sitemap.xml
-          git add all-recipes.html
+          git add recipe-all.html
           git add recipes/html/*.html
 
           if git diff-index --quiet HEAD --; then

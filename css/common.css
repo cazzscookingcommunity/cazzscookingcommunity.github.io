@@ -132,9 +132,6 @@ input#imageName {width: 50%;}
     transform: translateX(-50%); /* Center horizontally */
 }
 
-/* hide the passcode token on all pages.  it will be display on popup only */
-#token {display: none;}
-
 
 /* Arrow pointing upwards */
 .info-popup::after {
@@ -147,6 +144,38 @@ input#imageName {width: 50%;}
     border-style: solid;
     border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
 }
+
+
+/* hide the passcode token on all pages.  it will be display on popup only */
+#token {display: none;}
+
+/* animate the spinner for page upload */
+#loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; /* Default hidden */
+}
+
+#loading-spinner img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loading-spinner p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
+
 
 /* Hover styles for desktop */
 @media (min-width: 769px) {

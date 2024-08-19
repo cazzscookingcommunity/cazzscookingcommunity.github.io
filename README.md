@@ -10,7 +10,7 @@ The site includes a fork of xsd2html2xml, which is used to translate recipe.xsd 
 
 [/components]/(search_index.json)
 [/recipes/html](/recipe.html)
-(/all-recipes.html)
+(/recipe-all.html)
 (/sitemap.xml)
 
 Github Actions are defined by [.gutbub/workflows/](build-recipe-index.yml)

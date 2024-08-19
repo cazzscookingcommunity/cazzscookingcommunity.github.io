@@ -28,7 +28,7 @@
 	<!-- <xsl:param name="config-script">/scripts/xsd2html2xml.js</xsl:param> -->
 	
 	<!-- custom CSS file URL -->
-	<xsl:param name="config-style">/css/recipe_edit.css</xsl:param>
+	<xsl:param name="config-style">/css/recipe-edit.css</xsl:param>
 	
 	<!-- specify whether element's annotation/documentation tags should be used for descriptions (works together with config-language) -->
 	<!-- defaults to false, i.e. element's @name or @ref (unprefixed) attributes -->

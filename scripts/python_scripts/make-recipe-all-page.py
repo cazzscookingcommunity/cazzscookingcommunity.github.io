@@ -6,11 +6,11 @@ from bs4 import BeautifulSoup
 # inputs
 recipeDir = "recipes/html/"
 imageDir = "recipes/images/"
-template_file = 'components/html/all-recipes-template.html'
+template_file = 'components/html/recipe-all-template.html'
 index_file = 'search_index.json'
 
 # outputs
-output_file = 'all-recipes.html'
+output_file = 'recipe-all.html'
 
 
 

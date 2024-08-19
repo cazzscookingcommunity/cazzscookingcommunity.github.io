@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <title>recipe admin</title>
-  <link rel="canonical" href="https://cazzscookingcommunity.github.io/add-recipe.html" />
+  <link rel="canonical" href="https://cazzscookingcommunity.github.io/recipe-add.html" />
   <meta name="robots" content="noindex, nofollow" />
 
   <!-- ALL PAGES -->
@@ -24,7 +24,7 @@
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
       <link rel="stylesheet" href="/css/normalize.css">
       <link rel="stylesheet" href="/css/skeleton.css">
-      <link rel="stylesheet" href="/css/app.css">
+      <link rel="stylesheet" href="/css/common.css">
 
       <!-- These should remain for consistent branding and to support web app features across all pages. -->
       <link rel="icon" href="/favicon.ico" sizes="32x32">
@@ -62,8 +62,8 @@
             <div class="twelve columns">
               <ul class="navbar-list" id="navbar-list">
                 <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
-                <li class="navbar-item"><a href="/all-recipes.html">All Recipes</a></li>
-                <li class="navbar-item"><a href="/add-recipe.html">New Recipe</a></li>
+                <li class="navbar-item"><a href="/recipe-all.html">All Recipes</a></li>
+                <li class="navbar-item"><a href="/recipe-add.html">New Recipe</a></li>
                 <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
               </ul>
               <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
@@ -97,7 +97,7 @@
 
               <!-- Upload button -->
               <!-- <button onclick="image_upload(document.getElementById('imageName').value)">Upload Image</button> -->
-              <button onclick="image_upload()">Upload Image</button>
+              <button class="button" onclick="image_upload()">Upload Image</button>
             </div>
 
             <div class="uploadPrompt">
@@ -108,7 +108,7 @@
                 preptime and cooktook is 'PTxxM or PTxHxxM'
               </p>
 
-              <button onclick="window.open('/xml/recipe.xsd')">CREATE NEW RECIPE</button>
+              <button class="button" onclick="window.open('/xml/recipe.xsd')">CREATE NEW RECIPE</button>
             </div>
 
           </div>

@@ -8,8 +8,8 @@ const imagedir = 'recipes/images/';
 
 var passcode = null
 var headers = {}
-var imageName = '';   // image name from add-recipe.html
-var imageFile = '';   // the image uploaded from add-recipe.html
+var imageName = '';   // image name from recipe-add.html
+var imageFile = '';   // the image uploaded from recipe-add.html
 
 // recipe file header
 const xmlheader = [`<?xml version="1.0" encoding="UTF-8"?>`,
@@ -102,8 +102,6 @@ async function commit_image() {
             // Upload or update the file in GitHub
             await postFile(imageFile, imagedir + imageName, sha);
 
-            // Notify the user of the successful upload
-            window.alert("Upload successful");
             window.location.reload();
         } catch (error) {
             // Handle any errors that occur during the upload process
