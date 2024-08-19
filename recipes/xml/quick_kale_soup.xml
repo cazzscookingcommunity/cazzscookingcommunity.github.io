@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Quick Kale Soup</title>
   <filename>quick_kale_soup.xml</filename>
-  <htmlFilename>quick_kale_soup.html</htmlFilename>
   <comment>c/o taste.com with cazzie tweaks </comment>
   <thumbnail>quick_kale_soup.jpeg</thumbnail>
-  <image/>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>

@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Chocolate Pud</title>
 <filename>chocolate_pud.xml</filename>
-<htmlFilename>chocolate_pud.html</htmlFilename>
 <comment>C/o New Idea with Cazzie Tweaks</comment>
 <thumbnail>chocolate_pudding.jpeg</thumbnail>
 <category>Dessert</category>
@@ -30,4 +25,3 @@
 <step>Carefully pour over boiling water and place in preheated (180C) oven for 30-40 minutes.</step>
 <step>Remove from oven and let stand for 5 minutes (if you can wait!)  Sprinkle over icing sugar and serve with cream and/or ice cream.</step>
 </recipe>
-

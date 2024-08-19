@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Home made Carmen Bars</title>
 <filename>home_made_carmen_bars.xml</filename>
-<htmlFilename>home_made_carmen_bars.html</htmlFilename>
 <comment>c/o Norbu with cazzie tweaks</comment>
 <thumbnail>homemade_carmen_bars.jpeg</thumbnail>
 <category>Snack</category>
@@ -34,4 +29,3 @@
 <step>Wait until completely cold before serving.</step>
 <step>Store in airtight container.</step>
 </recipe>
-

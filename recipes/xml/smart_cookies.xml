@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Smart Cookies</title>
   <filename>smart_cookies.xml</filename>
-  <htmlFilename>smart_cookies.html</htmlFilename>
   <comment>c/o Kellogg with cazzie tweaks </comment>
   <thumbnail>smart_cookies.jpeg</thumbnail>
   <category>Sweets</category>

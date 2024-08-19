@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Gluten Free Cheese Muffins</title>
   <filename>gluten_free_cheese_muffins.xml</filename>
-  <htmlFilename>gluten_free_cheese_muffins.html</htmlFilename>
   <comment>c/o Fearless Dinning with cazzie tweaks</comment>
   <thumbnail>gluten_free_cheese_muffins.jpeg</thumbnail>
   <category>Breakfast</category>

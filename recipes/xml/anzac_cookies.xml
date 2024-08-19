@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Anzac Cookies</title>
 <filename>anzac_cookies.xml</filename>
-<htmlFilename>anzac_cookies.html</htmlFilename>
 <thumbnail>anzacs.jpeg</thumbnail>
 <category>Snack</category>
 <prepTime>PT15M</prepTime>
@@ -34,4 +29,3 @@
 <step>Use a spatula to move to cooling tray to cool completely.</step>
 <step>Store in an airtight container once completely cool.</step>
 </recipe>
-

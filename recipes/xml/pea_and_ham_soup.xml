@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Pea and Ham Soup</title>
 <filename>pea_and_ham_soup.xml</filename>
-<htmlFilename>pea_and_ham_soup.html</htmlFilename>
 <thumbnail>pea_and_ham_soup.jpeg</thumbnail>
 <category>Soup</category>
 <diet>FODMAP</diet>
@@ -32,4 +27,3 @@
 <step>Bertocchi ham hocks give the most consistent best flavour.</step>
 <step>This recipe takes hours and is one for a rainy day spent inside, but well worth it!.</step>
 </recipe>
-

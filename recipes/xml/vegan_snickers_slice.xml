@@ -1,14 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Vegan Snickers Slice</title>
   <filename>vegan_snickers_slice.xml</filename>
-  <htmlFilename>vegan_snickers_slice.html</htmlFilename>
   <comment/>
   <thumbnail>vegan_snickers_slice.jpeg</thumbnail>
-  <image/>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>

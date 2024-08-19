@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Aunty Jackies Pancakes</title>
   <filename>aunty_jackies_pancakes.xml</filename>
-  <htmlFilename>aunty_jackies_pancakes.html</htmlFilename>
   <thumbnail>aunty_jackies_pancakes.jpeg</thumbnail>
   <category>Breakfast</category>
   <yield>6</yield>

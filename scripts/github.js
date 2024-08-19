@@ -145,12 +145,10 @@ function image_upload() {
 
 async function commit_image() {
     if (passcode != null) {
+        // diaplay busy icon
+        document.getElementById('loading-spinner').style.display = 'block';
+  
         try {
-            // Debugging the selected image file
-            console.debug("image File: ",imageFile);
-            console.debug("image name: ", imageName);
-            console.debug("imgage path: ", imagedir + imageName);
-
             // Get the SHA for the existing file, if it exists
             const sha = await getSHA(imagedir, imageName);
 
@@ -159,10 +157,7 @@ async function commit_image() {
 
             // Notify the user of the successful upload
             window.alert("Upload successful");
-
-            // Optionally close or reload the window
-            // window.close('/components/imageupload.html');
-            // window.location.reload();
+            window.location.reload();
         } catch (error) {
             // Handle any errors that occur during the upload process
             console.error('Error uploading image:', error);

@@ -5,6 +5,8 @@
 function searchRecipes(searchTerm) {
     const results = idx.search(searchTerm);
     saveSearchState(searchTerm, results); 
+    console.debug("search term: ", searchTerm);
+    console.debug("search results: ", results);
     
     // Fetch the results from the index
     const searchResult = results.map(result => {

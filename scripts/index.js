@@ -17,6 +17,7 @@ $(document).ready(function(){
             idx = lunr(function () {
                 this.ref('id');
                 this.field('title');
+                this.field('htmlFilename');
                 this.field('category');
                 this.field('diet');
                 this.field('ingredients');
@@ -26,7 +27,9 @@ $(document).ready(function(){
                     // add lowercase recipes to index
                     this.add({
                         id: recipe.id,
-                        title: recipe.title.toLowerCase(),
+                        title: recipe.title,
+                        htmlFilename: recipe.htmlFilename.toLowerCase(),
+                        thumbnail: recipe.thumbnail.toLowerCase(),
                         category: recipe.category.toLowerCase(),
                         diet: recipe.diet.toLowerCase(),
                         ingredients: recipe.ingredients.toLowerCase(),
@@ -36,13 +39,14 @@ $(document).ready(function(){
                 });
             });
 
-        let searchTags = getSearchTags(recipeList); 
-        displaySearchTags(searchTags);
+            console.debug("recipeList: ", recipeList);
+            let searchTags = getSearchTags(recipeList); 
+            displaySearchTags(searchTags);
 
-        document.getElementById('searchRecipe').value='';
+            document.getElementById('searchRecipe').value='';
 
-        // addPageMetaData(recipeList);
-        restoreSearchState();
+            // addPageMetaData(recipeList);
+            restoreSearchState();
     
         })
         .catch(error => console.error('Error fetching JSON index:', error));

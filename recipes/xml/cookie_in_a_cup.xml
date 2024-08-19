@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Cookie in a Cup</title>
   <filename>cookie_in_a_cup.xml</filename>
-  <htmlFilename>cookie_in_a_cup.html</htmlFilename>
-  <thumbnail>cookie _in_a_cup.jpeg</thumbnail>
+  <thumbnail>cookie_in_a_cup.jpeg</thumbnail>
   <category>Sweets</category>
   <ingredient>2 ceramic cups </ingredient>
   <ingredient>2 TBsp butter</ingredient>

@@ -1,12 +1,9 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Vegetable Lentil Curry</title>
   <filename>vegetable_lentil_curry.xml</filename>
-  <htmlFilename>vegetable_lentil_curry.html</htmlFilename>
-  <thumbnail>vegetable-lentil_curry.jpeg</thumbnail>
+  <thumbnail>vegetable_lentil_curry.jpeg</thumbnail>
   <category>Dinner</category>
   <diet>Vegetarian</diet>
   <ingredient>2 Tbsp oil</ingredient>

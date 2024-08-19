@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Grandmas Rice Custard </title>
-  <filename>grandmas_rice_custard_.xml</filename>
-  <htmlFilename>grandmas_rice_custard_.html</htmlFilename>
+  <filename>grandmas_rice_custard.xml</filename>
   <comment>egg replacer can be substituted in this recipe</comment>
   <thumbnail>grandmas_rice_custard.jpeg</thumbnail>
   <category>Sweets</category>

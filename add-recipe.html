@@ -41,6 +41,11 @@
       <a href="#main" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
     </div> 
 
+    <!-- processing spinner -->
+    <div id="loading-spinner" style="display: none;">
+      <img alt="...loading" src="/components/icons/chef.svg">
+      <p>Processing...</p>
+    </div>
 
     <!-- HEADER SECTION -->
     <header>  
@@ -85,8 +90,8 @@
               <br/>
 
               <!-- New field to enter the image name -->
-              <label for="imageName">Recipe Title:</label>
-              <input type="text" id="imageName" placeholder="Enter TITLE of recipe without spaces" 
+              <label for="imageName">New image name:</label>
+              <input type="text" id="imageName" placeholder="use lowercase, numbers, and '_'" 
                      oninput="this.value = this.value.replace(/[^a-z0-9_]/g, '')">
               <br/>
 
@@ -123,7 +128,7 @@
 </body>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-<script src="/scripts/utils.js"></script>
+<script src="/scripts/common.js"></script>
 <script src="/scripts/github.js"></script>
 <script src="/scripts/add-recipe.js"></script>
 </html>

@@ -65,7 +65,8 @@ def parse_recipe(xml_file):
         
         title = root.findtext('ns:title', namespaces=ns)
         filename = root.findtext('ns:filename', namespaces=ns)
-        htmlFilename = root.findtext('ns:htmlFilename', namespaces=ns)
+        # htmlFilename = root.findtext('ns:htmlFilename', namespaces=ns)
+        htmlFilename = filename.replace(".xml", ".html")
         thumbnail = root.findtext('ns:thumbnail', namespaces=ns)
         iso_preptime = root.findtext('ns:prepTime', namespaces=ns)
         iso_cooktime = root.findtext('ns:cookTime', namespaces=ns)

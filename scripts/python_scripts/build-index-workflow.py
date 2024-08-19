@@ -95,14 +95,16 @@ def parse_recipe(filename):
         # Define the namespace
         namespace = {"ns": "https://cazzscookingcommunity.github.io"}
 
-        htmlFilename = root.find("ns:htmlFilename", namespace).text if root.find("ns:htmlFilename", namespace) is not None else ""
+        xmlFilename = root.find("ns:filename", namespace).text if root.find("ns:filename", namespace) is not None else ""
+        htmlFilename = xmlFilename.replace(".xml", ".html")
+        # htmlFilename = root.find("ns:htmlFilename", namespace).text if root.find("ns:htmlFilename", namespace) is not None else ""
         thumbnail = root.find("ns:thumbnail", namespace).text if root.find("ns:thumbnail", namespace) is not None else ""
                 
         # Extract fields from the XML
         recipe = {
-            "id": os.path.basename(xmlRecipeDir + filename),
+            # "id": os.path.basename(xmlRecipeDir + filename),
+            "id": xmlFilename,
             "title": root.find("ns:title", namespace).text if root.find("ns:title", namespace) is not None else "",
-            "filename": root.find("ns:filename", namespace).text if root.find("ns:filename", namespace) is not None else "",
             "htmlFilename": htmlFilename,
             "thumbnail": thumbnail,
             "category": " ".join([elem.text for elem in root.findall("ns:category", namespace) if elem.text]),
@@ -113,6 +115,9 @@ def parse_recipe(filename):
         
         fileDate = get_file_modified_date(xmlRecipeDir + filename) 
         recipeXML = sitemap_page.format(htmlFilename, thumbnail, fileDate)
+
+        if filename != xmlFilename:
+            print(f"filename error: {filename} != {xmlFilename}")
 
                     
         return recipe, recipeXML

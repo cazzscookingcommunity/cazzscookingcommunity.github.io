@@ -1,14 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Three Ingredient Cookies</title>
 <filename>three_ingredient_cookies.xml</filename>
-<htmlFilename>three_ingredient_cookies.html</htmlFilename>
 <thumbnail>three_ingredient_cookies.jpeg</thumbnail>
 <category>Snack</category>
 <yield>24</yield>
@@ -27,4 +22,3 @@
 <step>Once sheet is full use the back of a fork to flatten each cookie.</step>
 <step>Bake in oven for 8-10 minutes.</step>
 </recipe>
-

@@ -1,11 +1,8 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
   <title>Home made dishwasher powder </title>
   <filename>home_made_dishwasher_powder.xml</filename>
-  <htmlFilename>home_made_dishwasher_powder.html</htmlFilename>
   <comment>Natural and Saves Money</comment>
   <thumbnail>homemade_dish_washer_powder.jpeg</thumbnail>
   <category>Household</category>

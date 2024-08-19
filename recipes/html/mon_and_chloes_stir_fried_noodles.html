@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- This page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Mon and Chloes Stir Fried Noodles</title>
+        <link rel="canonical" href="/recipes/html/mon_chloes_stir_fried_noodles.html"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Mon and Chloes Stir Fried Noodles",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "chloes_fried_noodles.jpeg",
+                "description": "Mon and Chloes Stir Fried Noodles",
+                "prepTime": "PT0M",
+                "cookTime": "PT0M",
+                "suitableForDiet": "",
+                "recipeYield": "",
+                "recipeCategory": "",
+                "recipeIngredient":   ["Flat rice noodles ", "Stir Fries Veggies", "Bean shoots", "Coriander 1/4 cup chopped", "4 onions chopped ", "2 cloves crushed", "Oil", "Sauce", "1/4 cup soy sauce", "1 TBsp each sweet chilli, fish, oyster sauce", "1/2 lime juiced"],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Make sauce and set aside."}, {"@type": "HowToStep", "text": "Cook noodles per packet direction, then set aside."}, {"@type": "HowToStep", "text": "Heat wok and heat a small amount of oil."}, {"@type": "HowToStep", "text": "Cook the garlic for 3 minutes."}, {"@type": "HowToStep", "text": "Place veggies in pan and stir fry until veggies cooked."}, {"@type": "HowToStep", "text": "Place noodles in the pan with the sauce."}, {"@type": "HowToStep", "text": "Stir together until blended and heated through."}, {"@type": "HowToStep", "text": "Serve with bean shoots, spring onion and coriander sprinkled on top."}]
+            }
+        </script> 
+
+        <!-- ALL PAGES -->
+            <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
+            viewport settings, and descriptions that may be indexed by search engines.  -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="application-name" content="Cazz's Recipes" />
+            <meta name="apple-mobile-web-app-title" content="Cazzs Cooking Community" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes">
+            <meta name="author" content="Chris Cullin">
+
+            <!-- Fonts and CSS styling -->
+            <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="/css/normalize.css">
+            <link rel="stylesheet" href="/css/skeleton.css">
+            <link rel="stylesheet" href="/css/app.css">
+
+            <!-- These should remain for consistent branding and to support web app features across all pages. -->
+            <link rel="icon" href="/favicon.ico" sizes="32x32">
+            <link rel="icon" href="/components/icons/chef.svg" type="image/svg+xml">
+            <link rel="apple-touch-icon" href="/components/icons/app_icon_114x114.png">
+            <link rel="manifest" href="/manifest.webmanifest">
+
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+
+        <!-- HEADER -->
+        <header>
+            <div class="container">
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <h2 class="heading brand">Cazz's Cooking Community</h2>
+                    </div> 
+                </div>
+
+                <nav class="navbar">
+                    <div class="row">
+                      <div class="twelve columns">
+                        <ul class="navbar-list" id="navbar-list">
+                          <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
+                          <li class="navbar-item"><a href="/all-recipes.html">All Recipes</a></li>
+                          <li class="navbar-item"><a href="/add-recipe.html">Create New Recipe</a></li>
+                          <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+                        </ul>
+                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Mon and Chloes Stir Fried Noodles</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  </p>
+                        <p><span>Serves:</span>    </p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/mon_chloes_stir_fried_noodles.xml')" src="/components/icons/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/chloes_fried_noodles.jpeg" alt="Mon and Chloes Stir Fried Noodles" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>Flat rice noodles </li><li>Stir Fries Veggies</li><li>Bean shoots</li><li>Coriander 1/4 cup chopped</li><li>4 onions chopped </li><li>2 cloves crushed</li><li>Oil</li><li>Sauce</li><li>1/4 cup soy sauce</li><li>1 TBsp each sweet chilli, fish, oyster sauce</li><li>1/2 lime juiced</li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Make sauce and set aside.</li><li>Cook noodles per packet direction, then set aside.</li><li>Heat wok and heat a small amount of oil.</li><li>Cook the garlic for 3 minutes.</li><li>Place veggies in pan and stir fry until veggies cooked.</li><li>Place noodles in the pan with the sauce.</li><li>Stir together until blended and heated through.</li><li>Serve with bean shoots, spring onion and coriander sprinkled on top.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community">GitHub repo: https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body> 
+<script src="/scripts/common.js"></script> 
+<script src="/scripts/recipe.js"></script>
+</html>

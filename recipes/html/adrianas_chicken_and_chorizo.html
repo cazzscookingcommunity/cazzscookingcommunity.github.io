@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<!-- This page is a template for static html recipe pages.
+    it is populated by python using recipe.xml data
+    This provides static html pages for recipes, rather than using XSLT to dynamically generate them
+    This should help Good index the site.
+    
+    xsd2html2xml.xsl is still used to edit the recipe online and GitHub actions
+    will generate the static file once pushed to GitHub
+    
+ -->
+    
+<html lang="en">
+    <head>
+        <meta charset="utf-8"></meta>
+        <title>Adrianas Chicken and Chorizo</title>
+        <link rel="canonical" href="/recipes/html/adrianas_chicken_chorizo.html"></link>
+
+        <!-- search recipe meta data -->
+        <script type="application/ld+json">
+            {
+                "@context": "https://schema.org/",
+                "@type": "Recipe",
+                "name": "Adrianas Chicken and Chorizo",
+                "author": {"@type": "Person", "name": "Carolyn Cullin"},
+                "image": "adrianas_chicken.jpeg",
+                "description": "Adrianas Chicken and Chorizo",
+                "prepTime": "None",
+                "cookTime": "None",
+                "suitableForDiet": "",
+                "recipeYield": "None",
+                "recipeCategory": "Dinner, Poultry, Pork",
+                "recipeIngredient":   ["4-6 chicken thighs cut into strips", "2 chorizo sausages sliced", "1 can cannoli beans rinsed and drained", "3-4 garlic cloves crushed", "2 tins chopped tomatoes ", "1 TBsp Italian herbs", "salt and pepper to taste ", "3 TBsp olive oil ", "Bunch parsley chopped "],
+                "recipeInstructions": [{"@type": "HowToStep", "text": "Heat olive oil in a large pan."}, {"@type": "HowToStep", "text": "Cook garlic for a few minutes, then add the chorizo and cooked for about five minutes then remove from pan."}, {"@type": "HowToStep", "text": "Add chicken fillets and cook until all sides are cooked."}, {"@type": "HowToStep", "text": "Put chorizo back in pan, add all other ingredients except parsley."}, {"@type": "HowToStep", "text": "Put lid on pan and place in preheated oven for 20 minutes."}, {"@type": "HowToStep", "text": "Remove lid and give it a good stir and sprinkle with parsley."}, {"@type": "HowToStep", "text": "If desired serve with crusty bread, rice or mash spud."}]
+            }
+        </script> 
+
+        <!-- ALL PAGES -->
+            <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
+            viewport settings, and descriptions that may be indexed by search engines.  -->
+            <meta name="viewport" content="width=device-width, initial-scale=1" />
+            <meta name="application-name" content="Cazz's Recipes" />
+            <meta name="apple-mobile-web-app-title" content="Cazzs Cooking Community" />
+            <meta name="apple-mobile-web-app-capable" content="yes" />
+            <meta name="mobile-web-app-capable" content="yes" />
+            <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+            <meta name="description" content="Cazz's Cooking Community website let's you browse the Family's favourite recipes">
+            <meta name="author" content="Chris Cullin">
+
+            <!-- Fonts and CSS styling -->
+            <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+            <link href="https://fonts.googleapis.com/css?family=Roboto+Slab&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+            <link rel="stylesheet" href="/css/normalize.css">
+            <link rel="stylesheet" href="/css/skeleton.css">
+            <link rel="stylesheet" href="/css/app.css">
+
+            <!-- These should remain for consistent branding and to support web app features across all pages. -->
+            <link rel="icon" href="/favicon.ico" sizes="32x32">
+            <link rel="icon" href="/components/icons/chef.svg" type="image/svg+xml">
+            <link rel="apple-touch-icon" href="/components/icons/app_icon_114x114.png">
+            <link rel="manifest" href="/manifest.webmanifest">
+
+    </head>
+
+<body>
+    <main role="main" id="main">
+
+        <!-- scroll up -->
+        <div class="goTop">
+            <a href="#main" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
+        </div> 
+
+        <!-- HEADER -->
+        <header>
+            <div class="container">
+
+                <div class="row">
+                    <div class="twelve columns">
+                        <h2 class="heading brand">Cazz's Cooking Community</h2>
+                    </div> 
+                </div>
+
+                <nav class="navbar">
+                    <div class="row">
+                      <div class="twelve columns">
+                        <ul class="navbar-list" id="navbar-list">
+                          <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
+                          <li class="navbar-item"><a href="/all-recipes.html">All Recipes</a></li>
+                          <li class="navbar-item"><a href="/add-recipe.html">Create New Recipe</a></li>
+                          <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+                        </ul>
+                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                        <a href="javascript:void(0);" class="icon" onclick="mobileMenu()">
+                          <i class="fa fa-bars"></i>
+                        </a>
+                      </div>
+                    </div>
+                  </nav>
+
+            </div>
+        </header>
+        
+        <!-- Recipe Section -->
+        <section id="recipe" style="display:block;">
+            <div class="container">
+
+                <!-- heading 1 = recipe name -->
+                <div class="row">
+                    <div class="twelve columns">
+                        <h1 class="heading brand">Adrianas Chicken and Chorizo</h1>
+                        <br/>
+                    </div>
+                </div>
+
+                <!-- meal meta data -->
+                <div class="row mealMetadata">
+
+                    <!-- meal image card -->
+                    <div class="four columns mealMetadata" id="randomMealMetadata">
+                        <p><span>Category:</span>  Dinner, Poultry, Pork</p>
+                        <p><span>Serves:</span>    None</p>
+                        <p><span>Prep Time:</span> </p>
+                        <p><span>Cook Time:</span> </p>
+                        <div id="cardActions">
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/icons_share.png"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/icons_print_24.png"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/adrianas_chicken_chorizo.xml')" src="/components/icons/icons8-edit-24.png"/>
+                        </div>
+                    </div> 
+
+                    <div class="six columns" id="mealImgContainer">
+                            <img src="/recipes/images/adrianas_chicken.jpeg" alt="Adrianas Chicken and Chorizo" class="card u-max-full-width mealCardRecipeBtn"/>
+                    </div>
+
+
+                </div>
+
+                <!-- Ingredients -->
+                <div class="row">
+                    <div class="twelve columns ingredients" id="Ingredients">
+                        <h2 class="ingredients">Ingredients:</h2>
+                            <ul><li>4-6 chicken thighs cut into strips</li><li>2 chorizo sausages sliced</li><li>1 can cannoli beans rinsed and drained</li><li>3-4 garlic cloves crushed</li><li>2 tins chopped tomatoes </li><li>1 TBsp Italian herbs</li><li>salt and pepper to taste </li><li>3 TBsp olive oil </li><li>Bunch parsley chopped </li></ul>
+                    </div>
+                </div>
+
+                <!-- preperation steps -->
+                <div class="row">
+                    <div class="twelve columns mealInstructions" id="randomMealInstructions">
+                        <h2 class="instructions">Instructions:</h2>
+                            <ol class='recipe-steps'><li>Heat olive oil in a large pan.</li><li>Cook garlic for a few minutes, then add the chorizo and cooked for about five minutes then remove from pan.</li><li>Add chicken fillets and cook until all sides are cooked.</li><li>Put chorizo back in pan, add all other ingredients except parsley.</li><li>Put lid on pan and place in preheated oven for 20 minutes.</li><li>Remove lid and give it a good stir and sprinkle with parsley.</li><li>If desired serve with crusty bread, rice or mash spud.</li></ol>
+                    </div>
+                </div>
+
+            </div>
+        </section> 
+
+        <!-- Footer Section -->
+        <footer>
+            <a href="https://cazzscookingcommunity.github.io" title="Cazz's Cooking Community">GitHub repo: https://cazzscookingcommunity.github.io</a>
+            <br/>
+            <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
+      
+            <div>
+                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
+            </div>
+        </footer>
+    </main>
+</body> 
+<script src="/scripts/common.js"></script> 
+<script src="/scripts/recipe.js"></script>
+</html>
