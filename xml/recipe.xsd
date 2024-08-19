@@ -53,12 +53,6 @@
         </xs:sequence>
     </xs:complexType>
 
-    <!-- <xs:simpleType name="NullOrInteger">
-        <xs:restriction base="xs:string">
-            <xs:pattern value="\d*|\s{0}" />
-        </xs:restriction>
-    </xs:simpleType> -->
-
     <xs:simpleType name="yield">
         <xs:restriction base="xs:integer">
             <xs:minInclusive value="1"/>
@@ -91,8 +85,7 @@
             <xs:element name="title" type="xs:string" default="Cazz's banana and chia milkshake" />
             <xs:element name="filename" type="xmlFilenameType"  default="cazzs_banana_milkshake.xml"/>
             <xs:element name="comment" type="xs:string" minOccurs="0" maxOccurs="1" />
-            <xs:element name="thumbnail" type="imgType"  default="cazzs_banana_milkshake.jpeg"/>
-            <!-- <xs:element name="image" type="xs:token" minOccurs="0" maxOccurs="1" /> -->
+            <xs:element name="thumbnail" type="imgType"  default="banana_milkshake.jpeg"/>
             <xs:element name="category" type="categoryType" maxOccurs="3" />
             <xs:element name="yield" type="yield" minOccurs="0" maxOccurs="1" />
             <xs:element name="prepTime" type="time" minOccurs="0" maxOccurs="1"/>
