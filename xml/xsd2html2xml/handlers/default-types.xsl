@@ -184,7 +184,8 @@
 							</xsl:if>
 						</xsl:when>
 						<xsl:otherwise>
-							<xsl:attribute name="value">
+							<!-- Chris Cullin 20-aug-2024 change attribute from value to placehodler. -->
+							<xsl:attribute name="placeholder">
 								<xsl:value-of select="@default"/>
 							</xsl:attribute>
 						</xsl:otherwise>

@@ -41,5 +41,9 @@ Beyond this there some minor customisations to suit the use.  These customisatio
 3 - xsd2htmlxml.xsl  (this file controls the recipe update and add new pages)
         L303-310 or there abouts.  Change the format of the submit button and added a close button.
         Formatting for these is in admin.css
-								
 
+
+4 - defaults-types.xsl
+        Line 187.  changed element attribute from value to placehodler so the recipe.xsd defaults are presented as html placeholders
+        in the recipe-add or recipe update forms.
+        
