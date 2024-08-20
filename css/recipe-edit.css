@@ -33,6 +33,10 @@ body {
     cursor: not-allowed;
 }
 
+.xsd2html2xml input[data-xsd2html2xml-description=yield] {
+    width: 10vw;
+}
+
 .xsd2html2xml textarea {
     /* height: 100px; */
     /* overflow-wrap: break-word; */
