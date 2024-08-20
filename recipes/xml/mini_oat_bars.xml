@@ -9,9 +9,11 @@
 <title>Mini Oat Bars</title>
 <filename>mini_oat_bars.xml</filename>
 <thumbnail>mini_oat_bars.jpeg</thumbnail>
-<diet>Vegan</diet>
 <category>Snack</category>
-<yield>5</yield>
+<category>Dessert</category>
+<category>Breakfast</category>
+<diet>Vegan</diet>
+<yield>12</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT35M</cookTime>
 <ingredient>1 cup rolled oats</ingredient>
