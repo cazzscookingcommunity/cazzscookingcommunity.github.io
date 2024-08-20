@@ -1,12 +1,22 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Muesli Cookies</title>
 <filename>muesli_cookies.xml</filename>
 <thumbnail>muesli_cookies.jpeg</thumbnail>
 <category>Snack</category>
-<ingredient>1 1/2 cups muesli</ingredient>
+<category>Breakfast</category>
+<category>Dessert</category>
+<diet>GFO</diet>
+<yield>24</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT10M</cookTime>
+<ingredient>1 1/2 cups muesli (replace with Gluten free if desired)</ingredient>
 <ingredient>1 cup desiccated coconut</ingredient>
 <ingredient>1/2 SR Flour (replace with Gluten free if desired)</ingredient>
 <ingredient>1 teaspoon cinnamon</ingredient>
@@ -24,3 +34,4 @@
 <step>Remove cookies from tray with spatula to a wire rack to cool completely.</step>
 <step>Once completely cool store in air tight container.</step>
 </recipe>
+
