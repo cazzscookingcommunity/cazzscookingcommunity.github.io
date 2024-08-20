@@ -10,7 +10,10 @@
 <filename>smart_cookies.xml</filename>
 <thumbnail>smart_cookies.jpeg</thumbnail>
 <category>Snack</category>
-<yield>12</yield>
+<category>Dessert</category>
+<category>Breakfast</category>
+<diet></diet>
+<yield>24</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT30M</cookTime>
 <comment>c/o Kellogg with cazzie tweaks </comment>
