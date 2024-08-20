@@ -1733,8 +1733,8 @@
         "htmlFilename": "easy_hiking_breakfast.html",
         "thumbnail": "easy_hiking_breakfast.jpeg",
         "category": "Breakfast",
-        "diet": "",
-        "ingredients": "1 small ziplock bag 2 Wheatbix 2 TBsp powered full cream milk 2 teasp sugar 1/4 cup water ( added at camp site)"
+        "diet": "GFO",
+        "ingredients": "1 small ziplock bag 2 Wheatbix (GF if required) 2 TBsp powered full cream milk 2 teasp sugar 1/4 cup water ( added at camp site)"
     },
     {
         "id": "dutch_oven_enchiladas.xml",
