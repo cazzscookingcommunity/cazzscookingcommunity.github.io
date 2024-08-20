@@ -1,15 +1,21 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Home made Carmen Bars</title>
 <filename>home_made_carmen_bars.xml</filename>
-<comment>c/o Norbu with cazzie tweaks</comment>
 <thumbnail>homemade_carmen_bars.jpeg</thumbnail>
 <category>Snack</category>
+<category>Breakfast</category>
+<category>Dessert</category>
 <yield>12</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT20M</cookTime>
+<comment>c/o Norbu with cazzie tweaks</comment>
 <ingredient>2 ripe bananas chopped </ingredient>
 <ingredient>2 heap TBsp peanut butter </ingredient>
 <ingredient>1 egg beaten</ingredient>
@@ -29,3 +35,4 @@
 <step>Wait until completely cold before serving.</step>
 <step>Store in airtight container.</step>
 </recipe>
+
