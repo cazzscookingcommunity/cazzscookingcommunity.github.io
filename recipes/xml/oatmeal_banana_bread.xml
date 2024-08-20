@@ -9,9 +9,9 @@
 <title>Oatmeal Banana Bread</title>
 <filename>oatmeal_banana_bread.xml</filename>
 <thumbnail>oatmeal_banana_bread.jpeg</thumbnail>
+<category>Breakfast</category>
 <category>Dessert</category>
 <category>Snack</category>
-<category>Breakfast</category>
 <diet>GFO</diet>
 <yield>10</yield>
 <prepTime>PT15M</prepTime>
