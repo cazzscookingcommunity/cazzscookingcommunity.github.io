@@ -10,9 +10,12 @@
 <filename>boston_tea.xml</filename>
 <thumbnail>boston_tea.jpeg</thumbnail>
 <category>Drink</category>
-<yield>6</yield>
-<prepTime>PT15M</prepTime>
-<cookTime>PT15M</cookTime>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>DiaryFree</diet>
+<yield>8</yield>
+<prepTime>PT10M</prepTime>
+<cookTime>PT10M</cookTime>
 <ingredient>4 lt water</ingredient>
 <ingredient>1 cup sugar</ingredient>
 <ingredient>15 tea bags (English Breakfast)</ingredient>
