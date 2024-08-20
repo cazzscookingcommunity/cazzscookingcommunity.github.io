@@ -85,8 +85,8 @@
             <xs:element name="title" type="xs:string" default="Cazz's banana and chia milkshake" />
             <xs:element name="filename" type="xmlFilenameType"  default="cazzs_banana_milkshake.xml"/>
             <xs:element name="thumbnail" type="imgType"  default="banana_milkshake.jpeg"/>
-            <xs:element name="diet" type="dietType" minOccurs="1" maxOccurs="3" />
             <xs:element name="category" type="categoryType" minOccurs="1" maxOccurs="3" />
+            <xs:element name="diet" type="dietType" minOccurs="0" maxOccurs="3" />
             <xs:element name="yield" type="yield" default="1" />
             <xs:element name="prepTime" type="time" default="PT0H0M" />
             <xs:element name="cookTime" type="time" default="PT0H0M" />
