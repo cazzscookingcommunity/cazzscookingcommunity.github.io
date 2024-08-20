@@ -17,9 +17,20 @@ body {
     font-size:medium;
 }
 
+/* highlight that this field should not be edited. Cannot rpevent with CSS */
 .xsd2html2xml input[data-xsd2html2xml-description=filename] {
-    pointer-events: none;
     background-color: #FFC0CB;
+    pointer-events: none; /* Disables mouse interactions */
+    user-select: none;    /* Prevents text selection */
+    cursor: not-allowed;
+}
+
+/* highlight that this field should not be edited. Cannot rpevent with CSS */
+.xsd2html2xml input[data-xsd2html2xml-description=thumbnail] {
+    background-color: #FFC0CB;
+    pointer-events: none; /* Disables mouse interactions */
+    user-select: none;    /* Prevents text selection */
+    cursor: not-allowed;
 }
 
 .xsd2html2xml textarea {
