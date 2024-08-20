@@ -1,29 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Mini Oat Bars</title>
-  <filename>mini_oat_bars.xml</filename>
-  <thumbnail>mini_oat_bars.jpeg</thumbnail>
-  <category>Sweets</category>
-  <diet>Vegan</diet>
-  <ingredient>1 cup rolled oats</ingredient>
-  <ingredient>1 cup flour sifted (can substitute wheat free)</ingredient>
-  <ingredient>3/4 cup raw sugar</ingredient>
-  <ingredient>3/4 cups desiccated coconut</ingredient>
-  <ingredient>2 TBsp honey</ingredient>
-  <ingredient>2 TBsp water</ingredient>
-  <ingredient>1/2 teaspoon bicarb soda</ingredient>
-  <step>Prepare a baking dish by greasing then lining with baking paper.</step>
-  <step>Preheat oven to 180C.</step>
-  <step>In a large bowl place flour, oats, sugar and coconut, then stir well.</step>
-  <step>In a small sauce pan melt butter and honey.</step>
-  <step>In a separate bowl combine water and soda, then add to butter mixture (it will bubble up.</step>
-  <step>)  Remove from heat and mix well, then stir into dry ingredients.</step>
-  <step>Mix well then pour into prepared tray and push down with your hands.</step>
-  <step>Place in oven for 20-25 minutes or until the center is golden.</step>
-  <step>Remove from oven and let it sit on a wire rack for 7 minutes.</step>
-  <step>Carefully remove from tray and place back on wire rack to cool.</step>
-  <step>Before it is completely cool, cut in to bite size pieces, while on baking paper.</step>
-  <step>Leave there until completely cool.</step>
-  <step>Store in air tight container.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Mini Oat Bars</title>
+<filename>mini_oat_bars.xml</filename>
+<thumbnail>mini_oat_bars.jpeg</thumbnail>
+<diet>Vegan</diet>
+<category>Snack</category>
+<yield>5</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT35M</cookTime>
+<ingredient>1 cup rolled oats</ingredient>
+<ingredient>1 cup flour sifted (can substitute wheat free)</ingredient>
+<ingredient>3/4 cup raw sugar</ingredient>
+<ingredient>3/4 cups desiccated coconut</ingredient>
+<ingredient>2 TBsp honey</ingredient>
+<ingredient>2 TBsp water</ingredient>
+<ingredient>1/2 teaspoon bicarb soda</ingredient>
+<step>Prepare a baking dish by greasing then lining with baking paper.</step>
+<step>Preheat oven to 180C.</step>
+<step>In a large bowl place flour, oats, sugar and coconut, then stir well.</step>
+<step>In a small sauce pan melt butter and honey.</step>
+<step>In a separate bowl combine water and soda, then add to butter mixture (it will bubble up).</step>
+<step>Remove from heat and mix well, then stir into dry ingredients.</step>
+<step>Mix well then pour into prepared tray and push down with your hands.</step>
+<step>Place in oven for 20-25 minutes or until the center is golden.</step>
+<step>Remove from oven and let it sit on a wire rack for 7 minutes.</step>
+<step>Carefully remove from tray and place back on wire rack to cool.</step>
+<step>Before it is completely cool, cut in to bite size pieces, while on baking paper.</step>
+<step>Leave there until completely cool.</step>
+<step>Store in air tight container.</step>
 </recipe>
+
