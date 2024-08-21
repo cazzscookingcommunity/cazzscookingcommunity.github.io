@@ -4,6 +4,7 @@
 // Search
 function searchRecipes(searchTerm) {
     const results = idx.search(searchTerm);
+    searchTerm = searchTerm === "" ? "*" : searchTerm;
     saveSearchState(searchTerm, results); 
     console.debug("search term: ", searchTerm);
     console.debug("search results: ", results);

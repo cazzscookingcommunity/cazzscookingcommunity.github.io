@@ -122,14 +122,15 @@
                         <p><span>Prep Time:</span> </p>
                         <p><span>Cook Time:</span> </p>
                         <div id="cardActions">
-                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/icons_share.png"/>
-                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/icons_print_24.png"/>
-                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/chow_mein.xml')" src="/components/icons/icons8-edit-24.png"/>
+                            <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
+                            <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
+                            <img class="cardAction" border="0" alt="edit recipe" onclick="window.open('/recipes/xml/chow_mein.xml')" src="/components/icons/edit-svgrepo-com.svg"/>
                         </div>
                     </div> 
 
                     <div class="six columns" id="mealImgContainer">
                             <img src="/recipes/images/chow_mein.jpeg" alt="CHOW MEIN" class="card u-max-full-width mealCardRecipeBtn"/>
+                            <button class="favourite" id="chow_mein.xml" onclick="toggleFavourite('chow_mein.xml')">❤️ Add to Favourites</button>
                     </div>
 
 
@@ -158,13 +159,10 @@
         <!-- Footer Section -->
         <footer>
             <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
-      
-            <div>
-                Icons by <a href="https://www.flaticon.com/authors/those-icons" title="Those Icons">Those Icons</a> and <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>
-            </div>
         </footer>
     </main>
 </body> 
-<script src="/scripts/common.js"></script> 
+<script src="/scripts/common.js"></script>
+<script src="/scripts/my-favourites.js"></script> 
 <script src="/scripts/recipe.js"></script>
 </html>

@@ -11,6 +11,8 @@ function createMealCards(shortlist) {
 
     // Iterate over the shortlist directly
     shortlist.forEach(recipe => {
+        let recipeId = recipe.id;
+        let favouriteState = getFavouriteState(recipeId);
         let img = recipe.thumbnail || ""; // Assuming there's a `thumbnail` field
         let file = recipe.htmlFilename || ""; // Assuming there's a `htmlFilename` field
         let categoryTags = recipe.category
@@ -27,9 +29,11 @@ function createMealCards(shortlist) {
                 <a href="/recipes/html/${file}">
                     <img src="${imgpath}${img}" alt="${recipe.title} thumbnail" class="u-max-full-width mealCardRecipeBtn" />
                 </a>
+                <button class="favourite" id="${recipeId}" onclick="toggleFavourite('${recipeId}')">${favouriteState}</button>
+
                 <div class="card-body recipe-action" display="none">
-                    <div class="cardTitle">${recipe.title}</div>
-                    <div class="cardTags">${categoryTags} ${dietTags}</div>
+                    <div id="cardTitle">${recipe.title}</div>
+                    <div id="cardTags">${categoryTags} ${dietTags}</div>
                 </div>
             </div>
         </div>`;

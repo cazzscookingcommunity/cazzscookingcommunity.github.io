@@ -30,27 +30,38 @@ section#mealCardsSection .back{top:0} */
 .button,.card{box-shadow: 2px 6px 15px rgba(0,0,0,0.1)}
 
 /* Meal Cards */
-.card{border-radius:7px;margin:10px}
+.card{border-radius:7px; margin:10px; position: relative;}
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
 .card-body{padding:5px 15px; text-align: center;}
-.cardTitle{margin-bottom:5px;}
-.mealCardRecipeBtn{display: inline;}
 
-.cardTags {
+/* .mealCardRecipeBtn{display: inline;} */
+.mealCardRecipeBtn{display: block;}
+
+.favourite {
+    background-color: white;
+    position: absolute;
+    top: 10px; /* Adjust as needed */
+    left: 10px; /* Adjust as needed */
+    z-index: 10;
+    cursor: pointer;
+}
+
+#cardTitle{margin-bottom:5px;}
+#cardTags {
     margin-top: 10px;
     font-size: 14px;
     color: #007bff;
 }
 
-.cardTags p {
+/* .cardTags p {
     margin: 0;
 }
 
 .cardTags a {
     text-decoration: none;
     color: #007bff;
-}
+} */
 
 
 div#cardActions {margin: 10px 0px;}
@@ -214,7 +225,13 @@ input#imageName {width: 50%;}
 .mealMetadata p {margin-bottom: 0;}
 .mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase}
 
-#mealImgContainer {margin: 0 auto; text-align: center;}
+#mealImgContainer {
+    margin: 0 auto; 
+    text-align: center;
+    position: relative;
+    display: inline-block; /* Ensures container fits the image */
+}
+
 #mealImg {width:100%; border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
 

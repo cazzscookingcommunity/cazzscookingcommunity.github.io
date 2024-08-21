@@ -44,9 +44,11 @@ $(document).ready(function(){
             displaySearchTags(searchTags);
 
             document.getElementById('searchRecipe').value='';
+            document.getElementById('userInput').text='';
 
             // addPageMetaData(recipeList);
             restoreSearchState();
+            loadFavourites();
     
         })
         .catch(error => console.error('Error fetching JSON index:', error));

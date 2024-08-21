@@ -86,6 +86,7 @@ def parse_recipe(xml_file):
 
         
         return {
+            "id": filename,
             "title": title,
             "filename": filename,
             "htmlFilename": htmlFilename,
@@ -146,6 +147,7 @@ def generate_html_content(recipe_data, ingredients_list, instructions_list, sche
     schema_instructions_json = json.dumps(schema_instructions)
     
     html_content = template.format(
+        recipeId=recipe_data['id'],
         title=recipe_data['title'],
         filename=recipe_data['filename'],
         htmlFilename=recipe_data['htmlFilename'],
@@ -213,7 +215,7 @@ def main():
     if os.path.exists(git_changes):
         # Running on GitHub actions, so process changed files
         print("processing git changes")
-        process_git_changes()
+        # process_git_changes()
     else:
         # Running locally so process all recipes
         print("processing all recipes")
