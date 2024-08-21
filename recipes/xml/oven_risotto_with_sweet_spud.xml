@@ -1,15 +1,19 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
     
 <title>Oven Risotto with Sweet Spud</title>
 <filename>oven_risotto_with_sweet_spud.xml</filename>
 <thumbnail>oven_risotto_with_sweet_spud.jpeg</thumbnail>
 <category>Dinner</category>
+<diet>Vegetarian</diet>
 <yield>4</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT30M</cookTime>
-<diet>Vegetarian</diet>
 <ingredient>1 1/2 cups arborio rice</ingredient>
 <ingredient>3 cloves garlic crushed</ingredient>
 <ingredient>6 TBsp olive oil</ingredient>
@@ -34,3 +38,4 @@
 <step>Sprinkle top with bacon, cracked pepper, and additional Parmesan if desired.</step>
 <step>Recipe can be doubled.</step>
 </recipe>
+
