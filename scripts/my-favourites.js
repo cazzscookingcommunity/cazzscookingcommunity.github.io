@@ -1,11 +1,3 @@
-// Call this function when the page loads to update the button state
-// document.addEventListener('DOMContentLoaded', () => {
-//     const recipeId = 'recipeId'; // Replace with the actual recipe ID
-//     updateFavouriteButton(recipeId);
-// });
-
-// document.addEventListener('DOMContentLoaded', loadFavourites);
-
 
 
 function toggleFavourite(recipeId) {
@@ -18,8 +10,12 @@ function toggleFavourite(recipeId) {
         console.debug("add to favourites");
     }
     localStorage.setItem('favourites', JSON.stringify(favourites));
-    // location.reload();
-    updateFavouriteButton(recipeId);
+    if (favourites.length > 0) {
+        updateFavouriteButton(recipeId);
+    }
+    else {
+        location.reload();
+    }
 }
 
 function getFavouriteState(recipeId) {
@@ -43,19 +39,11 @@ function updateFavouriteButton(recipeId) {
     }
 }
 
-
-
-
-
-
-// function removeFavourite(recipeId) {
-//     let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
-//     favourites = favourites.filter(id => id !== recipeId);
-//     localStorage.setItem('favourites', JSON.stringify(favourites));
-//     // loadFavourites(); // Refresh the list
-//     console.debug("location.reload");
-//     location.reload();
-// }
+function clearFavourites() {
+    favourites = [];
+    localStorage.setItem('favourites', JSON.stringify(favourites));
+    location.reload();
+}
 
 // displays the search results
 function displayFavourites(favourites) {
@@ -73,37 +61,13 @@ function loadFavourites() {
     const savedResults = sessionStorage.getItem('searchResults');
     if ( ! (savedSearchTerm && savedResults) ) {
         let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
-        console.debug("favouties: ", favourites);
-        console.debug("recipeList: ", recipeList);
 
         if (favourites.length > 0) {
-            console.log("true");
-            console.debug("favourites: ", favourites);
-            console.debug("recipeList: ", recipeList);
             const favouriteRecipes = recipeList.filter(recipe => favourites.includes(recipe.id));
-            console.debug("favouriteRecipes: ", favouriteRecipes);
-        
             displayFavourites(favouriteRecipes);
-        }
-        else {
-            console.log ("false")
         }
 
     }
 }
     
-
-    // Filter recipes to get only the favourites
-
-
-
-    // favourites.forEach(recipeId => {
-    //     // Assuming you have a function to get recipe details by ID
-    //     const recipe = getRecipeById(recipeId); 
-    //     let listItem = document.createElement('li');
-    //     listItem.textContent = recipe.name; // Replace with recipe name or details
-    //     favouritesList.appendChild(listItem);
-    // });
-
-
 
