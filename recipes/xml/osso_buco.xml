@@ -1,50 +1,56 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Osso Buco</title>
-  <filename>osso_buco.xml</filename>
-  <thumbnail>osso_buco.jpeg</thumbnail>
-  <category>Beef</category>
-  <diet>GlutenFree</diet>
-  <part>
-    <title>Main</title>
-    <ingredient>6 Veal Osso Buco*</ingredient>
-    <ingredient>1/4 cup gluten free flour</ingredient>
-    <ingredient>salt and pepper </ingredient>
-    <ingredient>2 TBsp olive oil</ingredient>
-    <ingredient>3 cloves garlic crushed</ingredient>
-    <ingredient>2 stalks of celery chopped</ingredient>
-    <ingredient>2 carrots chopped</ingredient>
-    <ingredient>4 bay leaves</ingredient>
-    <ingredient>1 bunch of thyme</ingredient>
-    <ingredient>2 cups red wine</ingredient>
-    <ingredient>2 cups beef stock</ingredient>
-    <ingredient>1/4 cup red wine vinegar</ingredient>
-    <ingredient>2 TBsp tomatoe paste</ingredient>
-    <ingredient>1 TBsp brown sugar</ingredient>
-    <step>Preheat oven to 180C.</step>
-    <step>Heat 1/2 the oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until veggies softening.</step>
-    <step>Remove from pan and set aside.</step>
-    <step>Place flour on a dinner plate and grind a good amount of cracked salt and pepper.</step>
-    <step>Place the osso buco pieces on the floured plate and roll around until all sides are covered with flour.</step>
-    <step>Shake off excess and set aside.</step>
-    <step>Do this to all the pieces.</step>
-    <step>Heat the remaining oil in the pan and cook the pieces of osso buco for 6 minutes each side.</step>
-    <step>Doing it in batches if necessary.</step>
-    <step>Place cooked pieces in a baking dish as you go.</step>
-    <step>Once all done sprinkle over the cooked veggies and washed thyme (you can leave the leaves on the stems.</step>
-    <step>).</step>
-    <step>Pour over combined, wine, stock, red wine vinegar, tomatoe paste and brown sugar.</step>
-    <step>Cover tightly with foil and cook for 2 hours.</step>
-  </part>
-  <part>
-    <title>Gremolata</title>
-    <ingredient>1 bunch parley chopped</ingredient>
-    <ingredient>2 lemons rind removed</ingredient>
-    <ingredient>2 cloves garlic crushed</ingredient>
-    <ingredient>2 TBsp olive oil</ingredient>
-    <step>Meanwhile make the gremolata, by placing in a bowl and stirring well.</step>
-    <step>Once the meat is ready, removed from the oven and sprinkle the gremolata over the meat.</step>
-    <step>Serve with mash spud, rice or fresh salad.</step>
-  </part>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Osso Buco</title>
+<filename>osso_buco.xml</filename>
+<thumbnail>osso_buco.jpeg</thumbnail>
+<category>Beef</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<yield>6</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT2H30M</cookTime>
+<part><title>Meat</title>
+<ingredient>6 Veal Osso Buco*</ingredient>
+<ingredient>1/4 cup gluten free flour</ingredient>
+<ingredient>salt and pepper </ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>3 cloves garlic crushed</ingredient>
+<ingredient>2 stalks of celery chopped</ingredient>
+<ingredient>2 carrots chopped</ingredient>
+<ingredient>4 bay leaves</ingredient>
+<ingredient>1 bunch of thyme</ingredient>
+<ingredient>2 cups red wine</ingredient>
+<ingredient>2 cups beef stock</ingredient>
+<ingredient>1/4 cup red wine vinegar</ingredient>
+<ingredient>2 TBsp tomatoe paste</ingredient>
+<ingredient>1 TBsp brown sugar</ingredient>
+<step>Preheat oven to 180C.</step>
+<step>Heat 1/2 the oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until veggies softening.</step>
+<step>Remove from pan and set aside.</step>
+<step>Place flour on a dinner plate and grind a good amount of cracked salt and pepper.</step>
+<step>Place the osso buco pieces on the floured plate and roll around until all sides are covered with flour to each piece.</step>
+<step>Shake off excess and set aside.</step>
+<step>Heat the remaining oil in the pan and cook the pieces of osso buco for 6 minutes each side.</step>
+<step>Doing it in batches if necessary.</step>
+<step>Place cooked pieces in a baking dish as you go.</step>
+<step>Once all done sprinkle over the cooked veggies and washed thyme (you can leave the leaves on the stems.)</step>
+<step>Pour over combined, wine, stock, red wine vinegar, tomatoe paste and brown sugar.</step>
+<step>Cover tightly with foil and cook for 2 hours.</step>
+</part>
+<part><title>Gremolata</title>
+<ingredient>1 bunch parley chopped</ingredient>
+<ingredient>2 lemons rind removed</ingredient>
+<ingredient>2 cloves garlic crushed</ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<step>Meanwhile make the gremolata, by placing all ingredients in a bowl and stirring well.</step>
+<step>Once the meat is ready, removed from the oven and sprinkle the gremolata over the meat.</step>
+<step>Serve with mash spud, rice or fresh salad.</step>
+</part>
 </recipe>
+
