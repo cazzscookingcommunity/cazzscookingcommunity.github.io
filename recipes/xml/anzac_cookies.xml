@@ -12,14 +12,16 @@
 <category>Snack</category>
 <category>Dessert</category>
 <category>Breakfast</category>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>24</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT15M</cookTime>
-<ingredient>1 1/4 cups rolled oats </ingredient>
-<ingredient>1 1/4 cups plain flour </ingredient>
-<ingredient>1 1/4 cups desiccated coconut</ingredient>
+<ingredient>1 cups rolled oats </ingredient>
+<ingredient>1 cups plain flour </ingredient>
+<ingredient>1 cups desiccated coconut</ingredient>
 <ingredient>1 cup sugar</ingredient>
-<ingredient>175 gms butter</ingredient>
+<ingredient>150 gms butter</ingredient>
 <ingredient>2 TBsp golden syrup</ingredient>
 <ingredient>1 1/4 teaspoon bicarb soda</ingredient>
 <ingredient>2 TBsp boiling water</ingredient>
