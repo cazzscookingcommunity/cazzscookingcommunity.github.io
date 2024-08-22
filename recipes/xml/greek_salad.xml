@@ -1,13 +1,10 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Greek Salad</title>
   <filename>greek_salad.xml</filename>
-  <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
   <thumbnail>greek_salad.jpeg</thumbnail>
   <category>Salad</category>
-  <yield>4</yield>
-  <prepTime>PT15M</prepTime>
   <diet>FODMAP</diet>
   <diet>GlutenFree</diet>
   <diet>Vegetarian</diet>
@@ -15,6 +12,10 @@
   <diet>LowCarb</diet>
   <diet>LowSugar</diet>
   <diet>EggFree</diet>
+  <yield>4</yield>
+  <prepTime>PT15M</prepTime>
+  <cookTime>PT0M</cookTime>
+  <comment>you can replace spring onions with a red onion. However, this will no longer be FODMAP friendly.</comment>
   <part>
     <title>Main</title>
     <ingredient>3-4 tomatoes chopped</ingredient>

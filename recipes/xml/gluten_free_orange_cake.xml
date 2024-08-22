@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Gluten Free Orange Cake</title>
   <filename>gluten_free_orange_cake.xml</filename>
-  <comment>care of Cristina Cucina</comment>
   <thumbnail>gluten_free_orange_cake.jpeg</thumbnail>
   <category>Sweets</category>
+  <diet>GlutenFree</diet>
   <yield>8</yield>
   <prepTime>PT15M</prepTime>
   <cookTime>PT1H</cookTime>
-  <diet>GlutenFree</diet>
+  <comment>care of Cristina Cucina</comment>
   <part>
     <title>Main</title>
     <ingredient>3 eggs</ingredient>

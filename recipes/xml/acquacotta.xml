@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Acquacotta</title>
   <filename>acquacotta.xml</filename>
   <thumbnail>acquacotta.jpeg</thumbnail>
   <category>Soup</category>
+  <diet>Vegetarian</diet>
   <yield>4</yield>
   <prepTime>PT15M</prepTime>
   <cookTime>PT1H15M</cookTime>
-  <diet>Vegetarian</diet>
   <ingredient>2-3 Tbsp olive oil</ingredient>
   <ingredient>2-3 garlic cloves crushed</ingredient>
   <ingredient>Pinch of chili</ingredient>

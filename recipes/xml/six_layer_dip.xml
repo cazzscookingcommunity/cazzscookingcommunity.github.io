@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Six layer dip</title>
   <filename>six_layer_dip.xml</filename>
-  <comment/>
   <thumbnail>six_layer_dip.jpeg</thumbnail>
   <category/>
+  <diet>GlutenFree</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>GlutenFree</diet>
+  <comment/>
   <ingredient>1 can refried beans*</ingredient>
   <ingredient>Guacamole (use 3 avocados)</ingredient>
   <ingredient>1-2 cups salsa</ingredient>

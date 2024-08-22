@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Healthy Sausage Rolls</title>
   <filename>healthy_sausage_rolls.xml</filename>
-  <comment>(c/o Pampas)</comment>
   <thumbnail>healthy_sausage_rolls.jpeg</thumbnail>
   <category>Lunch</category>
   <prepTime>PT15M</prepTime>
   <cookTime>PT25M</cookTime>
+  <comment>(c/o Pampas)</comment>
   <ingredient>3-4 sheets puff pastry defrosted</ingredient>
   <ingredient>1 TBsp olive oil</ingredient>
   <ingredient>1 medium fennel diced (core removed)</ingredient>

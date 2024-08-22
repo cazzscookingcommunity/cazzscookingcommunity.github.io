@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Lentil Salad</title>
   <filename>lentil_salad.xml</filename>
-  <comment/>
   <thumbnail>lentil_salad.jpeg</thumbnail>
   <category/>
+  <diet>GlutenFree</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>GlutenFree</diet>
+  <comment/>
   <ingredient>1 can lentils rinsed and drained</ingredient>
   <ingredient>3-4 TBspoons extra virgin olive oil</ingredient>
   <ingredient>1 TBspoon red wine vinegar</ingredient>

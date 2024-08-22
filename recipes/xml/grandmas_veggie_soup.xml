@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Grandmas Veggie Soup</title>
   <filename>grandmas_veggie_soup.xml</filename>
-  <comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
   <thumbnail>grandmas_veggie_soup.jpeg</thumbnail>
   <category>Soup</category>
+  <comment>This one of my families favourites.  Good to cook on a day you intent spending at home!</comment>
   <ingredient>2 lamb shanks or other lamb bones</ingredient>
   <ingredient>1 swede chopped</ingredient>
   <ingredient>1 turnip chopped</ingredient>

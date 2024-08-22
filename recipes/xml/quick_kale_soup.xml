@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Quick Kale Soup</title>
   <filename>quick_kale_soup.xml</filename>
-  <comment>c/o taste.com with cazzie tweaks </comment>
   <thumbnail>quick_kale_soup.jpeg</thumbnail>
   <category/>
+  <diet>FODMAP</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>FODMAP</diet>
+  <comment>c/o taste.com with cazzie tweaks </comment>
   <ingredient>1-2 TBsp olive oil</ingredient>
   <ingredient>2 garlic cloves crushed </ingredient>
   <ingredient>1 carrot diced </ingredient>

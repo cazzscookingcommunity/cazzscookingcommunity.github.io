@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Quinoa filled eggplant</title>
   <filename>quinoa_filled_eggplant.xml</filename>
-  <comment>c/o Akis Petretzikis with cazzie tweaks</comment>
   <thumbnail>quinoa_filled_eggplant.jpeg</thumbnail>
   <category>Lunch</category>
   <category>Dinner</category>
   <diet>GlutenFree</diet>
   <diet>Vegan</diet>
+  <comment>c/o Akis Petretzikis with cazzie tweaks</comment>
   <ingredient>3 Eggplants</ingredient>
   <ingredient>4 TBsp olive oil</ingredient>
   <ingredient>4 sprigs of thyme </ingredient>

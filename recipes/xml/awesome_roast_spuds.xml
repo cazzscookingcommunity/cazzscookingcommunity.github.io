@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Awesome Roast Spuds</title>
   <filename>awesome_roast_spuds.xml</filename>
   <thumbnail>awesome_roast_spuds.jpeg</thumbnail>
   <category>Sides</category>
+  <diet>Vegetarian</diet>
   <yield>6</yield>
   <prepTime>PT30M</prepTime>
   <cookTime>PT60M</cookTime>
-  <diet>Vegetarian</diet>
   <ingredient>10 white potatoes </ingredient>
   <ingredient>1/2 cup duck fat melted </ingredient>
   <ingredient>Salt</ingredient>

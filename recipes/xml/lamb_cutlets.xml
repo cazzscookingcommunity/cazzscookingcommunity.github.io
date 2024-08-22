@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Lamb Cutlets</title>
   <filename>lamb_cutlets.xml</filename>
-  <comment>10 minute meal</comment>
   <thumbnail>lamb_cutlet.jpeg</thumbnail>
   <category>Dinner</category>
   <category>Lamb</category>
   <yield>4</yield>
   <prepTime>PT10M</prepTime>
   <cookTime>PT10M</cookTime>
+  <comment>10 minute meal</comment>
   <ingredient>Lamb cutlets 2-4 per person</ingredient>
   <ingredient>Punnet mini tomatoes</ingredient>
   <ingredient>Few handfuls snap or snow peas</ingredient>

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Buckwheat Pancakes</title>
   <filename>buckwheat_pancakes.xml</filename>
-  <comment>c/o McKenzies</comment>
   <thumbnail>buckwheat_pancakes.jpeg</thumbnail>
   <category/>
   <diet>GlutenFree</diet>
+  <comment>c/o McKenzies</comment>
   <ingredient>1 1/2 cups buckwheat flour (McKenzies if possible)</ingredient>
   <ingredient>2 tsp baking powder</ingredient>
   <ingredient>1 cup milk</ingredient>

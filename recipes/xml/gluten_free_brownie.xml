@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Gluten Free Brownie</title>
   <filename>gluten_free_brownie.xml</filename>
-  <comment>c/o Cacao powder with cazzie tweaks</comment>
   <thumbnail>gluten_free_brownies.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
+  <comment>c/o Cacao powder with cazzie tweaks</comment>
   <ingredient>1 cup cacao powder</ingredient>
   <ingredient>1 cup hazelnut or almond meal</ingredient>
   <ingredient>1 cup raw sugar</ingredient>

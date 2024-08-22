@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Gluten Free Chocolate Cookies</title>
   <filename>gluten_free_chocolate_cookies.xml</filename>
-  <comment>c/o Gluten Free Reduced Calorie Cookbook by Connie Sarros with cazzie tweaks </comment>
   <thumbnail>gluten_free_chocolate_cookies.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>GlutenFree</diet>
+  <comment>c/o Gluten Free Reduced Calorie Cookbook by Connie Sarros with cazzie tweaks </comment>
   <ingredient>3/4 cup gluten free flour</ingredient>
   <ingredient>1/4 cup sugar</ingredient>
   <ingredient>1/4 cup cocoa</ingredient>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Chicken Noodle Soup</title>
   <filename>chicken_noodle_soup.xml</filename>
-  <comment>Easy quick lunch!</comment>
   <thumbnail>chicken_noodle_soup.jpeg</thumbnail>
   <category>Soup</category>
+  <comment>Easy quick lunch!</comment>
   <ingredient>Water</ingredient>
   <ingredient>2-3 chicken breasts chopped</ingredient>
   <ingredient>1/2 cup parsley chopped</ingredient>

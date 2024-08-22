@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Individual lemon tarts</title>
   <filename>individual_lemon_tarts.xml</filename>
-  <comment>c/o eat well with cazzie tweaks </comment>
   <thumbnail>individual_lemon_tarts.jpeg</thumbnail>
   <category>Sweets</category>
+  <comment>c/o eat well with cazzie tweaks </comment>
   <part>
     <title>Pastry </title>
     <ingredient>2 TBsp caster sugar</ingredient>

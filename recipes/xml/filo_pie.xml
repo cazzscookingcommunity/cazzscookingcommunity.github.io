@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Filo Pie</title>
   <filename>filo_pie.xml</filename>
-  <comment>c/o sbs.com.au Filo Pie- with Cazzie Tweaks</comment>
   <thumbnail>filo_pie.jpeg</thumbnail>
   <category>Sweets</category>
+  <comment>c/o sbs.com.au Filo Pie- with Cazzie Tweaks</comment>
   <ingredient>8-10 Filo pastry sheets*</ingredient>
   <ingredient>1 1/2  cups milk</ingredient>
   <ingredient>100 gms butter melted</ingredient>

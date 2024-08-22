@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Paleo Chocolate Chip Cookies </title>
   <filename>paleo_chocolate_chip_cookies.xml</filename>
-  <comment>c/o ambitious kitchen</comment>
   <thumbnail>paleo_choc_chip_cookies.jpeg</thumbnail>
   <category>Sweets</category>
   <diet>Paleo</diet>
   <diet>GlutenFree</diet>
+  <comment>c/o ambitious kitchen</comment>
   <ingredient>1 egg (room temperature)</ingredient>
   <ingredient>1 teaspoon vanilla extract </ingredient>
   <ingredient>1/3 cup coconut oil</ingredient>

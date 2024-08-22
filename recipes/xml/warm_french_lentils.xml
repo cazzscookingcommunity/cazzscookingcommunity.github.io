@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Warm French Lentils </title>
   <filename>warm_french_lentils.xml</filename>
-  <comment>This can be doubled.</comment>
   <thumbnail>warm_french_lentils.jpeg</thumbnail>
   <category>Lunch</category>
   <category>Dinner</category>
   <diet>GlutenFree</diet>
+  <comment>This can be doubled.</comment>
   <part>
     <title>Main</title>
     <ingredient>1 cup green or French lentils</ingredient>

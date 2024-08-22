@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>chickpeas</title>
   <filename>chickpeas.xml</filename>
-  <comment>How to cook Chick Peas in slow cooker- easy as!.  c/o inspiredtaste.net method 3 with cazzie tweaks</comment>
   <thumbnail>chickpeas.jpeg</thumbnail>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
+  <comment>How to cook Chick Peas in slow cooker- easy as!.  c/o inspiredtaste.net method 3 with cazzie tweaks</comment>
   <ingredient>500gms (2 3/4 cups) dried chick peas</ingredient>
   <ingredient>8 cups water</ingredient>
   <ingredient>1 bay leaf</ingredient>

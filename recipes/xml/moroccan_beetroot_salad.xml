@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Moroccan Beetroot Salad</title>
   <filename>moroccan_beetroot_salad.xml</filename>
-  <comment>c/o eat drink paleo week 1 reset</comment>
   <thumbnail>moroccan_beetroot_salad.jpeg</thumbnail>
   <category>Salad</category>
   <diet>Paleo</diet>
+  <comment>c/o eat drink paleo week 1 reset</comment>
   <ingredient>3 dried apricots (I used Sunbeam Australian sultanas, because I couldn't find any sulphite Free apricots!)</ingredient>
   <ingredient>Juice 1 lemon</ingredient>
   <ingredient>3 TBsp orange or mandarin juice</ingredient>

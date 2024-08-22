@@ -1,29 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-
-<recipe
-    xmlns="https://cazzscookingcommunity.github.io"
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
-    
-<title>Easy Pud</title>
-<filename>easy_pud.xml</filename>
-<thumbnail>easy_pud.jpeg</thumbnail>
-<category>Dessert</category>
-<diet>Vegetarian</diet>
-<yield>6</yield>
-<prepTime>PT15M</prepTime>
-<cookTime>PT45M</cookTime>
-<ingredient>440 can crushed pineapple </ingredient>
-<ingredient>1 packet butter cake mix</ingredient>
-<ingredient>125gm butter melted</ingredient>
-<ingredient>1/2 cup milk</ingredient>
-<step>Preheat over to 180C.</step>
-<step>Grease baking dish (approximately 15x20cm) and set aside.</step>
-<step>Empty pineapple into dish and smooth over bottom of dish.</step>
-<step>Sprinkle cake mix to completely cover pineapple.</step>
-<step>Pour over combined melted butter and milk.</step>
-<step>Cook for 45mins.</step>
-<step>Serve hot with ice cream, cream or custard.</step>
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <title>Easy Pud</title>
+  <filename>easy_pud.xml</filename>
+  <thumbnail>easy_pud.jpeg</thumbnail>
+  <category>Dessert</category>
+  <diet>Vegetarian</diet>
+  <yield>6</yield>
+  <prepTime>PT15M</prepTime>
+  <cookTime>PT45M</cookTime>
+  <ingredient>440 can crushed pineapple </ingredient>
+  <ingredient>1 packet butter cake mix</ingredient>
+  <ingredient>125gm butter melted</ingredient>
+  <ingredient>1/2 cup milk</ingredient>
+  <step>Preheat over to 180C.</step>
+  <step>Grease baking dish (approximately 15x20cm) and set aside.</step>
+  <step>Empty pineapple into dish and smooth over bottom of dish.</step>
+  <step>Sprinkle cake mix to completely cover pineapple.</step>
+  <step>Pour over combined melted butter and milk.</step>
+  <step>Cook for 45mins.</step>
+  <step>Serve hot with ice cream, cream or custard.</step>
 </recipe>
-

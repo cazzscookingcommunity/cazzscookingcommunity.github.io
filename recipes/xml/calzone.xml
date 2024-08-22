@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Calzone</title>
   <filename>calzone.xml</filename>
   <thumbnail>calzone.jpeg</thumbnail>
   <category>Lunch</category>
   <category>Sides</category>
   <category>Breakfast</category>
+  <diet>LowSugar</diet>
   <yield>3</yield>
   <prepTime>PT30M</prepTime>
   <cookTime>PT45M</cookTime>
-  <diet>LowSugar</diet>
   <ingredient>200-300gms pizza dough</ingredient>
   <ingredient>90-100 gms Tapenade</ingredient>
   <ingredient>200 gms grated cheese</ingredient>

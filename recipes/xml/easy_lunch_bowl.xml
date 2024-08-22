@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Easy Lunch Bowl</title>
   <filename>easy_lunch_bowl.xml</filename>
-  <comment/>
   <thumbnail>easy_lunch_bowl.jpeg</thumbnail>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
+  <comment/>
   <ingredient>Cooked rice</ingredient>
   <ingredient>Can lentils rinsed and drained</ingredient>
   <ingredient>Kale washed stripped and chopped </ingredient>

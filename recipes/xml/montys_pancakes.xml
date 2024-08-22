@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Montys Pancakes</title>
   <filename>montys_pancakes.xml</filename>
-  <comment>Thanks for sharing Monty ;)</comment>
   <thumbnail>montys_pancakes.jpeg</thumbnail>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
+  <comment>Thanks for sharing Monty ;)</comment>
   <ingredient>1/2 cup flour sifted </ingredient>
   <ingredient>3/4 cup milk</ingredient>
   <ingredient>2 eggs </ingredient>

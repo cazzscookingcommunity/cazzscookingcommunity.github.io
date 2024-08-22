@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Quick Chicken Pho</title>
   <filename>quick_chicken_pho.xml</filename>
-  <comment>c/o Woolworth</comment>
   <thumbnail>quick_chicken_pho.jpeg</thumbnail>
   <category>Soup</category>
   <category>Poultry</category>
   <diet>GlutenFree</diet>
+  <comment>c/o Woolworth</comment>
   <ingredient>5cm ginger peeled and sliced </ingredient>
   <ingredient>2-4 garlic cloves crushed</ingredient>
   <ingredient>2 star anise</ingredient>

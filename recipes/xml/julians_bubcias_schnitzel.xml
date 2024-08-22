@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Julians Bubcias Schnitzel</title>
   <filename>julians_bubcias_schnitzel.xml</filename>
-  <comment>Thanks for teaching me how Jules!</comment>
   <thumbnail>julians_bucia_schnitz.jpeg</thumbnail>
   <category>Poultry</category>
+  <comment>Thanks for teaching me how Jules!</comment>
   <ingredient>500gms Chicken tenderloins</ingredient>
   <ingredient>4 eggs beaten </ingredient>
   <ingredient>1/2 cup flour</ingredient>

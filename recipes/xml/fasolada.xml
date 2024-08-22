@@ -1,13 +1,13 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Fasolada </title>
   <filename>fasolada.xml</filename>
-  <comment>c/o Akis Petretzikis.  Greek white bean soup. </comment>
   <thumbnail>fasolada.jpeg</thumbnail>
   <category>Soup</category>
   <diet>Vegan</diet>
   <diet>GlutenFree</diet>
+  <comment>c/o Akis Petretzikis.  Greek white bean soup. </comment>
   <ingredient>500gms white beans (soaked overnight)</ingredient>
   <ingredient>1 teaspoon salt</ingredient>
   <ingredient>2 celery sticks chopped </ingredient>

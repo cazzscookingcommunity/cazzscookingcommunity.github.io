@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Hummingbird Cake</title>
   <filename>hummingbird_cake.xml</filename>
-  <comment/>
   <thumbnail>hummingbird_cake.jpeg</thumbnail>
   <category/>
+  <diet>GlutenFree</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>GlutenFree</diet>
+  <comment/>
   <ingredient>1 can crushed pineapple in juice drained</ingredient>
   <ingredient>2 ripe bananas mushed</ingredient>
   <ingredient>2/3 cup desiccated coconut </ingredient>

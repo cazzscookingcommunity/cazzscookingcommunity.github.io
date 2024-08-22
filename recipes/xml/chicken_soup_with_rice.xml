@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Chicken Soup with Rice</title>
   <filename>chicken_soup_with_rice.xml</filename>
-  <comment/>
   <thumbnail>chicken_soup_with_rice.jpeg</thumbnail>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
+  <comment/>
   <ingredient>3 TBsp olive oil</ingredient>
   <ingredient>2Lt chicken stock</ingredient>
   <ingredient>1 store bought chicken meat shredded </ingredient>

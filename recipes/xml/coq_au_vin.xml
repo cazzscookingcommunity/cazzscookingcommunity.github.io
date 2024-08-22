@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Coq au vin</title>
   <filename>coq_au_vin.xml</filename>
-  <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
   <thumbnail>coq_an_vin.jpeg</thumbnail>
   <category>Poultry</category>
   <diet>GlutenFree</diet>
+  <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
   <ingredient>12 chicken legs</ingredient>
   <ingredient>300-400gms diced bacon</ingredient>
   <ingredient>1 carrot chopped </ingredient>

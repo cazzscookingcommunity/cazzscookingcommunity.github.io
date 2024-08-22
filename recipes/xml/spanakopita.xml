@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Spanakopita </title>
   <filename>spanakopita.xml</filename>
-  <comment>c/o taste with cazzie tweaks </comment>
   <thumbnail>spanakopita.jpeg</thumbnail>
   <category>Lunch</category>
   <diet>Vegetarian</diet>
+  <comment>c/o taste with cazzie tweaks </comment>
   <ingredient>1/4 cup olive oil</ingredient>
   <ingredient>4-6 garlic cloves crushed </ingredient>
   <ingredient>1 bunch silverbeet or spinach</ingredient>

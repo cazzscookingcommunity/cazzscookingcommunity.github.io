@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Cauliflower and Broccoli Bake</title>
   <filename>cauliflower_and_broccoli_bake.xml</filename>
-  <comment>c/o Michelle Bridges with cazzies tweaks</comment>
   <thumbnail>cauliflower_broccoli_bake.jpeg</thumbnail>
   <category/>
   <diet>Vegetarian</diet>
+  <comment>c/o Michelle Bridges with cazzies tweaks</comment>
   <ingredient>500gms frozen cauliflower </ingredient>
   <ingredient>500gms frozen broccoli </ingredient>
   <ingredient>2 1/2 TBsp cornflour</ingredient>

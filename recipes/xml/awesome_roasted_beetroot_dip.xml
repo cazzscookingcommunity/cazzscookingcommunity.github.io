@@ -1,16 +1,16 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Awesome Roasted Beetroot Dip</title>
   <filename>awesome_roasted_beetroot_dip.xml</filename>
-  <comment/>
   <thumbnail>beetroot_dip.jpeg</thumbnail>
   <category/>
+  <diet>FODMAP</diet>
+  <diet>Vegan</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>FODMAP</diet>
-  <diet>Vegan</diet>
+  <comment/>
   <ingredient>4 Beetroots</ingredient>
   <ingredient>4 tbsp olive oil</ingredient>
   <ingredient>1 teaspoon cumin</ingredient>

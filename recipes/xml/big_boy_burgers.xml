@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Big Boy Burgers</title>
   <filename>big_boy_burgers.xml</filename>
-  <comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
   <thumbnail>big_boy_burgers.jpeg</thumbnail>
   <category>Beef</category>
+  <comment>Thanks to Sam, Liam and David for sharing your cooking skills in Cazzies kitchen!</comment>
   <part>
     <title>Patties</title>
     <ingredient>400 gms beef minced</ingredient>

@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Mujadara</title>
   <filename>mujadara.xml</filename>
-  <comment>c/o the Mediterranean dish with cazzie tweaks</comment>
   <thumbnail>mujadara.jpeg</thumbnail>
   <category>Sides</category>
+  <comment>c/o the Mediterranean dish with cazzie tweaks</comment>
   <ingredient>1 cup brown or green lentils </ingredient>
   <ingredient>6 cups water</ingredient>
   <ingredient>1/4 cup olive oil </ingredient>

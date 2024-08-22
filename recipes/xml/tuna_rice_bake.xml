@@ -1,15 +1,15 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Tuna Rice Bake</title>
   <filename>tuna_rice_bake.xml</filename>
-  <comment/>
   <thumbnail>tuna_bake.jpeg</thumbnail>
   <category/>
+  <diet>FODMAP</diet>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
-  <diet>FODMAP</diet>
+  <comment/>
   <ingredient>1 can creamed corn</ingredient>
   <ingredient>2 cups cooked rice</ingredient>
   <ingredient>1/4 cup boiling water</ingredient>

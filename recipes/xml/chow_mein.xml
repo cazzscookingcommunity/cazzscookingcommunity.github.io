@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>CHOW MEIN</title>
   <filename>chow_mein.xml</filename>
-  <comment>Easy, Quick, Yummy </comment>
   <thumbnail>chow_mein.jpeg</thumbnail>
   <category>Pork</category>
   <diet>FODMAP</diet>
+  <comment>Easy, Quick, Yummy </comment>
   <ingredient>500-600 gms Pork Mince</ingredient>
   <ingredient>Two small rice noodles (each about same size of two minute noodle packet)</ingredient>
   <ingredient>2 Carrots grated</ingredient>

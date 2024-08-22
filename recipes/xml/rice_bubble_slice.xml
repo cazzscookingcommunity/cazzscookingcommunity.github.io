@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Rice Bubble Slice</title>
   <filename>rice_bubble_slice.xml</filename>
-  <comment>c/o mykidslickthebowl with cazzie tweaks</comment>
   <thumbnail>rice_bubble_slice.jpeg</thumbnail>
   <category>Sweets</category>
+  <comment>c/o mykidslickthebowl with cazzie tweaks</comment>
   <ingredient>30gms butter</ingredient>
   <ingredient>3 TBsp honey</ingredient>
   <ingredient>1/2 cup Mayvers peanut butter</ingredient>

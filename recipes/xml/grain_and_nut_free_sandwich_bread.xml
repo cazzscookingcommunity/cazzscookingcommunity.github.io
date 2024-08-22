@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Grain and Nut Free Sandwich Bread</title>
   <filename>grain_and_nut_free_sandwich_bread.xml</filename>
-  <comment>c/o primal paleo</comment>
   <thumbnail>grain_and_nut_free_sandwich_bread.jpeg</thumbnail>
   <category>Sides</category>
   <diet>Paleo</diet>
+  <comment>c/o primal paleo</comment>
   <ingredient>6 eggs separated </ingredient>
   <ingredient>4 Tbsp unsalted butter melted </ingredient>
   <ingredient>1/2 cup plain Greek yogurt </ingredient>

@@ -1,14 +1,14 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Chow Mein2</title>
   <filename>chow_mein2.xml</filename>
-  <comment>Quick and easy!</comment>
   <thumbnail>chow_mein.jpeg</thumbnail>
   <category/>
   <yield/>
   <prepTime>PT0M</prepTime>
   <cookTime>PT0M</cookTime>
+  <comment>Quick and easy!</comment>
   <ingredient>600gms minced pork</ingredient>
   <ingredient>1/2 cabbage chopped</ingredient>
   <ingredient>2-3 garlic cloves crushed</ingredient>

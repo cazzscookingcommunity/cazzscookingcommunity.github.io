@@ -1,11 +1,11 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <title>Grandmas Bread and Butter Pud</title>
   <filename>grandmas_bread_and_butter_pud.xml</filename>
-  <comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
   <thumbnail>grandmas_bread_and_butter_pud.jpeg</thumbnail>
   <category>Sweets</category>
+  <comment>Great for any leftover stale bread- I usually use raisin toast, this photo was taken using fruit scones.</comment>
   <ingredient>6 fruit scones cut in half*</ingredient>
   <ingredient>2 cups milk</ingredient>
   <ingredient>2 eggs </ingredient>
