@@ -9,9 +9,8 @@
 <title>Quick Banana Dessert</title>
 <filename>quick_banana_dessert.xml</filename>
 <thumbnail>quick_banana_dessert.jpeg</thumbnail>
-<category>Sweets</category>
+<category>Dessert</category>
 <diet>GlutenFree</diet>
-<diet>Vegetarian</diet>
 <yield>1</yield>
 <prepTime>PT5M</prepTime>
 <cookTime>PT5M</cookTime>
