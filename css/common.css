@@ -30,7 +30,7 @@ section#mealCardsSection .back{top:0} */
 .button,.card{box-shadow: 2px 6px 15px rgba(0,0,0,0.1)}
 
 /* Meal Cards */
-.card{border-radius:7px; margin:10px; position: relative;}
+.card{border-radius:7px; margin:0px; position: relative;}
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
 .card-body{padding:5px 15px; text-align: center;}
@@ -41,8 +41,8 @@ section#mealCardsSection .back{top:0} */
 .favourite {
     background-color: white;
     position: absolute;
-    top: 10px; /* Adjust as needed */
-    left: 10px; /* Adjust as needed */
+    top: 0px; /* Adjust as needed */
+    left: 0px; /* Adjust as needed */
     z-index: 10;
     cursor: pointer;
 }

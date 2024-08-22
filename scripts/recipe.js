@@ -1,4 +1,12 @@
 
+// after page loads update the favourites button
+document.addEventListener('DOMContentLoaded', () => {
+    let button = document.getElementsByClassName('favourite')[0];
+    let recipeId = button.id;
+    updateFavouriteButton(recipeId);
+});
+
+
 function shareRecipe() {
     if (navigator.share) {    
         navigator.share({

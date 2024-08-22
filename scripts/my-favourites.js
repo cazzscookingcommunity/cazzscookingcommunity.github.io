@@ -19,11 +19,9 @@ function toggleFavourite(recipeId) {
 
 function getFavouriteState(recipeId) {
     let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
-    if (favourites.includes(recipeId)) {
-        textContent = '❤️ Remove';
-    } else {
-        textContent = '❤️ Add';
-    }
+    textContent = favourites.includes(recipeId) ? '❤️' : '🤍';
+    // let favouriteIcon = isFavourite ? '✖️⭐' : '⭐';
+
     return textContent
 }
 
@@ -31,9 +29,9 @@ function updateFavouriteButton(recipeId) {
     let favourites = JSON.parse(localStorage.getItem('favourites')) || [];
     const button = document.getElementById(`${recipeId}`);
     if (favourites.includes(recipeId)) {
-        button.textContent = '❤️ Remove';
+        button.textContent = '❤️';
     } else {
-        button.textContent = '❤️ Add';
+        button.textContent = '🤍';
     }
 }
 
