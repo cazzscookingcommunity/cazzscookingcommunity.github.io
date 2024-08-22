@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
-  <title>Emmas Slow Roast Beef</title>
-  <filename>emmas_slow_roast_beef.xml</filename>
-  <thumbnail>emmas_slow_roast_beef.jpeg</thumbnail>
-  <category>Beef</category>
-  <diet>GlutenFree</diet>
-  <ingredient>1 Coles Slow Cook Family Roast</ingredient>
-  <ingredient>3 TBSP seeded mustard</ingredient>
-  <ingredient>1 TBSP oregano </ingredient>
-  <ingredient>1 TBSP basil</ingredient>
-  <ingredient>1 bay leaf</ingredient>
-  <ingredient>1 TBSP tapioca flour</ingredient>
-  <ingredient>salt and pepper</ingredient>
-  <step>Remove roast from wrapper and remove strings.</step>
-  <step>Place in the centre of slow cooker.</step>
-  <step>Put bay leaf in the bottom.</step>
-  <step>Spread mustard over top and sprinkle herbs evenly over the top.</step>
-  <step>Generously add salt and pepper all over top and close lid.</step>
-  <step>Cook for at least six hours.</step>
-  <step>Once done remove from slow cooker and cover with foil and keep warm.</step>
-  <step>Use a sieve and drain all liquid into a sauce pan.</step>
-  <step>Turn the pan on low heat.</step>
-  <step>In a small cup mix tapioca flour with a couple of table spoons of water and mix until there are no lumps.</step>
-  <step>While stirring juices, pour in tapioca flour mixture and continue to stir until sauce thickens.</step>
-  <step>Keep sauce warm.</step>
-  <step>Using two forks shred meat (you may need a knife  for parts of it.</step>
-  <step>) Pour sauce over meat reserving some for extra gravy.</step>
-  <step>Serve hot with mash spud and other veggies.</step>
-  <step>Yum yum!.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    
+<title>Emmas Slow Roast Beef</title>
+<filename>emmas_slow_roast_beef.xml</filename>
+<thumbnail>emmas_slow_roast_beef.jpeg</thumbnail>
+<category>Beef</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<yield>12</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT10H</cookTime>
+<ingredient>1 Coles Slow Cook Family Beef Roast</ingredient>
+<ingredient>3 TBSP seeded mustard</ingredient>
+<ingredient>1 TBSP oregano </ingredient>
+<ingredient>1 TBSP basil</ingredient>
+<ingredient>1 bay leaf</ingredient>
+<ingredient>1 TBSP tapioca flour</ingredient>
+<ingredient>salt and pepper</ingredient>
+<step>Remove roast from wrapper and remove strings.</step>
+<step>Place in the centre of slow cooker.</step>
+<step>Put bay leaf in the bottom.</step>
+<step>Spread mustard over top and sprinkle herbs evenly over the top.</step>
+<step>Generously add salt and pepper all over top and close lid.</step>
+<step>Cook for at least six hours. 8 to 10 hours on low is best.</step>
+<step>Once done remove from slow cooker and cover with foil and keep warm.</step>
+<step>Use a sieve and drain all liquid into a sauce pan.</step>
+<step>Turn the pan on low heat.</step>
+<step>In a small cup mix tapioca flour with a couple of table spoons of water and mix until there are no lumps.</step>
+<step>While stirring juices, pour in tapioca flour mixture and continue to stir until sauce thickens.</step>
+<step>Keep sauce warm.</step>
+<step>Using two forks shred meat (you may need a knife for parts of it.)</step>
+<step>Pour sauce over meat reserving some for extra gravy.</step>
+<step>Serve hot with mash spud and other veggies.</step>
 </recipe>
+
