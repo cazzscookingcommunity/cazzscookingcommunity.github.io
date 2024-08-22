@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let button = document.getElementsByClassName('favourite')[0];
     let recipeId = button.id;
     updateFavouriteButton(recipeId);
+    checkRecipeFormat(recipeId);
 });
 
 
@@ -27,3 +28,6 @@ function printRecipe() {
     window.print();
 }
 
+function checkRecipeFormat(recipeId) {
+    
+}
