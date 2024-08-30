@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 <recipe xmlns="https://cazzscookingcommunity.github.io"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
   <title>Home made Carmen Bars</title>
   <filename>home_made_carmen_bars.xml</filename>
   <thumbnail>homemade_carmen_bars.jpeg</thumbnail>

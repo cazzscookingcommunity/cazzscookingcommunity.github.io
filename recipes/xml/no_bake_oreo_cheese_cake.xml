@@ -2,7 +2,7 @@
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 <recipe xmlns="https://cazzscookingcommunity.github.io"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd">
+        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
   <title>No Bake Oreo Cheese Cake</title>
   <filename>no_bake_oreo_cheese_cake.xml</filename>
   <thumbnail>no_bake_oreo_cheese_cake.jpeg</thumbnail>
