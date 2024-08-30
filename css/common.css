@@ -55,14 +55,6 @@ section#mealCardsSection .back{top:0} */
     color: #007bff;
 }
 
-/* .cardTags p {
-    margin: 0;
-}
-
-.cardTags a {
-    text-decoration: none;
-    color: #007bff;
-} */
 
 
 div#cardActions {margin: 10px 0px;}
@@ -119,14 +111,10 @@ input#imageName {width: 50%;}
 }
 
 .info-icon {
-    /* background-color: #007bff; */
-    /* color: white; */
-    padding: 5px;
-    border-radius: 50%;
-    font-size: 14px;
-    display: inline-block; /* Ensure it displays as expected */
-    text-align: left;
+    width: 30px; /* Size of SVG images */
+    height: 30px; /* Size of SVG images */
 }
+
 
 /* Ensure popup is positioned correctly */
 .info-popup {
@@ -299,7 +287,7 @@ ol.recipe-steps li p {
     text-indent: 1.5em;
 }
 
-/* Nav */
+/* NAVIGATION */
 ul.navbar-list {text-align: right;}
 .navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
@@ -319,7 +307,7 @@ section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; 
 
 
 
-/* Section */
+/* SECTIONS */
 section{margin-top:5vh; height:auto}
 section#landing{display:flex;flex-direction:row;align-items:center}
 section#landing .chefimg{top:-20px;right:-3px}
@@ -327,8 +315,52 @@ section#random .chefimg{top:5px;right:-14px}
 section#random, section#mealCardsSection {padding: 0 0 5vh 0}
 section#mealCardsSection .chefimg{top:-20px;right:22px}
 
-/* Footer */
-footer{bottom:0;text-align:center; margin-top:50px}
+
+
+
+/* FOOTER */
+/* General footer styling */
+footer {
+    padding: 10px; /* Space around the content */
+    text-align: center; /* Center-align the text and items */
+}
+
+footer .footer-links {
+    list-style: none; /* Remove default list styling */
+    padding: 0; /* Remove default padding */
+    margin: 0; /* Remove default margin */
+    display: flex; /* Align items horizontally */
+    justify-content: center; /* Center-align the items */
+    gap: 15px; /* Space between items */
+}
+
+footer .footer-links li {
+    display: flex; /* Flexbox for aligning icon and text */
+    align-items: center; /* Center align items vertically */
+}
+
+footer .icon {
+    width: 20px; /* Size of SVG images */
+    height: 20px; /* Size of SVG images */
+    margin-right: 3px; /* Space between image and text */
+}
+
+footer .status-icon {
+    width: auto; /* Reset size or set specific size */
+    height: auto; /* Reset size or set specific size */
+}
+
+footer a {
+    color: #007bff; /* Link color */
+    text-decoration: none; /* Remove underline from links */
+    margin: 0 10px; /* Space between links */
+    font-size: 16px; /* Font size */
+}
+
+footer a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
 
 /* Others */
 a{cursor:pointer}
@@ -338,28 +370,16 @@ main{justify-content:center;align-items:center}
 #userInput{font-weight:bold}
 
 
-/* Media queries */
-@media (min-width: 750px) {
-    /* .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
-    .navbar-list {list-style:none;margin-bottom: 0}
-    .navbar-item {position:relative;display:inline}
-    .navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
-    .navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black} */
-}
-
 #navList{list-style:none;margin-bottom:0;display:flex;justify-content:space-evenly;}
 #navBar{position:fixed;padding:7px;display:flex;justify-content:space-evenly;width:100%;background:#f5f5f5;z-index:99;border-top:1px solid #eee;border-bottom:1px solid #eee}
 #navItem{position:relative;display:inline; cursor: pointer;}
 #navLink{text-transform:uppercase;font-size:2vw;font-weight:600;letter-spacing:.2rem;text-decoration:none;color:#000}
 .button:hover{background-color:#689f38}
-.goTop{text-align:right;position:fixed;right:10px;bottom:20px}
-.goBack{text-align:right;position:fixed;right:20px;top:20px}
+.goTop{ text-align:right; position:fixed; right:30px; bottom:30px; width:30px; height: 30px; }
+/* .goBack{text-align:right;position:fixed;right:20px;top:20px} */
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
-/* #about-section{height:80vh;padding-top:20vh;} */
-/* #about-section{height:80vh;padding-top:0;} */
 .brand{font-size:5vw;font-weight:700}
-/* .brand:focus,.brand:hover,.brand:visited{color:#000} */
 
 #errorMessageContainer{display: none; background: #679f38; text-align: center;height: 100px; color: white; justify-content: center; align-items: center;}
 #errorMessageText{line-height: 100px; padding: 0px; margin: 0 40px 0 0;}
@@ -367,10 +387,6 @@ main{justify-content:center;align-items:center}
 
 
 /* MEDIA QUERIES */
-
-/* large screens */
-@media (min-width: 750px) {
-}
 
 /* phablet and above */
 @media (min-width:440px){
@@ -383,30 +399,25 @@ main{justify-content:center;align-items:center}
     /* scal branding and remove rotation */
     .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
     .eight.columns.randomSearch {display:none;}
-    /* .four.columns.randomSearch {width: 100%; display: block;} */
+
     .four.columns.randomSearch > a {display: block;}
     #NavBarCategory > a {text-decoration-line: none;}
-    /* dont bother with random search.  can use Hamburger menu */
-    /* .randomSearch{display:none} */
-    /* display the hambuger mnav menu and hide full nav links */
-    /* #navbar-list{display:none; position:relative;} */
-    /* .navbar a.icon{display:block;} */
-    /* #NavBarCategory {display: none;} */
-    /* section#landing a.categoryIcon {display:block; margin-top:10px} */
 
     /* address some container layout */
     section#landing{display: inline-block; height:auto}
     section#landing > .container{margin-top:0}
-    /* meal card section - create space on right for scroll button */
-    /* scroll to top button */
-    /* .back{right:10px} */
 
+    /* puts two columns of meal cards in search */
     div.cards.four.columns {width:50%}
     .card-body {padding:0;}
 
     sction#mealCardSection {margin-right: 10px}
     section#mealCardsSection > .container{padding: 0 10px}
     .container {width:95%}
+
+    /* stack footer vertically */
+    footer .footer-links { flex-direction: column; align-items: center; }
+    footer .footer-links li { margin-bottom: 10px; }
 
 }
 

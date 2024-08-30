@@ -55,7 +55,7 @@
 
     <!-- scroll to top and back -->
     <div class="goTop">
-      <a href="#main" tabindex="-1"><img src="/components/icons/icons_up_24.png" title="Back to top" /></a>
+      <a href="#main" tabindex="-1"><img src="/components/icons/top-arrow-svgrepo-com.svg" title="Scroll to top" /></a>
     </div> 
 
     <!-- HEADER SECTION -->
@@ -129,7 +129,7 @@
                   <div class="eight columns">
                     <!-- search tips popup -->
                     <div class="info-container">
-                      <img src="components/icons/icons_info_24.png" class="info-icon" />
+                      <img src="components/icons/info-circle-svgrepo-com.svg" class="info-icon" />
                       <div class="info-popup">
                         SEARCH TIPS:<br>
                         blank search shows all recipes<br/>
@@ -200,7 +200,7 @@
                     </p>
                     
                     <p>
-                      Cazz is always cooking something new and experimenting in the kitchen.
+                      Cazz loves cooking something new and experimenting in the kitchen.
                       This website is a collection of the family favourite recipes recorded for
                       to pass on and for the family to use.
                     </p>
@@ -213,13 +213,30 @@
 
     <!-- FOOTER SECTION -->
     <footer>
-      <a href="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io" title="GitHub Repo">GitHub Repo</a>
-      <br/>
-      <a href="javascript:clearFavourites()" title="CLear Favourites">Clear Favourites</a>
-      <br/>
-      
-      <img alt="guthub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg"/>
-    </footer>
+      <ul class="footer-links">
+          <li>
+              <a href="javascript:clearFavourites()" title="Clear Favourites">
+                <img src="/components/icons/heart-svgrepo-com.svg" alt="Favourites" class="icon">
+                Clear Favourites
+              </a>
+          </li>
+          <li>
+              <a href="https://www.facebook.com/profile.php?id=100064897085636" target="_blank" rel="noopener noreferrer">
+                  <img src="/components/icons/facebook-svgrepo-com.svg" alt="Follow Cazz on Facebook" class="icon">
+                  Follow Cazz
+              </a>
+          </li>
+          <li>
+              <a href="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io" target="_blank" rel="noopener noreferrer">
+                  <img src="/components/icons/github-svgrepo-com.svg" alt="GitHub" class="icon">
+                  View Source
+              </a>
+          </li>
+          <li>
+              <img alt="GitHub status icon" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg" class="status-icon">
+          </li>
+      </ul>
+  </footer>
 
   </main>
 </body>
