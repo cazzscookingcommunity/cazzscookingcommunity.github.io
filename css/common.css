@@ -177,32 +177,7 @@ input#imageName {width: 50%;}
 }
 
 
-/* Hover styles for desktop */
-@media (min-width: 769px) {
-    .info-container:hover .info-popup {
-        display: block;
-        bottom: 125%; /* Position it above the icon */
-        left: 10%;
-        /* transform: translate(-50%, -10px); Adjust the position above the icon */
-    }
-}
 
-/* Touch-specific styles for mobile */
-@media (max-width: 768px), (hover: none) and (pointer: coarse) {
-    .info-container.active .info-popup {
-        display: block;
-        position: fixed; /* Use fixed positioning for mobile */
-        top: auto; /* Remove top alignment */
-        bottom: 20%; /* Adjust to position above the finger */
-        left: 50%; /* Center horizontally */
-        transform: translate(-50%, -60px); /* Offset to center and above */
-        width: 80%; /* Adjust width for mobile view */
-    }
-
-    .info-popup::after {
-        display: none; /* Hide the arrow on mobile */
-    }
-}
 
 
 /* Meal Metadata and Image section */
@@ -288,26 +263,34 @@ ol.recipe-steps li p {
 }
 
 /* NAVIGATION */
+
+/* nav bar global */
 ul.navbar-list {text-align: right;}
 .navbar{padding:10px 0; position:relative}
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
-#navbar-list{display:inline; bottom:0; right:0}
-.navbar a.icon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
-#NavBarCategory {display: inline;}
-section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
+#navbar-list{ display:inline; bottom:0; right:0; }
 
+/* page navigation menu */
+#NavBarCategory {display: inline;}
 .navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
 .navbar-list {list-style:none;margin-bottom: 0}
 .navbar-item {position:relative;display:inline; padding-right: 10px;}
+.navbar-item a { text-decoration: none; }
+.navbar-item a:hover { color: white; background-color:#689f38; }
 .navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
-.navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none;color:black}
 
+/* hamburger icon */
+.navbar a.icon { color:#679f38; display:none; position:absolute; right:20px; top:5px; }
 
+/* search tags */
+.navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none; color:#007bff;}
+.navbar-link-category:hover { color: white; background-color:#689f38; }
 
 
 
 /* SECTIONS */
+section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 section{margin-top:5vh; height:auto}
 section#landing{display:flex;flex-direction:row;align-items:center}
 section#landing .chefimg{top:-20px;right:-3px}
@@ -321,9 +304,11 @@ section#mealCardsSection .chefimg{top:-20px;right:22px}
 /* FOOTER */
 /* General footer styling */
 footer {
-    padding: 10px; /* Space around the content */
+    padding: 15px; /* Space around the content */
     text-align: center; /* Center-align the text and items */
+    border-top: 1px solid #ddd; /* Add a border at the top */
 }
+
 
 footer .footer-links {
     list-style: none; /* Remove default list styling */
@@ -357,9 +342,7 @@ footer a {
     font-size: 16px; /* Font size */
 }
 
-footer a:hover {
-    text-decoration: underline; /* Underline on hover */
-}
+footer a:hover { color: white; background-color:#689f38; }
 
 
 /* Others */
@@ -396,6 +379,14 @@ main{justify-content:center;align-items:center}
 
 /* below the CSS grid start size */
 @media (max-width: 750px) {
+/* @media (min-width: 769px) { */
+
+    .info-container:hover .info-popup {
+        display: block;
+        bottom: 125%; /* Position it above the icon */
+        left: 10%;
+    }
+
     /* scal branding and remove rotation */
     .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
     .eight.columns.randomSearch {display:none;}
@@ -418,10 +409,37 @@ main{justify-content:center;align-items:center}
     /* stack footer vertically */
     footer .footer-links { flex-direction: column; align-items: center; }
     footer .footer-links li { margin-bottom: 10px; }
-
 }
 
+/* Hover styles for desktop */
+@media (min-width: 769px) {
+    .info-container:hover .info-popup {
+        display: block;
+        bottom: 125%; /* Position it above the icon */
+        left: 10%; 
+        /* transform: translate(-50%, -10px); Adjust the position above the icon */
+    }
 
+    /* .brand{font-size:3vw;} */
+    /* .navbar-link{font-size:1.5vw} */
+}
+
+/* Touch-specific styles for mobile */
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+    .info-container.active .info-popup {
+        display: block;
+        position: fixed; /* Use fixed positioning for mobile */
+        top: auto; /* Remove top alignment */
+        bottom: 20%; /* Adjust to position above the finger */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -60px); /* Offset to center and above */
+        width: 80%; /* Adjust width for mobile view */
+    }
+
+    .info-popup::after {
+        display: none; /* Hide the arrow on mobile */
+    }
+}
 
 
     
