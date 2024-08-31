@@ -91,7 +91,7 @@
     <section id="landing">
       <div class="container">
         <div class="row">
-          <div class="twelve columns">
+          <!-- <div class="twelve columns"> -->
             <div class="row d-flex">
               <div class="four columns" style="align-self:center;">
                 <h4 class="heading">Cazz's Cooking Community</h4>
@@ -101,34 +101,37 @@
                 </a>
               </div>
               <div class="eight columns">
-                <div class="row">
-                  <div class="eight columns randomSearch">
+                <!-- <div class="row"> -->
+                  <!-- <div class="eight columns randomSearch">
                       <p class="searchPrompt">Not sure what to cook?</p>
                       <p class="searchPrompt"><small>Search or try a random recipe!</small></p>
-                  </div>
+                  </div> -->
 
                   <!-- Random recipe button -->
-                  <div class="four columns randomSearch">
+                  <!-- <div class="four columns randomSearch">
                       <img src="components/icons/chef.svg" class="u-max-full-width chefimg" />
                       <a class="button btnRandomRecipe" href="#random" title="Show a random recipe" onclick="clear()">Random Recipe</a>
-                  </div>
-                </div>
+                  </div> -->
+                <!-- </div> -->
 
-                <!-- Search button -->
+                <!-- Search -->
                 <div class="row">
+                  <!-- search input field -->
                   <div class="eight columns">
-                    <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />
+                    <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />          
                   </div>
-                  <div class="four columns" style="position:relative;" id="randomMealBtnContainer">
+
+                  <!-- search button -->
+                  <!-- <div class="four columns" style="position:relative;" id="randomMealBtnContainer">
                     <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
-                  </div>
+                  </div> -->
                 </div>
 
                 <!-- clear button -->
                 <div class="row">
-                  <div class="eight columns">
+                  <!-- <div class="eight columns"> -->
                     <!-- search tips popup -->
-                    <div class="info-container">
+                    <!-- <div class="info-container">
                       <img src="components/icons/info-circle-svgrepo-com.svg" class="info-icon" />
                       <div class="info-popup">
                         SEARCH TIPS:<br>
@@ -139,22 +142,41 @@
                         'category:sweet -patato'  sweet but no sweet patato<br/>
                         lables diet: ingredients: category:<br/>
                       </div>
-                    </div>
+                    </div> -->
                   </div>
-                  <div class="four columns" style="position:relative;">
-                      <a class="button clearButton" href="#main" title="Clear">Clear Search</a>
+                  <!-- <div class="four columns" style="position:relative;"> -->
+                  <div class="eight columns" style="position:relative;" id="search-container">
+                                        <!-- search tips hover box -->
+                                        <div class="info-container">
+                                          <img src="components/icons/info-circle-svgrepo-com.svg" class="search-button info-icon" />
+                                          <div class="info-popup">
+                                            SEARCH TIPS:<br>
+                                            blank search shows all recipes<br/>
+                                            'banana'   any recipe with banana.<br/>
+                                            '+glutenfree +diaryfree'   must be both.<br/>
+                                            'title:cake'   returns reccipes with cake in title.<br/>
+                                            'category:sweet -patato'  sweet but no sweet patato<br/>
+                                            lables diet: ingredients: category:<br/>
+                                          </div>
+                                        </div>
+                    <a class="button btnSearchRecipe search-button" href="#mealCardsSection" title="Search">Search Recipe</a>
+                    <a class="button clearButton search-button" href="#main" title="Clear">Clear Search</a>
+                    
                   </div>
                 </div>                 
 
-                <div class="row">
-                  <div class="twelve columns">
-                    <ul class="navbar-list u-full-width" style="text-align:center;" id="NavBarCategory">
+                <!-- holding container for search tags / categories -->
+                <div class="row d-flex">
+                  <div class="eight columns" id="category-container">
+                    <!-- <ul class="navbar-list u-full-width" style="text-align:center;" id="NavBarCategory"> -->
+                      <ul class="navbar-list" style="text-align:center;" id="NavBarCategory"></ul>
                     </ul>
                   </div>
                 </div>
+
               </div>
             </div>
-          </div>
+          <!-- </div> -->
         </div>
       </div>
     </section>

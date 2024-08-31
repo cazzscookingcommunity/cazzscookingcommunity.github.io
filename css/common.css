@@ -52,8 +52,11 @@ section#mealCardsSection .back{top:0} */
 #cardTags {
     margin-top: 10px;
     font-size: 14px;
-    color: #007bff;
+    /* color: #007bff; */
 }
+
+.tag { text-decoration: none; }
+.tag:hover { color: white; background-color:#689f38; }
 
 
 
@@ -104,6 +107,14 @@ input#imageName {width: 50%;}
 
 
 /* Search prompts and Tips on home page */
+#search-container {
+    display: inline-flex;
+    justify-content: left; /* Horizontally center */
+    align-items: center; /* Vertically center */
+}
+
+.search-button { margin-right: 5px; }
+
 .info-container {
     position: relative;
     display: inline-block;
@@ -113,6 +124,7 @@ input#imageName {width: 50%;}
 .info-icon {
     width: 30px; /* Size of SVG images */
     height: 30px; /* Size of SVG images */
+    align-items: center;
 }
 
 
@@ -145,6 +157,7 @@ input#imageName {width: 50%;}
     border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
 }
 
+#searchRecipe { width:100% };
 
 /* hide the passcode token on all pages.  it will be display on popup only */
 #token {display: none;}
@@ -266,14 +279,14 @@ ol.recipe-steps li p {
 
 /* nav bar global */
 ul.navbar-list {text-align: right;}
-.navbar{padding:10px 0; position:relative}
+.navbar { padding:10px 0; position:relative }
 .navbar .columns{height:33px}
 .navbar .nine.columns{padding-top:4px}
-#navbar-list{ display:inline; bottom:0; right:0; }
+
 
 /* page navigation menu */
 #NavBarCategory {display: inline;}
-.navbar {display: block;width: 100%;background:whitesmoke;z-index: 99;border-top: 1px solid #eee;border-bottom: 1px solid #eee}
+#navbar-list{ display:inline; bottom:0; right:0; }
 .navbar-list {list-style:none;margin-bottom: 0}
 .navbar-item {position:relative;display:inline; padding-right: 10px;}
 .navbar-item a { text-decoration: none; }
@@ -284,7 +297,8 @@ ul.navbar-list {text-align: right;}
 .navbar a.icon { color:#679f38; display:none; position:absolute; right:20px; top:5px; }
 
 /* search tags */
-.navbar-link-category {text-transform: uppercase;font-size: 10px;font-weight: 600;letter-spacing: .2rem;margin-right: 10px;text-decoration: none; color:#007bff;}
+#category-container { margin-top:10px; }
+.navbar-link-category { text-transform:uppercase; font-size:10px; font-weight:600; letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
 .navbar-link-category:hover { color: white; background-color:#689f38; }
 
 
@@ -336,10 +350,10 @@ footer .status-icon {
 }
 
 footer a {
-    color: #007bff; /* Link color */
+    /* color: #007bff; Link color */
     text-decoration: none; /* Remove underline from links */
     margin: 0 10px; /* Space between links */
-    font-size: 16px; /* Font size */
+    /* font-size: 16px; Font size */
 }
 
 footer a:hover { color: white; background-color:#689f38; }
@@ -391,7 +405,7 @@ main{justify-content:center;align-items:center}
     .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
     .eight.columns.randomSearch {display:none;}
 
-    .four.columns.randomSearch > a {display: block;}
+    .four.columns.randomSearch > a { display: block; }
     #NavBarCategory > a {text-decoration-line: none;}
 
     /* address some container layout */

@@ -55,10 +55,10 @@ $(document).ready(function(){
 
 
     // Fetch a random recipe
-    $('.btnRandomRecipe').on('click', function(){
-        fetchMeal(recipeList,'r');
-        $('#dynamicTitle').text('The Random Recipe');
-    });
+    // $('.btnRandomRecipe').on('click', function(){
+    //     fetchMeal(recipeList,'r');
+    //     $('#dynamicTitle').text('The Random Recipe');
+    // });
 
     // Get the searched recipes on click
     $('.btnSearchRecipe').on('click', function(){
@@ -111,8 +111,13 @@ function getSearchTags(recipeList) {
 
 
 function displaySearchTags(tags) {
-    NavBarCategory.innerHTML = tags;
+    const navBarCategory = document.getElementById("NavBarCategory");
+    if (navBarCategory) {
+        navBarCategory.innerHTML = tags;
+    }
 }
+
+
 
 // NEED TO UPDATE FOR RECIPE DIET
 // adds itemList schema to the homepage
