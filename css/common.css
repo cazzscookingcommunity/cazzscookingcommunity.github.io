@@ -75,8 +75,8 @@ img.cardAction:hover {background-color: #689f38}
 .d-flex{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:middle}
 
 /* Random Recipe button alignment */
-#landing .row:first-child{display: flex; align-items: center;} 
-section#landing .row .chefimg{top:26px; left:160px; position: relative;}
+/* #landing .row:first-child{display: flex; align-items: center;} 
+section#landing .row .chefimg{top:26px; left:160px; position: relative;} */
 
 /* Heading */
 .heading{text-transform:uppercase;
@@ -107,13 +107,35 @@ input#imageName {width: 50%;}
 
 
 /* Search prompts and Tips on home page */
+/* #search-container { */
+    /* display: inline-flex; */
+    /* justify-content: left; Horizontally center */
+    /* align-items: center; Vertically center */
+/* } */
+
+/* .search-button { margin-right: 5px; } */
+
 #search-container {
-    display: inline-flex;
-    justify-content: left; /* Horizontally center */
-    align-items: center; /* Vertically center */
+    display: flex;                /* Use flexbox to manage layout */
+    /* flex-wrap: wrap;              Allow content to wrap to new lines */
+    align-items: center;          /* Align items vertically within the container */
+    gap: 10px;                    /* Space between flex items */
+    max-width: 100%;              /* Prevent container from extending beyond the viewport */
+    overflow: hidden;             /* Hide overflow if it still occurs */
 }
 
-.search-button { margin-right: 5px; }
+/* Button styles to scale */
+#search-container .button {
+    display: flex;                /* Ensure buttons respect flex properties */
+    flex: 1 1 auto;               /* Allow buttons to grow, shrink, and auto-size */
+    max-width: 100%;              /* Prevent buttons from extending beyond container */
+    min-width: 0;                 /* Allow buttons to shrink below their intrinsic width */
+    padding: 10px 15px;           /* Button padding for better touch target */
+    justify-content: center;     /* Center text horizontally */
+    box-sizing: border-box;       /* Include padding in the total width calculation */
+    align-items: center;          /* Vertically center */
+}
+
 
 .info-container {
     position: relative;
@@ -418,7 +440,7 @@ main{justify-content:center;align-items:center}
 
     sction#mealCardSection {margin-right: 10px}
     section#mealCardsSection > .container{padding: 0 10px}
-    .container {width:95%}
+    /* .container {width:95%} */
 
     /* stack footer vertically */
     footer .footer-links { flex-direction: column; align-items: center; }
