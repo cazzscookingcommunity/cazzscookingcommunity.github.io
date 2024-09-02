@@ -1192,9 +1192,9 @@
         "title": "Gerrys Banana and Pecan Cake",
         "htmlFilename": "gerrys_banana_pecan_cake.html",
         "thumbnail": "gerrys_banana_bread.jpeg",
-        "category": "Sweets",
-        "diet": "",
-        "ingredients": "3 bananas mashed  1 1/2 cups pecans  3 eggs lightly beaten 1/2 cups dark chocolate  1 1/2 cups brown sugar 1 3/4 cups plain flour 2/3 cup milk 1/4 cup oil 1 teasp bicarbonate soda 1 1/2 teasp baking powder salt"
+        "category": "Snack Dessert",
+        "diet": "GFO Vegetarian",
+        "ingredients": "3 bananas mashed  1 1/2 cups pecans  3 eggs lightly beaten 1/2 cups dark chocolate  1 1/2 cups brown sugar 1 3/4 cups plain flour (use GF if required) 2/3 cup milk 1/4 cup oil 1 teasp bicarbonate soda 1 1/2 teasp baking powder salt"
     },
     {
         "id": "keto_lava_chocolate_mug_cake.xml",
