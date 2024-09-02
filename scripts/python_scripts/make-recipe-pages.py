@@ -31,21 +31,24 @@ def pretty_format_html(html_string):
 def format_time(duration):
     if not duration:
         return ""
-    try:       
-        # Regular expression to match ISO 8601 duration format
-        pattern = re.compile(r'P(T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)')
+    try:
+        # Updated regular expression to match ISO 8601 duration format with days
+        pattern = re.compile(r'P(?:(\d+)D)?(T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?')
         match = pattern.match(duration)
-        
+
         if not match:
             return "unknown format"
 
-        # Extract hours, minutes, and seconds
-        hours = int(match.group(2)) if match.group(2) else 0
-        minutes = int(match.group(3)) if match.group(3) else 0
-        seconds = int(match.group(4)) if match.group(4) else 0
+        # Extract days, hours, minutes, and seconds
+        days = int(match.group(1)) if match.group(1) else 0
+        hours = int(match.group(3)) if match.group(3) else 0
+        minutes = int(match.group(4)) if match.group(4) else 0
+        seconds = int(match.group(5)) if match.group(5) else 0
 
         # Format the time string based on available components
         time_str = ""
+        if days:
+            time_str += f"{days} days "
         if hours:
             time_str += f"{hours} hrs "
         if minutes:
@@ -222,7 +225,7 @@ def main():
         process_directory()
 
         # test individual files before do full directory
-        # testfile1="recipes/xml/easy_stir_fry.xml"
+        # testfile1="recipes/xml/healthy_christmas_cake.xml"
         # testfile2="recipes/xml/lasagna.xml"
 
         # generate_html_from_xml(testfile1)

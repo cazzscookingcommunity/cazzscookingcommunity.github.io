@@ -18,7 +18,7 @@ const xmlheader = [`<?xml version="1.0" encoding="UTF-8"?>`,
 const recipeheader = ['<recipe',
     '    xmlns="https://cazzscookingcommunity.github.io"', 
     '    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ',
-    '    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> ',
+    '    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> ',
     '    ']
 
     

@@ -75,11 +75,10 @@
 
     <xs:simpleType name="time">
         <xs:restriction base="xs:string">
-            <xs:pattern value="PT(\d{1,2}H)?(\d{1,2}M)?" />
+            <xs:pattern value="P(\d{1,2}D)?T?(\d{1,2}H)?(\d{1,2}M)?" />
         </xs:restriction>
     </xs:simpleType>
-
-
+    
     <xs:complexType name="recipeType">
         <xs:sequence>
             <xs:element name="title" type="xs:string" default="Cazz's banana and chia milkshake" />

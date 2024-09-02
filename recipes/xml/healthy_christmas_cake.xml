@@ -14,7 +14,7 @@
 <diet>GlutenFree</diet>
 <diet>Paleo</diet>
 <yield>30</yield>
-<prepTime>PT24H</prepTime>
+<prepTime>P7D</prepTime>
 <cookTime>PT1H</cookTime>
 <comment>c/o nourish every day </comment>
 <ingredient>500 gms mixed dried fruit </ingredient>
@@ -53,4 +53,3 @@
 <step>Once totally cool wrap totally in foil, keep in fridge.</step>
 <step>Curt slices as desired and wrap remainder in foil until all gone!.</step>
 </recipe>
-
