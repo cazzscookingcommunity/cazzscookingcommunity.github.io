@@ -44,13 +44,13 @@ function clearSearch() {
 }
 
 // hamburger menu for category list
-function mobileCategoryMenu() {
-    var x = document.getElementById("NavBarCategory");
-    if (x.style.display === "block") {
-      x.style.display = "none";
+function mobileMenu() {
+    var navbarList = document.getElementById("navbar-list");
+    if (navbarList.style.display === "flex") {
+        navbarList.style.display = "none"; /* Hide the menu */
     } else {
-      x.style.display = "block";
+        navbarList.style.display = "flex"; /* Show the menu */
     }
-} 
+}
 
 

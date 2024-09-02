@@ -89,8 +89,7 @@ section#mealCardsSection .back{top:0} */
     /* color: #007bff; */
 }
 
-.tag { text-decoration: none; }
-.tag:hover { color: white; background-color:#689f38; }
+
 
 
 
@@ -319,30 +318,90 @@ ol.recipe-steps li p {
 /* NAVIGATION 
 --------------------------------------------------------------- */
 
+/* General navbar styling */
+.navbar {
+    background-color: transparent;
+    padding: 0; /* Padding around the navbar */
+    position: relative; /* Positioning for the toggle button */
+}
+
+.navbar-list {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    display: none; /* Hide the list initially for mobile */
+    flex-direction: column; /* Stack items vertically for mobile */
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    display: block;
+}
+
+.navbar-item a:hover {
+    background-color: #689f38;
+    color: white;
+}
+
+.icon {
+    display: block; /* Show hamburger icon on mobile */
+    cursor: pointer;
+    font-size: 24px; /* Size of the icon */
+    color: #689f38;
+}
+
+/* Media query to show the navbar horizontally at 720px and above */
+@media (min-width: 720px) {
+    .navbar { background-color: #c2d8af;}
+    .navbar-list {
+        display: flex; /* Change layout to horizontal */
+        flex-direction: row; /* Horizontal layout */
+        justify-content: flex-start; /* Align items to the start */
+        align-items: center; /* Center items vertically */
+        gap: 10px;
+    }
+
+    .navbar-item {
+        margin-bottom: 0;
+    }
+
+    .navbar-item a {
+        padding: 10px 20px; /* Adjust padding for better touch targets */
+    }
+
+    .icon {
+        display: none; /* Hide the hamburger icon on larger screens */
+    }
+}
+
+
 /* nav bar global */
-ul.navbar-list {text-align: right;}
+/* ul.navbar-list {text-align: right;}
 .navbar { padding:10px 0; position:relative }
 .navbar .columns{height:33px}
-.navbar .nine.columns{padding-top:4px}
+.navbar .nine.columns{padding-top:4px} */
 
 
 /* page navigation menu */
-#NavBarCategory {display: inline;}
+/* #NavBarCategory {display: inline;}
 #navbar-list{ display:inline; bottom:0; right:0; }
 .navbar-list {list-style:none;margin-bottom: 0}
 .navbar-item {position:relative;display:inline; padding-right: 10px;}
 .navbar-item a { text-decoration: none; }
 .navbar-item a:hover { color: white; background-color:#689f38; }
-.navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black}
+.navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black} */
 
 /* hamburger icon */
-.navbar a.icon { color:#679f38; display:none; position:absolute; right:20px; top:5px; }
+/* .navbar a.icon { color:#679f38; display:none; position:absolute; right:20px; top:5px; } */
 
 /* search tags */
-#category-container { margin-top:10px; }
+#tag-container { margin-top:10px; }
+#recipe-tags { display: inline; list-style:none; margin-bottom: 0; }
 /* .navbar-link-category { text-transform:uppercase; font-size:10px; font-weight:600; letter-spacing:.2rem; margin-right:10px; text-decoration:none; } */
-.navbar-link-category { text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
-.navbar-link-category:hover { color: white; background-color:#689f38; }
+.recipe-tag { text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
+.recipe-tag:hover { color: white; background-color:#689f38; }
 
 
 
@@ -375,7 +434,7 @@ footer .footer-links {
     margin: 0; /* Remove default margin */
     display: flex; /* Align items horizontally */
     justify-content: center; /* Center-align the items */
-    gap: 15px; /* Space between items */
+    gap: 10px; /* Space between items */
 }
 
 footer .footer-links li {
@@ -397,14 +456,14 @@ footer .status-icon {
 footer a {
     /* color: #007bff; Link color */
     text-decoration: none; /* Remove underline from links */
-    margin: 0 10px; /* Space between links */
+    margin: 0; /* Space between links */
     /* font-size: 16px; Font size */
 }
 
 footer a:hover { color: white; background-color:#689f38; }
 
 /* Media query for screens below 750px - keep existing styles */
-@media (max-width: 749px) {
+@media (max-width: 719px) {
     /* Your existing styles for 750px and below */
     /* Stack footer vertically */
     footer .footer-links {
@@ -417,7 +476,7 @@ footer a:hover { color: white; background-color:#689f38; }
 }
 
 /* Media query to make footer links horizontal at 750px and above */
-@media (min-width: 750px) {
+@media (min-width: 720px) {
     footer .footer-links {
         flex-direction: row; /* Set links to be in a row (horizontal) */
         justify-content: center; /* Center the links within the footer */
@@ -492,9 +551,6 @@ main{justify-content:center;align-items:center}
     section#mealCardsSection > .container{padding: 0 10px}
     /* .container {width:95%} */
 
-    /* stack footer vertically */
-    footer .footer-links { flex-direction: column; align-items: center; }
-    footer .footer-links li { margin-bottom: 10px; }
 }
 
 

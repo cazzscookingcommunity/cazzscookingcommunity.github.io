@@ -98,11 +98,11 @@ function getSearchTags(recipeList) {
 
     // Convert sets to arrays and then to HTML string with tags
     let categoryTags = Array.from(categorySet).map(tag => 
-        `<a href="#mealCardsSection" class="tag navbar-link-category" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+        `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
     ).join(' ');
 
     let dietTags = Array.from(dietSet).map(tag => 
-        `<a href="#mealCardsSection" class="tag navbar-link-category" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+        `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
     ).join(' ');
 
     return categoryTags + ' ' + dietTags;
@@ -111,9 +111,9 @@ function getSearchTags(recipeList) {
 
 
 function displaySearchTags(tags) {
-    const navBarCategory = document.getElementById("NavBarCategory");
-    if (navBarCategory) {
-        navBarCategory.innerHTML = tags;
+    const recipeTags = document.getElementById("recipe-tags");
+    if (recipeTags) {
+        recipeTags.innerHTML = tags;
     }
 }
 
