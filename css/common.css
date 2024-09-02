@@ -345,7 +345,7 @@ ol.recipe-steps li p {
     color: white;
 }
 
-.icon {
+#hamburger {
     display: block; /* Show hamburger icon on mobile */
     cursor: pointer;
     font-size: 24px; /* Size of the icon */
@@ -371,7 +371,7 @@ ol.recipe-steps li p {
         padding: 10px 20px; /* Adjust padding for better touch targets */
     }
 
-    .icon {
+    #hamburger {
         display: none; /* Hide the hamburger icon on larger screens */
     }
 }
@@ -421,71 +421,97 @@ section#mealCardsSection .chefimg{top:-20px;right:22px}
 /* FOOTER 
 --------------------------------------------------------------- */
 /* General footer styling */
+/* General footer styling */
 footer {
     padding: 15px; /* Space around the content */
     text-align: center; /* Center-align the text and items */
     border-top: 1px solid #ddd; /* Add a border at the top */
 }
 
+/* Footer links list */
+.footer-links {
+    display: flex; /* Change layout to horizontal */
+    flex-direction: row; /* Horizontal layout */
+    justify-content: flex-start; /* Align items to the start */
+    align-items: center; /* Center items vertically */
+    gap: 10px;
+}
 
-footer .footer-links {
+footer .fffffooter-links {
     list-style: none; /* Remove default list styling */
     padding: 0; /* Remove default padding */
     margin: 0; /* Remove default margin */
-    display: flex; /* Align items horizontally */
+    display: flex; /* Align items horizontally by default */
     justify-content: center; /* Center-align the items */
     gap: 10px; /* Space between items */
 }
 
-footer .footer-links li {
-    display: flex; /* Flexbox for aligning icon and text */
-    align-items: center; /* Center align items vertically */
+.footer-item {
+    list-style: none; /* Remove default list styling */
+    margin: 0;
+    padding: 0;
+    flex-direction: column; /* Stack items vertically for mobile */
 }
 
-footer .icon {
+/* Footer link items */
+footer .fffffooter-links li {
+    display: flex; /* Flexbox for aligning icon and text */
+    align-items: center; /* Center align items vertically within each link */
+}
+
+/* Icon styling */
+.footer-item > a > img {
     width: 20px; /* Size of SVG images */
     height: 20px; /* Size of SVG images */
-    margin-right: 3px; /* Space between image and text */
+    margin-right: 5px; /* Space between image and text */
 }
 
+/* Status icon styling */
 footer .status-icon {
     width: auto; /* Reset size or set specific size */
     height: auto; /* Reset size or set specific size */
 }
 
+/* Link styling */
 footer a {
-    /* color: #007bff; Link color */
     text-decoration: none; /* Remove underline from links */
-    margin: 0; /* Space between links */
-    /* font-size: 16px; Font size */
+    color: #007bff; /* Set the link color */
+    display: flex; /* Keep text and icon on the same line */
+    align-items: center; /* Center-align icon and text within the link */
+    gap: 5px; /* Add gap between icon and text */
 }
 
-footer a:hover { color: white; background-color:#689f38; }
+/* Hover effects for links */
+footer a:hover {
+    color: white;
+    background-color: #689f38;
+}
 
-/* Media query for screens below 750px - keep existing styles */
+/* Media query for screens below 720px - stack footer vertically */
 @media (max-width: 719px) {
-    /* Your existing styles for 750px and below */
-    /* Stack footer vertically */
     footer .footer-links {
-        flex-direction: column;
+        flex-direction: column; /* Stack links vertically */
         align-items: center;
     }
+
     footer .footer-links li {
-        margin-bottom: 10px;
+        margin-bottom: 10px; /* Space between vertically stacked items */
     }
 }
 
-/* Media query to make footer links horizontal at 750px and above */
+/* Media query to make footer links horizontal at 720px and above */
 @media (min-width: 720px) {
     footer .footer-links {
         flex-direction: row; /* Set links to be in a row (horizontal) */
-        justify-content: center; /* Center the links within the footer */
+        justify-content: center; /* Center-align the links within the footer */
         align-items: center; /* Align links vertically within the row */
     }
+
     footer .footer-links li {
         margin: 0 15px; /* Add spacing between the links horizontally */
     }
 }
+
 
 
 
