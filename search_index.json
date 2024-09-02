@@ -895,9 +895,9 @@
         "title": "Rocky Road",
         "htmlFilename": "rocky_road.html",
         "thumbnail": "rocky_road.jpeg",
-        "category": "Sweets",
-        "diet": "",
-        "ingredients": "500gms milk chocolate  200gms dark chocolate  4 x 55gm bars Turkish Delight 400gms marshmallows  1 1/2 cups peanuts chopped  1 cup coconut  1 cup rice bubbles"
+        "category": "Snack Dessert",
+        "diet": "GFO",
+        "ingredients": "500gms milk chocolate  200gms dark chocolate  4 x 55gm bars Turkish Delight 400gms marshmallows  1 1/2 cups peanuts chopped  1 cup coconut  1 cup Rice Bubbles ( use GF if required)"
     },
     {
         "id": "tuna_rice_bake.xml",
