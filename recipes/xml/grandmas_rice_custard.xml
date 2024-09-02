@@ -1,28 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Grandmas Rice Custard </title>
-  <filename>grandmas_rice_custard.xml</filename>
-  <thumbnail>grandmas_rice_custard.jpeg</thumbnail>
-  <category>Sweets</category>
-  <comment>egg replacer can be substituted in this recipe</comment>
-  <ingredient>2 cups cooked rice</ingredient>
-  <ingredient>2 1/2 cups milk</ingredient>
-  <ingredient>2 eggs beaten*</ingredient>
-  <ingredient>3 TBsp sugar</ingredient>
-  <ingredient>2 TBsp corn flour </ingredient>
-  <ingredient>1 teaspoon vanilla essence </ingredient>
-  <ingredient>Sprinkle of nutmeg</ingredient>
-  <step>In a microwave proof bowl mix together corn flour with a little bit of the milk to form a paste.</step>
-  <step>Add the rest of the ingredients and whisk well.</step>
-  <step>Place in microwave on high for 7 minutes, remove from microwave and whisk again.</step>
-  <step>Place back in microwave for 6 minutes, remove again and whisk.</step>
-  <step>Keep reducing the time by 1 minute each time and whisk each time until it stars to thicken and set.</step>
-  <step>This will depend on your microwave.</step>
-  <step>When a slight skin starts to appear as n top and it becomes thick, is when it is ready.</step>
-  <step>On the last time whisk again then sprinkle with nutmeg.</step>
-  <step>Serve hot with cream, milk or ice cream.</step>
-  <step>Can be served cold.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Grandmas Rice Custard </title>
+<filename>grandmas_rice_custard.xml</filename>
+<thumbnail>grandmas_rice_custard.jpeg</thumbnail>
+<category>Dessert</category>
+<yield>6</yield>
+<prepTime>PT10M</prepTime>
+<cookTime>PT20M</cookTime>
+<comment>egg replacer can be substituted in this recipe</comment>
+<ingredient>2 cups cooked rice</ingredient>
+<ingredient>2 1/2 cups milk</ingredient>
+<ingredient>2 eggs beaten*</ingredient>
+<ingredient>3 TBsp sugar</ingredient>
+<ingredient>2 TBsp corn flour </ingredient>
+<ingredient>1 teaspoon vanilla essence </ingredient>
+<ingredient>Sprinkle of nutmeg</ingredient>
+<step>In a microwave proof bowl mix together corn flour with a little bit of the milk to form a paste.</step>
+<step>Add the rest of the ingredients and whisk well.</step>
+<step>Place in microwave on high for 6 minutes, remove from microwave and whisk again.</step>
+<step>Place back in microwave for 5 minutes, remove again and whisk.</step>
+<step>Keep reducing the time by 1 minute each time and whisk each time until it stars to thicken and set.</step>
+<step>This will depend on your microwave.</step>
+<step>When a slight skin starts to appear on top and it becomes thick, this is when it is ready.</step>
+<step>On the last time whisk again then sprinkle with nutmeg.</step>
+<step>Serve hot with cream, milk or ice cream.</step>
+<step>Can be served cold.</step>
 </recipe>
+
