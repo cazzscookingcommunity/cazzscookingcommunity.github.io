@@ -96,16 +96,22 @@ function getSearchTags(recipeList) {
         }
     });
 
-    // Convert sets to arrays and then to HTML string with tags
-    let categoryTags = Array.from(categorySet).map(tag => 
-        `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
-    ).join(' ');
+    // Convert sets to arrays, sort them, and then create HTML strings with tags
+    let categoryTags = Array.from(categorySet)
+        .sort() // Sort alphabetically
+        .map(tag => 
+            `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+        )
+        .join(' ');
 
-    let dietTags = Array.from(dietSet).map(tag => 
-        `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
-    ).join(' ');
+    let dietTags = Array.from(dietSet)
+        .sort() // Sort alphabetically
+        .map(tag => 
+            `<a href="#mealCardsSection" class="recipe-tag" onclick="searchByTag('${encodeURIComponent(tag)}')">#${tag}</a>`
+        )
+        .join(' ');
 
-    return categoryTags + ' ' + dietTags;
+    return 'DIET: ' + dietTags + '<br/>MEAL: ' + categoryTags;
 }
 
 
