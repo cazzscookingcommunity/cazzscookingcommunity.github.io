@@ -9,6 +9,8 @@ body{display:flex;flex-direction:column;flex-wrap:nowrap}
 @-moz-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
 @-o-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
 
+/* THEME and GLOBAL 
+--------------------------------------------------------------- */
 /* Theme color */
 body{background-color:whitesmoke;color:black}
 .brand, .heading{color:#689f38; text-decoration: none}
@@ -18,18 +20,50 @@ body{background-color:whitesmoke;color:black}
 /* images and icons */
 img {image-orientation: from-image;}
 
+/* hide the passcode token on all pages.  it will be display on popup only */
+#token {display: none;}
+
 /* Scroll to Top & Back buttons */
 /* section#landing .back,section#random .back,section#latest .back{top:-60px}
 section#mealCardsSection .back{top:0} */
 
+/* animate the spinner for page upload 
+--------------------------------------------------------------- */
+#loading-spinner {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+    display: none; /* Default hidden */
+}
+
+#loading-spinner img {
+    width: 100px; /* Adjust size as needed */
+    height: 100px; /* Adjust size as needed */
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+#loading-spinner p {
+    text-align: center;
+    font-size: 16px;
+    color: #333;
+}
 
 
-/* Button */
+/* Button
+--------------------------------------------------------------- */
 .button{font-weight:bold;font-size:13px;border:1px solid black}
 .button:hover{transition:all 500ms ease;color:white}
 .button,.card{box-shadow: 2px 6px 15px rgba(0,0,0,0.1)}
 
-/* Meal Cards */
+/* Meal Cards 
+--------------------------------------------------------------- */
 .card{border-radius:7px; margin:10px; position: relative;}
 .card img{width:100%; cursor:pointer;}
 .card img:hover{opacity: 0.3}
@@ -66,7 +100,7 @@ img.cardAction:hover {background-color: #689f38}
 
 
 
-
+/* --------------------------------------------------------------- */
 
 /* Chef icon */
 .chefimg{position:absolute;height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
@@ -78,7 +112,8 @@ img.cardAction:hover {background-color: #689f38}
 /* #landing .row:first-child{display: flex; align-items: center;} 
 section#landing .row .chefimg{top:26px; left:160px; position: relative;} */
 
-/* Heading */
+/* Heading 
+---------------------------------------------------------------*/
 .heading{text-transform:uppercase;
     font-size:30px;
     font-weight:bold;
@@ -94,7 +129,8 @@ h1.brand, h2.heading.brand{
     margin: 0;
 }
 
-/* Create New Recipe */
+/* Create New Recipe 
+---------------------------------------------------------------*/
 .upload.heading {
     margin:0px; 
     width:100%; 
@@ -106,7 +142,8 @@ div.uploadPrompt {margin-top: 5vh;}
 input#imageName {width: 50%;}
 
 
-/* Search prompts and Tips on home page */
+/* Search prompts and Tips on home page
+--------------------------------------------------------------- */
 /* #search-container { */
     /* display: inline-flex; */
     /* justify-content: left; Horizontally center */
@@ -186,41 +223,16 @@ input#imageName {width: 50%;}
 
 #searchRecipe { width:100% };
 
-/* hide the passcode token on all pages.  it will be display on popup only */
-#token {display: none;}
-
-/* animate the spinner for page upload */
-#loading-spinner {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    z-index: 1000;
-    display: none; /* Default hidden */
-}
-
-#loading-spinner img {
-    width: 100px; /* Adjust size as needed */
-    height: 100px; /* Adjust size as needed */
-    animation: spin 2s linear infinite;
-}
-
-@keyframes spin {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
-}
-
-#loading-spinner p {
-    text-align: center;
-    font-size: 16px;
-    color: #333;
-}
 
 
 
 
 
-/* Meal Metadata and Image section */
+
+
+
+/* RECIPE Metadata and Image section 
+--------------------------------------------------------------- */
 .mealMetadata ul {margin:0}
 .mealMetadata ul li {margin:0}
 
@@ -242,7 +254,8 @@ input#imageName {width: 50%;}
 div.cardActions > a {text-decoration-line: none;}
 
 
-/* Recipe Ingredients */
+/* Recipe Ingredients 
+--------------------------------------------------------------- */
 h2.ingredients {
     margin-right:20px;
     margin-bottom:0px;
@@ -264,7 +277,8 @@ h2.ingredients {
     margin-bottom: 0.5em; /* space between bullets */
 }
 
-/* Recipe Instructions */
+/* Recipe Instructions 
+--------------------------------------------------------------- */
 h2.instructions {
     margin-right:20px;
     margin-bottom:0px;
@@ -302,7 +316,8 @@ ol.recipe-steps li p {
     text-indent: 1.5em;
 }
 
-/* NAVIGATION */
+/* NAVIGATION 
+--------------------------------------------------------------- */
 
 /* nav bar global */
 ul.navbar-list {text-align: right;}
@@ -331,7 +346,8 @@ ul.navbar-list {text-align: right;}
 
 
 
-/* SECTIONS */
+/* SECTIONS 
+--------------------------------------------------------------- */
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
 section{margin-top:5vh; height:auto}
 section#landing{display:flex;flex-direction:row;align-items:center}
@@ -343,7 +359,8 @@ section#mealCardsSection .chefimg{top:-20px;right:22px}
 
 
 
-/* FOOTER */
+/* FOOTER 
+--------------------------------------------------------------- */
 /* General footer styling */
 footer {
     padding: 15px; /* Space around the content */
@@ -386,8 +403,35 @@ footer a {
 
 footer a:hover { color: white; background-color:#689f38; }
 
+/* Media query for screens below 750px - keep existing styles */
+@media (max-width: 749px) {
+    /* Your existing styles for 750px and below */
+    /* Stack footer vertically */
+    footer .footer-links {
+        flex-direction: column;
+        align-items: center;
+    }
+    footer .footer-links li {
+        margin-bottom: 10px;
+    }
+}
 
-/* Others */
+/* Media query to make footer links horizontal at 750px and above */
+@media (min-width: 750px) {
+    footer .footer-links {
+        flex-direction: row; /* Set links to be in a row (horizontal) */
+        justify-content: center; /* Center the links within the footer */
+        align-items: center; /* Align links vertically within the row */
+    }
+    footer .footer-links li {
+        margin: 0 15px; /* Add spacing between the links horizontally */
+    }
+}
+
+
+
+/* Others 
+--------------------------------------------------------------- */
 a{cursor:pointer}
 .brand{font-size:2rem;font-weight:bold}
 a.brand:hover,a.brand:focus{color:black}
@@ -400,7 +444,7 @@ main{justify-content:center;align-items:center}
 #navItem{position:relative;display:inline; cursor: pointer;}
 #navLink{text-transform:uppercase;font-size:2vw;font-weight:600;letter-spacing:.2rem;text-decoration:none;color:#000}
 .button:hover{background-color:#689f38}
-.goTop{ text-align:right; position:fixed; right:30px; bottom:30px; width:30px; height: 30px; }
+.goTop{ text-align:right; position:fixed; right:10px; bottom:10px; width:30px; height: 30px; }
 /* .goBack{text-align:right;position:fixed;right:20px;top:20px} */
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
@@ -452,6 +496,8 @@ main{justify-content:center;align-items:center}
     footer .footer-links { flex-direction: column; align-items: center; }
     footer .footer-links li { margin-bottom: 10px; }
 }
+
+
 
 /* Hover styles for desktop */
 @media (min-width: 769px) {
