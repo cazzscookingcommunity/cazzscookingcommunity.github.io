@@ -119,13 +119,13 @@ section#landing .row .chefimg{top:26px; left:160px; position: relative;} */
     font-family:'Roboto Slab', serif;
     transform:rotate(-5deg);-webkit-transform:rotate(-5deg);-moz-transform:rotate(-5deg);-o-transform:rotate(-5deg);
     text-align:left;
-    margin-bottom:0
+    margin-bottom:20px;
 }
 
 h1.brand, h2.heading.brand{
     transform:none;-webkit-transform:none;-moz-transform:none;-o-transform:none;
     text-transform:uppercase;
-    margin: 0;
+    margin: 10px 0;
 }
 
 /* Create New Recipe 
@@ -170,6 +170,7 @@ input#imageName {width: 50%;}
     justify-content: center;     /* Center text horizontally */
     box-sizing: border-box;       /* Include padding in the total width calculation */
     align-items: center;          /* Vertically center */
+    font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.2rem);
 }
 
 @media (max-width: 320px) {
@@ -400,7 +401,7 @@ ol.recipe-steps li p {
 #tag-container { margin-top:10px; }
 #recipe-tags { display: inline; list-style:none; margin-bottom: 0; }
 /* .navbar-link-category { text-transform:uppercase; font-size:10px; font-weight:600; letter-spacing:.2rem; margin-right:10px; text-decoration:none; } */
-.recipe-tag { text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
+.recipe-tag { color:#007bff; text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
 .recipe-tag:hover { color: white; background-color:#689f38; }
 
 
@@ -437,26 +438,11 @@ footer {
     gap: 10px;
 }
 
-footer .fffffooter-links {
-    list-style: none; /* Remove default list styling */
-    padding: 0; /* Remove default padding */
-    margin: 0; /* Remove default margin */
-    display: flex; /* Align items horizontally by default */
-    justify-content: center; /* Center-align the items */
-    gap: 10px; /* Space between items */
-}
-
 .footer-item {
     list-style: none; /* Remove default list styling */
     margin: 0;
     padding: 0;
     flex-direction: column; /* Stack items vertically for mobile */
-}
-
-/* Footer link items */
-footer .fffffooter-links li {
-    display: flex; /* Flexbox for aligning icon and text */
-    align-items: center; /* Center align items vertically within each link */
 }
 
 /* Icon styling */

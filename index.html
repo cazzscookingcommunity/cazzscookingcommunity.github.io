@@ -51,216 +51,157 @@
 </head>
 
 <body>
-  <main role="main" id="main">
+<main role="main" id="main">
 
-    <!-- scroll to top and back -->
-    <div class="goTop">
-      <a href="#main" tabindex="-1"><img src="/components/icons/top-arrow-svgrepo-com.svg" title="Scroll to top" /></a>
-    </div> 
+	<!-- scroll to top and back -->
+	<div class="goTop">
+		<a href="#main" tabindex="-1"><img src="/components/icons/top-arrow-svgrepo-com.svg" title="Scroll to top" /></a>
+	</div> 
 
-    <!-- HEADER SECTION -->
-    <header>
-      <div class="container">
-        <div class="row">
-          <div class="twelve columns">
-              <h1 class="heading brand">Family Recipe Favourites</h1>
-          </div>
-        </div> 
+	<!-- HEADER SECTION -->
+	<header>
+		<div class="container">
 
-        <nav class="navbar">
-          <div class="row">
-            <div class="twelve columns">
-              <ul class="navbar-list" id="navbar-list">
-                <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
-                <li class="navbar-item"><a href="/recipe-all.html">All Recipes</a></li>
-                <li class="navbar-item"><a href="/recipe-add.html">Create New Recipe</a></li>
-                <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
-              </ul>
-              <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-              <a href="javascript:void(0);" id="hamburger" onclick="mobileMenu()">
-                <i class="fa fa-bars"></i>
-              </a>
-            </div>
-          </div>
-        </nav>
+			<div class="row">
+				<div class="twelve columns">
+					<h1 class="heading brand">Family Recipe Favourites</h1>
+				</div>
+			</div> 
 
-      </div>
-    </header>
+			<nav class="navbar">
+				<div class="row">
+					<div class="twelve columns">
+						<ul class="navbar-list" id="navbar-list">
+							<li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
+							<li class="navbar-item"><a href="/recipe-all.html">All Recipes</a></li>
+							<li class="navbar-item"><a href="/recipe-add.html">Create New Recipe</a></li>
+							<li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+						</ul>
+						<!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+						<a href="javascript:void(0);" id="hamburger" onclick="mobileMenu()">
+							<i class="fa fa-bars"></i>
+						</a>
+					</div>
+				</div>
+			</nav>
 
-    <!-- MAIN SECTION -->
-    <section id="landing">
-      <div class="container">
-        <div class="row">
-          <!-- <div class="twelve columns"> -->
-            <div class="row d-flex">
-              <div class="four columns" style="align-self:center;">
-                <h4 class="heading">Cazz's Cooking Community</h4>
-                <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                <!-- <a href="javascript:void(0);" class="categoryIcon" onclick="mobileCategoryMenu()">
-                  <i class="fa fa-bars"></i>
-                </a> -->
-              </div>
-              <div class="eight columns">
-                <!-- <div class="row"> -->
-                  <!-- <div class="eight columns randomSearch">
-                      <p class="searchPrompt">Not sure what to cook?</p>
-                      <p class="searchPrompt"><small>Search or try a random recipe!</small></p>
-                  </div> -->
+		</div>
+	</header>
 
-                  <!-- Random recipe button -->
-                  <!-- <div class="four columns randomSearch">
-                      <img src="components/icons/chef.svg" class="u-max-full-width chefimg" />
-                      <a class="button btnRandomRecipe" href="#random" title="Show a random recipe" onclick="clear()">Random Recipe</a>
-                  </div> -->
-                <!-- </div> -->
+	<!-- MAIN SECTION -->
+	<section id="landing">
+		<div class="container">
 
-                <!-- Search -->
-                <div class="row">
-                  <!-- search input field -->
-                  <div class="eight columns">
-                    <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />          
-                  </div>
+			<div class="row d-flex">
+				<div class="four columns" >
+					<h4 class="heading">Cazz's Cooking Community</h4>
+				</div>
 
-                  <!-- search button -->
-                  <!-- <div class="four columns" style="position:relative;" id="randomMealBtnContainer">
-                    <a class="button btnSearchRecipe" href="#mealCardsSection" title="Search">Search Recipe</a>
-                  </div> -->
-                </div>
+				<div class="eight columns">
+					<input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />          
 
-                <!-- clear button -->
-                <div class="row">
-                  <!-- <div class="eight columns"> -->
-                    <!-- search tips popup -->
-                    <!-- <div class="info-container">
-                      <img src="components/icons/info-circle-svgrepo-com.svg" class="info-icon" />
-                      <div class="info-popup">
-                        SEARCH TIPS:<br>
-                        blank search shows all recipes<br/>
-                        'banana'   any recipe with banana.<br/>
-                        '+glutenfree +diaryfree'   must be both.<br/>
-                        'title:cake'   returns reccipes with cake in title.<br/>
-                        'category:sweet -patato'  sweet but no sweet patato<br/>
-                        lables diet: ingredients: category:<br/>
-                      </div>
-                    </div> -->
-                  </div>
-                  <!-- <div class="four columns" style="position:relative;"> -->
-                  <div class="eight columns"  id="search-container">
-                                        <!-- search tips hover box -->
-                                        <div class="info-container">
-                                          <img src="components/icons/info-circle-svgrepo-com.svg" class="search-button info-icon" />
-                                          <div class="info-popup">
-                                            SEARCH TIPS:<br>
-                                            blank search shows all recipes<br/>
-                                            'banana'   any recipe with banana.<br/>
-                                            '+glutenfree +diaryfree'   must be both.<br/>
-                                            'title:cake'   returns reccipes with cake in title.<br/>
-                                            'category:sweet -patato'  sweet but no sweet patato<br/>
-                                            lables diet: ingredients: category:<br/>
-                                          </div>
-                                        </div>
-                    <a class="button btnSearchRecipe search-button" href="#mealCardsSection" title="Search">Search Recipe</a>
-                    <a class="button clearButton search-button" href="#main" title="Clear">Clear Search</a>
-                    
-                  </div>
-                </div>                 
+					<div class=" u-full-width"  id="search-container">
+						<!-- search tips hover box -->
+						<div class="info-container">
+							<img src="components/icons/info-circle-svgrepo-com.svg" class="search-button info-icon" />
+							<div class="info-popup">
+								SEARCH TIPS:<br>
+								blank search shows all recipes<br/>
+								'banana'   any recipe with banana.<br/>
+								'+glutenfree +diaryfree'   must be both.<br/>
+								'title:cake'   returns reccipes with cake in title.<br/>
+								'category:sweet -patato'  sweet but no sweet patato<br/>
+								lables diet: ingredients: category:<br/>
+							</div>
+						</div>
 
-                <!-- holding container for search tags / categories -->
-                <div class="row d-flex">
-                  <div class="eight columns" id="tag-container">
-                    <!-- <ul class="navbar-list u-full-width" style="text-align:center;" id="NavBarCategory"> -->
-                      <ul id="recipe-tags"></ul>
-                    </ul>
-                  </div>
-                </div>
+						<!-- search buttons -->
+						<a class="button btnSearchRecipe search-button" href="#mealCardsSection" title="Search">Search Recipe</a>
+						<a class="button clearButton search-button" href="#main" title="Clear">Clear Search</a>	
+					</div>
 
-              </div>
-            </div>
-          <!-- </div> -->
-        </div>
-      </div>
-    </section>
+					<!-- holding container for search #tags -->
+					<div class="row d-flex">
+						<div class="ten columns" id="tag-container">
+							<ul id="recipe-tags">
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
-      <!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
-    <section id="mealCardsSection" style="display:none;">
-      <br/>
-      <div class="container" style="display:none;">
-          <div class="row">
-            <div class="four columns">
-              <h4 class="heading">The Recipes You Wanted</h4>
-              <br/>
-            </div>
-            <div class="row">
-              <div class="eight columns">
-                <div class="row">
-                  <div class="eight columns" style="text-align:center;font-size:20px">
-                    <p>You searched for: <span id="userInput"></span></p>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="row mealCards d-flex">
-            <div class="loader">
-            </div>
-          </div>
-      </div>
-    </section>
+	<!-- PLACEHOLDER FOR SEARCH RESULTS DISPLAY AS MEAL CARDS.  populated by JS -->
+	<section id="mealCardsSection" style="display:none;">
+		<div class="container" style="display:none;">
+			<div class="row">
+				<div class="four columns">
+					<h4 class="heading">The Recipes You Wanted</h4>
+				</div>
+				<div class="row">
+					<div class="eight columns" style="text-align:center;font-size:20px">
+						<p>You searched for:  <span id="userInput"></span></p>
+					</div>
+				</div>
+			</div>
 
-      <!-- ABOUT SECTION -->        
-    <section id="about-section">
-      <div class="container">
-          <div class="row">
-              <div class="twelve columns">
-                <div class="row d-flex">
-                  <div class="four columns" style="align-self:center;">
-                    <h2 class="heading">About</h2>
-                  </div>
-                  <div class="eight columns">
-                    <p>
-                      A food recipe website for all of Cazz's favourite recipes.
-                    </p>
-                    
-                    <p>
-                      Cazz loves cooking something new and experimenting in the kitchen.
-                      This website is a collection of the family favourite recipes recorded for
-                      to pass on and for the family to use.
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-      </div>
-    </section>
+			<!-- placeholder for search results -->
+			<div class="row mealCards d-flex">
+				<div class="loader">
+				</div>
+			</div>	
+		</div>
+	</section>
 
-    <!-- FOOTER SECTION -->
-    <footer>
-      <ul class="footer-links">
-          <li class="footer-item">
-              <a href="javascript:clearFavourites()" title="Clear Favourites">
-                <img src="/components/icons/heart-svgrepo-com.svg" alt="Favourites" >
-                Clear Favourites
-              </a>
-          </li>
-          <li class="footer-item">
-              <a href="https://www.facebook.com/profile.php?id=100064897085636" target="_blank" rel="noopener noreferrer">
-                  <img src="/components/icons/facebook-svgrepo-com.svg" alt="Follow Cazz on Facebook">
-                  Follow Cazz
-              </a>
-          </li>
-          <li class="footer-item">
-              <a href="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io" target="_blank" rel="noopener noreferrer">
-                  <img src="/components/icons/github-svgrepo-com.svg" alt="GitHub">
-                  View Source
-              </a>
-          </li>
-          <li class="footer-item">
-              <img alt="GitHub status" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg" class="status-icon">
-          </li>
-      </ul>
-  </footer>
+	<!-- ABOUT SECTION -->        
+	<section id="about-section">
+		<div class="container">
+			<div class="row d-flex">
+				<div class="four columns" >
+					<h2 class="heading">About</h2>
+				</div>
+				<div class="eight columns">
+					<p>A food recipe website for all of Cazz's favourite recipes.
+					</p>
+					
+					<p>Cazz loves cooking something new and experimenting in the kitchen.
+						This website is a collection of the family favourite recipes recorded for
+						to pass on and for the family to use.
+					</p>
+				</div>
+			</div>
+		</div>
+	</section>
 
-  </main>
+	<!-- FOOTER SECTION -->
+	<footer>
+		<ul class="footer-links">
+			<li class="footer-item">
+				<a href="javascript:clearFavourites()" title="Clear Favourites">
+					<img src="/components/icons/heart-svgrepo-com.svg" alt="Favourites" >
+					Clear Favourites
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="https://www.facebook.com/profile.php?id=100064897085636" target="_blank" rel="noopener noreferrer">
+					<img src="/components/icons/facebook-svgrepo-com.svg" alt="Follow Cazz on Facebook">
+					Follow Cazz
+				</a>
+			</li>
+			<li class="footer-item">
+				<a href="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io" target="_blank" rel="noopener noreferrer">
+					<img src="/components/icons/github-svgrepo-com.svg" alt="GitHub">
+					View Source
+				</a>
+			</li>
+			<li class="footer-item">
+				<img alt="GitHub status" src="https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg" class="status-icon">
+			</li>
+		</ul>
+	</footer>
+
+</main>
 </body>
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
 <script src="https://unpkg.com/lunr/lunr.js"></script>
