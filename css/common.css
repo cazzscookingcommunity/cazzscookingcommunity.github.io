@@ -346,6 +346,7 @@ ol.recipe-steps li p {
     padding: 0;
     display: none; /* Hide the list initially for mobile */
     flex-direction: column; /* Stack items vertically for mobile */
+    gap: 0;
 }
 
 .navbar-item a {
@@ -353,6 +354,7 @@ ol.recipe-steps li p {
     color: black;
     padding: 0;
     display: block;
+    border-right:1px solid whitesmoke;
 }
 
 .navbar-item a:hover {
@@ -375,7 +377,6 @@ ol.recipe-steps li p {
         flex-direction: row; /* Horizontal layout */
         justify-content: flex-start; /* Align items to the start */
         align-items: center; /* Center items vertically */
-        gap: 10px;
     }
 
     .navbar-item {
@@ -397,7 +398,10 @@ ol.recipe-steps li p {
 /* SECTIONS 
 --------------------------------------------------------------- */
 section#landing a.categoryIcon {color:#679f38; display:none; position:absolute; right:20px; top:5px;}
-section{margin-top:5vh; height:auto}
+section{    
+    margin-top: clamp(2rem, 5vh, 6rem);
+    height:auto
+}
 section#landing{display:flex;flex-direction:row;align-items:center}
 section#landing .chefimg{top:-20px;right:-3px}
 section#random .chefimg{top:5px;right:-14px}
