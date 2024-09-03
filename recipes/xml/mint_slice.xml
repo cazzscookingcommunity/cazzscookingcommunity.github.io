@@ -1,50 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Mint Slice</title>
-  <filename>mint_slice.xml</filename>
-  <thumbnail>mint_slice.jpeg</thumbnail>
-  <category>Sweets</category>
-  <comment>c/o Fresh Magazine with cazzie tweaks</comment>
-  <part>
-    <title>Base</title>
-    <ingredient>125gms pitted dates chopped </ingredient>
-    <ingredient>1/4 cup water</ingredient>
-    <ingredient>250gm Scotch finger biscuits </ingredient>
-    <ingredient>1/4 cup copha melted</ingredient>
-    <step>Grease a dish approximately 18x26cm then place baking paper in it and set aside.</step>
-    <step>Place dates and water in a small sauce pan and bring to boil then turn down low.</step>
-    <step>Continuously stir until dates are soft and water absorbed.</step>
-    <step>Take it of the heat and set aside.</step>
-    <step>Break biscuits up and place in a blend.</step>
-    <step>Whiz until fine crumbs, then do another whiz with cocoa added.</step>
-    <step>Add date mixture and copha, mix until nicely combined.</step>
-    <step>Tip into prepared dish and push down with your hands until flat.</step>
-    <step>Place in freezer while you make the filling.</step>
-  </part>
-  <part>
-    <title>Filling</title>
-    <ingredient>350gms icing sugar sifted</ingredient>
-    <ingredient>1 teasp peppermint essence</ingredient>
-    <ingredient>4 drops green food colour (optional)</ingredient>
-    <step>Pour icing sugar in a bowl and have metal spoon ready.</step>
-    <step>In a separate bowl place 3 TBsp boiling water, food colour and essence.</step>
-    <step>Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick.</step>
-    <step>Pour over base and smooth it out.</step>
-    <step>Place dish back in freezer while making the topping.</step>
-  </part>
-  <part>
-    <title>Top</title>
-    <ingredient>1/3 cup copha melted</ingredient>
-    <ingredient>2 TBsp maple syrup or honey</ingredient>
-    <ingredient>1/4 cup pure cocoa sifted</ingredient>
-    <step>In a small saucepan melt copha.</step>
-    <step>Once completely melted remove from heat and add maple syrup then cocoa.</step>
-    <step>Stir well to remove any lumps.</step>
-    <step>Pour over filling and this time place in fridge for 20 minutes.</step>
-    <step>Remove from dish and cut into small squares.</step>
-    <step>Store in fridge.</step>
-  </part>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Mint Slice</title>
+<filename>mint_slice.xml</filename>
+<thumbnail>mint_slice.jpeg</thumbnail>
+<category>Snack</category>
+<category>Dessert</category>
+<yield>16</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT1H</cookTime>
+<comment>c/o Fresh Magazine with cazzie tweaks</comment>
+<part><title>Base</title>
+<ingredient>125gms pitted dates chopped </ingredient>
+<ingredient>1/4 cup water</ingredient>
+<ingredient>250gm Scotch finger biscuits </ingredient>
+<ingredient>1/4 cup copha melted</ingredient>
+<step>Grease a dish approximately 18x26cm then place baking paper in it and set aside.</step>
+<step>Place dates and water in a small sauce pan and bring to boil then turn down low.</step>
+<step>Continuously stir until dates are soft and water absorbed.</step>
+<step>Take it of the heat and set aside.</step>
+<step>Break biscuits up and place in a blend.</step>
+<step>Whiz until fine crumbs, then do another whiz with cocoa added.</step>
+<step>Add date mixture and copha, mix until nicely combined.</step>
+<step>Tip into prepared dish and push down with your hands until flat.</step>
+<step>Place in freezer while you make the filling.</step>
+</part>
+<part><title>Filling</title>
+<ingredient>350gms icing sugar sifted</ingredient>
+<ingredient>1 teasp peppermint essence</ingredient>
+<ingredient>4 drops green food colour (optional)</ingredient>
+<step>Pour icing sugar in a bowl and have metal spoon ready.</step>
+<step>In a separate bowl place 3 TBsp boiling water, food colour and essence.</step>
+<step>Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick.</step>
+<step>Pour over base and smooth it out.</step>
+<step>Place dish back in freezer while making the topping.</step>
+</part>
+<part><title>Top</title>
+<ingredient>1/3 cup copha melted</ingredient>
+<ingredient>2 TBsp maple syrup or honey</ingredient>
+<ingredient>1/4 cup pure cocoa sifted</ingredient>
+<step>In a small saucepan melt copha.</step>
+<step>Once completely melted remove from heat and add maple syrup then cocoa.</step>
+<step>Stir well to remove any lumps.</step>
+<step>Pour over filling and this time place in fridge for 20 minutes.</step>
+<step>Remove from dish and cut into small squares.</step>
+<step>Store in fridge.</step>
+</part>
 </recipe>
+
