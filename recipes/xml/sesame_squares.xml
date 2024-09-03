@@ -1,27 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Sesame Squares </title>
-  <filename>sesame_squares.xml</filename>
-  <thumbnail>seasame_squares.jpeg</thumbnail>
-  <category>Sweets</category>
-  <comment>c/o irenamacri with cazzie tweaks</comment>
-  <ingredient>1/2 cup white sesame seeds</ingredient>
-  <ingredient>1/4 cup black sesame seeds or pepitas or chia or linseed seeds or a mixture </ingredient>
-  <ingredient>1/4 cup desiccated coconut </ingredient>
-  <ingredient>2 TBSP rice syrup </ingredient>
-  <ingredient>1 TBSP honey or maple syrup </ingredient>
-  <ingredient>1/2 TBSP melted coconut oil</ingredient>
-  <ingredient>1 teaspoon vanilla essence </ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>Line a baking tray with a baking sheet or baking paper.</step>
-  <step>In a bowl mix all ingredients together.</step>
-  <step>Pour ingredients on to the  baking tray.</step>
-  <step>Place another baking sheet  or paper on top of seed mixture and push down with your hand.</step>
-  <step>Then roll on top of baking paper until mixture is about 2-3 mm thick.</step>
-  <step>Gently remove top baking sheet or paper and place in oven for about 10-15 minutes or until golden brown.</step>
-  <step>Once out of oven score mixture to make squares (use a pizza wheel or knife) and leave to cool completely.</step>
-  <step>Once cool break into squares and store in airtight container.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Sesame Squares </title>
+<filename>sesame_squares.xml</filename>
+<thumbnail>seasame_squares.jpeg</thumbnail>
+<category>Snack</category>
+<yield>8</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT15M</cookTime>
+<comment>c/o irenamacri with cazzie tweaks</comment>
+<ingredient>1/2 cup white sesame seeds</ingredient>
+<ingredient>1/4 cup black sesame seeds or pepitas or chia or linseed seeds or a mixture </ingredient>
+<ingredient>1/4 cup desiccated coconut </ingredient>
+<ingredient>2 TBSP rice syrup </ingredient>
+<ingredient>1 TBSP honey or maple syrup </ingredient>
+<ingredient>1/2 TBSP melted coconut oil</ingredient>
+<ingredient>1 teaspoon vanilla essence </ingredient>
+<step>Preheat oven to 180C.</step>
+<step>Line a baking tray with a baking sheet or baking paper.</step>
+<step>In a bowl mix all ingredients together.</step>
+<step>Pour ingredients on to the  baking tray.</step>
+<step>Place another baking sheet  or paper on top of seed mixture and push down with your hand.</step>
+<step>Then roll on top of baking paper until mixture is about 2-3 mm thick.</step>
+<step>Gently remove top baking sheet or paper and place in oven for about 10-15 minutes or until golden brown.</step>
+<step>Once out of oven score mixture to make squares (use a pizza wheel or knife) and leave to cool completely.</step>
+<step>Once cool break into squares and store in airtight container.</step>
 </recipe>
+
