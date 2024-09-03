@@ -98,13 +98,14 @@
 				</div>
 
 				<div class="eight columns">
-					<input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" />          
-
-					<div class=" u-full-width"  id="search-container">
+					<!-- <input class="u-full-width" type="text" placeholder="Search recipes" id="searchRecipe" /> -->
+					<div class="u-full-width d-flex">
+						<input type="text" placeholder="Search recipes" id="searchRecipe" />
+					
 						<!-- search tips hover box -->
 						<div class="info-container">
 							<img src="components/icons/info-circle-svgrepo-com.svg" class="search-button info-icon" />
-							<div class="info-popup">
+							<div class="info-popup" syle="display:none">
 								SEARCH TIPS:<br>
 								blank search shows all recipes<br/>
 								'banana'   any recipe with banana.<br/>
@@ -114,7 +115,9 @@
 								lables diet: ingredients: category:<br/>
 							</div>
 						</div>
+					</div>
 
+					<div class="u-full-width d-flex"  id="search-container">
 						<!-- search buttons -->
 						<a class="button btnSearchRecipe search-button" href="#mealCardsSection" title="Search">Search Recipe</a>
 						<a class="button clearButton search-button" href="#main" title="Clear">Clear Search</a>	

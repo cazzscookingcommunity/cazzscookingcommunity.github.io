@@ -3,11 +3,19 @@ html,body{height:100%;scroll-behavior:smooth}
 body{display:flex;flex-direction:column;flex-wrap:nowrap}
 
 /* CSS Loader #11 by Nitin - https://codepen.io/Nitin-Chandran-Nair/full/jmQgWW */
-.loader {margin:0 auto;height: 20px;width: 20px;animation: shine 970ms ease infinite;transform: rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg)}
+/* .loader {margin:0 auto;height: 20px;width: 20px;animation: shine 970ms ease infinite;transform: rotate(45deg);-webkit-transform:rotate(45deg);-moz-transform:rotate(45deg);-o-transform:rotate(45deg)}
 @keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
 @-webkit-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
 @-moz-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
-@-o-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} }
+@-o-keyframes shine { 50% {outline-width: 7px} 100% {outline-color: white;outline-width: 7px} } */
+
+/* Flex */
+.d-flex { display:flex; flex-direction:row; flex-wrap:wrap; justify-content:left; align-items:middle; gap:5px; }
+
+@media (min-width: 769px) {
+    .d-flex { gap:10px; }
+}
+
 
 /* THEME and GLOBAL 
 --------------------------------------------------------------- */
@@ -104,12 +112,6 @@ img.cardAction:hover {background-color: #689f38}
 /* Chef icon */
 .chefimg{position:absolute;height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 
-/* Flex */
-.d-flex{display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;align-items:middle}
-
-/* Random Recipe button alignment */
-/* #landing .row:first-child{display: flex; align-items: center;} 
-section#landing .row .chefimg{top:26px; left:160px; position: relative;} */
 
 /* Heading 
 ---------------------------------------------------------------*/
@@ -128,6 +130,11 @@ h1.brand, h2.heading.brand{
     margin: 10px 0;
 }
 
+@media (max-width: 768px) {
+    /* scale branding and remove rotation */
+    .heading{ margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg); }
+}
+
 /* Create New Recipe 
 ---------------------------------------------------------------*/
 .upload.heading {
@@ -141,24 +148,11 @@ div.uploadPrompt {margin-top: 5vh;}
 input#imageName {width: 50%;}
 
 
-/* Search prompts and Tips on home page
+/* SEARCH
 --------------------------------------------------------------- */
-/* #search-container { */
-    /* display: inline-flex; */
-    /* justify-content: left; Horizontally center */
-    /* align-items: center; Vertically center */
-/* } */
 
-/* .search-button { margin-right: 5px; } */
+#searchRecipe { width:80% };     /* search input field */
 
-#search-container {
-    display: flex;                /* Use flexbox to manage layout */
-    /* flex-wrap: wrap;              Allow content to wrap to new lines */
-    align-items: center;          /* Align items vertically within the container */
-    gap: 10px;                    /* Space between flex items */
-    max-width: 100%;              /* Prevent container from extending beyond the viewport */
-    overflow: hidden;             /* Hide overflow if it still occurs */
-}
 
 /* Button styles to scale */
 #search-container .button {
@@ -173,15 +167,22 @@ input#imageName {width: 50%;}
     font-size: clamp(1rem, 0.9091rem + 0.4545vw, 1.2rem);
 }
 
-@media (max-width: 320px) {
-    #search-container { gap:5px; }
-    #search-container .button { padding: 10px 5px; }
-}
+/* search tags */
+#tag-container { margin-top:10px; }
+#recipe-tags { display: inline; list-style:none; margin-bottom: 0; }
+.recipe-tag { color:#007bff; text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
+.recipe-tag:hover { color: white; background-color:#689f38; }
 
+
+
+
+
+/* SEARCH INFO POPUP
+--------------------------------------------------------------- */
 
 .info-container {
-    position: relative;
-    display: inline-block;
+    /* position: relative; */
+    display: flex;
     cursor: pointer;
 }
 
@@ -190,7 +191,6 @@ input#imageName {width: 50%;}
     height: 30px; /* Size of SVG images */
     align-items: center;
 }
-
 
 /* Ensure popup is positioned correctly */
 .info-popup {
@@ -208,26 +208,43 @@ input#imageName {width: 50%;}
     transform: translateX(-50%); /* Center horizontally */
 }
 
-
 /* Arrow pointing upwards */
 .info-popup::after {
     content: "";
     position: absolute;
     bottom: -10px; /* Position the arrow below the popup */
     left: 10%;
-    /* transform: translateX(-50%); */
     border-width: 10px;
     border-style: solid;
     border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
 }
 
-#searchRecipe { width:100% };
 
+/* Hover styles for desktop */
+@media (min-width: 769px) {
+    .info-container:hover .info-popup {
+        display: block;
+        bottom: 125%; /* Position it above the icon */
+        left: 10%; 
+    }
+}
 
+/* Touch-specific styles for mobile */
+@media (max-width: 768px), (hover: none) and (pointer: coarse) {
+    .info-container.active .info-popup {
+        display: block;
+        position: fixed; /* Use fixed positioning for mobile */
+        top: auto; /* Remove top alignment */
+        bottom: 20%; /* Adjust to position above the finger */
+        left: 50%; /* Center horizontally */
+        transform: translate(-50%, -60px); /* Offset to center and above */
+        width: 80%; /* Adjust width for mobile view */
+    }
 
-
-
-
+    .info-popup::after {
+        display: none; /* Hide the arrow on mobile */
+    }
+}
 
 
 
@@ -254,7 +271,7 @@ input#imageName {width: 50%;}
 div.cardActions > a {text-decoration-line: none;}
 
 
-/* Recipe Ingredients 
+/* RECIPE INGREDIENTS 
 --------------------------------------------------------------- */
 h2.ingredients {
     margin-right:20px;
@@ -277,7 +294,7 @@ h2.ingredients {
     margin-bottom: 0.5em; /* space between bullets */
 }
 
-/* Recipe Instructions 
+/* RECIPE INSTRUCTIONS  
 --------------------------------------------------------------- */
 h2.instructions {
     margin-right:20px;
@@ -353,7 +370,7 @@ ol.recipe-steps li p {
     color: #689f38;
 }
 
-/* Media query to show the navbar horizontally at 720px and above */
+/* Show the navbar horizontally at 720px and above */
 @media (min-width: 720px) {
     .navbar { background-color: #c2d8af;}
     .navbar-list {
@@ -378,32 +395,6 @@ ol.recipe-steps li p {
 }
 
 
-/* nav bar global */
-/* ul.navbar-list {text-align: right;}
-.navbar { padding:10px 0; position:relative }
-.navbar .columns{height:33px}
-.navbar .nine.columns{padding-top:4px} */
-
-
-/* page navigation menu */
-/* #NavBarCategory {display: inline;}
-#navbar-list{ display:inline; bottom:0; right:0; }
-.navbar-list {list-style:none;margin-bottom: 0}
-.navbar-item {position:relative;display:inline; padding-right: 10px;}
-.navbar-item a { text-decoration: none; }
-.navbar-item a:hover { color: white; background-color:#689f38; }
-.navbar-link {text-transform: uppercase;font-size: 11px;font-weight: 600;letter-spacing: .2rem;margin-right: 35px;text-decoration: none;color:black} */
-
-/* hamburger icon */
-/* .navbar a.icon { color:#679f38; display:none; position:absolute; right:20px; top:5px; } */
-
-/* search tags */
-#tag-container { margin-top:10px; }
-#recipe-tags { display: inline; list-style:none; margin-bottom: 0; }
-/* .navbar-link-category { text-transform:uppercase; font-size:10px; font-weight:600; letter-spacing:.2rem; margin-right:10px; text-decoration:none; } */
-.recipe-tag { color:#007bff; text-transform:uppercase; font-size: clamp(1.2rem, 1.3937rem + -0.9687vw, 0.8125rem); letter-spacing:.2rem; margin-right:10px; text-decoration:none; }
-.recipe-tag:hover { color: white; background-color:#689f38; }
-
 
 
 /* SECTIONS 
@@ -421,7 +412,6 @@ section#mealCardsSection .chefimg{top:-20px;right:22px}
 
 /* FOOTER 
 --------------------------------------------------------------- */
-/* General footer styling */
 /* General footer styling */
 footer {
     padding: 15px; /* Space around the content */
@@ -473,7 +463,7 @@ footer a:hover {
     background-color: #689f38;
 }
 
-/* Media query for screens below 720px - stack footer vertically */
+/* stack footer vertically for screens below 720px -  */
 @media (max-width: 719px) {
     footer .footer-links {
         flex-direction: column; /* Stack links vertically */
@@ -485,7 +475,7 @@ footer a:hover {
     }
 }
 
-/* Media query to make footer links horizontal at 720px and above */
+/* show footer links horizontally at 720px and above */
 @media (min-width: 720px) {
     footer .footer-links {
         flex-direction: row; /* Set links to be in a row (horizontal) */
@@ -501,7 +491,7 @@ footer a:hover {
 
 
 
-/* Others 
+/* Others (to be sorted and relocated
 --------------------------------------------------------------- */
 a{cursor:pointer}
 .brand{font-size:2rem;font-weight:bold}
@@ -516,7 +506,7 @@ main{justify-content:center;align-items:center}
 #navLink{text-transform:uppercase;font-size:2vw;font-weight:600;letter-spacing:.2rem;text-decoration:none;color:#000}
 .button:hover{background-color:#689f38}
 .goTop{ text-align:right; position:fixed; right:10px; bottom:10px; width:30px; height: 30px; }
-/* .goBack{text-align:right;position:fixed;right:20px;top:20px} */
+
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
 .brand{font-size:5vw;font-weight:700}
@@ -534,21 +524,11 @@ main{justify-content:center;align-items:center}
     .navbar-link{font-size:1.5vw}
 }
 
-/* below the CSS grid start size */
-@media (max-width: 750px) {
-/* @media (min-width: 769px) { */
-
-    .info-container:hover .info-popup {
-        display: block;
-        bottom: 125%; /* Position it above the icon */
-        left: 10%;
-    }
+/* below 769 ipad pro 9.7 portrait mode */
+@media (max-width: 768px) {
 
     /* scal branding and remove rotation */
-    .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);}
-    .eight.columns.randomSearch {display:none;}
-
-    .four.columns.randomSearch > a { display: block; }
+    /* .heading{margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg);} */
     #NavBarCategory > a {text-decoration-line: none;}
 
     /* address some container layout */
@@ -556,46 +536,14 @@ main{justify-content:center;align-items:center}
     section#landing > .container{margin-top:0}
 
     /* puts two columns of meal cards in search */
-    div.cards.four.columns {width:50%}
+    div.cards.four.columns {width:49%}
     .card-body {padding:0;}
 
-    sction#mealCardSection {margin-right: 10px}
     section#mealCardsSection > .container{padding: 0 10px}
-    /* .container {width:95%} */
-
+    
 }
 
 
-
-/* Hover styles for desktop */
-@media (min-width: 769px) {
-    .info-container:hover .info-popup {
-        display: block;
-        bottom: 125%; /* Position it above the icon */
-        left: 10%; 
-        /* transform: translate(-50%, -10px); Adjust the position above the icon */
-    }
-
-    /* .brand{font-size:3vw;} */
-    /* .navbar-link{font-size:1.5vw} */
-}
-
-/* Touch-specific styles for mobile */
-@media (max-width: 768px), (hover: none) and (pointer: coarse) {
-    .info-container.active .info-popup {
-        display: block;
-        position: fixed; /* Use fixed positioning for mobile */
-        top: auto; /* Remove top alignment */
-        bottom: 20%; /* Adjust to position above the finger */
-        left: 50%; /* Center horizontally */
-        transform: translate(-50%, -60px); /* Offset to center and above */
-        width: 80%; /* Adjust width for mobile view */
-    }
-
-    .info-popup::after {
-        display: none; /* Hide the arrow on mobile */
-    }
-}
 
 
     
