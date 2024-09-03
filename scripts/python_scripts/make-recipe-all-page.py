@@ -20,6 +20,7 @@ def create_meal_cards(allRecipes):
     for recipe in allRecipes:
         img = recipe.get('thumbnail', "")
         file = recipe.get('htmlFilename', "")
+        id = recipe.get('id', "")
         
         category_tags = ''
         if recipe.get('category'):
@@ -41,6 +42,7 @@ def create_meal_cards(allRecipes):
             f'        <a href="{recipeDir}{file}">'
             f'            <img src="{imageDir}{img}" alt="{recipe.get("title", "")} thumbnail" class="u-max-full-width mealCardRecipeBtn" />'
             f'        </a>'
+            f'        <button class="favourite" id="{id}" onclick="toggleFavourite(\'{id}\')">🤍</button>'
             f'        <div class="card-body recipe-action" display="none">'
             f'            <div class="cardTitle">{recipe.get("title", "")}</div>'
             f'            <div class="cardTags">{category_tags} {diet_tags}</div>'

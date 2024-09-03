@@ -44,18 +44,3 @@ function createMealCards(shortlist) {
     $('#mealCardsSection .container').show();
     $('.mealCards').html(mealCards);
 }
-
-
-
-// get a random recipe
-// function fetchMeal(allRecipes, type) {
-//     if (type === 'r') {
-//         const randomNo = Math.floor(Math.random() * allRecipes.length);
-//         const recipeFilename = allRecipes[randomNo].htmlFilename;
-//         // const url = path + recipeFilename;
-//         // Redirect to the recipe page
-//         location.assign(`/recipes/html/${recipeFilename}`);
-//     } else {
-//         console.error("Invalid type requested");
-//     }
-// }
