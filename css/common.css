@@ -31,9 +31,6 @@ img {image-orientation: from-image;}
 /* hide the passcode token on all pages.  it will be display on popup only */
 #token {display: none;}
 
-/* Scroll to Top & Back buttons */
-/* section#landing .back,section#random .back,section#latest .back{top:-60px}
-section#mealCardsSection .back{top:0} */
 
 /* animate the spinner for page upload 
 --------------------------------------------------------------- */
@@ -519,10 +516,10 @@ main{justify-content:center;align-items:center}
 /* MEDIA QUERIES */
 
 /* phablet and above */
-/* @media (min-width:440px){
+@media (min-width:440px){
     .brand{font-size:3vw;}
     .navbar-link{font-size:1.5vw}
-} */
+}
 
 /* below 769 ipad pro 9.7 portrait mode */
 @media (max-width: 768px) {
