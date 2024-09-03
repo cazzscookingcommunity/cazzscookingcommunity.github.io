@@ -519,10 +519,10 @@ main{justify-content:center;align-items:center}
 /* MEDIA QUERIES */
 
 /* phablet and above */
-@media (min-width:440px){
+/* @media (min-width:440px){
     .brand{font-size:3vw;}
     .navbar-link{font-size:1.5vw}
-}
+} */
 
 /* below 769 ipad pro 9.7 portrait mode */
 @media (max-width: 768px) {
