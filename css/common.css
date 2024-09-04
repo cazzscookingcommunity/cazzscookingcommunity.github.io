@@ -506,7 +506,7 @@ main{justify-content:center;align-items:center}
 #navItem{position:relative;display:inline; cursor: pointer;}
 #navLink{text-transform:uppercase;font-size:2vw;font-weight:600;letter-spacing:.2rem;text-decoration:none;color:#000}
 .button:hover{background-color:#689f38}
-.goTop{ text-align:right; position:fixed; right:10px; bottom:10px; width:30px; height: 30px; }
+.goTop { text-align:right; position:fixed; right:0; bottom:10px; width:30px; height: 30px; z-index:10; background-color: whitesmoke; border-radius: 50%; }
 
 .button:hover{transition:all .5s ease;color:#fff}
 .chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
@@ -542,6 +542,11 @@ main{justify-content:center;align-items:center}
 
     section#mealCardsSection > .container{padding: 0 10px}
     
+}
+
+@media (min-width: 769px) {
+        /* position got to top arrow out from edge */
+        .goTop { right:30px; bottom:30px }
 }
 
 
