@@ -4,16 +4,15 @@
 // Search
 function searchRecipes(searchTerm) {
     const results = idx.search(searchTerm);
-    searchTerm = searchTerm === "" ? "*" : searchTerm;
+    searchTerm = searchTerm === "" ? "all" : searchTerm;
     saveSearchState(searchTerm, results); 
     console.debug("search term: ", searchTerm);
-    console.debug("search results: ", results);
     
     // Fetch the results from the index
     const searchResult = results.map(result => {
         return recipeList.find(doc => doc.id === result.ref);
     });
-  
+    console.debug("search results: ", searchResult);
     displaySearchResults(searchResult, searchTerm);
 }
 
@@ -58,17 +57,22 @@ function displaySearchResults(searchResult, searchTerm) {
     $('#searchRecipe').val(searchTerm);
     $('#userInput').text(searchTerm);
 
-    if ( ! ( searchResult == undefined ) ) {
+    if ( searchResult.length === 0 ) {
+        console.debug("search result is []");
+        $('section#mealCardsSection').show();
+        // $('section#random').hide();
+        $('#mealCardsSection .container').show();
+        $('#search-header').hide();
+        $('.mealCards').html("<div id='errorMessageContainer' style='display:flex;'> <p id='errorMessageText'>No recipes match the search term '" + searchTerm + "'</p> <a id='errorMessageBtn' class='button' href='#landing' title='Search again' >Search again</a> </div>");
+        window.scrollTo(0,$('#mealCardsSection').offset().top-100);
+    } else {
+        const mealCards = createMealCards(searchResult);
+        console.debug("search results: ", mealCards);
+        // $('section#random').hide();
         $('section#mealCardsSection').show();
         $('#mealCardsSection .container').show();
-        window.scrollTo(0,$('#mealCardsSection').offset().top);
-        createMealCards(searchResult);
-    } else {
-        $('section#mealCardsSection').show();
-        $('section#random').hide();
-        $('#mealCardsSection .container').hide();
-        $("#mealCardsSection").prepend("<div id='errorMessageContainer' style='display:flex;'> <p id='errorMessageText'>No recipes match the search term '" + searchTerm + "'</p> <a id='errorMessageBtn' class='button' href='#landing' title='Search again' >Search again</a> </div>");
-        window.scrollTo(0,$('#mealCardsSection').offset().top-100);
+        $('#search-header').show();
+        $('.mealCards').html(mealCards);        
     }
 }
 

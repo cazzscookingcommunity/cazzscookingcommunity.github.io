@@ -37,10 +37,10 @@ function clearSearch() {
     }
 
     // Hide random section if it exists
-    const randomSection = document.querySelector('section#random');
-    if (randomSection) {
-        randomSection.style.display = 'none';
-    }
+    // const randomSection = document.querySelector('section#random');
+    // if (randomSection) {
+    //     randomSection.style.display = 'none';
+    // }
 }
 
 // hamburger menu for category list

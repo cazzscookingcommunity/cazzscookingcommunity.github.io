@@ -47,16 +47,6 @@ function clearFavourites() {
     }
 }
 
-// displays the search results
-function displayFavourites(favourites) {
-    $("#errorMessageContainer").remove();
-    $('#userInput').text("My Favourites");
-    $('section#mealCardsSection').show();
-    $('#mealCardsSection .container').show();
-    window.scrollTo(0,$('#main').offset().top);
-    createMealCards(favourites);
-}
-
 function loadFavourites() {
     // only display favourites if no search
     const savedSearchTerm = sessionStorage.getItem('searchTerm');
@@ -66,9 +56,10 @@ function loadFavourites() {
 
         if (favourites.length > 0) {
             const favouriteRecipes = recipeList.filter(recipe => favourites.includes(recipe.id));
-            displayFavourites(favouriteRecipes);
+            displaySearchResults(favouriteRecipes, "My Favourites");
+            console.debug("scrolling to #main");
+            window.scrollTo(0, $('#main').offset().top); // Scroll to #main after #mealCardsSection
         }
-
     }
 }
     

@@ -39,8 +39,5 @@ function createMealCards(shortlist) {
         </div>`;
     });
 
-    $('section#random').hide();
-    $('section#mealCardsSection').show();
-    $('#mealCardsSection .container').show();
-    $('.mealCards').html(mealCards);
+    return mealCards;
 }
