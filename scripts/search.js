@@ -54,8 +54,8 @@ function updateHistoryState(searchTerm, results) {
 // displays the search results
 function displaySearchResults(searchResult, searchTerm) {
     $("#errorMessageContainer").remove();
-    $('#searchRecipe').val(searchTerm);
     $('#userInput').text(searchTerm);
+
 
     if ( searchResult.length === 0 ) {
         console.debug("search result is []");
@@ -72,7 +72,14 @@ function displaySearchResults(searchResult, searchTerm) {
         $('section#mealCardsSection').show();
         $('#mealCardsSection .container').show();
         $('#search-header').show();
-        $('.mealCards').html(mealCards);        
+        $('.mealCards').html(mealCards);
+        if ( searchTerm == "My Favourites" ) {
+            $('#searchRecipe').val("");
+            window.scrollTo(0, $('#main').offset().top); //
+        } else {
+            $('#searchRecipe').val(searchTerm);
+            window.scrollTo(0, $('#mealCardsSection').offset().top); // Scroll #mealCardsSection
+        }    
     }
 }
 

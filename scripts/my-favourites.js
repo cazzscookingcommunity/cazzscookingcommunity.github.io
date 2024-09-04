@@ -57,8 +57,6 @@ function loadFavourites() {
         if (favourites.length > 0) {
             const favouriteRecipes = recipeList.filter(recipe => favourites.includes(recipe.id));
             displaySearchResults(favouriteRecipes, "My Favourites");
-            console.debug("scrolling to #main");
-            window.scrollTo(0, $('#main').offset().top); // Scroll to #main after #mealCardsSection
         }
     }
 }
