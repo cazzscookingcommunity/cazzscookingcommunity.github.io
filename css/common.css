@@ -89,14 +89,6 @@ img.cardAction {width:15%; cursor:pointer; margin-left: 5px; margin-right: 10px;
 img.cardAction:hover {background-color: #689f38}
 
 
-
-/* --------------------------------------------------------------- */
-
-/* Chef icon */
-/* .chefimg{position:absolute;height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)}
-.chefimg{height:39px;width:39px;transform:rotate(32deg);-webkit-transform:rotate(32deg);-moz-transform:rotate(32deg);-o-transform:rotate(32deg)} */
-
-
 /* Heading 
 ---------------------------------------------------------------*/
 .heading{text-transform:uppercase;
@@ -176,58 +168,40 @@ input#imageName {width: 50%;}
 }
 
 /* info popup positioning */
-.info-popup {
-    display: none; /* Hidden by default */
-    position: absolute;
+.info-container .info-popup {
+    display: none;
+    position: fixed;
+    padding: 10px;
+    bottom: 20%;
+    left: 50%;
+    transform: translate(-50%, -60px);
+    z-index: 1000;
     background-color: #555;
     color: #fff;
-    padding: 10px;
-    border-radius: 5px;
+    width: 80%;
     max-width: 400px;
-    height: 200px;
     text-align: left;
-    z-index: 1000; /* Ensure it's above other elements */
-    white-space: nowrap; /* Prevent line breaks for smaller content */
-    transform: translateX(-50%); /* Center horizontally */
+    /* white-space: nowrap; */
+    transition: opacity 0.3s ease; /* Smooth transition for showing/hiding */
 }
 
-/* arrow pointing upwards */
-.info-popup::after {
-    content: "";
-    position: absolute;
-    bottom: -10px; /* Position the arrow below the popup */
-    left: 10%;
-    border-width: 10px;
-    border-style: solid;
-    border-color: #555 transparent transparent transparent; /* Arrow pointing upwards */
+.info-popup p {
+    margin-bottom: 5px;
+    line-height: 1.2;
 }
 
+.info-container.active .info-popup {
+    display: block;
+    opacity: 1; /* Show the popup */
+}
 
-/* hover styles for desktop */
-@media (min-width: 769px) {
+@media (hover: hover) and (pointer: fine) {
     .info-container:hover .info-popup {
         display: block;
-        bottom: 125%; /* Position it above the icon */
-        left: 10%; 
+        /* Additional hover-specific positioning if needed */
     }
 }
 
-/* touch-specific styles for mobile */
-@media (max-width: 768px), (hover: none) and (pointer: coarse) {
-    .info-container.active .info-popup {
-        display: block;
-        position: fixed; /* Use fixed positioning for mobile */
-        top: auto; /* Remove top alignment */
-        bottom: 20%; /* Adjust to position above the finger */
-        left: 50%; /* Center horizontally */
-        transform: translate(-50%, -60px); /* Offset to center and above */
-        width: 80%; /* Adjust width for mobile view */
-    }
-
-    .info-popup::after {
-        display: none; /* Hide the arrow on mobile */
-    }
-}
 
 
 
@@ -389,10 +363,8 @@ section{
     height:auto
 }
 section#landing{display:flex;flex-direction:row;align-items:center}
-/* section#landing .chefimg{top:-20px;right:-3px} */
-/* section#random .chefimg{top:5px;right:-14px} */
 section#mealCardsSection {padding: 0 0 5vh 0}
-/* section#mealCardsSection .chefimg{top:-20px;right:22px} */
+
 
 
 

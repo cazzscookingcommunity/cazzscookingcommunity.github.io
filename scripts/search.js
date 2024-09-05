@@ -93,13 +93,9 @@ document.querySelectorAll('.info-container').forEach(function(container) {
     let pressTimer;
 
     if (window.matchMedia('(hover: hover) and (pointer: fine)').matches) {
-        // Desktop: Hover logic
+        // Desktop: Hover logic (mostly handled by CSS now)
         container.addEventListener('mouseover', function() {
-            const popup = container.querySelector('.info-popup');
-            popup.style.display = 'block';
-            const rect = container.getBoundingClientRect();
-            popup.style.left = `${rect.left + (rect.width / 2) - (popup.offsetWidth / 2)}px`;
-            popup.style.top = `${rect.top - popup.offsetHeight - 10}px`; // Position above the icon
+            container.querySelector('.info-popup').style.display = 'block'; // Simplified, let CSS handle most of the positioning
         });
 
         container.addEventListener('mouseout', function() {
@@ -108,18 +104,9 @@ document.querySelectorAll('.info-container').forEach(function(container) {
     } else {
         // Mobile: Touch logic
         container.addEventListener('touchstart', function(e) {
-            clearTimeout(pressTimer); // Clear any existing timer
+            clearTimeout(pressTimer);
             pressTimer = setTimeout(function() {
                 container.classList.add('active');
-                const touch = e.touches[0];
-                const popup = container.querySelector('.info-popup');
-
-                popup.style.display = 'block';
-                popup.style.position = 'fixed'; // Use fixed positioning for mobile
-                popup.style.left = '50%'; // Center horizontally
-                popup.style.top = `${Math.max(touch.clientY - popup.offsetHeight - 20, 0)}px`; // Ensure it stays within the viewport
-                popup.style.transform = 'translate(-50%, 0)'; // Center horizontally
-                popup.style.zIndex = '1000'; // Ensure it's above other elements
             }, 500);
             e.preventDefault();
         });
@@ -127,19 +114,11 @@ document.querySelectorAll('.info-container').forEach(function(container) {
         container.addEventListener('touchend', function() {
             clearTimeout(pressTimer);
             container.classList.remove('active');
-            const popup = container.querySelector('.info-popup');
-            popup.style.display = 'none'; // Hide the popup when touch ends
-            popup.style.left = ''; // Reset position
-            popup.style.top = ''; // Reset position
         });
 
         container.addEventListener('touchcancel', function() {
             clearTimeout(pressTimer);
             container.classList.remove('active');
-            const popup = container.querySelector('.info-popup');
-            popup.style.display = 'none'; // Hide the popup if touch is canceled
-            popup.style.left = ''; // Reset position
-            popup.style.top = ''; // Reset position
         });
     }
 });
