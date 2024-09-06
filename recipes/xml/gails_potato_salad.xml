@@ -13,6 +13,11 @@
 <diet>GlutenFree</diet>
 <diet>Vegetarian</diet>
 <diet>EggFree</diet>
+<diet>HistamineFree</diet>
+<diet>Keto</diet>
+<diet>Paleo</diet>
+<diet>LowSugar</diet>
+<diet>LowCarb</diet>
 <yield>6</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT30M</cookTime>
@@ -20,7 +25,7 @@
 <ingredient>1/2 cup mayo</ingredient>
 <ingredient>2 teaspoons vinegar</ingredient>
 <ingredient>3 spring onions chopped </ingredient>
-<ingredient>2-3 TBsp parsley and dill chopped (optional)</ingredient>
+<ingredient>2-3 TBsp parsley and dill chopped</ingredient>
 <ingredient>Salt and pepper to taste</ingredient>
 <step>Cut spuds in half and boil until tender but not mushy, approximately 15 to 20 minutes</step>
 <step>Drain let sit in drainer for about 10 minutes to allow them to dry out.</step>
