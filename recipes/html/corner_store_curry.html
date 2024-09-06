@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Coat the chicken on all sides, with 1 TBsp curry paste and place back in fridge until ready to cook."}, {"@type": "HowToStep", "text": "Heat olive oil in a pot and add garlic, ginger and remaining curry paste."}, {"@type": "HowToStep", "text": "Cook for 3-5 minutes then add chopped tomatoes, coconut milk and chickpeas."}, {"@type": "HowToStep", "text": "Add the veggies and mango chutney, stir well to combine."}, {"@type": "HowToStep", "text": "Bring to a boil and reduce to a simmer and cook for 30 minutes."}, {"@type": "HowToStep", "text": "Cook rice or grains at this time if serving with your curry."}, {"@type": "HowToStep", "text": "15 minutes before done cook the chicken in a little oil in a fry pan for 5 minutes each side."}, {"@type": "HowToStep", "text": "Remove form pan and rest for 5 minutes."}, {"@type": "HowToStep", "text": "Serve the curry on rice or grains, chilli sprinkle on top if you want it vegetarian."}, {"@type": "HowToStep", "text": "Serve on a plate with meat, grains and lettuce and lemon wedge and chilli sprinkled on top if desired."}, {"@type": "HowToStep", "text": "Easy and delish! This is one of those recipes that you can substitute, if you don\u2019t have fresh ginger used dried or add left over veggies that you don\u2019t know what to do with!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Serves:</strong><span id="servings"></span></p>
                         <p><strong>Category:</strong><span></span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

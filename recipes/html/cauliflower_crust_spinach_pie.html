@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 200C."}, {"@type": "HowToStep", "text": "Grease a high sided pie dish and set aside."}, {"@type": "HowToStep", "text": "Cook the cauliflower in the microwave for 8-10 mins or until soft."}, {"@type": "HowToStep", "text": "In batches blend until all is as small as rice."}, {"@type": "HowToStep", "text": "Drain in a non fluffy tea towel placed with over a colander and let cool."}, {"@type": "HowToStep", "text": "Mean while whisk egg whites and then mix in Parmesan and set aside."}, {"@type": "HowToStep", "text": "Once cauliflower is cool enough to touch squeeze out as much liquid as possible ( ring the tea towel and squeeze at the same time."}, {"@type": "HowToStep", "text": ") Mix the cauliflower with the egg and Parmesan mixture and pour into prepared pie dish."}, {"@type": "HowToStep", "text": "With clean hands push the mixture to firm an even crust in the pair\n            plate."}, {"@type": "HowToStep", "text": "Place in the preheat oven for 20 minutes."}, {"@type": "HowToStep", "text": "It will look dry in the middle."}, {"@type": "HowToStep", "text": "Remove from the oven and prepare the filling."}, {"@type": "HowToStep", "text": "Beat the eggs in a large bowl then add all other ingredients except the tomatoes\n            and give it a good stir."}, {"@type": "HowToStep", "text": "Pour mixture into pie crust, then add tomatoes on top."}, {"@type": "HowToStep", "text": "Place in oven for 30-40 minutes or until centre is set (no longer wobbly and feels firm to touch."}, {"@type": "HowToStep", "text": "Cut and serve with a little side salad."}, {"@type": "HowToStep", "text": "Keeps in fridge for 3-4 days."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Lunch</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -162,14 +164,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -196,5 +209,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

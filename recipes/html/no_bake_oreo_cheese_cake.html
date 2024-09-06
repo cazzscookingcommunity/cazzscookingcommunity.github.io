@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a 9 inch spring form pan, by greasing base and sides."}, {"@type": "HowToStep", "text": "Place grease proof paper in base and set aside."}, {"@type": "HowToStep", "text": "In a blender, blend cookies for the base and while rotating add melted butter."}, {"@type": "HowToStep", "text": "Once all the cookie crumbs are wet, remove from blender and pour into prepared pan."}, {"@type": "HowToStep", "text": "Push the crumbs down until they are even on the bottom of the pan."}, {"@type": "HowToStep", "text": "Place pan in fridge while preparing the cheese cake."}, {"@type": "HowToStep", "text": "Whip cheese with whip attachment until smooth."}, {"@type": "HowToStep", "text": "Add sugar and vanilla and whip until well combined."}, {"@type": "HowToStep", "text": "Pour in cream and whip until very well blended."}, {"@type": "HowToStep", "text": "Fold through cookies and scoop into prepared pan."}, {"@type": "HowToStep", "text": "Smooth over top and decorate as desired."}, {"@type": "HowToStep", "text": "Cover with plastic wrap and refrigerate for 4-5 hours."}, {"@type": "HowToStep", "text": "Carefully remove from pan and serve chilled."}, {"@type": "HowToStep", "text": "Keep any remaining cake in fridge for up to 3 days."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>10</span></p>
+                        <p><strong>Serves:</strong><span id="servings">10</span></p>
                         <p><strong>Category:</strong><span>Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>1 hrs</span></p>
                         <p><strong>Cook Time:</strong><span>5 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

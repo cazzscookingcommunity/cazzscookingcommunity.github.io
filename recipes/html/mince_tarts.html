@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C and grease pie dish with a little butter and set aside."}, {"@type": "HowToStep", "text": "Roll out dough on floured surface, until its about 2mm thick."}, {"@type": "HowToStep", "text": "Cut enough large circles to fill all of the tray."}, {"@type": "HowToStep", "text": "Gently push them in to the tray holes."}, {"@type": "HowToStep", "text": "Place 1-1 1/2 TBsp of fruit mince in pastry."}, {"@type": "HowToStep", "text": "Cut out small circles on scrap and place in the middle of each tart."}, {"@type": "HowToStep", "text": "Alternatively you can cut a larger circle and cover the entire top to create a lid."}, {"@type": "HowToStep", "text": "Place in preheated oven for 10-15 minutes."}, {"@type": "HowToStep", "text": "Remove from oven and cook on a wire rack."}, {"@type": "HowToStep", "text": "Once completely cool sprinkle with icing sugar."}, {"@type": "HowToStep", "text": "Keep in air tight container."}, {"@type": "HowToStep", "text": "If you cannot find or do not like fruit mince you can substitute with raspberry jam or marmalade."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>24</span></p>
+                        <p><strong>Serves:</strong><span id="servings">24</span></p>
                         <p><strong>Category:</strong><span>Dessert, Snack</span></p>
                         <p><strong>Prep Time:</strong><span>40 mins</span></p>
                         <p><strong>Cook Time:</strong><span>15 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

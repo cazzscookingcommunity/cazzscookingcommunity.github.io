@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Place butter and oil in microwave proof bowl and melt butter and oil in microwave until butter melted (about 20 seconds."}, {"@type": "HowToStep", "text": ") Mix in brown sugar while still hot and stir all until combined, then add pop corn."}, {"@type": "HowToStep", "text": "Stir to coat all the corn and spread out evenly in the base of the bowl so corn is only one corn kernel deep."}, {"@type": "HowToStep", "text": "Place lid on bowl and cook until most of corn popped."}, {"@type": "HowToStep", "text": "This will depend on your microwave and you may need to experiment to get the timing right."}, {"@type": "HowToStep", "text": "My microwave takes about 3 3/4 minutes (not all the corn will pop!) Remove from microwave with oven mitts and carefully turn inside down and give a good shake."}, {"@type": "HowToStep", "text": "If your lid does not allow you to do this then stir well and ensure to get the melted juices up from the bottom to help coat all the popcorn."}, {"@type": "HowToStep", "text": "Give a good generous shake of cinnamon sugar on top or just plain cinnamon if you dont have cinnamon sugar."}, {"@type": "HowToStep", "text": "Then put your feet up turn on the movie and enjoy!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>2</span></p>
+                        <p><strong>Serves:</strong><span id="servings">2</span></p>
                         <p><strong>Category:</strong><span>Snack</span></p>
                         <p><strong>Prep Time:</strong><span>5 mins</span></p>
                         <p><strong>Cook Time:</strong><span>6 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

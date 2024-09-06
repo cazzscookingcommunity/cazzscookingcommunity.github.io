@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C and line a slice tray with baking paper."}, {"@type": "HowToStep", "text": "In a bowl mash bananas, then mix in egg, vanilla, peanut butter and sugar."}, {"@type": "HowToStep", "text": "Pour in muesli, nuts, seeds, dried fruit and mixed spice and stir until completely combined."}, {"@type": "HowToStep", "text": "Pour into tray and push flat with wet hands."}, {"@type": "HowToStep", "text": "Place in oven for 20 mins or until lightly golden on the top."}, {"@type": "HowToStep", "text": "Remove from oven and tray."}, {"@type": "HowToStep", "text": "Place on cooling rack still on grease proof paper."}, {"@type": "HowToStep", "text": "Wait 8 minutes then cut into bars."}, {"@type": "HowToStep", "text": "Wait until completely cold before serving."}, {"@type": "HowToStep", "text": "Store in airtight container."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Serves:</strong><span id="servings">12</span></p>
                         <p><strong>Category:</strong><span>Snack, Breakfast, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>20 mins</span></p>
                         <p><strong>Cook Time:</strong><span>20 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

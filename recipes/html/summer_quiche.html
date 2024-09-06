@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Turn in oven to 180C."}, {"@type": "HowToStep", "text": "Prepare large pie dish by greasing with a bit of oil or butter and set aside."}, {"@type": "HowToStep", "text": "Slice the sweet potatoes with a mandolin or peeler into very thin slices."}, {"@type": "HowToStep", "text": "Place lid n a bowl with the olive oil and seasoning be with salt and pepper."}, {"@type": "HowToStep", "text": "Toss with your hands until all slices are coated."}, {"@type": "HowToStep", "text": "Place a layer clovering  the enter pie dish, then continue another layer until all pieces are used."}, {"@type": "HowToStep", "text": "Ideally you want at least 2-3 layers thick."}, {"@type": "HowToStep", "text": "Place in over for 15 minutes and remove to cool."}, {"@type": "HowToStep", "text": "Meanwhile beat eggs and cream with a whisk."}, {"@type": "HowToStep", "text": "Mix up n other veggies except the tomatoes."}, {"@type": "HowToStep", "text": "Season with salt and pepper and pour into pie crust."}, {"@type": "HowToStep", "text": "Place tomatoes on top and bake until centre cooked, about 30-40 minutes."}, {"@type": "HowToStep", "text": "Serve hot or cold with a side of salad- yum!\n\n(You can mix up the veggies to what ever you like or have in the fridge and you could swap the sweet spud for regular potatoes also."}, {"@type": "HowToStep", "text": ")."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Dinner, Lunch</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -162,14 +164,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -196,5 +209,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

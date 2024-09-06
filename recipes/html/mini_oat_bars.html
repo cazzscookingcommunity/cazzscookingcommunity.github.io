@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a baking dish by greasing then lining with baking paper."}, {"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "In a large bowl place flour, oats, sugar and coconut, then stir well."}, {"@type": "HowToStep", "text": "In a small sauce pan melt butter and honey."}, {"@type": "HowToStep", "text": "In a separate bowl combine water and soda, then add to butter mixture (it will bubble up)."}, {"@type": "HowToStep", "text": "Remove from heat and mix well, then stir into dry ingredients."}, {"@type": "HowToStep", "text": "Mix well then pour into prepared tray and push down with your hands."}, {"@type": "HowToStep", "text": "Place in oven for 20-25 minutes or until the center is golden."}, {"@type": "HowToStep", "text": "Remove from oven and let it sit on a wire rack for 7 minutes."}, {"@type": "HowToStep", "text": "Carefully remove from tray and place back on wire rack to cool."}, {"@type": "HowToStep", "text": "Before it is completely cool, cut in to bite size pieces, while on baking paper."}, {"@type": "HowToStep", "text": "Leave there until completely cool."}, {"@type": "HowToStep", "text": "Store in air tight container."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Serves:</strong><span id="servings">12</span></p>
                         <p><strong>Category:</strong><span>Snack, Dessert, Breakfast</span></p>
                         <p><strong>Prep Time:</strong><span>15 mins</span></p>
                         <p><strong>Cook Time:</strong><span>35 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

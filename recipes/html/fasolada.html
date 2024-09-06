@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "In a bowl add beans and cover with water."}, {"@type": "HowToStep", "text": "Add salt and stir well."}, {"@type": "HowToStep", "text": "Cover and leave over night (8-12 hours."}, {"@type": "HowToStep", "text": ") Drain any water when done and rinse twice very well under cold water."}, {"@type": "HowToStep", "text": "Drain and set aside."}, {"@type": "HowToStep", "text": "In a large pot heat oil and add carrots and celery and cook on low for 5 minutes."}, {"@type": "HowToStep", "text": "Add the garlic and cook for a further 5 minuets."}, {"@type": "HowToStep", "text": "Stir in n the tomatoe paste, then add the rest of the ingredients."}, {"@type": "HowToStep", "text": "Bring to the boil and lower to a simmer and cook for 1 1/2 hours."}, {"@type": "HowToStep", "text": "Be sure to stir occasionally so it doesnt stick to the bottom."}, {"@type": "HowToStep", "text": "Add salt and pepper to taste before serving."}, {"@type": "HowToStep", "text": "Serve with thyme sprinkled on top."}, {"@type": "HowToStep", "text": "You can also serve with lemon, olives, and feta if desired."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Soup</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

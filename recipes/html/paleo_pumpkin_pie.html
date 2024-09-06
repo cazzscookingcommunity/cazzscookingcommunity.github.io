@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Mix together in a small bowl."}, {"@type": "HowToStep", "text": "Preheat oven to 375 F (180 C)."}, {"@type": "HowToStep", "text": "In a food processor pulse all ingredients except eggs until fully mixed."}, {"@type": "HowToStep", "text": "Add eggs and pulse a few times until dough forms."}, {"@type": "HowToStep", "text": "Grease a pie dish and pour dough in."}, {"@type": "HowToStep", "text": "With clean hands push pie crust into  pie dish until it is evenly covered."}, {"@type": "HowToStep", "text": "Pearce with a fork all over base and cook in oven for 10 minutes."}, {"@type": "HowToStep", "text": "Remove to cool on a wrack while making in filling."}, {"@type": "HowToStep", "text": "Whisk all ingredients except eggs then whisk in eggs one at a time."}, {"@type": "HowToStep", "text": "Pour filling  into pie dish with partially cooked crust and pop back in oven for 50 - 60 minutes."}, {"@type": "HowToStep", "text": "Check crust at half way thru and 3/4 thru to make sure crust is not burning."}, {"@type": "HowToStep", "text": "If crust is too brown cut aluminium foil so it covers crust and not pie (donut shape) to protect pie crust if required."}, {"@type": "HowToStep", "text": "Pie ready when a bit jiggly but deep golden brown."}, {"@type": "HowToStep", "text": "Remove from oven and allow to cool completely to room temperature, then store in fridge (if you can wait) Serve with Coconut yogurt or whipped cream."}, {"@type": "HowToStep", "text": "Store covered in fridge up to a week."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Serves:</strong><span id="servings">8</span></p>
                         <p><strong>Category:</strong><span>Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

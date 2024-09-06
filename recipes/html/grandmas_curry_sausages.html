@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "In a large pot boil sausages until they float to the top (watch carefully."}, {"@type": "HowToStep", "text": ")."}, {"@type": "HowToStep", "text": "As soon as they float remove immediately and cut into large slices."}, {"@type": "HowToStep", "text": "Discard the water and clean pan."}, {"@type": "HowToStep", "text": "Return pan to stove top and heat oil, before adding onion (or garlic if substituting) can ok until translucent."}, {"@type": "HowToStep", "text": "Then add curry powder and cook for about 5 minutes."}, {"@type": "HowToStep", "text": "Add carrots, spuds, sausages, chutney, apple and sultanas."}, {"@type": "HowToStep", "text": "Add enough water to cover it all."}, {"@type": "HowToStep", "text": "Cook on stove top until veggies cooked (about 30-40 mins), add corn flour mixture, salt and pepper to taste and stir well."}, {"@type": "HowToStep", "text": "Keep on low heat until sauce thickens ( about 15 minutes."}, {"@type": "HowToStep", "text": ")\nOnce desired thickness reached, serve in a bowl with rice."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Pork</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -161,14 +163,25 @@ Once desired thickness reached, serve in a bowl with rice.</li></ol>
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -195,5 +208,7 @@ Once desired thickness reached, serve in a bowl with rice.</li></ol>
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

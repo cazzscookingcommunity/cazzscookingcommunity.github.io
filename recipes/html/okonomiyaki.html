@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Whisk eggs in a large bowl, add flour, stock and salt and pepper and whisk to combine."}, {"@type": "HowToStep", "text": "Stir in all other ingredients."}, {"@type": "HowToStep", "text": "Heat oil in large pan and place about 1/2 cup of mixture making it as round as possible."}, {"@type": "HowToStep", "text": "You can place an amount of bacon and/or shrimp on pancake before flipping."}, {"@type": "HowToStep", "text": "Once edges start to cook flip over and cook other side."}, {"@type": "HowToStep", "text": "Flip over a couple of time to ensure middle cooked and both sides are golden."}, {"@type": "HowToStep", "text": "Remove from pan and garnish with sauces and spring onions and/or bacon if desired."}, {"@type": "HowToStep", "text": "Serve hot."}, {"@type": "HowToStep", "text": "Add these as sides or you can mix in with the eggs."}, {"@type": "HowToStep", "text": "Squeeze sauces all over top and sprinkle Shallots and Spring Onions on top."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Lunch</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

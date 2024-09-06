@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": null}, {"@type": "HowToStep", "text": "Preheat oven to 180C, remove cream cheese from fridge and place cup cake liners in cup cake tray."}, {"@type": "HowToStep", "text": "Cut butter into cubes and place in mixer on high until colour change to little yellow."}, {"@type": "HowToStep", "text": "Add sugar and mix again."}, {"@type": "HowToStep", "text": "Add eggs one at a time and mix well between each addition."}, {"@type": "HowToStep", "text": "Add sifted flour and mix while adding milk."}, {"@type": "HowToStep", "text": "Once all combined fold through jam."}, {"@type": "HowToStep", "text": "Spoon out about 1 heap table spoon in each cup cake hole (makes about 16."}, {"@type": "HowToStep", "text": ")\n            Cook for 20 minutes or until golden on top."}, {"@type": "HowToStep", "text": "Cool completely on baking rack."}, {"@type": "HowToStep", "text": "Once completely cool you can ice them."}, {"@type": "HowToStep", "text": "Beat the room temperature cream cheese and add the sifted icing sugar."}, {"@type": "HowToStep", "text": "Pour in your squeezed lemon 1/4 (may need to adjust depending on the size of your lemon."}, {"@type": "HowToStep", "text": ") You want a nice spreadable constancy."}, {"@type": "HowToStep", "text": "Smooth generously over each cup cake and place in fridge until set (about 1-2 hours."}, {"@type": "HowToStep", "text": ")  Store in fridge in airtight container."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Serves:</strong><span id="servings"></span></p>
                         <p><strong>Category:</strong><span></span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -161,14 +163,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -195,5 +208,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

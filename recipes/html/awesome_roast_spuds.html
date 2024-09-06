@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Peel spuds and cut in half."}, {"@type": "HowToStep", "text": "Place in a microwave proof bowl and fill with water until spuds covered and sprinkle with 1/2 teaspoon salt."}, {"@type": "HowToStep", "text": "Microwave for 20-30 minutes."}, {"@type": "HowToStep", "text": "The spuds should be mostly done and not falling apart."}, {"@type": "HowToStep", "text": "Drain well in a colander and shake gently to knock the sides up a bit."}, {"@type": "HowToStep", "text": "Pour into a baking dish and pour in the melted duck fat."}, {"@type": "HowToStep", "text": "Mix together until spuds are all coated."}, {"@type": "HowToStep", "text": "Place in oven for 60 minutes or until golden brown."}, {"@type": "HowToStep", "text": "You can turn them over, halfway through the cooking."}, {"@type": "HowToStep", "text": "Salt generously and serve with roast meat if desired."}, {"@type": "HowToStep", "text": "When cooking with roast meat, I put the meat in the oven and then prepare the spuds."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Serves:</strong><span id="servings">6</span></p>
                         <p><strong>Category:</strong><span>Sides</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>60 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

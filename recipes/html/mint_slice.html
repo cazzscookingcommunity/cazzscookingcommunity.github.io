@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a dish approximately 18x26cm then place baking paper in it and set aside."}, {"@type": "HowToStep", "text": "Place dates and water in a small sauce pan and bring to boil then turn down low."}, {"@type": "HowToStep", "text": "Continuously stir until dates are soft and water absorbed."}, {"@type": "HowToStep", "text": "Take it of the heat and set aside."}, {"@type": "HowToStep", "text": "Break biscuits up and place in a blend."}, {"@type": "HowToStep", "text": "Whiz until fine crumbs, then do another whiz with cocoa added."}, {"@type": "HowToStep", "text": "Add date mixture and copha, mix until nicely combined."}, {"@type": "HowToStep", "text": "Tip into prepared dish and push down with your hands until flat."}, {"@type": "HowToStep", "text": "Place in freezer while you make the filling."}, {"@type": "HowToStep", "text": "Pour icing sugar in a bowl and have metal spoon ready."}, {"@type": "HowToStep", "text": "In a separate bowl place 3 TBsp boiling water, food colour and essence."}, {"@type": "HowToStep", "text": "Add to icing sugar and stir vigorously add another TBsp of boiling water if too thick."}, {"@type": "HowToStep", "text": "Pour over base and smooth it out."}, {"@type": "HowToStep", "text": "Place dish back in freezer while making the topping."}, {"@type": "HowToStep", "text": "In a small saucepan melt copha."}, {"@type": "HowToStep", "text": "Once completely melted remove from heat and add maple syrup then cocoa."}, {"@type": "HowToStep", "text": "Stir well to remove any lumps."}, {"@type": "HowToStep", "text": "Pour over filling and this time place in fridge for 20 minutes."}, {"@type": "HowToStep", "text": "Remove from dish and cut into small squares."}, {"@type": "HowToStep", "text": "Store in fridge."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>16</span></p>
+                        <p><strong>Serves:</strong><span id="servings">16</span></p>
                         <p><strong>Category:</strong><span>Snack, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Whip eggs whites until soft peaks form."}, {"@type": "HowToStep", "text": "Stir egg yolks and sugar together until sugar is dissolved."}, {"@type": "HowToStep", "text": "Add the mascarpone to egg yoke mixture."}, {"@type": "HowToStep", "text": "Then fold the egg whites into egg yoke mixture, until combined."}, {"@type": "HowToStep", "text": "Rub a small amount of this mixture around a square or rectangular pan."}, {"@type": "HowToStep", "text": "Place the coffee in a flat dish."}, {"@type": "HowToStep", "text": "Dip a sponge finger in the coffee and wet both sides."}, {"@type": "HowToStep", "text": "Place a layer of coffee dipped sponge fingers in deep baking dish, then top with a thin layer of egg mixture, covering the surface."}, {"@type": "HowToStep", "text": "Sprinkle over a thin layer of cocoa, then sprinkle a thin layer of shaved chocolate."}, {"@type": "HowToStep", "text": "Top with another layer of coffee dipped sponge fingers and egg mixture and cocoa and chocolate."}, {"@type": "HowToStep", "text": "Repeat layers at least thee times until you reach the top of the pan, finishing with cocoa and chocolate on top layer."}, {"@type": "HowToStep", "text": "Cover with glad wrap and place in fridge over night."}, {"@type": "HowToStep", "text": "Cut into squares and serve cold."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Serves:</strong><span id="servings">12</span></p>
                         <p><strong>Category:</strong><span>Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>24 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

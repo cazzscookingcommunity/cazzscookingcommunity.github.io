@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Heat oven to 180C."}, {"@type": "HowToStep", "text": "Heat oil in casserole dish and cook garlic until golden."}, {"@type": "HowToStep", "text": "Add carrots, celery, bay leaf and thyme and cook for about 6 mins or until veggies just begin to soften."}, {"@type": "HowToStep", "text": "Transfer to a bowl, sprinkle with salt and set aside."}, {"@type": "HowToStep", "text": "Then heat butter and cook chicken on high in batches so its browns on all sides of the skin."}, {"@type": "HowToStep", "text": "Add all chicken back into the pan with the veggies."}, {"@type": "HowToStep", "text": "Mix the corn flour and water together then add to pan, then add wine and stock, give it a good stir."}, {"@type": "HowToStep", "text": "Put lid on and place in oven for 30-40 mins (when meat coming of legs slightly."}, {"@type": "HowToStep", "text": ") Cook bacon while chicken in oven."}, {"@type": "HowToStep", "text": "When crispy add balsamic vinegar and sugar."}, {"@type": "HowToStep", "text": "When chicken is removed from oven stir well (add salt and pepper if desired) and sprinkle over bacon mixture."}, {"@type": "HowToStep", "text": "Then sprinkle over parsley and serve with crusty bread or mash spud."}, {"@type": "HowToStep", "text": "Great for cold winter nights!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Poultry</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

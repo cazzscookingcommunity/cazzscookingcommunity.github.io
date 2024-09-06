@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Get all ingredients on bench with desired fillings."}, {"@type": "HowToStep", "text": "Melt butter in microwave and add brown sugar and a couple of shakes of cinnamon, to make a paste."}, {"@type": "HowToStep", "text": "Cut crust off Brad and then roll out piece of bread with rolling pin."}, {"@type": "HowToStep", "text": "On the end 1/4 of bread make a strip of desired filling then roll up bread."}, {"@type": "HowToStep", "text": "Hold the two ends while you dip in beaten eggs and cook immediately in medium to hot fry pan until all sides are cooked."}, {"@type": "HowToStep", "text": "Keep adding ingredient fillings until all bread is used up."}, {"@type": "HowToStep", "text": "You can add almost anything you like! Cut up into slices or serve as a whole roll, serve immediately while hot."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Serves:</strong><span id="servings">8</span></p>
                         <p><strong>Category:</strong><span>Breakfast, Snack, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>15 mins</span></p>
                         <p><strong>Cook Time:</strong><span>10 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

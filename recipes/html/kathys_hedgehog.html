@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside."}, {"@type": "HowToStep", "text": "Melt Nutalex in small pan and add sugar, stir until sugar dissolves."}, {"@type": "HowToStep", "text": "Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using."}, {"@type": "HowToStep", "text": ") Add combined biscuits and coconut and stir until combine."}, {"@type": "HowToStep", "text": "Place in prepared dish and smooth top as much as possible."}, {"@type": "HowToStep", "text": "Cover with glad wrap and place in fridge."}, {"@type": "HowToStep", "text": "Combine cocoa and icing sugar, add Nutalex stir well."}, {"@type": "HowToStep", "text": "Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top."}, {"@type": "HowToStep", "text": "Smooth top with back of a spoon or knife."}, {"@type": "HowToStep", "text": "Sprinkle with extra coconut if desired, while moist."}, {"@type": "HowToStep", "text": "Recover with glad wrap."}, {"@type": "HowToStep", "text": "Place in fridge for 4-6  hours then remove from dish and cut into slices."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Sweets</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

@@ -46,49 +46,48 @@ function getIngredientsFromDOM() {
     return ingredients;
 }
 
+function getServingsFromDOM() {
+    const servingsElement = document.getElementById('servings');
+    const servings = servingsElement ? parseInt(servingsElement.textContent, 10) : 1; // Default to 1 if not found
+    return servings;
+}
 
 // get nutrition and diet info from edaman's nutrition api
 function fetchDietAndNutritionInfo() {
+    const title = document.title;
     const ingredients = getIngredientsFromDOM();
+    const servings = getServingsFromDOM();
     const apiUrl = `https://api.edamam.com/api/nutrition-details?app_id=056daadb&app_key=b39f104d7fe033811500a3ce94c73a81`;
 
+    console.debug(title, servings, ingredients);
     fetch(apiUrl, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ title: 'Acquacotta', ingr: ingredients }),
+        body: JSON.stringify({ title: title, ingr: ingredients, servings: servings }),
     })
     .then(response => response.json())
     .then(data => {
+        console.log('apiu response: ', data);
         displayDietAndNutritionInfo(data);
+        displayHealthLabel(data, servings);
     })
     .catch(error => {
         console.error('Error fetching data:', error);
-        document.getElementById('diet-nutrition-info').style.display = 'block';
-        document.getElementById('diet-labels').textContent = 'Error loading data';
-        document.getElementById('health-labels').textContent = 'Error loading data';
-        document.getElementById('allergens').textContent = 'Error loading data';
-        document.getElementById('calories').textContent = 'Error loading data';
-        document.getElementById('macros').textContent = 'Error loading data';
+        document.getElementById('nutrition-error').style.display = 'block';
+        document.getElementById('diet-info').style.display = 'none';
     });
 }
 
 function displayDietAndNutritionInfo(data) {
     document.getElementById('diet-nutrition-info').style.display = 'block';
 
+    const cautions = data.cautions.join(', ') || 'None';
     const dietLabels = data.dietLabels.join(', ') || 'None';
     const healthLabels = data.healthLabels.join(', ') || 'None';
-    const calories = data.calories ? `${data.calories.toFixed(2)} kcal` : 'N/A';
-    const macros = `Protein: ${data.totalNutrients.PROCNT.quantity.toFixed(2)}g, Carbs: ${data.totalNutrients.CHOCDF.quantity.toFixed(2)}g, Fat: ${data.totalNutrients.FAT.quantity.toFixed(2)}g`;
 
-    // Displaying allergens as an example; adapt based on API response specifics
-    const allergens = data.healthLabels.includes('Dairy-Free') ? 'Dairy-Free' : 'Contains Dairy';
-
+    document.getElementById('cautions').textContent = cautions;
     document.getElementById('diet-labels').textContent = dietLabels;
     document.getElementById('health-labels').textContent = healthLabels;
-    document.getElementById('allergens').textContent = allergens;
-    document.getElementById('calories').textContent = calories;
-    document.getElementById('macros').textContent = macros;
 }
-

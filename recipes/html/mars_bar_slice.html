@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a lamington tray and line with baking paper, set aside."}, {"@type": "HowToStep", "text": "Put rice bubbles in a large bowl and set aside."}, {"@type": "HowToStep", "text": "Melt a knob of butter in a small pot."}, {"@type": "HowToStep", "text": "Add Mars bars and stir continuously until all combined and looks silky and all the same colour."}, {"@type": "HowToStep", "text": "Tip into bowl with rice bubbles and when cool enough to handle fold through until both are combined together."}, {"@type": "HowToStep", "text": "Tip into prepared tray with your hands push firmly into the tray until evenly spread and top is flat as possible."}, {"@type": "HowToStep", "text": "Cover and place in fridge to cool."}, {"@type": "HowToStep", "text": "Meanwhile heat another knob of butter in a clean small pot until completely melted."}, {"@type": "HowToStep", "text": "Add chocolate and stir until all melted and it looks silky."}, {"@type": "HowToStep", "text": "Remove tray from fridge and pour melted chocolate on top of slice and smooth over chocolate to cover the top completely."}, {"@type": "HowToStep", "text": "Cover and place back in the fridge until chocolate set."}, {"@type": "HowToStep", "text": "Remove from tray with the aid of the baking paper and chop* into mouth size pieces."}, {"@type": "HowToStep", "text": "Serve cold or at room temperature."}, {"@type": "HowToStep", "text": "*its easier to cut into pieces if you dont let it get too cold!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Serves:</strong><span id="servings">8</span></p>
                         <p><strong>Category:</strong><span>Snack, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>20 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Prepare a dish by greasing it and placing grease proof paper in it."}, {"@type": "HowToStep", "text": "Cut the dates and remove the pips, then cut them roughly."}, {"@type": "HowToStep", "text": "Place in a blender and blend until well chopped and starting to clump."}, {"@type": "HowToStep", "text": "Pour in the coconut, cocoa and 4 TBSP of coconut oil."}, {"@type": "HowToStep", "text": "Blend until combined, push down the sides if necessary."}, {"@type": "HowToStep", "text": "Pour into prepared dish and push down to make it all flat."}, {"@type": "HowToStep", "text": "Place in freezer while you prepare the topping."}, {"@type": "HowToStep", "text": "In a microwave melt the remaining coconut oil."}, {"@type": "HowToStep", "text": "Break the chocolate into small pieces and place in the bowl with the melted coconut oil."}, {"@type": "HowToStep", "text": "Place in microwave for a minute, remove and stir."}, {"@type": "HowToStep", "text": "Keep doing this until completely melted (mine only took one minute."}, {"@type": "HowToStep", "text": ") Remove slice from the freezer and pour the melted chocolate over the top."}, {"@type": "HowToStep", "text": "Smooth out with the back of a spoon."}, {"@type": "HowToStep", "text": "Place back in freezer for 20-30 minutes (or until top set."}, {"@type": "HowToStep", "text": ") Remove from freezer and chop into slices with a sharp knife."}, {"@type": "HowToStep", "text": "Store in an airtight container in the fridge."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Sweets</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

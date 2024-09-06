@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Heat 1/2 the oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until veggies softening."}, {"@type": "HowToStep", "text": "Remove from pan and set aside."}, {"@type": "HowToStep", "text": "Place flour on a dinner plate and grind a good amount of cracked salt and pepper."}, {"@type": "HowToStep", "text": "Place the osso buco pieces on the floured plate and roll around until all sides are covered with flour to each piece."}, {"@type": "HowToStep", "text": "Shake off excess and set aside."}, {"@type": "HowToStep", "text": "Heat the remaining oil in the pan and cook the pieces of osso buco for 6 minutes each side."}, {"@type": "HowToStep", "text": "Doing it in batches if necessary."}, {"@type": "HowToStep", "text": "Place cooked pieces in a baking dish as you go."}, {"@type": "HowToStep", "text": "Once all done sprinkle over the cooked veggies and washed thyme (you can leave the leaves on the stems.)"}, {"@type": "HowToStep", "text": "Pour over combined, wine, stock, red wine vinegar, tomatoe paste and brown sugar."}, {"@type": "HowToStep", "text": "Cover tightly with foil and cook for 2 hours."}, {"@type": "HowToStep", "text": "Meanwhile make the gremolata, by placing all ingredients in a bowl and stirring well."}, {"@type": "HowToStep", "text": "Once the meat is ready, removed from the oven and sprinkle the gremolata over the meat."}, {"@type": "HowToStep", "text": "Serve with mash spud, rice or fresh salad."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Serves:</strong><span id="servings">6</span></p>
                         <p><strong>Category:</strong><span>Beef, Dinner</span></p>
                         <p><strong>Prep Time:</strong><span>20 mins</span></p>
                         <p><strong>Cook Time:</strong><span>2 hrs 30 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

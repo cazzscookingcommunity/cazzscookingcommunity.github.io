@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Super Easy."}, {"@type": "HowToStep", "text": "Good for a crowd or taking somewhere\n\nTurn on oven to 170D."}, {"@type": "HowToStep", "text": "Grease 20cm x 12cm dish or two loaf trays and set aside."}, {"@type": "HowToStep", "text": "Combine all ingredients, except bananas and mix well."}, {"@type": "HowToStep", "text": "Add bananas and fold through, then pour into prepared tray."}, {"@type": "HowToStep", "text": "Smooth over top and place in oven for 40-60 minutes or until skew come out clean."}, {"@type": "HowToStep", "text": "Remove from oven and cover immediately with foil."}, {"@type": "HowToStep", "text": "Wait 10-15 minutes before serving while warm or wait until completely cold."}, {"@type": "HowToStep", "text": "You can sprinkle with a little icing sugar when serving."}, {"@type": "HowToStep", "text": "NB-When my bananas go spotty I pop them in the the freezer."}, {"@type": "HowToStep", "text": "When I have three bananas I make a cake."}, {"@type": "HowToStep", "text": "They look pretty horrible when defrosted, but it makes the cake taste awesome!\n*Pam Wolfs recipe."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Serves:</strong><span id="servings"></span></p>
                         <p><strong>Category:</strong><span>Sweets</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -163,14 +165,25 @@ Turn on oven to 170D.</li><li>Grease 20cm x 12cm dish or two loaf trays and set 
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -197,5 +210,7 @@ Turn on oven to 170D.</li><li>Grease 20cm x 12cm dish or two loaf trays and set 
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

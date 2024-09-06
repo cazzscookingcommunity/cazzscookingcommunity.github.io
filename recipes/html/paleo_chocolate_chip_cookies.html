@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Line a baking sheet and set aside."}, {"@type": "HowToStep", "text": "Melt coconut oil and set aside (should not be hot when adding other ingredients.)"}, {"@type": "HowToStep", "text": "In a bowl mix flours, salt, sugar and baking soda."}, {"@type": "HowToStep", "text": "Whisk to mix and remove any lumps."}, {"@type": "HowToStep", "text": "In the cooled coconut oil add the vanilla extract and egg."}, {"@type": "HowToStep", "text": "Whisk until combined."}, {"@type": "HowToStep", "text": "Pour wet ingredients into dry and mix until dough forms."}, {"@type": "HowToStep", "text": "Fold in 1/2 cup of choc chips. (Use vegan chic chips if desired)"}, {"@type": "HowToStep", "text": "Place table spoon amounts on baking tray and sprinkle a couple of extra choc chips on top of each cookie."}, {"@type": "HowToStep", "text": "Cook for 8-10 minutes or until golden."}, {"@type": "HowToStep", "text": "Cool on tray then remove to a cooling rack."}, {"@type": "HowToStep", "text": "Store in an airtight container once completely cold."}, {"@type": "HowToStep", "text": "Yum yum!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>24</span></p>
+                        <p><strong>Serves:</strong><span id="servings">24</span></p>
                         <p><strong>Category:</strong><span>Snack, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>15 mins</span></p>
                         <p><strong>Cook Time:</strong><span>10 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

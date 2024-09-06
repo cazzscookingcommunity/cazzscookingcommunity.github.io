@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Heat small amount of olive oil in fry pan."}, {"@type": "HowToStep", "text": "Cook cutlets for 4 minutes one side and 2 minutes the other side."}, {"@type": "HowToStep", "text": "Sprinkle with cumin while cooking."}, {"@type": "HowToStep", "text": "Mean while blanch snow peas and chop tomatoes in half."}, {"@type": "HowToStep", "text": "Once peas done pop them in fridge to cool."}, {"@type": "HowToStep", "text": "Once cool, mix with tomatoes and balsamic vinegar."}, {"@type": "HowToStep", "text": "Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate."}, {"@type": "HowToStep", "text": "Ready in 10 minutes- for nights you need something super quick!"}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>4</span></p>
+                        <p><strong>Serves:</strong><span id="servings">4</span></p>
                         <p><strong>Category:</strong><span>Dinner, Lamb</span></p>
                         <p><strong>Prep Time:</strong><span>10 mins</span></p>
                         <p><strong>Cook Time:</strong><span>10 mins</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

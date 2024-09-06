@@ -226,7 +226,7 @@ def main():
 
         # test individual files before do full directory
         # testfile1="recipes/xml/acquacotta.xml"
-        # testfile2="recipes/xml/lasagna.xml"
+        # testfile2="recipes/xml/american_bbq_spareribs.xml"
 
         # generate_html_from_xml(testfile1)
         # print(f"Conversion of {testfile1} is complete")

@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Combine flour, sugar and salt and mix well."}, {"@type": "HowToStep", "text": "Add butter and beat in mixer, until well combine."}, {"@type": "HowToStep", "text": "Gradually add the cold water and mix well."}, {"@type": "HowToStep", "text": "Remove dough from bowl and make into a ball."}, {"@type": "HowToStep", "text": "Cover with wrap and refrigerate for 30 minutes."}, {"@type": "HowToStep", "text": "Once done sprinkle flour on a clean surface."}, {"@type": "HowToStep", "text": "Flatten dough and roll until about 1/2 cm thick."}, {"@type": "HowToStep", "text": "Cut in two and carefully place in two greased metal pie dishes."}, {"@type": "HowToStep", "text": "Push down and trim edges but leave some excess all around to allow for shrinking."}, {"@type": "HowToStep", "text": "Put in fridge while making the filling."}, {"@type": "HowToStep", "text": "Heat evaporated milk in bowl for 1 minute."}, {"@type": "HowToStep", "text": "In a large bowl whisk the four eggs and seperate yolk."}, {"@type": "HowToStep", "text": "Gradually pour in condensed milk while whisking."}, {"@type": "HowToStep", "text": "Add vanilla and lemon juice, while whisking."}, {"@type": "HowToStep", "text": "Add the evaporated milk and whisk while pouring in."}, {"@type": "HowToStep", "text": "Continue whisking until all ingredients well combined."}, {"@type": "HowToStep", "text": "Beat the egg white until soft peaks form, then fold into the mixture."}, {"@type": "HowToStep", "text": "Remove crusts from fridge and pour in filling."}, {"@type": "HowToStep", "text": "Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes."}, {"@type": "HowToStep", "text": "Or cook until tooth pick comes out clean when inserted in the centre of the pie."}, {"@type": "HowToStep", "text": "Allow to cool completely before cutting."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Serves:</strong><span id="servings">8</span></p>
                         <p><strong>Category:</strong><span>Dessert, Snack</span></p>
                         <p><strong>Prep Time:</strong><span>20 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

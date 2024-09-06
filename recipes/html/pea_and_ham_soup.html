@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Rinse peas under running water and remove any foreign objects."}, {"@type": "HowToStep", "text": "Place in large pot with all other ingredients except Salt and Pepper."}, {"@type": "HowToStep", "text": "Pour in enough water to cover everything plus up to your thumb joint more."}, {"@type": "HowToStep", "text": "Bring to the boil then turn down to a simmer until meat is falling off the bone (4-6hrs."}, {"@type": "HowToStep", "text": ") Remove hock from soup and remove skin and discard."}, {"@type": "HowToStep", "text": "Shred the meat with a small knife or two forks."}, {"@type": "HowToStep", "text": "Place back in soup with the bones, these will help thicken the soup."}, {"@type": "HowToStep", "text": "When the soup is at your desired thickness remove the bones and add Salt and Pepper to taste, check first before adding."}, {"@type": "HowToStep", "text": "Some hocks are more salty than others."}, {"@type": "HowToStep", "text": "Bertocchi ham hocks give the most consistent best flavour."}, {"@type": "HowToStep", "text": "This recipe takes hours and is one for a rainy day spent inside, but well worth it!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Soup</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

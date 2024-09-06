@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Grease a loaf tin and line with foil then grease the foil also."}, {"@type": "HowToStep", "text": "Melt the chocolate in a bowl over a pan of boiling water."}, {"@type": "HowToStep", "text": "Once completely melted add sugar then condensed milk."}, {"@type": "HowToStep", "text": "Mix in the rest of the ingredients, except garnish and pour into prepared tin."}, {"@type": "HowToStep", "text": "Smooth top and add garnish, then gently push into but not completely."}, {"@type": "HowToStep", "text": "Refrigerate over night and cut into small squares or slices."}, {"@type": "HowToStep", "text": "You can easily replace the cherries, cranberries and pistachios with other dried fruit or nuts!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Serves:</strong><span id="servings">12</span></p>
                         <p><strong>Category:</strong><span>Dessert, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>15 mins</span></p>
                         <p><strong>Cook Time:</strong><span>24 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

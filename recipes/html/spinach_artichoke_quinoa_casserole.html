@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Wash quinoa drain it then place in a pot with the 2 cups of water."}, {"@type": "HowToStep", "text": "Bring to the boil then lower to a simmer and place lid on the pot and cook until water absorbed (about 10-15 minutes."}, {"@type": "HowToStep", "text": ") \nSpray baking dish with oil and set aside."}, {"@type": "HowToStep", "text": "Meanwhile heat oil in a large pan or a pot."}, {"@type": "HowToStep", "text": "Cook the garlic for about 3-5 minutes."}, {"@type": "HowToStep", "text": "In a small cup mix corn flour with a couple of TBsp of milk until smooth."}, {"@type": "HowToStep", "text": "Add this to the rest of the milk."}, {"@type": "HowToStep", "text": "In the milk to the pan, with artichoke heart, spinach, crushed stock cube, quinoa (which has been mixed with a fork), tasty cheese and salt and pepper."}, {"@type": "HowToStep", "text": "Stir until cheese is melted."}, {"@type": "HowToStep", "text": "Pour into prepared baking dish, sprinkle the top with Parmesan cheese and bake for 25 minutes or until top golden."}, {"@type": "HowToStep", "text": "Serve hot with side salad if desired."}, {"@type": "HowToStep", "text": "*If using frozen artichokes- thaw and drain."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Dinner</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -161,14 +163,25 @@ Spray baking dish with oil and set aside.</li><li>Meanwhile heat oil in a large 
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -195,5 +208,7 @@ Spray baking dish with oil and set aside.</li><li>Meanwhile heat oil in a large 
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

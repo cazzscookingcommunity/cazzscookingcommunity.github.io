@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "In a large bowl add flour and salt."}, {"@type": "HowToStep", "text": "Stir in sugar and yeast, then make a well in centre and add milk, butter and egg."}, {"@type": "HowToStep", "text": "Stir gradually until soft dough forms."}, {"@type": "HowToStep", "text": "Remove from bowl and knead on lightly floured surface for 5 minutes."}, {"@type": "HowToStep", "text": "Cover dough and let rest for 10 minutes."}, {"@type": "HowToStep", "text": "Meanwhile prepare your Dutch oven by placing a trivet in the base."}, {"@type": "HowToStep", "text": "Alternatively line a slow cooker with baking paper."}, {"@type": "HowToStep", "text": "Mix filling ingredients until combined, then set aside."}, {"@type": "HowToStep", "text": "Roll out dough on lightly floured surface until it is about 20x15cm."}, {"@type": "HowToStep", "text": "Spread out filling over dough, then roll it into log shape."}, {"@type": "HowToStep", "text": "Cut log evenly into 10 pieces and place in greased cake tin or in slow cooker with the swirl side facing up."}, {"@type": "HowToStep", "text": "Cook with lid on slow oven, on high setting for 2 hours."}, {"@type": "HowToStep", "text": "If using Dutch oven place cake tin on trivet and place in Dutch oven with lid on, for 2 hours on moderate oven."}, {"@type": "HowToStep", "text": "Remove from oven and drizzle the top once partially cooled, combined icing sugar, maple syrup and milk."}, {"@type": "HowToStep", "text": null}, {"@type": "HowToStep", "text": null}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Serves:</strong><span id="servings"></span></p>
                         <p><strong>Category:</strong><span></span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

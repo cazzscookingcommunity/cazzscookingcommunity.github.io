@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Turn on oven to medium (180D)."}, {"@type": "HowToStep", "text": "Grease a large flat tray and set aside."}, {"@type": "HowToStep", "text": "In a large bowl stir the dry ingredients."}, {"@type": "HowToStep", "text": "Pour in the cream and water and stir with a KNIFE until combined."}, {"@type": "HowToStep", "text": "Do not over stir! Tip out to a generously floured surface and turn once to flour all sides."}, {"@type": "HowToStep", "text": "Gently push down to desired thickness about thumb joint high."}, {"@type": "HowToStep", "text": "Cut out with scone cutter or small glass and place close together on tray."}, {"@type": "HowToStep", "text": "( Unlike cookies you want them touching."}, {"@type": "HowToStep", "text": ") Cook until just starting to change colour, about 20-40 minutes."}, {"@type": "HowToStep", "text": "Turn the tray around a few time to ensure all sides brown evenly while cooking."}, {"@type": "HowToStep", "text": "Sever with whipped cream and jam and hot cup of tea!."}, {"@type": "HowToStep", "text": "As above but adjust as follows: Add sugar to the flour and mix."}, {"@type": "HowToStep", "text": "After water and cream is added to the flour add the chopped dates."}, {"@type": "HowToStep", "text": "Stir with a knife until combined."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>20</span></p>
+                        <p><strong>Serves:</strong><span id="servings">20</span></p>
                         <p><strong>Category:</strong><span>Dessert, Snack</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

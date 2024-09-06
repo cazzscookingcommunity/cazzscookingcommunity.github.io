@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Soak lentils in water with a little salt for 6-8 hours."}, {"@type": "HowToStep", "text": "Once soaked crush with your fingers the stock cubes in lentils and stir well."}, {"@type": "HowToStep", "text": "Place on heat and cook for 20-25 minutes."}, {"@type": "HowToStep", "text": "Add extra water if it becomes dry."}, {"@type": "HowToStep", "text": "Stir occasionally."}, {"@type": "HowToStep", "text": "Once done drain and return to pot."}, {"@type": "HowToStep", "text": "Meanwhile heat olive oil in a fry pan and cook bacon, until crispy and brown."}, {"@type": "HowToStep", "text": "Add garlic and cook for a further 3-5 minutes."}, {"@type": "HowToStep", "text": "Add rosemary and cook for a further minute or two."}, {"@type": "HowToStep", "text": "Turn off heat and add dressing and capers."}, {"@type": "HowToStep", "text": "Stir well then pot into lentils."}, {"@type": "HowToStep", "text": "Add salt and pepper to taste and parsley and stir well."}, {"@type": "HowToStep", "text": "Serve with crusty bread or as a side."}, {"@type": "HowToStep", "text": "Mix in jar and pour over."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Lunch, Dinner</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

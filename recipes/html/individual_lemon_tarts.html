@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat the oven to 180C."}, {"@type": "HowToStep", "text": "Place pastry ingredients in processor and mix together."}, {"@type": "HowToStep", "text": "Turn out to floured bench and roll out to 3 mm thickness."}, {"@type": "HowToStep", "text": "Cut into rounds (use a cup or glass) and place in greased muffin tray."}, {"@type": "HowToStep", "text": "Cut small grease proof paper rounds and place on top of each hole."}, {"@type": "HowToStep", "text": "Then place beans or rice on paper and cook in oven (blind bake) for ten minutes."}, {"@type": "HowToStep", "text": "Once done let completely cool, before putting filling in."}, {"@type": "HowToStep", "text": "Turn down oven to 160C."}, {"@type": "HowToStep", "text": "In a bowl mix all filling ingredients until combined."}, {"@type": "HowToStep", "text": "Fill cooled tart crusts and cook for 10 to 15 minutes,or until middle set. "}, {"@type": "HowToStep", "text": "Cool completely and sprinkle with a little icing sugar and serve with some fresh fruit if desired."}, {"@type": "HowToStep", "text": "Turn down oven to 160C."}, {"@type": "HowToStep", "text": "In a bowl mix all filling ingredients until combined."}, {"@type": "HowToStep", "text": "Fill cooled tart crusts and cook for 10 to 15 minutes."}, {"@type": "HowToStep", "text": "Middle will set."}, {"@type": "HowToStep", "text": "Cool completely and sprinkle with a little icing sugar and serve with some fresh fruit if desired."}, {"@type": "HowToStep", "text": "I decreased the filling by 1/3 as it made a very large quantity! Original recipe called for the following filling:\n3 - eggs, 100 gms - caster sugar, 3 - lemons and 150 ml cream."}, {"@type": "HowToStep", "text": "*I decreased the filling by 1/3 as it made a very large quantity! Original recipe called for the following."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Serves:</strong><span id="servings">12</span></p>
                         <p><strong>Category:</strong><span>Snack, Dessert</span></p>
                         <p><strong>Prep Time:</strong><span>40 mins</span></p>
                         <p><strong>Cook Time:</strong><span>1 hrs</span></p>
@@ -161,14 +163,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -195,5 +208,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Heat large fry pan with lid and add oil."}, {"@type": "HowToStep", "text": "Cook garlic until golden then add pork."}, {"@type": "HowToStep", "text": "While pork is cooking (prepare your veggies and cook noodles by covering with boiling water in a bowl and drain after two minutes, then chop with kitchen scissors."}, {"@type": "HowToStep", "text": ") Cook pork until no longer pink."}, {"@type": "HowToStep", "text": "Add cabbage and 1/2 cup of water and stock cubes."}, {"@type": "HowToStep", "text": "Place lid on pan and steam for 10 minutes."}, {"@type": "HowToStep", "text": "Remove lid and add carrots and noodles."}, {"@type": "HowToStep", "text": "Pour over stir fry sauce, add Salt and Pepper to taste and stir to combine."}, {"@type": "HowToStep", "text": "Serve with spring onions sprinkled on top and extra soy sauce if desired."}, {"@type": "HowToStep", "text": "* you can use regular cabbage or Chinese cabbage or even Bok Choy ( whatever takes your fancy)\n* if you can not find stir fry sauce you can substitute with soy sauce thickened with some corn flour."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Pork</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -161,14 +163,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -195,5 +208,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

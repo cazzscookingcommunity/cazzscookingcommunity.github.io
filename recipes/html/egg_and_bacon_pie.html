@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Pre heat oven to 180C."}, {"@type": "HowToStep", "text": "Grease tin pie dish with butter and set aside."}, {"@type": "HowToStep", "text": "In a small bowl beat eggs and set aside."}, {"@type": "HowToStep", "text": "Place one sheet over the base of the tin and gently push in to remove any air bubbles."}, {"@type": "HowToStep", "text": "Cut of edges and pour in eggs."}, {"@type": "HowToStep", "text": "Sprinkle bacon evenly over the surface and sprinkle with salt and pepper."}, {"@type": "HowToStep", "text": "Carefully place other pastry sheet on top and cut off excess edges."}, {"@type": "HowToStep", "text": "Press down with your fingers on the edges to seal pie."}, {"@type": "HowToStep", "text": "Brush with milk and place in oven until golden on top (about 45 mins."}, {"@type": "HowToStep", "text": ")  recipe can be doubled, I usually cook at lease 4 at one time."}, {"@type": "HowToStep", "text": "Serve piping hot or cold."}, {"@type": "HowToStep", "text": "I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins."}, {"@type": "HowToStep", "text": ") Once cool cut in half and serve with jam and whipped cream inside."}, {"@type": "HowToStep", "text": "Sprinkle with a little icing sugar, if you want to be fancy!."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Dinner</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

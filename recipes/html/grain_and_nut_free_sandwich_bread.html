@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Grease and line a bread tin and set aside."}, {"@type": "HowToStep", "text": "In one bowl add all dry ingredients."}, {"@type": "HowToStep", "text": "In a blender or use a hand mixer beat egg white until soft peaks form."}, {"@type": "HowToStep", "text": "In a separate bowl add the yolks, Greek yogurt and cooled butter and stir well."}, {"@type": "HowToStep", "text": "Add this to the dry ingredients and stir until combined."}, {"@type": "HowToStep", "text": "Fold through 1/3 of\nthe whites until combined."}, {"@type": "HowToStep", "text": "Add the next third and do the same and lastly add the last 1/3 and fold until incorporated."}, {"@type": "HowToStep", "text": "Pour into prepared pan and smooth the top with the back of a spoon."}, {"@type": "HowToStep", "text": "Sprinkle over sesame seeds if desired."}, {"@type": "HowToStep", "text": "Place\nIn middle rack of the oven and cook for 30-40 minutes or until golden brown."}, {"@type": "HowToStep", "text": "Cool in pan for 10 minutes before removing."}, {"@type": "HowToStep", "text": "Slice and serve."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Sides</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -162,14 +164,25 @@ In middle rack of the oven and cook for 30-40 minutes or until golden brown.</li
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -196,5 +209,7 @@ In middle rack of the oven and cook for 30-40 minutes or until golden brown.</li
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>

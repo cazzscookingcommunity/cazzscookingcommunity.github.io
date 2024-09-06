@@ -33,6 +33,8 @@
                 "recipeInstructions": [{"@type": "HowToStep", "text": "Preheat oven to 180C."}, {"@type": "HowToStep", "text": "Grease a small baking dish with butter and set aside."}, {"@type": "HowToStep", "text": "Wash silverbeet or spinach well and remove from stems and chop roughly."}, {"@type": "HowToStep", "text": "Leave to dry on a clean tea towel."}, {"@type": "HowToStep", "text": "Heat oil in large pan and cook garlic for about 3-5 mins."}, {"@type": "HowToStep", "text": "Add silverbeet and stir until it wilts."}, {"@type": "HowToStep", "text": "Turn off heat and add ricotta, feta, Parmesan, dill, nutmeg and salt and pepper to taste."}, {"@type": "HowToStep", "text": "Stir well until combined, leave mixture to cool."}, {"@type": "HowToStep", "text": "Next step you need to move quickly."}, {"@type": "HowToStep", "text": "Lay a clean tea towel on the bench and then place fillo pastry on top."}, {"@type": "HowToStep", "text": "Then place another clean tea towel that has been wet but ringed really well and place on top of the pastry."}, {"@type": "HowToStep", "text": "Melt butter in microwave and brush the top pastry sheet generously."}, {"@type": "HowToStep", "text": "Gently place in dish (I usually fold mine in half as this fits my dish size well) and do the same for the next sheets until you have made 6 layers."}, {"@type": "HowToStep", "text": "Then scoop in the spinach mix and flatten with the bake of a spoon."}, {"@type": "HowToStep", "text": "Make a top layer the same as the base layer of pastry."}, {"@type": "HowToStep", "text": "You can use kitchen scissors to trim the edges if desired."}, {"@type": "HowToStep", "text": "Brush the top generously with butter and cook until golden brown (40-60 mins."}, {"@type": "HowToStep", "text": ") When done cut into slices and serve hot or cold."}]
             }
         </script> 
+        <link href="https://www.edamam.com/assets/css/label.css" rel="stylesheet">
+
 
         <!-- ALL PAGES -->
             <!-- Mata tages.  These are essential for all pages to ensure proper character encoding, 
@@ -117,7 +119,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Serves:</strong><span id="servings">None</span></p>
                         <p><strong>Category:</strong><span>Lunch</span></p>
                         <p><strong>Prep Time:</strong><span></span></p>
                         <p><strong>Cook Time:</strong><span></span></p>
@@ -160,14 +162,25 @@
             <div class="container">
                 <h2 class="recipe-label">Diet and Nutrition Information</h2>
                 <div id="diet-info" class="diet-info">
+                    <p><strong>Cautions:</strong> <span id="cautions">Loading...</span></p>
                     <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
                     <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
-                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
-                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
-                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
                 </div>
+
+                <div id="nutrition-error" style="display: none;">
+                    <span>Nutrition information is not currently available.</span>
+                </div>
+
+
             </div>
         </section>
+
+        <section>
+            <div class="container" id="food-label">
+                <!-- JS inserted food label -->
+            </div>
+        </section>
+
 
     <!-- FOOTER SECTION -->
     <footer>
@@ -194,5 +207,7 @@
 </body> 
 <script src="/scripts/common.js"></script>
 <script src="/scripts/my-favourites.js"></script> 
+<script src="/scripts/food-label.js"></script>
 <script src="/scripts/recipe.js"></script>
+
 </html>
