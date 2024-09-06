@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Poultry</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Poultry</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>6 chicken thigh filets cut into 1-2 cm strips</li><li>2 TBsp sesame oil</li><li>2 garlic cloves crushed</li><li>3-4 TBsp green curry paste</li><li>2 cans coconut milk </li><li>300ml water</li><li>2 chicken stock cubes</li><li>1 capsicum sliced</li><li>200gms snow peas trimmed</li><li>1 TBsp fish sauce</li><li>1 TBsp brown sugar</li><li>1 cup Beans sprouts washed</li><li>1 bunches coriander leaves removed and washed</li><li>1-2 limes </li><li>2 cups jasmine rice</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Get all ingredients out on bench.</li><li>Cook rice per packet instructions, then set aside.</li><li>Meanwhile prepare  all ingredients, eg wash and chop veggies, herbs and cut chicken ect.</li><li>Once everything is ready heat oil in large pan.</li><li>Cook garlic for 3-5 minutes on medium heat.</li><li>Add curry paste and cook until fragrant (1-2 minutes).</li><li>Add coconut milk, water and stock cubes.</li><li>Bring to the boil then reduce immediately to simmer.</li><li>Add chicken and cook for 3 minutes only.</li><li>Flipping chicken pieces as necessary.</li><li>Add snow peas, capsicum, fish sauce, brown sugar, juice of one lime and most of the coriander and bean sprouts ( reserve some coriander and bean sprouts for garnish.</li><li>) Cook for a further 1 minute and stir well.</li><li>Spoon prepared rice into bowls, spoon over curry and garnish with reserved bean sprouts and coriander.</li><li>Serve each bowl with an extra wedge of lime.</li><li>ubstitute chicken with 400gms of prawns.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

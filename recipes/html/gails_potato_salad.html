@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Salad</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 30 mins</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Salad</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>30 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1-2 kgs small potatoes</li><li>1/2 cup mayo</li><li>2 teaspoons vinegar</li><li>3 spring onions chopped </li><li>2-3 TBsp parsley and dill chopped</li><li>Salt and pepper to taste</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Cut spuds in half and boil until tender but not mushy, approximately 15 to 20 minutes</li><li>Drain let sit in drainer for about 10 minutes to allow them to dry out.</li><li>Place in bowl and mix through herbs.</li><li>In a separate bowl stir together mayo, vinegar and salt and pepper.</li><li>Once mixed, carefully mix through spuds.</li><li>Serve with spring onions sprinkled on top.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner, Lunch</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Dinner, Lunch</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 large sweet potatoe</li><li>1 TBsp olive oil </li><li>1 hand full spinach chopped </li><li>3-4 spring onions chopped</li><li>1 tomatoe sliced</li><li>8 eggs</li><li>1/2 cup cream (optional)</li><li>salt and pepper </li></ul>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Turn in oven to 180C.</li><li>Prepare large pie dish by greasing with a bit of oil or butter and set aside.</li><li>Slice the sweet potatoes with a mandolin or peeler into very thin slices.</li><li>Place lid n a bowl with the olive oil and seasoning be with salt and pepper.</li><li>Toss with your hands until all slices are coated.</li><li>Place a layer clovering  the enter pie dish, then continue another layer until all pieces are used.</li><li>Ideally you want at least 2-3 layers thick.</li><li>Place in over for 15 minutes and remove to cool.</li><li>Meanwhile beat eggs and cream with a whisk.</li><li>Mix up n other veggies except the tomatoes.</li><li>Season with salt and pepper and pour into pie crust.</li><li>Place tomatoes on top and bake until centre cooked, about 30-40 minutes.</li><li>Serve hot or cold with a side of salad- yum!
 
 (You can mix up the veggies to what ever you like or have in the fridge and you could swap the sweet spud for regular potatoes also.</li><li>).</li></ol>
@@ -156,6 +156,20 @@
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

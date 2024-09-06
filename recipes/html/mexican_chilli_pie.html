@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Beef</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Beef</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Filling:</strong><ul><li>1 kg mince beef</li><li>1 can crushed tomatoes </li><li>1 TBsp tomatoe paste</li><li>1 can black beans rinsed and drained</li><li>1-2 beef stock cubes crushed</li><li>3 TBsp olive oil</li><li>3-4 cloves garlic crushed </li><li>1/2 teaspoon chilli powder</li><li>1 teaspoon cumin</li><li>1 teaspoon oregano </li><li>salt and pepper to taste</li></ul><strong>Topping:</strong><ul><li>1 small French loaf sliced</li><li>3 TBsp olive oil</li><li>2-3 garlic cloves crushed</li><li>1/2 cup grated cheese</li><li>2-3 spring onions chopped</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Filling:</strong><ol class='recipe-steps'><li>Heat oil in large fry pan and cook garlic for a few minutes.</li><li>Then cook mince until brown.</li><li>Add all other ingredients to the pan and stir well.</li><li>Heat through and pour into large baking dish.</li></ol><strong>Topping:</strong><ol class='recipe-steps'><li>Place bread slice in top in a single layer until completely covered.</li><li>Brush top with combined oil and garlic, then sprinkle with cheese.</li><li>Cook in preheated moderate oven for 30 minutes.</li><li>Remove from oven and sprinkle top with spring onions to serve.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

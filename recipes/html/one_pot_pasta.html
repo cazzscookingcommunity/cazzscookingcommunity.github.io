@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>4 garlic cloves crushed </li><li>4 TBsp olive oil </li><li>500 gms mince pork (or one can of lentils rinsed and drained and one or two carrots grated, if you want vegetarian)</li><li>2 TBsp Italian herbs</li><li>2 cans chopped tomatoes </li><li>1 bottle passata sauce</li><li>1/3 cup tomatoe paste</li><li>2 bay leaves</li><li>1 TBsp oregano </li><li>1/4 cup water</li><li>10 long thin lasagna pieces ( gluten free if required)</li><li>2-3 cups baby spinach </li><li>2-3 cups grated cheese</li><li>1/3 cup grated Parmesan </li><li>250 gms ricotta</li><li>salt and pepper to taste</li><li>Chopped parsley for garnish</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oil in large dish and cook garlic with bay leaves for 4-5 minutes on medium heat.</li><li>Add meat and cook until no longer pink (if using meat.</li><li>) Add can tomatoes, passata sauce, tomatoe paste, oregano, water and pasta sheets and bring to a boil then reduce to a simmer.</li><li>Cook for 15 minutes with the lid on (stir  occasionally.</li><li>) Once Pasta is cooked add lentils and carrots if you want it vegetarian and add spinach, stir through well.</li><li>Season with salt and pepper if desired.</li><li>Sprinkle over grated cheeses and plop ricotta in heap spoonfuls evenly around dish.</li><li>Cover with lid and cook for another 5-10 minutes.</li><li>Remove lid and sprinkle with parsley, serve hot.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

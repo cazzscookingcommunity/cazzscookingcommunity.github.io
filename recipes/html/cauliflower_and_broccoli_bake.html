@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>500gms frozen cauliflower </li><li>500gms frozen broccoli </li><li>2 1/2 TBsp cornflour</li><li>500 mls milk</li><li>2 cups grated tasty cheese </li><li>Pinch nutmeg</li><li>Pinch cayenne pepper</li><li>salt and pepper to taste</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Defrost veggies in microwave and place in an oven proof dish, then set aside.</li><li>Remove 1/4 cup of milk into a seperate cup, then stir in cornflower until there are no lumps.</li><li>With the remaining milk heat in a small saucepan over medium heat.</li><li>Once milk is bubbling, whisk in cornflour mixture and stir until it thickens (do not leave this unattended!) Stir in one cup of cheese and season to taste.</li><li>Pour over cauliflower and broccoli, then sprinkle the top with the remaining cheese.</li><li>Sprinkle the cayenne pepper on top and cook in preheated oven for 30-40 minutes.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

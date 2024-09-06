@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Lunch</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Lunch</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Main:</strong><ul><li>1 cup flour</li><li>2 eggs</li><li>160 gms chicken stock </li><li>2 spring onions chopped</li><li>1/8 cabbage shredded </li><li>1 zucchini grated</li><li>1 small carrot grated</li><li>salt and pepper to taste</li><li>Oil for frying</li></ul><strong>Optional:</strong><ul><li>Bacon</li><li>Pickled ginger</li><li>Shrimp</li></ul><strong>Toppings:</strong><ul><li>Spring onions chopped</li><li>Kewpie mayonnaise</li><li>Okonomi sauce (or teriyaki sauce)</li><li>Fried shallots</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Main:</strong><ol class='recipe-steps'><li>Whisk eggs in a large bowl, add flour, stock and salt and pepper and whisk to combine.</li><li>Stir in all other ingredients.</li><li>Heat oil in large pan and place about 1/2 cup of mixture making it as round as possible.</li><li>You can place an amount of bacon and/or shrimp on pancake before flipping.</li><li>Once edges start to cook flip over and cook other side.</li><li>Flip over a couple of time to ensure middle cooked and both sides are golden.</li><li>Remove from pan and garnish with sauces and spring onions and/or bacon if desired.</li><li>Serve hot.</li></ol><strong>Optional:</strong><ol class='recipe-steps'><li>Add these as sides or you can mix in with the eggs.</li></ol><strong>Toppings:</strong><ol class='recipe-steps'><li>Squeeze sauces all over top and sprinkle Shallots and Spring Onions on top.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

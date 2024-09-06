@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Breakfast</p>
-                        <p><span>Serves:</span>    1</p>
-                        <p><span>Prep Time:</span> 5 mins</p>
-                        <p><span>Cook Time:</span> 2 mins</p>
+                        <p><strong>Serves:</strong><span>1</span></p>
+                        <p><strong>Category:</strong><span>Breakfast</span></p>
+                        <p><strong>Prep Time:</strong><span>5 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>2 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 small ziplock bag</li><li>2 Wheatbix (GF if required)</li><li>2 TBsp powered full cream milk</li><li>2 teasp sugar</li><li>1/4 cup water ( added at camp site)</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Add to the ziplock bag wheatbix, powdered milk and sugar.</li><li>Bring one for each morning for your hike.</li><li>Add 1/4 cup water directly to the bag and massage to mix.</li><li>Eat directly out of the bag.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

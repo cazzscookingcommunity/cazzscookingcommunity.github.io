@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Drink</p>
-                        <p><span>Serves:</span>    8</p>
-                        <p><span>Prep Time:</span> 10 mins</p>
-                        <p><span>Cook Time:</span> 10 mins</p>
+                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Category:</strong><span>Drink</span></p>
+                        <p><strong>Prep Time:</strong><span>10 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>10 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>4 lt water</li><li>1 cup sugar</li><li>15 tea bags (English Breakfast)</li><li>1.5 lt cranberry juice</li><li>Mint leaves</li><li>Ice blocks </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Place water sugar and tea bags in a large pot and bring to boil.</li><li>Once boiled remove tea bags and cool on bench.</li><li>Once room temperature pour in cranberry juice and place in fridge to cool completely.</li><li>Serve in a tall glass filled with ice cubes and garnish with mint leaves.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

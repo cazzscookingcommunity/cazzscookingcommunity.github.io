@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>300 gms Gluten Free flour (Aldi brand)</li><li>1 egg</li><li>1 1/2 scant teaspoon gluten free baking powder </li><li>1 cup sugar (I use coconut sugar but feel free to use regular caster sugar)</li><li>200 gms butter </li><li>1 teaspoon vanilla essence </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Prepare three baking sheets by covering them with baking paper.</li><li>In a bowl whisk together all dry ingredients.</li><li>Cut butter up into small cubes and rub into the dry ingredients until it resembles crumbs and there are no clumps of butter.</li><li>Crack egg into mixture and pour in vanilla essence.</li><li>Stir until all combined.</li><li>Roll into a bowl and cover with wrap and place in fridge for 30 minutes.</li><li>While dough in fridge preheat oven to 160 C.</li><li>Once dough firm roll out better two pieces of baking paper, until it is 5mm thick.</li><li>Cut with cookie cutter or a small glass and carefully place on the trays.</li><li>You can use a spatula or a knife to transfer cookies to the trays.</li><li>Evenly distributed the cookies and place in oven for 10-12 minutes or until golden colour.</li><li>Cool on wire wrack until completely cool and store in airtight container.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

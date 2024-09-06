@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Beef, Dinner</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 1 hrs</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Beef, Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>1 hrs</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 Kilo Minced Meat ( I use beef, Teresa uses Turkey)</li><li>2 Celery Sticks chopped</li><li>1 Green pepper chopped</li><li>3-4 garlic cloves crushed</li><li>1/2 bunch parsley chopped</li><li>1 can or 2 fresh corn cobs</li><li>1 carrot grated</li><li>1 can black beans</li><li>2 cans chopped tomatoes</li><li>1/2 cup tomatoe paste</li><li>1-1/2 teaspoon chilli</li><li>olive oil</li><li>salt and pepper to taste</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oil in a large pot and then add garlic, cook for a few minutes before adding celery and pepper.</li><li>Cook for two minutes more and add chilli powder then mince meat.</li><li>Cook the meat until brown.</li><li>Add all other ingredients and bring to the boil.</li><li>Reduce to a simmer and cook for at least 1 hour.</li><li>This gets better with age!  Serve with cheese on top and/or crusty bread if desired.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

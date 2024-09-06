@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Snack, Dessert, Breakfast</p>
-                        <p><span>Serves:</span>    12</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 35 mins</p>
+                        <p><strong>Serves:</strong><span>12</span></p>
+                        <p><strong>Category:</strong><span>Snack, Dessert, Breakfast</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>35 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 cup rolled oats</li><li>1 cup flour sifted (can substitute wheat free)</li><li>3/4 cup raw sugar</li><li>3/4 cups desiccated coconut</li><li>2 TBsp honey</li><li>2 TBsp water</li><li>1/2 teaspoon bicarb soda</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Prepare a baking dish by greasing then lining with baking paper.</li><li>Preheat oven to 180C.</li><li>In a large bowl place flour, oats, sugar and coconut, then stir well.</li><li>In a small sauce pan melt butter and honey.</li><li>In a separate bowl combine water and soda, then add to butter mixture (it will bubble up).</li><li>Remove from heat and mix well, then stir into dry ingredients.</li><li>Mix well then pour into prepared tray and push down with your hands.</li><li>Place in oven for 20-25 minutes or until the center is golden.</li><li>Remove from oven and let it sit on a wire rack for 7 minutes.</li><li>Carefully remove from tray and place back on wire rack to cool.</li><li>Before it is completely cool, cut in to bite size pieces, while on baking paper.</li><li>Leave there until completely cool.</li><li>Store in air tight container.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

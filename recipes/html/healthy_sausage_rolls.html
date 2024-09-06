@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Lunch</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 25 mins</p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Lunch</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>25 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>3-4 sheets puff pastry defrosted</li><li>1 TBsp olive oil</li><li>1 medium fennel diced (core removed)</li><li>2 cloves crushed garlic </li><li>500gms pork mince</li><li>1 lemon rind</li><li>4 sprigs parsley chopped </li><li>3 teasp fennel seeds</li><li>2 teasp sesame seeds</li><li>Dead Horse to serve</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oven to 220C and line two baking trays with baking paper.</li><li>Heat oil in pan and cook fennel and garlic for 8 minutes or until softened.</li><li>Set aside to cool.</li><li>In a large bowl mix cooled fennel,  one egg, mince, lemon rind, one teaspoon fennel seeds and parsley.</li><li>Cut each puff pastry sheet in half and place one long amount of pork mixture along the long  edge and roll to enclose.</li><li>Place on baking tray with edge on the underside.</li><li>Continue using up pork mixture in this manner until it is all used up.</li><li>Beat the remaining egg and paint all pastry with it.</li><li>Sprinkle the tops with remaining sesame and fennel seeds.</li><li>Bake in oven for approximately 25mins or until golden.</li><li>Once done cut into bite size pieces and serve with sauce and/or chutney.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner, Lamb</p>
-                        <p><span>Serves:</span>    4</p>
-                        <p><span>Prep Time:</span> 10 mins</p>
-                        <p><span>Cook Time:</span> 10 mins</p>
+                        <p><strong>Serves:</strong><span>4</span></p>
+                        <p><strong>Category:</strong><span>Dinner, Lamb</span></p>
+                        <p><strong>Prep Time:</strong><span>10 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>10 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>Lamb cutlets 2-4 per person</li><li>Punnet mini tomatoes</li><li>Few handfuls snap or snow peas</li><li>Pita bread</li><li>Cumin</li><li>1 Tbsp balsamic vinegar</li><li>Salt and Pepper to taste</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat small amount of olive oil in fry pan.</li><li>Cook cutlets for 4 minutes one side and 2 minutes the other side.</li><li>Sprinkle with cumin while cooking.</li><li>Mean while blanch snow peas and chop tomatoes in half.</li><li>Once peas done pop them in fridge to cool.</li><li>Once cool, mix with tomatoes and balsamic vinegar.</li><li>Place desired amount of cutlets, a couple of TBsp of tomatoes and pea mix, pita bread and store bought hummus on each plate.</li><li>Ready in 10 minutes- for nights you need something super quick!</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

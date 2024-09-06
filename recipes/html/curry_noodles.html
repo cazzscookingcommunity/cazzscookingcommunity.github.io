@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>300-400 gms prawns fresh or frozen (replace with tofu for vegetarian)</li><li>1 packet noodles cooked per instructions (retain some water)</li><li>(Use gluten free if preferred)</li><li>1-2 bunches Bok  Choy or chow sum washed and chopped</li><li>1-2 red chillies chopped</li><li>3 spring onions washed and chopped </li><li>2-3 cloves garlic ground </li><li>1 inch ginger grated</li><li>1-2 TBsp Green curry paste</li><li>1 stock cube</li><li>1 can coconut milk </li><li>2-3 TBSP olive oil </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oil in large pan or wok.</li><li>Add oil and wash hot add garlic and ginger, cook for a few minutes.</li><li>Add the curry paste and stir for a minute or two then add coconut milk and stock cube.</li><li>Add the prawns and cook until done (they will turn pink.</li><li>) Add the noodle and extra water as required.</li><li>Stir through Bok choy and pepper.</li><li>Serve with spring onions sprinkled on top.</li><li>(You can add other vegetables like bean sprouts, beans, snow peas ect what ever you have available.</li><li>).</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

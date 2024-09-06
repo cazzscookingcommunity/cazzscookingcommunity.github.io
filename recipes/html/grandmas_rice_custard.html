@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 10 mins</p>
-                        <p><span>Cook Time:</span> 20 mins</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Dessert</span></p>
+                        <p><strong>Prep Time:</strong><span>10 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>20 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 cups cooked rice</li><li>2 1/2 cups milk</li><li>2 eggs beaten*</li><li>3 TBsp sugar</li><li>2 TBsp corn flour </li><li>1 teaspoon vanilla essence </li><li>Sprinkle of nutmeg</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>In a microwave proof bowl mix together corn flour with a little bit of the milk to form a paste.</li><li>Add the rest of the ingredients and whisk well.</li><li>Place in microwave on high for 6 minutes, remove from microwave and whisk again.</li><li>Place back in microwave for 5 minutes, remove again and whisk.</li><li>Keep reducing the time by 1 minute each time and whisk each time until it stars to thicken and set.</li><li>This will depend on your microwave.</li><li>When a slight skin starts to appear on top and it becomes thick, this is when it is ready.</li><li>On the last time whisk again then sprinkle with nutmeg.</li><li>Serve hot with cream, milk or ice cream.</li><li>Can be served cold.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Fish</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Fish</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 cups of basmati rice</li><li>1 can wild Alaskan salmon drained and flaked (remove bones if desired)</li><li>2 TBsp olive oil</li><li>2 TBsp butter</li><li>2-4 garlic cloves crushed</li><li>1 teasp curry powder</li><li>4 cups of water</li><li>3 chicken stock cubes</li><li>1 bunch dill finely chopped</li><li>6 eggs</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oil in medium size saucepan for a few minutes then add butter.</li><li>Melt the butter and add garlic cloves, cook for a few minutes, then add curry powder.</li><li>Stir around to mix with the garlic and smells aromatic.</li><li>Add the rice and stir continuously until all the rice is coated.</li><li>Pour in the water and stock cubes and give it a good stir.</li><li>Bring to the boil and reduce to a simmer with the lid off.</li><li>Continue to cook until water is absorbed and small holes appear in the rice.</li><li>While you are waiting for the rice, cook the eggs.</li><li>In a small saucepan bring some water to the boil.</li><li>Once boiling add eggs and cook for exactly 7 minutes.</li><li>Remove eggs from the water and rinse under cool running water.</li><li>When rice is ready turn of the heat and place lid on and leave on stove top for 12-15 minutes.</li><li>While you are waiting on this, peel your eggs and place in a bowl.</li><li>Once rice is ready, stir through salmon and dill.</li><li>Serve in a bowl with one of the boiled eggs cut in half on the top of the rice.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

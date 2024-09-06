@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner</p>
-                        <p><span>Serves:</span>    4</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>4</span></p>
+                        <p><strong>Category:</strong><span>Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Main:</strong><ul><li>1 cup red lentils</li><li>1.5 lt stock</li><li>1 tsp turmeric</li><li>1 tsp salt</li><li>2 handfuls spinach</li><li>4 cups water</li></ul><strong>Curry Blend:</strong><ul><li>50 gms unsalted butter</li><li>1 tsp cumin seeds</li><li>4 cloves of garlic</li><li>3 whole dried chillies or 1 tsp chilli flakes</li><li>1/2 tsp garam masala</li><li>1/2 tsp paprika</li><li>1/2 tsp salt</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Main:</strong><ol class='recipe-steps'><li>Roughly chop spinach.</li><li>Add the first 5 ingredients to a pot. Bring to a boil, then turn down to a simmer.</li><li>Simmer for 45 minutes or until lentils loose their shape.</li></ol><strong>Curry Blend:</strong><ol class='recipe-steps'><li>While lentils are cooking. Melt butter in a fry pan and add salt and cumin seeds</li><li>Once cummin seeds begin to sputter, add garlic and other spices.</li><li>Cook for a further minute and remove from heat.</li><li>Once the lentils are done and the curry blend is ready, pour the curry blend over the lentils and serve with rice and Greek Yogurt.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

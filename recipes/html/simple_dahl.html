@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 cup yellow split peas</li><li>3 cups water or vegetable stock </li><li>4-6 garlic cloves chopped</li><li>4 inches ginger grated</li><li>1 teaspoon cumin</li><li>1/2 teaspoon coriander</li><li>1/2 teaspoon turmeric</li><li>1/2 teaspoon Garam masala</li><li>1/2 teaspoon chilli</li><li>Salt to taste</li><li>Olive oil</li><li>Root veggies you have in your fridge chopped and frozen spinach</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Soak split peas over night then put on higher heat and bring to the boil.</li><li>Cook for 20 minutes.</li><li>Mean while heat some olive oil in a small fry pan and cook garlic then ginger for 3-5 mins add the spices and cook a further 2 minutes.</li><li>Add a little water to the pan and add to split peas.</li><li>Add all the veggies and cook until veggies are soft (about 30-40 mins.</li><li>) Add spinach and stir until completely mixed through.</li><li>Serve with ancient grains and coriander sprinkled on top.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

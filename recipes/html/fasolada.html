@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Soup</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Soup</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>500gms white beans (soaked overnight)</li><li>1 teaspoon salt</li><li>2 celery sticks chopped </li><li>3 carrots chopped </li><li>5 cloves garlic crushed </li><li>2-3 TBsp olive oil </li><li>1 TBsp tomatoe paste</li><li>3 bay leaves </li><li>2 sprigs rosemary</li><li>2 stock cubes</li><li>1 red apple peeled</li><li>2 litres water</li><li>salt and pepper to taste</li><li>Thyme leaves to serve </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>In a bowl add beans and cover with water.</li><li>Add salt and stir well.</li><li>Cover and leave over night (8-12 hours.</li><li>) Drain any water when done and rinse twice very well under cold water.</li><li>Drain and set aside.</li><li>In a large pot heat oil and add carrots and celery and cook on low for 5 minutes.</li><li>Add the garlic and cook for a further 5 minuets.</li><li>Stir in n the tomatoe paste, then add the rest of the ingredients.</li><li>Bring to the boil and lower to a simmer and cook for 1 1/2 hours.</li><li>Be sure to stir occasionally so it doesnt stick to the bottom.</li><li>Add salt and pepper to taste before serving.</li><li>Serve with thyme sprinkled on top.</li><li>You can also serve with lemon, olives, and feta if desired.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

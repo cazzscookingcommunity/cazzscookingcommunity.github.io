@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Sides</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Sides</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 1/2 cups rolled oats</li><li>8 TBsp psyllium seed husks</li><li>1 cup sunflower seeds</li><li>1/2 cup flax seeds</li><li>1/2 cup pumpkin seeds or nuts</li><li>2 TBsp chia seeds</li><li>1 teaspoon salt</li><li>2 TBsp maple syrup or honey</li><li>3 TBsp melted coconut oil or ghee</li><li>1 1/2 cups water</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Prepare a loaf tin, by lining it with grease proof paper and set aside.</li><li>In two separate bowls mix all dry ingredients and wet ingredients.</li><li>Pour wet ingredients into dry ingredients and mix well.</li><li>Scoop into prepared tin and push down with your hand and make it smooth on top.</li><li>Cover with a clean tea towel and set aside for at least 2 hours.</li><li>Can be left overnight.</li><li>When ready place in preheated oven at 180C and cook for 20 minutes.</li><li>Remove from oven and remove from tin and paper and place back in oven upside down directly on rack.</li><li>Turn down oven to 130C and cook for about 1-2 hours.</li><li>It will sound hollow when taped, if it is ready.</li><li>Remove from oven and cool completely on rack.</li><li>Cut in skinny slices and serve with favorite spreads and dips.</li><li>Can be toasted and frozen (cut in slices before freezing.</li><li>).</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

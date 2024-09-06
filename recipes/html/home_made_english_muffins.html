@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Breakfast</p>
-                        <p><span>Serves:</span>    3</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 10 mins</p>
+                        <p><strong>Serves:</strong><span>3</span></p>
+                        <p><strong>Category:</strong><span>Breakfast</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>10 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 cup plain flour</li><li>1/4 cup boiling water</li><li>1/2 cup room temperature water</li><li>1/2 teaspoon salt, dry yeast, sugar and baking powder</li><li>Spray oil</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>In a bowl mix two waters together and mix in yeast and set aside.</li><li>In a separate bowl whisk all other dry ingredients.</li><li>Make a well in the centre and add the wet ingredients.</li><li>Mix until combined and add quarter cup to a medium hot pan that has been sprayed with a light coat of oil.</li><li>Cook for 10 minutes and flip over and cook for a further 6 minutes.</li><li>Once done cut in half and toast.</li><li>Once toasted apply lashings of butter and vegemite or jam.</li><li>Eat hot, makes 6, and worth the effort.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

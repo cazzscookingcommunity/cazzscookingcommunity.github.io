@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert, Snack</p>
-                        <p><span>Serves:</span>    10</p>
-                        <p><span>Prep Time:</span> 20 mins</p>
-                        <p><span>Cook Time:</span> 40 mins</p>
+                        <p><strong>Serves:</strong><span>10</span></p>
+                        <p><strong>Category:</strong><span>Dessert, Snack</span></p>
+                        <p><strong>Prep Time:</strong><span>20 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>40 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 oranges</li><li>180 butter melted </li><li>3 eggs beaten</li><li>1 cup sugar</li><li>1 1/2 cups SR flour</li><li>1 1/2 cups icing sugar sifted</li><li>2 TBsp butter melted</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Grease and line a loaf tin with grease proof paper and set aside.</li><li>Place one orange that has been cut up into blender and pulse until pulp forms.</li><li>Add cooled butter, eggs, sugar and flour.</li><li>Process until combined (push down sides if needed.)</li><li>Pour into cake tin and cook for about 40mins or until skewer comes out clean.</li><li>Turn onto a wire rack.</li><li>Once completely cool prepare icing sugar.</li><li>Remove zest from remaining orange and then juice it.</li><li>Mix icing sugar, 2 TBsp of melted butter zest in a bowl until combined.</li><li>Add as much orange juice to make the constancy you require.</li><li>Decorate cake with icing then sprinkle zest on top.</li><li>Cool in fridge for 15 mins before serving.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

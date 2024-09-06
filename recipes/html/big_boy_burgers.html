@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Beef</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Beef</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Patties:</strong><ul><li>400 gms beef minced</li><li>200 gms pork minced</li><li>1 egg beaten</li><li>2 Carrots minced or grated</li><li>1 TBsp mix herbs</li><li>salt and pepper to taste</li></ul><strong>Extras:</strong><ul><li>6 sour dough rolls halved and slightly toasted</li><li>1 egg per roll fried</li><li>1 piece of cooked bacon per roll</li><li>Few leaves of baby spinach per roll</li><li>1-2 slices of tomatoes per roll</li><li>1 slice of cheese per roll</li><li>Condiments of your choice</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Patties:</strong><ol class='recipe-steps'><li>Mix all ingredients together and make into 6-8 patties.</li><li>Cook on stove top until brown about 6-8 minutes.</li><li>Place in oven proof dish and cover with foil and place in preheated oven while you cook the other ingredients.</li></ol><strong>Extras:</strong><ol class='recipe-steps'><li>Cook the bacon first and place in oven proof dish then pop in oven to keep warm.</li><li>You can place your cheese slices on top of your burgers while they are keeping them warm at this time.</li><li>While you fry your eggs, toast your rolls.</li><li>You can either make the burger or place all ingredients on the bench or table and let people decide what they would like in their burger.</li><li>You can substitute the rolls for a gluten free option if desired.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

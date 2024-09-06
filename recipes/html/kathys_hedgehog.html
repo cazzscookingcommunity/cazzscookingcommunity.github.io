@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Sweets</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Sweets</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Main:</strong><ul><li>1 packet Marie biscuits crushed or *replace with plain gluten free biscuits</li><li>150gms Nutalex</li><li>1/2 cup brown sugar</li><li>2 Tbsp cocoa</li><li>1 quantity egg replacer or 1 egg beaten</li><li>1 teaspoon vanilla</li><li>1/2 cup coconut</li></ul><strong>Icing:</strong><ul><li>1 1/2 cup pure icing sugar sifted</li><li>2 Tbsp cocoa sifted</li><li>1 Tbsp Nutalex melted</li><li>4-6 Tbsp boiling water</li><li>Extra coconut</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Main:</strong><ol class='recipe-steps'><li>Prepare a small tray dish by greasing with  Nutalex and lining with grease proof paper, then set aside.</li><li>Melt Nutalex in small pan and add sugar, stir until sugar dissolves.</li><li>Add cocoa, then vanilla and remove from the heat and stir in egg replacer or egg (depending on which one you are using.</li><li>) Add combined biscuits and coconut and stir until combine.</li><li>Place in prepared dish and smooth top as much as possible.</li><li>Cover with glad wrap and place in fridge.</li></ol><strong>Icing:</strong><ol class='recipe-steps'><li>Combine cocoa and icing sugar, add Nutalex stir well.</li><li>Add one Tbsp of boiling water, at a time until you get your desired consistency then spread over top.</li><li>Smooth top with back of a spoon or knife.</li><li>Sprinkle with extra coconut if desired, while moist.</li><li>Recover with glad wrap.</li><li>Place in fridge for 4-6  hours then remove from dish and cut into slices.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

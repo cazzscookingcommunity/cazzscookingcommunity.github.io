@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 5 mins</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Dessert</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>5 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 TBsp butter</li><li>1 teaspoon vanilla essence </li><li>1 egg</li><li>1/4 cup hazelnut or almond meal</li><li>1 TBsp cocoa </li><li>2 TBsp Monkfruit or coconut or stevia sugar</li><li>1/2 teaspoon baking soda</li><li>1 square lint dark chocolate chopped </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>In a ramekin or large mug, melt the butter in a microwave, let cool while you get other ingredients out.</li><li>Mix the egg and vanilla essence in the mug/ramekin with the cooled butter until combined.</li><li>Add all other dry ingredients (except the chopped chocolate) and stir to combine.</li><li>Cook in the microwave for 20 seconds, then pour the chopped chocolate in the centre and gently push down with your fingers.</li><li>Place back in the microwave and cook for a further 30-40 seconds or until firm on top.</li><li>Serve with a sprinkle of extra cocoa and coconut yogurt or whipped cream.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

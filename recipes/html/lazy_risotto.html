@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Poultry, Dinner</p>
-                        <p><span>Serves:</span>    4</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 35 mins</p>
+                        <p><strong>Serves:</strong><span>4</span></p>
+                        <p><strong>Category:</strong><span>Poultry, Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>35 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1-2 tablespoons olive oil</li><li>3-4 rashes bacon finely chopped</li><li>4 garlic cloves crushed</li><li>500gms chicken thighs chopped into cubes </li><li>1 teaspoon grated lime rind</li><li>1/2 teaspoon chilli powder</li><li>140 gms tomatoe paste</li><li>1 1/2 cups arborio rice</li><li>750ml chicken stock</li><li>1/4 cut chopped parsley</li><li>2-3 spring onions chopped</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Heat oil in oven proof dish and cook bacon until nicely brown.</li><li>Add garlic and cook for a few minutes until golden.</li><li>Cook chicken in batches until all done.</li><li>Add rice to pan and cook a few minutes, stirring continuously until all coated.</li><li>Add all other ingredients except spring onions and stir to combine.</li><li>Put lid on and place in preheated moderate oven for 35 minutes.</li><li>Remove from oven and sprinkle with spring onions.</li><li>Serve with salad if desired.</li><li>* alternately you can replace the lime and parsley with lemon and Rosemary for a different taste.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

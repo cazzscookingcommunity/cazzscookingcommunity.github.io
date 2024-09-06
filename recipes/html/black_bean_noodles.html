@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 kg fresh Hokkien noodles</li><li>500gms minced pork</li><li>2-3 Bok Choy washed and chopped</li><li>1 zucchini diced</li><li>2 russet potatoes peeled and chopped </li><li>1/2 cucumber diced or sliced </li><li>6 TBsp black bean paste</li><li>2 teaspoon sugar</li><li>1 TBsp oyster sauce</li><li>1 TBsp soy sauce </li><li>2 TBsp corn flour mixed with water (about 3-4 TBsp)</li><li>1/2 cup water</li><li>1 chicken stock cube</li><li>1 1/2 cups water</li><li>Olive oil</li><li>salt and pepper to taste</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Prepare all veggies and get all ingredients on to bench.</li><li>Cook potatoes covered in water in a small bowl, on high in microwave for 5-8 mins.</li><li>You want them still firm and not mushy.</li><li>Drain and place in fridge to prevent them cooking further.</li><li>Heat some oil in large pan or wok and cook pork until no longer pink.</li><li>Remove from pan and set aside.</li><li>Place potatoes and zucchini in pan with 1/2 cup of water and stock cube.</li><li>Cook until zucchini done.</li><li>Remove from pan and set aside.</li><li>Heat some oil in pan and cook for 3-5 mins, combine black bean paste and sugar.</li><li>Add fresh noodles and toss and mix until noodle have separated and are coated.</li><li>Place pork, potatoes and zucchini back in pan.</li><li>Also pour in the 1 1/2 cups water, corn flour mixture, soy and oysters sauce.</li><li>Mix through, then add Bok Choy and mix through.</li><li>Add salt and pepper while stirring through.</li><li>Once all hot and totally mix, serve in bowls with cucumber garnish.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

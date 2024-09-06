@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Sweets</p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span>Sweets</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 cups flour</li><li>1 cup sugar</li><li>1/4 teaspoon baking powder</li><li>1 teaspoon cinnamon </li><li>2 teaspoon baking soda</li><li>1/2 teaspoon salt</li><li>1 cup chopped walnuts ( nuts optional)</li><li>1 cup oil</li><li>1 teaspoon vanilla</li><li>3 eggs beaten</li><li>2 cups mashed bananas (2-3 bananas)</li></ul>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Super Easy.</li><li>Good for a crowd or taking somewhere
 
 Turn on oven to 170D.</li><li>Grease 20cm x 12cm dish or two loaf trays and set aside.</li><li>Combine all ingredients, except bananas and mix well.</li><li>Add bananas and fold through, then pour into prepared tray.</li><li>Smooth over top and place in oven for 40-60 minutes or until skew come out clean.</li><li>Remove from oven and cover immediately with foil.</li><li>Wait 10-15 minutes before serving while warm or wait until completely cold.</li><li>You can sprinkle with a little icing sugar when serving.</li><li>NB-When my bananas go spotty I pop them in the the freezer.</li><li>When I have three bananas I make a cake.</li><li>They look pretty horrible when defrosted, but it makes the cake taste awesome!
@@ -157,6 +157,20 @@ Turn on oven to 170D.</li><li>Grease 20cm x 12cm dish or two loaf trays and set 
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

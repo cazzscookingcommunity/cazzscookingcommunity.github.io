@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Steak:</strong><ul><li>One portion of rump steak</li><li>1 red pepper sliced</li><li>1 green pepper sliced</li><li>1/4 cup Black Bean sauce</li><li>3-4 TBsp canola oil</li><li>4 garlic cloves crushed </li><li>1 TBsp plum sauce</li><li>1 onion sliced (optional)</li><li>salt and pepper to taste</li></ul><strong>Marinate:</strong><ul><li>1 TBsp each canola oil, corn flour and soy sauce mixed together</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Steak:</strong><ol class='recipe-steps'><li>Cut meat with very sharp knife in thin strips.</li><li>You can partially freeze the meat to aid with cutting slices thinly.</li><li>Place marinate and meat in a bag or airtight container, and mix together so all the meat is coated.</li><li>Leave in fridge over night, to marinate.</li><li>Stir every now and then.</li><li>When ready to cook, heat oil in wok or large   fry pan.</li><li>Cook onion for 5 -7 minutes, taking care not to over cook.</li><li>Place garlic with onions and Cook garlic for 3 minutes or until golden.</li><li>Throw in peppers and toss to coat and cook for 1 minute further.</li><li>Remove all veggies from pan and set aside.</li><li>Cook meat in batches on high heat adding extra oil if required.</li><li>Once meat is all cooked, put all ingredients in pan and stir to coat and rewarm.</li><li>Add salt and pepper to taste and serve with rice.</li></ol><strong>Marinate:</strong><ol class='recipe-steps'><li>None</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

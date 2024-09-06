@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Soup</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Soup</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 TBSP olive oil</li><li>4 garlic cloves minced</li><li>3 carrots chopped </li><li>2 celery ribs chopped </li><li>2 leeks, white part chopped </li><li>1 fennel bulb cored and thinly sliced</li><li>1 tomatoes diced</li><li>2 bay leaves</li><li>6 cups broth</li><li>75mm square parmigiana- reggiano rind</li><li>1 TBsp parsley chopped </li><li>salt and pepper then taste</li><li>1/4 cup grated parmigiana-reggiano cheese</li><li>Few basil leaves to sprinkle on top if desired </li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Wash and chop all the veggies.</li><li>Heat oil in a large pot.</li><li>Cook garlic for a few minutes, add carrots, celery, fennel, leek and bay leaf.</li><li>Cook veggies for a few minutes then add broth and square of cheese.</li><li>Bring to boil then reduce to a simmer and cook for 20 minutes.</li><li>Add tomatoe, herbs and season to taste with salt and pepper.</li><li>Remove bay leaves and square of cheese.</li><li>Serve hot with cheese on top and a couple of basil leaves and crunchy bead.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Main:</strong><ul><li>125gm butter </li><li>1/3 cup sugar</li><li>2 eggs  </li><li>1 1/4 cup Gluten Free SR Flour </li><li>1/3 cup milk</li><li>1/2 cup jam</li></ul><strong>Icing:</strong><ul><li>150gms cream cheese</li><li>1 cup icing sugar</li><li>1/4 lemon juice</li></ul>
                     </div>
                 </div>
@@ -147,7 +147,7 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Main:</strong><ol class='recipe-steps'><li>None</li></ol><strong>Icing:</strong><ol class='recipe-steps'><li>Preheat oven to 180C, remove cream cheese from fridge and place cup cake liners in cup cake tray.</li><li>Cut butter into cubes and place in mixer on high until colour change to little yellow.</li><li>Add sugar and mix again.</li><li>Add eggs one at a time and mix well between each addition.</li><li>Add sifted flour and mix while adding milk.</li><li>Once all combined fold through jam.</li><li>Spoon out about 1 heap table spoon in each cup cake hole (makes about 16.</li><li>)
             Cook for 20 minutes or until golden on top.</li><li>Cool completely on baking rack.</li><li>Once completely cool you can ice them.</li><li>Beat the room temperature cream cheese and add the sifted icing sugar.</li><li>Pour in your squeezed lemon 1/4 (may need to adjust depending on the size of your lemon.</li><li>) You want a nice spreadable constancy.</li><li>Smooth generously over each cup cake and place in fridge until set (about 1-2 hours.</li><li>)  Store in fridge in airtight container.</li></ol>
                     </div>
@@ -155,6 +155,20 @@
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

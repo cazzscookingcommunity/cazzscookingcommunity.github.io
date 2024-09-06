@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert</p>
-                        <p><span>Serves:</span>    8</p>
-                        <p><span>Prep Time:</span> 15 mins</p>
-                        <p><span>Cook Time:</span> 40 mins</p>
+                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Category:</strong><span>Dessert</span></p>
+                        <p><strong>Prep Time:</strong><span>15 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>40 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Cake:</strong><ul><li>1 1/2 cups GlutenFree flour*</li><li>(*Replace with plain flour if desired)</li><li>1 cup sugar</li><li>1 teaspoon baking soda</li><li>1/2 teaspoon salt</li><li>1/3 cup pure cocoa</li><li>1/2 cup oil</li><li>1 cup water</li><li>1 teaspoon vanilla</li><li>1 TBspoon vinegar</li></ul><strong>Icing:</strong><ul><li>1 1/2 cup icing sugar sifted</li><li>2 TBspoons cocoa sifted</li><li>1 TBspoon Nutalex/Margarine melted</li><li>1-2 TBspoons Boiling water</li><li>cheat by using Betty Crockers prepared icing  ** not appropriate for vegan or diary intolerant.</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Cake:</strong><ol class='recipe-steps'><li>Grease cake pan and put grease proof paper in the bottom and set aside.</li><li>Turn on oven to 180C.</li><li>Sift dry ingredients and stir to combine.</li><li>Pour in wet ingredients and stir to combine.</li><li>Pour into prepared pan and cook for 30-40 minutes or until skewer comes out clean.</li><li>Cool for 10 minutes and turn out into a plate.</li><li>Let cool completely before icing.</li></ol><strong>Icing:</strong><ol class='recipe-steps'><li>Stir dry ingredients together and add Nutalex.</li><li>Add water one TBspoon at a time until you get your desired consistency.</li><li>Spread over cooled cake and decorated with what you desired ( MandMs, shredded coconut, fresh berries, sprinkles are a few examples.)</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

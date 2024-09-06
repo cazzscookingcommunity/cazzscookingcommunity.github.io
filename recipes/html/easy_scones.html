@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert, Snack</p>
-                        <p><span>Serves:</span>    20</p>
-                        <p><span>Prep Time:</span> 30 mins</p>
-                        <p><span>Cook Time:</span> 1 hrs</p>
+                        <p><strong>Serves:</strong><span>20</span></p>
+                        <p><strong>Category:</strong><span>Dessert, Snack</span></p>
+                        <p><strong>Prep Time:</strong><span>30 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>1 hrs</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Plain scones:</strong><ul><li>4 cups SR flour</li><li>300 mls cream</li><li>300 mls water</li><li>Pinch salt</li></ul><strong>Date scones:</strong><ul><li>250 gms dates chopped</li><li>3 TBsp sugar</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Plain scones:</strong><ol class='recipe-steps'><li>Turn on oven to medium (180D).</li><li>Grease a large flat tray and set aside.</li><li>In a large bowl stir the dry ingredients.</li><li>Pour in the cream and water and stir with a KNIFE until combined.</li><li>Do not over stir! Tip out to a generously floured surface and turn once to flour all sides.</li><li>Gently push down to desired thickness about thumb joint high.</li><li>Cut out with scone cutter or small glass and place close together on tray.</li><li>( Unlike cookies you want them touching.</li><li>) Cook until just starting to change colour, about 20-40 minutes.</li><li>Turn the tray around a few time to ensure all sides brown evenly while cooking.</li><li>Sever with whipped cream and jam and hot cup of tea!.</li></ol><strong>Date scones:</strong><ol class='recipe-steps'><li>As above but adjust as follows: Add sugar to the flour and mix.</li><li>After water and cream is added to the flour add the chopped dates.</li><li>Stir with a knife until combined.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner</p>
-                        <p><span>Serves:</span>    4</p>
-                        <p><span>Prep Time:</span> 30 mins</p>
-                        <p><span>Cook Time:</span> 20 mins</p>
+                        <p><strong>Serves:</strong><span>4</span></p>
+                        <p><strong>Category:</strong><span>Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span>30 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>20 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>6-10 chicken thigh fillets</li><li>1/4 cup soy sauce</li><li>2-4 garlic cloves crushed</li><li>1-2 TBsp fresh lemon juice</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>In a flat dish place all ingredients and be sure to coat all of chicken.</li><li>Marinate for 20 minutes and turn filets over at least once while marinating.</li><li>Cook on a hot BBQ for about 5-7 minutes each side or until cooked through.</li><li>Rest for 10 minutes before slicing each filet into 5-6 pieces.</li><li>Serve with your choice of salad and/or rice dish.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

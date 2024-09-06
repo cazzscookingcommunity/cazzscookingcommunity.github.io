@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Beef, Dinner</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 20 mins</p>
-                        <p><span>Cook Time:</span> 2 hrs 30 mins</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Beef, Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span>20 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>2 hrs 30 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Meat:</strong><ul><li>6 Veal Osso Buco*</li><li>1/4 cup gluten free flour</li><li>salt and pepper </li><li>2 TBsp olive oil</li><li>3 cloves garlic crushed</li><li>2 stalks of celery chopped</li><li>2 carrots chopped</li><li>4 bay leaves</li><li>1 bunch of thyme</li><li>2 cups red wine</li><li>2 cups beef stock</li><li>1/4 cup red wine vinegar</li><li>2 TBsp tomatoe paste</li><li>1 TBsp brown sugar</li></ul><strong>Gremolata:</strong><ul><li>1 bunch parley chopped</li><li>2 lemons rind removed</li><li>2 cloves garlic crushed</li><li>2 TBsp olive oil</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Meat:</strong><ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Heat 1/2 the oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until veggies softening.</li><li>Remove from pan and set aside.</li><li>Place flour on a dinner plate and grind a good amount of cracked salt and pepper.</li><li>Place the osso buco pieces on the floured plate and roll around until all sides are covered with flour to each piece.</li><li>Shake off excess and set aside.</li><li>Heat the remaining oil in the pan and cook the pieces of osso buco for 6 minutes each side.</li><li>Doing it in batches if necessary.</li><li>Place cooked pieces in a baking dish as you go.</li><li>Once all done sprinkle over the cooked veggies and washed thyme (you can leave the leaves on the stems.)</li><li>Pour over combined, wine, stock, red wine vinegar, tomatoe paste and brown sugar.</li><li>Cover tightly with foil and cook for 2 hours.</li></ol><strong>Gremolata:</strong><ol class='recipe-steps'><li>Meanwhile make the gremolata, by placing all ingredients in a bowl and stirring well.</li><li>Once the meat is ready, removed from the oven and sprinkle the gremolata over the meat.</li><li>Serve with mash spud, rice or fresh salad.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

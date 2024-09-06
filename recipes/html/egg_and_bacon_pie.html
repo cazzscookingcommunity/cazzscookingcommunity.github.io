@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dinner</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Dinner</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>2 sheets puff pastry </li><li>4 eggs </li><li>200-300 gms diced bacon cooked well</li><li>salt and pepper (lots)</li><li>1/2 teasp butter or margarine</li><li>1/3 cup milk (for basting)</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Pre heat oven to 180C.</li><li>Grease tin pie dish with butter and set aside.</li><li>In a small bowl beat eggs and set aside.</li><li>Place one sheet over the base of the tin and gently push in to remove any air bubbles.</li><li>Cut of edges and pour in eggs.</li><li>Sprinkle bacon evenly over the surface and sprinkle with salt and pepper.</li><li>Carefully place other pastry sheet on top and cut off excess edges.</li><li>Press down with your fingers on the edges to seal pie.</li><li>Brush with milk and place in oven until golden on top (about 45 mins.</li><li>)  recipe can be doubled, I usually cook at lease 4 at one time.</li><li>Serve piping hot or cold.</li><li>I also cook all the extra off cuts on a greased baking tray with milk basted on top, until golden (about 10 mins.</li><li>) Once cool cut in half and serve with jam and whipped cream inside.</li><li>Sprinkle with a little icing sugar, if you want to be fancy!.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

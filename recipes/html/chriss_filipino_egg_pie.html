@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert, Snack</p>
-                        <p><span>Serves:</span>    8</p>
-                        <p><span>Prep Time:</span> 20 mins</p>
-                        <p><span>Cook Time:</span> 1 hrs</p>
+                        <p><strong>Serves:</strong><span>8</span></p>
+                        <p><strong>Category:</strong><span>Dessert, Snack</span></p>
+                        <p><strong>Prep Time:</strong><span>20 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>1 hrs</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Crust:</strong><ul><li>3 cups plain flour</li><li>4 TBsp sugar</li><li>1 teasp salt</li><li>250gms butter cut into cubes</li><li>1/4 cup cold water</li></ul><strong>Filling:</strong><ul><li>1 can evaporated milk</li><li>1 can condensed milk</li><li>4 eggs</li><li>1 egg yolk and white separated</li><li>1 teasp vanilla extract</li><li>1 TBsp lemon juice</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Crust:</strong><ol class='recipe-steps'><li>Combine flour, sugar and salt and mix well.</li><li>Add butter and beat in mixer, until well combine.</li><li>Gradually add the cold water and mix well.</li><li>Remove dough from bowl and make into a ball.</li><li>Cover with wrap and refrigerate for 30 minutes.</li><li>Once done sprinkle flour on a clean surface.</li><li>Flatten dough and roll until about 1/2 cm thick.</li><li>Cut in two and carefully place in two greased metal pie dishes.</li><li>Push down and trim edges but leave some excess all around to allow for shrinking.</li><li>Put in fridge while making the filling.</li></ol><strong>Filling:</strong><ol class='recipe-steps'><li>Heat evaporated milk in bowl for 1 minute.</li><li>In a large bowl whisk the four eggs and seperate yolk.</li><li>Gradually pour in condensed milk while whisking.</li><li>Add vanilla and lemon juice, while whisking.</li><li>Add the evaporated milk and whisk while pouring in.</li><li>Continue whisking until all ingredients well combined.</li><li>Beat the egg white until soft peaks form, then fold into the mixture.</li><li>Remove crusts from fridge and pour in filling.</li><li>Place in preheated (175C) oven for 15 minutes then reduce oven to 130C and cook for a further 40 minutes.</li><li>Or cook until tooth pick comes out clean when inserted in the centre of the pie.</li><li>Allow to cool completely before cutting.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

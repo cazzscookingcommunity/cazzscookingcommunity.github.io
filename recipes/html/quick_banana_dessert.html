@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Dessert</p>
-                        <p><span>Serves:</span>    1</p>
-                        <p><span>Prep Time:</span> 5 mins</p>
-                        <p><span>Cook Time:</span> 5 mins</p>
+                        <p><strong>Serves:</strong><span>1</span></p>
+                        <p><strong>Category:</strong><span>Dessert</span></p>
+                        <p><strong>Prep Time:</strong><span>5 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>5 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1 banana per person </li><li>1/4 Lemon</li><li>1 Tbsp butter</li><li>1 Tbsp honey</li><li>Cinnamon </li><li>Cream</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Chop banana on diagonal, melt butter in fry pan on medium heat, add bananas.</li><li>Squeeze lemon in pan and add honey and stir continuously, but gently and flip bananas over occasionally.</li><li>Cook until the banana is soft but not falling apart.</li><li>Pour into a bowl and serve with cream and cinnamon sprinkled on top- delish!.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

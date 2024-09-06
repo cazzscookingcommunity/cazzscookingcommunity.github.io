@@ -202,18 +202,45 @@ input#imageName {width: 50%;}
     }
 }
 
-
-
+/* RECIPE 
+--------------------------------------------------------------- */
+.recipe-label {
+    margin-right:20px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
 
 /* RECIPE Metadata and Image section 
 --------------------------------------------------------------- */
-.mealMetadata ul {margin:0}
-.mealMetadata ul li {margin:0}
+.mealMetadata p {
+    display: flex;
+    gap: 10px; /* Space between the heading and the content */
+    align-items: flex-start; /* Aligns the content to the top */
+    margin-bottom: 0.7rem;
+}
+
+.mealMetadata strong {
+    flex-shrink: 0; /* Prevents the heading from shrinking */
+    min-width: 120px; /* Fixed width for the heading, adjust as necessary */
+}
+
+.mealMetadata span {
+    display: inline-block;
+    margin-left: -10px; /* Negative margin to remove leading space */
+    padding-left: 10px; /* Aligns the content correctly with the heading */
+    text-indent: 0; /* Ensures no indentation is applied */
+}
+
+/* .mealMetadata ul {margin:0}
+.mealMetadata ul li {margin:0} */
 
 .row.mealMetadata {display: flex; align-items: centre;}
 .mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;}
-.mealMetadata p {margin-bottom: 0;}
-.mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase}
+/* .mealMetadata p {margin-bottom: 0;} */
+/* .mealMetadata span,.mealInstructions span{width: 60%; margin-right:20px;font-weight:bold;text-transform:uppercase} */
 
 #mealImgContainer {
     margin: 0 auto; 
@@ -228,16 +255,18 @@ input#imageName {width: 50%;}
 div.cardActions > a {text-decoration-line: none;}
 
 
+
+
 /* RECIPE INGREDIENTS 
 --------------------------------------------------------------- */
-h2.ingredients {
+/* h2.ingredients {
     margin-right:20px;
     margin-bottom:0px;
     font-weight:bold;
     text-transform:uppercase;
     font-size: 1.1em;
     line-height: 1.6;
-}
+} */
 
 .ingredients ul {
     padding-left: 0;
@@ -253,14 +282,16 @@ h2.ingredients {
 
 /* RECIPE INSTRUCTIONS  
 --------------------------------------------------------------- */
-h2.instructions {
+
+
+/* h2.instructions {
     margin-right:20px;
     margin-bottom:0px;
     font-weight:bold;
     text-transform:uppercase;
     font-size: 1.1em;
     line-height: 1.6;
-}
+} */
 
 ol.recipe-steps {
     counter-reset: step-counter;
@@ -289,6 +320,30 @@ ol.recipe-steps li p {
     padding: 0;
     text-indent: 1.5em;
 }
+
+/* RECIPE DIET and NUTRITION  
+--------------------------------------------------------------- */
+.diet-info p {
+    display: flex;
+    gap: 10px; /* Space between the heading and the content */
+    align-items: flex-start; /* Aligns the content to the top */
+    margin-bottom: 0.7rem;
+}
+
+.diet-info strong {
+    flex-shrink: 0; /* Prevents the heading from shrinking */
+    min-width: 120px; /* Fixed width for the heading, adjust as necessary */
+}
+
+.diet-info span {
+    display: inline-block;
+    margin-left: -10px; /* Negative margin to remove leading space */
+    padding-left: 10px; /* Aligns the content correctly with the heading */
+    text-indent: 0; /* Ensures no indentation is applied */
+}
+
+
+
 
 /* NAVIGATION 
 --------------------------------------------------------------- */

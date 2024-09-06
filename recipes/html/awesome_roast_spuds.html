@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Sides</p>
-                        <p><span>Serves:</span>    6</p>
-                        <p><span>Prep Time:</span> 30 mins</p>
-                        <p><span>Cook Time:</span> 60 mins</p>
+                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Category:</strong><span>Sides</span></p>
+                        <p><strong>Prep Time:</strong><span>30 mins</span></p>
+                        <p><strong>Cook Time:</strong><span>60 mins</span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>10 white potatoes </li><li>1/2 cup duck fat melted </li><li>Salt</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Peel spuds and cut in half.</li><li>Place in a microwave proof bowl and fill with water until spuds covered and sprinkle with 1/2 teaspoon salt.</li><li>Microwave for 20-30 minutes.</li><li>The spuds should be mostly done and not falling apart.</li><li>Drain well in a colander and shake gently to knock the sides up a bit.</li><li>Pour into a baking dish and pour in the melted duck fat.</li><li>Mix together until spuds are all coated.</li><li>Place in oven for 60 minutes or until golden brown.</li><li>You can turn them over, halfway through the cooking.</li><li>Salt generously and serve with roast meat if desired.</li><li>When cooking with roast meat, I put the meat in the oven and then prepare the spuds.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

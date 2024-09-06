@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  </p>
-                        <p><span>Serves:</span>    </p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span></span></p>
+                        <p><strong>Category:</strong><span></span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <strong>Main:</strong><ul><li>4 2/3 cups plain flour </li><li>1 teaspoon salt</li><li>60 gms butter melted</li><li>1/2 cup caster sugar</li><li>1 TBsp yeast</li><li>1 1/2 cups milk lukewarm </li><li>1 egg</li></ul><strong>Filling:</strong><ul><li>1 1/2 cups packed brown sugar</li><li>2 TBsp cinnamon</li><li>150 gms butter softened</li></ul><strong>Icing:</strong><ul><li>1 1/4 cup icing sugar sifted</li><li>2 TBsp maple syrup</li><li>2 TBsp milk</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <strong>Main:</strong><ol class='recipe-steps'><li>In a large bowl add flour and salt.</li><li>Stir in sugar and yeast, then make a well in centre and add milk, butter and egg.</li><li>Stir gradually until soft dough forms.</li><li>Remove from bowl and knead on lightly floured surface for 5 minutes.</li><li>Cover dough and let rest for 10 minutes.</li><li>Meanwhile prepare your Dutch oven by placing a trivet in the base.</li><li>Alternatively line a slow cooker with baking paper.</li><li>Mix filling ingredients until combined, then set aside.</li><li>Roll out dough on lightly floured surface until it is about 20x15cm.</li><li>Spread out filling over dough, then roll it into log shape.</li><li>Cut log evenly into 10 pieces and place in greased cake tin or in slow cooker with the swirl side facing up.</li><li>Cook with lid on slow oven, on high setting for 2 hours.</li><li>If using Dutch oven place cake tin on trivet and place in Dutch oven with lid on, for 2 hours on moderate oven.</li><li>Remove from oven and drizzle the top once partially cooled, combined icing sugar, maple syrup and milk.</li></ol><strong>Filling:</strong><ol class='recipe-steps'><li>None</li></ol><strong>Icing:</strong><ol class='recipe-steps'><li>None</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>

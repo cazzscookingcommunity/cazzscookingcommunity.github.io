@@ -117,10 +117,10 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><span>Category:</span>  Lunch</p>
-                        <p><span>Serves:</span>    None</p>
-                        <p><span>Prep Time:</span> </p>
-                        <p><span>Cook Time:</span> </p>
+                        <p><strong>Serves:</strong><span>None</span></p>
+                        <p><strong>Category:</strong><span>Lunch</span></p>
+                        <p><strong>Prep Time:</strong><span></span></p>
+                        <p><strong>Cook Time:</strong><span></span></p>
                         <div id="cardActions">
                             <img class="cardAction" border="0" alt="share recipe" onclick="shareRecipe()" src="/components/icons/share-svgrepo-com.svg"/>
                             <img class="cardAction" border="0" alt="print recipe" onclick="printRecipe()" src="/components/icons/print-svgrepo-com.svg"/>
@@ -139,7 +139,7 @@
                 <!-- Ingredients -->
                 <div class="row">
                     <div class="twelve columns ingredients" id="Ingredients">
-                        <h2 class="ingredients">Ingredients:</h2>
+                        <h2 class="recipe-label">Ingredients:</h2>
                             <ul><li>1/4 cup olive oil</li><li>4-6 garlic cloves crushed </li><li>1 bunch silverbeet or spinach</li><li>1/2 bunch dill chopped </li><li>250 gms feta cheese crumbled </li><li>150 - 200 gms ricotta cheese </li><li>3-4 TBSP Parmesan cheese grated </li><li>1/2 teaspoon nutmeg</li><li>12 sheets filo pastry fresh</li><li>150-200 gms butter</li><li>salt and pepper</li></ul>
                     </div>
                 </div>
@@ -147,13 +147,27 @@
                 <!-- preperation steps -->
                 <div class="row">
                     <div class="twelve columns mealInstructions">
-                        <h2 class="instructions">Instructions:</h2>
+                        <h2 class="recipe-label">Instructions:</h2>
                             <ol class='recipe-steps'><li>Preheat oven to 180C.</li><li>Grease a small baking dish with butter and set aside.</li><li>Wash silverbeet or spinach well and remove from stems and chop roughly.</li><li>Leave to dry on a clean tea towel.</li><li>Heat oil in large pan and cook garlic for about 3-5 mins.</li><li>Add silverbeet and stir until it wilts.</li><li>Turn off heat and add ricotta, feta, Parmesan, dill, nutmeg and salt and pepper to taste.</li><li>Stir well until combined, leave mixture to cool.</li><li>Next step you need to move quickly.</li><li>Lay a clean tea towel on the bench and then place fillo pastry on top.</li><li>Then place another clean tea towel that has been wet but ringed really well and place on top of the pastry.</li><li>Melt butter in microwave and brush the top pastry sheet generously.</li><li>Gently place in dish (I usually fold mine in half as this fits my dish size well) and do the same for the next sheets until you have made 6 layers.</li><li>Then scoop in the spinach mix and flatten with the bake of a spoon.</li><li>Make a top layer the same as the base layer of pastry.</li><li>You can use kitchen scissors to trim the edges if desired.</li><li>Brush the top generously with butter and cook until golden brown (40-60 mins.</li><li>) When done cut into slices and serve hot or cold.</li></ol>
                     </div>
                 </div>
 
             </div>
         </section> 
+
+        <!-- Diet and Nutrition Information Section -->
+        <section id="diet-nutrition-info" style="display: none;">
+            <div class="container">
+                <h2 class="recipe-label">Diet and Nutrition Information</h2>
+                <div id="diet-info" class="diet-info">
+                    <p><strong>Diet Labels:</strong> <span id="diet-labels">Loading...</span></p>
+                    <p><strong>Health Labels:</strong> <span id="health-labels">Loading...</span></p>
+                    <p><strong>Allergens:</strong> <span id="allergens">Loading...</span></p>
+                    <p><strong>Calories:</strong> <span id="calories">Loading...</span></p>
+                    <p><strong>Macros:</strong> <span id="macros">Loading...</span></p>
+                </div>
+            </div>
+        </section>
 
     <!-- FOOTER SECTION -->
     <footer>
