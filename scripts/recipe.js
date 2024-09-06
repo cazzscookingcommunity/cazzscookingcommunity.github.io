@@ -1,10 +1,13 @@
 
 // after page loads update the favourites button
 document.addEventListener('DOMContentLoaded', () => {
-    let button = document.getElementsByClassName('favourite')[0];
-    let recipeId = button.id;
+    let favouriteButton = document.getElementsByClassName('favourite')[0];
+    let recipeId = favouriteButton.id;
     updateFavouriteButton(recipeId);
     checkRecipeFormat(recipeId);
+    
+    // Call the function to fetch diet and nutrition info
+    fetchDietAndNutritionInfo();
 });
 
 
@@ -32,34 +35,21 @@ function checkRecipeFormat(recipeId) {
     // intended to validate the format of the recipe.
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-    let button = document.getElementsByClassName('favourite')[0];
-    let recipeId = button.id;
-    updateFavouriteButton(recipeId);
-    checkRecipeFormat(recipeId);
-    
-    // Call the function to fetch diet and nutrition info
-    fetchDietAndNutritionInfo();
-});
+function getIngredientsFromDOM() {
+    // Select all <li> elements under the #ingredients section
+    const ingredientsList = document.querySelectorAll('#ingredients ul li');
 
+    // Map the NodeList to an array of ingredient strings
+    const ingredients = Array.from(ingredientsList).map(li => li.textContent.trim());
+
+    console.log(ingredients); // Check the extracted ingredients
+    return ingredients;
+}
+
+
+// get nutrition and diet info from edaman's nutrition api
 function fetchDietAndNutritionInfo() {
-    const ingredients = [
-        "2-3 Tbsp olive oil", 
-        "2-3 garlic cloves crushed", 
-        "Pinch of chili", 
-        "2-4 celery stalks chopped", 
-        "1-2 carrots chopped", 
-        "1 cup white wine", 
-        "6 cups water", 
-        "2 stock cubes", 
-        "2 cans chopped tomatoes", 
-        "salt and pepper to taste", 
-        "1 cup ricotta cheese (optional)", 
-        "4 eggs (optional)", 
-        "4 slices stale bread (optional)", 
-        "Any Italian herbs (parsley or basil) you have on hand (optional)"
-    ];
-
+    const ingredients = getIngredientsFromDOM();
     const apiUrl = `https://api.edamam.com/api/nutrition-details?app_id=056daadb&app_key=b39f104d7fe033811500a3ce94c73a81`;
 
     fetch(apiUrl, {
