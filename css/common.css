@@ -71,17 +71,24 @@ img { image-orientation: from-image; }
 
 .mealCardRecipeBtn{display: block;}
 
+
+
+#mealImgContainer {
+    position: relative; /* Ensures absolute positioning of child elements */
+}
+
 .favourite {
     background-color: white;
     padding: 0 10px;
     position: absolute;
-    top: 0px; /* Adjust as needed */
-    left: 0px; /* Adjust as needed */
+    top: 0;  /* Stays at the top */
+    left: 0; /* Stays at the left */
     z-index: 10;
     cursor: pointer;
 }
 
-#cardTitle{margin-bottom:5px;}
+
+#cardTitle { margin-bottom:5px; }
 #cardTags { margin-top:10px; font-size: 14px; }
 
 div#cardActions {margin: 10px 0px;}
@@ -110,6 +117,133 @@ h1.brand, h2.heading.brand{
     /* scale branding and remove rotation */
     .heading{ margin:0px; width:100%; font-size:4vw; text-align:left; transform:rotate(0deg); }
 }
+
+/* PAGE HEADER AND NAVBAR 
+---------------------------------------------------------------*/
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.heading.brand {
+    flex: 1; /* Allow the heading to take the available space */
+    margin: 0;
+    text-align: left;
+    font-size: 4vw;
+}
+
+#hamburger {
+    display: block; /* Always show the hamburger on mobile */
+    cursor: pointer;
+    font-size: 24px;
+    color: #689f38;
+    text-align: right;
+    margin-left: auto;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: transparent;
+    padding: 0;
+    position: relative;
+}
+
+.navbar-list {
+    display: none; /* Hidden by default for mobile */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    flex-direction: column;
+    gap: 0;
+}
+
+.navbar-item a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    display: block;
+    border-right: 1px solid whitesmoke;
+}
+
+.navbar-item a:hover {
+    background-color: #689f38;
+    color: white;
+}
+
+/* Media Query for larger screens */
+@media (min-width: 768px) {
+
+    .navbar { background-color: #c2d8af;}
+    .navbar-list {
+        display: flex; /* Change layout to horizontal */
+        flex-direction: row; /* Horizontal layout */
+        justify-content: flex-start; /* Align items to the start */
+        align-items: center; /* Center items vertically */
+    }
+    .navbar-item { margin-bottom: 0; }
+    .navbar-item a { padding: 10px 20px; } /* Adjust padding for better touch targets */
+    .header-flex { flex-direction: row; } /* Align heading and hamburger horizontally */
+    #hamburger { display: none; }
+}
+
+@media (max-width: 768px) {
+    .heading {
+        margin: 0;
+        font-size: 4vw;
+        text-align: left;
+        transform: rotate(0deg);
+    }
+}
+
+
+
+/* NAVIGATION 
+--------------------------------------------------------------- */
+
+/* .nnnavbar {
+    background-color: transparent;
+    padding: 0; 
+    position: relative; 
+}
+
+.nnnavbar-list {
+    display: none;
+    list-style: none; 
+    margin: 0;
+    padding: 0;
+    flex-direction: column; 
+    gap: 0;
+}
+
+.nnnavbar-item a {
+    text-decoration: none;
+    color: black;
+    padding: 0;
+    display: block;
+    border-right:1px solid whitesmoke;
+}
+
+.nnnavbar-item a:hover {
+    background-color: #689f38;
+    color: white;
+}
+
+#nnhamburger {
+    display: block; 
+    cursor: pointer;
+    font-size: 24px; 
+    color: #689f38;
+} */
+
 
 /* Create New Recipe 
 ---------------------------------------------------------------*/
@@ -235,18 +369,21 @@ input#imageName {width: 50%;}
 }
 
 .row.mealMetadata { display:flex; flex-direction:column; gap:1rem; }
+#mealImgContainer { order:1; }
+.four.columns.mealMetadata { order:2; }
+
 
 @media (min-width: 768px) {
     .row.mealMetadata { flex-direction:row; align-items: start; }
-    .six.columns { order:2; }
-    .four.columns { order:1; }
+    .four.columns.mealMetadata { order:1; }
+    #mealImgContainer { order:2; }
 }
 
 
 /* .row.mealMetadata {display: flex; align-items: centre;}
 .mealMetadata {height: 100%; margin-top: auto; margin-bottom: auto;} */
 
-#mealImgContainer {
+#mmmealImgContainer {
     margin: 0 auto; 
     text-align: center;
     position: relative;
@@ -306,72 +443,6 @@ div.cardActions > a {text-decoration-line: none;}
     padding: 0;
     text-indent: 1.5em;
 }
-
-
-
-
-/* NAVIGATION 
---------------------------------------------------------------- */
-
-/* General navbar styling */
-.navbar {
-    background-color: transparent;
-    padding: 0; /* Padding around the navbar */
-    position: relative; /* Positioning for the toggle button */
-}
-
-.navbar-list {
-    list-style: none; /* Remove default list styling */
-    margin: 0;
-    padding: 0;
-    display: none; /* Hide the list initially for mobile */
-    flex-direction: column; /* Stack items vertically for mobile */
-    gap: 0;
-}
-
-.navbar-item a {
-    text-decoration: none;
-    color: black;
-    padding: 0;
-    display: block;
-    border-right:1px solid whitesmoke;
-}
-
-.navbar-item a:hover {
-    background-color: #689f38;
-    color: white;
-}
-
-#hamburger {
-    display: block; /* Show hamburger icon on mobile */
-    cursor: pointer;
-    font-size: 24px; /* Size of the icon */
-    color: #689f38;
-}
-
-/* show the navbar horizontally at 720px and above */
-@media (min-width: 720px) {
-    .navbar { background-color: #c2d8af;}
-    .navbar-list {
-        display: flex; /* Change layout to horizontal */
-        flex-direction: row; /* Horizontal layout */
-        justify-content: flex-start; /* Align items to the start */
-        align-items: center; /* Center items vertically */
-    }
-
-    .navbar-item {
-        margin-bottom: 0;
-    }
-
-    .navbar-item a {
-        padding: 10px 20px; /* Adjust padding for better touch targets */
-    }
-
-    #hamburger {
-        display: none; /* Hide the hamburger icon on larger screens */
-    }
-}
-
 
 
 

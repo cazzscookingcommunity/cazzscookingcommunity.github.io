@@ -72,33 +72,29 @@
             <a href="#main" tabindex="-1"><img src="/components/icons/top-arrow-svgrepo-com.svg" title="Scroll to top" /></a>
         </div> 
 
-        <!-- HEADER -->
+        <!-- HEADER SECTION -->
         <header>
             <div class="container">
-
-                <div class="row">
-                    <div class="twelve columns">
-                        <h2 class="heading brand">Cazz's Cooking Community</h2>
-                    </div> 
+            <div class="row header-content">
+                <div class="twelve columns">
+                <div class="header-flex">
+                    <h2 class="heading brand">Cazz's Cooking Community</h2>
+                    <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+                    <a href="javascript:void(0);" id="hamburger" onclick="mobileMenu()">
+                    <i class="fa fa-bars"></i>
+                    </a>
                 </div>
-
-                <nav class="navbar">
-                    <div class="row">
-                      <div class="twelve columns">
-                        <ul class="navbar-list" id="navbar-list">
-                          <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
-                          <li class="navbar-item"><a href="/recipe-all.html">All Recipes</a></li>
-                          <li class="navbar-item"><a href="/recipe-add.html">Create New Recipe</a></li>
-                          <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
-                        </ul>
-                        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
-                        <a href="javascript:void(0);" id="hamburger" onclick="mobileMenu()">
-                          <i class="fa fa-bars"></i>
-                        </a>
-                      </div>
-                    </div>
-                  </nav>
-
+                </div>
+            </div> 
+    
+            <nav class="navbar">
+                <ul class="navbar-list" id="navbar-list">
+                <li class="navbar-item clearButton"><a href="/index.html">Home</a></li>
+                <li class="navbar-item"><a href="/recipe-all.html">All Recipes</a></li>
+                <li class="navbar-item"><a href="/recipe-add.html">Create New Recipe</a></li>
+                <li class="navbar-item"><a href="javascript:history.back()">Back</a></li>
+                </ul>
+            </nav>
             </div>
         </header>
         
@@ -119,7 +115,7 @@
 
                     <!-- meal image card -->
                     <div class="four columns mealMetadata">
-                        <p><strong>Serves:</strong><span>6</span></p>
+                        <p><strong>Serves:</strong><span id="servings">6</span></p>
                         <p><strong>Category:</strong><span>Dinner, Lunch</span></p>
                         <p><strong>Prep Time:</strong><span>30 mins</span></p>
                         <p><strong>Cook Time:</strong><span>10 mins</span></p>
