@@ -1,28 +1,40 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Ashmas Mash Spud</title>
-  <filename>ashmas_mash_spud.xml</filename>
-  <thumbnail>ashmas_mash_spud.jpeg</thumbnail>
-  <category/>
-  <ingredient>4 large potatoes </ingredient>
-  <ingredient>1-3 dried chillies</ingredient>
-  <ingredient>1 onion chopped (omit for FODMAP)</ingredient>
-  <ingredient>1-2 garlic cloves crushed </ingredient>
-  <ingredient>2 TBSP mustard oil*</ingredient>
-  <ingredient>3-4 TBSP butter melted</ingredient>
-  <ingredient>1-3 spring onions chopped </ingredient>
-  <ingredient>salt and pepper</ingredient>
-  <step>Boil potatoes in a pot with the skin on, until soft but not falling apart.</step>
-  <step>While spuds are cooking, heat fry pan and add oil.</step>
-  <step>Cook onion, if using slow and low for about 10 minutes.</step>
-  <step>Add garlic and crushed up chilli (use your hands to crushed chilli, but remember to wash hands well afterwards.</step>
-  <step>) Fry well until all golden and brown.</step>
-  <step>Once spuds are cooled slightly remove skin and mash well.</step>
-  <step>Add the entire contents of the fry pan, add salt and pepper to taste and melted butter and stir well.</step>
-  <step>Garnish with spring onions if desired.</step>
-  <step>Serve with slow cook roast on previous post.</step>
-  <step>Yum yum.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Ashmas Mash Spud</title>
+<filename>ashmas_mash_spud.xml</filename>
+<thumbnail>ashmas_mash_spud.jpeg</thumbnail>
+<category>Sides</category>
+<diet>LowSugar</diet>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<diet>Vegetarian</diet>
+<diet>HistamineFree</diet>
+<yield>4</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT40M</cookTime>
+<ingredient>4 large potatoes </ingredient>
+<ingredient>1-3 dried chillies</ingredient>
+<ingredient>1 onion chopped (omit for FODMAP)</ingredient>
+<ingredient>1-2 garlic cloves crushed </ingredient>
+<ingredient>2 TBSP mustard oil*</ingredient>
+<ingredient>3-4 TBSP butter melted</ingredient>
+<ingredient>1-3 spring onions chopped </ingredient>
+<ingredient>salt and pepper</ingredient>
+<step>Boil potatoes in a pot with the skin on, until soft but not falling apart. About 20 minutes.</step>
+<step>While spuds are cooking, heat fry pan and add oil.</step>
+<step>Cook onion, if using slow and low for about 10 minutes.</step>
+<step>Add garlic and crushed up chilli (use your hands to crushed chilli, but remember to wash hands well afterwards.)</step>
+<step>Fry well until all golden and brown.</step>
+<step>Once spuds are cooled slightly remove skin and mash well.</step>
+<step>Add the entire contents of the fry pan, add salt and pepper to taste, and stir in melted butter and stir well.</step>
+<step>Garnish with spring onions if desired.</step>
+<step>Serve with slow cook roast on previous post.</step>
+<step>Yum yum.</step>
 </recipe>
+
