@@ -130,7 +130,7 @@ h1.brand, h2.heading.brand{
 .header-flex {
     display: flex;
     flex-direction: row;
-    gap: 10px;
+    gap: 20px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -141,7 +141,7 @@ h1.brand, h2.heading.brand{
     order: 2;
     margin: 0;
     text-align: left;
-    font-size: 4vw;
+    font-size: clamp(1.25rem, 0.625rem + 3.125vw, 2.5rem);
 }
 
 #hamburger {
