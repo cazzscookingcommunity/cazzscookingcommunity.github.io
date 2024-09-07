@@ -1,0 +1,167 @@
+/* RECIPE 
+--------------------------------------------------------------- */
+.recipe-label {
+    margin-right:20px;
+    margin-bottom:0px;
+    font-weight:bold;
+    text-transform:uppercase;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+/* RECIPE METADATA, DIET & NUTRITION 
+--------------------------------------------------------------- */
+.mealMetadata p, .diet-info p {
+    display: flex;
+    gap: 10px; /* Space between the heading and the content */
+    align-items: flex-start; /* Aligns the content to the top */
+    margin-bottom: 0;
+}
+
+.mealMetadata strong, .diet-info strong {
+    flex-shrink: 0; /* Prevents the heading from shrinking */
+    min-width: 120px; /* Fixed width for the heading, adjust as necessary */
+}
+
+.mealMetadata span, .diet-info span {
+    display: inline-block;
+    margin-left: -10px; /* Negative margin to remove leading space */
+    padding-left: 10px; /* Aligns the content correctly with the heading */
+    text-indent: 0; /* Ensures no indentation is applied */
+}
+
+.row.mealMetadata { display:flex; flex-direction:column; gap:1rem; }
+.four.columns.mealMetadata { order:2; }
+
+#mealImgContainer {
+    order:1; 
+    position: relative; /* Ensures absolute positioning of child elements */
+}
+
+@media (min-width: 768px) {
+    .row.mealMetadata { flex-direction:row; align-items: start; }
+    .four.columns.mealMetadata { order:1; }
+    #mealImgContainer { order:2; }
+}
+
+
+#mealImg {width:100%; border-radius:100%;}
+#mealActions {width: 100%; margin: 0 auto; text-align: center;}
+
+div.cardActions > a {text-decoration-line: none;}
+
+div#cardActions {margin: 10px 0px;}
+img.cardAction {width:15%; cursor:pointer; margin-left: 5px; margin-right: 10px;}
+img.cardAction:hover {background-color: #689f38}
+
+
+
+
+/* RECIPE INGREDIENTS 
+--------------------------------------------------------------- */
+/* the ul and li is inserted by recipe.js */
+#ingredients ul {
+    padding-left: 0;
+    margin-bottom: 0;
+}
+
+#ingredients ul li {
+    padding-left: 1.7em; /* Add padding to create space for the bullets */
+    text-indent: -1.5em; /* Pull the first line back to align with the bullet */
+    line-height: 1em; /* tight line spacing within a bullet */
+    margin-bottom: 0.5em; /* space between bullets */
+}
+
+/* RECIPE INSTRUCTIONS  
+--------------------------------------------------------------- */
+
+#recipe-steps ol {
+    counter-reset: step-counter;
+    list-style-type: none;
+}
+
+#recipe-steps ol li {
+    margin: 0;
+    position: relative;
+    padding-left: 4em;
+    text-indent: 0em;
+    line-height: 1em;
+    margin-bottom: 0.5em;
+}
+
+#recipe-steps ol li::before {
+    counter-increment: step-counter;
+    content: "Step " counter(step-counter) ": ";
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+#recipe-steps ol li p {
+    margin: 0;
+    padding: 0;
+    text-indent: 1.5em;
+}
+
+
+
+
+
+
+
+
+@media print {
+    /* Hide elements that should not be printed */
+    .goTop, .navbar, footer, #cardActions, #food-label, #hamburger, .favourite {
+        display: none;
+    }
+
+    /* Adjust the layout for printing */
+    body {
+        font-size: 12pt; /* Adjust as needed */
+        line-height: 1.5;
+        margin: 20mm; /* Add margin for paper */
+    }
+
+    header {
+        display: block;
+        text-align: center;
+        /* margin-bottom: 15mm; */
+    }
+
+    /* Ensure the recipe title is prominent */
+    .heading.brand {
+        font-size: 24pt;
+        margin-bottom: 10mm;
+    }
+
+    /* Format the recipe sections */
+    #recipe {
+        margin-bottom: 15mm;
+    }
+
+    /* Ensure ingredients and instructions are clearly separated */
+    #ingredients, #recipe-steps {
+        margin-bottom: 10mm;
+    }
+
+    /* Style the print table */
+    .performance-facts__table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .performance-facts__table th, .performance-facts__table td {
+        border: 1px solid #000;
+        padding: 5px;
+        text-align: left;
+    }
+
+    .performance-facts__table th {
+        background-color: #f0f0f0;
+    }
+
+    .performance-facts__table--grid th, .performance-facts__table--grid td {
+        border: 1px solid #ddd;
+    }
+}
