@@ -116,7 +116,7 @@ def parse_ingredients_and_instructions(root):
     for part in root.findall('ns:part', namespaces=ns):
         part_name = part.findtext('ns:title', namespaces=ns)
         ingredients_list += f"<strong>{part_name}:</strong><ul>"
-        instructions_list += f"<strong>{part_name}:</strong><ol'>"
+        instructions_list += f"<strong>{part_name}:</strong><ol>"
 
         for ingredient in part.findall('ns:ingredient', namespaces=ns):
             ingredients_list += f"<li>{ingredient.text}</li>"
