@@ -129,6 +129,8 @@ h1.brand, h2.heading.brand{
 
 .header-flex {
     display: flex;
+    flex-direction: row;
+    gap: 10px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -136,6 +138,7 @@ h1.brand, h2.heading.brand{
 
 .heading.brand {
     flex: 1; /* Allow the heading to take the available space */
+    order: 2;
     margin: 0;
     text-align: left;
     font-size: 4vw;
@@ -143,6 +146,7 @@ h1.brand, h2.heading.brand{
 
 #hamburger {
     display: block; /* Always show the hamburger on mobile */
+    order: 1;
     cursor: pointer;
     font-size: 24px;
     color: #689f38;
@@ -353,7 +357,7 @@ input#imageName {width: 50%;}
     display: flex;
     gap: 10px; /* Space between the heading and the content */
     align-items: flex-start; /* Aligns the content to the top */
-    margin-bottom: 0.7rem;
+    margin-bottom: 0;
 }
 
 .mealMetadata strong, .diet-info strong {
