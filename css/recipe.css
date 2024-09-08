@@ -44,6 +44,14 @@
     #mealImgContainer { order:2; }
 }
 
+@media print {
+    .row.mealMetadata { flex-direction:column; align-items: start; }
+    .four.columns.mealMetadata { order:2; }
+    #mealImgContainer { order:1; }
+
+
+}
+
 
 #mealImg {width:100%; border-radius:100%;}
 #mealActions {width: 100%; margin: 0 auto; text-align: center;}
@@ -120,7 +128,7 @@ img.cardAction:hover {background-color: #689f38}
     body {
         font-size: 12pt; /* Adjust as needed */
         line-height: 1.5;
-        margin: 20mm; /* Add margin for paper */
+        margin: 0; /* Add margin for paper */
     }
 
     header {
@@ -131,8 +139,8 @@ img.cardAction:hover {background-color: #689f38}
 
     /* Ensure the recipe title is prominent */
     .heading.brand {
-        font-size: 24pt;
-        margin-bottom: 10mm;
+        /* font-size: 24pt; */
+        margin-bottom: 0;
     }
 
     /* Format the recipe sections */
