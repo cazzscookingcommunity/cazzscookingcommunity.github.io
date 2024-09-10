@@ -10,8 +10,9 @@
 <filename>lasagna.xml</filename>
 <thumbnail>lasagna.jpeg</thumbnail>
 <category>Beef</category>
-<diet>LowSugar</diet>
-<yield>8</yield>
+<category>Dinner</category>
+<category>Lunch</category>
+<yield>6</yield>
 <prepTime>PT40M</prepTime>
 <cookTime>PT60M</cookTime>
 <part><title>Base</title>
@@ -55,7 +56,7 @@
 <step>Keep adding milk in the same fashion in small amounts at a time until all the milk is used up.</step>
 <step>Some times you have to add a bit more milk.</step>
 <step>Add the Salt and Pepper to taste and grate the nutmeg in and stir.</step>
-<step>Use immediately!</step>
+<step>Use immediately!.</step>
 </part>
 </recipe>
 
