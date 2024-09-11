@@ -4,13 +4,18 @@
 <recipe
     xmlns="https://cazzscookingcommunity.github.io"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
 <title>Awesome Cappuccino Mix</title>
 <filename>awesome_cappuccino_mix.xml</filename>
 <thumbnail>awesome_cappuccino_mix.jpeg</thumbnail>
 <category>Drink</category>
+<category>Breakfast</category>
+<category>Snack</category>
 <diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
+<diet>HistamineFree</diet>
 <yield>24</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT5M</cookTime>
