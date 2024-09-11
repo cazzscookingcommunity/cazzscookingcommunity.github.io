@@ -1,27 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Three Ingredient Cookies</title>
-  <filename>three_ingredient_cookies.xml</filename>
-  <thumbnail>three_ingredient_cookies.jpeg</thumbnail>
-  <category>Snack</category>
-  <category>Dessert</category>
-  <category>Breakfast</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegetarian</diet>
-  <diet>DiaryFree</diet>
-  <yield>24</yield>
-  <prepTime>PT15M</prepTime>
-  <cookTime>PT8M</cookTime>
-  <ingredient>1 cup peanut butter (smooth)</ingredient>
-  <ingredient>1/2 cup sugar</ingredient>
-  <ingredient>1 egg</ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>In a mixer combine all ingredients and mix until combined.</step>
-  <step>Scoop out 1 TBSP of mixture and roll into a ball.</step>
-  <step>Place on a line baking sheet.</step>
-  <step>Once sheet is full use the back of a fork to flatten each cookie.</step>
-  <step>Bake in oven for 8-10 minutes.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Three Ingredient Cookies</title>
+<filename>three_ingredient_cookies.xml</filename>
+<thumbnail>three_ingredient_cookies.jpeg</thumbnail>
+<category>Snack</category>
+<category>Dessert</category>
+<category>Breakfast</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>DiaryFree</diet>
+<yield>24</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT8M</cookTime>
+<ingredient>1 cup peanut butter (smooth)</ingredient>
+<ingredient>1/2 cup sugar</ingredient>
+<ingredient>1 egg</ingredient>
+<step>Preheat oven to 180C.</step>
+<step>In a mixer combine all ingredients and mix until combined.</step>
+<step>Scoop out 1 TBSP of mixture and roll into a ball.</step>
+<step>Place on a line baking sheet.</step>
+<step>Once sheet is full use the back of a fork to flatten each cookie, with the back of a fork.</step>
+<step>Bake in oven for 8-10 minutes.</step>
 </recipe>
+
