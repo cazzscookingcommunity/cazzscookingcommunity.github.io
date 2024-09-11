@@ -1,33 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Muesli Cookies</title>
-  <filename>muesli_cookies.xml</filename>
-  <thumbnail>muesli_cookies.jpeg</thumbnail>
-  <category>Snack</category>
-  <category>Breakfast</category>
-  <category>Dessert</category>
-  <diet>GFO</diet>
-  <yield>24</yield>
-  <prepTime>PT15M</prepTime>
-  <cookTime>PT10M</cookTime>
-  <ingredient>1 1/2 cups muesli (replace with Gluten free if desired)</ingredient>
-  <ingredient>1 cup desiccated coconut</ingredient>
-  <ingredient>1/2 SR Flour (replace with Gluten free if desired)</ingredient>
-  <ingredient>1 teaspoon cinnamon</ingredient>
-  <ingredient>125 gms butter</ingredient>
-  <ingredient>1/4 cup brown sugar</ingredient>
-  <ingredient>1/4 cup honey</ingredient>
-  <step>Preheat oven to 160C.</step>
-  <step>Place grease two baking trays and set aside.</step>
-  <step>Place all dry ingredient except brown sugar, in a bowl and set aside.</step>
-  <step>Melt butter in a small sauce pan then add honey and sugar.</step>
-  <step>Once sugar dissolved, stir well and add to dry ingredients.</step>
-  <step>Stir well and place heap TBsp amounts on baking trays (allow for spreading).</step>
-  <step>Place in oven for 8-10 mins or until golden brown.</step>
-  <step>Remove from oven an leave on the tray for 10 minutes.</step>
-  <step>Remove cookies from tray with spatula to a wire rack to cool completely.</step>
-  <step>Once completely cool store in air tight container.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Muesli Cookies</title>
+<filename>muesli_cookies.xml</filename>
+<thumbnail>muesli_cookies.jpeg</thumbnail>
+<category>Snack</category>
+<category>Breakfast</category>
+<category>Dessert</category>
+<diet>GFO</diet>
+<diet>Vegetarian</diet>
+<yield>24</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT10M</cookTime>
+<ingredient>1 1/2 cups muesli (replace with Gluten free if necessary)</ingredient>
+<ingredient>1 cup desiccated coconut</ingredient>
+<ingredient>1/2 SR Flour (replace with Gluten free if desired)</ingredient>
+<ingredient>1 teaspoon cinnamon</ingredient>
+<ingredient>125 gms butter</ingredient>
+<ingredient>1/4 cup brown sugar</ingredient>
+<ingredient>1/4 cup honey</ingredient>
+<step>Preheat oven to 160C.</step>
+<step>Place grease two baking trays and set aside.</step>
+<step>Place all dry ingredient except brown sugar, in a bowl and set aside.</step>
+<step>Melt butter in a small sauce pan then add honey and sugar.</step>
+<step>Once sugar dissolved, stir well and add to dry ingredients.</step>
+<step>Stir well and place heap TBsp amounts on baking trays (allow for spreading).</step>
+<step>Place in oven for 8-10 mins or until golden brown.</step>
+<step>Remove from oven an leave on the tray for 10 minutes.</step>
+<step>Remove cookies from tray with spatula to a wire rack to cool completely.</step>
+<step>Once completely cool store in air tight container.</step>
 </recipe>
+
