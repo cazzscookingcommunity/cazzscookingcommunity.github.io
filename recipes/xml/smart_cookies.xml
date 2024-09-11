@@ -1,32 +1,37 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Smart Cookies</title>
-  <filename>smart_cookies.xml</filename>
-  <thumbnail>smart_cookies.jpeg</thumbnail>
-  <category>Snack</category>
-  <category>Dessert</category>
-  <category>Breakfast</category>
-  <diet/>
-  <yield>24</yield>
-  <prepTime>PT15M</prepTime>
-  <cookTime>PT30M</cookTime>
-  <comment>c/o Kellogg with cazzie tweaks </comment>
-  <ingredient>2 cups cereal</ingredient>
-  <ingredient>2 cups SR flour</ingredient>
-  <ingredient>1/4 teaspoon bicarbonate soda</ingredient>
-  <ingredient>1/2 cup brown sugar </ingredient>
-  <ingredient>150 gms butter melted </ingredient>
-  <ingredient>Zest one orange </ingredient>
-  <ingredient>1/2 cup orange juice (1 orange)</ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>Mix all dry ingredients in a bowl and stir through orange zest.</step>
-  <step>Pour in butter and orange juice, mix until just combined.</step>
-  <step>Make TBSP balls from mixture and place evenly on lined cookie tray.</step>
-  <step>Press balls down slightly with the back of a fork.</step>
-  <step>Place in oven for 20-30 mins or until golden brown.</step>
-  <step>Once completely cool store in airtight container up to a week.</step>
-  <step>Freeze extras for later.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Smart Cookies</title>
+<filename>smart_cookies.xml</filename>
+<thumbnail>smart_cookies.jpeg</thumbnail>
+<category>Snack</category>
+<category>Dessert</category>
+<category>Breakfast</category>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
+<yield>24</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT30M</cookTime>
+<comment>c/o Kellogg with cazzie tweaks </comment>
+<ingredient>2 cups cereal</ingredient>
+<ingredient>2 cups SR flour</ingredient>
+<ingredient>1/4 teaspoon bicarbonate soda</ingredient>
+<ingredient>1/2 cup brown sugar </ingredient>
+<ingredient>150 gms butter melted </ingredient>
+<ingredient>Zest one orange </ingredient>
+<ingredient>1/2 cup orange juice (1 orange)</ingredient>
+<step>Preheat oven to 180C.</step>
+<step>Mix all dry ingredients in a bowl and stir through orange zest.</step>
+<step>Pour in butter and orange juice, mix until just combined.</step>
+<step>Make TBSP balls from mixture and place evenly on lined cookie tray.</step>
+<step>Press balls down slightly with the back of a fork.</step>
+<step>Place in oven for 20-30 mins or until golden brown.</step>
+<step>Once completely cool store in airtight container up to a week.</step>
+<step>Freeze extras for later.</step>
 </recipe>
+
