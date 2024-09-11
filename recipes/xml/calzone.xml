@@ -1,30 +1,34 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Calzone</title>
-  <filename>calzone.xml</filename>
-  <thumbnail>calzone.jpeg</thumbnail>
-  <category>Lunch</category>
-  <category>Sides</category>
-  <category>Breakfast</category>
-  <diet>LowSugar</diet>
-  <yield>3</yield>
-  <prepTime>PT30M</prepTime>
-  <cookTime>PT45M</cookTime>
-  <ingredient>200-300gms pizza dough</ingredient>
-  <ingredient>90-100 gms Tapenade</ingredient>
-  <ingredient>200 gms grated cheese</ingredient>
-  <ingredient>Olive oil</ingredient>
-  <ingredient>Flour</ingredient>
-  <step>Heat oven to 180 degrees and spray baking tray with olive oil, set aside.</step>
-  <step>Flour bench and roll out dough to a big oval and till the dough is approximately 2-3 mm thick.</step>
-  <step>Spread tapenade along the middle and sprinkle cheese on top of tapenade.</step>
-  <step>Paint a little olive oil on the edges and bring the long edges together in the middle and squeeze them together and fold them over as you move along the length.</step>
-  <step>It should look like a pasty with no gaps or else your contents will leak out.</step>
-  <step>Carefully lift onto tray and paint entire surface generously with olive oil.</step>
-  <step>Bake for 20-30 mins until golden brown.</step>
-  <step>Cut in slices and serve hot or cold.</step>
-  <step>Make two at a time because it gets eaten very quickly.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Calzone</title>
+<filename>calzone.xml</filename>
+<thumbnail>calzone.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Sides</category>
+<category>Breakfast</category>
+<diet>LowSugar</diet>
+<yield>4</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT45M</cookTime>
+<ingredient>200-300gms pizza dough</ingredient>
+<ingredient>90-100 gms Tapenade</ingredient>
+<ingredient>200 gms grated cheese</ingredient>
+<ingredient>Olive oil</ingredient>
+<ingredient>Flour</ingredient>
+<step>Heat oven to 180 degrees and spray baking tray with olive oil, set aside.</step>
+<step>Flour bench and roll out dough to a big oval and till the dough is approximately 2-3 mm thick.</step>
+<step>Spread tapenade along the middle and sprinkle cheese on top of tapenade.</step>
+<step>Paint a little olive oil on the edges and bring the long edges together in the middle and squeeze them together and fold them over as you move along the length.</step>
+<step>It should look like a pasty with no gaps or else your contents will leak out.</step>
+<step>Carefully lift onto tray and paint entire surface generously with olive oil.</step>
+<step>Bake for 20-30 mins until golden brown.</step>
+<step>Cut in slices and serve hot or cold.</step>
+<step>Make two at a time because it gets eaten very quickly!</step>
 </recipe>
+
