@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
 
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="https://cazzscookingcommunity.github.io"
-    xmlns="https://cazzscookingcommunity.github.io" elementFormDefault="qualified">
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns="https://cazzscookingcommunity.github.io"
+           targetNamespace="https://cazzscookingcommunity.github.io"
+           elementFormDefault="qualified">
 
     <xs:simpleType name="dietType">
         <xs:restriction base="xs:string">
@@ -47,7 +49,7 @@
 
     <xs:complexType name="partType">
         <xs:sequence>
-            <xs:element name="title" type="xs:token" />
+            <xs:element name="title" type="xs:string" />
             <xs:element name="ingredient" type="xs:string" maxOccurs="unbounded" />
             <xs:element name="step" type="xs:string" maxOccurs="unbounded" />
         </xs:sequence>
@@ -59,7 +61,6 @@
             <xs:maxInclusive value="36"/>
         </xs:restriction>
     </xs:simpleType>
-
 
     <xs:simpleType name="xmlFilenameType">
         <xs:restriction base="xs:string">
@@ -81,14 +82,13 @@
 
     <xs:simpleType name="xmlString">
         <xs:restriction base="xs:string">
-            <xs:pattern value="[^<>&]*" /> <!-- Allows any sequence of characters except <, >, & -->
+            <xs:pattern value="[^&lt;&gt;&amp;]*" /> <!-- Allows any sequence of characters except <, >, & -->
         </xs:restriction>
     </xs:simpleType>
 
-    
     <xs:complexType name="recipeType">
         <xs:sequence>
-            <xs:element name="title" type="xs:xmlString" default="Cazz's banana and chia milkshake" />
+            <xs:element name="title" type="xmlString" default="Cazz's banana and chia milkshake" />
             <xs:element name="filename" type="xmlFilenameType"  default="cazzs_banana_milkshake.xml"/>
             <xs:element name="thumbnail" type="imgType"  default="banana_milkshake.jpeg"/>
             <xs:element name="category" type="categoryType" minOccurs="1" maxOccurs="3" />
@@ -96,10 +96,10 @@
             <xs:element name="yield" type="yield" default="1" />
             <xs:element name="prepTime" type="time" default="P7DT0H0M" />
             <xs:element name="cookTime" type="time" default="PT0H0M" />
-            <xs:element name="comment" type="xs:xmlString" minOccurs="0" maxOccurs="1" />
+            <xs:element name="comment" type="xmlString" minOccurs="0" maxOccurs="1" />
             <xs:element name="part" type="partType" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="ingredient" type="xs:xmlString" minOccurs="0" maxOccurs="unbounded" />
-            <xs:element name="step" type="xs:xmlString" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="ingredient" type="xmlString" minOccurs="0" maxOccurs="unbounded" />
+            <xs:element name="step" type="xmlString" minOccurs="0" maxOccurs="unbounded" />
         </xs:sequence>
     </xs:complexType>
 
