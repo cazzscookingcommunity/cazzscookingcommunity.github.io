@@ -1,41 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Jasmine's Red Lentil Dhal</title>
-  <filename>jasmines_red_lentil_dhal.xml</filename>
-  <thumbnail>jasmines_red_lentil_dhal.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>Vegetarian</diet>
-  <yield>4</yield>
-  <prepTime>P15</prepTime>
-  <cookTime>P45</cookTime>
-  <part>
-    <title>Main</title>
-    <ingredient>1 cup red lentils</ingredient>
-    <ingredient>1.5 lt stock</ingredient>
-    <ingredient>1 tsp turmeric</ingredient>
-    <ingredient>1 tsp salt</ingredient>
-    <ingredient>2 handfuls spinach</ingredient>
-    <ingredient>4 cups water</ingredient>
-    <step>Roughly chop spinach.</step>
-    <step>Add the first 5 ingredients to a pot. Bring to a boil, then turn down to a simmer.</step>
-    <step>Simmer for 45 minutes or until lentils loose their shape.</step>
-  </part>
-  <part>
-    <title>Curry Blend</title>
-    <ingredient>50 gms unsalted butter</ingredient>
-    <ingredient>1 tsp cumin seeds</ingredient>
-    <ingredient>4 cloves of garlic</ingredient>
-    <ingredient>3 whole dried chillies or 1 tsp chilli flakes</ingredient>
-    <ingredient>1/2 tsp garam masala</ingredient>
-    <ingredient>1/2 tsp paprika</ingredient>
-    <ingredient>1/2 tsp salt</ingredient>
-    <step>While lentils are cooking. Melt butter in a fry pan and add salt and cumin seeds</step>
-    <step>Once cummin seeds begin to sputter, add garlic and other spices.</step>
-    <step>Cook for a further minute and remove from heat.</step>
-    <step>Once the lentils are done and the curry blend is ready, pour the curry blend over the lentils and serve with rice and Greek Yogurt.</step>
-  </part>
-  <htmlFilename>jasmines_red_lentil_dhal.html</htmlFilename>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Jasmine's Red Lentil Dhal</title>
+<filename>jasmines_red_lentil_dhal.xml</filename>
+<thumbnail>jasmines_red_lentil_dhal.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Lunch</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<diet>DiaryFree</diet>
+<yield>4</yield>
+<prepTime>P15M</prepTime>
+<cookTime>P45M</cookTime>
+<part><title>Main</title>
+<ingredient>1 cup red lentils</ingredient>
+<ingredient>1.5 lt stock</ingredient>
+<ingredient>1 tsp turmeric</ingredient>
+<ingredient>1 tsp salt</ingredient>
+<ingredient>2 handfuls spinach</ingredient>
+<ingredient>4 cups water</ingredient>
+<step>Roughly chop spinach.</step>
+<step>Add the first 5 ingredients to a pot. Bring to a boil, then turn down to a simmer.</step>
+<step>Simmer for 45 minutes or until lentils loose their shape.</step>
+</part>
+<part><title>Curry Blend</title>
+<ingredient>50 gms unsalted butter</ingredient>
+<ingredient>1 tsp cumin seeds</ingredient>
+<ingredient>4 cloves of garlic</ingredient>
+<ingredient>3 whole dried chillies or 1 tsp chilli flakes</ingredient>
+<ingredient>1/2 tsp garam masala</ingredient>
+<ingredient>1/2 tsp paprika</ingredient>
+<ingredient>1/2 tsp salt</ingredient>
+<step>While lentils are cooking. Melt butter in a fry pan and add salt and cumin seeds.</step>
+<step>Once cummin seeds begin to sputter, add garlic and other spices.</step>
+<step>Cook for a further minute and remove from heat.</step>
+<step>Once the lentils are done and the curry blend is ready, pour the curry blend over the lentils and serve with rice and Greek Yogurt.</step>
+</part>
 </recipe>
+
