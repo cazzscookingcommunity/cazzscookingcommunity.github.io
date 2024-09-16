@@ -10,6 +10,9 @@
 <filename>grandmas_rice_custard.xml</filename>
 <thumbnail>grandmas_rice_custard.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Breakfast</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
 <yield>6</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT20M</cookTime>
