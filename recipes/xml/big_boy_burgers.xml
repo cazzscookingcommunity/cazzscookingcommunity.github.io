@@ -12,6 +12,8 @@
 <category>Beef</category>
 <category>Dinner</category>
 <category>Lunch</category>
+<diet>GFO</diet>
+<diet>LowSugar</diet>
 <yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT15M</cookTime>
