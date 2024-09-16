@@ -1858,9 +1858,9 @@
         "title": "Pad Thai Noodles",
         "htmlFilename": "pad_thai_noodles.html",
         "thumbnail": "pad_thai_noodles.jpeg",
-        "category": "Dinner",
-        "diet": "",
-        "ingredients": "250gms Changs Thai Style rice noodles  1 TBsp oil 1 TBsp chopped garlic  4-5 Chicken thigh fillets stripped 220gms bean sprouts rinsed 1 red chilli sliced (optional) 5 spring onions chopped  2 eggs lightly beaten  2 TBsp lime juice  2 teaspoons sugar  2 TBsp fish sauce 1 TBsp chilli sauce"
+        "category": "Dinner Lunch",
+        "diet": "GlutenFree LowSugar VGO",
+        "ingredients": "250gms Changs Thai Style rice noodles  1 TBsp oil 1 TBsp chopped garlic  4-5 Chicken thigh fillets stripped (omitted for vegetarian) 220gms bean sprouts rinsed 1 red chilli sliced (optional) 5 spring onions chopped  2 eggs lightly beaten  2 TBsp lime juice  2 teaspoons sugar  2 TBsp fish sauce 1 TBsp chilli sauce"
     },
     {
         "id": "zucchini_and_sweet_spud_fritters.xml",
