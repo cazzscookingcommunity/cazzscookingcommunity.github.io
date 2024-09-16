@@ -1,35 +1,46 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Nasi Goreng</title>
-  <filename>nasi_goreng.xml</filename>
-  <thumbnail>nasi_goreng.jpeg</thumbnail>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-  <comment>c/o New Idea with cazzie tweaks.   </comment>
-  <ingredient>2-3 cups long grain rice cooked </ingredient>
-  <ingredient>2 TBsp oil</ingredient>
-  <ingredient>400gms pork mince*</ingredient>
-  <ingredient>2 cloves garlic crushed </ingredient>
-  <ingredient>1-2 chillis chopped </ingredient>
-  <ingredient>2 carrots grated</ingredient>
-  <ingredient>1/2 red pepper chopped </ingredient>
-  <ingredient>2 Bok Choy washed and chopped </ingredient>
-  <ingredient>1/4-1/2 cabbage shredded </ingredient>
-  <ingredient>3 spring onions chopped </ingredient>
-  <ingredient>4 TBsp soy sauce (GF)</ingredient>
-  <ingredient>4 TBsp tomatoe sauce </ingredient>
-  <ingredient>2 TBsp fish sauce</ingredient>
-  <ingredient>salt and pepper to taste</ingredient>
-  <ingredient>4-6 eggs fried (to serve)</ingredient>
-  <step>Heat oil in wok or large fry pan and cook garlic and chilli for about 5 minutes or until aromatic.</step>
-  <step>Cook pork until no longer pink then add rice, carrot, red capsicum and combined sauces.</step>
-  <step>Stir well and when it is heated through, add Bok Choy and cabbage.</step>
-  <step>Once Bok choy and cabbage has wilted stir well and sprinkle spring onions on top.</step>
-  <step>Serve in bowls with fried egg on top and an extra sprinkle of spring onions and extra chopped chilli if desired.</step>
-  <step>Substitute pork for chicken mince or chopped chicken meat.</step>
-  <step>You can also omit the meat to make it vegetarian.</step>
-  <step>Refrigerate if not all consumed for up to 3-5 days.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Nasi Goreng</title>
+<filename>nasi_goreng.xml</filename>
+<thumbnail>nasi_goreng.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Lunch</category>
+<category>Pork</category>
+<diet>GlutenFree</diet>
+<diet>LowSugar</diet>
+<diet>LowCarb</diet>
+<yield>6</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT15M</cookTime>
+<comment>c/o New Idea with cazzie tweaks.   </comment>
+<ingredient>2-3 cups long grain rice cooked </ingredient>
+<ingredient>2 TBsp oil</ingredient>
+<ingredient>400gms pork mince*</ingredient>
+<ingredient>2 cloves garlic crushed </ingredient>
+<ingredient>1-2 chillis chopped </ingredient>
+<ingredient>2 carrots grated</ingredient>
+<ingredient>1/2 red pepper chopped </ingredient>
+<ingredient>2 Bok Choy washed and chopped </ingredient>
+<ingredient>1/4-1/2 cabbage shredded </ingredient>
+<ingredient>3 spring onions chopped </ingredient>
+<ingredient>4 TBsp soy sauce (GF)</ingredient>
+<ingredient>4 TBsp tomatoe sauce </ingredient>
+<ingredient>2 TBsp fish sauce</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>4-6 eggs fried (to serve)</ingredient>
+<step>Heat oil in wok or large fry pan and cook garlic and chilli for about 5 minutes or until aromatic.</step>
+<step>Cook pork until no longer pink then add rice, carrot, red capsicum and combined sauces.</step>
+<step>Stir well and when it is heated through, add Bok Choy and cabbage.</step>
+<step>Once Bok choy and cabbage has wilted stir well and sprinkle spring onions on top. Fry eggs in a seperate fry pan, if using.</step>
+<step>Serve in bowls with fried egg on top and an extra sprinkle of spring onions and extra chopped chilli if desired.</step>
+<step>Substitute pork for chicken mince or chopped chicken meat.</step>
+<step>You can also omit the meat to make it vegetarian.</step>
+<step>Refrigerate if not all consumed for up to 3-5 days.</step>
 </recipe>
+
