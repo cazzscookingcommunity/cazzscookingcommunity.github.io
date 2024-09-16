@@ -14,6 +14,7 @@
             <xs:enumeration value="EggFree" />
             <xs:enumeration value="Vegan" />
             <xs:enumeration value="Vegetarian" />
+            <xs:enumeration value="VGO" />
             <xs:enumeration value="Paleo" />
             <xs:enumeration value="Keto" />
             <xs:enumeration value="DiaryFree" />
