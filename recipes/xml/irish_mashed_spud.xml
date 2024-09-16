@@ -1,30 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Irish Mashed Spud</title>
-  <filename>irish_mashed_spud.xml</filename>
-  <thumbnail>irish_mash_spud.jpeg</thumbnail>
-  <category>Dinner</category>
-  <ingredient>1/4 head cabbage chopped</ingredient>
-  <ingredient>3 rashes bacon chopped </ingredient>
-  <ingredient>2 TBsp olive oil</ingredient>
-  <ingredient>2 TBsp butter</ingredient>
-  <ingredient>1 stock chicken stock cube</ingredient>
-  <ingredient>1/4 cup water</ingredient>
-  <ingredient>4-6 cups ready made mashed spud</ingredient>
-  <ingredient>salt and pepper to taste</ingredient>
-  <step>Heat fry pan on medium heat and add olive oil then butter.</step>
-  <step>Once butter is melted add bacon and cook until crispy.</step>
-  <step>Next add water and stock cube,  crushing it into bits as you add it to the pan.</step>
-  <step>Add the cabbage and cover with a lid.</step>
-  <step>After five minutes lower heat to low and stir well.</step>
-  <step>Place lid back on fry pan and wait another 10 minutes or until the cabbage is wilted.</step>
-  <step>You can cook your spuds while you do this if you havent any prepared.</step>
-  <step>When the cabbage is done give it a good stir to incorporate all the ingredients.</step>
-  <step>Add hot prepared mash, stirring to combine both.</step>
-  <step>Serve with cracked pepper and some fresh herbs sprinkled on top.</step>
-  <step>Take care if adding salt because the bacon, stock cube and mash spud will all have salt added.</step>
-  <step>Great if you have some left over mash, or you can cheat and use  frozen mash or powder mash.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Irish Mashed Spud</title>
+<filename>irish_mashed_spud.xml</filename>
+<thumbnail>irish_mash_spud.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Lunch</category>
+<category>Breakfast</category>
+<diet>GlutenFree</diet>
+<diet>LowSugar</diet>
+<yield>6</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT20M</cookTime>
+<ingredient>1/4 head cabbage chopped</ingredient>
+<ingredient>3 rashes bacon chopped </ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>2 TBsp butter</ingredient>
+<ingredient>1 stock chicken stock cube</ingredient>
+<ingredient>1/4 cup water</ingredient>
+<ingredient>4-6 cups ready made mashed spud (about 6-8 spuds)</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<step>Heat fry pan on medium heat and add olive oil then butter.</step>
+<step>Once butter is melted add bacon and cook until crispy.</step>
+<step>Next add water and stock cube,  crushing th stock cube into bits as you add it to the pan.</step>
+<step>Add the cabbage and cover with a lid.</step>
+<step>After five minutes lower heat to low and stir well.</step>
+<step>Place lid back on fry pan and wait another 10 minutes or until the cabbage is wilted.</step>
+<step>You can cook your spuds while you do this if you havent any prepared.</step>
+<step>When the cabbage is done give it a good stir to incorporate all the ingredients.</step>
+<step>Add hot prepared mash, stirring to combine both.</step>
+<step>Serve with cracked pepper and some fresh herbs sprinkled on top.</step>
+<step>Take care if adding salt because the bacon, stock cube and mash spud will all have salt added.</step>
+<step>Great if you have some left over mash, or you can cheat and use  frozen mash or powder mash.</step>
 </recipe>
+
