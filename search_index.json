@@ -1669,9 +1669,9 @@
         "title": "Quick Pasta Bake",
         "htmlFilename": "quick_pasta_bake.html",
         "thumbnail": "quick_pasta_bake.jpeg",
-        "category": "Dinner",
-        "diet": "",
-        "ingredients": "500gms pasta cooked per directions 200gms kalamata olives 300-400 gms chopped salami  2 cans chopped tomatoes  2 TBsp oregano  salt and pepper to paste 2-3 cups grated cheese "
+        "category": "Dinner Lunch Pork",
+        "diet": "GFO LowSugar EggFree",
+        "ingredients": "500gms pasta cooked per directions 200gms kalamata olives 300-400 gms chopped salami (optional) 2 cans chopped tomatoes  2 TBsp oregano  salt and pepper to paste 2-3 cups grated cheese "
     },
     {
         "id": "turkey_burgers.xml",
