@@ -1804,9 +1804,9 @@
         "title": "Oven Risotto with Sweet Spud",
         "htmlFilename": "oven_risotto_with_sweet_spud.html",
         "thumbnail": "oven_risotto_with_sweet_spud.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian",
-        "ingredients": "1 1/2 cups arborio rice 3 cloves garlic crushed 6 TBsp olive oil 1/2 cup dry white wine 3 1/2 cups chicken stock hot 1 cup Parmesan grated 50gms butter melted 1 sweet potato diced 180 gms baby spinach washed 4 bacon rashers chopped"
+        "category": "Dinner Pork",
+        "diet": "GlutenFree EggFree LowSugar",
+        "ingredients": "1 1/2 cups arborio rice 3 cloves garlic crushed 6 TBsp olive oil 1/2 cup dry white wine 3 1/2 cups chicken stock hot 1 cup Parmesan grated 50gms butter melted 1 sweet potato diced 180 gms baby spinach washed 4 bacon rashers chopped (optional)"
     },
     {
         "id": "chocolate_pud.xml",
