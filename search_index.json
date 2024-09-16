@@ -337,9 +337,9 @@
         "title": "Easy chicken dinner",
         "htmlFilename": "easy_chicken_dinner.html",
         "thumbnail": "easy_chicken_dinner.jpeg",
-        "category": "Dinner",
-        "diet": "",
-        "ingredients": "6-10 chicken thigh fillets 1/4 cup soy sauce 2-4 garlic cloves crushed 1-2 TBsp fresh lemon juice"
+        "category": "Dinner Poultry Lunch",
+        "diet": "LowSugar GFO Paleo Keto DiaryFree EggFree",
+        "ingredients": "6-10 chicken thigh fillets 1/4 cup soy sauce (GF if necessary) 2-4 garlic cloves crushed 1-2 TBsp fresh lemon juice"
     },
     {
         "id": "curry_rice_with_salmon.xml",
