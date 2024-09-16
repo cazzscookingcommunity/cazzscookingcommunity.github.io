@@ -10,6 +10,8 @@
 <filename>no_bake_oreo_cheese_cake.xml</filename>
 <thumbnail>no_bake_oreo_cheese_cake.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>10</yield>
 <prepTime>PT1H</prepTime>
 <cookTime>PT5H</cookTime>
