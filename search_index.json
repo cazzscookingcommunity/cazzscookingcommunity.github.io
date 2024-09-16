@@ -733,8 +733,8 @@
         "title": "Spinach Artichoke Quinoa Casserole",
         "htmlFilename": "spinach_artichoke_quinoa_casserole.html",
         "thumbnail": "spinach_artichoke_quinoa_casserole.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian GlutenFree",
+        "category": "Dinner Lunch",
+        "diet": "Vegetarian GlutenFree EggFree LowSugar",
         "ingredients": "1 cup quinoa  2 cups water 4 garlic clove crushed  1-2 TBsp olive oil 2 cups milk 1 stock cube 1 TBsp corn flour 2 cups artichoke hearts rinsed 4 handfuls spinach  1/2 cup Parmesan cheese grated  3/4 cup tasty cheese  1/2 teaspoon salt and pepper  Cooking spray"
     },
     {
@@ -841,9 +841,9 @@
         "title": "Irish Mashed Spud",
         "htmlFilename": "irish_mashed_spud.html",
         "thumbnail": "irish_mash_spud.jpeg",
-        "category": "Dinner",
-        "diet": "",
-        "ingredients": "1/4 head cabbage chopped 3 rashes bacon chopped  2 TBsp olive oil 2 TBsp butter 1 stock chicken stock cube 1/4 cup water 4-6 cups ready made mashed spud salt and pepper to taste"
+        "category": "Dinner Lunch Breakfast",
+        "diet": "GlutenFree LowSugar",
+        "ingredients": "1/4 head cabbage chopped 3 rashes bacon chopped  2 TBsp olive oil 2 TBsp butter 1 stock chicken stock cube 1/4 cup water 4-6 cups ready made mashed spud (about 6-8 spuds) salt and pepper to taste"
     },
     {
         "id": "smoked_salmon_cucumber.xml",
@@ -877,8 +877,8 @@
         "title": "Nasi Goreng",
         "htmlFilename": "nasi_goreng.html",
         "thumbnail": "nasi_goreng.jpeg",
-        "category": "Dinner",
-        "diet": "GlutenFree",
+        "category": "Dinner Lunch Pork",
+        "diet": "GlutenFree LowSugar LowCarb",
         "ingredients": "2-3 cups long grain rice cooked  2 TBsp oil 400gms pork mince* 2 cloves garlic crushed  1-2 chillis chopped  2 carrots grated 1/2 red pepper chopped  2 Bok Choy washed and chopped  1/4-1/2 cabbage shredded  3 spring onions chopped  4 TBsp soy sauce (GF) 4 TBsp tomatoe sauce  2 TBsp fish sauce salt and pepper to taste 4-6 eggs fried (to serve)"
     },
     {
@@ -1039,17 +1039,17 @@
         "title": "Carlys Dads Veggie Lasagna",
         "htmlFilename": "carlys_dads_veggie_lasagna.html",
         "thumbnail": "carlys_dad_veggie_lasagna.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian",
-        "ingredients": "1 large sweet potatoe peeled and chopped 2-3 corn cobs (cobs removed) 2 cups chopped cauliflower 2 cups chopped broccoli 2 bunches spinach washed and chopped  1-2 carrots chopped 1-2 sticks of celery chopped 1 can red beans rinsed and drained 1 can chopped tomatoes 750ml pasata 2 cups water 2 vegetable stock cubes 1 TBsp sugar 1 TBsp Italian herbs 2 bay leaves 3-5 garlic cloves crushed 2 TBsp olive oil Lasagna sheets salt and pepper to taste 300ml cooking cream 400-500gms grated cheese"
+        "category": "Dinner Lunch",
+        "diet": "Vegetarian GFO LowSugar EggFree",
+        "ingredients": "1 large sweet potatoe peeled and chopped 2-3 corn cobs (cobs removed) 2 cups chopped cauliflower 2 cups chopped broccoli 2 bunches spinach washed and chopped  1-2 carrots chopped 1-2 sticks of celery chopped 1 can red beans rinsed and drained 1 can chopped tomatoes 750ml pasata 2 cups water 2 vegetable stock cubes 1 TBsp sugar 1 TBsp Italian herbs 2 bay leaves 3-5 garlic cloves crushed 2 TBsp olive oil Lasagna sheets (GF if necessary) salt and pepper to taste 300ml cooking cream 400-500gms grated cheese"
     },
     {
         "id": "mac_and_cheese.xml",
         "title": "Mac and Cheese",
         "htmlFilename": "mac_and_cheese.html",
         "thumbnail": "mac_and_cheese.jpeg",
-        "category": "Dinner",
-        "diet": "",
+        "category": "Dinner Lunch Pork",
+        "diet": "GFO LowSugar",
         "ingredients": "500gms pasta cook 300-500gms bacon 2TBsp olive oil 2-3 cup grated tasty cheese  White Sauce 120 gms butter 1/3 cup flour 600ml milk 1 teaspoon seeded mustard White pepper and salt"
     },
     {
@@ -1138,8 +1138,8 @@
         "title": "GlutenFree Creamy Pasta",
         "htmlFilename": "glutenfree_creamy_pasta.html",
         "thumbnail": "gluten_free_creamy_paste.jpeg",
-        "category": "Dinner",
-        "diet": "GlutenFree",
+        "category": "Dinner Lunch",
+        "diet": "GlutenFree HistamineFree LowSugar",
         "ingredients": "1 packet gluten free spaghetti or fettuccine  1/4 cup olive oil 4 egg yolks 1/4 cup cream 1/4 cup butter melted 1/4 cup pine nuts 1/2 cup Grated Parmesan  8 garlic cloves sliced 4 hand fulls of rocket salt and pepper "
     },
     {
@@ -1318,8 +1318,8 @@
         "title": "Pizza Dough",
         "htmlFilename": "pizza_dough.html",
         "thumbnail": "pizza_dough.jpeg",
-        "category": "Dinner",
-        "diet": "",
+        "category": "Dinner Lunch Snack",
+        "diet": "LowSugar",
         "ingredients": "5 cups plain flour 1 1/2 teaspoon yeast (15ml teasp not 20ml teasp) 2 teaspoons salt 2 TBsp olive oil 500-600ml warm water Extra olive oil"
     },
     {
