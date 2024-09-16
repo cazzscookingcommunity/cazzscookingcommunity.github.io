@@ -11,7 +11,12 @@
 <thumbnail>steak_in_blackbean_sauce.jpeg</thumbnail>
 <category>Beef</category>
 <category>Dinner</category>
-<yield>8</yield>
+<diet>EggFree</diet>
+<diet>GFO</diet>
+<diet>Paleo</diet>
+<diet>Keto</diet>
+<diet>DiaryFree</diet>
+<yield>6</yield>
 <prepTime>P1DT30M</prepTime>
 <cookTime>PT20M</cookTime>
 <ingredient>500-700 grams rump steak</ingredient>
