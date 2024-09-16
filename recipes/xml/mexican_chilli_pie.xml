@@ -10,6 +10,8 @@
 <filename>mexican_chilli_pie.xml</filename>
 <thumbnail>mexican_chilli_pie.jpeg</thumbnail>
 <category>Beef</category>
+<category>Dinner</category>
+<diet>LowSugar</diet>
 <yield>8</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT30M</cookTime>
