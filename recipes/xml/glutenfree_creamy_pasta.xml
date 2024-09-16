@@ -10,7 +10,10 @@
 <filename>glutenfree_creamy_pasta.xml</filename>
 <thumbnail>gluten_free_creamy_paste.jpeg</thumbnail>
 <category>Dinner</category>
+<category>Lunch</category>
 <diet>GlutenFree</diet>
+<diet>HistamineFree</diet>
+<diet>LowSugar</diet>
 <yield>6</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>PT30M</cookTime>
