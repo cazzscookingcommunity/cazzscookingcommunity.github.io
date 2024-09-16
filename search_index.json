@@ -31,8 +31,8 @@
         "title": "Cottage Pie",
         "htmlFilename": "cottage_pie.html",
         "thumbnail": "cottage_pie.jpeg",
-        "category": "Dinner Lunch",
-        "diet": "FODMAP LowSugar GlutenFree EggFree Paleo HistamineFree",
+        "category": "Dinner Lunch Lamb",
+        "diet": "FODMAP LowSugar GlutenFree EggFree Paleo",
         "ingredients": "600 gms mince meat (lamb) 2-4 garlic cloves crushed 2 carrots grated 1/2 cup frozen peas defrosted or a zucchini grated 2 Tbsps tomatoe sauce 2 Tbsps Worcestershire sauce (Gluten Free) 1 Tbsp corn flour  1-2 stock cubes  Olive oil  Salt and Pepper to taste 6 potatoes 100g butter"
     },
     {
@@ -184,8 +184,8 @@
         "title": "Larb",
         "htmlFilename": "larb.html",
         "thumbnail": "larb.jpeg",
-        "category": "Dinner Lunch",
-        "diet": "FODMAP LowSugar GlutenFree DiaryFree FODMAP LowCarb",
+        "category": "Dinner Lunch Pork",
+        "diet": "FODMAP LowSugar GlutenFree DiaryFree FODMAP LowCarb EggFree",
         "ingredients": "850 gems minced pork  3 TBspoons olive oil  2 garlic cloves crushed 1 inch ginger grated 1/2 teaspoon chilli powder  1-2 limes juiced 1/3 cup fish sauce 1 teaspoon sugar 1/4 cup mint leaves chopped 3 cups rice noodles cooked and chopped 1 lettuce leaves removed Extra limes to serve"
     },
     {
@@ -356,8 +356,8 @@
         "htmlFilename": "lamb_cutlets.html",
         "thumbnail": "lamb_cutlet.jpeg",
         "category": "Dinner Lamb",
-        "diet": "",
-        "ingredients": "Lamb cutlets 2-4 per person Punnet mini tomatoes Few handfuls snap or snow peas Pita bread Cumin 1 Tbsp balsamic vinegar Salt and Pepper to taste"
+        "diet": "GFO LowSugar DiaryFree EggFree LowCarb",
+        "ingredients": "Lamb cutlets 2-4 per person Punnet mini tomatoes Few handfuls snap or snow peas Pita bread (use GF if necessary) Cumin 1 Tbsp balsamic vinegar Salt and Pepper to taste"
     },
     {
         "id": "filo_pie.xml",
@@ -2101,8 +2101,8 @@
         "title": "Jasmine's Red Lentil Dhal",
         "htmlFilename": "jasmines_red_lentil_dhal.html",
         "thumbnail": "jasmines_red_lentil_dhal.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian",
+        "category": "Dinner Lunch",
+        "diet": "Vegetarian GlutenFree EggFree DiaryFree",
         "ingredients": ""
     }
 ]
