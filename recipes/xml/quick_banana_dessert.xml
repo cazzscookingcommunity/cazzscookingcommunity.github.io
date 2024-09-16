@@ -1,24 +1,31 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Quick Banana Dessert</title>
-  <filename>quick_banana_dessert.xml</filename>
-  <thumbnail>quick_banana_dessert.jpeg</thumbnail>
-  <category>Dessert</category>
-  <diet>GlutenFree</diet>
-  <yield>1</yield>
-  <prepTime>PT5M</prepTime>
-  <cookTime>PT5M</cookTime>
-  <ingredient>1 banana per person </ingredient>
-  <ingredient>1/4 Lemon</ingredient>
-  <ingredient>1 Tbsp butter</ingredient>
-  <ingredient>1 Tbsp honey</ingredient>
-  <ingredient>Cinnamon </ingredient>
-  <ingredient>Cream</ingredient>
-  <step>Chop banana on diagonal, melt butter in fry pan on medium heat, add bananas.</step>
-  <step>Squeeze lemon in pan and add honey and stir continuously, but gently and flip bananas over occasionally.</step>
-  <step>Cook until the banana is soft but not falling apart.</step>
-  <step>Pour into a bowl and serve with cream and cinnamon sprinkled on top- delish!.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Quick Banana Dessert</title>
+<filename>quick_banana_dessert.xml</filename>
+<thumbnail>quick_banana_dessert.jpeg</thumbnail>
+<category>Dessert</category>
+<category>Snack</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
+<yield>1</yield>
+<prepTime>PT5M</prepTime>
+<cookTime>PT5M</cookTime>
+<ingredient>1 banana per person </ingredient>
+<ingredient>1/4 Lemon</ingredient>
+<ingredient>1 Tbsp butter</ingredient>
+<ingredient>1 Tbsp honey</ingredient>
+<ingredient>Cinnamon </ingredient>
+<ingredient>Cream</ingredient>
+<step>Chop banana on diagonal, melt butter in fry pan on medium heat, add bananas.</step>
+<step>Squeeze lemon in pan and add honey and stir continuously, but gently and flip bananas over occasionally.</step>
+<step>Cook until the banana is soft but not falling apart.</step>
+<step>Pour into a bowl and serve with cream and cinnamon sprinkled on top- delish!.</step>
 </recipe>
+
