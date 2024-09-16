@@ -4,12 +4,15 @@
 <recipe
     xmlns="https://cazzscookingcommunity.github.io"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
 <title>Mini Pear Puddings </title>
 <filename>mini_pear_puddings.xml</filename>
 <thumbnail>mini_pear_pudding.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
+<diet>GFO</diet>
+<diet>Vegetarian</diet>
 <yield>6</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT20M</cookTime>
