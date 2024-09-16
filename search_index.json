@@ -1822,9 +1822,9 @@
         "title": "Vegetable Lentil Curry",
         "htmlFilename": "vegetable_lentil_curry.html",
         "thumbnail": "vegetable_lentil_curry.jpeg",
-        "category": "Dinner",
-        "diet": "Vegetarian",
-        "ingredients": "2 Tbsp oil 4 Tbsp green curry paste 2-4 garlic cloves crushed  200gm butternut and regular pumpkin chopped 1 sweet potatoe peeled and chopped 1-2 carrots chopped 2 cups red lentils 4 stock cubes 100 gms frozen spinach 4-6 cups of water (add 6 cups if you like it more runny or less if you prefer it more solid- I add one stock cube per cup)"
+        "category": "Dinner Lunch",
+        "diet": "Vegetarian GlutenFree LowSugar",
+        "ingredients": "2 Tbsp oil 4 Tbsp green curry paste 2-4 garlic cloves crushed  200gm butternut and regular pumpkin chopped 1 sweet potatoe peeled and chopped 1-2 carrots chopped 2 cups red lentils 4 stock cubes 100 gms frozen spinach 4-6 cups of water (add one stock cube per cup) Add 6 cups if you prefer it more runny and 4 if not."
     },
     {
         "id": "callums_chilli.xml",
