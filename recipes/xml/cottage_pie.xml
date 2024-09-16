@@ -11,12 +11,12 @@
 <thumbnail>cottage_pie.jpeg</thumbnail>
 <category>Dinner</category>
 <category>Lunch</category>
+<category>Lamb</category>
 <diet>FODMAP</diet>
 <diet>LowSugar</diet>
 <diet>GlutenFree</diet>
 <diet>EggFree</diet>
 <diet>Paleo</diet>
-<diet>HistamineFree</diet>
 <yield>6</yield>
 <prepTime>PT40M</prepTime>
 <cookTime>PT40M</cookTime>
@@ -39,6 +39,6 @@
 <step>Place cooked meat in a tray and spoon over mash spud. Smooth the spud with the back of a large spoon.</step>
 <step>Cook for 30-40 minutes or until golden brown.</step>
 <step>Serve with side salad or lots of tomatoe sauce!.</step>
-<step>Boil cubed potatoes until soft (20-30min).  Drain,  add butter and mash. Add salt and white pepper to taste</step>
+<step>Boil cubed potatoes until soft (20-30min).  Drain,  add butter and mash. Add salt and white pepper to taste.</step>
 </recipe>
 
