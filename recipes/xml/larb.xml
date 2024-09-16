@@ -11,12 +11,14 @@
 <thumbnail>larb.jpeg</thumbnail>
 <category>Dinner</category>
 <category>Lunch</category>
+<category>Pork</category>
 <diet>FODMAP</diet>
 <diet>LowSugar</diet>
 <diet>GlutenFree</diet>
 <diet>DiaryFree</diet>
 <diet>FODMAP</diet>
 <diet>LowCarb</diet>
+<diet>EggFree</diet>
 <yield>6</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>PT10M</cookTime>
@@ -37,7 +39,7 @@
 <step>Heat oil in pan and cook meat until brown.</step>
 <step>Add garlic, ginger and chilli and cook a few minutes.</step>
 <step>Pour in juice mixture and stir through with noodles.</step>
-<step>Sever inside a lettuce cup with lime on the side.</step>
+<step>Serve inside a lettuce cup with lime on the side.</step>
 <step>Alternately serve in rolled lettuce leaves, with thinly sliced cumber, lettuce and some chilli sauce.</step>
 </recipe>
 
