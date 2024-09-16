@@ -10,6 +10,8 @@
 <filename>grandmas_pasties.xml</filename>
 <thumbnail>grandmas_pasties.jpeg</thumbnail>
 <category>Beef</category>
+<category>Dinner</category>
+<diet>LowSugar</diet>
 <yield>12</yield>
 <prepTime>PT1H</prepTime>
 <cookTime>PT1H</cookTime>
