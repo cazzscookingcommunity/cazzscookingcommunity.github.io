@@ -10,7 +10,9 @@
 <filename>chocolate_ripple_cake.xml</filename>
 <thumbnail>chocolate_ripple_cake.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
 <diet>GFO</diet>
+<diet>Vegetarian</diet>
 <yield>8</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>P1D</cookTime>
