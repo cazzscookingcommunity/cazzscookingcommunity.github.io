@@ -10,6 +10,8 @@
 <filename>filo_pie.xml</filename>
 <thumbnail>filo_pie.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
+<diet>Vegetarian</diet>
 <yield>8</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>PT1H</cookTime>
