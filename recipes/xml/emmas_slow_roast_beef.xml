@@ -12,6 +12,12 @@
 <category>Beef</category>
 <category>Dinner</category>
 <diet>GlutenFree</diet>
+<diet>Keto</diet>
+<diet>Paleo</diet>
+<diet>LowSugar</diet>
+<diet>DiaryFree</diet>
+<diet>EggFree</diet>
+<diet>LowCarb</diet>
 <yield>12</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT10H</cookTime>
@@ -36,6 +42,7 @@
 <step>Keep sauce warm.</step>
 <step>Using two forks shred meat (you may need a knife for parts of it.)</step>
 <step>Pour sauce over meat reserving some for extra gravy.</step>
-<step>Serve hot with mash spud and other veggies.</step>
+<step>Serve hot with mash spud and other veggies or salad. </step>
+<step>Good for a crowd. You can serve up with shredded lettuce in fresh rolls.</step>
 </recipe>
 
