@@ -1,46 +1,55 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Quinoa filled eggplant</title>
-  <filename>quinoa_filled_eggplant.xml</filename>
-  <thumbnail>quinoa_filled_eggplant.jpeg</thumbnail>
-  <category>Lunch</category>
-  <category>Dinner</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-  <comment>c/o Akis Petretzikis with cazzie tweaks</comment>
-  <ingredient>3 Eggplants</ingredient>
-  <ingredient>4 TBsp olive oil</ingredient>
-  <ingredient>4 sprigs of thyme </ingredient>
-  <ingredient>1 cup quinoa</ingredient>
-  <ingredient>1 stock cube</ingredient>
-  <ingredient>2 cloves garlic </ingredient>
-  <ingredient>2 celery stalks chopped</ingredient>
-  <ingredient>2 carrots grated </ingredient>
-  <ingredient>1 TBsp fresh oregano </ingredient>
-  <ingredient>1 can chopped tomatoes </ingredient>
-  <ingredient>1 TBsp mint finely chopped</ingredient>
-  <ingredient>salt and pepper</ingredient>
-  <step>Heat oven to 180C.</step>
-  <step>Cut eggplants in half and score across flesh, and place on baking tray.</step>
-  <step>In a small bowl mix 2 TBsp of olive oil, the leaves of the thyme sprigs and salt and pepper.</step>
-  <step>Rub this all over eggplants and place cut side down on a baking tray and cook for 40 minutes.</step>
-  <step>Meanwhile cook the quinoa.</step>
-  <step>First rinse the quinoa under cold water.</step>
-  <step>Drain and place in a pot.</step>
-  <step>Add two cups of water and then bring it to a boil.</step>
-  <step>Place lid on pot lower to simmer.</step>
-  <step>Cook until water absorbed, about 10-15 mins.</step>
-  <step>While quinoa is cooking heat oil in frying pan and add remaining olive oil.</step>
-  <step>Add garlic and celery and cook until celery softened (about 5-8 mins.</step>
-  <step>) Add chopped tomatoes, stock cube and carrot.</step>
-  <step>Cook for a few minutes or until tomatoes juice reduces.</step>
-  <step>Remove from heat and add oregano and quinoa and stir well.</step>
-  <step>Remove eggplants from oven and scoop out flesh.</step>
-  <step>Mix flesh with mixture and add salt and pepper to taste.</step>
-  <step>Fill the eggplants evenly with mixed and serve with mint sprinkled on top.</step>
-  <step>You can sever with side salad if desired.</step>
-  <step>Absolutely delicious, looks fancy and easy to make!.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Quinoa filled eggplant</title>
+<filename>quinoa_filled_eggplant.xml</filename>
+<thumbnail>quinoa_filled_eggplant.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<diet>DiaryFree</diet>
+<diet>EggFree</diet>
+<yield>3</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT40M</cookTime>
+<comment>c/o Akis Petretzikis with cazzie tweaks</comment>
+<ingredient>3 Eggplants</ingredient>
+<ingredient>4 TBsp olive oil</ingredient>
+<ingredient>4 sprigs of thyme </ingredient>
+<ingredient>1 cup quinoa</ingredient>
+<ingredient>1 stock cube</ingredient>
+<ingredient>2 cloves garlic </ingredient>
+<ingredient>2 celery stalks chopped</ingredient>
+<ingredient>2 carrots grated </ingredient>
+<ingredient>1 TBsp fresh oregano </ingredient>
+<ingredient>1 can chopped tomatoes </ingredient>
+<ingredient>1 TBsp mint finely chopped</ingredient>
+<ingredient>salt and pepper</ingredient>
+<step>Heat oven to 180C.</step>
+<step>Cut eggplants in half and score across flesh, and place on baking tray.</step>
+<step>In a small bowl mix 2 TBsp of olive oil, the leaves of the thyme sprigs and salt and pepper.</step>
+<step>Rub this all over eggplants and place cut side down on a baking tray and cook for 40 minutes.</step>
+<step>Meanwhile cook the quinoa.</step>
+<step>First rinse the quinoa under cold water.</step>
+<step>Drain and place in a pot.</step>
+<step>Add two cups of water and then bring it to a boil.</step>
+<step>Place lid on pot lower to simmer.</step>
+<step>Cook until water absorbed, about 10-15 mins.</step>
+<step>While quinoa is cooking heat oil in frying pan and add remaining olive oil.</step>
+<step>Add garlic and celery and cook until celery softened (about 5-8 mins.)</step>
+<step>Add chopped tomatoes, stock cube and carrot.</step>
+<step>Cook for a few minutes or until tomatoes juice reduces.</step>
+<step>Remove from heat and add oregano and quinoa and stir well.</step>
+<step>Remove eggplants from oven and scoop out flesh.</step>
+<step>Mix flesh with mixture and add salt and pepper to taste.</step>
+<step>Fill the eggplants evenly with mixed and serve with mint sprinkled on top.</step>
+<step>You can sever with side salad if desired.</step>
+<step>Absolutely delicious, looks fancy and easy to make!</step>
 </recipe>
+
