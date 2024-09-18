@@ -4,6 +4,7 @@ const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
 const recipeXmlDir = 'recipes/xml/';
+const recipeHtmlDir = 'recipes/html/';
 const imagedir = 'recipes/images/';
 
 var passcode = null
@@ -111,40 +112,75 @@ async function commit_image() {
     }
 }
 
-async function delete_recipe() {
-    console.log("delete-recipe");
 
+function confirm_delete() {
+    const recipexml = document.querySelector('input[data-xsd2html2xml-description="filename"]').value;
+    const recipehtml = recipexml.replace('.xml', '.html');
+    const recipeimage = document.querySelector('input[data-xsd2html2xml-description="thumbnail"]').value;
+
+    sessionStorage.setItem('recipexml', encodeURI(recipexml));
+    sessionStorage.setItem('recipehtml', encodeURI(recipehtml));
+    sessionStorage.setItem('recipeimage', encodeURI(recipeimage));
+    console.log("confirm-delete: ", recipexml, recipehtml, recipeimage);
+    
     // Confirm the action with the user
     const userConfirmed = confirm("Are you sure you want to delete this recipe? This action cannot be undone.");
-
     if (userConfirmed) {
         console.debug("User confirmed recipe deletion");
-
         try {
-            // Get the SHA for the recipe's XML file and delete it
-            const recipeXmlSha = await getSHA(recipeXmlDir, recipename + ".xml");
-            await deleteFile(recipeXmlDir + recipename + ".xml", recipeXmlSha);
-            console.log("Recipe XML file deleted successfully");
-
-            // Get the SHA for the recipe's image file and delete it
-            const imageSha = await getSHA(imagedir, imageName + ".jpeg");
-            await deleteFile(imagedir + imageName + ".jpeg", imageSha);
-            console.log("Recipe image file deleted successfully");
-
-            // Get the SHA for the recipe's HTML file and delete it (if it exists)
-            const htmlSha = await getSHA('', recipename + ".html");
-            await deleteFile(recipename + ".html", htmlSha);
-            console.log("Recipe HTML file deleted successfully");
-
-            // Inform the user that deletion is complete
-            alert("Recipe deleted successfully.");
-            window.location.reload(); // Optionally reload the page after deletion
+            get_token(delete_recipe);
         } catch (error) {
             console.error("Error occurred during deletion:", error.message);
             alert(`An error occurred: ${error.message}`);
         }
     } else {
         console.debug("User cancelled recipe deletion");
+    }
+}
+
+async function delete_recipe() {
+    const recipexml = decodeURI(sessionStorage.getItem('recipexml')); 
+    const recipehtml = decodeURI(sessionStorage.getItem('recipehtml')); 
+    const recipeimage = decodeURI(sessionStorage.getItem('recipeimage')); 
+    console.log("delete-recipe: ", recipexml, recipehtml, recipeimage);
+
+    if ( passcode == null ) {
+        // ignore and do nothing
+        console.debug("ignore empty passcode");
+    } else {
+        // diaplay busy icon
+        document.getElementById('loading-spinner').style.display = 'block';
+
+        try {
+            // Get the SHA for the recipe's XML file and delete it
+            const recipeXmlSha = await getSHA(recipeXmlDir, recipexml);
+            await deleteFile(recipeXmlDir + recipexml, recipeXmlSha);
+            console.log("Recipe XML file deleted successfully");
+
+            // Get the SHA for the recipe's image file and delete it
+            const imageSha = await getSHA(imagedir, recipeimage);
+            await deleteFile(imagedir + recipeimage, imageSha);
+            console.log("Recipe image file deleted successfully");
+
+            // Get the SHA for the recipe's HTML file and delete it (if it exists)
+            const htmlSha = await getSHA('recipeHtmlDir', recipehtml);
+            await deleteFile(recipeHtmlDir + recipehtml, htmlSha);
+            console.log("Recipe HTML file deleted successfully");
+
+            if (window.opener) {
+                // Go back in the parent's history
+                window.opener.history.back();
+                // Close the current (child) window
+                window.close();
+            } else {
+                // Cannot close the window so notify user that upload is complete
+                window.alert(`Recipe upload complete`);
+            }
+
+        } catch (error) {
+            console.error("Error occurred during deletion:", error.message);
+            alert(`An error occurred: ${error.message}`);
+        }
     }
 }
 

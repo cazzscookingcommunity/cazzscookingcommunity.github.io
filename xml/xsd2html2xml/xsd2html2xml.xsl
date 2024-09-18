@@ -314,7 +314,7 @@
 				<xsl:element name="button">
 					<xsl:attribute name="type">button</xsl:attribute>
 					<xsl:attribute name="class">form-button delete-button</xsl:attribute>
-					<xsl:attribute name="onclick">delete_recipe();</xsl:attribute>
+					<xsl:attribute name="onclick">confirm_delete();</xsl:attribute>
 					DELETE
 				</xsl:element>
 				<xsl:element name="img">
