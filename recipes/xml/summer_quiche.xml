@@ -16,7 +16,7 @@
 <diet>Vegetarian</diet>
 <yield>4</yield>
 <prepTime>PT20M</prepTime>
-<cookTime>PT</cookTime>
+<cookTime>PT40M</cookTime>
 <comment>c/o Coles with cazzie tweaks </comment>
 <ingredient>1 large sweet potatoe</ingredient>
 <ingredient>1 TBsp olive oil </ingredient>
@@ -38,7 +38,7 @@
 <step>Mix up the other veggies except the tomatoes.</step>
 <step>Season with salt and pepper and pour into pie crust.</step>
 <step>Place tomatoes on top and bake until centre cooked, about 30-40 minutes.</step>
-<step>Serve hot or cold with a side of salad- yum!</step>
+<step>Serve hot or cold with a side of salad.</step>
 <step>You can mix up the veggies to whatever you like or have in the fridge. You can also swap out the sweet potatoes for regular potatoes.</step>
 </recipe>
 
