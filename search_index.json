@@ -391,9 +391,9 @@
         "title": "Salmon Fajitas ",
         "htmlFilename": "salmon_fajitas.html",
         "thumbnail": "salmon_fajitas.jpeg",
-        "category": "Fish",
-        "diet": "",
-        "ingredients": "1 TBsp oil  1 green capsicum chopped  1 onion chopped  1 packet fajita mix 1/2 cup water 1 can drained salmon  1 packet soft tortillas Cream cheese/ shredded lettuce/ chopped tomatoes to serve"
+        "category": "Fish Dinner Lunch",
+        "diet": "GFO EggFree LowSugar",
+        "ingredients": "1 TBsp oil  1 green capsicum chopped  1 onion chopped  1 packet fajita mix 1/2 cup water 1 can drained salmon  1 packet soft tortillas (GF if necessary) Cream cheese/ shredded lettuce/ chopped tomatoes to serve"
     },
     {
         "id": "cauliflower_and_broccoli_bake.xml",
