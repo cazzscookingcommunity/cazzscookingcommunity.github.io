@@ -1,45 +1,53 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Okonomiyaki</title>
-  <filename>okonomiyaki.xml</filename>
-  <thumbnail>okonomiyaki.jpeg</thumbnail>
-  <category>Lunch</category>
-  <part>
-    <title>Main</title>
-    <ingredient>1 cup flour</ingredient>
-    <ingredient>2 eggs</ingredient>
-    <ingredient>160 gms chicken stock </ingredient>
-    <ingredient>2 spring onions chopped</ingredient>
-    <ingredient>1/8 cabbage shredded </ingredient>
-    <ingredient>1 zucchini grated</ingredient>
-    <ingredient>1 small carrot grated</ingredient>
-    <ingredient>salt and pepper to taste</ingredient>
-    <ingredient>Oil for frying</ingredient>
-    <step>Whisk eggs in a large bowl, add flour, stock and salt and pepper and whisk to combine.</step>
-    <step>Stir in all other ingredients.</step>
-    <step>Heat oil in large pan and place about 1/2 cup of mixture making it as round as possible.</step>
-    <step>You can place an amount of bacon and/or shrimp on pancake before flipping.</step>
-    <step>Once edges start to cook flip over and cook other side.</step>
-    <step>Flip over a couple of time to ensure middle cooked and both sides are golden.</step>
-    <step>Remove from pan and garnish with sauces and spring onions and/or bacon if desired.</step>
-    <step>Serve hot.</step>
-  </part>
-  <part>
-    <title>Optional</title>
-    <ingredient>Bacon</ingredient>
-    <ingredient>Pickled ginger</ingredient>
-    <ingredient>Shrimp</ingredient>
-    <step>Add these as sides or you can mix in with the eggs.</step>
-  </part>
-  <part>
-    <title>Toppings</title>
-    <ingredient>Spring onions chopped</ingredient>
-    <ingredient>Kewpie mayonnaise</ingredient>
-    <ingredient>Okonomi sauce (or teriyaki sauce)</ingredient>
-    <ingredient>Fried shallots</ingredient>
-    <step>Squeeze sauces all over top and sprinkle Shallots and Spring Onions on top.</step>
-  </part>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Okonomiyaki</title>
+<filename>okonomiyaki.xml</filename>
+<thumbnail>okonomiyaki.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Snack</category>
+<category>Dinner</category>
+<diet>GFO</diet>
+<diet>DiaryFree</diet>
+<yield>1</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT15M</cookTime>
+<part><title>Main</title>
+<ingredient>1 cup flour (GF if necessary)</ingredient>
+<ingredient>2 eggs</ingredient>
+<ingredient>160 gms chicken stock </ingredient>
+<ingredient>2 spring onions chopped</ingredient>
+<ingredient>1/8 cabbage shredded </ingredient>
+<ingredient>1 zucchini grated</ingredient>
+<ingredient>1 small carrot grated</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>Oil for frying</ingredient>
+<step>Whisk eggs in a large bowl, add flour, stock and salt and pepper and whisk to combine.</step>
+<step>Stir in all other ingredients.</step>
+<step>Heat oil in large pan and place about 1/2 cup of mixture making it as round as possible.</step>
+<step>You can place an amount of bacon and/or shrimp on pancake before flipping.</step>
+<step>Once edges start to cook flip over and cook other side.</step>
+<step>Flip over a couple of time to ensure middle cooked and both sides are golden.</step>
+<step>Remove from pan and garnish with sauces and spring onions and/or bacon if desired.</step>
+<step>Serve hot.</step>
+</part>
+<part><title>Optional</title>
+<ingredient>Bacon</ingredient>
+<ingredient>Pickled ginger</ingredient>
+<ingredient>Shrimp</ingredient>
+<step>Add these as sides or you can mix in with the eggs.</step>
+</part>
+<part><title>Toppings</title>
+<ingredient>Spring onions chopped</ingredient>
+<ingredient>Kewpie mayonnaise</ingredient>
+<ingredient>Okonomi sauce (or teriyaki sauce) (GF if necessary)</ingredient>
+<ingredient>Fried shallots</ingredient>
+<step>Squeeze sauces all over top and sprinkle Shallots and Spring Onions on top.</step>
+</part>
 </recipe>
+
