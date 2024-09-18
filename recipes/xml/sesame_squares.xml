@@ -10,7 +10,9 @@
 <filename>sesame_squares.xml</filename>
 <thumbnail>seasame_squares.jpeg</thumbnail>
 <category>Snack</category>
-<yield>8</yield>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<yield>6</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT15M</cookTime>
 <comment>c/o irenamacri with cazzie tweaks</comment>
