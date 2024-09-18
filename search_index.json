@@ -697,9 +697,9 @@
         "title": "Julians Bubcias Schnitzel",
         "htmlFilename": "julians_bubcias_schnitzel.html",
         "thumbnail": "julians_bucia_schnitz.jpeg",
-        "category": "Poultry",
-        "diet": "",
-        "ingredients": "500gms Chicken tenderloins 4 eggs beaten  1/2 cup flour 1 cup bread crumbs  Salt Olive oil (not extra virgin)"
+        "category": "Poultry Dinner Lunch",
+        "diet": "DiaryFree GFO",
+        "ingredients": "500gms Chicken tenderloins 4 eggs beaten  1/2 cup flour 1 cup bread crumbs (GF if necessary) Salt Olive oil (not extra virgin)"
     },
     {
         "id": "moroccan_beetroot_salad.xml",
