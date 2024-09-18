@@ -1,37 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Asian Salad</title>
-  <filename>asian_salad.xml</filename>
-  <thumbnail>asian_salad.jpeg</thumbnail>
-  <category/>
-  <yield/>
-  <prepTime>PT0M</prepTime>
-  <cookTime>PT0M</cookTime>
-  <comment/>
-  <part>
-    <title>Main</title>
-    <ingredient>2-3 Bok Choy bunches washed and chopped</ingredient>
-    <ingredient>100 gms cashews</ingredient>
-    <ingredient>1/2 avocado chopped and mixed with 1/2 lemon juice</ingredient>
-    <ingredient>1 punnet tiny tomatoes chopped in half</ingredient>
-    <ingredient>1 Lebanese cucumber peeled and sliced</ingredient>
-    <step/>
-  </part>
-  <part>
-    <title>Dressing</title>
-    <ingredient>2 TBsp white wine vinegar</ingredient>
-    <ingredient>2 TBsp castor sugar</ingredient>
-    <ingredient>1 TBsp soy sauce</ingredient>
-    <ingredient>1 teasp seasame oil</ingredient>
-    <ingredient>1/4 cup olive oil</ingredient>
-    <step>In a small sauce pan heat vinegar and sugar until sugar dissolves, about 5 minutes.</step>
-    <step>Remove from heat, then add all other dressing ingredients and pour into a jar.</step>
-    <step>Close jar with lid and give it a good shake and place in fridge until ready (this can be made a day early-If you do this remove from fridge before cutting up salad and shake well before adding to salad.</step>
-    <step>)
-            Add salad ingredients to a bowl or platters and drizzle well with dressing.</step>
-    <step>Serve with easy chicken dinner from previous post.</step>
-  </part>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Asian Salad</title>
+<filename>asian_salad.xml</filename>
+<thumbnail>asian_salad.jpeg</thumbnail>
+<category>Salad</category>
+<category>Sides</category>
+<diet></diet>
+<yield>4</yield>
+<prepTime>PT10M</prepTime>
+<cookTime>PT10M</cookTime>
+<part><title>Main</title>
+<ingredient>2-3 Bok Choy bunches washed and chopped</ingredient>
+<ingredient>100 gms cashews</ingredient>
+<ingredient>1/2 avocado chopped and mixed with 1/2 lemon juice</ingredient>
+<ingredient>1 punnet tiny tomatoes chopped in half</ingredient>
+<ingredient>1 Lebanese cucumber peeled and sliced</ingredient>
+<step>Place book chop on platter. Sprinkle other ingredients on top.</step>
+</part>
+<part><title>Dressing</title>
+<ingredient>2 TBsp white wine vinegar</ingredient>
+<ingredient>2 TBsp castor sugar</ingredient>
+<ingredient>1 TBsp soy sauce</ingredient>
+<ingredient>1 teasp seasame oil</ingredient>
+<ingredient>1/4 cup olive oil</ingredient>
+<step>In a small sauce pan heat vinegar and sugar until sugar dissolves, about 5 minutes.</step>
+<step>Remove from heat, then add all other dressing ingredients and pour into a jar.</step>
+<step>Close jar with lid and give it a good shake and place in fridge until ready (this can be made a day early-If you do this remove from fridge before cutting up salad and shake well before adding to salad.)</step>
+<step>Serve with easy chicken dinner from previous post.</step>
+</part>
 </recipe>
+
