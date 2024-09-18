@@ -1,27 +1,38 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Zucchini and Sweet Spud Fritters</title>
-  <filename>zucchini_and_sweet_spud_fritters.xml</filename>
-  <thumbnail>zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <ingredient>1 medium sweet spud grated</ingredient>
-  <ingredient>2 zucchinis grated</ingredient>
-  <ingredient>1/2 cup flour (use gluten free if desired)</ingredient>
-  <ingredient>2 eggs</ingredient>
-  <ingredient>1 garlic clove crushed</ingredient>
-  <ingredient>3 spring onions chopped</ingredient>
-  <ingredient>salt and pepper to taste</ingredient>
-  <ingredient>Olive oil</ingredient>
-  <step>Mix all ingredients except olive oil in a bowl.</step>
-  <step>Heat olive oil in a fry pan so it covers the entire surface.</step>
-  <step>Once oil medium to hot then place 1 tablespoon amounts of mixture in the pan.</step>
-  <step>Flatten down until about 1cm thick.</step>
-  <step>Once golden brown turn over and cook until golden brown.</step>
-  <step>Keep cooking until all the mixture is done, you may need to top up the olive oil as you continue.</step>
-  <step>Once done drain on absorbent paper.</step>
-  <step>Serve as a side or by themselves with dip or topping.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Zucchini and Sweet Spud Fritters</title>
+<filename>zucchini_and_sweet_spud_fritters.xml</filename>
+<thumbnail>zucchinin_and_sweet_spud_fritters.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<category>Snack</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>LowSugar</diet>
+<yield>1</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT20M</cookTime>
+<ingredient>1 medium sweet spud grated</ingredient>
+<ingredient>2 zucchinis grated</ingredient>
+<ingredient>1/2 cup flour (use gluten free if desired)</ingredient>
+<ingredient>2 eggs</ingredient>
+<ingredient>1 garlic clove crushed</ingredient>
+<ingredient>3 spring onions chopped</ingredient>
+<ingredient>salt and pepper to taste</ingredient>
+<ingredient>Olive oil</ingredient>
+<step>Mix all ingredients except olive oil in a bowl.</step>
+<step>Heat olive oil in a fry pan so it covers the entire surface.</step>
+<step>Once oil medium to hot then place 1 tablespoon amounts of mixture in the pan.</step>
+<step>Flatten down until about 1cm thick.</step>
+<step>Once golden brown turn over and cook until golden brown.</step>
+<step>Keep cooking until all the mixture is done, you may need to top up the olive oil as you continue.</step>
+<step>Once done drain on absorbent paper.</step>
+<step>Serve as a side or by themselves with dip or topping.</step>
 </recipe>
+
