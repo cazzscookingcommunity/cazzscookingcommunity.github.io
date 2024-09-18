@@ -1,34 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Lentil Salad</title>
-  <filename>lentil_salad.xml</filename>
-  <thumbnail>lentil_salad.jpeg</thumbnail>
-  <category/>
-  <diet>GlutenFree</diet>
-  <yield/>
-  <prepTime>PT0M</prepTime>
-  <cookTime>PT0M</cookTime>
-  <comment/>
-  <ingredient>1 can lentils rinsed and drained</ingredient>
-  <ingredient>3-4 TBspoons extra virgin olive oil</ingredient>
-  <ingredient>1 TBspoon red wine vinegar</ingredient>
-  <ingredient>1 Teaspoon cumin</ingredient>
-  <ingredient>4 fresh dates pitted and finely chopped</ingredient>
-  <ingredient>3 carrots grated</ingredient>
-  <ingredient>4 spring onions chopped</ingredient>
-  <ingredient>100 gms marinated feta crumbled (Yarra Valley)</ingredient>
-  <ingredient>Salt and Pepper to taste</ingredient>
-  <ingredient>Baby spinach +/- your choice of meat to serve</ingredient>
-  <step>Rinse and drain lentils and set aside.</step>
-  <step>In a sauce pan add, olive oil, vinegar, cumin Salt and Pepper, stir all together and bring to the boil, then reduce heat immediately.</step>
-  <step>Add dates and slowly cook until heated through.</step>
-  <step>Add lentils and carrots and cook until all warm.</step>
-  <step>Place in a bowl and stir in spring onions.</step>
-  <step>Place spinach on plates and top with lentils, then sprinkle decoratively with feta on top.</step>
-  <step>Serve with your choice of meat on the side if desired.</step>
-  <step>Serve warm, but just as nice cold.</step>
-  <step>This is a crowd pleaser! You can double recipe! Omit cheese and meat for vegans :).</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Lentil Salad</title>
+<filename>lentil_salad.xml</filename>
+<thumbnail>lentil_salad.jpeg</thumbnail>
+<category>Salad</category>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<diet>Vegetarian</diet>
+<diet>LowCarb</diet>
+<yield>4</yield>
+<prepTime>PT10M</prepTime>
+<cookTime>PT10M</cookTime>
+<ingredient>1 can lentils rinsed and drained</ingredient>
+<ingredient>3-4 TBspoons extra virgin olive oil</ingredient>
+<ingredient>1 TBspoon red wine vinegar</ingredient>
+<ingredient>1 Teaspoon cumin</ingredient>
+<ingredient>4 fresh dates pitted and finely chopped</ingredient>
+<ingredient>3 carrots grated</ingredient>
+<ingredient>4 spring onions chopped</ingredient>
+<ingredient>100 gms marinated feta crumbled (Yarra Valley)</ingredient>
+<ingredient>Salt and Pepper to taste</ingredient>
+<ingredient>Baby spinach +/- your choice of meat to serve</ingredient>
+<step>Rinse and drain lentils and set aside.</step>
+<step>In a sauce pan add, olive oil, vinegar, cumin Salt and Pepper, stir all together and bring to the boil, then reduce heat immediately.</step>
+<step>Add dates and slowly cook until heated through.</step>
+<step>Add lentils and carrots and cook until all warm.</step>
+<step>Place in a bowl and stir in spring onions.</step>
+<step>Place spinach on plates and top with lentils, then sprinkle decoratively with feta on top.</step>
+<step>Serve with your choice of meat on the side if desired.</step>
+<step>Serve warm, but just as nice cold.</step>
+<step>This is a crowd pleaser! You can double recipe! Omit cheese and meat for vegans :).</step>
 </recipe>
+
