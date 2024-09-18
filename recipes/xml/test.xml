@@ -3,9 +3,9 @@
 <recipe xmlns="https://cazzscookingcommunity.github.io"
         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
         xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Acquacotta</title>
-  <filename>acquacotta.xml</filename>
-  <thumbnail>acquacotta.jpeg</thumbnail>
+  <title>test</title>
+  <filename>test.xml</filename>
+  <thumbnail>test.jpeg</thumbnail>
   <category>Soup</category>
   <diet>Vegetarian</diet>
   <yield>4</yield>

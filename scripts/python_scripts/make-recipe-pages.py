@@ -234,6 +234,12 @@ def main():
         # generate_html_from_xml(testfile2)
         # print(f"Conversion of {testfile2} is complete")
 
+        # generate_html_from_xml('recipes/xml/test.xml')
+        # generate_html_from_xml('recipes/xml/test 2.xml')
+        # generate_html_from_xml('recipes/xml/test 3.xml')
+        # generate_html_from_xml('recipes/xml/test 4.xml')
+        # generate_html_from_xml('recipes/xml/test 5.xml')
+
 
 
 if __name__== "__main__":
