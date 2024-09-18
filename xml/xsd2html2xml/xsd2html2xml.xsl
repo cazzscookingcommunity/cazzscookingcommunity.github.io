@@ -311,6 +311,12 @@
 					<xsl:attribute name="onclick">window.close();</xsl:attribute>
 					Close
 				</xsl:element>
+				<xsl:element name="button">
+					<xsl:attribute name="type">button</xsl:attribute>
+					<xsl:attribute name="class">form-button delete-button</xsl:attribute>
+					<xsl:attribute name="onclick">delete_recipe();</xsl:attribute>
+					DELETE
+				</xsl:element>
 				<xsl:element name="img">
 					<xsl:attribute name="alt">github status icon</xsl:attribute>
 					<xsl:attribute name="src">https://github.com/cazzscookingcommunity/cazzscookingcommunity.github.io/actions/workflows/build-recipe-index.yml/badge.svg</xsl:attribute>

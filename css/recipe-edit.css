@@ -84,6 +84,18 @@ body {
     background-color: #5a8c2a;
 }
 
+.xsd2html2xml .delete-button {
+    background-color: #e74c3c; /* Red color to indicate danger */
+    margin: 0 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+  }
+  
+  .xsd2html2xml .delete-button:hover {
+    background-color: #c0392b; /* Darker red on hover */
+  }
+
 .xsd2html2xml fieldset[data-xsd2html2xml-name=part] {
     border-style: solid;
     background-color: #fff;

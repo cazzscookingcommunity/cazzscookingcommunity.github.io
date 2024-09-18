@@ -111,6 +111,42 @@ async function commit_image() {
     }
 }
 
+async function delete_recipe() {
+    console.log("delete-recipe");
+
+    // Confirm the action with the user
+    const userConfirmed = confirm("Are you sure you want to delete this recipe? This action cannot be undone.");
+
+    if (userConfirmed) {
+        console.debug("User confirmed recipe deletion");
+
+        try {
+            // Get the SHA for the recipe's XML file and delete it
+            const recipeXmlSha = await getSHA(recipeXmlDir, recipename + ".xml");
+            await deleteFile(recipeXmlDir + recipename + ".xml", recipeXmlSha);
+            console.log("Recipe XML file deleted successfully");
+
+            // Get the SHA for the recipe's image file and delete it
+            const imageSha = await getSHA(imagedir, imageName + ".jpeg");
+            await deleteFile(imagedir + imageName + ".jpeg", imageSha);
+            console.log("Recipe image file deleted successfully");
+
+            // Get the SHA for the recipe's HTML file and delete it (if it exists)
+            const htmlSha = await getSHA('', recipename + ".html");
+            await deleteFile(recipename + ".html", htmlSha);
+            console.log("Recipe HTML file deleted successfully");
+
+            // Inform the user that deletion is complete
+            alert("Recipe deleted successfully.");
+            window.location.reload(); // Optionally reload the page after deletion
+        } catch (error) {
+            console.error("Error occurred during deletion:", error.message);
+            alert(`An error occurred: ${error.message}`);
+        }
+    } else {
+        console.debug("User cancelled recipe deletion");
+    }
+}
 
 
 
@@ -209,6 +245,37 @@ async function postFile(blob, path, sha) {
         // Read the file as a DataURL (works for both images and text files)
         reader.readAsDataURL(blob);
     });
+}
+
+// DELETE FILE
+async function deleteFile(path, sha) {
+    if (!sha) {
+        throw new Error(`No SHA found for file: ${path}`);
+    }
+
+    const body = JSON.stringify({
+        "message": `Delete ${path}`,
+        "sha": sha,
+        "branch": "master"
+    });
+
+    const endpoint = `/repos/${owner}/${repo}/contents/${path}`;
+
+    try {
+        const response = await fetch(github + endpoint, {
+            "headers": headers,
+            "method": "DELETE",
+            "body": body
+        });
+
+        if (!response.ok) {
+            throw new Error(`Failed to delete file: ${response.statusText}`);
+        }
+
+        return response;
+    } catch (error) {
+        throw new Error(`Failed to delete file: ${error.message}`);
+    }
 }
 
 
