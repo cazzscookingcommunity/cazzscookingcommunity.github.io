@@ -3,9 +3,9 @@ const github = `https://api.github.com`
 const owner = 'cazzscookingcommunity'
 const username = 'cooking@miplace.com'
 const repo = 'cazzscookingcommunity.github.io'
-const recipeXmlDir = 'recipes/xml/';
+const recipeXmlDir =  'recipes/xml/';
 const recipeHtmlDir = 'recipes/html/';
-const imagedir = 'recipes/images/';
+const imagedir =      'recipes/images/';
 
 var passcode = null
 var headers = {}
@@ -163,7 +163,7 @@ async function delete_recipe() {
             console.log("Recipe image file deleted successfully");
 
             // Get the SHA for the recipe's HTML file and delete it (if it exists)
-            const htmlSha = await getSHA('recipeHtmlDir', recipehtml);
+            const htmlSha = await getSHA(recipeHtmlDir, recipehtml);
             await deleteFile(recipeHtmlDir + recipehtml, htmlSha);
             console.log("Recipe HTML file deleted successfully");
 
