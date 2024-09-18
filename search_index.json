@@ -1246,9 +1246,9 @@
         "title": "Vegetable Bake",
         "htmlFilename": "vegetable_bake.html",
         "thumbnail": "vegetable_bake.jpeg",
-        "category": "Sides",
-        "diet": "",
-        "ingredients": "1-2 Sweet potatoes chopped  400gms pumpkin chopped 400gms butternut pumpkin chopped 1 red and yellow capsicums chopped 1 red onion cut in 1/8 1/2 cup feta crumbled 200 gms sundries tomatoes chopped 1/2 bunch coriander leaves removed  Olive oil  salt and pepper (cracked pepper)"
+        "category": "Sides Salad",
+        "diet": "GlutenFree Vegetarian EggFree",
+        "ingredients": "1-2 Sweet potatoes chopped  400gms pumpkin chopped 400gms butternut pumpkin chopped 1 red and yellow capsicums chopped 1 red onion cut in 1/8th  1/2 cup feta crumbled 200 gms sundries tomatoes chopped 1/2 bunch coriander leaves removed  Olive oil  salt and pepper (cracked pepper)"
     },
     {
         "id": "boston_tea.xml",
