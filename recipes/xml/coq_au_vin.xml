@@ -1,42 +1,54 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Coq au vin</title>
-  <filename>coq_au_vin.xml</filename>
-  <thumbnail>coq_an_vin.jpeg</thumbnail>
-  <category>Poultry</category>
-  <diet>GlutenFree</diet>
-  <comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
-  <ingredient>12 chicken legs</ingredient>
-  <ingredient>300-400gms diced bacon</ingredient>
-  <ingredient>1 carrot chopped </ingredient>
-  <ingredient>1 celery stalk diced</ingredient>
-  <ingredient>4-6 garlic cloves crushed</ingredient>
-  <ingredient>1 bay leaf</ingredient>
-  <ingredient>4 thyme sprigs</ingredient>
-  <ingredient>6-8 sprigs of parsley chopped</ingredient>
-  <ingredient>2 cups red wine</ingredient>
-  <ingredient>2 cups chicken stock</ingredient>
-  <ingredient>1 cup water</ingredient>
-  <ingredient>2 TBsp olive oil</ingredient>
-  <ingredient>2 TBsp balsamic vinegar</ingredient>
-  <ingredient>2 TBsp corn flour</ingredient>
-  <ingredient>20gms butter</ingredient>
-  <ingredient>1 TBsp brown sugar</ingredient>
-  <ingredient>1/2 teaspoon salt</ingredient>
-  <step>Heat oven to 180C.</step>
-  <step>Heat oil in casserole dish and cook garlic until golden.</step>
-  <step>Add carrots, celery, bay leaf and thyme and cook for about 6 mins or until veggies just begin to soften.</step>
-  <step>Transfer to a bowl, sprinkle with salt and set aside.</step>
-  <step>Then heat butter and cook chicken on high in batches so its browns on all sides of the skin.</step>
-  <step>Add all chicken back into the pan with the veggies.</step>
-  <step>Mix the corn flour and water together then add to pan, then add wine and stock, give it a good stir.</step>
-  <step>Put lid on and place in oven for 30-40 mins (when meat coming of legs slightly.</step>
-  <step>) Cook bacon while chicken in oven.</step>
-  <step>When crispy add balsamic vinegar and sugar.</step>
-  <step>When chicken is removed from oven stir well (add salt and pepper if desired) and sprinkle over bacon mixture.</step>
-  <step>Then sprinkle over parsley and serve with crusty bread or mash spud.</step>
-  <step>Great for cold winter nights!.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Coq au vin</title>
+<filename>coq_au_vin.xml</filename>
+<thumbnail>coq_an_vin.jpeg</thumbnail>
+<category>Poultry</category>
+<category>Dinner</category>
+<category>Lunch</category>
+<diet>GlutenFree</diet>
+<diet>DiaryFree</diet>
+<diet>EggFree</diet>
+<diet>Keto</diet>
+<yield>4</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT60M</cookTime>
+<comment>Chicken in wine- c/o Coles with cazzie tweaks</comment>
+<ingredient>12 chicken legs</ingredient>
+<ingredient>300-400gms diced bacon</ingredient>
+<ingredient>1 carrot chopped </ingredient>
+<ingredient>1 celery stalk diced</ingredient>
+<ingredient>4-6 garlic cloves crushed</ingredient>
+<ingredient>1 bay leaf</ingredient>
+<ingredient>4 thyme sprigs</ingredient>
+<ingredient>6-8 sprigs of parsley chopped</ingredient>
+<ingredient>2 cups red wine</ingredient>
+<ingredient>2 cups chicken stock</ingredient>
+<ingredient>1 cup water</ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>2 TBsp balsamic vinegar</ingredient>
+<ingredient>2 TBsp corn flour</ingredient>
+<ingredient>20gms butter</ingredient>
+<ingredient>1 TBsp brown sugar</ingredient>
+<ingredient>1/2 teaspoon salt</ingredient>
+<step>Heat oven to 180C.</step>
+<step>Heat oil in casserole dish and cook garlic until golden.</step>
+<step>Add carrots, celery, bay leaf and thyme and cook for about 6 mins or until veggies just begin to soften.</step>
+<step>Transfer to a bowl, sprinkle with salt and set aside.</step>
+<step>Then heat butter and cook chicken on high in batches so its browns on all sides of the skin.</step>
+<step>Add all chicken back into the pan with the veggies.</step>
+<step>Mix the corn flour and water together then add to pan, then add wine and stock, give it a good stir.</step>
+<step>Put lid on and place in oven for 40-60 mins (when meat coming of legs slightly.)</step>
+<step>Cook bacon while chicken in oven.</step>
+<step>When crispy add balsamic vinegar and sugar.</step>
+<step>When chicken is removed from oven stir well (add salt and pepper if desired) and sprinkle over bacon mixture.</step>
+<step>Then sprinkle over parsley and serve with crusty bread or mash spud.</step>
+<step>Great for cold winter nights.</step>
 </recipe>
+
