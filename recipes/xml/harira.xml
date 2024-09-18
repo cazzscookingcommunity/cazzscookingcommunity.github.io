@@ -12,11 +12,11 @@
 <category>Dinner</category>
 <category>Lunch</category>
 <category>Lamb</category>
-<diet>Vegan</diet>
+<diet>VGO</diet>
 <diet>GlutenFree</diet>
 <diet>LowSugar</diet>
 <diet>EggFree</diet>
-<yield>8</yield>
+<yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT2H</cookTime>
 <ingredient>1 cup or can of chickpeas</ingredient>
