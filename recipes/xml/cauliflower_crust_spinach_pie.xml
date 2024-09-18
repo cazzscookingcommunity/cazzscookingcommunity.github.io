@@ -1,48 +1,58 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Cauliflower Crust Spinach Pie</title>
-  <filename>cauliflower_crust_spinach_pie.xml</filename>
-  <thumbnail>cauliflour_crust_spinach_pie.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>Vegetarian</diet>
-  <diet>GlutenFree</diet>
-  <comment>c/o my fitness pal with cazzie tweaks </comment>
-  <part>
-    <title>Crust</title>
-    <ingredient>1 large head of cauliflower, cut into florets </ingredient>
-    <ingredient>1 TBsp shredded Parmesan </ingredient>
-    <ingredient>2 large egg whites</ingredient>
-    <step>Preheat oven to 200C.</step>
-    <step>Grease a high sided pie dish and set aside.</step>
-    <step>Cook the cauliflower in the microwave for 8-10 mins or until soft.</step>
-    <step>In batches blend until all is as small as rice.</step>
-    <step>Drain in a non fluffy tea towel placed with over a colander and let cool.</step>
-    <step>Mean while whisk egg whites and then mix in Parmesan and set aside.</step>
-    <step>Once cauliflower is cool enough to touch squeeze out as much liquid as possible ( ring the tea towel and squeeze at the same time.</step>
-    <step>) Mix the cauliflower with the egg and Parmesan mixture and pour into prepared pie dish.</step>
-    <step>With clean hands push the mixture to firm an even crust in the pair
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Cauliflower Crust Spinach Pie</title>
+<filename>cauliflower_crust_spinach_pie.xml</filename>
+<thumbnail>cauliflour_crust_spinach_pie.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<category>Snack</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
+<diet>Paleo</diet>
+<diet>Keto</diet>
+<diet>LowSugar</diet>
+<yield>4</yield>
+<prepTime>PT40M</prepTime>
+<cookTime>PT40M</cookTime>
+<comment>c/o my fitness pal with cazzie tweaks </comment>
+<part><title>Crust</title>
+<ingredient>1 large head of cauliflower, cut into florets </ingredient>
+<ingredient>1 TBsp shredded Parmesan </ingredient>
+<ingredient>2 large egg whites</ingredient>
+<step>Preheat oven to 200C.</step>
+<step>Grease a high sided pie dish and set aside.</step>
+<step>Cook the cauliflower in the microwave for 8-10 mins or until soft.</step>
+<step>In batches blend until all is as small as rice.</step>
+<step>Drain in a non fluffy tea towel placed with over a colander and let cool.</step>
+<step>Mean while whisk egg whites and then mix in Parmesan and set aside.</step>
+<step>Once cauliflower is cool enough to touch squeeze out as much liquid as possible ( ring the tea towel and squeeze at the same time.)</step>
+<step>Mix the cauliflower with the egg and Parmesan mixture and pour into prepared pie dish.</step>
+<step>With clean hands push the mixture to firm an even crust in the pair
             plate.</step>
-    <step>Place in the preheat oven for 20 minutes.</step>
-    <step>It will look dry in the middle.</step>
-    <step>Remove from the oven and prepare the filling.</step>
-  </part>
-  <part>
-    <title>Filling</title>
-    <ingredient>6 large eggs + 2 egg yolks (from crust)</ingredient>
-    <ingredient>6 handfuls of spinach (chopped fine)</ingredient>
-    <ingredient>3/4 cup feta crumbled</ingredient>
-    <ingredient>1/4 cup green onions chopped</ingredient>
-    <ingredient>1 teaspoon oregano</ingredient>
-    <ingredient>1/2 teaspoon salt and pepper</ingredient>
-    <ingredient>6 baby tomatoes halved (optional)</ingredient>
-    <step>Beat the eggs in a large bowl then add all other ingredients except the tomatoes
+<step>Place in the preheat oven for 20 minutes.</step>
+<step>It will look dry in the middle.</step>
+<step>Remove from the oven and prepare the filling.</step>
+</part>
+<part><title>Filling</title>
+<ingredient>6 large eggs + 2 egg yolks (from crust)</ingredient>
+<ingredient>6 handfuls of spinach (chopped fine)</ingredient>
+<ingredient>3/4 cup feta crumbled</ingredient>
+<ingredient>1/4 cup green onions chopped</ingredient>
+<ingredient>1 teaspoon oregano</ingredient>
+<ingredient>1/2 teaspoon salt and pepper</ingredient>
+<ingredient>6 baby tomatoes halved (optional)</ingredient>
+<step>Beat the eggs in a large bowl then add all other ingredients except the tomatoes
             and give it a good stir.</step>
-    <step>Pour mixture into pie crust, then add tomatoes on top.</step>
-    <step>Place in oven for 30-40 minutes or until centre is set (no longer wobbly and feels firm to touch.</step>
-    <step>Cut and serve with a little side salad.</step>
-    <step>Keeps in fridge for 3-4 days.</step>
-  </part>
+<step>Pour mixture into pie crust, then add tomatoes on top.</step>
+<step>Place in oven for 30-40 minutes or until centre is set (no longer wobbly and feels firm to touch.)</step>
+<step>Cut and serve with a little side salad.</step>
+<step>Keeps in fridge for 3-4 days.</step>
+</part>
 </recipe>
+
