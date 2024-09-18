@@ -1,35 +1,44 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Life Changing Bread</title>
-  <filename>life_changing_bread.xml</filename>
-  <thumbnail>life_changing_bread.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-  <ingredient>1 1/2 cups rolled oats</ingredient>
-  <ingredient>8 TBsp psyllium seed husks</ingredient>
-  <ingredient>1 cup sunflower seeds</ingredient>
-  <ingredient>1/2 cup flax seeds</ingredient>
-  <ingredient>1/2 cup pumpkin seeds or nuts</ingredient>
-  <ingredient>2 TBsp chia seeds</ingredient>
-  <ingredient>1 teaspoon salt</ingredient>
-  <ingredient>2 TBsp maple syrup or honey</ingredient>
-  <ingredient>3 TBsp melted coconut oil or ghee</ingredient>
-  <ingredient>1 1/2 cups water</ingredient>
-  <step>Prepare a loaf tin, by lining it with grease proof paper and set aside.</step>
-  <step>In two separate bowls mix all dry ingredients and wet ingredients.</step>
-  <step>Pour wet ingredients into dry ingredients and mix well.</step>
-  <step>Scoop into prepared tin and push down with your hand and make it smooth on top.</step>
-  <step>Cover with a clean tea towel and set aside for at least 2 hours.</step>
-  <step>Can be left overnight.</step>
-  <step>When ready place in preheated oven at 180C and cook for 20 minutes.</step>
-  <step>Remove from oven and remove from tin and paper and place back in oven upside down directly on rack.</step>
-  <step>Turn down oven to 130C and cook for about 1-2 hours.</step>
-  <step>It will sound hollow when taped, if it is ready.</step>
-  <step>Remove from oven and cool completely on rack.</step>
-  <step>Cut in skinny slices and serve with favorite spreads and dips.</step>
-  <step>Can be toasted and frozen (cut in slices before freezing.</step>
-  <step>).</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Life Changing Bread</title>
+<filename>life_changing_bread.xml</filename>
+<thumbnail>life_changing_bread.jpeg</thumbnail>
+<category>Sides</category>
+<category>Snack</category>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<diet>DiaryFree</diet>
+<yield>4</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>P2H</cookTime>
+<ingredient>1 1/2 cups rolled oats</ingredient>
+<ingredient>8 TBsp psyllium seed husks</ingredient>
+<ingredient>1 cup sunflower seeds</ingredient>
+<ingredient>1/2 cup flax seeds</ingredient>
+<ingredient>1/2 cup pumpkin seeds or nuts</ingredient>
+<ingredient>2 TBsp chia seeds</ingredient>
+<ingredient>1 teaspoon salt</ingredient>
+<ingredient>2 TBsp maple syrup or honey</ingredient>
+<ingredient>3 TBsp melted coconut oil or ghee</ingredient>
+<ingredient>1 1/2 cups water</ingredient>
+<step>Prepare a loaf tin, by lining it with grease proof paper and set aside.</step>
+<step>In two separate bowls mix all dry ingredients and wet ingredients.</step>
+<step>Pour wet ingredients into dry ingredients and mix well.</step>
+<step>Scoop into prepared tin and push down with your hand and make it smooth on top.</step>
+<step>Cover with a clean tea towel and set aside for at least 2 hours.</step>
+<step>Can be left overnight.</step>
+<step>When ready place in preheated oven at 180C and cook for 20 minutes.</step>
+<step>Remove from oven and remove from tin and paper and place back in oven upside down directly on rack.</step>
+<step>Turn down oven to 130C and cook for about 1-2 hours.</step>
+<step>It will sound hollow when taped, if it is ready.</step>
+<step>Remove from oven and cool completely on rack.</step>
+<step>Cut in skinny slices and serve with favorite spreads and dips.</step>
+<step>Can be toasted and frozen (cut in slices before freezing.)</step>
 </recipe>
+
