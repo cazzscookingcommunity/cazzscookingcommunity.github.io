@@ -1,32 +1,41 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Chow Mein2</title>
-  <filename>chow_mein2.xml</filename>
-  <thumbnail>chow_mein.jpeg</thumbnail>
-  <category/>
-  <yield/>
-  <prepTime>PT0M</prepTime>
-  <cookTime>PT0M</cookTime>
-  <comment>Quick and easy!</comment>
-  <ingredient>600gms minced pork</ingredient>
-  <ingredient>1/2 cabbage chopped</ingredient>
-  <ingredient>2-3 garlic cloves crushed</ingredient>
-  <ingredient>1/2 cup stir fry sauce</ingredient>
-  <ingredient>2 carrots grated</ingredient>
-  <ingredient>3 spring onions chopped</ingredient>
-  <ingredient>200gms rice noodles</ingredient>
-  <ingredient>1/2 cup chicken stock</ingredient>
-  <ingredient>Olive oil</ingredient>
-  <ingredient>Salt and Pepper to taste</ingredient>
-  <step>Heat olive oil in large pan or wok.</step>
-  <step>Cook garlic for a few minutes then add pork.</step>
-  <step>Cook until all brown.</step>
-  <step>Add stock and cabbage then place lid on pan for 10 minutes.</step>
-  <step>Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside.</step>
-  <step>Once cabbage cooked add noodles, carrot, stir fry sauce and Salt and Pepper and stir well.</step>
-  <step>Serve with spring onions sprinkled on top.</step>
-  <step>You can replace the cabbage with any yummy Asian green.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Chow Mein2</title>
+<filename>chow_mein2.xml</filename>
+<thumbnail>chow_mein.jpeg</thumbnail>
+<category>Dinner</category>
+<category>Lunch</category>
+<category>Pork</category>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<diet>DiaryFree</diet>
+<yield>6</yield>
+<prepTime>PT15M</prepTime>
+<cookTime>PT15M</cookTime>
+<comment>Quick and easy!</comment>
+<ingredient>600gms minced pork</ingredient>
+<ingredient>1/2 cabbage chopped</ingredient>
+<ingredient>2-3 garlic cloves crushed</ingredient>
+<ingredient>1/2 cup stir fry sauce</ingredient>
+<ingredient>2 carrots grated</ingredient>
+<ingredient>3 spring onions chopped</ingredient>
+<ingredient>200gms rice noodles</ingredient>
+<ingredient>1/2 cup chicken stock</ingredient>
+<ingredient>Olive oil</ingredient>
+<ingredient>Salt and Pepper to taste</ingredient>
+<step>Heat olive oil in large pan or wok.</step>
+<step>Cook garlic for a few minutes then add pork.</step>
+<step>Cook until all brown.</step>
+<step>Add stock and cabbage then place lid on pan for 10 minutes.</step>
+<step>Meanwhile cook rice noodle in a separate bowl then drain and chop with kitchen scissors then set aside.</step>
+<step>Once cabbage cooked add noodles, carrot, stir fry sauce and Salt and Pepper and stir well.</step>
+<step>Serve with spring onions sprinkled on top.</step>
+<step>You can replace the cabbage with any yummy Asian green.</step>
 </recipe>
+
