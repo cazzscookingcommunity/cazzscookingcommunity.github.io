@@ -1,23 +1,30 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Easy Lunch Bowl</title>
-  <filename>easy_lunch_bowl.xml</filename>
-  <thumbnail>easy_lunch_bowl.jpeg</thumbnail>
-  <category/>
-  <yield/>
-  <prepTime>PT0M</prepTime>
-  <cookTime>PT0M</cookTime>
-  <comment/>
-  <ingredient>Cooked rice</ingredient>
-  <ingredient>Can lentils rinsed and drained</ingredient>
-  <ingredient>Kale washed stripped and chopped </ingredient>
-  <ingredient>Tzatziki</ingredient>
-  <ingredient>Sweet spud chopped and cooked</ingredient>
-  <ingredient>Salad- radish/tomatoes/celery </ingredient>
-  <step>In a bowl put a handful of kale.</step>
-  <step>On top pile a layer of rice, then pile sweet spud, lentil ( 1/4 cup), salad and tzatziki.</step>
-  <step>Serve cold and let the person mix together if the want!.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Easy Lunch Bowl</title>
+<filename>easy_lunch_bowl.xml</filename>
+<thumbnail>easy_lunch_bowl.jpeg</thumbnail>
+<category>Lunch</category>
+<category>Dinner</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
+<yield>2</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT10M</cookTime>
+<ingredient>Cooked rice</ingredient>
+<ingredient>Can lentils rinsed and drained</ingredient>
+<ingredient>Kale washed stripped and chopped </ingredient>
+<ingredient>Tzatziki</ingredient>
+<ingredient>Sweet spud chopped and cooked</ingredient>
+<ingredient>Salad- radish/tomatoes/celery </ingredient>
+<step>In a bowl put a handful of kale.</step>
+<step>On top pile a layer of rice, then pile sweet spud, lentil ( 1/4 cup), salad and tzatziki.</step>
+<step>Serve cold and let the person mix together if they want.</step>
 </recipe>
+
