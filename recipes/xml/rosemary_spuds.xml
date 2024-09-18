@@ -1,20 +1,29 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Rosemary Spuds</title>
-  <filename>rosemary_spuds.xml</filename>
-  <thumbnail>rosemary_roast_spuds.jpeg</thumbnail>
-  <category>Sides</category>
-  <ingredient>1-2 Red skin potatoes per person cut in 1/4 length ways</ingredient>
-  <ingredient>2-3 TBsp olive oil</ingredient>
-  <ingredient>2 sprigs rosemary leaves removed </ingredient>
-  <ingredient>Cracked pepper and salt</ingredient>
-  <step>Preheat oven to 180C, while you prepare spuds.</step>
-  <step>Wash and cut spuds.</step>
-  <step>In a large baking dish place all ingredients except the salt, and turn over with your hands to coat everything.</step>
-  <step>Place in oven for 1 hour, turning every 15 minutes to cook evenly.</step>
-  <step>Once cooked sprinkle with salt and turn over with spatula to spread evenly.</step>
-  <step>Ideally served with lamb and a green salad.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Rosemary Spuds</title>
+<filename>rosemary_spuds.xml</filename>
+<thumbnail>rosemary_roast_spuds.jpeg</thumbnail>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<yield>4</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>P1H</cookTime>
+<ingredient>1-2 Red skin potatoes per person cut in 1/4 length ways</ingredient>
+<ingredient>2-3 TBsp olive oil</ingredient>
+<ingredient>2 sprigs rosemary leaves removed </ingredient>
+<ingredient>Cracked pepper and salt</ingredient>
+<step>Preheat oven to 180C, while you prepare spuds.</step>
+<step>Wash and cut spuds.</step>
+<step>In a large baking dish place all ingredients except the salt, and turn over with your hands to coat everything.</step>
+<step>Place in oven for 1 hour, turning every 15 minutes to cook evenly.</step>
+<step>Once cooked sprinkle with salt and turn over with spatula to spread evenly.</step>
+<step>Ideally served with lamb and a green salad.</step>
 </recipe>
+
