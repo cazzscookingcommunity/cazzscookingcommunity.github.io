@@ -1,27 +1,36 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Lunch slice </title>
-  <filename>lunch_slice.xml</filename>
-  <thumbnail>lunch_slice.jpeg</thumbnail>
-  <category>Lunch</category>
-  <diet>GlutenFree</diet>
-  <ingredient>1 cup gluten free flour</ingredient>
-  <ingredient>1 1/2 cups seeds </ingredient>
-  <ingredient>( I put in 1/2 cup of three different types - chia/pumpkin/sun flour seeds, use what you like)</ingredient>
-  <ingredient>2 TBsp coconut flour (optional)</ingredient>
-  <ingredient>1/2 cup maple syrup </ingredient>
-  <ingredient>1/2 cup melted butter</ingredient>
-  <ingredient>2 eggs beaten</ingredient>
-  <ingredient>1/2 cup choc chips (if desired)</ingredient>
-  <step>Grease lamington tray and place grease proof paper inside it and set aside.</step>
-  <step>Preheat oven to 180C.</step>
-  <step>In a bowl mix all dry ingredients with whisk then add all the wet ingredients.</step>
-  <step>Stir till combined and carefully place in prepared pan.</step>
-  <step>Flatten it down with wet hands.</step>
-  <step>Cook for 30 mins or until slightly golden.</step>
-  <step>Cool in tray and once completely cool cut in bars.</step>
-  <step>Store in airtight container and take as a snack for lunches.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Lunch slice </title>
+<filename>lunch_slice.xml</filename>
+<thumbnail>lunch_slice.jpeg</thumbnail>
+<category>Snack</category>
+<category>Sides</category>
+<diet>GlutenFree</diet>
+<diet>EggFree</diet>
+<yield>6</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT30M</cookTime>
+<ingredient>1 cup gluten free flour</ingredient>
+<ingredient>1 1/2 cups seeds </ingredient>
+<ingredient>( I put in 1/2 cup of three different types - chia/pumpkin/sun flour seeds, use what you like)</ingredient>
+<ingredient>2 TBsp coconut flour (optional)</ingredient>
+<ingredient>1/2 cup maple syrup </ingredient>
+<ingredient>1/2 cup melted butter</ingredient>
+<ingredient>2 eggs beaten</ingredient>
+<ingredient>1/2 cup choc chips (if desired)</ingredient>
+<step>Grease lamington tray and place grease proof paper inside it and set aside.</step>
+<step>Preheat oven to 180C.</step>
+<step>In a bowl mix all dry ingredients with whisk then add all the wet ingredients.</step>
+<step>Stir till combined and carefully place in prepared pan.</step>
+<step>Flatten it down with wet hands.</step>
+<step>Cook for 30 mins or until slightly golden.</step>
+<step>Cool in tray and once completely cool cut in bars.</step>
+<step>Store in airtight container and take as a snack for lunches.</step>
 </recipe>
+
