@@ -1,25 +1,35 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Roasted Carrot Dip</title>
-  <filename>roasted_carrot_dip.xml</filename>
-  <thumbnail>roasted_carrot_dip.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>Vegetarian</diet>
-  <ingredient>500 gms carrots chopped </ingredient>
-  <ingredient>3 cloves garlic crushed </ingredient>
-  <ingredient>2 TBsp olive oil</ingredient>
-  <ingredient>1/4 teaspoon salt and pepper </ingredient>
-  <ingredient>1/4 cup Mayvers tahini</ingredient>
-  <ingredient>Juice from one lemon </ingredient>
-  <ingredient>2 TBsp water</ingredient>
-  <step>Preheat oven to 180C.</step>
-  <step>Roughly chop carrots and place in baking tray pour over 1 TBsp olive oil and toss.</step>
-  <step>Place in oven for 15 minutes, then toss before replacing in oven for a further 20 minutes.</step>
-  <step>Remove from oven and set aside to cool.</step>
-  <step>Once cool place in blender with other ingredients and blend to dip consistency.</step>
-  <step>Place in bowl and decorate with pumpkin seeds if desired, keep refrigerated until you want to serve it.</step>
-  <step>Makes 2 cups.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Roasted Carrot Dip</title>
+<filename>roasted_carrot_dip.xml</filename>
+<thumbnail>roasted_carrot_dip.jpeg</thumbnail>
+<category>Sides</category>
+<category>Snack</category>
+<diet>Vegan</diet>
+<diet>GlutenFree</diet>
+<diet>Paleo</diet>
+<yield>4</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT15M</cookTime>
+<ingredient>500 gms carrots chopped </ingredient>
+<ingredient>3 cloves garlic crushed </ingredient>
+<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>1/4 teaspoon salt and pepper </ingredient>
+<ingredient>1/4 cup Mayvers tahini</ingredient>
+<ingredient>Juice from one lemon </ingredient>
+<ingredient>2 TBsp water</ingredient>
+<step>Preheat oven to 180C.</step>
+<step>Roughly chop carrots and place in baking tray pour over 1 TBsp olive oil and toss.</step>
+<step>Place in oven for 15 minutes, then toss before replacing in oven for a further 20 minutes.</step>
+<step>Remove from oven and set aside to cool.</step>
+<step>Once cool place in blender with other ingredients and blend to dip consistency.</step>
+<step>Place in bowl and decorate with pumpkin seeds if desired, keep refrigerated until you want to serve it.</step>
+<step>Makes 2 cups.</step>
 </recipe>
+
