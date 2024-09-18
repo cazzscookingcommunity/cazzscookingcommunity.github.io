@@ -1,20 +1,28 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
-<recipe xmlns="https://cazzscookingcommunity.github.io"
-        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-        xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd">
-  <title>Guacamole</title>
-  <filename>guacamole.xml</filename>
-  <thumbnail>guacomole.jpeg</thumbnail>
-  <category>Sides</category>
-  <diet>GlutenFree</diet>
-  <diet>Vegan</diet>
-  <ingredient>2-3 avocados pitted, peeled and mashed</ingredient>
-  <ingredient>1 lime juiced</ingredient>
-  <ingredient>1 tomatoe de-seeded and chopped</ingredient>
-  <ingredient>3 spring onions chopped</ingredient>
-  <ingredient>1-2 garlic cloves crushed</ingredient>
-  <ingredient>1/2 teaspoon chilli powder</ingredient>
-  <ingredient>Salt and Pepper to taste</ingredient>
-  <step>Mix all together and sprinkle a few extra spring onions on top.</step>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Guacamole</title>
+<filename>guacamole.xml</filename>
+<thumbnail>guacomole.jpeg</thumbnail>
+<category>Sides</category>
+<category>Salad</category>
+<diet>GlutenFree</diet>
+<diet>Vegan</diet>
+<yield>4</yield>
+<prepTime>PT20M</prepTime>
+<cookTime>PT5M</cookTime>
+<ingredient>2-3 avocados pitted, peeled and mashed</ingredient>
+<ingredient>1 lime juiced</ingredient>
+<ingredient>1 tomatoe de-seeded and chopped</ingredient>
+<ingredient>3 spring onions chopped</ingredient>
+<ingredient>1-2 garlic cloves crushed</ingredient>
+<ingredient>1/2 teaspoon chilli powder</ingredient>
+<ingredient>Salt and Pepper to taste</ingredient>
+<step>Mix all together and sprinkle a few extra spring onions on top.</step>
 </recipe>
+
