@@ -218,11 +218,11 @@ def main():
     if os.path.exists(git_changes):
         # Running on GitHub actions, so process changed files
         print("processing git changes")
-        process_git_changes()
+        # process_git_changes()
     else:
         # Running locally so process all recipes
         print("processing all recipes")
-        process_directory()
+        # process_directory()
 
         # test individual files before do full directory
         # testfile1="recipes/xml/acquacotta.xml"
@@ -234,11 +234,11 @@ def main():
         # generate_html_from_xml(testfile2)
         # print(f"Conversion of {testfile2} is complete")
 
-        # generate_html_from_xml('recipes/xml/test.xml')
-        # generate_html_from_xml('recipes/xml/test2.xml')
-        # generate_html_from_xml('recipes/xml/test3.xml')
-        # generate_html_from_xml('recipes/xml/test4.xml')
-        # generate_html_from_xml('recipes/xml/test5.xml')
+        generate_html_from_xml('recipes/xml/test1.xml')
+        generate_html_from_xml('recipes/xml/test2.xml')
+        generate_html_from_xml('recipes/xml/test3.xml')
+        generate_html_from_xml('recipes/xml/test4.xml')
+        generate_html_from_xml('recipes/xml/test5.xml')
 
 
 

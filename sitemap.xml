@@ -879,6 +879,15 @@
         <priority>0.8</priority>
     </url>
     <url>
+        <loc>https://cazzscookingcommunity.github.io/recipes/html/test1.html</loc>
+        <image:image>
+            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test1.jpeg</image:loc>
+        </image:image>
+        <lastmod>2024-09-20</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/awesome_roasted_beetroot_dip.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/beetroot_dip.jpeg</image:loc>
@@ -946,7 +955,7 @@
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test3.jpeg</image:loc>
         </image:image>
-        <lastmod>2024-09-19</lastmod>
+        <lastmod>2024-09-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1000,7 +1009,7 @@
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test2.jpeg</image:loc>
         </image:image>
-        <lastmod>2024-09-19</lastmod>
+        <lastmod>2024-09-20</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>
@@ -1082,15 +1091,6 @@
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/steak_in_blackbean_sauce.jpeg</image:loc>
         </image:image>
         <lastmod>2024-09-17</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/test.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test.jpeg</image:loc>
-        </image:image>
-        <lastmod>2024-09-19</lastmod>
         <changefreq>yearly</changefreq>
         <priority>0.8</priority>
     </url>

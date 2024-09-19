@@ -156,30 +156,36 @@ async function delete_recipe() {
             const recipeXmlSha = await getSHA(recipeXmlDir, recipexml);
             await deleteFile(recipeXmlDir + recipexml, recipeXmlSha);
             console.log("Recipe XML file deleted successfully");
+        } catch (error) {
+            console.error("Error occurred during Recipe XML deletion:", error.message);
+        }
 
+        try {
             // Get the SHA for the recipe's image file and delete it
             const imageSha = await getSHA(imagedir, recipeimage);
             await deleteFile(imagedir + recipeimage, imageSha);
             console.log("Recipe image file deleted successfully");
+        } catch (error) {
+            console.error("Error occurred during Recipe Image deletion:", error.message);
+        }    
 
+        try {
             // Get the SHA for the recipe's HTML file and delete it (if it exists)
             const htmlSha = await getSHA(recipeHtmlDir, recipehtml);
             await deleteFile(recipeHtmlDir + recipehtml, htmlSha);
             console.log("Recipe HTML file deleted successfully");
-
-            if (window.opener) {
-                // Go back in the parent's history
-                window.opener.history.back();
-                // Close the current (child) window
-                window.close();
-            } else {
-                // Cannot close the window so notify user that upload is complete
-                window.alert(`Recipe upload complete`);
-            }
-
         } catch (error) {
-            console.error("Error occurred during deletion:", error.message);
-            alert(`An error occurred: ${error.message}`);
+            console.error("Error occurred during REcipe HTML deletion:", error.message);
+        }
+
+        if (window.opener) {
+            // Go back in the parent's history
+            window.opener.history.back();
+            // Close the current (child) window
+            window.close();
+        } else {
+            // Cannot close the window so notify user that upload is complete
+            window.alert(`Recipe delete complete`);
         }
     }
 }
