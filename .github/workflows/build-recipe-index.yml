@@ -94,5 +94,6 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "automated html and index update"
+            git pull --rebase
             git push
           fi
