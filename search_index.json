@@ -1359,15 +1359,6 @@
         "ingredients": ""
     },
     {
-        "id": "test3.xml",
-        "title": "Test 3",
-        "htmlFilename": "test3.html",
-        "thumbnail": "test3.jpeg",
-        "category": "Soup",
-        "diet": "Vegetarian",
-        "ingredients": "2-3 Tbsp olive oil 2-3 garlic cloves crushed Pinch of chili 2-4 celery stalks chopped 1-2 carrots chopped 1 cup white wine 6 cups water 2 stock cubes 2 cans chopped tomatoes salt and pepper to taste 1 cup ricotta cheese (optional) 4 eggs (optional) 4 slices stale bread (optional) Any Italian herbs (parsley or basil) you have on hand (optional)"
-    },
-    {
         "id": "cherry_tomato_bake.xml",
         "title": "Cherry Tomato Bake",
         "htmlFilename": "cherry_tomato_bake.html",

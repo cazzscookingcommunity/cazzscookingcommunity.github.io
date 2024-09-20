@@ -1374,15 +1374,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/test3.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test3.jpeg</image:loc>
-        </image:image>
-        <lastmod>2024-09-20</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/cherry_tomato_bake.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/cherry_tomato_bake.jpeg</image:loc>
