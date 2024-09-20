@@ -20,7 +20,7 @@ jobs:
   check:
     name: Check changed files
     outputs:
-      run_job: ${{ steps.check_files.outputs.run_job }}
+      files_modified_or_added: ${{ steps.check_files.outputs.files_modified_or_added }}  # List of changed files
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -32,29 +32,28 @@ jobs:
         id: check_files
         run: |
           echo "=============== list changed files ==============="
-          git diff --name-only HEAD^ HEAD
-          
-          echo "========== check paths of changed files =========="
-          git diff --name-only HEAD^ HEAD > files.txt
+          git diff --name-status HEAD^ HEAD > files.txt
+
+          # Initialize the output
+          files_modified_or_added=""
+
+          echo "========== check paths and status of changed files =========="
           while IFS= read -r file
           do
-            echo $file
-            if [[ $file != "recipes/xml/"* ]]; then
-              echo "This file is not under the directory 'recipes/xml/'."
-              # echo "::set-output name=run_job::false"
-              echo "run_job=false" >> $GITHUB_OUTPUT
-              break
-            else
-              echo "this file is in RECIPE/XML/ directory."
-              # echo "::set-output name=run_job::true"
-              echo "run_job=true" >> $GITHUB_OUTPUT
+            status=$(echo $file | cut -f1)
+            file_name=$(echo $file | cut -f2)
+            
+            if [[ $file_name == "recipes/xml/"* && ( $status == "A" || $status == "M" ) ]]; then
+              echo "File $file_name was added or modified."
+              files_modified_or_added="$files_modified_or_added $file_name"
             fi
           done < files.txt
+
+          echo "files_modified_or_added=$files_modified_or_added" >> $GITHUB_OUTPUT
 
   job_for_recipes:
     name: Job for recipes
     needs: check
-    if: needs.check.outputs.run_job == 'true'
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -68,13 +67,19 @@ jobs:
       - name: install_dependencies
         run: pip install xmlschema lxml BeautifulSoup4
 
+      - name: generate html files for changed recipes
+      # only generate the html recipes for the changes xml files
+        if: needs.check.outputs.files_modified_or_added != ''
+        run: |
+          python scripts/python_scripts/make-recipe-pages.py ${{ needs.check.outputs.files_modified_or_added }}
+
+      # always regenerate the site index to capture adds, modifications, and deletes
       - name: generate sitemap and search index files
         run: python scripts/python_scripts/build-index-workflow.py
-
-      - name: generate html files for changed recipes and recipes-all
-        run: |
-          python scripts/python_scripts/make-recipe-pages.py
-          python scripts/python_scripts/make-recipe-all-page.py
+      
+      # always regenerate the recipe-all html to capture adds, modifications, and deletes
+      - name: generate html for all recipes
+        run: python scripts/python_scripts/make-recipe-all-page.py
 
       - if: ${{ success() }}
         run: |
@@ -90,4 +95,3 @@ jobs:
           else
             git commit -m "automated html and index update"
             git push
-          fi

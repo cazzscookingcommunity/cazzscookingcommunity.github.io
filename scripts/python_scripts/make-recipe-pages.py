@@ -1,51 +1,37 @@
 import os
+import sys
 import json
 from lxml import etree
 import re
 from bs4 import BeautifulSoup
 
-# Define the path to the directory containing XML files and the template file
 recipeDir = 'recipes/xml/'
 template_file = 'components/html/recipe-template.html'
 index_file = 'search_index.json'
-git_changes = 'files.txt' # files.txt created by Github Actions. see .gituhub/workflows/build-recipe-index.yml
-
-
-
 output_directory = 'recipes/html/'
-# Define the namespace
 ns = {'ns': 'https://cazzscookingcommunity.github.io'}
 
-
-
-# Read the external HTML template
 with open(template_file, 'r') as file:
     template = file.read()
-
 
 def pretty_format_html(html_string):
     soup = BeautifulSoup(html_string, 'html.parser')
     return soup.prettify()
 
-# Utility function to format time, with error handling for blank or missing fields
 def format_time(duration):
     if not duration:
         return ""
     try:
-        # Updated regular expression to match ISO 8601 duration format with days
         pattern = re.compile(r'P(?:(\d+)D)?(T(?:(\d+)H)?(?:(\d+)M)?(?:(\d+)S)?)?')
         match = pattern.match(duration)
-
         if not match:
             return "unknown format"
 
-        # Extract days, hours, minutes, and seconds
         days = int(match.group(1)) if match.group(1) else 0
         hours = int(match.group(3)) if match.group(3) else 0
         minutes = int(match.group(4)) if match.group(4) else 0
         seconds = int(match.group(5)) if match.group(5) else 0
 
-        # Format the time string based on available components
         time_str = ""
         if days:
             time_str += f"{days} days "
@@ -56,19 +42,17 @@ def format_time(duration):
         if seconds:
             time_str += f"{seconds} secs"
 
-        return time_str.strip()  # Remove any trailing whitespace
+        return time_str.strip()
     except (ValueError, IndexError):
         return "unknown format"
-    
-# Function to parse XML and extract recipe details
+
 def parse_recipe(xml_file):
     try:
         tree = etree.parse(xml_file)
         root = tree.getroot()
-        
+
         title = root.findtext('ns:title', namespaces=ns)
         filename = root.findtext('ns:filename', namespaces=ns)
-        # htmlFilename = root.findtext('ns:htmlFilename', namespaces=ns)
         htmlFilename = filename.replace(".xml", ".html")
         thumbnail = root.findtext('ns:thumbnail', namespaces=ns)
         iso_preptime = root.findtext('ns:prepTime', namespaces=ns)
@@ -76,18 +60,13 @@ def parse_recipe(xml_file):
         preptime = format_time(iso_preptime)
         cooktime = format_time(iso_cooktime)
         servings = root.findtext('ns:yield', namespaces=ns)
-        
+
         diet_elements = root.findall('ns:diet', namespaces=ns)
         category_elements = root.findall('ns:category', namespaces=ns)
 
-        # Ensure the variables are strings if there's only one category or diet
-        diet = [d.text for d in diet_elements if d is not None and d.text]
-        category = [c.text for c in category_elements if c is not None and c.text]
+        diet = ", ".join([d.text for d in diet_elements if d.text])
+        category = ", ".join([c.text for c in category_elements if c.text])
 
-        diet = ", ".join(diet) if diet else ""  # Treat as a string
-        category = ", ".join(category) if category else ""  # Treat as a string
-
-        
         return {
             "id": filename,
             "title": title,
@@ -106,7 +85,6 @@ def parse_recipe(xml_file):
         print(f"Error parsing file {xml_file}: {e}")
         return None
 
-# Function to handle ingredients and instructions
 def parse_ingredients_and_instructions(root):
     ingredients_list = ""
     instructions_list = ""
@@ -128,23 +106,8 @@ def parse_ingredients_and_instructions(root):
             schema_instructions.append({"@type": "HowToStep", "text": step.text})
         instructions_list += "</ol>"
 
-    if not ingredients_list and not instructions_list:
-        ingredients_list = "<ul>"
-        instructions_list = "<ol>"
-        
-        for ingredient in root.findall('ns:ingredient', namespaces=ns):
-            ingredients_list += f"<li>{ingredient.text}</li>"
-            schema_ingredients.append(ingredient.text)
-        ingredients_list += "</ul>"
-
-        for step in root.findall('ns:step', namespaces=ns):
-            instructions_list += f"<li>{step.text}</li>"
-            schema_instructions.append({"@type": "HowToStep", "text": step.text})
-        instructions_list += "</ol>"
-
     return ingredients_list, instructions_list, schema_ingredients, schema_instructions
 
-# Function to generate HTML content
 def generate_html_content(recipe_data, ingredients_list, instructions_list, schema_ingredients, schema_instructions):
     schema_ingredients_json = json.dumps(schema_ingredients)
     schema_instructions_json = json.dumps(schema_instructions)
@@ -170,12 +133,10 @@ def generate_html_content(recipe_data, ingredients_list, instructions_list, sche
     
     return html_content
 
-# Function to write HTML content to file
 def write_html_file(html_content, output_filename):
     with open(output_filename, 'w') as file:
         file.write(html_content)
 
-# Main function to generate HTML from XML
 def generate_html_from_xml(xml_file):
     recipe_data = parse_recipe(xml_file)
     if recipe_data is None:
@@ -193,58 +154,40 @@ def process_directory():
     for xml_file in os.listdir(recipeDir):
         if xml_file.endswith('.xml'):
             generate_html_from_xml(os.path.join(recipeDir, xml_file))
-    return
 
-def process_git_changes():
-    # get all recipes from index
-    with open(index_file, 'r') as f:
-        allRecipes = json.load(f)
-
-    with open(git_changes, 'r') as file:
-            changed_files = file.readlines()
-
-    # Remove 'recipes/' prefix and process each file
+def process_git_changes(changed_files):
+    # Process only the changed files passed as an argument
     for file_path in changed_files:
-        file_name = file_name.replace(recipeDir, '')
-        
-        # Search for the recipe in the search_index
-        recipe = next((recipe for recipe in allRecipes if recipe['filename'] == file_name), None)
-        generate_html_from_xml(file_path)
-    return
+        if os.path.isfile(file_path) and file_path.startswith(recipeDir) and file_path.endswith('.xml'):
+            generate_html_from_xml(file_path)
+        else:
+            print(f"Skipping invalid file: {file_path}")
 
-
+def validate_files(file_list):
+    # Check if file_list contains valid XML files
+    for file in file_list:
+        if not os.path.isfile(file) or not file.endswith('.xml'):
+            print(f"Invalid file: {file}")
+            return False
+    return True
 
 def main():
-    if os.path.exists(git_changes):
-        # Running on GitHub actions, so process changed files
-        print("processing git changes")
-        process_git_changes()
-    else:
-        # Running locally so process all recipes
-        print("processing all recipes")
+    if len(sys.argv) > 1 and sys.argv[1] == 'all':
+        # Process all files if 'all' is passed as an argument
+        print("Processing all recipes")
         process_directory()
+    else:
+        # Process specific changed files
+        changed_files = sys.argv[1:]
+        if changed_files:
+            if validate_files(changed_files):
+                print(f"Processing changed files: {changed_files}")
+                process_git_changes(changed_files)
+            else:
+                print("Error: One or more files provided are invalid.")
+        else:
+            print("No files provided to process. pls run with 'all' or a list of files")
 
-        # test individual files before do full directory
-        # testfile1="recipes/xml/acquacotta.xml"
-        # testfile2="recipes/xml/american_bbq_spareribs.xml"
-
-        # generate_html_from_xml(testfile1)
-        # print(f"Conversion of {testfile1} is complete")
-
-        # generate_html_from_xml(testfile2)
-        # print(f"Conversion of {testfile2} is complete")
-
-        #
-        # generate_html_from_xml('recipes/xml/test1.xml')
-        # generate_html_from_xml('recipes/xml/test2.xml')
-        # generate_html_from_xml('recipes/xml/test3.xml')
-        # generate_html_from_xml('recipes/xml/test4.xml')
-        # generate_html_from_xml('recipes/xml/test5.xml')
-
-
-
-if __name__== "__main__":
+if __name__ == "__main__":
     main()
-    print("generation of static html files complete")
-
-
+    print("Generation of static HTML files complete")
