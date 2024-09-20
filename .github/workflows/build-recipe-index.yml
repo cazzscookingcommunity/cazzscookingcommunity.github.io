@@ -58,6 +58,7 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@main
+
       - name: index recipes
         uses: actions/setup-python@main
         with:
@@ -68,17 +69,16 @@ jobs:
         run: pip install xmlschema lxml BeautifulSoup4
 
       - name: generate html files for changed recipes
-      # only generate the html recipes for the changes xml files
+        # only generate the html recipes for the changes xml files
         if: needs.check.outputs.files_modified_or_added != ''
-        run: |
-          python scripts/python_scripts/make-recipe-pages.py ${{ needs.check.outputs.files_modified_or_added }}
+        run: python scripts/python_scripts/make-recipe-pages.py ${{ needs.check.outputs.files_modified_or_added }}
 
-      # always regenerate the site index to capture adds, modifications, and deletes
       - name: generate sitemap and search index files
+        # always regenerate the site index to capture adds, modifications, and deletes
         run: python scripts/python_scripts/build-index-workflow.py
       
-      # always regenerate the recipe-all html to capture adds, modifications, and deletes
       - name: generate html for all recipes
+        # always regenerate the recipe-all html to capture adds, modifications, and deletes
         run: python scripts/python_scripts/make-recipe-all-page.py
 
       - if: ${{ success() }}
