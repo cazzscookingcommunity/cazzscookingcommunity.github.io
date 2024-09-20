@@ -330,15 +330,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/test2.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test2.jpeg</image:loc>
-        </image:image>
-        <lastmod>2024-09-20</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/rosemary_spuds.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/rosemary_roast_spuds.jpeg</image:loc>
@@ -1989,15 +1980,6 @@
         <loc>https://cazzscookingcommunity.github.io/recipes/html/fennel_soup.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/fennel_soup.jpeg</image:loc>
-        </image:image>
-        <lastmod>2024-09-20</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/test1.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/test1.jpeg</image:loc>
         </image:image>
         <lastmod>2024-09-20</lastmod>
         <changefreq>yearly</changefreq>

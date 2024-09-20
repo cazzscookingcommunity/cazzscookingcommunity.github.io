@@ -315,15 +315,6 @@
         "ingredients": "4 egg whites 4 3/4 cups desiccated coconut  1/2 cup caster sugar 1 teaspoon vanilla essence "
     },
     {
-        "id": "test2.xml",
-        "title": "Test 2",
-        "htmlFilename": "test2.html",
-        "thumbnail": "test2.jpeg",
-        "category": "Soup",
-        "diet": "Vegetarian",
-        "ingredients": "2-3 Tbsp olive oil 2-3 garlic cloves crushed Pinch of chili 2-4 celery stalks chopped 1-2 carrots chopped 1 cup white wine 6 cups water 2 stock cubes 2 cans chopped tomatoes salt and pepper to taste 1 cup ricotta cheese (optional) 4 eggs (optional) 4 slices stale bread (optional) Any Italian herbs (parsley or basil) you have on hand (optional)"
-    },
-    {
         "id": "rosemary_spuds.xml",
         "title": "Rosemary Spuds",
         "htmlFilename": "rosemary_spuds.html",
@@ -1978,15 +1969,6 @@
         "category": "Soup",
         "diet": "",
         "ingredients": "2 TBSP olive oil 4 garlic cloves minced 3 carrots chopped  2 celery ribs chopped  2 leeks, white part chopped  1 fennel bulb cored and thinly sliced 1 tomatoes diced 2 bay leaves 6 cups broth 75mm square parmigiana- reggiano rind 1 TBsp parsley chopped  salt and pepper then taste 1/4 cup grated parmigiana-reggiano cheese Few basil leaves to sprinkle on top if desired "
-    },
-    {
-        "id": "test1.xml",
-        "title": "Test 1",
-        "htmlFilename": "test1.html",
-        "thumbnail": "test1.jpeg",
-        "category": "Soup",
-        "diet": "Vegetarian",
-        "ingredients": "2-3 Tbsp olive oil 2-3 garlic cloves crushed Pinch of chili 2-4 celery stalks chopped 1-2 carrots chopped 1 cup white wine 6 cups water 2 stock cubes 2 cans chopped tomatoes salt and pepper to taste 1 cup ricotta cheese (optional) 4 eggs (optional) 4 slices stale bread (optional) Any Italian herbs (parsley or basil) you have on hand (optional)"
     },
     {
         "id": "awesome_roast_spuds.xml",
