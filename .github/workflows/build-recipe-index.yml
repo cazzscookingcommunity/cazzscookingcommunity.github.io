@@ -95,3 +95,4 @@ jobs:
           else
             git commit -m "automated html and index update"
             git push
+          fi
