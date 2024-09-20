@@ -11,7 +11,10 @@
 <thumbnail>asian_salad.jpeg</thumbnail>
 <category>Salad</category>
 <category>Sides</category>
-<diet></diet>
+<diet>GFO</diet>
+<diet>Vegan</diet>
+<diet>Paleo</diet>
+<diet>LowSugar</diet>
 <yield>4</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT10M</cookTime>
