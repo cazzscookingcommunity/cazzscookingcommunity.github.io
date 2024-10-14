@@ -16,8 +16,8 @@
 <diet>EggFree</diet>
 <diet>DiaryFree</diet>
 <yield>4</yield>
-<prepTime>P15M</prepTime>
-<cookTime>P45M</cookTime>
+<prepTime>PT15M</prepTime>
+<cookTime>PT45M</cookTime>
 <part><title>Main</title>
 <ingredient>1 cup red lentils</ingredient>
 <ingredient>1.5 lt stock</ingredient>
