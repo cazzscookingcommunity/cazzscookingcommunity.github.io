@@ -69,9 +69,13 @@ jobs:
         run: pip install xmlschema lxml BeautifulSoup4
 
       - name: generate html files for changed recipes
+        # general html files for all recipes.
+        # BUG: if doing for changed recipes only, they are missed if a script run fails.
+        run: python scripts/python_scripts/make-recipe-pages.py all
+
         # only generate the html recipes for the changes xml files
-        if: needs.check.outputs.files_modified_or_added != ''
-        run: python scripts/python_scripts/make-recipe-pages.py ${{ needs.check.outputs.files_modified_or_added }}
+        # if: needs.check.outputs.files_modified_or_added != ''
+        # run: python scripts/python_scripts/make-recipe-pages.py ${{ needs.check.outputs.files_modified_or_added }}
 
       - name: generate sitemap and search index files
         # always regenerate the site index to capture adds, modifications, and deletes
