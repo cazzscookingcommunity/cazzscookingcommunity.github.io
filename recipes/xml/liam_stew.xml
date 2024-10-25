@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='/xml/xsd2html2xml/xsd2html2xml.xsl'?>
+
+<recipe
+    xmlns="https://cazzscookingcommunity.github.io"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
+    
+<title>Liam's Favourite Stew</title>
+<filename>liam_stew.xml</filename>
+<thumbnail>liam_stew.jpeg</thumbnail>
+<category>Beef</category>
+<category>Dinner</category>
+<diet>GFO</diet>
+<diet>EggFree</diet>
+<diet>DiaryFree</diet>
+<diet>LowCarb</diet>
+<diet>Paleo</diet>
+<yield>6</yield>
+<prepTime>PT30M</prepTime>
+<cookTime>PT8H</cookTime>
+<comment>Gluten Free Option - Substitute GF when necessary</comment>
+<ingredient>500 gms beef chopped (you can use a cheap cut)</ingredient>
+<ingredient>1-2 carrots chopped</ingredient>
+<ingredient>2 celery sticks chopped</ingredient>
+<ingredient>5 spuds peeled and chopped</ingredient>
+<ingredient>1/4 cup flour (use GF if needed)</ingredient>
+<ingredient>1/4 cup tomato paste</ingredient>
+<ingredient>1 cup stock</ingredient>
+<ingredient>1 cup red wine</ingredient>
+<ingredient>3-4 cloves garlic chopped</ingredient>
+<ingredient>1 Tbsp Vegemite</ingredient>
+<ingredient>2 bay leaves</ingredient>
+<ingredient>1 Tbsp thyme</ingredient>
+<ingredient>Salt and Pepper</ingredient>
+<ingredient>Olive Oil</ingredient>
+<step>Heat oil in fry pan and cook, celery, carrot and bay leaves for about five minutes.</step>
+<step>Add garlic and cook for a few more minutes, then decant to a slow cooker.</step>
+<step>Place flour on a plate and season with salt and pepper.</step>
+<step>Toss the meat in the flour to coat all sides.  Shake of excess.</step>
+<step>Put more oil in pan and cook meat in three batches, until brown on all sides.  Decant to slow cooker as you go.</step>
+<step>Once all meat is removed from pan, add stock and red wine to pan.  Stir and lift of all the bits on the bottom of the pan.  Add the tomato paste and stir well.  Decant to the slow cooker.</step>
+<step>Add other remaining ingredients to slow cooker and stir well.  Add extra water if necessary to cover all ingredients.</step>
+<step>Turn slow cooker to low and cook for 8 hours or high for 6 hours.  Serve with mash or crusty bread.</step>
+</recipe>
+
