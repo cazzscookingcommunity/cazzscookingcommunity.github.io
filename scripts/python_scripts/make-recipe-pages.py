@@ -91,22 +91,39 @@ def parse_ingredients_and_instructions(root):
     schema_ingredients = []
     schema_instructions = []
 
-    for part in root.findall('ns:part', namespaces=ns):
-        part_name = part.findtext('ns:title', namespaces=ns)
-        ingredients_list += f"<strong>{part_name}:</strong><ul>"
-        instructions_list += f"<strong>{part_name}:</strong><ol>"
+    parts = root.findall('ns:part', namespaces=ns)
+    if parts:
+        for part in parts:
+            part_name = part.findtext('ns:title', namespaces=ns)
+            if part_name:
+                ingredients_list += f"<strong>{part_name}:</strong><ul>"
+                instructions_list += f"<strong>{part_name}:</strong><ol>"
 
-        for ingredient in part.findall('ns:ingredient', namespaces=ns):
+            for ingredient in part.findall('ns:ingredient', namespaces=ns):
+                ingredients_list += f"<li>{ingredient.text}</li>"
+                schema_ingredients.append(ingredient.text)
+            ingredients_list += "</ul>"
+
+            for step in part.findall('ns:step', namespaces=ns):
+                instructions_list += f"<li>{step.text}</li>"
+                schema_instructions.append({"@type": "HowToStep", "text": step.text})
+            instructions_list += "</ol>"
+    else:
+        # No parts, so handle ingredients and steps directly
+        ingredients_list += "<ul>"
+        for ingredient in root.findall('ns:ingredient', namespaces=ns):
             ingredients_list += f"<li>{ingredient.text}</li>"
             schema_ingredients.append(ingredient.text)
         ingredients_list += "</ul>"
 
-        for step in part.findall('ns:step', namespaces=ns):
+        instructions_list += "<ol>"
+        for step in root.findall('ns:step', namespaces=ns):
             instructions_list += f"<li>{step.text}</li>"
             schema_instructions.append({"@type": "HowToStep", "text": step.text})
         instructions_list += "</ol>"
 
     return ingredients_list, instructions_list, schema_ingredients, schema_instructions
+
 
 def generate_html_content(recipe_data, ingredients_list, instructions_list, schema_ingredients, schema_instructions):
     schema_ingredients_json = json.dumps(schema_ingredients)
@@ -185,6 +202,7 @@ def main():
                 process_git_changes(changed_files)
             else:
                 print("Error: One or more files provided are invalid.")
+                exit(0)
         else:
             print("No files provided to process. pls run with 'all' or a list of files")
 
