@@ -56,11 +56,11 @@ jobs:
     # needs: check
     runs-on: ubuntu-latest
     steps:
-      - name: List XML files
-        run: ls -la recipes/xml/
-
       - name: Checkout code
         uses: actions/checkout@main
+
+      - name: List XML files
+        run: ls -la recipes/xml/
 
       - name: index recipes
         uses: actions/setup-python@main
