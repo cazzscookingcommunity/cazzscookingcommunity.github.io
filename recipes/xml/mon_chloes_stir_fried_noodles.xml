@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
-<title>Mon and Chloes Stir Fried Noodles</title>
+<title>Vegetarian Stir Fried Noodles</title>
 <filename>mon_chloes_stir_fried_noodles.xml</filename>
 <thumbnail>chloes_fried_noodles.jpeg</thumbnail>
 <category>Dinner</category>
@@ -17,6 +17,7 @@
 <yield>4</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT15M</cookTime>
+<comment>Thanks Mon and Chloe for sharing your recipe.</comment>
 <ingredient>Flat rice noodles </ingredient>
 <ingredient>Stir Fries Veggies</ingredient>
 <ingredient>Bean shoots</ingredient>
