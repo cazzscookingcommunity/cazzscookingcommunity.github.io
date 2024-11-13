@@ -17,43 +17,43 @@ on:
   workflow_dispatch:  # This allows manual triggering
 
 jobs:
-  check:
-    name: Check changed files
-    outputs:
-      files_modified_or_added: ${{ steps.check_files.outputs.files_modified_or_added }}  # List of changed files
-    runs-on: ubuntu-latest
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@main
-        with:
-          fetch-depth: 0
+  # check:
+    # name: Check changed files
+    # outputs:
+    #   files_modified_or_added: ${{ steps.check_files.outputs.files_modified_or_added }}  # List of changed files
+    # runs-on: ubuntu-latest
+    # steps:
+    #   - name: Checkout code
+    #     uses: actions/checkout@main
+    #     with:
+    #       fetch-depth: 0
 
-      - name: check files
-        id: check_files
-        run: |
-          echo "=============== list changed files ==============="
-          git diff --name-status HEAD^ HEAD > files.txt
+    #   - name: check files
+    #     id: check_files
+    #     run: |
+    #       echo "=============== list changed files ==============="
+    #       git diff --name-status HEAD^ HEAD > files.txt
 
-          # Initialize the output
-          files_modified_or_added=""
+    #       # Initialize the output
+    #       files_modified_or_added=""
 
-          echo "========== check paths and status of changed files =========="
-          while IFS= read -r file
-          do
-            status=$(echo $file | cut -f1)
-            file_name=$(echo $file | cut -f2)
+    #       echo "========== check paths and status of changed files =========="
+    #       while IFS= read -r file
+    #       do
+    #         status=$(echo $file | cut -f1)
+    #         file_name=$(echo $file | cut -f2)
             
-            if [[ $file_name == "recipes/xml/"* && ( $status == "A" || $status == "M" ) ]]; then
-              echo "File $file_name was added or modified."
-              files_modified_or_added="$files_modified_or_added $file_name"
-            fi
-          done < files.txt
+    #         if [[ $file_name == "recipes/xml/"* && ( $status == "A" || $status == "M" ) ]]; then
+    #           echo "File $file_name was added or modified."
+    #           files_modified_or_added="$files_modified_or_added $file_name"
+    #         fi
+    #       done < files.txt
 
-          echo "files_modified_or_added=$files_modified_or_added" >> $GITHUB_OUTPUT
+    #       echo "files_modified_or_added=$files_modified_or_added" >> $GITHUB_OUTPUT
 
   job_for_recipes:
     name: Job for recipes
-    needs: check
+    # needs: check
     runs-on: ubuntu-latest
     steps:
       - name: Checkout code
@@ -68,7 +68,7 @@ jobs:
       - name: install_dependencies
         run: pip install xmlschema lxml BeautifulSoup4
 
-      - name: generate html files for changed recipes
+      - name: generate html files
         # general html files for all recipes.
         # BUG: if doing for changed recipes only, they are missed if a script run fails.
         run: python scripts/python_scripts/make-recipe-pages.py all
