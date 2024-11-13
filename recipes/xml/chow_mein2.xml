@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
-<title>Chow Mein2</title>
+<title>Chow Mein</title>
 <filename>chow_mein2.xml</filename>
 <thumbnail>chow_mein.jpeg</thumbnail>
 <category>Dinner</category>
