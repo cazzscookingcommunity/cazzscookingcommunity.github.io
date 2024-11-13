@@ -157,13 +157,12 @@ def write_html_file(html_content, output_filename):
 def generate_html_from_xml(xml_file):
     recipe_data = parse_recipe(xml_file)
     if recipe_data is None:
+        print(xml_file, " has no recipe data found")
         return
     
     root = etree.parse(xml_file).getroot()
     ingredients_list, instructions_list, schema_ingredients, schema_instructions = parse_ingredients_and_instructions(root)
-    
-    html_content = generate_html_content(recipe_data, ingredients_list, instructions_list, schema_ingredients, schema_instructions)
-    
+    html_content = generate_html_content(recipe_data, ingredients_list, instructions_list, schema_ingredients, schema_instructions)    
     output_filename = os.path.join(output_directory, os.path.basename(xml_file).replace('.xml', '.html'))
     write_html_file(html_content, output_filename)
 
