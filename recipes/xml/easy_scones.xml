@@ -4,7 +4,7 @@
 <recipe
     xmlns="https://cazzscookingcommunity.github.io"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
 <title>Easy Scones</title>
 <filename>easy_scones.xml</filename>
@@ -18,19 +18,19 @@
 <part><title>Plain scones</title>
 <ingredient>4 cups SR flour</ingredient>
 <ingredient>300 mls cream</ingredient>
-<ingredient>300 mls water</ingredient>
+<ingredient>300 mls lemonade </ingredient>
 <ingredient>Pinch salt</ingredient>
 <step>Turn on oven to medium (180D).</step>
 <step>Grease a large flat tray and set aside.</step>
 <step>In a large bowl stir the dry ingredients.</step>
-<step>Pour in the cream and water and stir with a KNIFE until combined.</step>
+<step>Pour in the cream and lemonade into the bowl and stir with a KNIFE until combined.</step>
 <step>Do not over stir! Tip out to a generously floured surface and turn once to flour all sides.</step>
 <step>Gently push down to desired thickness about thumb joint high.</step>
 <step>Cut out with scone cutter or small glass and place close together on tray.</step>
-<step>( Unlike cookies you want them touching.</step>
-<step>) Cook until just starting to change colour, about 20-40 minutes.</step>
+<step>( Unlike cookies you want them touching.)</step>
+<step> Cook until just starting to change colour, about 20-40 minutes.</step>
 <step>Turn the tray around a few time to ensure all sides brown evenly while cooking.</step>
-<step>Sever with whipped cream and jam and hot cup of tea!.</step>
+<step>Sever with whipped cream and jam and hot cup of tea.</step>
 </part>
 <part><title>Date scones</title>
 <ingredient>250 gms dates chopped</ingredient>
