@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
-<title>Emma's Slow Roast Beef</title>
+<title>Emmas Slow Roast Beef</title>
 <filename>emmas_slow_roast_beef.xml</filename>
 <thumbnail>emmas_slow_roast_beef.jpeg</thumbnail>
 <category>Beef</category>
@@ -21,12 +21,12 @@
 <yield>12</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT10H</cookTime>
-<ingredient>1 Coles Slow Cook Family Beef Roast (approximately 1.2 - 1.4 kgs)</ingredient>
+<ingredient>1 Beef Roast (approximately 1.2 - 1.4 kgs) ( it has to have a bit of fat on top and you can swap for pork or lamb)</ingredient>
 <ingredient>1 bay leaf</ingredient>
-<ingredient>1 TBSP tapioca flour</ingredient>
+<ingredient>1 TBSP flour (you can use plain, corn or tapioca flour which is GF and good for thickening sauces and gravies.) </ingredient>
 <ingredient>salt and pepper</ingredient>
-<ingredient>1 Stock cube</ingredient>
-<step>Remove roast from wrapper and remove strings.</step>
+<ingredient>1 stock cube</ingredient>
+<step>Remove roast from wrapper and remove any strings.</step>
 <step>Place in the centre of slow cooker.</step>
 <step>Put bay leaf under the roast.</step>
 <step>Generously add salt and pepper all over top and close lid.</step>
