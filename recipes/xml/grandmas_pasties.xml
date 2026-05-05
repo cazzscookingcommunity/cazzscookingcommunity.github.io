@@ -12,11 +12,12 @@
 <category>Beef</category>
 <category>Dinner</category>
 <diet>LowSugar</diet>
+<diet>GFO</diet>
 <yield>12</yield>
 <prepTime>PT1H</prepTime>
 <cookTime>PT1H</cookTime>
 <comment>Great for a crowd- or grand final party</comment>
-<ingredient>10 sheets puff pastry</ingredient>
+<ingredient>10 sheets puff pastry GF if necessary</ingredient>
 <ingredient>5-6 spuds grated</ingredient>
 <ingredient>2 big carrots grated</ingredient>
 <ingredient>1 turnip grated</ingredient>
@@ -28,13 +29,14 @@
 <ingredient>Milk for glazing</ingredient>
 <step>Grease baking trays and set aside.</step>
 <step>Heat oven to 180C.</step>
-<step>Mix all ingredients in large pot with your hands.</step>
-<step>Lay out one sheet of defrosted puff pastry on work surface and place mixed ingredient 2 1/2 handfuls off centre, then fold over pastry so edges are touching.</step>
+<step>Mix all ingredients except the pastry, in large pot with your hands.  You can use a grinder if you have one to grind the vegetables.</step>
+<step>Lay out one sheet of defrosted puff pastry on work surface and place 2 1/2 handfuls off centre of the mixture, then fold over pastry so edges are touching and the mixture is covered over.</step>
 <step>Cut off excess triangle of pastry.</step>
 <step>Fold over edges and press firmly down with fingers.</step>
-<step>Place on baking tray and paint with some milk.</step>
-<step>Continue until you use up all mixed ingredients.</step>
+<step>Place on baking trays and paint with some milk.</step>
+<step>Continue until you use up all the mixed ingredients up.</step>
 <step>Cook at 180C (you may have to adjust to your stove) for 1 hour or until golden brown.</step>
-<step>Turn several times while cooking.</step>
+<step>Turn the trays around several times while cooking, to ensure all sides are browned. Cook for an hour and remove when golden brown.</step>
+<step>You can use the extra piece of pastry and cook after the pasties have finished. to make dessert. Paint pastry pieces, with a little milk and cook until golden.  Serve cut in half with jam and whipped cream.</step>
 </recipe>
 
