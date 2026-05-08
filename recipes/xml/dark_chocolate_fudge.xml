@@ -4,21 +4,23 @@
 <recipe
     xmlns="https://cazzscookingcommunity.github.io"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
 <title>Dark Chocolate Fudge</title>
 <filename>dark_chocolate_fudge.xml</filename>
 <thumbnail>dark_chocolate_fudge.jpeg</thumbnail>
 <category>Dessert</category>
-<category>Dessert</category>
+<category>Sweets</category>
 <diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>12</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT24H</cookTime>
 <ingredient>375gms dark chocolate broken in to pieces</ingredient>
 <ingredient>395g can sweeten  condensed milk</ingredient>
 <ingredient>1/2 cup icing sugar sifted</ingredient>
-<ingredient>1/2 cup glace red cherries chopped</ingredient>
+<ingredient>1/2 cup glacé red cherries chopped</ingredient>
 <ingredient>1/2 cup dried cranberries chopped</ingredient>
 <ingredient>3/4 cup pistachios chopped</ingredient>
 <ingredient>extra cranberries and chopped pistachios chopped for garnish</ingredient>
@@ -26,7 +28,7 @@
 <step>Melt the chocolate in a bowl over a pan of boiling water.</step>
 <step>Once completely melted add sugar then condensed milk.</step>
 <step>Mix in the rest of the ingredients, except garnish and pour into prepared tin.</step>
-<step>Smooth top and add garnish, then gently push into but not completely.</step>
+<step>Smooth top and add garnish, then gently push into top but not completely covering pieces.</step>
 <step>Refrigerate over night and cut into small squares or slices.</step>
 <step>You can easily replace the cherries, cranberries and pistachios with other dried fruit or nuts!.</step>
 </recipe>
