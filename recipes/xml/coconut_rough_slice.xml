@@ -10,6 +10,9 @@
 <filename>coconut_rough_slice.xml</filename>
 <thumbnail>coconut_rough_slice.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
+<diet>Paleo</diet>
 <yield>10</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT30M</cookTime>
