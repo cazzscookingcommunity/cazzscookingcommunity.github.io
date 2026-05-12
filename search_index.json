@@ -140,7 +140,7 @@
         "htmlFilename": "coconut_rough_slice.html",
         "thumbnail": "coconut_rough_slice.jpeg",
         "category": "Dessert",
-        "diet": "",
+        "diet": "GlutenFree Vegetarian Paleo",
         "ingredients": "2 cups desiccated coconut  2 TBSP cocoa 10 medjool dates 5 TBSP coconut oil melted  200 gms dark chocolate "
     },
     {
@@ -159,16 +159,16 @@
         "thumbnail": "egg_slice.jpeg",
         "category": "Lunch Dinner Breakfast",
         "diet": "GlutenFree Paleo Keto",
-        "ingredients": "12-16 eggs beaten 1-2 cup spring onions  1/2 frozen spinach defrosted 1/2 cup chopped cooked pumpkin 1/2 teaspoon salt and pepper 1/2 cup grated Parmesan  Spray oil "
+        "ingredients": "6-10 eggs beaten 2-3 spring onions chopped 1/2 spinach bag chopped 1/2 cup chopped cooked pumpkin pieces 1/2 teaspoon salt and pepper 1/2 cup grated Parmesan  Spray oil "
     },
     {
         "id": "dark_chocolate_fudge.xml",
         "title": "Dark Chocolate Fudge",
         "htmlFilename": "dark_chocolate_fudge.html",
         "thumbnail": "dark_chocolate_fudge.jpeg",
-        "category": "Dessert Dessert",
-        "diet": "GlutenFree",
-        "ingredients": "375gms dark chocolate broken in to pieces 395g can sweeten  condensed milk 1/2 cup icing sugar sifted 1/2 cup glace red cherries chopped 1/2 cup dried cranberries chopped 3/4 cup pistachios chopped extra cranberries and chopped pistachios chopped for garnish"
+        "category": "Dessert Sweets",
+        "diet": "GlutenFree Vegetarian EggFree",
+        "ingredients": "375gms dark chocolate broken in to pieces 395g can sweeten  condensed milk 1/2 cup icing sugar sifted 1/2 cup glac\u00e9 red cherries chopped 1/2 cup dried cranberries chopped 3/4 cup pistachios chopped extra cranberries and chopped pistachios chopped for garnish"
     },
     {
         "id": "glutenfree_brownies.xml",
@@ -356,7 +356,7 @@
         "htmlFilename": "upside_down_banana_cake.html",
         "thumbnail": "upside_down_banana_cake.jpeg",
         "category": "Dessert",
-        "diet": "",
+        "diet": "GFO Vegetarian",
         "ingredients": ""
     },
     {
@@ -707,7 +707,7 @@
         "htmlFilename": "paleo_pumpkin_pie.html",
         "thumbnail": "paleo_pumpkin_pie.jpeg",
         "category": "Dessert",
-        "diet": "Paleo",
+        "diet": "Paleo Vegetarian",
         "ingredients": ""
     },
     {
@@ -1121,8 +1121,8 @@
         "htmlFilename": "oatmeal_banana_bread.html",
         "thumbnail": "oatmeal_banana_bread.jpeg",
         "category": "Breakfast Dessert Snack",
-        "diet": "GFO Vegetarian",
-        "ingredients": "2 eggs beaten  1/2 cup Greek yogurt 1/2 cup honey 1/2 cup melted butter  2 cups mash bananas 1 1/2 cup oat flour* (use GF if required) 1 cup oats (use GF if desired) 8 dates chopped and blended 1 teaspoon vanilla extract  1/2 teaspoon baking powder, baking soda and cinnamon "
+        "diet": "Vegetarian GFO",
+        "ingredients": "2 eggs beaten  1/2 cup Greek yogurt 1/2 cup honey 1/2 cup melted butter  2 cups mash bananas 1 1/2 cup oat flour* (use GF if required) 1 cup oats (use GF if desired) 8 seeded dates chopped and blended 1 teaspoon vanilla extract  1/2 teaspoon baking powder, baking soda and cinnamon "
     },
     {
         "id": "sues_brown_rice_salad.xml",
@@ -1643,7 +1643,7 @@
         "htmlFilename": "gluten_free_cheese_muffins.html",
         "thumbnail": "gluten_free_cheese_muffins.jpeg",
         "category": "Breakfast Snack Sides",
-        "diet": "GFO LowSugar Vegetarian",
+        "diet": "GlutenFree LowSugar Vegetarian",
         "ingredients": "1 1/4 cups gluten free flour 1 tsp xanthan gum 2 large eggs beaten 2/3 cup water 2 tsp baking soda 1/4 tsp salt 4 TBSP melted butter 1 tsp chopped herbs (I used garlic chives) 1 cup grated tasty cheese"
     },
     {
@@ -1762,15 +1762,6 @@
         "category": "",
         "diet": "",
         "ingredients": "1/4 cup brewed coffee ( alternative dissolve 1 teasp instant coffee with 1/4 cup boiling water, then cool) 1 teasp sugar dissolved in coffee Milk  1 scoop vanilla ice cream  2-4 ice cubes 1 teaspoon fresh whipped cream or double cream Cocoa"
-    },
-    {
-        "id": "taco_mix.xml",
-        "title": "Taco Mix",
-        "htmlFilename": "taco_mix.html",
-        "thumbnail": "taco_bake.jpeg",
-        "category": "Beef Dinner",
-        "diet": "GlutenFree",
-        "ingredients": "2 teaspoon cumin 1 teaspoon paprika 1/2 - 1 teaspoon chilli 1 1/2 teaspoon garlic salt 1 teaspoon oregano 1 teaspoon corn flour 1/4 teaspoon salt 1 bag plain corn chips 2-3 handfuls of grated cheese"
     },
     {
         "id": "curtis_stones_rice_noodles.xml",
@@ -1904,8 +1895,8 @@
         "htmlFilename": "grandmas_pasties.html",
         "thumbnail": "grandmas_pasties.jpeg",
         "category": "Beef Dinner",
-        "diet": "LowSugar",
-        "ingredients": "10 sheets puff pastry 5-6 spuds grated 2 big carrots grated 1 turnip grated 1 pasnip grated 2 celery sticks finely chopped 1 onion grated 800-1000 gms mince meat 1 TBsp each salt and pepper Milk for glazing"
+        "diet": "LowSugar GFO",
+        "ingredients": "10 sheets puff pastry GF if necessary 5-6 spuds grated 2 big carrots grated 1 turnip grated 1 pasnip grated 2 celery sticks finely chopped 1 onion grated 800-1000 gms mince meat 1 TBsp each salt and pepper Milk for glazing"
     },
     {
         "id": "rum_balls.xml",
@@ -2085,7 +2076,7 @@
         "thumbnail": "dutch_oven_enchiladas.jpeg",
         "category": "Poultry Dinner Lunch",
         "diet": "EggFree LowSugar",
-        "ingredients": "6-8 chicken thigh filets chopped 2 TBsp olive oil  1/2 teasp chilli 2 garlic cloves crushed 1 can refried beans 2 cans corn drained  2 cans black bean rinsed and drained 2 jars enchilada sauce  8 tortillas (GF if necessary) 300 gms grated tasty cheese 1 large Dutch oven"
+        "ingredients": "6-8 chicken thigh filets chopped 2 TBsp olive oil  1/2 teasp chilli 2 garlic cloves crushed 2 can refried beans 1 can corn drained  1 can black bean rinsed and drained (store brand) 2 jars enchilada sauce  8 tortillas (GF if necessary) or 2 packs of small tortillas 300 gms grated tasty cheese 1 large Dutch oven or 2 medium (180mm x 100mm deep)"
     },
     {
         "id": "pizza_dough.xml",
