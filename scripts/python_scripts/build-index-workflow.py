@@ -9,6 +9,7 @@ listed above
 
 import os
 import json
+import sys # Added for error logging
 import xmlschema
 from lxml import etree
 import datetime
@@ -139,14 +140,18 @@ def main():
     for file in os.listdir(directory):
         filename = os.fsdecode(file) 
         if filename.endswith(".xml"): 
-            recipe, recipeXML = parse_recipe(filename)
-            
-            if recipe:
-                searchIndexData.append(recipe)
+            try:
+                recipe, recipeXML = parse_recipe(filename)
+                
+                if recipe:
+                    searchIndexData.append(recipe)
 
-            if recipeXML:
-                with open(sitemap, "a") as f:
-                    f.write(recipeXML)
+                if recipeXML:
+                    with open(sitemap, "a") as f:
+                        f.write(recipeXML)
+            except Exception as e:
+                print(f"Error processing {filename}: {e}", file=sys.stderr)
+                continue
     
     # write the json recipe list to indixe file
     with open(searchIndex, 'a') as f:
