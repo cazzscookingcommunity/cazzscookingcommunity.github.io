@@ -1764,6 +1764,15 @@
         "ingredients": "1/4 cup brewed coffee ( alternative dissolve 1 teasp instant coffee with 1/4 cup boiling water, then cool) 1 teasp sugar dissolved in coffee Milk  1 scoop vanilla ice cream  2-4 ice cubes 1 teaspoon fresh whipped cream or double cream Cocoa"
     },
     {
+        "id": "taco_mix.xml",
+        "title": "Taco Mix",
+        "htmlFilename": "taco_mix.html",
+        "thumbnail": "taco_bake.jpeg",
+        "category": "Beef Dinner",
+        "diet": "GlutenFree VGO",
+        "ingredients": "2 teaspoon cumin 1 teaspoon paprika 1/2 - 1 teaspoon chilli 1 1/2 teaspoon garlic salt 1 teaspoon oregano 1 teaspoon corn flour 1/4 teaspoon salt 1 bag plain corn chips 2-3 handfuls of grated cheese 500 to 750 gms mince beef or 3 cans beans 1 can corn or 1-2 corn cobs (remove the corn fro the cob) optional 1 can chopped tomatoes 1 Tbsp tomato paste"
+    },
+    {
         "id": "curtis_stones_rice_noodles.xml",
         "title": "Curtis Stones Rice Noodles",
         "htmlFilename": "curtis_stones_rice_noodles.html",
