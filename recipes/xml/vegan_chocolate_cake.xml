@@ -10,15 +10,14 @@
 <filename>vegan_chocolate_cake.xml</filename>
 <thumbnail>vegan_chocolate_cake.jpeg</thumbnail>
 <category>Dessert</category>
-<diet>GlutenFree</diet>
+<diet>GFO</diet>
 <diet>Vegan</diet>
 <yield>8</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT40M</cookTime>
 <comment>You can also make it into cupcakes. Reduce cooking time to 10-15 minutes.  This recipe is from my Hindi friend Vasuda.  She received the recipe from her Grandmothers Neighbour!</comment>
 <part><title>Cake</title>
-<ingredient>1 1/2 cups GlutenFree flour*</ingredient>
-<ingredient>(*Replace with plain flour if desired)</ingredient>
+<ingredient>1 1/2 cups plain flour (use GF if required)</ingredient>
 <ingredient>1 cup sugar</ingredient>
 <ingredient>1 teaspoon baking soda</ingredient>
 <ingredient>1/2 teaspoon salt</ingredient>
@@ -42,8 +41,8 @@
 <ingredient>1-2 TBspoons Boiling water</ingredient>
 <ingredient>cheat by using Betty Crockers prepared icing  ** not appropriate for vegan or diary intolerant.</ingredient>
 <step>Stir dry ingredients together and add Nutalex.</step>
-<step>Add water one TBspoon at a time until you get your desired consistency.</step>
-<step>Spread over cooled cake and decorated with what you desired ( MandMs, shredded coconut, fresh berries, sprinkles are a few examples.)</step>
+<step>Add water one table spoon at a time until you get your desired consistency.</step>
+<step>Spread over cooled cake and decorated with what you desired ( M and Ms, shredded coconut, fresh berries, sprinkles are a few examples.)</step>
 </part>
 </recipe>
 
