@@ -14,6 +14,7 @@
 <category>Dessert</category>
 <diet>GFO</diet>
 <diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>24</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT10M</cookTime>
@@ -25,11 +26,11 @@
 <ingredient>1/4 cup brown sugar</ingredient>
 <ingredient>1/4 cup honey</ingredient>
 <step>Preheat oven to 160C.</step>
-<step>Place grease two baking trays and set aside.</step>
-<step>Place all dry ingredient except brown sugar, in a bowl and set aside.</step>
+<step>Grease two baking trays and set aside.</step>
+<step>Place all dry ingredient except brown sugar, in a bowl stir and set aside.</step>
 <step>Melt butter in a small sauce pan then add honey and sugar.</step>
-<step>Once sugar dissolved, stir well and add to dry ingredients.</step>
-<step>Stir well and place heap TBsp amounts on baking trays (allow for spreading).</step>
+<step>Stir well and once sugar dissolved, add to dry ingredients. Stir to mix all ingredients.</step>
+<step>Place heap TBsp amounts on prepared baking trays (allow for spreading).</step>
 <step>Place in oven for 8-10 mins or until golden brown.</step>
 <step>Remove from oven and leave on the tray for 10 minutes.</step>
 <step>Remove cookies from tray with spatula to a wire rack to cool completely.</step>
