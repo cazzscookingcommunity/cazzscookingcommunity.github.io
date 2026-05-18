@@ -10,11 +10,12 @@
 <filename>reginas_rum_cake.xml</filename>
 <thumbnail>reginas_rum_cake.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>GFO</diet>
 <yield>8</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT60M</cookTime>
 <part><title>Cake</title>
-<ingredient>1 Yellow/Butter cake mix</ingredient>
+<ingredient>1 Yellow/Butter cake mix (use GF if desired)</ingredient>
 <ingredient>1 Vanilla pudding mix </ingredient>
 <ingredient>4 eggs</ingredient>
 <ingredient>1/2 cup oil </ingredient>
@@ -23,6 +24,10 @@
 <step>Mix all ingredients in a medium bowl for a few minutes with an electric mixer.</step>
 <step>Pour into tin and bake for 45-60 minutes or until skew come out out clean.</step>
 <step>Remove from oven and prick the top with a skew, all of over the cake.</step>
+<step>Pour sauce on cake while still hot.</step>
+<step>Leave in tin for one hour, then turn out on to a plate.</step>
+<step>Serve it warm or cold with cream and strawberries.</step>
+<step>You can sprinkle the top with a little icing sugar if desired.</step>
 </part>
 <part><title>Sauce</title>
 <ingredient>1/2 cup rum</ingredient>
@@ -31,10 +36,6 @@
 <ingredient>1/2 cup water</ingredient>
 <step>Heat all ingredients in a small saucepan until all are melted and combined.</step>
 <step>Stir a few times while cooking.</step>
-<step>Pour sauce on cake while still hot.</step>
-<step>Leave in tin for one hour, then turn out on to a plate.</step>
-<step>Serve it warm or cold with cream and strawberries.</step>
-<step>You can sprinkle the top with a little icing sugar if desired.</step>
 </part>
 </recipe>
 
