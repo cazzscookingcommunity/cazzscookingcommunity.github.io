@@ -11,6 +11,8 @@
 <thumbnail>individual_lemon_tarts.jpeg</thumbnail>
 <category>Snack</category>
 <category>Dessert</category>
+<category>Sweets</category>
+<diet>Vegetarian</diet>
 <yield>12</yield>
 <prepTime>PT40M</prepTime>
 <cookTime>PT1H</cookTime>
@@ -23,14 +25,14 @@
 <ingredient>(Cheat and use Pampas mini tart castes - found in frozen section)</ingredient>
 <step>Preheat the oven to 180C.</step>
 <step>Place pastry ingredients in processor and mix together.</step>
-<step>Turn out to floured bench and roll out to 3 mm thickness.</step>
+<step>Turn out to a floured bench and roll out to 3 mm thickness.</step>
 <step>Cut into rounds (use a cup or glass) and place in greased muffin tray.</step>
 <step>Cut small grease proof paper rounds and place on top of each hole.</step>
 <step>Then place beans or rice on paper and cook in oven (blind bake) for ten minutes.</step>
-<step>Once done let completely cool, before putting filling in.</step>
+<step>Once done, let completely cool, before putting filling in.</step>
 <step>Turn down oven to 160C.</step>
 <step>In a bowl mix all filling ingredients until combined.</step>
-<step>Fill cooled tart crusts and cook for 10 to 15 minutes,or until middle set. </step>
+<step>Fill cooled tart crusts 3/4 full and cook for 10 to 15 minutes, or until the middle is set. </step>
 <step>Cool completely and sprinkle with a little icing sugar and serve with some fresh fruit if desired.</step>
 </part>
 <part><title>Filling</title>
@@ -40,18 +42,8 @@
 <ingredient>100 ml cream</ingredient>
 <step>Turn down oven to 160C.</step>
 <step>In a bowl mix all filling ingredients until combined.</step>
-<step>Fill cooled tart crusts and cook for 10 to 15 minutes.</step>
-<step>Middle will set.</step>
-<step>Cool completely and sprinkle with a little icing sugar and serve with some fresh fruit if desired.</step>
 <step>I decreased the filling by 1/3 as it made a very large quantity! Original recipe called for the following filling:
 3 - eggs, 100 gms - caster sugar, 3 - lemons and 150 ml cream.</step>
-</part>
-<part><title>filling - original recipe ((I decreased this by approximately 1/3)</title>
-<ingredient>3 eggs</ingredient>
-<ingredient>100 gms caster sugar</ingredient>
-<ingredient>3 lemons</ingredient>
-<ingredient>150 ml cream</ingredient>
-<step>*I decreased the filling by 1/3 as it made a very large quantity! Original recipe called for the following.</step>
 </part>
 </recipe>
 
