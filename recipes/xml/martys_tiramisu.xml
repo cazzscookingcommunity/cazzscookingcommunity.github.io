@@ -4,12 +4,13 @@
 <recipe
     xmlns="https://cazzscookingcommunity.github.io"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xsi:schemaLocation="https://cazzscookingcommunity.github.io /xml/recipe.xsd"> 
+    xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
 <title>Martys Tiramisu</title>
 <filename>martys_tiramisu.xml</filename>
 <thumbnail>martys_tiramisu.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>Vegetarian</diet>
 <yield>12</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>PT24H</cookTime>
@@ -31,7 +32,7 @@
 <step>Place a layer of coffee dipped sponge fingers in deep baking dish, then top with a thin layer of egg mixture, covering the surface.</step>
 <step>Sprinkle over a thin layer of cocoa, then sprinkle a thin layer of shaved chocolate.</step>
 <step>Top with another layer of coffee dipped sponge fingers and egg mixture and cocoa and chocolate.</step>
-<step>Repeat layers at least thee times until you reach the top of the pan, finishing with cocoa and chocolate on top layer.</step>
+<step>Repeat layers at least three times until you reach the top of the pan, finishing with cocoa and chocolate on top layer.</step>
 <step>Cover with glad wrap and place in fridge over night.</step>
 <step>Cut into squares and serve cold.</step>
 </recipe>
