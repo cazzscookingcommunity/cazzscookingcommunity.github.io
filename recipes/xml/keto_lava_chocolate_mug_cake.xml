@@ -11,6 +11,8 @@
 <thumbnail>keto_lava_chocolate_mug_cake.jpeg</thumbnail>
 <category>Dessert</category>
 <diet>Keto</diet>
+<diet>EggFree</diet>
+<diet>GlutenFree</diet>
 <yield>6</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT5M</cookTime>
