@@ -10,6 +10,7 @@
 <filename>healthy_oat_and_honey_bread.xml</filename>
 <thumbnail>healthy_oat_and_honey_bread.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>Vegetarian</diet>
 <yield>8</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT60M</cookTime>
