@@ -10,6 +10,7 @@
 <filename>patricias_pannecotta.xml</filename>
 <thumbnail>patricas_pannecotta.jpeg</thumbnail>
 <category>Dessert</category>
+<diet>EggFree</diet>
 <yield>8</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT3H</cookTime>
@@ -20,8 +21,8 @@
 <ingredient>100gm chocolate (50gms milk and 50gms dark)</ingredient>
 <ingredient>3 gelatine leaves</ingredient>
 <step>Put gelatine leaves in cold water, to soften.</step>
-<step>In a pot put the cream, soy, sugar and essence.</step>
-<step>Heat oven brilliant sugar is dissolved.</step>
+<step>In a sauce pan put the cream, soy, sugar and essence.</step>
+<step>Heat on low until the sugar is dissolved.</step>
 <step>Take the pot of the heat and stir in chopped chocolate and stir until completely melted.</step>
 <step>Once chocolate dissolved add gelatine leaves and stir until they are dissolved.</step>
 <step>Remove from heat and let cool for about 5-10 minutes.</step>
