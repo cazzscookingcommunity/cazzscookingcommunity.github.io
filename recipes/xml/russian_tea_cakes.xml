@@ -11,6 +11,8 @@
 <thumbnail>russian_tea_cakes.jpeg</thumbnail>
 <category>Snack</category>
 <category>Dessert</category>
+<diet>EggFree</diet>
+<diet>Vegetarian</diet>
 <yield>12</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT20M</cookTime>
