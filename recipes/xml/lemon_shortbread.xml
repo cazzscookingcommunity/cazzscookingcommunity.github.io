@@ -10,8 +10,10 @@
 <filename>lemon_shortbread.xml</filename>
 <thumbnail>lemon_shrotbread.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
 <diet>LowCarb</diet>
 <diet>GlutenFree</diet>
+<diet>Vegetarian</diet>
 <yield>12</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT15M</cookTime>
@@ -34,6 +36,6 @@
 <step>Push down balls of dough slightly with the back of a fork.</step>
 <step>Place in oven for 10 - 15 minutes or until golden brown.</step>
 <step>Cool completely and store in airtight container.</step>
-<step>Great with a cuppa!.</step>
+<step>Great with a cuppa.</step>
 </recipe>
 
