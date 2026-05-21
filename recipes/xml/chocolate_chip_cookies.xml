@@ -10,6 +10,7 @@
 <filename>chocolate_chip_cookies.xml</filename>
 <thumbnail>chocolate_chip_cookies.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
 <diet>Vegetarian</diet>
 <diet>GFO</diet>
 <yield>12</yield>
