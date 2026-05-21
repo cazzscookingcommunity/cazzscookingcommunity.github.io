@@ -10,7 +10,9 @@
 <filename>easy_pud.xml</filename>
 <thumbnail>easy_pud.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
 <diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>6</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT45M</cookTime>
