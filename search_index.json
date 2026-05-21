@@ -1994,8 +1994,8 @@
         "htmlFilename": "mince_tarts.html",
         "thumbnail": "mince_tarts.jpeg",
         "category": "Dessert Snack",
-        "diet": "",
-        "ingredients": "1 jar fruit mince 1 quantity pastry (same as previous recipe-Filipino egg pie) 1 TBsp icing sugar Small pie dish  Round cookie cutter one large and one small with fluted edge"
+        "diet": "Vegetarian",
+        "ingredients": "1 jar fruit mince 1 quantity pastry (same as Filipino egg pie recipe) 1 TBsp icing sugar muffin tray with small holes round cookie cutter one large and one very small with fluted edge (if desired)"
     },
     {
         "id": "quinoa_filled_eggplant.xml",
