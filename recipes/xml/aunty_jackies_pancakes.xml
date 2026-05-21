@@ -13,6 +13,7 @@
 <category>Dessert</category>
 <category>Snack</category>
 <diet>GFO</diet>
+<diet>Vegetarian</diet>
 <yield>6</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT30M</cookTime>
