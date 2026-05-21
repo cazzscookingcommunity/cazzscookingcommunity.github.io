@@ -11,6 +11,7 @@
 <thumbnail>reginas_rum_cake.jpeg</thumbnail>
 <category>Dessert</category>
 <diet>GFO</diet>
+<diet>Vegetarian</diet>
 <yield>8</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT60M</cookTime>
