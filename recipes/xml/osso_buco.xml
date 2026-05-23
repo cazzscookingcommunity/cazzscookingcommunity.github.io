@@ -14,7 +14,7 @@
 <diet>GFO</diet>
 <diet>LowCarb</diet>
 <diet>DiaryFree</diet>
-<diet>LowCarb</diet>
+<diet>EggFree</diet>
 <yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT2H30M</cookTime>
@@ -22,7 +22,7 @@
 <ingredient>6 Veal Osso Buco</ingredient>
 <ingredient>1/4 cup flour (use GF if required)</ingredient>
 <ingredient>salt and pepper </ingredient>
-<ingredient>2 TBsp olive oil</ingredient>
+<ingredient>1/4 cup olive oil</ingredient>
 <ingredient>3 cloves garlic crushed</ingredient>
 <ingredient>2 stalks of celery chopped</ingredient>
 <ingredient>2 carrots chopped</ingredient>
@@ -34,17 +34,17 @@
 <ingredient>2 TBsp tomatoe paste</ingredient>
 <ingredient>1 TBsp brown sugar</ingredient>
 <step>Preheat oven to 180C.</step>
-<step>Heat half the oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until the veggies soften.</step>
+<step>Heat 2 tbsp of olive oil in a sauce pan and cook the garlic, carrots, celery and bay leaves, until the veggies soften.</step>
 <step>Remove from pan and set aside.</step>
-<step>Place flour on a dinner plate and grind a good amount of cracked pepper and salt.</step>
-<step>Place the osso buco pieces on the floured plate and roll around until all sides are covered with flour on each piece.</step>
+<step>Place flour on a dinner plate and grind a good amount of cracked pepper and salt, all over the flour.</step>
+<step>Place the osso buco pieces on the floured plate and roll around the meat until all the sides are covered with flour on every part of the meat.</step>
 <step>Shake off excess flour and set aside.</step>
 <step>Heat the remaining oil in the pan and cook the pieces of osso buco for 6 minutes each side or until browned.</step>
 <step>Doing it in batches if necessary.</step>
 <step>Place cooked pieces in a baking dish as you go.</step>
 <step>Once all the meat is in the baking dish, sprinkle over the cooked veggies and thyme (you can leave the leaves on the stems. You remove the stems after its been removed from the oven.)</step>
 <step>Pour over combined, wine, stock, red wine vinegar, tomatoe paste and brown sugar.</step>
-<step>Cover tightly with foil and cook for 2 hours.</step>
+<step>Cover tightly with foil and cook for 2 hours. Make the gremoloata, once you put meat in oven.</step>
 <step>Once ready remove from oven, uncover the foil and sprinkle gremolata over the meat</step>
 <step>Serve with mash spud, rice and/or fresh salad.</step>
 </part>
