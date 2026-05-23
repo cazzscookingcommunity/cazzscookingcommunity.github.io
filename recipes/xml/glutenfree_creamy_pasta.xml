@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
-<title>GlutenFree Creamy Pasta</title>
+<title>Creamy Pasta GFO</title>
 <filename>glutenfree_creamy_pasta.xml</filename>
 <thumbnail>gluten_free_creamy_paste.jpeg</thumbnail>
 <category>Dinner</category>
@@ -14,10 +14,11 @@
 <diet>GlutenFree</diet>
 <diet>HistamineFree</diet>
 <diet>LowSugar</diet>
+<diet>Vegetarian</diet>
 <yield>6</yield>
 <prepTime>PT30M</prepTime>
 <cookTime>PT30M</cookTime>
-<ingredient>1 packet gluten free spaghetti or fettuccine </ingredient>
+<ingredient>1 packet spaghetti or fettuccine (GF if required)</ingredient>
 <ingredient>1/4 cup olive oil</ingredient>
 <ingredient>4 egg yolks</ingredient>
 <ingredient>1/4 cup cream</ingredient>
@@ -28,14 +29,14 @@
 <ingredient>4 hand fulls of rocket</ingredient>
 <ingredient>salt and pepper </ingredient>
 <step>In a large pot boil 4 litres of salted water and cook pasta per packet directions.</step>
-<step>Meanwhile in a small dry sauce pan toast pine by heating over a flame constantly tossing until you get desired colour ( dark brown, not black.</step>
+<step>Meanwhile in a small dry pan toast pine by heating over heat and constantly tossing until you get desired colour (dark golden brown, not black).</step>
 <step>Remove pine nuts and set aside.</step>
-<step>In the same pan place the olive oil and garlic and cook until the garlic is golden colour.</step>
-<step>In a separate bowl combine egg yolks, 1/4 cup Parmesan, cream and cooled butter.</step>
-<step>Once pasta cooked immediately drain and place back in pan.</step>
-<step>Pour over olive oil and garlic mixture, season with salt and pepper and toss well.</step>
-<step>Stir through egg mixture, then rockets.</step>
-<step>Serve into bowls and top with some of the remaining Parmesan and pine nuts.</step>
-<step>Serve immediately.</step>
+<step>In a separate bowl make a sauce by combine egg yolks, half the Parmesan cheese (1/4 cup), cream and cooled butter and set aside.</step>
+<step>In a large pan place the olive oil and garlic and cook until the garlic is golden colour.</step>
+<step>Once pasta is cooked immediately drain and place back in the large pan, with the garlic.</step>
+<step>Pour over olive oil and season with salt and pepper and toss well.</step>
+<step>Stir through egg sauce mixture, then rockets and toss again.</step>
+<step>Serve immediately into bowls.</step>
+<step>Garnish with remaining parmesan and pine nuts.</step>
 </recipe>
 
