@@ -18,14 +18,14 @@
 <yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT20M</cookTime>
-<ingredient>3 cans chopped tomatoes </ingredient>
-<ingredient>2 cans kidney beans</ingredient>
-<ingredient>2 cans black beans</ingredient>
+<ingredient>2 cans chopped tomatoes </ingredient>
+<ingredient>1 cans kidney beans</ingredient>
+<ingredient>1 cans black beans</ingredient>
 <ingredient>1 can corn</ingredient>
-<ingredient>3 sweet potatoes peeled and chopped </ingredient>
+<ingredient>1-2 sweet potatoes peeled and chopped </ingredient>
 <ingredient>2-3 TBsp olive oil</ingredient>
 <ingredient>2-4 garlic cloves crushed </ingredient>
-<ingredient>2 teaspoon cumin </ingredient>
+<ingredient>1 teaspoon cumin </ingredient>
 <ingredient>1/2 teaspoon coriander and chilli </ingredient>
 <ingredient>salt and pepper to taste</ingredient>
 <ingredient>Colourful peppers for garnish (if desired)</ingredient>
@@ -33,9 +33,10 @@
 <step>Add spices and cook for another minute or two.</step>
 <step>Add sweet potatoes and stir to coat.</step>
 <step>Add chopped tomatoes and cook until sweet potatoes cooked, but not mushy (about 10-20 minutes.)</step>
-<step>Rinse and drain all cans and add to pot.</step>
+<step>Rinse and drain beans and add to the pot.</step>
 <step>Add salt and pepper if using.</step>
 <step>Taste and add additional spices if necessary.</step>
+<step>Can be doubled.</step>
 <step>Serve with any or all of grated cheese, guacamole, salsa, sour cream, chopped peppers, grated carrots, shredded lettuce, corn chips and flat bread.</step>
 </recipe>
 
