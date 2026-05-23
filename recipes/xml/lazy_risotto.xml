@@ -11,7 +11,9 @@
 <thumbnail>lazy_risotto.jpeg</thumbnail>
 <category>Poultry</category>
 <category>Dinner</category>
+<category>Lunch</category>
 <diet>GlutenFree</diet>
+<diet>EggFree</diet>
 <yield>4</yield>
 <prepTime>PT15M</prepTime>
 <cookTime>PT35M</cookTime>
@@ -27,7 +29,7 @@
 <ingredient>750ml chicken stock</ingredient>
 <ingredient>1/4 cut chopped parsley</ingredient>
 <ingredient>2-3 spring onions chopped</ingredient>
-<step>Heat oil in oven proof dish and cook bacon until nicely brown.</step>
+<step>Heat oil in a pan that can go in the oven. Cook bacon until nicely brown.</step>
 <step>Add garlic and cook for a few minutes until golden.</step>
 <step>Cook chicken in batches until all done.</step>
 <step>Add rice to pan and cook a few minutes, stirring continuously until all coated.</step>
