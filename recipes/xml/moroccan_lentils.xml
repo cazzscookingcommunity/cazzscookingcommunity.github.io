@@ -14,6 +14,8 @@
 <diet>GlutenFree</diet>
 <diet>FODMAP</diet>
 <diet>Vegetarian</diet>
+<diet>LowSugar</diet>
+<diet>DiaryFree</diet>
 <yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT10M</cookTime>
@@ -28,17 +30,17 @@
 <ingredient>1/3 cup water </ingredient>
 <ingredient>salt and pepper to taste</ingredient>
 <ingredient>Bag washed baby spinach</ingredient>
-<ingredient>6 eggs softy boiled (6 mins)</ingredient>
+<ingredient>6 eggs softy boiled (cooked for 6 mins for runny yolk)</ingredient>
 <step>Heat oil in large fry pan or wok.</step>
 <step>On medium heat add garlic and cook until golden, about 4-6 minutes.</step>
-<step>Add zucchini and carrot and stir to fry all.</step>
-<step>Add everything except spinach and eggs and bring to boil and then turn down to simmer, stirring along the way.</step>
-<step>Once all mixed together add spinach, storks included and stir in well.</step>
-<step>At this stage you can place lid on pan and pop in preheated oven (180C) while you boil the eggs.</step>
-<step>You can also leave on stove top if you want the mixture to reduce.</step>
-<step>Once eggs boiled, crack and peel each one.</step>
+<step>Add zucchini and carrot and stir to fry all until cooked.</step>
+<step>Add diced tomatoes, lentils, spice, stock cube and water and bring to boil and then turn down to simmer, stirring along the way.</step>
+<step>Once all mixed together add spinach and salt and pepper and stir well.</step>
+<step>At this stage you can place a lid on the pan and pop it in a preheated oven (180C) while you boil the eggs.</step>
+<step>You can also leave it on the stove top if you want the mixture to reduce.</step>
+<step>Once eggs are boiled, crack and peel each one.</step>
 <step>Alternatively you can fry the eggs, if you prefer.</step>
-<step>Serve them on top of the lentils once you have served it in a bowl or plate.</step>
+<step>Serve lentils in a bowls and place an egg on each bowl to serve.</step>
 <step>This recipe can be doubled.</step>
 <step>This can be made vegan by removing the eggs!  It is also nice with crusty bread as alternative to the egg.</step>
 </recipe>
