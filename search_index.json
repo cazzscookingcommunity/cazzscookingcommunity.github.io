@@ -185,8 +185,8 @@
         "htmlFilename": "egg_and_bacon_pie.html",
         "thumbnail": "egg_and_bacon_pie.jpeg",
         "category": "Dinner Lunch",
-        "diet": "LowSugar",
-        "ingredients": "2 sheets puff pastry (per pie) 4 eggs  200-300 gms diced bacon cooked well salt and pepper (lots) 1/2 teasp butter or margarine 1/4 cup milk (for basting)"
+        "diet": "LowSugar LowSugar",
+        "ingredients": "2 sheets puff pastry (per pie) 4 eggs beaten 200-300 gms diced bacon cooked well salt and pepper (lots) 1/2 teasp butter or margarine 1/4 cup milk (for basting)"
     },
     {
         "id": "lazy_risotto.xml",
