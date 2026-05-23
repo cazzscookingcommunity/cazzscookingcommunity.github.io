@@ -1153,12 +1153,12 @@
     },
     {
         "id": "glutenfree_creamy_pasta.xml",
-        "title": "GlutenFree Creamy Pasta",
+        "title": "Creamy Pasta GFO",
         "htmlFilename": "glutenfree_creamy_pasta.html",
         "thumbnail": "gluten_free_creamy_paste.jpeg",
         "category": "Dinner Lunch",
-        "diet": "GlutenFree HistamineFree LowSugar",
-        "ingredients": "1 packet gluten free spaghetti or fettuccine  1/4 cup olive oil 4 egg yolks 1/4 cup cream 1/4 cup butter melted 1/4 cup pine nuts 1/2 cup Grated Parmesan  8 garlic cloves sliced 4 hand fulls of rocket salt and pepper "
+        "diet": "GlutenFree HistamineFree LowSugar Vegetarian",
+        "ingredients": "1 packet spaghetti or fettuccine (GF if required) 1/4 cup olive oil 4 egg yolks 1/4 cup cream 1/4 cup butter melted 1/4 cup pine nuts 1/2 cup Grated Parmesan  8 garlic cloves sliced 4 hand fulls of rocket salt and pepper "
     },
     {
         "id": "healthy_oat_and_honey_bread.xml",
