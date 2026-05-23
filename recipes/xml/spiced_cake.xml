@@ -10,6 +10,7 @@
 <filename>spiced_cake.xml</filename>
 <thumbnail>spiced_cake.jpeg</thumbnail>
 <category>Dessert</category>
+<category>Snack</category>
 <diet>Vegetarian</diet>
 <diet>GFO</diet>
 <yield>8</yield>
