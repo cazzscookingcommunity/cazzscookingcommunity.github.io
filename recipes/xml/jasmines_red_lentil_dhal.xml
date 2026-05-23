@@ -23,11 +23,10 @@
 <ingredient>1.5 lt stock</ingredient>
 <ingredient>1 tsp turmeric</ingredient>
 <ingredient>1 tsp salt</ingredient>
-<ingredient>2 handfuls spinach</ingredient>
-<ingredient>4 cups water</ingredient>
-<step>Roughly chop spinach.</step>
-<step>Add the first 5 ingredients to a pot. Bring to a boil, then turn down to a simmer.</step>
+<ingredient>2 handfuls spinach chopped</ingredient>
+<step>Add the first 4 ingredients to a pot. Bring to a boil, then turn down to a simmer.</step>
 <step>Simmer for 45 minutes or until lentils loose their shape.</step>
+<step>Add spinach and stir well.</step>
 </part>
 <part><title>Curry Blend</title>
 <ingredient>50 gms unsalted butter</ingredient>
