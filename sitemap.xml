@@ -744,15 +744,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/black_bean_noodles.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/blackbean_noodles.jpeg</image:loc>
-        </image:image>
-        <lastmod>2026-05-24</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/grandmas_bread_and_butter_pud.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/grandmas_bread_and_butter_pud.jpeg</image:loc>

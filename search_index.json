@@ -729,15 +729,6 @@
         "ingredients": "1/4 cup finely chopped green onions 2 tablespoons plain Greek yogurt 2 tablespoons mayonnaise 2 tablespoons drained capers 1 tablespoon chopped fresh dill, divided 1 (12-ounce) package cold-smoked salmon, coarsely chopped 3 English cucumbers 1/8 teaspoon freshly ground black pepper"
     },
     {
-        "id": "black_bean_noodles.xml",
-        "title": "Black bean noodles ",
-        "htmlFilename": "black_bean_noodles.html",
-        "thumbnail": "blackbean_noodles.jpeg",
-        "category": "Dinner Lunch Pork",
-        "diet": "GFO EggFree DiaryFree LowSugar",
-        "ingredients": "1 kg fresh Hokkien noodles (GF if necessary) 500gms minced pork 2-3 Bok Choy washed and chopped 1 zucchini diced 2 russet potatoes peeled and chopped  1/2 cucumber diced or sliced  6 TBsp black bean paste 2 teaspoon sugar 1 TBsp oyster sauce 1 TBsp soy sauce  2 TBsp corn flour mixed with water (about 3-4 TBsp) 1/2 cup water 1 chicken stock cube 1 1/2 cups water Olive oil salt and pepper to taste"
-    },
-    {
         "id": "grandmas_bread_and_butter_pud.xml",
         "title": "Grandmas Bread and Butter Pud",
         "htmlFilename": "grandmas_bread_and_butter_pud.html",
