@@ -14,6 +14,7 @@
 <category>Lunch</category>
 <diet>GFO</diet>
 <diet>LowSugar</diet>
+<diet>EggFree</diet>
 <yield>4</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT20M</cookTime>
@@ -21,17 +22,16 @@
 <ingredient>500gms pasta (use GF if necessary)</ingredient>
 <ingredient>1 large can tuna in water drained</ingredient>
 <ingredient>1 bunch parsley chopped </ingredient>
-<ingredient>400 gms cheese grated</ingredient>
+<ingredient>300 gms cheese grated</ingredient>
 <ingredient>salt and pepper to taste (white pepper)</ingredient>
 <ingredient>One quantity white sauce</ingredient>
 <step>Cook pasta per packet directions.</step>
 <step>While pasta is cooking, chop parsley and set aside.</step>
-<step>Drain can of tuna and set aside.</step>
+<step>Drain can of tuna and seperate with a fork and set aside.</step>
 <step>Cook the white sauce.</step>
 <step>Once pasta is cooked drain well, then place back in pot.</step>
 <step>Stir through parsley and tuna, then stir through white sauce.</step>
-<step>Season with white pepper and salt.</step>
-<step>Add all ingredients together, except cheese and stir well.</step>
+<step>Season with cracked pepper.</step>
 <step>Serve in bowls with good handful of cheese on top.</step>
 </part>
 <part><title>White sauce</title>
