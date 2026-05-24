@@ -13,6 +13,8 @@
 <category>Lunch</category>
 <category>Snack</category>
 <diet>LowSugar</diet>
+<diet>LowSugar</diet>
+<diet>EggFree</diet>
 <yield>2</yield>
 <prepTime>PT5H</prepTime>
 <cookTime>PT40M</cookTime>
