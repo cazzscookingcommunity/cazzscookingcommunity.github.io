@@ -18,13 +18,13 @@
 <diet>EggFree</diet>
 <yield>6</yield>
 <prepTime>P1D20M</prepTime>
-<cookTime>PT15M</cookTime>
+<cookTime>PT35M</cookTime>
 <ingredient>1.8 kg Pork Spare Ribs</ingredient>
 <ingredient>6 tbsp tomatoe sauce</ingredient>
 <ingredient>3 tbsp honey</ingredient>
 <ingredient>2 tbsp red wine vinegar</ingredient>
 <ingredient>2 tbsp mustard</ingredient>
-<ingredient>S and P to taste</ingredient>
+<ingredient>Salt and pepper to taste</ingredient>
 <step>Cut ribs then boil in large pot for 20 minutes and drain well.</step>
 <step>Mix all other ingredients in a small bowl and set aside.</step>
 <step>Place meat and marinate in large marinating container.</step>
