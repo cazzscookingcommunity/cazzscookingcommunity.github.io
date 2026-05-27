@@ -12,6 +12,8 @@
 <category>Dinner</category>
 <category>Lunch</category>
 <category>Pork</category>
+<diet>EggFree</diet>
+<diet>LowSugar</diet>
 <yield>6</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT30M</cookTime>
