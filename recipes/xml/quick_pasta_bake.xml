@@ -18,7 +18,7 @@
 <yield>4</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT30M</cookTime>
-<ingredient>500gms pasta cooked per directions</ingredient>
+<ingredient>500gms pasta cooked per directions (GF if required)</ingredient>
 <ingredient>200gms kalamata olives</ingredient>
 <ingredient>300-400 gms chopped salami (optional)</ingredient>
 <ingredient>2 cans chopped tomatoes </ingredient>
@@ -26,6 +26,6 @@
 <ingredient>salt and pepper to paste</ingredient>
 <ingredient>2-3 cups grated cheese </ingredient>
 <step>Place cooked pasta and all other ingredients, except cheese in heat proof bowl and mix well.</step>
-<step>Sprinkle cheese on top and place in preheated oven for 1/2 hour.</step>
+<step>Sprinkle cheese on top and place in preheated oven for 1/2 hour, or until cheese melted.</step>
 </recipe>
 
