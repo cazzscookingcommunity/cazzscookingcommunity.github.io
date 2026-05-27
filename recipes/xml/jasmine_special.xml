@@ -10,6 +10,8 @@
 <filename>jasmine_special.xml</filename>
 <thumbnail>jasmine_special.jpeg</thumbnail>
 <category>Drink</category>
+<diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
 <yield>1</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT5M</cookTime>
