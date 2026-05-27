@@ -1287,15 +1287,6 @@
         "ingredients": "3 TBsp olive oil 2Lt chicken stock 1 store bought chicken meat shredded  4 -6 cloves garlic crushed  1 bulb fennel sliced 2 large carrots chopped  2 sticks celery chopped 2 zucchini chopped 2 corn cobs corn removed  4 sprigs thyme leaves removed 1 bunch parsley chopped  2 bay leaves 1 cup arborio rice salt and pepper to taste "
     },
     {
-        "id": "chow_mein.xml",
-        "title": "CHOW MEIN",
-        "htmlFilename": "chow_mein.html",
-        "thumbnail": "chow_mein.jpeg",
-        "category": "Pork Dinner Lunch",
-        "diet": "FODMAP DiaryFree GlutenFree EggFree",
-        "ingredients": "500-600 gms Pork Mince Two small rice noodles (each about same size of two minute noodle packet) 2 Carrots grated 1/2 head cabbage* chopped 3 spring onions chopped 2-3 garlic cloves crushed 1/2 cup stir fry sauce* 2 chicken stock cubes 1/2 cup water Salt and Pepper Oil"
-    },
-    {
         "id": "mango_slushie.xml",
         "title": "Mango Slushie",
         "htmlFilename": "mango_slushie.html",

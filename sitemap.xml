@@ -1302,15 +1302,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/chow_mein.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/chow_mein.jpeg</image:loc>
-        </image:image>
-        <lastmod>2026-05-27</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/mango_slushie.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/mango_slushie.jpeg</image:loc>
