@@ -14,7 +14,8 @@
 <category>Pork</category>
 <diet>GlutenFree</diet>
 <diet>LowSugar</diet>
-<diet>LowCarb</diet>
+<diet>VGO</diet>
+<diet>DiaryFree</diet>
 <yield>4</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT15M</cookTime>
@@ -29,18 +30,19 @@
 <ingredient>2 Bok Choy washed and chopped </ingredient>
 <ingredient>1/4-1/2 cabbage shredded </ingredient>
 <ingredient>3 spring onions chopped </ingredient>
-<ingredient>4 TBsp soy sauce (GF)</ingredient>
-<ingredient>4 TBsp tomatoe sauce </ingredient>
-<ingredient>2 TBsp fish sauce</ingredient>
+<ingredient>4 Tbsp soy sauce (GF)</ingredient>
+<ingredient>4 Tbsp tomatoe sauce </ingredient>
+<ingredient>2 Tbsp fish sauce</ingredient>
 <ingredient>salt and pepper to taste</ingredient>
 <ingredient>4-6 eggs fried (to serve)</ingredient>
+<step>Combine soy sauce, tomatoes sauce and fish sauce in a bowl and set aside. </step>
 <step>Heat oil in wok or large fry pan and cook garlic and chilli for about 5 minutes or until aromatic.</step>
 <step>Cook pork until no longer pink then add rice, carrot, red capsicum and combined sauces.</step>
 <step>Stir well and when it is heated through, add Bok Choy and cabbage.</step>
 <step>Once Bok choy and cabbage has wilted stir well and sprinkle spring onions on top. Fry eggs in a seperate fry pan, if using.</step>
 <step>Serve in bowls with fried egg on top and an extra sprinkle of spring onions and extra chopped chilli if desired.</step>
 <step>Substitute pork for chicken mince or chopped chicken meat.</step>
-<step>You can also omit the meat to make it vegetarian.</step>
+<step>You can also omit the meat and fish sauce to make it vegetarian.</step>
 <step>Refrigerate if not all consumed for up to 3-5 days.</step>
 </recipe>
 
