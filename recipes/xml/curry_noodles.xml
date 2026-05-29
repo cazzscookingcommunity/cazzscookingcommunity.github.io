@@ -6,7 +6,7 @@
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
     xsi:schemaLocation="https://cazzscookingcommunity.github.io ../../xml/recipe.xsd"> 
     
-<title>Curry Noodles</title>
+<title>Curry Prawn Noodles</title>
 <filename>curry_noodles.xml</filename>
 <thumbnail>curry_noodles.jpeg</thumbnail>
 <category>Dinner</category>
@@ -26,10 +26,10 @@
 <ingredient>1-2 Bok  Choy or chow sum washed and chopped</ingredient>
 <ingredient>2-3 cloves garlic ground </ingredient>
 <ingredient>1 inch ginger grated</ingredient>
-<ingredient>1-2 TBsp Green curry paste</ingredient>
+<ingredient>1-2 Tbsp Green curry paste</ingredient>
 <ingredient>1 can coconut milk </ingredient>
 <ingredient>1 stock cube</ingredient>
-<ingredient>2-3 TBSP olive oil </ingredient>
+<ingredient>2-3 Tbsp olive oil </ingredient>
 <ingredient>3 spring onions washed and chopped </ingredient>
 <ingredient>1-2 red chillies chopped</ingredient>
 <step>Heat oil in large pan or wok.</step>
