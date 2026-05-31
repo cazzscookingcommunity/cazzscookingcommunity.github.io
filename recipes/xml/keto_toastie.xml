@@ -13,6 +13,7 @@
 <category>Snack</category>
 <diet>GlutenFree</diet>
 <diet>Keto</diet>
+<diet>Vegetarian</diet>
 <yield>1</yield>
 <prepTime>PT10M</prepTime>
 <cookTime>PT10M</cookTime>
@@ -22,7 +23,7 @@
 <ingredient>1 TBsp olive oil</ingredient>
 <ingredient>1 egg </ingredient>
 <ingredient>1/4 baking powder </ingredient>
-<ingredient>1 TBsp chopped chives (optional)</ingredient>
+<ingredient>1 Tbsp chopped chives (optional)</ingredient>
 <ingredient>salt and pepper to taste</ingredient>
 <step>Heat fry pan and add olive oil.</step>
 <step>While heating beat all ingredients except the tasty cheese, until well combined.</step>
