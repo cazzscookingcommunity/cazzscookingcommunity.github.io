@@ -11,8 +11,10 @@
 <thumbnail>mexican_blackbeans_and_rice.jpeg</thumbnail>
 <category>Sides</category>
 <category>Lunch</category>
+<category>Dinner</category>
 <diet>Vegan</diet>
 <diet>GlutenFree</diet>
+<diet>DiaryFree</diet>
 <yield>4</yield>
 <prepTime>PT20M</prepTime>
 <cookTime>PT40M</cookTime>
