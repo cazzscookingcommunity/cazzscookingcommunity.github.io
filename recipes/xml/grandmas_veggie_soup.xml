@@ -11,6 +11,7 @@
 <thumbnail>grandmas_veggie_soup.jpeg</thumbnail>
 <category>Soup</category>
 <category>Lunch</category>
+<category>Dinner</category>
 <diet>GFO</diet>
 <diet>EggFree</diet>
 <diet>DiaryFree</diet>
@@ -26,16 +27,15 @@
 <ingredient>2 large carrots chopped</ingredient>
 <ingredient>250 gms McKenzies soup mix ( for GF you will have to make your own mix)</ingredient>
 <ingredient>1 bay leaf</ingredient>
-<ingredient>Stock to cover </ingredient>
 <ingredient>Salt and Pepper to taste</ingredient>
-<step>Place all ingredients in a large pot and cover with stock until it is up to your thumb joint over all ingredients.</step>
-<step>Bring to the boil, then reduce to a simmer.</step>
-<step>Remove scum from the top and cook until the meat is falling of the bone (about 4-6 hours.</step>
+<step>Place all ingredients in a large pot and cover with water until it is up to your thumb joint over all ingredients.</step>
+<step>Bring to the boil, then reduce to a simmer. Alternatively you can place in a slow cooker for 10 - 12 hours on low.</step>
+<step>Remove scum from the top and cook until the meat is falling of the bone (about 4-6 hours.)</step>
 <step>Remove shanks and shred meat with knife and fork.</step>
 <step>Place all back into the pot, including the bones.</step>
 <step>Cook until soup thickens, usually another 1-2 hours.</step>
-<step>Remove bones and season with Salt and Pepper.</step>
+<step>Remove bones and season with salt and pepper.</step>
 <step>Serve with crusty bread.</step>
-<step>You can freeze the soup or cook in slow cooker on low for 8-10 hours.</step>
+<step>You can freeze the soup.</step>
 </recipe>
 
