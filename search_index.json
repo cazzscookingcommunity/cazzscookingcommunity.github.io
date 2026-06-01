@@ -225,15 +225,6 @@
         "ingredients": "1 1/2 cups buckwheat flour (McKenzies if possible) 2 tsp baking powder 1 cup milk 2 large eggs beaten 2 TBsp honey or maple syrup  Butter for the pan  Desired toppings"
     },
     {
-        "id": "lentil_salad.xml",
-        "title": "Lentil Salad",
-        "htmlFilename": "lentil_salad.html",
-        "thumbnail": "lentil_salad.jpeg",
-        "category": "Salad Sides",
-        "diet": "GlutenFree EggFree Vegetarian LowCarb",
-        "ingredients": "1 can lentils rinsed and drained 3-4 Tbspoons extra virgin olive oil 1 Tbspoon red wine vinegar 1 teaspoon cumin 4 fresh dates pitted and finely chopped 3 carrots grated 4 spring onions chopped 100 gms marinated feta crumbled (Yarra Valley) Salt and pepper to taste Baby spinach +/- your choice of meat to serve"
-    },
-    {
         "id": "herb_rub.xml",
         "title": "Herb Rub",
         "htmlFilename": "herb_rub.html",

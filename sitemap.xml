@@ -240,15 +240,6 @@
         <priority>0.8</priority>
     </url>
     <url>
-        <loc>https://cazzscookingcommunity.github.io/recipes/html/lentil_salad.html</loc>
-        <image:image>
-            <image:loc>https://cazzscookingcommunity.github.io/recipe/images/lentil_salad.jpeg</image:loc>
-        </image:image>
-        <lastmod>2026-06-01</lastmod>
-        <changefreq>yearly</changefreq>
-        <priority>0.8</priority>
-    </url>
-    <url>
         <loc>https://cazzscookingcommunity.github.io/recipes/html/herb_rub.html</loc>
         <image:image>
             <image:loc>https://cazzscookingcommunity.github.io/recipe/images/herb_rub.jpeg</image:loc>
