@@ -12,8 +12,9 @@
 <category>Soup</category>
 <category>Lunch</category>
 <diet>Vegetarian</diet>
+<diet>GlutenFree</diet>
 <yield>6</yield>
-<prepTime>PT10M</prepTime>
+<prepTime>P15M</prepTime>
 <cookTime>PT30M</cookTime>
 <comment>c/o food and wine</comment>
 <ingredient>2 Tbsp olive oil</ingredient>
