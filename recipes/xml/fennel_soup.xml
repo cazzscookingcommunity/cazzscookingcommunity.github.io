@@ -12,10 +12,9 @@
 <category>Soup</category>
 <category>Lunch</category>
 <diet>Vegetarian</diet>
-<diet>EggFree</diet>
 <yield>6</yield>
-<prepTime>PT20M</prepTime>
-<cookTime>PT40M</cookTime>
+<prepTime>PT10M</prepTime>
+<cookTime>PT30M</cookTime>
 <comment>c/o food and wine</comment>
 <ingredient>2 Tbsp olive oil</ingredient>
 <ingredient>4 garlic cloves minced</ingredient>
