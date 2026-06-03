@@ -11,12 +11,11 @@
 <thumbnail>coconut_roughs.jpeg</thumbnail>
 <category>Dessert</category>
 <category>Snack</category>
-<category>Sweets</category>
 <diet>GlutenFree</diet>
 <diet>Vegetarian</diet>
 <diet>EggFree</diet>
 <yield>30</yield>
-<prepTime>PT10M</prepTime>
+<prepTime>PT15M</prepTime>
 <cookTime>PT10M</cookTime>
 <ingredient>1 cup desiccated coconut </ingredient>
 <ingredient>3/4 cup sifter icing sugar</ingredient>
