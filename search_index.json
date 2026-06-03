@@ -1480,9 +1480,9 @@
         "title": "CHOWDER",
         "htmlFilename": "chowder.html",
         "thumbnail": "chowder.jpeg",
-        "category": "Soup",
-        "diet": "GlutenFree",
-        "ingredients": "1 can creamed corn  4 potatoes peeled and chopped 2 large carrots chopped 200-300gms diced bacon 2 chicken stock cubes Milk and Water Oil Salt and Pepper to taste"
+        "category": "Soup Lunch",
+        "diet": "GlutenFree EggFree",
+        "ingredients": "1 can creamed corn  4 potatoes peeled and chopped 2 large carrots chopped 200-300gms diced bacon 2 chicken stock cubes Milk and Water Oil Salt and white pepper to taste"
     },
     {
         "id": "popcorn.xml",
