@@ -13,8 +13,9 @@
 <category>Lunch</category>
 <diet>GlutenFree</diet>
 <diet>Vegetarian</diet>
+<diet>EggFree</diet>
 <yield>6</yield>
-<prepTime>P15M</prepTime>
+<prepTime>PT15M</prepTime>
 <cookTime>PT30M</cookTime>
 <ingredient>500gms carrots peeled and chopped</ingredient>
 <ingredient>500gms pumpkin peeled and chopped</ingredient>
@@ -23,7 +24,7 @@
 <ingredient>1 teasp red curry paste</ingredient>
 <ingredient>2-3 Tbsp olive oil </ingredient>
 <ingredient>6 cups vegetable stock</ingredient>
-<ingredient>1 can chickpeas drained and rinse</ingredient>
+<ingredient>1 can chickpeas drained and rinse (optional)</ingredient>
 <ingredient>Salt to taste</ingredient>
 <ingredient>Greek yogurt and bread to serve</ingredient>
 <step>Heat oil in medium size sauce pan.</step>
