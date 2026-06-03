@@ -13,8 +13,8 @@
 <category>Lunch</category>
 <diet>Vegan</diet>
 <yield>6</yield>
-<prepTime>P15M</prepTime>
-<cookTime>PT30M</cookTime>
+<prepTime>PT20M</prepTime>
+<cookTime>PT40M</cookTime>
 <ingredient>375 gms brown lentils</ingredient>
 <ingredient>2 bay leaves</ingredient>
 <ingredient>2 cloves of garlic crushed</ingredient>
@@ -25,7 +25,7 @@
 <ingredient>1/4 cup olive oil</ingredient>
 <ingredient>Vinegar or lemon juice to serve (optional)</ingredient>
 <step>Wash lentils and place in a medium pot.</step>
-<step>Fill with water until lentils cover with about one knuckle over of water.</step>
+<step>Fill with water until lentils are covered with about one knuckle over of water.</step>
 <step>Add garlic, bay leaves, carrot and onion.</step>
 <step>Bring to boil and simmer for 10 minutes.</step>
 <step>Add olive oil and passata sauce, herbs and salt and pepper to taste.</step>
