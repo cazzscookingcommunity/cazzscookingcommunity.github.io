@@ -1,0 +1,21 @@
+/* Form Layout Helper Styles */
+#formContainer input[type="text"],
+#formContainer input[type="email"],
+#formContainer textarea {
+  width: 100%;
+  box-sizing: border-box;
+}
+#contactForm textarea {
+  height: 120px;
+}
+
+.timer-note {
+  font-size: 0.9em;
+  color: #888;
+  margin-top: 15px;
+}
+
+/* Helper class to toggle elements */
+.hidden-element {
+  display: none !important;
+}
