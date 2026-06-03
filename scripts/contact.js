@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
         body: new FormData(contactForm),
         headers: { "Accept": "application/json" }
       })
-      .then(response => {
+        .then(response => {
         // Hide the form container, show the thanks message
         if (formContainer) formContainer.classList.add("hidden-element");
         if (successContainer) successContainer.classList.remove("hidden-element");
