@@ -14,11 +14,11 @@
 <diet>GlutenFree</diet>
 <diet>DiaryFree</diet>
 <yield>6</yield>
-<prepTime>P15M</prepTime>
+<prepTime>PT15M</prepTime>
 <cookTime>PT20M</cookTime>
 <comment>Easy quick lunch!</comment>
 <ingredient>Water</ingredient>
-<ingredient>2-3 chicken breasts chopped</ingredient>
+<ingredient>2-3 cooked chicken breasts chopped</ingredient>
 <ingredient>1/2 cup parsley chopped</ingredient>
 <ingredient>2 big carrots diced</ingredient>
 <ingredient>2 sticks celery chopped</ingredient>
