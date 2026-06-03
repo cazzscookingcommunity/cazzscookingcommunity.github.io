@@ -14,20 +14,20 @@
 <diet>GlutenFree</diet>
 <diet>Vegan</diet>
 <yield>6</yield>
-<prepTime>P15M</prepTime>
-<cookTime>PT30M</cookTime>
+<prepTime>PT20M</prepTime>
+<cookTime>PT40M</cookTime>
 <ingredient>2 leeks white part chopped</ingredient>
 <ingredient>8-10 potatoes chopped</ingredient>
 <ingredient>3-4 garlic cloves crushed</ingredient>
 <ingredient>2-4 Tbsp olive oil</ingredient>
 <ingredient>10 cups stock</ingredient>
 <ingredient>Salt and white pepper to taste</ingredient>
-<step>In a large pot heat oil and slow cook garlic for 5-7 minutes.</step>
+<step>In a large pot heat oil and slowly cook garlic for 5-7 minutes.</step>
+<step>Add leaks and cook until it is slow and not brown.</step>
 <step>Add remaining ingredients, except salt and pepper, and bring to the boil.</step>
 <step>Reduce and simmer until spuds can be crushed easily on the side of the pot. (about 30-40 mins)</step>
 <step>Turn off heat and blend with stick blender, until all combined and smooth.</step>
 <step>Add salt and white pepper to taste.</step>
-<step>Re-heat if necessary.</step>
 <step>Serve with crusty bread if desired.</step>
 </recipe>
 
