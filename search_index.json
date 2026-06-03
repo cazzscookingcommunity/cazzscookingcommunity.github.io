@@ -32,8 +32,8 @@
         "htmlFilename": "pea_and_ham_soup.html",
         "thumbnail": "pea_and_ham_soup.jpeg",
         "category": "Soup Lunch",
-        "diet": "FODMAP",
-        "ingredients": "Packet green split peas 2 large carrots chopped 1 teaspoon mixed spice 1 teaspoon pepper 1-2 bay leaves 1-2 garlic cloves crushed 1 whole ham hock (Bertocchi) Salt and Pepper to taste"
+        "diet": "LowSugar EggFree DiaryFree",
+        "ingredients": "Packet green split peas 2 large carrots chopped 2 celery sticks chopped 1 whole ham hock (Bertocchi) 1 teaspoon pepper 1 teaspoon mixed spice 1-2 garlic cloves crushed 1-2 bay leaves Salt and pepper to taste"
     },
     {
         "id": "nasi_goreng.xml",
